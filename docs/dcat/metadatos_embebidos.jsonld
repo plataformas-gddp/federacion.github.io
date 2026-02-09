@@ -1,0 +1,146 @@
+[
+  {
+    "@context": {
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "dcat": "http://www.w3.org/ns/dcat#",
+      "dct": "http://purl.org/dc/terms/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "dcatap": "http://data.europa.eu/r5r/",
+      "vcard": "http://www.w3.org/2006/vcard/ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "geo": "http://www.opengis.net/ont/geosparql#",
+      "locn": "http://www.w3.org/ns/locn#",
+      "time": "http://www.w3.org/2006/time#",
+      "adms": "http://www.w3.org/ns/adms#",
+      "odrl": "http://www.w3.org/ns/odrl/2/"
+    },
+    "@id": "https://www.mivau.gob.es/catalogo",
+    "@type": "dcat:Catalog",
+    "dct:publisher": [
+      {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05233601",
+        "@type": "foaf:Agent",
+        "dct:identifier": "E05233601",
+        "foaf:name": [
+          { "@value": "Ministerio de Vivienda y Agenda Urbana", "@language": "es" }
+        ]
+      }
+    ],
+    "dct:title": { "@value": "Catálogo MIVAU – Gobierno del Dato Público", "@language": "es" },
+    "dct:issued": [
+      { "@value": "2026-05-25T00:00:00+01:00", "@type": "http://www.w3.org/2001/XMLSchema#dateTime" }
+    ],
+    "dct:modified": [
+      { "@value": "2026-05-25T00:00:00+01:00", "@type": "http://www.w3.org/2001/XMLSchema#dateTime" }
+    ],
+    "dct:description": {
+      "@value": "Catálogo de datos del Ministerio de vivienda y agenda urbana (Conjuntos de datos que representan información sobre vivienda y urbanismo del territorio español)",
+      "@language": "es"
+    },
+    "dct:language": { "@id": "http://publications.europa.eu/resource/authority/language/SPA" },
+    "foaf:homepage": [ { "@id": "https://www.mivau.gob.es" } ],
+    "dct:license": { "@id": "http://publications.europa.eu/resource/authority/licence/CC_BYNCSA_2_0" },
+
+    "dcat:dataset": [
+      {
+        "@type": "dcat:Dataset",
+        "@id": "https://www.mivau.gob.es/dataset/1579cd28-a680-4b92-919a-c31f38bca1ea",
+        "dct:publisher": { "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05233601" },
+        "dct:title": { "@value": "Estimación del parque de viviendas", "@language": "es" },
+        "dct:description": {
+          "@value": "Conjunto de datos estadísticos que muestra la evolución del parque de viviendas por localidad y año.",
+          "@language": "es"
+        },
+        "dct:accessRights": { "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC" },
+        "dct:issued": [
+          { "@value": "2026-05-25T00:00:00+01:00", "@type": "http://www.w3.org/2001/XMLSchema#dateTime" }
+        ],
+        "dct:modified": [
+          { "@value": "2026-02-03T00:00:00+01:00", "@type": "http://www.w3.org/2001/XMLSchema#dateTime" }
+        ],
+        "dcat:theme": [
+          { "@id": "http://datos.gob.es/kos/sector-publico/sector/vivienda" },
+          { "@id": "http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras" }
+        ],
+        "dct:language": { "@id": "http://publications.europa.eu/resource/authority/language/SPA" },
+        "dct:accrualPeriodicity": { "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL" },
+        "dct:spatial": [
+          { "@type": "dct:Location", "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España" }
+        ],
+        "dcat:contactPoint": [
+          {
+            "vcard:organization-name": [ { "@value": "E05233601", "@language": "es" } ],
+            "vcard:hasUid": [ { "@value": "Ministerio de Vivienda y Agenda Urbana", "@language": "es" } ],
+            "vcard:fn": [ { "@value": "División de Tecnologías de la Información y Comunicaciones", "@language": "es" } ],
+            "vcard:hasEmail": [ { "@value": "dtic@mivau.gob.es", "@language": "es" } ],
+            "vcard:hasTelephone": [ { "@value": "678092167", "@language": "es" } ],
+            "vcard:hasURL": [
+              { "@value": "https://www.mivau.gob.es/vivienda/consultas-de-ayuda-en-materia-de-vivienda", "@language": "es" }
+            ]
+          }
+        ],
+        "dcat:distribution": [
+          {
+            "@type": "dcat:Distribution",
+            "@id": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/mivau-parque-viviendas",
+            "dcat:accessURL": { "@id": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV" },
+            "dct:format": { "@id": "http://publications.europa.eu/resource/authority/file-type/CSV" },
+            "dct:language": { "@id": "http://publications.europa.eu/resource/authority/language/SPA" },
+            "dcat:downloadURL": { "@id": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/mivau-parque-viviendas.csv" }
+          }
+        ]
+      },
+
+      {
+        "@type": "dcat:Dataset",
+        "@id": "https://www.mivau.gob.es/dataset/c59b36e8-bc3c-4766-9b94-dca4ef0dc861",
+        "dct:publisher": { "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05233601" },
+        "dct:title": { "@value": "Referencia del Precio del Alquiler de Vivienda", "@language": "es" },
+        "dct:description": {
+          "@value": "Conjunto de datos con información referente al precio del alquiler de la vivienda por municipios y años.",
+          "@language": "es"
+        },
+        "dct:accessRights": { "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC" },
+        "dct:issued": [
+          { "@value": "2026-05-25T00:00:00+01:00", "@type": "http://www.w3.org/2001/XMLSchema#dateTime" }
+        ],
+        "dct:modified": [
+          { "@value": "2026-02-04T00:00:00+01:00", "@type": "http://www.w3.org/2001/XMLSchema#dateTime" }
+        ],
+        "dcat:theme": [
+          { "@id": "http://datos.gob.es/kos/sector-publico/sector/vivienda" },
+          { "@id": "http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras" }
+        ],
+        "dct:language": { "@id": "http://publications.europa.eu/resource/authority/language/SPA" },
+        "dct:accrualPeriodicity": { "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL" },
+        "dct:spatial": [
+          { "@type": "dct:Location", "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España" }
+        ],
+        "dcat:contactPoint": [
+          {
+            "vcard:organization-name": [ { "@value": "E05233601", "@language": "es" } ],
+            "vcard:hasUid": [ { "@value": "Ministerio de Vivienda y Agenda Urbana", "@language": "es" } ],
+            "vcard:fn": [ { "@value": "División de Tecnologías de la Información y Comunicaciones", "@language": "es" } ],
+            "vcard:hasEmail": [ { "@value": "dtic@mivau.gob.es", "@language": "es" } ],
+            "vcard:hasTelephone": [ { "@value": "678092167", "@language": "es" } ],
+            "vcard:hasURL": [
+              { "@value": "https://www.mivau.gob.es/vivienda/consultas-de-ayuda-en-materia-de-vivienda", "@language": "es" }
+            ]
+          }
+        ],
+        "dcat:distribution": [
+          {
+            "@type": "dcat:Distribution",
+            "@id": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/mivau-serpavi",
+            "dcat:accessURL": { "@id": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV" },
+            "dct:format": { "@id": "http://publications.europa.eu/resource/authority/file-type/CSV" },
+            "dct:language": { "@id": "http://publications.europa.eu/resource/authority/language/SPA" },
+            "dcat:downloadURL": { "@id": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/mivau-serpavi.csv" }
+          }
+        ]
+      }
+    ]
+  }
+]
