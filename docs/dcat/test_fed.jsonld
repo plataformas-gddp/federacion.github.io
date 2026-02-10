@@ -6,7 +6,7 @@
 		"@id": "http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"
 	},
 	{
-		"@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"
+		"@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0023645"
 	},
 	{
 		"@id": "http://dcat-ap-es.ejemplo.org"
@@ -30,7 +30,7 @@
 		],
 		"http://purl.org/dc/terms/publisher": [
 			{
-				"@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"
+				"@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0023645"
 			}
 		],
 		"http://xmlns.com/foaf/0.1/homepage": [
@@ -90,7 +90,7 @@
 		],
 		"http://purl.org/dc/terms/publisher": [
 			{
-				"@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"
+				"@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0023645"
 			}
 		],
 		"http://www.w3.org/ns/dcat#theme": [
