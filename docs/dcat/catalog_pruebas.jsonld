@@ -1,0 +1,1665 @@
+{
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "locn": "http://www.w3.org/ns/locn#",
+    "time": "http://www.w3.org/2006/time#",
+    "adms": "http://www.w3.org/ns/adms#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "impulsadata": "http://tragsatec.es/def/impulsadata#"
+  },
+  "@graph": [
+    {
+      "@id": "http://datos.gob.es//catalogo",
+      "@type": "dcat:Catalog",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+          "@type": "foaf:Agent",
+          "dct:identifier": "E00003301",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Asuntos Económicos y Transformación Digital",
+              "@language": "es"
+            },
+            {
+              "@value": "MINECO",
+              "@language": "en"
+            }
+          ]
+        }
+      ],
+      "dct:title": [
+        {
+          "@value": "Catálogo economia",
+          "@language": "es"
+        },
+        {
+          "@value": "economic catalogue",
+          "@language": "en"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2025-02-02T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2025-06-30T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "E05072501",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Instituto Nacional de Estadística",
+              "@language": "es"
+            },
+            {
+              "@value": "INE",
+              "@language": "en"
+            }
+          ]
+        }
+      ],
+      "dct:description": [
+        {
+          "@value": "descripcion catalog 1",
+          "@language": "es"
+        },
+        {
+          "@value": "description catalogue",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/POR"
+        }
+      ],
+      "foaf:homepage": [
+        {
+          "@id": "http://web.es/catálogo"
+        }
+      ],
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dcat:themeTaxonomy": {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector"
+      },
+      "dct:rights": {
+        "@id": "http://rightsstatements.org/vocab/InC/1.0/"
+      },
+      "dct:spatial": [
+        {
+          "@type": "dct:Location",
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España",
+          "dcat:bbox": {
+            "@value": "POLYGON((-18.16 27.64, 4.32 27.64, 4.32 43.79, -18.16 43.79, -18.16 27.64))",
+            "@type": "geo:wktLiteral"
+          },
+          "dcat:centroid": {
+            "@value": "POINT(-6.92 35.715)",
+            "@type": "geo:wktLiteral"
+          },
+          "locn:geometry": {
+            "@value": "POLYGON((-18.16 27.64, 4.32 27.64, 4.32 43.79, -18.16 43.79, -18.16 27.64))",
+            "@type": "geo:wktLiteral"
+          }
+        },
+        {
+          "@type": "dct:Location",
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2021-09-07T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2022-05-12T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasBeginning": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2021-09-07T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2022-05-12T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
+        },
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2021-12-28T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2022-08-17T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasBeginning": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2021-12-28T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2022-08-17T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
+        }
+      ],
+      "dcat:dataset": [
+        {
+          "@id": "http://datos.gob.es//dataset/E00003301_2"
+        },
+        {
+          "@id": "http://datos.gob.es//dataset/E05072501_1"
+        }
+      ],
+      "impulsadata:validationStatus": [
+        {
+          "@language": "es",
+          "@value": "conforme-DCAT-AP-ES"
+        }
+      ],
+      "impulsadata:validationDate": [
+        {
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "@value": "2026-02-11T18:59:23.725115+01:00"
+        }
+      ],
+      "impulsadata:validationReport": [
+        {
+          "@value": "Validation Report\nConforms: True\nResults (12):\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad D\", lang=es) ; vcard:hasEmail <mailto:orgD@economia.gob.es> ; vcard:hasTelephone <tel:+3210000004> ; vcard:hasURL <https://orgD.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org D\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad A\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000001> ; vcard:hasURL <https://orgA.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org A\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad B\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000002> ; vcard:hasURL <https://orgB.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org B\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad C\", lang=es) ; vcard:hasEmail <mailto:orgC@economia.gob.es> ; vcard:hasTelephone <tel:+3210000003> ; vcard:hasURL <https://orgC.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org C\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19> ; sh:message Literal(\"It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=en), Literal(\"Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=es) ; sh:node dcatapes:VcardKindMinimalConvention ; sh:path dcat:contactPoint ; sh:severity sh:Warning ]\n\tFocus Node: <http://datos.gob.es//dataset/E00003301_2>\n\tValue Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad A\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000001> ; vcard:hasURL <https://orgA.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org A\", lang=es) ]\n\tResult Path: dcat:contactPoint\n\tMessage: Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tMessage: It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tDetails:\n\t\tValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\t\t\tSeverity: sh:Warning\n\t\t\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\t\t\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad A\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000001> ; vcard:hasURL <https://orgA.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org A\", lang=es) ]\n\t\t\tResult Path: vcard:hasUID\n\t\t\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\t\t\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19> ; sh:message Literal(\"It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=en), Literal(\"Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=es) ; sh:node dcatapes:VcardKindMinimalConvention ; sh:path dcat:contactPoint ; sh:severity sh:Warning ]\n\tFocus Node: <http://datos.gob.es//dataset/E00003301_2>\n\tValue Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad B\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000002> ; vcard:hasURL <https://orgB.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org B\", lang=es) ]\n\tResult Path: dcat:contactPoint\n\tMessage: Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tMessage: It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tDetails:\n\t\tValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\t\t\tSeverity: sh:Warning\n\t\t\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\t\t\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad B\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000002> ; vcard:hasURL <https://orgB.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org B\", lang=es) ]\n\t\t\tResult Path: vcard:hasUID\n\t\t\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\t\t\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19> ; sh:message Literal(\"It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=en), Literal(\"Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=es) ; sh:node dcatapes:VcardKindMinimalConvention ; sh:path dcat:contactPoint ; sh:severity sh:Warning ]\n\tFocus Node: <http://datos.gob.es//dataset/E05072501_1>\n\tValue Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad D\", lang=es) ; vcard:hasEmail <mailto:orgD@economia.gob.es> ; vcard:hasTelephone <tel:+3210000004> ; vcard:hasURL <https://orgD.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org D\", lang=es) ]\n\tResult Path: dcat:contactPoint\n\tMessage: Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tMessage: It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tDetails:\n\t\tValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\t\t\tSeverity: sh:Warning\n\t\t\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\t\t\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad D\", lang=es) ; vcard:hasEmail <mailto:orgD@economia.gob.es> ; vcard:hasTelephone <tel:+3210000004> ; vcard:hasURL <https://orgD.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org D\", lang=es) ]\n\t\t\tResult Path: vcard:hasUID\n\t\t\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\t\t\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19> ; sh:message Literal(\"It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=en), Literal(\"Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=es) ; sh:node dcatapes:VcardKindMinimalConvention ; sh:path dcat:contactPoint ; sh:severity sh:Warning ]\n\tFocus Node: <http://datos.gob.es//dataset/E05072501_1>\n\tValue Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad C\", lang=es) ; vcard:hasEmail <mailto:orgC@economia.gob.es> ; vcard:hasTelephone <tel:+3210000003> ; vcard:hasURL <https://orgC.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org C\", lang=es) ]\n\tResult Path: dcat:contactPoint\n\tMessage: Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tMessage: It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tDetails:\n\t\tValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\t\t\tSeverity: sh:Warning\n\t\t\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\t\t\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad C\", lang=es) ; vcard:hasEmail <mailto:orgC@economia.gob.es> ; vcard:hasTelephone <tel:+3210000003> ; vcard:hasURL <https://orgC.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org C\", lang=es) ]\n\t\t\tResult Path: vcard:hasUID\n\t\t\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\t\t\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should contain at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería contener al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad D\", lang=es) ; vcard:hasEmail <mailto:orgD@economia.gob.es> ; vcard:hasTelephone <tel:+3210000004> ; vcard:hasURL <https://orgD.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org D\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should contain at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería contener al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should contain at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería contener al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad A\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000001> ; vcard:hasURL <https://orgA.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org A\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should contain at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería contener al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should contain at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería contener al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad B\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000002> ; vcard:hasURL <https://orgB.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org B\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should contain at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería contener al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should contain at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería contener al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad C\", lang=es) ; vcard:hasEmail <mailto:orgC@economia.gob.es> ; vcard:hasTelephone <tel:+3210000003> ; vcard:hasURL <https://orgC.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org C\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should contain at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería contener al menos un vcard:hasUID.\n\nResumen validacion: errores=0, warnings=12, conforme=True"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "http://datos.gob.es//dataset/E00003301_2",
+      "dct:publisher": {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"
+      },
+      "dct:title": [
+        {
+          "@value": "NombreCjtoDato2",
+          "@language": "es"
+        },
+        {
+          "@value": "DatasetName2",
+          "@language": "en"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "E00003901",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Justicia",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:description": [
+        {
+          "@value": "descrip cjto datos2",
+          "@language": "es"
+        },
+        {
+          "@value": "This is dataset number 2 that export metadata of economic enviroment",
+          "@language": "en"
+        }
+      ],
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2025-06-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2025-07-09T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/economia"
+        },
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/OTHER"
+      },
+      "dct:conformsTo": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-specification/SDMX"
+        }
+      ],
+      "dcatap:applicableLegislation": [
+        {
+          "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+        },
+        {
+          "@id": "http://data.europa.eu/eli/dir/2019/1024/oj"
+        }
+      ],
+      "dcatap:hvdCategory": [
+        {
+          "@id": "http://data.europa.eu/bna/c_04bf94a3"
+        },
+        {
+          "@id": "http://data.europa.eu/bna/c_317b9493"
+        }
+      ],
+      "dcat:version": "Version 1.1",
+      "dct:provenance": [
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/provenance/fuente-aduanas-aeat"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/provenance/integracion-series-historicas"
+        }
+      ],
+      "dct:source": [
+        {
+          "@id": "https://datos.gob.es/dataset/aduanas-flujos-comerciales-aeat"
+        },
+        {
+          "@id": "https://datos.gob.es/dataset/registro-empresas-ministerio-industria"
+        }
+      ],
+      "dct:isReferencedBy": [
+        {
+          "@id": "https://www.mineco.gob.es/estudios/analisis-comercio-exterior-2024.pdf"
+        },
+        {
+          "@id": "https://revistaeconomica.gob.es/articulos/tendencias-comercio-exterior-datos"
+        }
+      ],
+      "dct:relation": [
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/exportaciones-por-pais"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/importaciones-sectoriales"
+        }
+      ],
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "1000",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "etiqueta3",
+          "@language": "es"
+        },
+        {
+          "@value": "etiqueta4",
+          "@language": "en"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@type": "dct:Location",
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España",
+          "dcat:bbox": {
+            "@value": "POLYGON((-18.16 27.64, 4.32 27.64, 4.32 43.79, -18.16 43.79, -18.16 27.64))",
+            "@type": "geo:wktLiteral"
+          },
+          "dcat:centroid": {
+            "@value": "POINT(-6.92 35.715)",
+            "@type": "geo:wktLiteral"
+          },
+          "locn:geometry": {
+            "@value": "POLYGON((-18.16 27.64, 4.32 27.64, 4.32 43.79, -18.16 43.79, -18.16 27.64))",
+            "@type": "geo:wktLiteral"
+          }
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2021-09-07T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2022-05-12T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasBeginning": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2021-09-07T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2022-05-12T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Nombre Org A",
+              "@language": "es"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Unidad A",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:org@economia.gob.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+3210000001"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://orgA.gob.es/info"
+            }
+          ]
+        },
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Nombre Org B",
+              "@language": "es"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Unidad B",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:org@economia.gob.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+3210000002"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://orgB.gob.es/info"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.json"
+        },
+        {
+          "@id": "https://serviciosweb.mineco.gob.es/indicadores/api/json"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.csv"
+        },
+        {
+          "@id": "https://serviciosweb.mineco.gob.es/indicadores/api/csv"
+        }
+      ],
+      "impulsadata:validationStatus": [
+        {
+          "@language": "es",
+          "@value": "conforme-DCAT-AP-ES"
+        }
+      ],
+      "impulsadata:validationDate": [
+        {
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "@value": "2026-02-11T18:59:23.725115+01:00"
+        }
+      ],
+      "impulsadata:validationReport": [
+        {
+          "@value": "Validation Report\nConforms: True\nResults (12):\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad D\", lang=es) ; vcard:hasEmail <mailto:orgD@economia.gob.es> ; vcard:hasTelephone <tel:+3210000004> ; vcard:hasURL <https://orgD.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org D\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad A\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000001> ; vcard:hasURL <https://orgA.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org A\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad B\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000002> ; vcard:hasURL <https://orgB.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org B\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad C\", lang=es) ; vcard:hasEmail <mailto:orgC@economia.gob.es> ; vcard:hasTelephone <tel:+3210000003> ; vcard:hasURL <https://orgC.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org C\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19> ; sh:message Literal(\"It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=en), Literal(\"Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=es) ; sh:node dcatapes:VcardKindMinimalConvention ; sh:path dcat:contactPoint ; sh:severity sh:Warning ]\n\tFocus Node: <http://datos.gob.es//dataset/E00003301_2>\n\tValue Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad A\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000001> ; vcard:hasURL <https://orgA.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org A\", lang=es) ]\n\tResult Path: dcat:contactPoint\n\tMessage: Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tMessage: It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tDetails:\n\t\tValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\t\t\tSeverity: sh:Warning\n\t\t\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\t\t\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad A\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000001> ; vcard:hasURL <https://orgA.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org A\", lang=es) ]\n\t\t\tResult Path: vcard:hasUID\n\t\t\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\t\t\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19> ; sh:message Literal(\"It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=en), Literal(\"Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=es) ; sh:node dcatapes:VcardKindMinimalConvention ; sh:path dcat:contactPoint ; sh:severity sh:Warning ]\n\tFocus Node: <http://datos.gob.es//dataset/E00003301_2>\n\tValue Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad B\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000002> ; vcard:hasURL <https://orgB.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org B\", lang=es) ]\n\tResult Path: dcat:contactPoint\n\tMessage: Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tMessage: It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tDetails:\n\t\tValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\t\t\tSeverity: sh:Warning\n\t\t\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\t\t\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad B\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000002> ; vcard:hasURL <https://orgB.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org B\", lang=es) ]\n\t\t\tResult Path: vcard:hasUID\n\t\t\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\t\t\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19> ; sh:message Literal(\"It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=en), Literal(\"Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=es) ; sh:node dcatapes:VcardKindMinimalConvention ; sh:path dcat:contactPoint ; sh:severity sh:Warning ]\n\tFocus Node: <http://datos.gob.es//dataset/E05072501_1>\n\tValue Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad D\", lang=es) ; vcard:hasEmail <mailto:orgD@economia.gob.es> ; vcard:hasTelephone <tel:+3210000004> ; vcard:hasURL <https://orgD.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org D\", lang=es) ]\n\tResult Path: dcat:contactPoint\n\tMessage: Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tMessage: It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tDetails:\n\t\tValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\t\t\tSeverity: sh:Warning\n\t\t\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\t\t\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad D\", lang=es) ; vcard:hasEmail <mailto:orgD@economia.gob.es> ; vcard:hasTelephone <tel:+3210000004> ; vcard:hasURL <https://orgD.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org D\", lang=es) ]\n\t\t\tResult Path: vcard:hasUID\n\t\t\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\t\t\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19> ; sh:message Literal(\"It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=en), Literal(\"Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=es) ; sh:node dcatapes:VcardKindMinimalConvention ; sh:path dcat:contactPoint ; sh:severity sh:Warning ]\n\tFocus Node: <http://datos.gob.es//dataset/E05072501_1>\n\tValue Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad C\", lang=es) ; vcard:hasEmail <mailto:orgC@economia.gob.es> ; vcard:hasTelephone <tel:+3210000003> ; vcard:hasURL <https://orgC.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org C\", lang=es) ]\n\tResult Path: dcat:contactPoint\n\tMessage: Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tMessage: It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tDetails:\n\t\tValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\t\t\tSeverity: sh:Warning\n\t\t\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\t\t\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad C\", lang=es) ; vcard:hasEmail <mailto:orgC@economia.gob.es> ; vcard:hasTelephone <tel:+3210000003> ; vcard:hasURL <https://orgC.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org C\", lang=es) ]\n\t\t\tResult Path: vcard:hasUID\n\t\t\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\t\t\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should contain at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería contener al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad D\", lang=es) ; vcard:hasEmail <mailto:orgD@economia.gob.es> ; vcard:hasTelephone <tel:+3210000004> ; vcard:hasURL <https://orgD.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org D\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should contain at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería contener al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should contain at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería contener al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad A\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000001> ; vcard:hasURL <https://orgA.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org A\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should contain at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería contener al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should contain at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería contener al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad B\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000002> ; vcard:hasURL <https://orgB.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org B\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should contain at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería contener al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should contain at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería contener al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad C\", lang=es) ; vcard:hasEmail <mailto:orgC@economia.gob.es> ; vcard:hasTelephone <tel:+3210000003> ; vcard:hasURL <https://orgC.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org C\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should contain at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería contener al menos un vcard:hasUID.\n\nResumen validacion: errores=0, warnings=12, conforme=True"
+        }
+      ]
+    },
+    {
+      "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501",
+      "@type": "foaf:Agent",
+      "dct:identifier": "E05072501",
+      "dct:type": {
+        "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+      },
+      "foaf:name": [
+        {
+          "@value": "Instituto Nacional de Estadística",
+          "@language": "es"
+        },
+        {
+          "@value": "INE",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.json",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Indicadores económicos — JSON",
+          "@language": "es"
+        },
+        {
+          "@value": "Economic indicators — JSON",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.json"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Distribución",
+          "@language": "es"
+        },
+        {
+          "@value": "JSON distribution structured for API consumptio",
+          "@language": "en"
+        }
+      ],
+      "foaf:page": [
+        {
+          "@id": "https://datos.comercio.gob.es/docs/metodologia_indicadores_json.pdf"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/docs/api_uso_datos_json.html"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dct:conformsTo": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/file-type/JSON"
+        },
+        {
+          "@id": "https://json-schema.org/draft/2020-12/schema"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2025-05-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2025-05-02T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:byteSize": [
+        {
+          "@value": "1024",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/STABLE"
+      },
+      "dcatap:applicableLegislation": [
+        {
+          "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+        },
+        {
+          "@id": "http://data.europa.eu/eli/dir/2019/1024/oj"
+        }
+      ],
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "1000",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dct:rights": {
+        "@id": "https://schema.theodi.org/odrs/rightsstatement"
+      },
+      "dcat:downloadURL": [
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.json"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.json.zip"
+        }
+      ],
+      "odrl:hasPolicy": {
+        "@id": "https://datos.comercio.gob.es/policy/cc0-1.0"
+      }
+    },
+    {
+      "@id": "https://serviciosweb.mineco.gob.es/indicadores/api/json",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Indicadores económicos — JSON",
+          "@language": "es"
+        },
+        {
+          "@value": "Economic indicators — JSON",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://serviciosweb.mineco.gob.es/indicadores/api/json"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Distribución",
+          "@language": "es"
+        },
+        {
+          "@value": "JSON distribution structured for API consumptio",
+          "@language": "en"
+        }
+      ],
+      "foaf:page": [
+        {
+          "@id": "https://datos.comercio.gob.es/docs/metodologia_indicadores_json.pdf"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/docs/api_uso_datos_json.html"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dct:conformsTo": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/file-type/JSON"
+        },
+        {
+          "@id": "https://json-schema.org/draft/2020-12/schema"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2025-05-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2025-05-02T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:byteSize": [
+        {
+          "@value": "1024",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/STABLE"
+      },
+      "dcatap:applicableLegislation": [
+        {
+          "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+        },
+        {
+          "@id": "http://data.europa.eu/eli/dir/2019/1024/oj"
+        }
+      ],
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "1000",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dct:rights": {
+        "@id": "https://schema.theodi.org/odrs/rightsstatement"
+      },
+      "dcat:downloadURL": [
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.json"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.json.zip"
+        }
+      ],
+      "odrl:hasPolicy": {
+        "@id": "https://datos.comercio.gob.es/policy/cc0-1.0"
+      }
+    },
+    {
+      "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.csv",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Indicadores económicos — CSV",
+          "@language": "es"
+        },
+        {
+          "@value": "Economic indicators — CSV",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.csv"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Distribución en formato CSV que contiene los principales",
+          "@language": "es"
+        },
+        {
+          "@value": "CSV distrib",
+          "@language": "en"
+        }
+      ],
+      "foaf:page": [
+        {
+          "@id": "https://datos.comercio.gob.es/docs/metodologia_indicadores_csv.pdf"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/docs/estructura_datos_csv.html"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dct:conformsTo": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-specification/SDMX"
+        },
+        {
+          "@id": "https://schema.org/Dataset"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2025-05-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2025-05-02T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:byteSize": [
+        {
+          "@value": "1024",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": [
+        {
+          "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+        },
+        {
+          "@id": "http://data.europa.eu/eli/dir/2019/1024/oj"
+        }
+      ],
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "1000",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dct:rights": {
+        "@id": "https://schema.theodi.org/odrs/rightsholder"
+      },
+      "dcat:downloadURL": [
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.csv"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.csv.zip"
+        }
+      ],
+      "odrl:hasPolicy": {
+        "@id": "https://datos.comercio.gob.es/policy/cc-by-4.0"
+      }
+    },
+    {
+      "@id": "https://serviciosweb.mineco.gob.es/indicadores/api/csv",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Indicadores económicos — CSV",
+          "@language": "es"
+        },
+        {
+          "@value": "Economic indicators — CSV",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://serviciosweb.mineco.gob.es/indicadores/api/csv"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Distribución en formato CSV que contiene los principales",
+          "@language": "es"
+        },
+        {
+          "@value": "CSV distrib",
+          "@language": "en"
+        }
+      ],
+      "foaf:page": [
+        {
+          "@id": "https://datos.comercio.gob.es/docs/metodologia_indicadores_csv.pdf"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/docs/estructura_datos_csv.html"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dct:conformsTo": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-specification/SDMX"
+        },
+        {
+          "@id": "https://schema.org/Dataset"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2025-05-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2025-05-02T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:byteSize": [
+        {
+          "@value": "1024",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": [
+        {
+          "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+        },
+        {
+          "@id": "http://data.europa.eu/eli/dir/2019/1024/oj"
+        }
+      ],
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "1000",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dct:rights": {
+        "@id": "https://schema.theodi.org/odrs/rightsholder"
+      },
+      "dcat:downloadURL": [
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.csv"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.csv.zip"
+        }
+      ],
+      "odrl:hasPolicy": {
+        "@id": "https://datos.comercio.gob.es/policy/cc-by-4.0"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "http://datos.gob.es//dataset/E05072501_1",
+      "dct:publisher": {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
+      },
+      "dct:title": [
+        {
+          "@value": "NombreCjtoDato1",
+          "@language": "es"
+        },
+        {
+          "@value": "DatasetName1",
+          "@language": "en"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "E05189101",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Política Territorial",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:description": [
+        {
+          "@value": "descrip cjto datos1",
+          "@language": "es"
+        },
+        {
+          "@value": "This is dataset number 1 that export metadata of economic enviroment",
+          "@language": "en"
+        }
+      ],
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2025-05-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2025-07-09T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/economia"
+        },
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/OP_DATPRO"
+      },
+      "dct:conformsTo": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-specification/INSPIRE_DLS"
+        },
+        {
+          "@id": "https://schema.org/Dataset"
+        }
+      ],
+      "dcatap:applicableLegislation": [
+        {
+          "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+        },
+        {
+          "@id": "http://data.europa.eu/eli/dir/2019/1024/oj"
+        }
+      ],
+      "dcatap:hvdCategory": [
+        {
+          "@id": "http://data.europa.eu/bna/c_04bf94a3"
+        },
+        {
+          "@id": "http://data.europa.eu/bna/c_e1da4e07"
+        }
+      ],
+      "dcat:version": "Version 1",
+      "dct:provenance": [
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/provenance/departamento-estadistica-mineco"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/provenance/actualizacion-trimestral-ine"
+        }
+      ],
+      "dct:source": [
+        {
+          "@id": "https://datos.gob.es/dataset/estadisticas-macroeconomicas-ine"
+        },
+        {
+          "@id": "https://datos.gob.es/dataset/boe-indicadores-financieros"
+        }
+      ],
+      "dct:isReferencedBy": [
+        {
+          "@id": "https://www.mineco.gob.es/estudios/analisis-impacto-indicadores-economicos.pdf"
+        },
+        {
+          "@id": "https://revistaeconomica.gob.es/articulos/uso-indicadores-economicos-datos-abiertos"
+        }
+      ],
+      "dct:relation": [
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/series-temporales-macro"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/datos-inflacion-consumo"
+        }
+      ],
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "500",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "etiqueta1",
+          "@language": "es"
+        },
+        {
+          "@value": "etiqueta2",
+          "@language": "en"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@type": "dct:Location",
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid",
+          "dcat:bbox": {
+            "@value": "POLYGON((-4.58 39.88, -3.05 39.88, -3.05 41.17, -4.58 41.17, -4.58 39.88))",
+            "@type": "geo:wktLiteral"
+          },
+          "dcat:centroid": {
+            "@value": "POINT(-3.815 40.525)",
+            "@type": "geo:wktLiteral"
+          },
+          "locn:geometry": {
+            "@value": "POLYGON((-4.58 39.88, -3.05 39.88, -3.05 41.17, -4.58 41.17, -4.58 39.88))",
+            "@type": "geo:wktLiteral"
+          }
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2021-12-28T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2022-08-17T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasBeginning": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2021-12-28T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2022-08-17T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Nombre Org C",
+              "@language": "es"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Unidad C",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:orgC@economia.gob.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+3210000003"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://orgC.gob.es/info"
+            }
+          ]
+        },
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Nombre Org D",
+              "@language": "es"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Unidad D",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:orgD@economia.gob.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+3210000004"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://orgD.gob.es/info"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/datos-comercio.xml"
+        },
+        {
+          "@id": "https://serviciosweb.mineco.gob.es/comercio/api/xml"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf"
+        },
+        {
+          "@id": "https://serviciosweb.mineco.gob.es/comercio/api/pdf"
+        }
+      ],
+      "impulsadata:validationStatus": [
+        {
+          "@language": "es",
+          "@value": "conforme-DCAT-AP-ES"
+        }
+      ],
+      "impulsadata:validationDate": [
+        {
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "@value": "2026-02-11T18:59:23.725115+01:00"
+        }
+      ],
+      "impulsadata:validationReport": [
+        {
+          "@value": "Validation Report\nConforms: True\nResults (12):\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad D\", lang=es) ; vcard:hasEmail <mailto:orgD@economia.gob.es> ; vcard:hasTelephone <tel:+3210000004> ; vcard:hasURL <https://orgD.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org D\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad A\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000001> ; vcard:hasURL <https://orgA.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org A\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad B\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000002> ; vcard:hasURL <https://orgB.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org B\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad C\", lang=es) ; vcard:hasEmail <mailto:orgC@economia.gob.es> ; vcard:hasTelephone <tel:+3210000003> ; vcard:hasURL <https://orgC.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org C\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19> ; sh:message Literal(\"It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=en), Literal(\"Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=es) ; sh:node dcatapes:VcardKindMinimalConvention ; sh:path dcat:contactPoint ; sh:severity sh:Warning ]\n\tFocus Node: <http://datos.gob.es//dataset/E00003301_2>\n\tValue Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad A\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000001> ; vcard:hasURL <https://orgA.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org A\", lang=es) ]\n\tResult Path: dcat:contactPoint\n\tMessage: Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tMessage: It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tDetails:\n\t\tValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\t\t\tSeverity: sh:Warning\n\t\t\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\t\t\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad A\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000001> ; vcard:hasURL <https://orgA.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org A\", lang=es) ]\n\t\t\tResult Path: vcard:hasUID\n\t\t\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\t\t\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19> ; sh:message Literal(\"It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=en), Literal(\"Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=es) ; sh:node dcatapes:VcardKindMinimalConvention ; sh:path dcat:contactPoint ; sh:severity sh:Warning ]\n\tFocus Node: <http://datos.gob.es//dataset/E00003301_2>\n\tValue Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad B\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000002> ; vcard:hasURL <https://orgB.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org B\", lang=es) ]\n\tResult Path: dcat:contactPoint\n\tMessage: Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tMessage: It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tDetails:\n\t\tValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\t\t\tSeverity: sh:Warning\n\t\t\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\t\t\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad B\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000002> ; vcard:hasURL <https://orgB.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org B\", lang=es) ]\n\t\t\tResult Path: vcard:hasUID\n\t\t\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\t\t\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19> ; sh:message Literal(\"It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=en), Literal(\"Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=es) ; sh:node dcatapes:VcardKindMinimalConvention ; sh:path dcat:contactPoint ; sh:severity sh:Warning ]\n\tFocus Node: <http://datos.gob.es//dataset/E05072501_1>\n\tValue Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad D\", lang=es) ; vcard:hasEmail <mailto:orgD@economia.gob.es> ; vcard:hasTelephone <tel:+3210000004> ; vcard:hasURL <https://orgD.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org D\", lang=es) ]\n\tResult Path: dcat:contactPoint\n\tMessage: Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tMessage: It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tDetails:\n\t\tValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\t\t\tSeverity: sh:Warning\n\t\t\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\t\t\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad D\", lang=es) ; vcard:hasEmail <mailto:orgD@economia.gob.es> ; vcard:hasTelephone <tel:+3210000004> ; vcard:hasURL <https://orgD.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org D\", lang=es) ]\n\t\t\tResult Path: vcard:hasUID\n\t\t\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\t\t\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19> ; sh:message Literal(\"It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=en), Literal(\"Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=es) ; sh:node dcatapes:VcardKindMinimalConvention ; sh:path dcat:contactPoint ; sh:severity sh:Warning ]\n\tFocus Node: <http://datos.gob.es//dataset/E05072501_1>\n\tValue Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad C\", lang=es) ; vcard:hasEmail <mailto:orgC@economia.gob.es> ; vcard:hasTelephone <tel:+3210000003> ; vcard:hasURL <https://orgC.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org C\", lang=es) ]\n\tResult Path: dcat:contactPoint\n\tMessage: Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tMessage: It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tDetails:\n\t\tValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\t\t\tSeverity: sh:Warning\n\t\t\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\t\t\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad C\", lang=es) ; vcard:hasEmail <mailto:orgC@economia.gob.es> ; vcard:hasTelephone <tel:+3210000003> ; vcard:hasURL <https://orgC.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org C\", lang=es) ]\n\t\t\tResult Path: vcard:hasUID\n\t\t\tMessage: A vcard:Kind should include at least one vcard:hasUID.\n\t\t\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should contain at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería contener al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad D\", lang=es) ; vcard:hasEmail <mailto:orgD@economia.gob.es> ; vcard:hasTelephone <tel:+3210000004> ; vcard:hasURL <https://orgD.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org D\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should contain at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería contener al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should contain at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería contener al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad A\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000001> ; vcard:hasURL <https://orgA.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org A\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should contain at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería contener al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should contain at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería contener al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad B\", lang=es) ; vcard:hasEmail <mailto:org@economia.gob.es> ; vcard:hasTelephone <tel:+3210000002> ; vcard:hasURL <https://orgB.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org B\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should contain at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería contener al menos un vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should contain at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería contener al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Unidad C\", lang=es) ; vcard:hasEmail <mailto:orgC@economia.gob.es> ; vcard:hasTelephone <tel:+3210000003> ; vcard:hasURL <https://orgC.gob.es/info> ; vcard:organization-name Literal(\"Nombre Org C\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: A vcard:Kind should contain at least one vcard:hasUID.\n\tMessage: Un vcard:Kind debería contener al menos un vcard:hasUID.\n\nResumen validacion: errores=0, warnings=12, conforme=True"
+        }
+      ]
+    },
+    {
+      "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+      "@type": "foaf:Agent",
+      "dct:identifier": "E00003301",
+      "dct:type": {
+        "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+      },
+      "foaf:name": [
+        {
+          "@value": "Ministerio de Asuntos Económicos y Transformación Digital",
+          "@language": "es"
+        },
+        {
+          "@value": "MINECO",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/datos-comercio.xml",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Comercio Exterior — XML",
+          "@language": "es"
+        },
+        {
+          "@value": "Foreign Trade — XML",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/datos-comercio.xml"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XML"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Distribución XML estructurada con series de comercio exterior",
+          "@language": "es"
+        },
+        {
+          "@value": "XML distribution structured for trade data series",
+          "@language": "en"
+        }
+      ],
+      "foaf:page": [
+        {
+          "@id": "https://datos.comercio.gob.es/docs/metodologia_datos_comercio_xml.pdf"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/docs/api_uso_datos_xml.html"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dct:conformsTo": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-specification/SDMX"
+        },
+        {
+          "@id": "https://www.w3.org/XML/Schema"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2025-06-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2025-07-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:byteSize": [
+        {
+          "@value": "2048",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/STABLE"
+      },
+      "dcatap:applicableLegislation": [
+        {
+          "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+        },
+        {
+          "@id": "http://data.europa.eu/eli/dir/2019/1024/oj"
+        }
+      ],
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "1000",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dct:rights": {
+        "@id": "https://schema.theodi.org/odrs/rightsstatement"
+      },
+      "dcat:downloadURL": [
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/datos-comercio.xml"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/datos-comercio.xml.zip"
+        }
+      ],
+      "odrl:hasPolicy": {
+        "@id": "https://datos.comercio.gob.es/policy/cc0-1.0"
+      }
+    },
+    {
+      "@id": "https://serviciosweb.mineco.gob.es/comercio/api/xml",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Comercio Exterior — XML",
+          "@language": "es"
+        },
+        {
+          "@value": "Foreign Trade — XML",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://serviciosweb.mineco.gob.es/comercio/api/xml"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XML"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Distribución XML estructurada con series de comercio exterior",
+          "@language": "es"
+        },
+        {
+          "@value": "XML distribution structured for trade data series",
+          "@language": "en"
+        }
+      ],
+      "foaf:page": [
+        {
+          "@id": "https://datos.comercio.gob.es/docs/metodologia_datos_comercio_xml.pdf"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/docs/api_uso_datos_xml.html"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dct:conformsTo": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-specification/SDMX"
+        },
+        {
+          "@id": "https://www.w3.org/XML/Schema"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2025-06-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2025-07-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:byteSize": [
+        {
+          "@value": "2048",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/STABLE"
+      },
+      "dcatap:applicableLegislation": [
+        {
+          "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+        },
+        {
+          "@id": "http://data.europa.eu/eli/dir/2019/1024/oj"
+        }
+      ],
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "1000",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dct:rights": {
+        "@id": "https://schema.theodi.org/odrs/rightsstatement"
+      },
+      "dcat:downloadURL": [
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/datos-comercio.xml"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/datos-comercio.xml.zip"
+        }
+      ],
+      "odrl:hasPolicy": {
+        "@id": "https://datos.comercio.gob.es/policy/cc0-1.0"
+      }
+    },
+    {
+      "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Comercio Exterior — PDF",
+          "@language": "es"
+        },
+        {
+          "@value": "Foreign Trade — PDF",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/PDF"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Distribución en formato PDF con el informe anual de comercio exterior",
+          "@language": "es"
+        },
+        {
+          "@value": "PDF distribution for external trade report",
+          "@language": "en"
+        }
+      ],
+      "foaf:page": [
+        {
+          "@id": "https://datos.comercio.gob.es/docs/metodologia_informe_comercio.pdf"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/docs/estructura_informe_comercio.html"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dct:conformsTo": {
+        "@id": "https://schema.org/Dataset"
+      },
+      "dct:issued": [
+        {
+          "@value": "2025-06-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2025-07-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:byteSize": [
+        {
+          "@value": "2048",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": [
+        {
+          "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+        },
+        {
+          "@id": "http://data.europa.eu/eli/dir/2019/1024/oj"
+        }
+      ],
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "1000",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dct:rights": {
+        "@id": "https://schema.theodi.org/odrs/rightsholder"
+      },
+      "dcat:downloadURL": [
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf.zip"
+        }
+      ],
+      "odrl:hasPolicy": {
+        "@id": "https://datos.comercio.gob.es/policy/cc-by-4.0"
+      }
+    },
+    {
+      "@id": "https://serviciosweb.mineco.gob.es/comercio/api/pdf",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Comercio Exterior — PDF",
+          "@language": "es"
+        },
+        {
+          "@value": "Foreign Trade — PDF",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://serviciosweb.mineco.gob.es/comercio/api/pdf"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/PDF"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Distribución en formato PDF con el informe anual de comercio exterior",
+          "@language": "es"
+        },
+        {
+          "@value": "PDF distribution for external trade report",
+          "@language": "en"
+        }
+      ],
+      "foaf:page": [
+        {
+          "@id": "https://datos.comercio.gob.es/docs/metodologia_informe_comercio.pdf"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/docs/estructura_informe_comercio.html"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dct:conformsTo": {
+        "@id": "https://schema.org/Dataset"
+      },
+      "dct:issued": [
+        {
+          "@value": "2025-06-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2025-07-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:byteSize": [
+        {
+          "@value": "2048",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": [
+        {
+          "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+        },
+        {
+          "@id": "http://data.europa.eu/eli/dir/2019/1024/oj"
+        }
+      ],
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "1000",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dct:rights": {
+        "@id": "https://schema.theodi.org/odrs/rightsholder"
+      },
+      "dcat:downloadURL": [
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf"
+        },
+        {
+          "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf.zip"
+        }
+      ],
+      "odrl:hasPolicy": {
+        "@id": "https://datos.comercio.gob.es/policy/cc-by-4.0"
+      }
+    }
+  ]
+}
