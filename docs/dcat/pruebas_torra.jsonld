@@ -143,7 +143,7 @@
 ],
 "http://www.w3.org/2006/vcard/ns#hasUID":[
 {
-"@id":"http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"
+"@id":"E0DAT0001"
 }
 ],
 "http://www.w3.org/2006/vcard/ns#hasEmail":[
