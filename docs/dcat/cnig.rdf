@@ -1,0 +1,259 @@
+<rdf:RDF>
+<dcat:Catalog>
+<dct:title xml:lang="es">Catálogo de CNIG-IGN</dct:title>
+<dct:description xml:lang="es">Conjunto de Datasets del CNIG</dct:description>
+<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+01:00</dct:issued>
+<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-02T00:00:00+01:00</dct:modified>
+<foaf:homepage rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/home"/>
+<dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
+<!--
+ fallo de la validacion, no esta cogiendo cada nodo , esta concatenando todos los valores, tampoco valida bien un unico valor
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/hacienda"/>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/comercio"/>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/energia"/>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/salud"/>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/demografia"/>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte"/> 
+-->
+<dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+<dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+<dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/CAT"/>
+<dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_3_0"/>
+<!--
+ <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/> 
+-->
+<dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
+<!--
+ <dct:publisher>
+          <foaf:Organization>
+            <foaf:name xml:lang="es">Centro Nacional de Información Geográfica (CNIG)</foaf:name>
+            <foaf:name xml:lang="en">Centro Nacional de Información Geográfica (CNIG)</foaf:name>
+            <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901</dct:identifier>
+            <dct:type>http://purl.org/adms/publishertype/NationalAuthority</dct:type>
+          </foaf:Organization>
+        </dct:publisher> 
+-->
+<dcat:service>
+<dcat:DataService>
+<dct:title xml:lang="es">
+Servicio REST de geocodificación de España (CartoCiudad)
+</dct:title>
+<dct:title xml:lang="en">Spain REST geocoder service (CartoCiudad)</dct:title>
+<dcat:endpointURL rdf:resource="https://www.cartociudad.es/geocoder/"/>
+<dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
+<!--
+ <dcatap:hvdCategory rdf:resource="http://inspire.ec.europa.eu/theme/ad"/>
+        <dcatap:hvdCategory rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/thematicGeocodingService"/>
+        <dcatap:hvdCategory rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/national"/>
+-->
+<dcat:contactPoint>
+<vcard:Organization>
+<vcard:fn xml:lang="es">
+Infraestructura de Datos Espaciales de España (IDEE)
+</vcard:fn>
+<vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
+</vcard:Organization>
+</dcat:contactPoint>
+<dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
+<dcat:servesDataset rdf:resource="spaign_cartociudad_addresses"/>
+<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+<!--
+ error de validacion, no esta cogiendo cada valor, está concatenando valors
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
+        <dcatap:applicableLegislation rdf:resource="http://inspire.ec.europa.eu/id/ats/metadata/2.0/sds-invocable"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/> 
+-->
+<dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+<!-- añadido foaf:page ficticio -->
+<foaf:page rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignrest_cartociudad_address"/>
+</dcat:DataService>
+</dcat:service>
+<dcat:service>
+<dcat:DataService>
+<dct:title xml:lang="es">
+Servicio de visualización (WMS). Direcciones y códigos postales de España (CartoCiudad)
+</dct:title>
+<dct:title xml:lang="en">
+View Services (WMS). Addresses and postal codes in Spain (CartoCiudad)
+</dct:title>
+<dcat:endpointURL rdf:resource="https://www.cartociudad.es/wms-inspire/direcciones-ccpp?REQUEST=GetCapabilities&Service=WMS&version=1.3.0"/>
+<dcat:endpointURL rdf:resource="https://www.cartociudad.es/wms-inspire/direcciones-ccpp?REQUEST=GetMap&Service=WMS&version=1.3.0"/>
+<dcat:endpointURL rdf:resource="https://www.cartociudad.es/wms-inspire/direcciones-ccpp?REQUEST=GetFeature&Service=WMS&version=1.3.0"/>
+<dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
+<!--
+ <dcatap:hvdCategory rdf:resource="http://inspire.ec.europa.eu/theme/ad"/>
+        <dcatap:hvdCategory rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/national"/>
+        <dcatap:hvdCategory rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/infoMapAccessService"/> 
+-->
+<dcat:contactPoint>
+<vcard:Organization>
+<vcard:fn xml:lang="es">
+Infraestructura de Datos Espaciales de España (IDEE)
+</vcard:fn>
+<vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
+</vcard:Organization>
+</dcat:contactPoint>
+<dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
+<dcat:endpointDescription rdf:resource="https://www.cartociudad.es/wms-inspire/direcciones-ccpp?REQUEST=GetCapabilities&Service=WMS&version=1.3.0"/>
+<dcat:servesDataset rdf:resource="spaign_cartociudad_addresses"/>
+<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
+<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
+<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
+<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+<dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+<!-- añadido foaf:page ficticio -->
+<foaf:page rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignrest_cartociudad_address"/>
+</dcat:DataService>
+</dcat:service>
+<dcat:service>
+<dcat:DataService>
+<dct:title xml:lang="es">
+API de descarga de objetos geográficos (API-Features) del Sistema Cartográfico Nacional de España
+</dct:title>
+<dct:title xml:lang="en">API-Features of spatial object of Spain</dct:title>
+<dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
+<!--
+ <dcatap:hvdCategory rdf:resource="http://inspire.ec.europa.eu/theme/hy"/>
+        <dcatap:hvdCategory rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+        <dcatap:hvdCategory rdf:resource="http://inspire.ec.europa.eu/theme/tn"/>
+        <dcatap:hvdCategory rdf:resource="http://inspire.ec.europa.eu/theme/ad"/>
+        <dcatap:hvdCategory rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/infoFeatureAccessService"/>
+        <dcatap:hvdCategory rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/national"/> 
+-->
+<dcat:contactPoint>
+<vcard:Organization>
+<vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
+<vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
+</vcard:Organization>
+</dcat:contactPoint>
+<dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte"/>
+<dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
+<dcat:servesDataset rdf:resource="spaignHIDROGRAFIA_IGR"/>
+<dcat:servesDataset rdf:resource="spaignsioseAR2017"/>
+<dcat:servesDataset rdf:resource="spaign_IGR_Transporte"/>
+<dcat:servesDataset rdf:resource="spaign_cartociudad_addresses"/>
+<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
+<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+<dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+<!-- añadido foaf:page ficticio -->
+<foaf:page rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignrest_cartociudad_address"/>
+</dcat:DataService>
+</dcat:service>
+<dcat:service>
+<dcat:DataService>
+<dct:title xml:lang="es">
+Servicio de descarga (WFS). Direcciones de Redes de Transporte de España (CartoCiudad)
+</dct:title>
+<dct:title xml:lang="en">
+Download Service (WFS). Spanish Transport Network Addresses (CartoCiudad)
+</dct:title>
+<dcat:endpointURL rdf:resource="https://www.cartociudad.es/wfs-inspire/direcciones?request=GetCapabilities&service=WFS"/>
+<dcat:endpointURL rdf:resource="https://www.cartociudad.es/wfs-inspire/direcciones?request=DescribeFeatureType&service=WFS&version=2.0.0"/>
+<dcat:endpointURL rdf:resource="https://www.cartociudad.es/wfs-inspire/direcciones?request=ListStoredQueries&service=WFS&version=2.0.0"/>
+<dcat:endpointURL rdf:resource="https://www.cartociudad.es/wfs-inspire/direcciones?request=DescribeStoredQueries&service=WFS&version=2.0.0"/>
+<dcat:endpointURL rdf:resource="https://www.cartociudad.es/wfs-inspire/direcciones?request=GetFeature&service=WFS&version=2.0.0"/>
+<dcat:endpointURL rdf:resource="https://www.cartociudad.es/wfs-inspire/direcciones"/>
+<dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
+<!--
+ <dcatap:hvdCategory rdf:resource="http://inspire.ec.europa.eu/theme/ad"/>
+        <dcatap:hvdCategory rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/infoFeatureAccessService"/>
+        <dcatap:hvdCategory rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/national"/> 
+-->
+<dcat:contactPoint>
+<vcard:Organization>
+<vcard:fn xml:lang="es">
+Infraestructura de Datos Espaciales de España (IDEE)
+</vcard:fn>
+<vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
+</vcard:Organization>
+</dcat:contactPoint>
+<dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
+<dcat:endpointDescription rdf:resource="https://www.cartociudad.es/wfs-inspire/direcciones?request=GetCapabilities&service=WFS"/>
+<dcat:servesDataset rdf:resource="spaign_cartociudad_addresses"/>
+<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
+<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
+<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
+<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+<dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+<!-- añadido foaf:page ficticio -->
+<foaf:page rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignrest_cartociudad_address"/>
+</dcat:DataService>
+</dcat:service>
+<dcat:dataset>
+<dcat:Dataset>
+<dct:title xml:lang="es">CartoCiudad</dct:title>
+<dct:title xml:lang="en">CartoCiudad</dct:title>
+<dct:description xml:lang="es">
+CartoCiudad recopila y publica en diferentes servicios web de geolocalización una serie de conjuntos de datos espaciales. Los datos que ofrece son: - Portales y puntos kilométricos procedentes de diferentes fuentes de nivel nacional, regional y local, a los que se les ha asignado los municipios, provincias, comunidades autónomas, entidades de población y códigos postales a los que pertenecen. Las fuentes de datos son: Red de Transporte de la Información Geográfica de Referencia del SCNE, Dirección General de Catastro, Eusko Jaurlaritza - Gobierno Vasco, Nafarroakoa Gobernua - Gobierno de Navarra, Gobierno de La Rioja, Junta de Andalucía, Generalitat de Catalunya, Generalitat Valenciana, Comunidad de Madrid, Consell de Mallorca, Concejo asturiano de Gozón, Ayuntamiento de Cáceres, Ayuntamiento de Santander, Ayuntamiento de Santa Cruz de Tenerife, Ayuntamiento de Valencia, Ayuntamiento de Albacete, Ayuntamiento de Gijón, Ayuntamiento de Caravia, Ayuntamiento de Soto del Barco y Ayuntamiento de Sariego. - Nombre oficial y tipo de vía: los tipos de viales son ofrecidos por la D. G de Catastro y Grupo Correos, así mismo, el Instituto Nacional de Estadística facilita los tipos de viales y los nombres oficiales de vía de las direcciones postales en el ámbito urbano. - Viales procedentes de la Red de Transporte de la Información Geográfica de Referencia del SCNE. - Entidades de población y unidades administrativas del Instituto Geográfico Nacional: Registro Central de Cartografía e Información Geográfica de Referencia de Poblaciones (IGR poblaciones), respectivamente. Esta información permite establecer una relación entre las direcciones, topónimos y puntos de interés, con las unidades administrativas y entidades de población en las que se ubican. - Códigos postales del Grupo Correos: permite establecer una relación de los códigos postales con las direcciones, topónimos y puntos de interés. Los códigos postales no están disponibles para su descarga, solo se pueden visualizar. - Topónimos y puntos de interés procedentes de diferentes fuentes de datos oficiales, las cuales son: Instituto Geográfico Nacional, O. A. Centro Nacional de Información Geográfica, Ministerio de Hacienda, Ministerio de Ciencia Innovación y Universidades, Ministerio para la Transición Ecológica y el Reto Demográfico, Banco de España, Ministerio de la Presidencia, Justicia y Relaciones con las Cortes, Ministerio de Sanidad, Consejo General del Poder Judicial, Junta de Andalucía, Ministerio de Cultura, Ajuntament de València, Eusko Jaurlaritza - Gobierno Vasco, Comunidad de Madrid, Ajuntament de Barcelona y Govern de les Illes Balears. - Manzanas catastrales procedentes de la D. G. de Catastro, Gobierno Vasco y Nafarroakoa Gobernua - Gobierno de Navarra. Más información sobre el producto en https://www.cartociudad.es/web/portal.
+</dct:description>
+<dct:description xml:lang="en">
+CartoCiudad collects and publishes in different geolocation web services a series of spatial datasets. The data it offers are: - Portals and kilometer points from different national, regional and local level sources, which have been assigned the municipalities, provinces, autonomous communities, population entities and postal codes to which they belong. The data sources are: SCNE Reference Geographic Information Transport Network, General Directorate of Cadastre, Basque Government, Government of Navarra, Government of La Rioja, Junta de Andalucía, Generalitat de Catalunya, Generalitat Valenciana, Comunidad de Madrid, Consell de Mallorca, Asturian Council of Gozón, City Council of Cáceres, City Council of Santander, City Council of Santa Cruz de Tenerife, City Council of Valencia, City Council of Albacete, City Council of Gijón, City Council of Caravia, City Council of Soto del Barco and City Council of Sariego. - Official name and type of road: the types of roads are provided by the D.G. of Cadastre and Grupo Correos, and the National Institute of Statistics provides the types of roads and official road names of postal addresses in urban areas. - Roads from the Transport Network of the Geographic Reference Information of the SCNE. - Population entities and administrative units of the National Geographic Institute: Central Registry of Cartography and Population Reference Geographic Information (IGR populations), respectively. This information allows establishing a relationship between addresses, place names and points of interest, with the administrative units and population entities in which they are located. - Postal codes of the Correos Group: allows establishing a relationship between postal codes and addresses, place names and points of interest. Postal codes are not available for download, they can only be viewed. - Place names and points of interest from different official data sources, which are: National Geographic Institute, A. O. National Center for Geographic Information, Ministry of Finance, Ministry of Science, Innovation and Universities, Ministry for Ecological Transition and the Demographic Challenge, Bank of Spain, Ministry of the Presidency, Justice and Relations with the Courts, Ministry of Health, General Council of the Judiciary, Regional Government of Andalusia, Ministry of Culture, City Council of Valencia, Eusko Jaurlaritza - Basque Government, Community of Madrid, City Council of Barcelona and Government of the Balearic Islands. - Cadastral apples from the D. G. of Cadastre, Basque Government and Government of Navarra. More information about the product at https://www.cartociudad.es/web/portal.
+</dct:description>
+<dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
+<dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
+<dcat:keyword xml:lang="es">Direcciones</dcat:keyword>
+<dcat:keyword xml:lang="es">High-value dataset</dcat:keyword>
+<dcat:keyword xml:lang="es">Geospatial</dcat:keyword>
+<dcat:keyword xml:lang="es">Addresses</dcat:keyword>
+<dcat:keyword xml:lang="es">Nacional</dcat:keyword>
+<dcat:keyword xml:lang="es">IGN</dcat:keyword>
+<dcat:keyword xml:lang="es">CNIG</dcat:keyword>
+<dcat:keyword xml:lang="es">España</dcat:keyword>
+<dcat:keyword xml:lang="es">Código Postal</dcat:keyword>
+<dcat:keyword xml:lang="es">Callejero</dcat:keyword>
+<dcat:keyword xml:lang="es">Thorughfare name</dcat:keyword>
+<dcat:keyword xml:lang="es">Unidades administrativas</dcat:keyword>
+<dct:spatial rdf:resource="POLYGON((-19.00,4.30,27.60,44.00))"/>
+<!-- faltaba legislacion de hvd -->
+<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2010/1089/oj"/>
+<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205/oj"/>
+<dct:identifier>spaign_cartociudad_addresses</dct:identifier>
+<dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+<dcat:contactPoint>
+<vcard:Organization>
+<vcard:fn xml:lang="es">
+Infraestructura de Datos Espaciales de España (IDEE)
+</vcard:fn>
+<vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
+</vcard:Organization>
+</dcat:contactPoint>
+<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
+<!--
+ <dct:publisher>
+          <foaf:Organization>
+            <foaf:name xml:lang="es">Centro Nacional de Información Geográfica (CNIG)</foaf:name>
+            <foaf:name xml:lang="en">Centro Nacional de Información Geográfica (CNIG)</foaf:name>
+            <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901</dct:identifier>
+            <dct:type>http://purl.org/adms/publishertype/NationalAuthority</dct:type>
+          </foaf:Organization>
+        </dct:publisher> 
+-->
+<dcat:distribution>
+<dcat:Distribution>
+<dcat:accessURL rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_cartociudad_addresses/formatters/xml"/>
+<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2010/1089/oj"/>
+<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205/oj"/>
+<dct:description xml:lang="es">
+52 ficheros por cada una de las provincias y ciudades autónomas españolas. Los conjuntos de datos espaciales son: - Portales y puntos kilométricos procedentes de diferentes fuentes de nivel nacional, regional y local, a los que se les ha asignado los municipios, provincias, comunidades autónomas, entidades de población y códigos postales a los que pertenecen. - Capa de las manzanas catastrales procedentes de la D. G. de Catastro, Eusko Jaurlaritza - Gobierno Vasco y Nafarroakoa Gobernua - Gobierno de Navarra http://www.geopackage.org/spec/
+</dct:description>
+<!--
+ no puede haber varios etiquetas con el mismo idioma en el mismo apartado ????
+            <dct:description xml:lang="es">Especificaciones de datos de Direcciones https://inspire.ec.europa.eu/id/document/tg/ad</dct:description>
+            <dct:description xml:lang="es">UNE-EN ISO 19168-1:2020 Información geográfica. API geoespacial para objetos geográficos. Parte 1: Núcleo https://www.une.org/encuentra-tu-norma/busca-tu-norma/norma?c=N0068527</dct:description>
+            <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/> 
+-->
+<dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+<dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+<dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+</dcat:Distribution>
+</dcat:distribution>
+</dcat:Dataset>
+</dcat:dataset>
+</dcat:Catalog>
+</rdf:RDF>
