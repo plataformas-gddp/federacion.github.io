@@ -22,14 +22,7 @@
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+01:00</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-02T00:00:00+01:00</dct:modified>
     <foaf:homepage rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/home"/>
-    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
-    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
-    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/hacienda"/>
-    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/comercio"/>
-    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/energia"/>
-    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/salud"/>
-    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/demografia"/>
-    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte"/>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/CAT"/>
