@@ -81,6 +81,7 @@
 			<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-26T00:00:00+00:00</dct:issued>
 			<dct:accessRights rdf:resource="http://schema.theodi.org/odrs/"/>
 			<dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</dcat:byteSize>
+			<dcat:downloadURL rdf:resource="https://fakexlsx.es"/>
 			<dct:rights rdf:resource="http://schema.theodi.org/odrs/"/>
 		  </dcat:Distribution>
         </dcat:distribution>		
