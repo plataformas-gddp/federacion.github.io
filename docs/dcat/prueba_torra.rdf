@@ -17,13 +17,6 @@
     <dct:language>
       <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/ENG"/>
     </dct:language>
-    <dct:spatial>
-      <dct:Location rdf:about="http://publications.europa.eu/resource/authority/country/ESP">
-        <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</dcat:bbox>
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8150 40.5250)</dcat:centroid>
-        <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</locn:Geometry>
-      </dct:Location>
-    </dct:spatial>
     <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
     <dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
     <foaf:homepage rdf:resource="https://172.17.8.173:8443"/>
