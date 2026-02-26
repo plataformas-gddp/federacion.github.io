@@ -77,6 +77,7 @@
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/CAT"/>
         <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"/>
         <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED"/>	
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
 		<dcat:distribution>
 		  <dcat:Distribution rdf:about="https://172.17.8.173:8443/dataset/ttec20260226/resource/listado-organismos-xlsx">
 			<dct:title xml:lang="es">Distribución Restringida</dct:title>
