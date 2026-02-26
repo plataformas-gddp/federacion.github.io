@@ -1,432 +1,120 @@
-[
-{
-"@id":"_:b0",
-"@type":[
-"http://purl.org/dc/terms/PeriodOfTime"
-],
-"http://www.w3.org/ns/dcat#startDate":[
-{
-"@value":"2021-01-01T00:00:00Z",
-"@type":"http://www.w3.org/2001/XMLSchema#dateTime"
-}
-],
-"http://www.w3.org/ns/dcat#endDate":[
-{
-"@value":"2025-01-01T00:00:00Z",
-"@type":"http://www.w3.org/2001/XMLSchema#dateTime"
-}
-]
-},
-{
-"@id":"http://data.europa.eu/eli/dir/2007/2/2019-06-26"
-},
-{
-"@id":"http://datos.gob.es/kos/sector-publico/sector"
-},
-{
-"@id":"http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"
-},
-{
-"@id":"http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"
-},
-{
-"@id":"http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-},
-{
-"@id":"http://dcat-ap-es.ejemplo.org"
-},
-{
-"@id":"http://dcat-ap-es.ejemplo.org/"
-},
-{
-"@id":"http://dcat-ap-es.ejemplo.org/catalogo",
-"@type":[
-"http://www.w3.org/ns/dcat#Catalog"
-],
-"http://purl.org/dc/terms/title":[
-{
-"@value":"Catálogo de Datos Abiertos",
-"@language":"es"
-},
-{
-"@value":"Open Data Catalog",
-"@language":"en"
-}
-],
-"http://purl.org/dc/terms/description":[
-{
-"@value":"Catálogo de Datos Abiertos que sirve de ejemplo en la migración a DCAT-AP-ES.",
-"@language":"es"
-},
-{
-"@value":"Open Data Catalogue that serves as an example in DCAT-AP-ES migration.",
-"@language":"en"
-}
-],
-"http://xmlns.com/foaf/0.1/homepage":[
-{
-"@id":"http://dcat-ap-es.ejemplo.org"
-}
-],
-"http://purl.org/dc/terms/publisher":[
-{
-"@id":"http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"
-}
-],
-"http://www.w3.org/ns/dcat#themeTaxonomy":[
-{
-"@id":"http://datos.gob.es/kos/sector-publico/sector"
-}
-],
-"http://purl.org/dc/terms/issued":[
-{
-"@value":"2025-01-01T09:00:00+01:00",
-"@type":"http://www.w3.org/2001/XMLSchema#dateTime"
-}
-],
-"http://purl.org/dc/terms/modified":[
-{
-"@value":"2025-01-02T12:00:00+01:00",
-"@type":"http://www.w3.org/2001/XMLSchema#dateTime"
-}
-],
-"http://purl.org/dc/terms/language":[
-{
-"@id":"http://publications.europa.eu/resource/authority/language/SPA"
-},
-{
-"@id":"http://publications.europa.eu/resource/authority/language/ENG"
-}
-],
-"http://purl.org/dc/terms/spatial":[
-{
-"@id":"http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-}
-],
-"http://purl.org/dc/terms/license":[
-{
-"@id":"http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-}
-],
-"http://www.w3.org/ns/dcat#service":[
-{
-"@id":"http://dcat-ap-es.ejemplo.org/dataservice/dataservice-ejemplo-1"
-}
-],
-"http://www.w3.org/ns/dcat#dataset":[
-{
-"@id":"http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-1"
-}
-]
-},
-{
-"@id":"http://dcat-ap-es.ejemplo.org/contactDataService",
-"@type":[
-"http://www.w3.org/2006/vcard/ns#Organization"
-],
-"http://www.w3.org/2006/vcard/ns#organization-name":[
-{
-"@value":"Organismo",
-"@language":"es"
-}
-],
-"http://www.w3.org/2006/vcard/ns#fn":[
-{
-"@value":"Oficina del dato",
-"@language":"es"
-}
-],
-"http://www.w3.org/2006/vcard/ns#hasURL":[
-{
-"@id":"http://dcat-ap-es.ejemplo.org/"
-}
-],
-"http://www.w3.org/2006/vcard/ns#hasUID":[
-{
-"@id":"E0DAT0001"
-}
-],
-"http://www.w3.org/2006/vcard/ns#hasEmail":[
-{
-"@id":"mailto:info-contacto@dcat-ap-es.ejemplo.org"
-}
-],
-"http://www.w3.org/2006/vcard/ns#hasTelephone":[
-{
-"@id":"tel:.+3491222222"
-}
-]
-},
-{
-"@id":"http://dcat-ap-es.ejemplo.org/contactDataset",
-"@type":[
-"http://www.w3.org/2006/vcard/ns#Organization"
-],
-"http://www.w3.org/2006/vcard/ns#organization-name":[
-{
-"@value":"Organismo",
-"@language":"es"
-}
-],
-"http://www.w3.org/2006/vcard/ns#fn":[
-{
-"@value":"Oficina del dato",
-"@language":"es"
-}
-],
-"http://www.w3.org/2006/vcard/ns#hasURL":[
-{
-"@id":"http://dcat-ap-es.ejemplo.org/"
-}
-],
-"http://www.w3.org/2006/vcard/ns#hasUID":[
-{
-"@id":"http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"
-}
-],
-"http://www.w3.org/2006/vcard/ns#hasEmail":[
-{
-"@id":"mailto:info-contacto@dcat-ap-es.ejemplo.org"
-}
-],
-"http://www.w3.org/2006/vcard/ns#hasTelephone":[
-{
-"@id":"tel:.+3491222222"
-}
-]
-},
-{
-"@id":"http://dcat-ap-es.ejemplo.org/dataservice/dataservice-ejemplo-1",
-"@type":[
-"http://www.w3.org/ns/dcat#DataService"
-],
-"http://purl.org/dc/terms/title":[
-{
-"@value":"Servicio de datos de ejemplo",
-"@language":"es"
-}
-],
-"http://www.w3.org/ns/dcat#endpointURL":[
-{
-"@id":"http://dcat-ap-es.ejemplo.org/dataservice/dataservice-ejemplo-1"
-}
-],
-"http://www.w3.org/ns/dcat#theme":[
-{
-"@id":"http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"
-}
-],
-"http://purl.org/dc/terms/publisher":[
-{
-"@id":"http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"
-}
-],
-"http://www.w3.org/ns/dcat#endpointDescription":[
-{
-"@id":"http://dcat-ap-es.ejemplo.org/dataservice/dataservice-ejemplo-1?service=CSW"
-}
-],
-"http://www.w3.org/ns/dcat#keyword":[
-{
-"@value":"estadísticas",
-"@language":"es"
-}
-],
-"http://www.w3.org/ns/dcat#contactPoint":[
-{
-"@id":"http://dcat-ap-es.ejemplo.org/contactDataService"
-}
-],
-"http://data.europa.eu/r5r/applicableLegislation":[
-{
-"@id":"https://www.boe.es/eli/es/rd/2023/08/22/729"
-}
-],
-"http://xmlns.com/foaf/0.1/page":[
-{
-"@id":"https://dcat-ap-es.ejemplo.org/api/sla.html"
-}
-],
-"http://www.w3.org/ns/dcat#servesDataset":[
-{
-"@id":"http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-1"
-}
-]
-},
-{
-"@id":"http://dcat-ap-es.ejemplo.org/dataservice/dataservice-ejemplo-1?service=CSW"
-},
-{
-"@id":"http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-1",
-"@type":[
-"http://www.w3.org/ns/dcat#Dataset"
-],
-"http://purl.org/dc/terms/identifier":[
-{
-"@value":"http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-1"
-}
-],
-"http://purl.org/dc/terms/title":[
-{
-"@value":"Dataset de ejemplo",
-"@language":"es"
-},
-{
-"@value":"Example Dataset",
-"@language":"en"
-}
-],
-"http://purl.org/dc/terms/description":[
-{
-"@value":"Descripción de un dataset de ejemplo.",
-"@language":"es"
-},
-{
-"@value":"Example dataset description.",
-"@language":"en"
-}
-],
-"http://purl.org/dc/terms/publisher":[
-{
-"@id":"http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"
-}
-],
-"http://www.w3.org/ns/dcat#theme":[
-{
-"@id":"http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"
-}
-],
-"http://purl.org/dc/terms/spatial":[
-{
-"@id":"http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-}
-],
-"http://www.w3.org/ns/dcat#keyword":[
-{
-"@value":"estadísticas",
-"@language":"es"
-},
-{
-"@value":"statistics",
-"@language":"en"
-}
-],
-"http://data.europa.eu/r5r/applicableLegislation":[
-{
-"@id":"https://www.boe.es/eli/es/rd/2023/08/22/729"
-}
-],
-"http://www.w3.org/ns/dcat#contactPoint":[
-{
-"@id":"http://dcat-ap-es.ejemplo.org/contactDataset"
-}
-],
-"http://purl.org/dc/terms/temporal":[
-{
-"@id":"_:b0"
-}
-],
-"http://www.w3.org/ns/dcat#distribution":[
-{
-"@id":"http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-1-CSV"
-}
-]
-},
-{
-"@id":"http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-1-CSV",
-"@type":[
-"http://www.w3.org/ns/dcat#Distribution"
-],
-"http://purl.org/dc/terms/title":[
-{
-"@value":"Distribución de ejemplo",
-"@language":"es"
-}
-],
-"http://purl.org/dc/terms/description":[
-{
-"@value":"Descripción de una distribución de ejemplo.",
-"@language":"es"
-}
-],
-"http://www.w3.org/ns/dcat#accessURL":[
-{
-"@id":"http://dcat-ap-es.ejemplo.org/files/dataset-ejemplo-1.CSV"
-}
-],
-"http://purl.org/dc/terms/format":[
-{
-"@id":"http://publications.europa.eu/resource/authority/file-type/CSV"
-}
-],
-"http://purl.org/dc/terms/license":[
-{
-"@id":"http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-}
-],
-"http://data.europa.eu/r5r/availability":[
-{
-"@id":"http://publications.europa.eu/resource/authority/planned-availability/STABLE"
-}
-],
-"http://data.europa.eu/r5r/applicableLegislation":[
-{
-"@id":"http://data.europa.eu/eli/dir/2007/2/2019-06-26"
-}
-],
-"http://www.w3.org/ns/dcat#byteSize":[
-{
-"@value":"1024",
-"@type":"http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
-}
-]
-},
-{
-"@id":"http://dcat-ap-es.ejemplo.org/files/dataset-ejemplo-1.CSV"
-},
-{
-"@id":"http://publications.europa.eu/resource/authority/file-type/CSV"
-},
-{
-"@id":"http://publications.europa.eu/resource/authority/language/ENG"
-},
-{
-"@id":"http://publications.europa.eu/resource/authority/language/SPA"
-},
-{
-"@id":"http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-},
-{
-"@id":"http://publications.europa.eu/resource/authority/planned-availability/STABLE"
-},
-{
-"@id":"http://purl.org/dc/terms/PeriodOfTime"
-},
-{
-"@id":"http://www.w3.org/2006/vcard/ns#Organization"
-},
-{
-"@id":"http://www.w3.org/ns/dcat#Catalog"
-},
-{
-"@id":"http://www.w3.org/ns/dcat#DataService"
-},
-{
-"@id":"http://www.w3.org/ns/dcat#Dataset"
-},
-{
-"@id":"http://www.w3.org/ns/dcat#Distribution"
-},
-{
-"@id":"https://dcat-ap-es.ejemplo.org/api/sla.html"
-},
-{
-"@id":"https://www.boe.es/eli/es/rd/2023/08/22/729"
-},
-{
-"@id":"mailto:info-contacto@dcat-ap-es.ejemplo.org"
-},
-{
-"@id":"tel:.+3491222222"
-}
-]
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:hydra="http://www.w3.org/ns/hydra/core#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:time="http://www.w3.org/2006/time#"
+  xmlns:locn="http://www.w3.org/ns/locn#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <dcat:Catalog rdf:about="https://172.17.8.173:8443">
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA"/>
+    </dct:language>
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/ENG"/>
+    </dct:language>
+    <dct:spatial>
+      <dct:Location rdf:about="http://publications.europa.eu/resource/authority/country/ESP">
+        <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</dcat:bbox>
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8150 40.5250)</dcat:centroid>
+        <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</locn:Geometry>
+      </dct:Location>
+    </dct:spatial>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
+    <dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+    <foaf:homepage rdf:resource="https://172.17.8.173:8443"/>
+    <dct:license>
+      <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR"/>
+      </rdf:Description>
+    </dct:license>
+    <dct:title xml:lang="es">CKAN</dct:title>
+    <dct:description xml:lang="es">Catalogo de datos del organismo</dct:description>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-26T11:00:28+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+00:00</dct:issued>
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901">
+        <foaf:name xml:lang="es">Ministerio de Asuntos Economicos y Transformacion Digital</foaf:name>
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
+        <dct:identifier>E05068901</dct:identifier>
+      </foaf:Agent>
+    </dct:publisher>
+    <dct:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901"/>
+    <dct:hasPart rdf:resource="https://datos.gob.es/catalogo/part-1"/>
+    <dct:isPartOf rdf:resource="https://datos.gob.es/catalogo/main"/>
+    <dcat:catalog rdf:resource="https://datos.gob.es/catalogo/related"/>
+    <dcat:record rdf:resource="https://datos.gob.es/catalogo/record/1"/>
+    <dct:temporal>
+      <dct:PeriodOfTime rdf:nodeID="Ne6bbda0153084c04a16fcf6a4a1d9c97">
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-01T00:00:00+00:00</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</dcat:endDate>
+        <time:hasBeginning>
+          <time:Instant rdf:nodeID="N81e4dcdc75ba4d7490640d04712b8059">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-01T00:00:00+00:00</time:inXSDDateTime>
+          </time:Instant>
+        </time:hasBeginning>
+        <time:hasEnd>
+          <time:Instant rdf:nodeID="Nea176004304042e2a36eaa0ed019c419">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</time:inXSDDateTime>
+          </time:Instant>
+        </time:hasEnd>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://172.17.8.173:8443/dataset/ttec20260226">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <dct:title xml:lang="es">Test Validación</dct:title>
+        <dct:description xml:lang="es">fhystruwsujsytu</dct:description>
+        <dcat:landingPage rdf:resource="https://172.17.8.173:8443/dataset/ttec20260226"/>
+        <dct:identifier>ttec20260226</dct:identifier>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-26T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-26T00:00:00+00:00</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/CAT"/>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"/>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>	
+		<dcat:distribution>
+		  <dcat:Distribution rdf:about="https://172.17.8.173:8443/dataset/ttec20260226/resource/listado-organismos-xlsx">
+			<dct:title xml:lang="es">Distribución Restringida</dct:title>
+			<dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+			<dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.ms-excel"/>
+			<dcat:accessURL rdf:resource="https://fakexlsx.es"/>
+			<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-26T00:00:00+00:00</dct:modified>
+			<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-26T00:00:00+00:00</dct:issued>
+			<dct:accessRights rdf:resource="http://schema.theodi.org/odrs/"/>
+			<dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</dcat:byteSize>
+			<dct:rights rdf:resource="http://schema.theodi.org/odrs/"/>
+		  </dcat:Distribution>
+        </dcat:distribution>		
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0023645"/>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:nodeID="N67acd72c483b4f0d84a0bb75ee18f4cf">
+            <vcard:fn xml:lang="es">Torralba Resino</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:jtorralb@tragsa.es"/>
+            <vcard:organization-name xml:lang="en">Tragsa</vcard:organization-name>
+            <vcard:organization-name xml:lang="es">Tragsa</vcard:organization-name>
+            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05233601"/>
+          </vcard:Kind>
+        </dcat:contactPoint>
+      </dcat:Dataset>
+    </dcat:dataset>
+  </dcat:Catalog>
+  <hydra:PagedCollection rdf:about="https://172.17.8.173:8443/catalog.rdf?page=1">
+    <hydra:firstPage>https://172.17.8.173:8443/catalog.rdf?page=1</hydra:firstPage>
+    <hydra:first>https://172.17.8.173:8443/catalog.rdf?page=1</hydra:first>
+    <hydra:lastPage>https://172.17.8.173:8443/catalog.rdf?page=1</hydra:lastPage>
+    <hydra:last>https://172.17.8.173:8443/catalog.rdf?page=1</hydra:last>
+    <hydra:totalItems rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hydra:totalItems>
+    <hydra:itemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hydra:itemsPerPage>
+  </hydra:PagedCollection>
+  <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0023645">
+    <foaf:name xml:lang="es">TTEC</foaf:name>
+    <dct:identifier>EA0023645</dct:identifier>
+  </foaf:Agent>
+  <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/CAT"/>
+</rdf:RDF>
