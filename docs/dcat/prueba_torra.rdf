@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:hydra="http://www.w3.org/ns/hydra/core#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:time="http://www.w3.org/2006/time#"
+  xmlns:locn="http://www.w3.org/ns/locn#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <dcat:Catalog rdf:about="https://172.17.8.173:8443">
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA"/>
+    </dct:language>
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/ENG"/>
+    </dct:language>
+    <dct:spatial>
+      <dct:Location rdf:about="http://publications.europa.eu/resource/authority/country/ESP">
+        <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</dcat:bbox>
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8150 40.5250)</dcat:centroid>
+        <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</locn:Geometry>
+      </dct:Location>
+    </dct:spatial>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
+    <dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+    <foaf:homepage rdf:resource="https://172.17.8.173:8443"/>
+    <dct:license>
+      <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR"/>
+      </rdf:Description>
+    </dct:license>
+    <dct:title xml:lang="es">CKAN</dct:title>
+    <dct:description xml:lang="es">Catalogo de datos del organismo</dct:description>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-26T11:00:28+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+00:00</dct:issued>
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901">
+        <foaf:name xml:lang="es">Ministerio de Asuntos Economicos y Transformacion Digital</foaf:name>
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
+        <dct:identifier>E05068901</dct:identifier>
+      </foaf:Agent>
+    </dct:publisher>
+    <dct:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901"/>
+    <dct:hasPart rdf:resource="https://datos.gob.es/catalogo/part-1"/>
+    <dct:isPartOf rdf:resource="https://datos.gob.es/catalogo/main"/>
+    <dcat:catalog rdf:resource="https://datos.gob.es/catalogo/related"/>
+    <dcat:record rdf:resource="https://datos.gob.es/catalogo/record/1"/>
+    <dct:temporal>
+      <dct:PeriodOfTime rdf:nodeID="Ne6bbda0153084c04a16fcf6a4a1d9c97">
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-01T00:00:00+00:00</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</dcat:endDate>
+        <time:hasBeginning>
+          <time:Instant rdf:nodeID="N81e4dcdc75ba4d7490640d04712b8059">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-01T00:00:00+00:00</time:inXSDDateTime>
+          </time:Instant>
+        </time:hasBeginning>
+        <time:hasEnd>
+          <time:Instant rdf:nodeID="Nea176004304042e2a36eaa0ed019c419">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</time:inXSDDateTime>
+          </time:Instant>
+        </time:hasEnd>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://172.17.8.173:8443/dataset/ttec20260226">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <dct:title xml:lang="es">Test Validación</dct:title>
+        <dct:description xml:lang="es">fhystruwsujsytu</dct:description>
+        <dcat:landingPage rdf:resource="https://172.17.8.173:8443/dataset/ttec20260226"/>
+        <dct:identifier>ttec20260226</dct:identifier>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-26T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-26T00:00:00+00:00</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/CAT"/>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"/>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED"/>	
+		<dcat:distribution>
+		  <dcat:Distribution rdf:about="https://172.17.8.173:8443/dataset/ttec20260226/resource/listado-organismos-xlsx">
+			<dct:title xml:lang="es">Distribución Restringida</dct:title>
+			<dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+			<dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.ms-excel"/>
+			<dcat:accessURL rdf:resource="https://fakexlsx.es"/>
+			<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-26T00:00:00+00:00</dct:modified>
+			<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-26T00:00:00+00:00</dct:issued>
+			<dct:accessRights rdf:resource="http://schema.theodi.org/odrs/"/>
+			<dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</dcat:byteSize>
+			<dct:rights rdf:resource="http://schema.theodi.org/odrs/"/>
+		  </dcat:Distribution>
+        </dcat:distribution>		
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0023645"/>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:nodeID="N67acd72c483b4f0d84a0bb75ee18f4cf">
+            <vcard:fn xml:lang="es">Torralba Resino</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:jtorralb@tragsa.es"/>
+            <vcard:organization-name xml:lang="en">Tragsa</vcard:organization-name>
+            <vcard:organization-name xml:lang="es">Tragsa</vcard:organization-name>
+            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05233601"/>
+          </vcard:Kind>
+        </dcat:contactPoint>
+      </dcat:Dataset>
+    </dcat:dataset>
+  </dcat:Catalog>
+  <hydra:PagedCollection rdf:about="https://172.17.8.173:8443/catalog.rdf?page=1">
+    <hydra:firstPage>https://172.17.8.173:8443/catalog.rdf?page=1</hydra:firstPage>
+    <hydra:first>https://172.17.8.173:8443/catalog.rdf?page=1</hydra:first>
+    <hydra:lastPage>https://172.17.8.173:8443/catalog.rdf?page=1</hydra:lastPage>
+    <hydra:last>https://172.17.8.173:8443/catalog.rdf?page=1</hydra:last>
+    <hydra:totalItems rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hydra:totalItems>
+    <hydra:itemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hydra:itemsPerPage>
+  </hydra:PagedCollection>
+  <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0023645">
+    <foaf:name xml:lang="es">TTEC</foaf:name>
+    <dct:identifier>EA0023645</dct:identifier>
+  </foaf:Agent>
+  <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/CAT"/>
+</rdf:RDF>
