@@ -13,7 +13,8 @@
     "locn": "http://www.w3.org/ns/locn#",
     "time": "http://www.w3.org/2006/time#",
     "adms": "http://www.w3.org/ns/adms#",
-    "odrl": "http://www.w3.org/ns/odrl/2/"
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "impulsadata": "http://tragsatec.es/def/impulsadata#"
   },
   "@graph": [
     {
@@ -21,41 +22,35 @@
       "@type": "dcat:Catalog",
       "dct:publisher": [
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513",
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234201",
           "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234201",
           "foaf:name": [
             {
-              "@value": "Servicio Publico de Empleo Estatal",
+              "@value": "Ministerio de Cultura",
               "@language": "es"
             }
           ]
         }
       ],
       "dct:title": {
-        "@value": "Catalogo de Observatorio de Ocupaciones",
+        "@value": "Catálogo de Datos Abiertos del Ministerio de Cultura",
         "@language": "es"
       },
-      "dct:creator": [
+      "dct:issued": [
         {
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
+          "@value": "2026-03-23T09:32:01+01",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-03-23T09:32:01+01",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:description": {
-        "@value": "Catálogo del Observatorio de Ocupaciones. Repositorio central de información analítica del mercado laboral, demanda de empleo, contratación, ofertas, prestaciones y afiliación a la Seguridad Social",
+        "@value": "Catálogo con los fondos documentales públicos del ministerio de cultura del reino de España",
         "@language": "es"
       },
       "dct:language": {
@@ -63,91 +58,54 @@
       },
       "foaf:homepage": [
         {
-          "@id": "https://datos.gob.es/es/catalogo/conjuntos-datos?publisher_display_name=Servicio+P%C3%BAblico+de+Empleo+Estatal"
+          "@id": "https://www.cultura.gob.es/portada.html"
         }
       ],
       "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+        "@id": "https://www.cultura.gob.es/comunes/aviso-legal.html"
       },
-      "dcat:themeTaxonomy": {
-        "@id": "http://datos.gob.es/kos/sector-publico/sector"
-      },
-      "dct:spatial": [
+      "dcat:themeTaxonomy": [
         {
-          "@type": "dct:Location",
-          "@id": "Madrid?"
+          "@id": "http://datos.gob.es/kos/sector-publico/sector"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme"
         }
       ],
       "dcat:dataset": [
         {
-          "@id": "https://datos.organismo.es/dataset/MITES:EA0041513:ds:EMPLEO:000001"
-        },
+          "@id": "https://datos.organismo.es/dataset/ES-MCU-000001"
+        }
+      ],
+      "impulsadata:validationStatus": [
         {
-          "@id": "https://datos.organismo.es/dataset/MITES:EA0041513:ds:EMPLEO:000002"
-        },
-        {
-          "@id": "https://datos.organismo.es/dataset/MITES:EA0041513:ds:EMPLEO:000003"
-        },
-        {
-          "@id": "https://datos.organismo.es/dataset/MITES:EA0041513:ds:EMPLEO:000004"
-        },
-        {
-          "@id": "https://datos.organismo.es/dataset/MITES:EA0041513:ds:EMPLEO:000005"
-        },
-        {
-          "@id": "https://datos.organismo.es/dataset/MITES:EA0041513:ds:EMPLEO:000006"
-        },
-        {
-          "@id": "https://datos.organismo.es/dataset/MITES:EA0041513:ds:EMPLEO:000007"
-        },
-        {
-          "@id": "https://datos.organismo.es/dataset/MITES:EA0041513:ds:EMPLEO:000008"
-        },
-        {
-          "@id": "https://datos.organismo.es/dataset/MITES:EA0041513:ds:EMPLEO:000009"
+          "@language": "es",
+          "@value": "conforme-DCAT-AP-ES"
         }
       ]
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MITES:EA0041513:ds:EMPLEO:000001",
+      "@id": "https://datos.organismo.es/dataset/ES-MCU-000001",
       "dct:publisher": [
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513",
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234201",
           "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234201",
           "foaf:name": [
             {
-              "@value": "Servicio Publico de Empleo Estatal",
+              "@value": "Ministerio de Cultura",
               "@language": "es"
             }
           ]
         }
       ],
       "dct:title": {
-        "@value": "Demandantes de empleo por municipio",
+        "@value": "Encuesta de datos ATENEO",
         "@language": "es"
       },
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
       "dct:description": {
-        "@value": "Demandantes de empleo por municipios, años 2006 a 2025",
+        "@value": "La ¿Información general en toda España? sobre costumbres de nacimiento, matrimonio y defunción, conocida como ?Encuesta del Ateneo?, fue organizada desde la Sección de Ciencias Morales y Políticas del Ateneo Científico, Literario y Artístico de Madrid, durante el Curso de 1901-1902.",
         "@language": "es"
       },
       "dct:accessRights": {
@@ -155,643 +113,62 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-02-25T00:00:00+01:00",
+          "@value": "2026-03-23T09:32:01+01",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "11-03-26T13:57:01,792000 +01:00",
+          "@value": "2026-03-23T09:32:01+01",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dcat:theme": [
         {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/cultura-ocio"
         },
         {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/demografia"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/EDUC"
         }
       ],
-      "dct:language": {
-        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
-      },
-      "dct:spatial": [
+      "dcat:distribution": [
         {
-          "@type": "dct:Location",
-          "@id": "Madrid?"
+          "@id": "https://datosabiertos.cultura.gob.es/ES-MCU-000001.csv"
         }
       ],
-      "dct:temporal": [
+      "impulsadata:validationStatus": [
         {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2026-02-25T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          }
-        }
-      ],
-      "dcat:contactPoint": [
-        {
-          "@type": "vcard:Kind",
-          "@id": "SEPE.ES",
-          "vcard:organization-name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ],
-          "vcard:fn": [
-            {
-              "@value": "Observatorio de Ocupaciones",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasURL": [
-            {
-              "@id": "https://datos.gob.es/es/catalogo/conjuntos-datos?publisher_display_name=Servicio+P%C3%BAblico+de+Empleo+Estatal"
-            }
-          ]
+          "@language": "es",
+          "@value": "conforme-DCAT-AP-ES"
         }
       ]
     },
     {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MITES:EA0041513:ds:EMPLEO:000002",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513",
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": {
-        "@value": "Contratos registriados por municipio",
-        "@language": "es"
+      "@id": "https://datosabiertos.cultura.gob.es/ES-MCU-000001.csv",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://datosabiertos.cultura.gob.es/ES-MCU-000001.csv"
       },
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:description": {
-        "@value": "Datos estadísticos del SEPE sobre Contratos registrados, desagregados por municipio, sexo, tipo de contrato y sector de actividad económica. Y aguante messi y el diegooooo",
-        "@language": "es"
-      },
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      "dct:license": {
+        "@id": "https://www.cultura.gob.es/comunes/aviso-legal.html"
       },
       "dct:issued": [
         {
-          "@value": "2026-02-25T00:00:00+01:00",
+          "@value": "2026-03-23T09:32:01+01",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "11-03-26T13:57:01,809000 +01:00",
+          "@value": "2026-03-23T09:32:01+01",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
-      "dcat:theme": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
-        }
-      ],
-      "dct:language": {
-        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
-      }
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MITES:EA0041513:ds:EMPLEO:000003",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513",
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": {
-        "@value": "Paro Registrado por municipio",
-        "@language": "es"
-      },
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:description": {
-        "@value": "Datos estadísticos del SEPE sobre Paro Registrado, desagregados por municipio, sexo, edad y sector de actividad económica.",
-        "@language": "es"
-      },
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
-      "dct:issued": [
-        {
-          "@value": "2026-02-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "11-03-26T13:57:01,810000 +01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
-        }
-      ],
-      "dct:language": {
-        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
-      }
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MITES:EA0041513:ds:EMPLEO:000004",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513",
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": {
-        "@value": "Gasto en prestaciones por desempleo",
-        "@language": "es"
-      },
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:description": {
-        "@value": "Datos estadísticos del SEPE sobre Gasto en Prestaciones por Desempleo, desagregados por provincia y tipo de prestación",
-        "@language": "es"
-      },
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
-      "dct:issued": [
-        {
-          "@value": "2026-02-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "11-03-26T13:57:01,810000 +01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
-        }
-      ],
-      "dct:language": {
-        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
-      }
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MITES:EA0041513:ds:EMPLEO:000005",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513",
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": {
-        "@value": "Demandantes Parados",
-        "@language": "es"
-      },
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:description": {
-        "@value": "Demandantes parados estatal desglosando por nivel formativo y sexo, nacionalidad y antigüedad de la demanda5",
-        "@language": "es"
-      },
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
-      "dct:issued": [
-        {
-          "@value": "2026-02-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "11-03-26T13:57:01,818000 +01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
-        }
-      ],
-      "dct:language": {
-        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
-      }
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MITES:EA0041513:ds:EMPLEO:000006",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513",
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": {
-        "@value": "Contratos estatales",
-        "@language": "es"
-      },
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:description": {
-        "@value": "Contratos a nivel estatal desglosando por nivel formativo y sexo, nacionalidad, tipo de contrato y tipo de jornada",
-        "@language": "es"
-      },
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
-      "dct:issued": [
-        {
-          "@value": "2026-02-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "11-03-26T13:57:01,825000 +01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
-        }
-      ],
-      "dct:language": {
-        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
-      }
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MITES:EA0041513:ds:EMPLEO:000007",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513",
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": {
-        "@value": "Demandantes parados AAEE",
-        "@language": "es"
-      },
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:description": {
-        "@value": "Demandantes parados estatal desglosando por AAEE  y sexo, tramos de edad y antigüedad de la demanda.",
-        "@language": "es"
-      },
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
-      "dct:issued": [
-        {
-          "@value": "2026-02-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "11-03-26T13:57:01,825000 +01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
-        }
-      ],
-      "dct:language": {
-        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
-      }
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MITES:EA0041513:ds:EMPLEO:000008",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513",
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": {
-        "@value": "Contratos estatales AAEE",
-        "@language": "es"
-      },
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:description": {
-        "@value": "Contratos a nivel estatal desglosando por AAEE y sexo, nacionalidad y tipo de contrato.",
-        "@language": "es"
-      },
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
-      "dct:issued": [
-        {
-          "@value": "2026-02-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "11-03-26T13:57:01,825000 +01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
-        }
-      ],
-      "dct:language": {
-        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
-      }
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MITES:EA0041513:ds:EMPLEO:000009",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513",
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": {
-        "@value": "Beneficiarios de prestaciones por Desempleo",
-        "@language": "es"
-      },
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Publico de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:description": {
-        "@value": "Beneficiarios de prestaciones por Desempleo FALTA DETALLE",
-        "@language": "es"
-      },
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
-      "dct:issued": [
-        {
-          "@value": "2026-02-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "11-03-26T13:57:01,825000 +01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
-        }
-      ],
-      "dct:language": {
-        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
+      "dcat:downloadURL": {
+        "@id": "https://datosabiertos.cultura.gob.es/ES-MCU-000001.csv"
       }
     }
   ]
