@@ -180,7 +180,7 @@
     <dct:title xml:lang="es">Encuesta de datos ATENEO</dct:title>
     <dct:description xml:lang="es">La ¿Información general en toda España? sobre costumbres de nacimiento, matrimonio y defunción, conocida como ?Encuesta del Ateneo?, fue organizada desde la Sección de Ciencias Morales y Políticas del Ateneo Científico, Literario y Artístico de Madrid, durante el Curso de 1901-1902.</dct:description>
     <dcat:landingPage rdf:resource="https://172.17.8.173:8443/dataset/esmcu000001" />
-    <dct:identifier>ES-MCU-000001</dct:identifier>
+    <dct:identifier>ES-MCU-0000010</dct:identifier>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-20T00:00:00+00:00</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-11T00:00:00+00:00</dct:issued>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/cultura-ocio" />
