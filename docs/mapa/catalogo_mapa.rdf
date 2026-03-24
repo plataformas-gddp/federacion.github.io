@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:spdx="http://spdx.org/rdf/terms#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:time="http://www.w3.org/2006/time#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:hydra="http://www.w3.org/ns/hydra/core#"
+  xmlns:dcatap="http://data.europa.eu/r5r/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:locn="http://www.w3.org/ns/locn#"
+>
+  <dcat:Dataset rdf:about="http://127.0.0.1:5000/dataset/esmapaindicespreciospreciopercibido">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dct:title xml:lang="es">Precios pagados</dct:title>
+    <dct:description xml:lang="es">Evolución nacional, mensual y anual, de los precios que perciben el agricultor o el ganadero por la venta de los productos agrarios que generan.</dct:description>
+    <dcat:landingPage rdf:resource="http://127.0.0.1:5000/dataset/esmapaindicespreciospreciopercibido"/>
+    <dct:identifier>ES.MAPA.IndicesPrecios.precio_percibido</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-23T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-20T00:00:00+00:00</dct:issued>
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA"/>
+    </dct:language>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
+    <dct:temporal>
+      <dct:PeriodOfTime rdf:nodeID="N9f90f57701b94ca9a5973fdc27e4c02f">
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-01-01T00:00:00+00:00</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-28T00:00:00+00:00</dcat:endDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="http://127.0.0.1:5000/dataset/esmapaindicespreciospreciopercibido/resource/precios-percibidos-20260115-csv">
+        <dct:title xml:lang="es">Precios percibidos (CSV)</dct:title>
+        <dct:description xml:lang="es">Distribución en CSV</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dcat:accessURL rdf:resource="http://precios_percibidos"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-23T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-20T00:00:00+00:00</dct:issued>
+        <spdx:checksum>
+          <spdx:Checksum rdf:nodeID="N8859783cf265463d836d0cfad3b3f7d6">
+            <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">c30b2a6c3120dde68ee26a189adf4d67</spdx:checksumValue>
+            <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+          </spdx:Checksum>
+        </spdx:checksum>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401">
+        <foaf:name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</foaf:name>
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
+        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401</dct:identifier>
+      </foaf:Agent>
+    </dct:publisher>
+    <dct:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+    <dcat:contactPoint>
+      <vcard:Kind rdf:nodeID="Na75a235ce06142529f0b9509083f8568">
+        <vcard:fn xml:lang="es">S.G. Análisis, Coordinación y Estadística</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:sgapc@mapa.es"/>
+        <vcard:organization-name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</vcard:organization-name>
+        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+      </vcard:Kind>
+    </dcat:contactPoint>
+  </dcat:Dataset>
+  <dcat:Catalog rdf:about="http://127.0.0.1:5000">
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dct:spatial>
+      <dct:Location rdf:about="https://datos.gob.es/id/territorio/espana">
+        <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-9.3015 35.9468, 3.0395 35.9468, 3.0395 43.7483, -9.3015 43.7483, -9.3015 35.9468))</dcat:bbox>
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8150 40.5250)</dcat:centroid>
+        <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-9.3015 35.9468, 3.0395 35.9468, 3.0395 43.7483, -9.3015 43.7483, -9.3015 35.9468))</locn:Geometry>
+      </dct:Location>
+    </dct:spatial>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
+    <foaf:homepage rdf:resource="http://127.0.0.1:5000"/>
+    <dct:license>
+      <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR"/>
+      </rdf:Description>
+    </dct:license>
+    <dct:title xml:lang="es">Datos abiertos del Ministerio de Agricultura, Pesca y Alimentación</dct:title>
+    <dct:description xml:lang="es">Catálogo de datos del Ministerio de Agricultura, Pesca y Alimentación</dct:description>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-23T08:01:06+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-01T00:00:00+00:00</dct:issued>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+    <dct:hasPart rdf:resource="https://desa-servicio.mapa.gob.es/ckan/part-1"/>
+    <dct:isPartOf rdf:resource="https://desa-servicio.mapa.gob.es/ckan/main"/>
+    <dcat:catalog rdf:resource="https://desa-servicio.mapa.gob.es/ckan/related"/>
+    <dcat:record rdf:resource="https://desa-servicio.mapa.gob.es/ckan/record/1"/>
+    <dct:temporal>
+      <dct:PeriodOfTime rdf:nodeID="Nabea26c3988f485db5935b30bf9893f2">
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-01T00:00:00+00:00</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</dcat:endDate>
+        <time:hasBeginning>
+          <time:Instant rdf:nodeID="N144e5126abc14d4581b586a8c1f06c8b">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-01T00:00:00+00:00</time:inXSDDateTime>
+          </time:Instant>
+        </time:hasBeginning>
+        <time:hasEnd>
+          <time:Instant rdf:nodeID="N729c5ce780154f9aabfffc1b788a88b1">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</time:inXSDDateTime>
+          </time:Instant>
+        </time:hasEnd>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dcat:dataset rdf:resource="http://127.0.0.1:5000/dataset/esmapaindicespreciospreciopercibido"/>
+  </dcat:Catalog>
+  <hydra:PagedCollection rdf:about="http://127.0.0.1:5000/catalog.rdf?page=1">
+    <hydra:firstPage>http://127.0.0.1:5000/catalog.rdf?page=1</hydra:firstPage>
+    <hydra:first>http://127.0.0.1:5000/catalog.rdf?page=1</hydra:first>
+    <hydra:lastPage>http://127.0.0.1:5000/catalog.rdf?page=1</hydra:lastPage>
+    <hydra:last>http://127.0.0.1:5000/catalog.rdf?page=1</hydra:last>
+    <hydra:totalItems rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hydra:totalItems>
+    <hydra:itemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hydra:itemsPerPage>
+  </hydra:PagedCollection>
+  <spdx:ChecksumAlgorithm rdf:about="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+</rdf:RDF>
