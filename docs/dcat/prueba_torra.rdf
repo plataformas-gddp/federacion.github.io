@@ -81,7 +81,7 @@
         <dct:identifier>220</dct:identifier>
       </foaf:Agent>
     </dct:publisher>
-    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502"><foaf:name xml:lang="es">Dirección de coches</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/SupraNationalAuthority" /></foaf:Agent></dct:creator>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130501"><foaf:name xml:lang="es">Dirección de coches</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/SupraNationalAuthority" /></foaf:Agent></dct:creator>
     <dcat:contactPoint>
       <vcard:Kind rdf:nodeID="Naf102d5de0f84c3badb234735da3647e">
         <vcard:fn xml:lang="es">Contacto A</vcard:fn>
