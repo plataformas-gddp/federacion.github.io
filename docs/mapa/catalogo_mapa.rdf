@@ -21,9 +21,7 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-23T00:00:00+00:00</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-20T00:00:00+00:00</dct:issued>
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA"/>
-    </dct:language>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
     <dct:temporal>
       <dct:PeriodOfTime rdf:nodeID="N9f90f57701b94ca9a5973fdc27e4c02f">
