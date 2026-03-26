@@ -26,6 +26,7 @@
     <dct:publisher>
       <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501">
         <foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones</foaf:name>
+        <dct:identifier>E05072501</dct:identifier>
       </foaf:Agent>
     </dct:publisher>
 
@@ -72,7 +73,7 @@
     </dcat:contactPoint>
 
     <dcat:distribution>
-      <dcat:Distribution rdf:about="https://10.99.193.1:8443/dataset/93b78bf0e9894786bc86eec50a04c557/resource/726728d1-ca1f-43d3-8dfb-851a6e7dcd75">
+      <dcat:Distribution rdf:about="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad/resource/726728d1-ca1f-43d3-8dfb-851a6e7dcd75">
         <dct:title xml:lang="es">Distribución CSV - Afiliados Sexo Edad</dct:title>
         <dct:license rdf:resource="https://datos.gob.es/es/aviso-legal"/>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
