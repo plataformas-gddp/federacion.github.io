@@ -1,74 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
   xmlns:dcat="http://www.w3.org/ns/dcat#"
-  xmlns:adms="http://www.w3.org/ns/adms#"
   xmlns:spdx="http://spdx.org/rdf/terms#"
   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-  xmlns:time="http://www.w3.org/2006/time#"
   xmlns:dct="http://purl.org/dc/terms/"
-  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:time="http://www.w3.org/2006/time#"
   xmlns:hydra="http://www.w3.org/ns/hydra/core#"
-  xmlns:dcatap="http://data.europa.eu/r5r/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:locn="http://www.w3.org/ns/locn#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcatap="http://data.europa.eu/r5r/"
+  xmlns:cnt="http://www.w3.org/2011/content#"
 >
-  <dcat:Dataset rdf:about="http://127.0.0.1:5000/dataset/esmapaindicespreciospreciopercibido">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
-    <dct:title xml:lang="es">Precios pagados</dct:title>
-    <dct:description xml:lang="es">Evolución nacional, mensual y anual, de los precios que perciben el agricultor o el ganadero por la venta de los productos agrarios que generan.</dct:description>
-    <dcat:landingPage rdf:resource="http://127.0.0.1:5000/dataset/esmapaindicespreciospreciopercibido"/>
-    <dct:identifier>ES.MAPA.IndicesPrecios.precio_percibido</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-23T00:00:00+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-20T00:00:00+00:00</dct:issued>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <dct:temporal>
-      <dct:PeriodOfTime rdf:nodeID="N9f90f57701b94ca9a5973fdc27e4c02f">
-        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-01-01T00:00:00+00:00</dcat:startDate>
-        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-28T00:00:00+00:00</dcat:endDate>
-      </dct:PeriodOfTime>
-    </dct:temporal>
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dcat:distribution>
-      <dcat:Distribution rdf:about="http://127.0.0.1:5000/dataset/esmapaindicespreciospreciopercibido/resource/precios-percibidos-20260115-csv">
-        <dct:title xml:lang="es">Precios percibidos (CSV)</dct:title>
-        <dct:description xml:lang="es">Distribución en CSV</dct:description>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dcat:accessURL rdf:resource="http://precios_percibidos"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-23T00:00:00+00:00</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-20T00:00:00+00:00</dct:issued>
-        <spdx:checksum>
-          <spdx:Checksum rdf:nodeID="N8859783cf265463d836d0cfad3b3f7d6">
-            <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">c30b2a6c3120dde68ee26a189adf4d67</spdx:checksumValue>
-            <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-          </spdx:Checksum>
-        </spdx:checksum>
-        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
-      </dcat:Distribution>
-    </dcat:distribution>
-    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
-    <dct:publisher>
-      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401">
-        <foaf:name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</foaf:name>
-        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
-        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401</dct:identifier>
-      </foaf:Agent>
-    </dct:publisher>
-    <dct:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dcat:contactPoint>
-      <vcard:Kind rdf:nodeID="Na75a235ce06142529f0b9509083f8568">
-        <vcard:fn xml:lang="es">S.G. Análisis, Coordinación y Estadística</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:sgapc@mapa.es"/>
-        <vcard:organization-name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</vcard:organization-name>
-        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-      </vcard:Kind>
-    </dcat:contactPoint>
-  </dcat:Dataset>
-  <dcat:Catalog rdf:about="http://127.0.0.1:5000">
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+  <dcat:Catalog rdf:about="https://desa-servicio.mapa.gob.es">
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA"/>
+    </dct:language>
     <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
     <dct:spatial>
       <dct:Location rdf:about="https://datos.gob.es/id/territorio/espana">
@@ -78,46 +27,338 @@
       </dct:Location>
     </dct:spatial>
     <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
-    <foaf:homepage rdf:resource="http://127.0.0.1:5000"/>
+    <foaf:homepage rdf:resource="https://desa-servicio.mapa.gob.es"/>
     <dct:license>
       <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
         <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR"/>
       </rdf:Description>
     </dct:license>
-    <dct:title xml:lang="es">Datos abiertos del Ministerio de Agricultura, Pesca y Alimentación</dct:title>
-    <dct:description xml:lang="es">Catálogo de datos del Ministerio de Agricultura, Pesca y Alimentación</dct:description>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-23T08:01:06+00:00</dct:modified>
+    <dct:title xml:lang="es">Datos Abiertos del Ministerio de Agricultura, Pesca y Alimentación</dct:title>
+    <dct:description xml:lang="es">Datos Abiertos del Ministerio de Agricultura, Pesca y Alimentación</dct:description>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T11:52:24+00:00</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-01T00:00:00+00:00</dct:issued>
-    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401">
+        <foaf:name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</foaf:name>
+        <dct:identifier>E05024401</dct:identifier>
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
+      </foaf:Agent>
+    </dct:publisher>
     <dct:hasPart rdf:resource="https://desa-servicio.mapa.gob.es/ckan/part-1"/>
     <dct:isPartOf rdf:resource="https://desa-servicio.mapa.gob.es/ckan/main"/>
     <dcat:catalog rdf:resource="https://desa-servicio.mapa.gob.es/ckan/related"/>
     <dcat:record rdf:resource="https://desa-servicio.mapa.gob.es/ckan/record/1"/>
     <dct:temporal>
-      <dct:PeriodOfTime rdf:nodeID="Nabea26c3988f485db5935b30bf9893f2">
+      <dct:PeriodOfTime rdf:nodeID="N60ef217853e84ae28050151bc76dfe4a">
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-01T00:00:00+00:00</dcat:startDate>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</dcat:endDate>
         <time:hasBeginning>
-          <time:Instant rdf:nodeID="N144e5126abc14d4581b586a8c1f06c8b">
+          <time:Instant rdf:nodeID="Nbb97a55ef7f04b35ae41458158fd4633">
             <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-01T00:00:00+00:00</time:inXSDDateTime>
           </time:Instant>
         </time:hasBeginning>
         <time:hasEnd>
-          <time:Instant rdf:nodeID="N729c5ce780154f9aabfffc1b788a88b1">
+          <time:Instant rdf:nodeID="Nd49e0bc819574627844f506104c5fded">
             <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</time:inXSDDateTime>
           </time:Instant>
         </time:hasEnd>
       </dct:PeriodOfTime>
     </dct:temporal>
-    <dcat:dataset rdf:resource="http://127.0.0.1:5000/dataset/esmapaindicespreciospreciopercibido"/>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://desa-servicio.mapa.gob.es/dataset/esmapaindicespreciosindicepercibido">
+        <dct:title xml:lang="es">Indices percibidos</dct:title>
+        <dct:description xml:lang="es">Evolución nacional, mensual y anual, de los índices que perciben el agricultor o el ganadero por la venta de los productos agrarios que generan.</dct:description>
+        <dcat:landingPage rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/esmapaindicespreciosindicepercibido"/>
+        <dct:identifier>ES.MAPA.IndicesPrecios.indice_percibido</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+        <dcat:keyword xml:lang="es">precios, agricultor, ganadero</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-17T00:00:00+00:00</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:nodeID="N221aa2d34b444b73b95e381917ed2af1">
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-10-01T00:00:00+00:00</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-01T00:00:00+00:00</dcat:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:distribution rdf:resource="https://desa-servicio.mapa.gob.es/dataset/esmapaindicespreciosindicepercibido/distribution/indices-percibidos-20260318-csv"/>
+        <dcat:distribution rdf:resource="https://desa-servicio.mapa.gob.es/dataset/esmapaindicespreciosindicepercibido/distribution/indices-percibidos"/>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+        <dct:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://desa-servicio.mapa.gob.es/dataset/mapa-es-salas_incubacion">
+        <dct:title xml:lang="en">Encuesta de Salas de Incubación</dct:title>
+        <dct:title xml:lang="es">Encuesta de Salas de Incubación</dct:title>
+        <dct:description xml:lang="en">La aplicación de una única Organización Común de los Mercados Agrarios (Reglamento (UE) n ° 1308/2013 del Parlamento Europeo y del Consejo) establece una serie de obligaciones en su desarrollo con respecto a la información que ha de comunicarse a EUROSTAT relativa a las salas de incubación de forma mensual.&#13;
+La naturaleza de estos datos es administrativa y con un carácter censal, es decir, se recogen mensualmente los huevos introducidos para incubar, así como los pollitos de un día de todas las salas de incubación ubicadas en el territorio nacional. Esta información proviene de los distintos Servicios Estadísticos de las Consejerías de Agricultura de las Comunidades Autónomas encargados de la recopilación de estos datos en el ejercicio de sus competencias.</dct:description>
+        <dct:description xml:lang="es">La aplicación de una única Organización Común de los Mercados Agrarios (Reglamento (UE) n ° 1308/2013 del Parlamento Europeo y del Consejo) establece una serie de obligaciones en su desarrollo con respecto a la información que ha de comunicarse a EUROSTAT relativa a las salas de incubación de forma mensual.&#13;
+La naturaleza de estos datos es administrativa y con un carácter censal, es decir, se recogen mensualmente los huevos introducidos para incubar, así como los pollitos de un día de todas las salas de incubación ubicadas en el territorio nacional. Esta información proviene de los distintos Servicios Estadísticos de las Consejerías de Agricultura de las Comunidades Autónomas encargados de la recopilación de estos datos en el ejercicio de sus competencias.</dct:description>
+        <dcat:landingPage rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/mapa-es-salas_incubacion"/>
+        <dct:identifier>MAPA.ES.SALAS_INCUBACION</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-17T00:00:00+00:00</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:nodeID="N4ee7d088a44c43928a84cf10fad4e299">
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-01-01T00:00:00+00:00</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-01T00:00:00+00:00</dcat:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:distribution rdf:resource="https://desa-servicio.mapa.gob.es/dataset/mapa-es-salas_incubacion/distribution/indice-pagado-202512180942-v2-csv"/>
+        <dcat:distribution rdf:resource="https://desa-servicio.mapa.gob.es/dataset/mapa-es-salas_incubacion/distribution/pbi-aves-nacidas-csv"/>
+        <dcat:distribution rdf:resource="https://desa-servicio.mapa.gob.es/dataset/mapa-es-salas_incubacion/distribution/datos-aves"/>
+        <dcat:distribution rdf:resource="https://desa-servicio.mapa.gob.es/dataset/mapa-es-salas_incubacion/distribution/pbi-aves-nacidas2-csv"/>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+        <dct:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+        <adms:identifier>
+          <adms:Identifier rdf:nodeID="Nd0c1985cb15948e0a9d5f0bdbae86ed4">
+            <skos:notation>DCAT-AP</skos:notation>
+          </adms:Identifier>
+        </adms:identifier>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:nodeID="N2a9dad4a315041faa92642e145facf43">
+            <vcard:fn xml:lang="en">S.G. Análisis, Coordinación y Estadística</vcard:fn>
+            <vcard:fn xml:lang="es">S.G. Análisis, Coordinación y Estadística</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:sgapc@mapa.es"/>
+            <vcard:organization-name xml:lang="en">Ministerio de Agricultura, Pesca y Alimentación</vcard:organization-name>
+            <vcard:organization-name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</vcard:organization-name>
+            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+          </vcard:Kind>
+        </dcat:contactPoint>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://desa-servicio.mapa.gob.es/dataset/esmapaindicespreciospreciopagado">
+        <dct:title xml:lang="es">Precios pagados</dct:title>
+        <dct:description xml:lang="es">Evolución nacional, mensual y anual, de los precios que pagan el agricultor o el ganadero por los medios de producción utilizados.</dct:description>
+        <dcat:landingPage rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/esmapaindicespreciospreciopagado"/>
+        <dct:identifier>ES.MAPA.IndicesPrecios.precio_pagado</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+        <dcat:keyword xml:lang="es">precios, agricultor, ganadero</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-17T00:00:00+00:00</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:nodeID="N2cb213a7f7da456e94f4864a9fdd244e">
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-10-01T00:00:00+00:00</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-01T00:00:00+00:00</dcat:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:distribution rdf:resource="https://desa-servicio.mapa.gob.es/dataset/esmapaindicespreciospreciopagado/distribution/precios-pagados-20260318-csv"/>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+        <dct:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://desa-servicio.mapa.gob.es/dataset/esmapaanuariocultivosdatoscultivos">
+        <dct:title xml:lang="es">Anuario de cultivos</dct:title>
+        <dct:description xml:lang="es">Estadística sobre superfices y producciones de cultivos.</dct:description>
+        <dcat:landingPage rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/esmapaanuariocultivosdatoscultivos"/>
+        <dct:identifier>ES.MAPA.AnuarioCultivos.datos_cultivos</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+        <dcat:keyword xml:lang="es">Utilizacion_de_las_tierras, Sistema_de_cultivo</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-13T00:00:00+00:00</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:nodeID="N78d7d3d4a3e045a1ae94cb71a48db021">
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1999-01-01T00:00:00+00:00</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-01T00:00:00+00:00</dcat:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:distribution rdf:resource="https://desa-servicio.mapa.gob.es/dataset/esmapaanuariocultivosdatoscultivos/distribution/1f92c6ae-38fe-46eb-985e-d5d3784e629e"/>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+        <dct:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://desa-servicio.mapa.gob.es/dataset/esmapaindicespreciosindicepagado">
+        <dct:title xml:lang="es">Indices pagados</dct:title>
+        <dct:description xml:lang="es">Evolución nacional, mensual y anual, de los índices que pagan el agricultor o el ganadero por los medios de producción utilizados.</dct:description>
+        <dcat:landingPage rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/esmapaindicespreciosindicepagado"/>
+        <dct:identifier>ES.MAPA.IndicesPrecios.indice_pagado</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+        <dcat:keyword xml:lang="es">precios, agricultor, ganadero</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-17T00:00:00+00:00</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:nodeID="Nd196df68c1c542558b1fa28eb1b4b768">
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-10-01T00:00:00+00:00</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-01T00:00:00+00:00</dcat:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:distribution rdf:resource="https://desa-servicio.mapa.gob.es/dataset/esmapaindicespreciosindicepagado/distribution/indices-pagados-20260318-csv"/>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+        <dct:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://desa-servicio.mapa.gob.es/dataset/esmapaindicespreciospreciopercibido">
+        <dct:title xml:lang="es">Precios percibidos</dct:title>
+        <dct:description xml:lang="es">Evolución nacional, mensual y anual, de los precios que perciben el agricultor o el ganadero por la venta de los productos agrarios que generan.</dct:description>
+        <dcat:landingPage rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/esmapaindicespreciospreciopercibido"/>
+        <dct:identifier>ES.MAPA.IndicesPrecios.precio_percibido</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+        <dcat:keyword xml:lang="es">precios, agricultor, ganadero</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-17T00:00:00+00:00</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:nodeID="Nc22ebf57c4fe426a9f18f9c237c2ed35">
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-10-01T00:00:00+00:00</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-01T00:00:00+00:00</dcat:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:distribution rdf:resource="https://desa-servicio.mapa.gob.es/dataset/esmapaindicespreciospreciopercibido/distribution/precios-percibidos-20260318-csv"/>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+        <dct:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+      </dcat:Dataset>
+    </dcat:dataset>
   </dcat:Catalog>
-  <hydra:PagedCollection rdf:about="http://127.0.0.1:5000/catalog.rdf?page=1">
-    <hydra:firstPage>http://127.0.0.1:5000/catalog.rdf?page=1</hydra:firstPage>
-    <hydra:first>http://127.0.0.1:5000/catalog.rdf?page=1</hydra:first>
-    <hydra:lastPage>http://127.0.0.1:5000/catalog.rdf?page=1</hydra:lastPage>
-    <hydra:last>http://127.0.0.1:5000/catalog.rdf?page=1</hydra:last>
-    <hydra:totalItems rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hydra:totalItems>
+  <hydra:PagedCollection rdf:about="https://desa-servicio.mapa.gob.es/catalog.rdf?page=1">
+    <hydra:firstPage>https://desa-servicio.mapa.gob.es/catalog.rdf?page=1</hydra:firstPage>
+    <hydra:first>https://desa-servicio.mapa.gob.es/catalog.rdf?page=1</hydra:first>
+    <hydra:lastPage>https://desa-servicio.mapa.gob.es/catalog.rdf?page=1</hydra:lastPage>
+    <hydra:last>https://desa-servicio.mapa.gob.es/catalog.rdf?page=1</hydra:last>
+    <hydra:totalItems rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</hydra:totalItems>
     <hydra:itemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hydra:itemsPerPage>
   </hydra:PagedCollection>
+  <dcat:Distribution rdf:about="https://desa-servicio.mapa.gob.es/dataset/mapa-es-salas_incubacion/distribution/indice-pagado-202512180942-v2-csv">
+    <dct:title xml:lang="en">Encuesta de Salas de Incubación</dct:title>
+    <dct:title xml:lang="es">Encuesta de Salas de Incubación</dct:title>
+    <dct:description xml:lang="en">Encuesta de Salas de Incubación</dct:description>
+    <dct:description xml:lang="es">Encuesta de Salas de Incubación</dct:description>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dcat:accessURL rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/81594fdb-4335-4e95-936c-4ac92196efe0/resource/9b5ea72d-e4f0-4cd2-87ed-8fdb99521e40/download/aves_nacidas_v2.csv"/>
+    <dcat:downloadURL rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/81594fdb-4335-4e95-936c-4ac92196efe0/resource/9b5ea72d-e4f0-4cd2-87ed-8fdb99521e40/download/aves_nacidas_v2.csv"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-17T00:00:00+00:00</dct:issued>
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">371</dcat:byteSize>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://desa-servicio.mapa.gob.es/dataset/esmapaanuariocultivosdatoscultivos/distribution/1f92c6ae-38fe-46eb-985e-d5d3784e629e">
+    <dct:description xml:lang="es">Distribución en CSV</dct:description>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
+    <dcat:accessURL rdf:resource="https://127.0.0.1:8443/es/dataset/anuario_cultivos/resource/1f92c6ae-38fe-46eb-985e-d5d3784e629e"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-19T00:00:00+00:00</dct:issued>
+    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+    <dcat:downloadURL rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/esmapaanuariocultivosdatoscultivos/resource/1f92c6ae-38fe-46eb-985e-d5d3784e629e"/>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://desa-servicio.mapa.gob.es/dataset/mapa-es-salas_incubacion/distribution/pbi-aves-nacidas2-csv">
+    <dct:title xml:lang="es">pruebas aves</dct:title>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:accessURL rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/mapa-es-salas_incubacion/resource/peuab"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-19T00:00:00+00:00</dct:issued>
+    <dcat:downloadURL rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/mapa-es-salas_incubacion/resource/peuab"/>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://desa-servicio.mapa.gob.es/dataset/mapa-es-salas_incubacion/distribution/pbi-aves-nacidas-csv">
+    <dct:title xml:lang="es">aves pruebas</dct:title>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
+    <dcat:accessURL rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/mapa-es-salas_incubacion/resource/datos_avess"/>
+    <dcat:downloadURL rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/mapa-es-salas_incubacion/resource/datos_avess"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-18T00:00:00+00:00</dct:issued>
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6648</dcat:byteSize>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://desa-servicio.mapa.gob.es/dataset/mapa-es-salas_incubacion/distribution/datos-aves">
+    <dct:title xml:lang="es">Datos aves</dct:title>
+    <dcat:accessURL rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/mapa-es-salas_incubacion/resource/datos_aves"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-19T00:00:00+00:00</dct:issued>
+    <dcat:downloadURL rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/mapa-es-salas_incubacion/resource/datos_aves"/>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://desa-servicio.mapa.gob.es/dataset/esmapaindicespreciospreciopagado/distribution/precios-pagados-20260318-csv">
+    <dct:description xml:lang="es">Distribución en CSV</dct:description>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
+    <dcat:accessURL rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/04d6513d-9e78-4e16-a5a2-ca431c2c6cc8/resource/7df52c40-cafb-4ce6-8128-4cc17cea2249/download/Precios_Pagados_20260318.csv"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-19T00:00:00+00:00</dct:issued>
+    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+    <dcat:downloadURL rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/esmapaindicespreciospreciopagado/resource/precios-pagados-20260318-csv"/>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://desa-servicio.mapa.gob.es/dataset/esmapaindicespreciosindicepercibido/distribution/indices-percibidos">
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
+    <dcat:accessURL rdf:resource="https://desa-servicio.mapa.gob.es/ckan/api/3/action/dataset/esmapaindicespreciosindicepercibido"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T00:00:00+00:00</dct:issued>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://desa-servicio.mapa.gob.es/dataset/esmapaindicespreciospreciopercibido/distribution/precios-percibidos-20260318-csv">
+    <dct:description xml:lang="es">Distribución en CSV</dct:description>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
+    <dcat:accessURL rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/04d6513d-9e78-4e16-a5a2-ca431c2c6cc8/resource/7df52c40-cafb-4ce6-8128-4cc17cea2249/download/Precios_Percibidos_20260318.csv"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-19T00:00:00+00:00</dct:issued>
+    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+    <dcat:downloadURL rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/esmapaindicespreciospreciopercibido/resource/precios-percibidos-20260318-csv"/>
+  </dcat:Distribution>
+  <foaf:Document rdf:about="https://desa-servicio.mapa.gob.es/ckan/dataset/mapa-es-salas_incubacion"/>
+  <dcat:Distribution rdf:about="https://desa-servicio.mapa.gob.es/dataset/esmapaindicespreciosindicepercibido/distribution/indices-percibidos-20260318-csv">
+    <dct:description xml:lang="es">Distribución en CSV</dct:description>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
+    <dcat:accessURL rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/04d6513d-9e78-4e16-a5a2-ca431c2c6cc8/resource/7df52c40-cafb-4ce6-8128-4cc17cea2249/download/Indices_Percibidos_20260318.csv"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-19T00:00:00+00:00</dct:issued>
+    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+    <dcat:downloadURL rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/esmapaindicespreciosindicepercibido/resource/indices-percibidos-20260318-csv"/>
+  </dcat:Distribution>
+  <foaf:Document rdf:about="https://desa-servicio.mapa.gob.es/ckan/dataset/esmapaindicespreciosindicepercibido"/>
+  <dcat:Distribution rdf:about="https://desa-servicio.mapa.gob.es/dataset/esmapaindicespreciosindicepagado/distribution/indices-pagados-20260318-csv">
+    <dct:description xml:lang="es">Distribución en CSV</dct:description>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
+    <dcat:accessURL rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/04d6513d-9e78-4e16-a5a2-ca431c2c6cc8/resource/7df52c40-cafb-4ce6-8128-4cc17cea2249/download/Indices_Pagados_20260318.csv"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-19T00:00:00+00:00</dct:issued>
+    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+    <dcat:downloadURL rdf:resource="https://desa-servicio.mapa.gob.es/ckan/dataset/esmapaindicespreciosindicepagado/resource/indices-pagados-20260318-csv"/>
+  </dcat:Distribution>
+  <foaf:Document rdf:about="https://desa-servicio.mapa.gob.es/ckan/dataset/esmapaindicespreciospreciopercibido"/>
+  <foaf:Document rdf:about="https://desa-servicio.mapa.gob.es/ckan/dataset/esmapaindicespreciosindicepagado"/>
+  <foaf:Document rdf:about="https://desa-servicio.mapa.gob.es/ckan/dataset/esmapaindicespreciospreciopagado"/>
   <spdx:ChecksumAlgorithm rdf:about="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+  <foaf:Document rdf:about="https://desa-servicio.mapa.gob.es/ckan/dataset/esmapaanuariocultivosdatoscultivos"/>
 </rdf:RDF>
