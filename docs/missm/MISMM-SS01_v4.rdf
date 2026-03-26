@@ -29,7 +29,6 @@
     </dct:publisher>
     <dcat:dataset rdf:resource="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad"/>
   </dcat:Catalog>
-
   <dcat:Dataset rdf:about="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad">
     <dct:title xml:lang="es">01m. Por sexo, edad y regimen.px</dct:title>
     <dct:description xml:lang="es">Afiliados Medios por Sexo, Edad y Régimen.</dct:description>
@@ -52,7 +51,7 @@
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"/>
     <dcat:contactPoint>
       <vcard:Kind>
-        <vcard:fn>Oficina de Datos Abiertos Oberaxe</vcard:fn>
+        <vcard:fn>xml:lang="es">Oficina de Datos Abiertos Oberaxe</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:publicaciones@inclusion.gob.es"/>
         <vcard:hasTelephone>
            <vcard:Voice rdf:about="tel:+34910000000" />
@@ -60,7 +59,6 @@
         <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"/>
       </vcard:Kind>
     </dcat:contactPoint>
-
     <dcat:distribution>
       <dcat:Distribution rdf:about="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad/resource/726728d1-ca1f-43d3-8dfb-851a6e7dcd75">
         <dct:title xml:lang="es">Distribución CSV - Afiliados Sexo Edad</dct:title>
