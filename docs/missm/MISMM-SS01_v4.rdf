@@ -11,7 +11,7 @@
   xmlns:foaf="http://xmlns.com/foaf/0.1/"
 >
 
-  <dcat:Catalog rdf:about="https://plataformas-gddp.github.io/federacion.github.io/missm/MISMM-SS01_v3.rdf">
+  <dcat:Catalog rdf:about="https://plataformas-gddp.github.io/federacion.github.io/missm/MISMM-SS01_v4.rdf">
     <dct:title xml:lang="es">Catálogo de Datos Abiertos - MISSM</dct:title>
     <dct:description xml:lang="es">Catálogo de recursos de información del Ministerio de Inclusión, Seguridad Social y Migraciones.</dct:description>
     <foaf:homepage rdf:resource="https://www.inclusion.gob.es/"/>
