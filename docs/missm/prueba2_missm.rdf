@@ -18,14 +18,10 @@
     <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"/>
     
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/España"/>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/Espana"/>
 
     <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/93b78bf0e9894786bc86eec50a04c557"/>
   </dcat:Catalog>
-
-  <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/España">
-    <rdfs:label xml:lang="es">España</rdfs:label>
-  </dct:Location>
 
   <dcat:Dataset rdf:about="https://10.99.193.1:8443/dataset/93b78bf0e9894786bc86eec50a04c557">
     <dct:title xml:lang="es">01m. Por sexo, edad y regimen.px</dct:title>
