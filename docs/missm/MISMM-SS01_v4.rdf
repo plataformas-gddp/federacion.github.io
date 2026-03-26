@@ -27,7 +27,8 @@
       </foaf:Agent>
     </dct:publisher>
 
-  <dcat:dataset><dcat:Dataset rdf:about="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad">
+  <dcat:dataset>
+    <dcat:Dataset rdf:about="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad">
     <dct:title xml:lang="es">01m. Por sexo, edad y regimen.px</dct:title>
     <dct:description xml:lang="es">Afiliados Medios por Sexo, Edad y Régimen.</dct:description>
     <dcat:landingPage rdf:resource="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad"/>
@@ -49,7 +50,7 @@
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"/>
     <dcat:contactPoint>
       <vcard:Kind>
-        <vcard:fn>xml:lang="es">Oficina de Datos Abiertos Oberaxe</vcard:fn>
+        <vcard:fn xml:lang="es">Oficina de Datos Abiertos Oberaxe</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:publicaciones@inclusion.gob.es"/>
         <vcard:hasTelephone>
            <vcard:Voice rdf:about="tel:+34910000000" />
