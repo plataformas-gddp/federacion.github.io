@@ -19,6 +19,7 @@
     <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_Hidrografia_aguasfisicas"/>
     <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_hidrografia"/>
     <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
+    <dcat:themeTaxonomy rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/IACSData/>
     <dct:description xml:lang="es">Conjunto de Datasets del CNIG</dct:description>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-01</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
@@ -60,10 +61,8 @@
     <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR"/>
     <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignsioseAR2017"/>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"/>
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/comercio"/>
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte"/>
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
+    <dcat:theme rdf:resource=""/>
+
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
     <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
@@ -101,7 +100,7 @@
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"/>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/hacienda"/>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
+    <dcat:theme rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/IACSData"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
@@ -113,10 +112,8 @@
     <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
     <dct:title xml:lang="es">Servicio de descarga (ATOM) de nombres geográficos, líneas límite de España (IGN) e hidrografía (SCNE)</dct:title>
     <dct:title xml:lang="en">Download service (ATOM) of geographic names, boundary lines and hydrography of Spain (IGN)</dct:title>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
+    <foaf:page rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
+
   </dcat:DataService>
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_Hidrografia_aguasfisicas">
     <dcat:contactPoint>
@@ -210,6 +207,7 @@
     <dcat:keyword xml:lang="es">Presas</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"/>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
+    <dcat:theme rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/IACSData"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
     <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_dd313021"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
