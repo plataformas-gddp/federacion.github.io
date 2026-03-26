@@ -15,12 +15,12 @@
     <dct:title xml:lang="es">Catálogo de Datos Abiertos - MISSM</dct:title>
     <dct:description xml:lang="es">Catálogo de recursos de información del Ministerio de Inclusión, Seguridad Social y Migraciones.</dct:description>
     <foaf:homepage rdf:resource="https://www.inclusion.gob.es/"/>
-    <dct:license rdf:resource="https://datos.gob.es/es/aviso-legal"/>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-01T00:00:00+00:00</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T11:00:00+00:00</dct:modified>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
     <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Espana"/>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/España"/>
     <dct:publisher>
       <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501">
         <foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones</foaf:name>
@@ -41,7 +41,7 @@
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-01T00:00:00+00:00</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar"/>
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Espana"/>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/España"/>
     <dct:temporal>
       <dct:PeriodOfTime>
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-01T00:00:00+00:00</dcat:startDate>
