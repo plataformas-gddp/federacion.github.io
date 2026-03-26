@@ -11,11 +11,20 @@
   xmlns:foaf="http://xmlns.com/foaf/0.1/"
 >
 <dcat:Catalog rdf:about="https://plataformas-gddp.github.io/federacion.github.io/missm/MISMM-SS01_v2.rdf">
-    <dct:title xml:lang="es">Catálogo de datos abiertos de la TGSS - MISSM</dct:title>
-    <dct:description xml:lang="es">Repositorio de datos abiertos de la BBDD Estadísticas de la SS</dct:description>
-    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"/>
+    <dct:title xml:lang="es">Catálogo de Datos Abiertos - MISSM</dct:title>
+    <dct:description xml:lang="es">Catálogo de recursos de información del Ministerio de Inclusión, Seguridad Social y Migraciones.</dct:description>
     
-    <dcat:dataset rdf:resource="https://dominio-publico.es/dataset/afiliados-sexo-edad"/>
+    <foaf:homepage rdf:resource="https://www.inclusion.gob.es/"/>
+    <dct:license rdf:resource="https://datos.gob.es/es/aviso-legal"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-01T00:00:00+00:00</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-26T11:00:00+00:00</dct:modified>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Espana"/>
+    
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"/>
+
+    <dcat:dataset rdf:resource="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad"/>
   </dcat:Catalog>
 
   <dcat:Dataset rdf:about="https://10.99.193.1:8443/dataset/93b78bf0e9894786bc86eec50a04c557">
