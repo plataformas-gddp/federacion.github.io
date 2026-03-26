@@ -27,7 +27,7 @@
       </foaf:Agent>
     </dct:publisher>
 
-  <dcat:Dataset rdf:about="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad">
+  <dcat:dataset><dcat:Dataset rdf:about="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad">
     <dct:title xml:lang="es">01m. Por sexo, edad y regimen.px</dct:title>
     <dct:description xml:lang="es">Afiliados Medios por Sexo, Edad y Régimen.</dct:description>
     <dcat:landingPage rdf:resource="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad"/>
