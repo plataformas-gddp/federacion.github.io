@@ -10,7 +10,7 @@
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:foaf="http://xmlns.com/foaf/0.1/"
 >
-<dcat:Catalog rdf:about="https://plataformas-gddp.github.io/federacion.github.io/dcat/missm_ss.rdf">
+<dcat:Catalog rdf:about="https://plataformas-gddp.github.io/federacion.github.io/missm/MISMM-SS01_v2.rdf">
     <dct:title xml:lang="es">Catálogo de datos abiertos de la TGSS - MISSM</dct:title>
     <dct:description xml:lang="es">Repositorio de datos abiertos de la BBDD Estadísticas de la SS</dct:description>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"/>
