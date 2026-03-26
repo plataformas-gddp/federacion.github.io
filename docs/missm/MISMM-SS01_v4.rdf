@@ -26,8 +26,7 @@
         <dct:identifier>E05072501</dct:identifier>
       </foaf:Agent>
     </dct:publisher>
-    <dcat:dataset rdf:resource="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad"/>
-  </dcat:Catalog>
+
   <dcat:Dataset rdf:about="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad">
     <dct:title xml:lang="es">01m. Por sexo, edad y regimen.px</dct:title>
     <dct:description xml:lang="es">Afiliados Medios por Sexo, Edad y Régimen.</dct:description>
@@ -68,7 +67,6 @@
         <dcat:downloadURL rdf:resource="https://w6.seg-social.es/PXWeb/sq/726728d1-ca1f-43d3-8dfb-851a6e7dcd75"/>
       </dcat:Distribution>
     </dcat:distribution>
-
   </dcat:Dataset>
-
+</dcat:Catalog>
 </rdf:RDF>
