@@ -21,14 +21,12 @@
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
     <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
     <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Espana"/>
-    
     <dct:publisher>
       <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501">
         <foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones</foaf:name>
         <dct:identifier>E05072501</dct:identifier>
       </foaf:Agent>
     </dct:publisher>
-
     <dcat:dataset rdf:resource="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad"/>
   </dcat:Catalog>
 
@@ -37,29 +35,21 @@
     <dct:description xml:lang="es">Afiliados Medios por Sexo, Edad y Régimen.</dct:description>
     <dcat:landingPage rdf:resource="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad"/>
     <dct:identifier>93b78bf0-e989-4786-bc86-eec50a04c557</dct:identifier>
-    
     <dcat:keyword xml:lang="es">Afiliación</dcat:keyword>
     <dcat:keyword xml:lang="es">Seguridad Social</dcat:keyword>
-    
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-19T00:00:00+00:00</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-01T00:00:00+00:00</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-    
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar"/>
-    
     <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Espana"/>
-
     <dct:temporal>
       <dct:PeriodOfTime>
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-01T00:00:00+00:00</dcat:startDate>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-31T23:59:59+00:00</dcat:endDate>
       </dct:PeriodOfTime>
     </dct:temporal>
-
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"/>
-
     <dcat:contactPoint>
       <vcard:Kind>
         <vcard:fn>Oficina de Datos Abiertos Oberaxe</vcard:fn>
