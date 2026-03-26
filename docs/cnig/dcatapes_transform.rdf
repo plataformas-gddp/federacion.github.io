@@ -11,7 +11,7 @@
     <dct:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignHIDROGRAFIA_IGR"/>
     <skos:notation>spaignHIDROGRAFIA_IGR</skos:notation>
   </adms:Identifier>
-  <dcat:Catalog rdf:about="http://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/home">
+  <dcat:Catalog rdf:about="http://www.idee.es/csw-codsi-idee/srv/spa/catalog.search">
     <dcat:dataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR"/>
     <dcat:record rdf:resource="http://www.idee.es/csw-codsi-idee/srv/spa/catalog-record"/>
     <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_scne"/>
