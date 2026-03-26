@@ -64,7 +64,7 @@
     <dcat:distribution>
       <dcat:Distribution rdf:about="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad/resource/726728d1-ca1f-43d3-8dfb-851a6e7dcd75">
         <dct:title xml:lang="es">Distribución CSV - Afiliados Sexo Edad</dct:title>
-        <dct:license rdf:resource="https://datos.gob.es/es/aviso-legal"/>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
         <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
         <dcat:accessURL rdf:resource="https://w6.seg-social.es/PXWeb/sq/726728d1-ca1f-43d3-8dfb-851a6e7dcd75"/>
