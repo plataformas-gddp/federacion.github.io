@@ -24,7 +24,6 @@
     <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_Hidrografia_aguasfisicas"/>
     <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_hidrografia"/>
     <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
-    <dcat:themeTaxonomy rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/IACSData"/>
     <dct:description xml:lang="es">Conjunto de Datasets del CNIG</dct:description>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-01</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
