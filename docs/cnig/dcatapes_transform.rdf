@@ -123,10 +123,7 @@
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
     <dcat:endpointDescription rdf:resource="https://servicios.idee.es/wfs-inspire/hidrografia?service=WFS&amp;request=GetCapabilities&amp;version=2.0.0"/>
     <dcat:endpointURL rdf:resource="hhttps://servicios.idee.es/wfs-inspire/hidrografia"/>
-    <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/hidrografia?service=WFS&amp;request=DescribeFeatureType&amp;version=2.0.0"/>
-    <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/hidrografia?service=WFS&amp;request=DescribeStoredQueries&amp;version=2.0.0"/>
-    <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/hidrografia?service=WFS&amp;request=GetCapabilities&amp;version=2.0.0"/>
-    <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/hidrografia?SERVICE=WFS&amp;REQUEST=GetCapabilities&amp;VERSION=2.0.0"/>
+
     <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/hidrografia?service=WFS&amp;request=ListStoredQueries&amp;version=2.0.0"/>
     <dcat:keyword xml:lang="es">Hidrografía</dcat:keyword>
     <dcat:keyword xml:lang="es">Servicio de acceso a fenómenos</dcat:keyword>
@@ -233,26 +230,11 @@
     <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_Hidrografia_aguasfisicas"/>
     <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_hidrografia"/>
     <dcat:accessURL rdf:resource="https://api-features.idee.es/collections/crossing"/>
-    <dcat:accessURL rdf:resource="https://api-features.idee.es/collections/damorweir"/>
-    <dcat:accessURL rdf:resource="https://api-features.idee.es/collections/drainagebasin"/>
-    <dcat:accessURL rdf:resource="https://api-features.idee.es/collections/falls"/>
-    <dcat:accessURL rdf:resource="https://api-features.idee.es/collections/ford"/>
-    <dcat:accessURL rdf:resource="https://api-features.idee.es/collections/hydronode"/>
-    <dcat:accessURL rdf:resource="https://api-features.idee.es/collections/landwaterboundary"/>
-    <dcat:accessURL rdf:resource="https://api-features.idee.es/collections/lock"/>
-    <dcat:accessURL rdf:resource="https://api-features.idee.es/collections/riverbasin"/>
-    <dcat:accessURL rdf:resource="https://api-features.idee.es/collections/shorelineconstruction"/>
-    <dcat:accessURL rdf:resource="https://api-features.idee.es/collections/standingwater"/>
-    <dcat:accessURL rdf:resource="https://api-features.idee.es/collections/watercourse"/>
-    <dcat:accessURL rdf:resource="https://api-features.idee.es/collections/watercourselink"/>
-    <dcat:accessURL rdf:resource="https://api-features.idee.es/collections/watercourselinksequence"/>
-    <dcat:accessURL rdf:resource="https://api-features.idee.es/collections/wetland"/>
-    <dcat:accessURL rdf:resource="https://centrodedescargas.cnig.es/CentroDescargas/hidrografia"/>
+
     <dcat:accessURL rdf:resource="https://servicios.idee.es/wfs-inspire/hidrografia?SERVICE=WFS&amp;REQUEST=GetCapabilities&amp;VERSION=2.0.0"/>
     <dcat:accessURL rdf:resource="https://servicios.idee.es/wms-inspire/hidrografia?REQUEST=GetCapabilities&amp;SERVICE=WMS&amp;VERSION=1.3.0"/>
-    <dcat:accessURL rdf:resource="https://tms-ign-base.idee.es/1.0.0/IGNBaseOrto/%7bz%7d/%7bx%7d/%7b-y%7d.png"/>
-    <dcat:accessURL rdf:resource="https://tms-ign-base.idee.es/1.0.0/IGNBaseTodo/%7bz%7d/%7bx%7d/%7b-y%7d.jpeg"/>
-    <dcat:accessURL rdf:resource="https://www.ign.es/atom/dataset_feeds/hidro_igr.es.xml"/>
+
+
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
     <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
     <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES"/>
