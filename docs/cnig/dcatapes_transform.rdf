@@ -7,28 +7,27 @@
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
-  <adms:Identifier rdf:about="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignNGBE">
-    <dct:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignNGBE"/>
-    <skos:notation>spaignNGBE</skos:notation>
+  <adms:Identifier rdf:about="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2024">
+    <dct:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2024"/>
+    <skos:notation>spaignPNOA2024</skos:notation>
   </adms:Identifier>
   <dcat:Catalog rdf:about="http://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/home">
-    <dcat:dataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE"/>
     <dcat:record rdf:resource="http://www.idee.es/csw-codsi-idee/srv/spa/catalog-record"/>
-    <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_ign"/>
-    <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignatom_download_service"/>
-    <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_ngbe"/>
-    <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ngbe"/>
+    <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne"/>
+    <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ortoimagenes"/>
+    <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_pnoa-ma"/>
+    <dcat:dataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024"/>
     <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
     <dct:description xml:lang="es">Conjunto de Datasets del CNIG</dct:description>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-01</dct:issued>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+01:00</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
     <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-02</dct:modified>
-    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
     <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-02T00:00:00+01:00</dct:modified>
     <dct:title xml:lang="es">Catálogo de CNIG-IGN</dct:title>
     <foaf:homepage rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/home"/>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
   </dcat:Catalog>
   <dcat:CatalogRecord rdf:about="http://www.idee.es/csw-codsi-idee/srv/spa/catalog-record">
     <adms:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
@@ -36,242 +35,214 @@
     <dct:description xml:lang="es">Información adicional sobre las entradas del catálogo</dct:description>
     <dct:title xml:lang="es">Información de Registro de Catálogo</dct:title>
   </dcat:CatalogRecord>
-  <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_ign">
+  <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne">
+
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
+    <dcat:endpointURL rdf:resource="https://api-maps.idee.es/"/>
+    <dcat:keyword xml:lang="es">Elevaciones</dcat:keyword>
+    <dcat:keyword xml:lang="es">Ortoimágenes</dcat:keyword>
+    <dcat:keyword xml:lang="es">Hidrografía</dcat:keyword>
+    <dcat:keyword xml:lang="es">Uso del suelo</dcat:keyword>
+    <dcat:keyword xml:lang="es">Redes de transporte</dcat:keyword>
+    <dcat:keyword xml:lang="es">Direcciones</dcat:keyword>
+    <dcat:keyword xml:lang="es">Servicio de acceso a mapas</dcat:keyword>
+    <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
+    <dcat:keyword xml:lang="es">ogcapi.ogc.org/maps</dcat:keyword>
+    <dcat:keyword xml:lang="es">API Maps</dcat:keyword>
+    <dcat:keyword xml:lang="es">OGC</dcat:keyword>
+    <dcat:keyword xml:lang="es">Sistema Cartográfico Nacional</dcat:keyword>
+    <dcat:keyword xml:lang="es">SCNE</dcat:keyword>
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_capasbase"/>
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT05"/>
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMosaicoSentinel2"/>
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2021"/>
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2022"/>
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2023"/>
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024"/>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte"/>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
+    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description xml:lang="es">API de visualización de información geográfica de referencia y de ortoimágenes (API-Maps) del Sistema Cartográfico Nacional de España.</dct:description>
+    <dct:description xml:lang="en">Map visualization API (API-Maps) of the National Cartographic System of Spain.</dct:description>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dct:title xml:lang="es">API de visualización de información geográfica de referencia y de ortoimágenes (API-Maps) del Sistema Cartográfico Nacional de España.</dct:title>
+    <dct:title xml:lang="en">Map visualization API (API-Maps) of the National Cartographic System of Spain.</dct:title>
+    <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
     <dcat:contactPoint>
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
         <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
       </vcard:Organization>
     </dcat:contactPoint>
-    <dcat:endpointURL rdf:resource="https://api-features.ign.es/"/>
+  </dcat:DataService>
+  <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ortoimagenes">
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
-    <dcat:keyword xml:lang="es">Unidades administrativas</dcat:keyword>
-    <dcat:keyword xml:lang="es">Nombres geográficos</dcat:keyword>
-    <dcat:keyword xml:lang="es">Sistemas de coordenadas de referencia</dcat:keyword>
-    <dcat:keyword xml:lang="es">Servicio de acceso a fenómenos</dcat:keyword>
+    <dcat:endpointDescription rdf:resource="https://www.ign.es/wms-inspire/pnoa-ma?request=GetCapabilities&amp;service=WMS&amp;version=1.3.0"/>
+    <dcat:endpointURL rdf:resource="https://www.ign.es/wms-inspire/pnoa-ma"/>
+    <dcat:endpointURL rdf:resource="https://www.ign.es/wms-inspire/pnoa-ma?request=GetCapabilities&amp;service=WMS"/>
+    <dcat:endpointURL rdf:resource="https://www.ign.es/wms-inspire/pnoa-ma?request=GetCapabilities&amp;service=WMS&amp;version=1.3.0"/>
+    <dcat:keyword xml:lang="es">Ortoimágenes</dcat:keyword>
+    <dcat:keyword xml:lang="es">Servicio de acceso a mapas</dcat:keyword>
     <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
-    <dcat:keyword xml:lang="es">OGC</dcat:keyword>
-    <dcat:keyword xml:lang="es">API</dcat:keyword>
-    <dcat:keyword xml:lang="es">Features</dcat:keyword>
-    <dcat:keyword xml:lang="es">REGENTE</dcat:keyword>
-    <dcat:keyword xml:lang="es">REDNAP</dcat:keyword>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Poblaciones"/>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM"/>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE"/>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignredergnss"/>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignredmareografos"/>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignrednap"/>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignredregente"/>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignredroi"/>
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/hacienda"/>
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMosaicoSentinel2"/>
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2021"/>
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2022"/>
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2023"/>
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
+    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description xml:lang="es">WMS de Ortoimágenes de España (satélite Sentinel2 y ortofotos del PNOA máxima actualidad)</dct:description>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dct:title xml:lang="es">WMS de Ortoimágenes de España (satélite Sentinel2 y ortofotos del PNOA máxima actualidad)</dct:title>
+    <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
+    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
+    <dcat:contactPoint>
+      <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)">
+        <vcard:fn xml:lang="es">Infraestructura de Datos Espaciales de España (IDEE)</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
+      </vcard:Organization>
+    </dcat:contactPoint>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
+  </dcat:DataService>
+  <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_pnoa-ma">
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
+    <dcat:endpointDescription rdf:resource="https://www.ign.es/wmts/pnoa-ma?REQUEST=GetCapabilities&amp;SERVICE=WMTS"/>
+    <dcat:endpointURL rdf:resource="https://www.ign.es/wmts/pnoa-ma"/>
+    <dcat:endpointURL rdf:resource="https://www.ign.es/wmts/pnoa-ma?REQUEST=GetCapabilities&amp;SERVICE=WMTS"/>
+    <dcat:keyword xml:lang="es">Ortoimágenes</dcat:keyword>
+    <dcat:keyword xml:lang="es">Servicio de acceso a mapas</dcat:keyword>
+    <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMosaicoSentinel2"/>
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2021"/>
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2022"/>
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2023"/>
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
+    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description xml:lang="es">WMTS de Ortoimágenes de España (satélite Sentinel2 y ortofotos del PNOA MA)</dct:description>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dct:title xml:lang="es">WMTS de Ortoimágenes de España (satélite Sentinel2 y ortofotos del PNOA MA)</dct:title>
+    <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
+    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
+    <dcat:contactPoint>
+      <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)">
+        <vcard:fn xml:lang="es">Infraestructura de Datos Espaciales de España (IDEE)</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
+      </vcard:Organization>
+    </dcat:contactPoint>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
+  </dcat:DataService>
+  <dcat:Dataset rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024">
+
+    <adms:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2024"/>
+    <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024/formatters/html"/>
+    <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024/formatters/xml"/>
+    <dcat:keyword xml:lang="es">Ortoimágenes</dcat:keyword>
+    <dcat:keyword xml:lang="es">High-value dataset</dcat:keyword>
+    <dcat:keyword xml:lang="es">Earth observation and environment</dcat:keyword>
+    <dcat:keyword xml:lang="es">Orthoimagery</dcat:keyword>
+    <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
+    <dcat:keyword xml:lang="es">Sistema Cartográfico Nacional</dcat:keyword>
+    <dcat:keyword xml:lang="es">España</dcat:keyword>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205/oj"/>
-    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dct:description xml:lang="es">API de descarga de líneas límite, el Nomenclátor Geográfico Básico de España, Poblaciones y Vértices Geodésicos (API-Features) de España</dct:description>
-    <dct:description xml:lang="en">API for downloading geographic objects (API-Features) of Spain</dct:description>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-    <dct:title xml:lang="es">API de descarga de líneas límite, el Nomenclátor Geográfico Básico de España, Poblaciones y Vértices Geodésicos (API-Features) de España</dct:title>
-    <dct:title xml:lang="en">API for downloading geographic objects (API-Features) of Spain</dct:title>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205/oj"/>
-  </dcat:DataService>
-  <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignatom_download_service">
-    <dcat:contactPoint>
-      <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
-        <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-      </vcard:Organization>
-    </dcat:contactPoint>
-    <dcat:endpointURL rdf:resource="https://www.ign.es/atom/ds.es.xml"/>
-    <dcat:endpointURL rdf:resource="https://www.ign.es/atom/osd/opensearchdescription.xml"/>
-    <dcat:keyword xml:lang="es">Unidades administrativas</dcat:keyword>
-    <dcat:keyword xml:lang="es">Nombres geográficos</dcat:keyword>
-    <dcat:keyword xml:lang="es">Hidrografía</dcat:keyword>
-    <dcat:keyword xml:lang="es">Servicio de acceso a fenómenos</dcat:keyword>
-    <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
-    <dcat:keyword xml:lang="es">Servicio de gestión de modelos/información geográficos</dcat:keyword>
-    <dcat:keyword xml:lang="es">infoManagementService</dcat:keyword>
-    <dcat:keyword xml:lang="es">infoFeatureAccessService</dcat:keyword>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR"/>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM"/>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE"/>
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"/>
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/hacienda"/>
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
-    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dct:description xml:lang="es">Servicio de descarga (ATOM) de nombres geográficos, líneas límite de España (IGN) e hidrografía (SCNE)</dct:description>
-    <dct:description xml:lang="en">Download service (ATOM) of geographic names, boundary lines and hydrography of Spain (IGN)</dct:description>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-    <dct:title xml:lang="es">Servicio de descarga (ATOM) de nombres geográficos, líneas límite de España (IGN) e hidrografía (SCNE)</dct:title>
-    <dct:title xml:lang="en">Download service (ATOM) of geographic names, boundary lines and hydrography of Spain (IGN)</dct:title>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
-  </dcat:DataService>
-  <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_ngbe">
-    <dcat:contactPoint>
-      <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
-        <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:ign@mitma.es"/>
-      </vcard:Organization>
-    </dcat:contactPoint>
-    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
-    <dcat:endpointDescription rdf:resource="https://www.ign.es/wfs-inspire/ngbe?REQUEST=GetCapabilities&amp;SERVICE=WFS&amp;VERSION=2.0.0"/>
-    <dcat:endpointURL rdf:resource="https://www.ign.es/wfs-inspire/ngbe"/>
-    <dcat:endpointURL rdf:resource="https://www.ign.es/wfs-inspire/ngbe?REQUEST=DescribeFeatureType&amp;SERVICE=WFS&amp;VERSION=2.0.0"/>
-    <dcat:endpointURL rdf:resource="https://www.ign.es/wfs-inspire/ngbe?Request=GetCapabilities&amp;SERVICE=WFS"/>
-    <dcat:endpointURL rdf:resource="https://www.ign.es/wfs-inspire/ngbe?REQUEST=GetCapabilities&amp;SERVICE=WFS&amp;VERSION=2.0.0"/>
-    <dcat:keyword xml:lang="es">Nombres geográficos</dcat:keyword>
-    <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
-    <dcat:keyword xml:lang="es">Servicio de acceso a fenómenos</dcat:keyword>
-    <dcat:keyword xml:lang="es">2.0.0</dcat:keyword>
-    <dcat:keyword xml:lang="es">WFS</dcat:keyword>
-    <dcat:keyword xml:lang="es">OGC</dcat:keyword>
-    <dcat:keyword xml:lang="es">IGR</dcat:keyword>
-    <dcat:keyword xml:lang="es">Información Geográfica de Referencia</dcat:keyword>
-    <dcat:keyword xml:lang="es">CNIG</dcat:keyword>
-    <dcat:keyword xml:lang="es">NGBE</dcat:keyword>
-    <dcat:keyword xml:lang="es">Topónimo</dcat:keyword>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE"/>
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
-    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dct:description xml:lang="es">Servicio WFS de Nomenclátor Geográfico Básico de España</dct:description>
-    <dct:description xml:lang="en">Service WFS of Basic Gazetteer of Spain</dct:description>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-    <dct:title xml:lang="es">Servicio WFS de Nomenclátor Geográfico Básico de España</dct:title>
-    <dct:title xml:lang="en">Service WFS of Basic Gazetteer of Spain</dct:title>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
-  </dcat:DataService>
-  <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ngbe">
-    <dcat:contactPoint>
-      <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
-        <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:ign@mitma.es"/>
-      </vcard:Organization>
-    </dcat:contactPoint>
-    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
-    <dcat:endpointDescription rdf:resource="https://www.ign.es/wms-inspire/ngbe?REQUEST=GetCapabilities&amp;Service=WMS"/>
-    <dcat:endpointURL rdf:resource="https://www.ign.es/wms-inspire/ngbe?REQUEST=GetCapabilities&amp;Service=WMS"/>
-    <dcat:endpointURL rdf:resource="https://www.ign.es/wms-inspire/ngbe?REQUEST=GetCapabilities&amp;Service=WMS&amp;version=1.3.0"/>
-    <dcat:endpointURL rdf:resource="https://www.ign.es/wms-inspire/ngbe?REQUEST=GetFeatureInfo&amp;Service=WMS&amp;version=1.3.0"/>
-    <dcat:endpointURL rdf:resource="https://www.ign.es/wms-inspire/ngbe?REQUEST=GetMap&amp;Service=WMS&amp;version=1.3.0"/>
-    <dcat:keyword xml:lang="es">Nombres geográficos</dcat:keyword>
-    <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
-    <dcat:keyword xml:lang="es">Servicio de acceso a mapas</dcat:keyword>
-    <dcat:keyword xml:lang="es">IGR</dcat:keyword>
-    <dcat:keyword xml:lang="es">Información Geográfica de Referencia</dcat:keyword>
-    <dcat:keyword xml:lang="es">SCNE</dcat:keyword>
-    <dcat:keyword xml:lang="es">Sistema Cartográfico Nacional</dcat:keyword>
-    <dcat:keyword xml:lang="es">CNIG</dcat:keyword>
-    <dcat:keyword xml:lang="es">NGBE</dcat:keyword>
-    <dcat:keyword xml:lang="es">Topónimo</dcat:keyword>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE"/>
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dct:description xml:lang="es">Servicio WMS de Nomenclátor Geográfico Básico de España</dct:description>
-    <dct:description xml:lang="en">Service WMS of Basic Gazetteer of Spain</dct:description>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-    <dct:title xml:lang="es">Servicio WMS de Nomenclátor Geográfico Básico de España</dct:title>
-    <dct:title xml:lang="en">Service WMS of Basic Gazetteer of Spain</dct:title>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-  </dcat:DataService>
-  <dcat:Dataset rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE">
-    <adms:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignNGBE"/>
-    <dcat:contactPoint>
-      <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
-        <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-      </vcard:Organization>
-    </dcat:contactPoint>
-    <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE/formatters/html"/>
-    <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE/formatters/xml"/>
-    <dcat:keyword xml:lang="es">Nombres geográficos</dcat:keyword>
-    <dcat:keyword xml:lang="es">High-value dataset</dcat:keyword>
-    <dcat:keyword xml:lang="es">Geospatial</dcat:keyword>
-    <dcat:keyword xml:lang="es">Geographical names</dcat:keyword>
-    <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
-    <dcat:keyword xml:lang="es">IGN</dcat:keyword>
-    <dcat:keyword xml:lang="es">CNIG</dcat:keyword>
-    <dcat:keyword xml:lang="es">España</dcat:keyword>
-    <dcat:keyword xml:lang="es">Toponimia</dcat:keyword>
-    <dcat:keyword xml:lang="es">Nomenclátor</dcat:keyword>
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
+    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_dd313021"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES"/>
-    <dct:description xml:lang="es">Base de datos con la relación de topónimos con sus correspondientes coordenadas y resto de atributos procedentes de la depuración de los topónimos previamente extraídos de la BTN.</dct:description>
-    <dct:description xml:lang="en">Database with the list of geographical names with their corresponding coordinates and other attributes from the debugging of the toponyms previously extracted from the projects BTN, and which constitutes the Basic Gazetteer of Spain, called NGBE.</dct:description>
-    <dct:identifier>spaignNGBE</dct:identifier>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dct:issued>
+    <dct:description xml:lang="es">Ortofotografías aéreas digitales del Plan Nacional de Ortofotografía Aérea del vuelo de 2024 (PNOA 2024) de Castilla-La Mancha, Aragón, Illes Balears y Comunitat Valenciana con una resolución de 25 cm y Canarias con una resolución de 20 cm.
+Los mosaicos se han obtenido a partir de las ortofotos definitivas más recientes.
+Las fechas de creación de cada mosaico son:
+Castilla-La Mancha norte: marzo 2025
+Castilla-La Mancha sur: junio 2025
+Illes Balears: abril 2025
+Aragón Sur: mayo 2025
+Aragón Norte: agosto 2025
+Canarias: octubre 2025
+Comunitat Valenciana: noviembre 2025</dct:description>
+    <dct:description xml:lang="en">Digital aerial orthophotographs from the National Aerial Orthophotography Plan for the 2024 flight (PNOA 2024) of Castilla-La Mancha, Aragon, Balearic Islands and Valencian Community with a resolution of 25 cm.
+The mosaics were obtained from the most recent definitive orthophotos and the Canary Islands with a resolution of 20 cm.
+The dates of creation of each mosaic are:
+Northern Castile-La Mancha: March 2025
+Southern Castile-La Mancha: June 2025
+Balearic Islands: April 2025
+Southern Aragon: May 2025
+Northern Aragon: August 2025
+Canary Islands: October 2025
+Valencian Community: November 2025</dct:description>
+    <dct:identifier>spaignPNOA2024</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-01T00:00:00+01:00</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
     <dct:spatial>
       <dct:Location>
-        <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON((-19.00 27.60, 4.30 27.60, 4.30 44.60, -19.00 44.60, -19.00 27.60))</dcat:bbox>
+        <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON((-7.07 39.87, -1.78 39.87, -1.78 43.24, -7.07 43.24, -7.07 39.87))</dcat:bbox>
       </dct:Location>
     </dct:spatial>
-    <dct:title xml:lang="es">Nomenclátor Geográfico Básico de España</dct:title>
-    <dct:title xml:lang="en">Basic Gazetteer of Spain</dct:title>
-    <dct:type>http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset</dct:type>
+    <dct:title xml:lang="es">Ortofotos PNOA Anual de 2024 (Máxima actualidad)</dct:title>
+    <dct:title xml:lang="en">Annual aerial orthophotographs of PNOA 2024 (Most up-to-date)</dct:title>
+    <dct:type rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset"/>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205/oj"/>
+    <dcat:contactPoint>
+      <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)">
+        <vcard:fn xml:lang="es">Infraestructura de Datos Espaciales de España (IDEE)</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
+      </vcard:Organization>
+    </dcat:contactPoint>
+  <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
   </dcat:Dataset>
-  <dcat:Distribution rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE/formatters/html">
-    <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_ign"/>
-    <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignatom_download_service"/>
-    <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_ngbe"/>
-    <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ngbe"/>
-    <dcat:accessURL rdf:resource="https://api-features.ign.es/collections/namedplace"/>
-    <dcat:accessURL rdf:resource="https://centrodedescargas.cnig.es/CentroDescargas/buscadorCatalogo.do?codFamilia=NGBES"/>
-    <dcat:accessURL rdf:resource="https://www.ign.es/atom/dataset_feeds/nomen_geo_bas.es.xml"/>
-    <dcat:accessURL rdf:resource="https://www.ign.es/wfs-inspire/ngbe?REQUEST=GetCapabilities&amp;SERVICE=WFS&amp;VERSION=2.0.0"/>
-    <dcat:accessURL rdf:resource="https://www.ign.es/wms-inspire/ngbe?REQUEST=GetCapabilities&amp;SERVICE=WMS&amp;VERSION=1.3.0"/>
+  <dcat:Distribution rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024/formatters/html">
+    <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne"/>
+    <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ortoimagenes"/>
+    <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_pnoa-ma"/>
+    <dcat:accessURL rdf:resource="https://api-maps.idee.es/"/>
+    <dcat:accessURL rdf:resource="https://centrodedescargas.cnig.es/CentroDescargas/ortofoto-pnoa-maxima-actualidad"/>
+    <dcat:accessURL rdf:resource="https://tms-pnoa-ma.idee.es/1.0.0/pnoa-ma/%7bz%7d/%7bx%7d/%7b-y%7d.jpeg"/>
+    <dcat:accessURL rdf:resource="https://www.ign.es/wms-inspire/pnoa-ma?request=GetCapabilities&amp;service=WMS&amp;VERSION=1.3.0"/>
+    <dcat:accessURL rdf:resource="https://www.ign.es/wmts/pnoa-ma?request=GetCapabilities&amp;service=WMTS&amp;VERSION=1.0.0"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205/oj"/>
     <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
     <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES"/>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dct:issued>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-01T00:00:00+01:00</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
     <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:title xml:lang="es">Distribución asociado a este Dataset</dct:title>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205/oj"/>
   </dcat:Distribution>
-  <dcat:Distribution rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE/formatters/xml">
-    <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_ign"/>
-    <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignatom_download_service"/>
-    <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_ngbe"/>
-    <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ngbe"/>
-    <dcat:accessURL rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE/formatters/xml"/>
+  <dcat:Distribution rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024/formatters/xml">
+    <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne"/>
+    <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ortoimagenes"/>
+    <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_pnoa-ma"/>
+    <dcat:accessURL rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024/formatters/xml"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205/oj"/>
     <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
     <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dct:issued>
+    
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-01T00:00:00+01:00</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
     <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:title xml:lang="es">Distribución asociado a este Dataset</dct:title>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205/oj"/>
   </dcat:Distribution>
   <foaf:Organization rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901">
     <dct:identifier rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
