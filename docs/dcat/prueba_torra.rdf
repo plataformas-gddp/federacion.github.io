@@ -154,7 +154,7 @@
     <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España" />
     <dct:publisher>
       <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0023645">
-        <foaf:name xml:lang="es">Empresa de Transformación Agraria, S.A., S.M.E., M.P. (TRAGSO)</foaf:name>
+        <foaf:name xml:lang="es">Empresa de Transformación Agraria, S.A., S.M.E., M.P. (TRAGSA)</foaf:name>
         <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0023645</dct:identifier>
         <dct:type rdf:resource="http://purl.org/adms/publishertype/Company" />
       </foaf:Agent>
@@ -205,7 +205,7 @@
   </dcat:Distribution>
 </dcat:distribution>
         <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05555555"><foaf:name xml:lang="es">Ministerio de la Asun</foaf:name><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901</dct:identifier></foaf:Agent></dct:publisher>
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901"><foaf:name xml:lang="es">Ministerio de la Asun</foaf:name><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901</dct:identifier></foaf:Agent></dct:publisher>
         <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502"><foaf:name xml:lang="es">Dirección de coches</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/SupraNationalAuthority" /></foaf:Agent></dct:creator>
         <dcat:contactPoint>
           <vcard:Kind rdf:nodeID="N4fa39fa4ae0c425988c56643a2f47240">
