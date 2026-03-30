@@ -53,48 +53,6 @@
         </time:hasEnd>
       </dct:PeriodOfTime>
     </dct:temporal>
-    <dcat:dataset><dcat:Dataset rdf:about="https://172.17.8.174:8443/dataset/93b78bf0e9894786bc86eec50a04c557">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-    <dct:title xml:lang="es">01m. Por sexo, edad y regimen.px</dct:title>
-    <dct:description xml:lang="es">filiados Medios por Sexo, Edad y Régimen.</dct:description>
-    <dcat:landingPage rdf:resource="https://172.17.8.174:8443/dataset/93b78bf0e9894786bc86eec50a04c557" />
-    <dcat:landingPage rdf:resource="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad" />
-    <dct:identifier>93b78bf0-e989-4786-bc86-eec50a04c557</dct:identifier>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-27T00:00:00+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-19T00:00:00+00:00</dct:issued>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-    <dcat:distribution>
-      <dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/93b78bf0e9894786bc86eec50a04c557/resource/afiliados-medios-3-csv">
-        <dct:title xml:lang="es">Distribución CSV - Afiliados Sexo Edad</dct:title>
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
-        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv" />
-        <dcat:accessURL rdf:resource="https://w6.seg-social.es/PXWeb/sq/726728d1-ca1f-43d3-8dfb-851a6e7dcd75" />
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-27T00:00:00+00:00</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-27T00:00:00+00:00</dct:issued>
-        <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-        <dcat:downloadURL rdf:resource="https://w6.seg-social.es/PXWeb/sq/726728d1-ca1f-43d3-8dfb-851a6e7dcd75" />
-      </dcat:Distribution>
-    </dcat:distribution>
-    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España" />
-    <dct:publisher>
-      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501">
-        <foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones</foaf:name>
-        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier>
-      </foaf:Agent>
-    </dct:publisher>
-    <dcat:contactPoint>
-      <vcard:Kind rdf:nodeID="Nb1b086037a5445b2bd066f844babff71">
-        <vcard:fn xml:lang="es">Oficina de Datos Abiertos Oberaxe</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:publicaciones@inclusion.gob.es" />
-        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501" />
-        <vcard:hasTelephone rdf:resource="tel:+34910000000" />
-      </vcard:Kind>
-    </dcat:contactPoint>
-  </dcat:Dataset>
   </dcat:dataset>
     <dcat:dataset><dcat:Dataset rdf:about="https://172.17.8.174:8443/dataset/testdesa">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
