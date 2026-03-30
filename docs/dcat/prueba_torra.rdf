@@ -163,7 +163,7 @@
       <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA5555555">
         <foaf:name xml:lang="en">Javier Torralb</foaf:name>
         <foaf:name xml:lang="es">Creadores de Catálogos SL</foaf:name>
-        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA5555555</dct:identifier>
+        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0023645</dct:identifier>
         <dct:type rdf:resource="http://purl.org/adms/publishertype/SupraNationalAuthority" />
       </foaf:Agent>
     </dct:creator>
