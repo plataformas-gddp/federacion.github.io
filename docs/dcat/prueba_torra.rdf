@@ -53,7 +53,6 @@
         </time:hasEnd>
       </dct:PeriodOfTime>
     </dct:temporal>
-  </dcat:dataset>
     <dcat:dataset><dcat:Dataset rdf:about="https://172.17.8.174:8443/dataset/testdesa">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
     <dct:title xml:lang="es">Dataset Completo</dct:title>
