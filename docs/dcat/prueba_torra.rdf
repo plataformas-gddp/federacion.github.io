@@ -53,52 +53,9 @@
         </time:hasEnd>
       </dct:PeriodOfTime>
     </dct:temporal>
-    <dcat:dataset><dcat:Dataset rdf:about="https://172.17.8.174:8443/dataset/93b78bf0e9894786bc86eec50a04c557">
+	<dcat:dataset><dcat:Dataset rdf:about="https://172.17.8.174:8443/dataset/testdesa">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-    <dct:title xml:lang="es">01m. Por sexo, edad y regimen.px</dct:title>
-    <dct:description xml:lang="es">filiados Medios por Sexo, Edad y Régimen.</dct:description>
-    <dcat:landingPage rdf:resource="https://172.17.8.174:8443/dataset/93b78bf0e9894786bc86eec50a04c557" />
-    <dcat:landingPage rdf:resource="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad" />
-    <dct:identifier>93b78bf0-e989-4786-bc86-eec50a04c557</dct:identifier>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-27T00:00:00+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-19T00:00:00+00:00</dct:issued>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-    <dcat:distribution>
-      <dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/93b78bf0e9894786bc86eec50a04c557/resource/afiliados-medios-3-csv">
-        <dct:title xml:lang="es">Distribución CSV - Afiliados Sexo Edad</dct:title>
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
-        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv" />
-        <dcat:accessURL rdf:resource="https://w6.seg-social.es/PXWeb/sq/726728d1-ca1f-43d3-8dfb-851a6e7dcd75" />
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-27T00:00:00+00:00</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-27T00:00:00+00:00</dct:issued>
-        <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-        <dcat:downloadURL rdf:resource="https://w6.seg-social.es/PXWeb/sq/726728d1-ca1f-43d3-8dfb-851a6e7dcd75" />
-      </dcat:Distribution>
-    </dcat:distribution>
-    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España" />
-    <dct:publisher>
-      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501">
-        <foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones</foaf:name>
-        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier>
-      </foaf:Agent>
-    </dct:publisher>
-    <dcat:contactPoint>
-      <vcard:Kind rdf:nodeID="Ne5fff58accc1469fb8dab207192a0292">
-        <vcard:fn xml:lang="es">Oficina de Datos Abiertos Oberaxe</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:publicaciones@inclusion.gob.es" />
-        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501" />
-        <vcard:hasTelephone rdf:resource="tel:+34910000000" />
-      </vcard:Kind>
-    </dcat:contactPoint>
-  </dcat:Dataset>
-  </dcat:dataset>
-    <dcat:dataset><dcat:Dataset rdf:about="https://172.17.8.174:8443/dataset/testdesa">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-    <dct:title xml:lang="es">Dataset Completo</dct:title>
+    <dct:title xml:lang="es">Dataset Completo Repetido</dct:title>
     <dct:description xml:lang="es">Un dataset con TODO</dct:description>
     <dcat:landingPage rdf:resource="https://172.17.8.174:8443/dataset/testdesa" />
     <dcat:landingPage rdf:resource="http://web.dataset.com" />
@@ -178,45 +135,5 @@
     </dcat:contactPoint>
   </dcat:Dataset>
   </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://172.17.8.174:8443/dataset/ttec20260316">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-        <dct:title xml:lang="es">Dataset con Autor</dct:title>
-        <dct:description xml:lang="es">Dataset con autor</dct:description>
-        <dcat:landingPage rdf:resource="https://172.17.8.174:8443/dataset/ttec20260316" />
-        <dct:identifier>TTEC20260316</dct:identifier>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-25T00:00:00+00:00</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-16T00:00:00+00:00</dct:issued>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/ttec20260316/resource/catalog-15-rdf">
-    <dct:title xml:lang="es">Distirbución ejemplo</dct:title>
-    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml" />
-    <dct:format>
-      <dct:IMT rdf:nodeID="N000f78b0960e47b7b0bddded6a6065b0">
-        <rdf:value>text/RDF+XML</rdf:value>
-        <rdfs:label>RDF+XML</rdfs:label>
-      </dct:IMT>
-    </dct:format>
-    <dcat:accessURL rdf:resource="https://www.rdf.es" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-23T00:00:00+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-16T00:00:00+00:00</dct:issued>
-  </dcat:Distribution>
-</dcat:distribution>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901"><foaf:name xml:lang="es">Ministerio de la Asun</foaf:name><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901</dct:identifier></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502"><foaf:name xml:lang="es">Dirección de coches</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/SupraNationalAuthority" /></foaf:Agent></dct:creator>
-        <dcat:contactPoint>
-          <vcard:Kind rdf:nodeID="Ned20ec4e298b48829c5d8994550f196c">
-            <vcard:fn xml:lang="es">Contacto A</vcard:fn>
-            <vcard:hasEmail rdf:resource="mailto:mail@mail.es" />
-            <vcard:organization-name xml:lang="es">Ministerio A</vcard:organization-name>
-            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00000001" />
-            <vcard:hasTelephone rdf:resource="tel:666321654" />
-          </vcard:Kind>
-        </dcat:contactPoint>
-      </dcat:Dataset>
-    </dcat:dataset>
   </dcat:Catalog>
   </rdf:RDF>
