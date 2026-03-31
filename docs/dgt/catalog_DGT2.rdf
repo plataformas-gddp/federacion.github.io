@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcatap="http://data.europa.eu/r5r/" xmlns:dct="http://purl.org/dc/terms/" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+  <dcat:Catalog rdf:about="https://10.50.107.100:8443">
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/ENG" />
+    </dct:language>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP" />
+    <dct:spatial>
+      <dct:Location rdf:nodeID="N484f9bea0dd0424a95e8f8fd30871686">
+        <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</dcat:bbox>
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8150 40.5250)</dcat:centroid>
+        <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</locn:Geometry>
+      </dct:Location>
+    </dct:spatial>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector" />
+    <dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme" />
+    <foaf:homepage rdf:resource="https://10.50.107.100:8443" />
+    <dct:license>
+      <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR" />
+      </rdf:Description>
+    </dct:license>
+    <dct:title xml:lang="es">CKAN</dct:title>
+    <dct:description xml:lang="es">Catalogo de datos del organismo</dct:description>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-31T11:49:58+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+00:00</dct:issued>
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901">
+        <foaf:name xml:lang="es">Ministerio de Asuntos Economicos y Transformacion Digital</foaf:name>
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" />
+        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901</dct:identifier>
+      </foaf:Agent>
+    </dct:publisher>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901"><foaf:name xml:lang="es">Ministerio de Asuntos Economicos y Transformacion Digital</foaf:name><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901</dct:identifier></foaf:Agent></dct:creator>
+    <dct:hasPart rdf:resource="https://datos.gob.es/catalogo/part-1" />
+    <dct:isPartOf rdf:resource="https://datos.gob.es/catalogo/main" />
+    <dcat:catalog rdf:resource="https://datos.gob.es/catalogo/related" />
+    <dcat:record rdf:resource="https://datos.gob.es/catalogo/record/1" />
+    <dct:temporal>
+      <dct:PeriodOfTime rdf:nodeID="N298e34f7897641b887bd85ed2f150680">
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-01T00:00:00+00:00</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</dcat:endDate>
+        <time:hasBeginning>
+          <time:Instant rdf:nodeID="N8e59b7c367aa41788b9342fe380e3c8c">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-01T00:00:00+00:00</time:inXSDDateTime>
+          </time:Instant>
+        </time:hasBeginning>
+        <time:hasEnd>
+          <time:Instant rdf:nodeID="Nc26bcdb59dee485fb0ff26fe54ea1c7f">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</time:inXSDDateTime>
+          </time:Instant>
+        </time:hasEnd>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dcat:dataset><dcat:Dataset rdf:about="https://10.50.107.100:8443/dataset/mire00130502dssini000001">
+    <dct:title xml:lang="es">Ficheros de microdatos de accidentes con víctimas 2024</dct:title>
+    <dct:description xml:lang="es">Este fichero contiene información de los accidentes con víctimas ocurridos en vías urbanas e interurbanas en España en el año 2024.
+
+Cada línea del fichero se corresponde con un accidente con víctimas, detallándose para cada fichero el número de registros y las variables que los componen.
+
+Las definiciones correspondientes a los indicadores de accidente con víctimas, fallecido 30 días, herido hospitalizado 30 días y herido no hospitalizado 30 días, se pueden consultar en la Orden INT/2223/2014, de 27 de octubre, por la que se regula la comunicación de la información al Registro Nacional de Víctimas de Accidentes de Tráfico (BOE nº 289, de 29 de noviembre de 2014).</dct:description>
+    <dcat:landingPage rdf:resource="https://10.50.107.100:8443/dataset/mire00130502dssini000001" />
+    <dcat:landingPage rdf:resource="https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Ficheros-de-microdatos-de-accidentes-con-victimas-2024/" />
+    <dct:identifier>MIR:E00130502:ds:SINI:000001</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
+    <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL" />
+    <dcat:keyword xml:lang="es">Accidentes, Víctimas, Tráfico, siniestralidad, Seguridad Vial, Carretera, 2024, Accidentes con víctimas, microdatos</dcat:keyword>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-31T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-18T00:00:00+00:00</dct:issued>
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA" />
+    </dct:language>
+    <foaf:page rdf:resource="https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/dgt-en-cifras/24h/Diccionario_Tabla_Accidentes.xlsx" />
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte" />
+    <dct:temporal>
+      <dct:PeriodOfTime rdf:nodeID="Nf611f6aa9f404e28bb86c349da28e712">
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-01T00:00:00+00:00</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-31T00:00:00+00:00</dcat:endDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dct:provenance>
+      <dct:ProvenanceStatement rdf:nodeID="N5748ea141eb24590bbed9c3abf2a7d73">
+        <dct:description xml:lang="es">Datos recopilados por la Dirección General de Tráfico a partir del registro de accidentes con víctimas por los agentes con competencia en materia de tráfico y seguridad vial y ottras fuentes como el IMLCF y el INE.</dct:description>
+      </dct:ProvenanceStatement>
+    </dct:provenance>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://10.50.107.100:8443/dataset/mire00130502dssini000001/resource/ficheros-de-microdatos-de-accidentes-con-victimas-2024">
+        <dct:title xml:lang="es">Ficheros de microdatos de accidentes con víctimas 2024</dct:title>
+        <dct:description xml:lang="es">Acceso al repositorio de microdatos de accidentes de tráfico con víctimas de 2024. Permite la búsqueda y descarga de los ficheros anuales (formato XLS) con el desglose detallado de siniestros, vehículos, conductores, pasajeros y peatones implicados en vías interurbanas y urbanas.</dct:description>
+        <foaf:page rdf:resource="https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/dgt-en-cifras/24h/Diccionario_Tabla_Accidentes.xlsx" />
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:accessURL rdf:resource="https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Ficheros-de-microdatos-de-accidentes-con-victimas-2024/" />
+        <dcat:downloadURL rdf:resource="https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/dgt-en-cifras/publicaciones/Ficheros_microdatos_de_accidentalidad_con_victimas/TABLA_ACCIDENTES_24.XLSX" />
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-31T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-18T00:00:00+00:00</dct:issued>
+        <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25357990</dcat:byteSize>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/STABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/buscar/act.php?id=BOE-A-2014-12408" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/buscar/act.php?id=BOE-A-2014-12411" />
+        <dcatap:applicableLegislation rdf:resource="https://eur-lex.europa.eu/legal-content/ES/LSU/?uri=oj:JOL_2018_151_R_0001" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/rd/1998/12/23/2822/con" />
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+    <dcatap:applicableLegislation>
+      <eli:LegalResource rdf:about="https://www.boe.es/buscar/act.php?id=BOE-A-2014-12411" />
+    </dcatap:applicableLegislation>
+    <dcatap:applicableLegislation>
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1998/12/23/2822/con" />
+    </dcatap:applicableLegislation>
+    <dcatap:applicableLegislation>
+      <eli:LegalResource rdf:about="https://eur-lex.europa.eu/legal-content/ES/LSU/?uri=oj:JOL_2018_151_R_0001" />
+    </dcatap:applicableLegislation>
+    <dcatap:applicableLegislation>
+      <eli:LegalResource rdf:about="https://www.boe.es/buscar/act.php?id=BOE-A-2014-12408" />
+    </dcatap:applicableLegislation>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España" />
+    <dct:conformsTo rdf:resource="https://www.boe.es/eli/es/o/2014/10/27/int2223/con" />
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502">
+        <foaf:name xml:lang="es">Dirección General de Tráfico - DGT</foaf:name>
+        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502</dct:identifier>
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" />
+      </foaf:Agent>
+    </dct:publisher>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502"><foaf:name xml:lang="es">Dirección General de Tráfico - DGT</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
+    <dcat:contactPoint>
+      <vcard:Kind rdf:nodeID="N902f1eecb78046779e90172d86b981de">
+        <vcard:fn xml:lang="es">Observatorio Nacional Seguridad Vial (ONSV)</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:servicio.estadistica@dgt.es" />
+        <vcard:hasURL rdf:resource="https://www.dgt.es/menusecundario/dgt-en-cifras/" />
+        <vcard:organization-name xml:lang="es">Dirección General de Tráfico (DGT)</vcard:organization-name>
+        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502" />
+      </vcard:Kind>
+    </dcat:contactPoint>
+  </dcat:Dataset>
+  </dcat:dataset>
+  </dcat:Catalog>
+</rdf:RDF>
