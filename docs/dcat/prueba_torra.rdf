@@ -7,7 +7,7 @@
     </dct:language>
     <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP" />
     <dct:spatial>
-      <dct:Location rdf:nodeID="N55c69da5303a4b7ca1dc043255bcf1e5">
+      <dct:Location rdf:nodeID="N646d07d1f47b4ee39f8027ed7c1cfe66">
         <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</dcat:bbox>
         <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8150 40.5250)</dcat:centroid>
         <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</locn:Geometry>
@@ -38,21 +38,64 @@
     <dcat:catalog rdf:resource="https://datos.gob.es/catalogo/related" />
     <dcat:record rdf:resource="https://datos.gob.es/catalogo/record/1" />
     <dct:temporal>
-      <dct:PeriodOfTime rdf:nodeID="Nd37fc798444946338908dd4dec22a961">
+      <dct:PeriodOfTime rdf:nodeID="N1faeee35799c4d26bc8965b19a42fe7b">
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-01T00:00:00+00:00</dcat:startDate>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</dcat:endDate>
         <time:hasBeginning>
-          <time:Instant rdf:nodeID="N7a76f629366b4790822adc76b2717b1a">
+          <time:Instant rdf:nodeID="Ne537b8127b5d4854a3a427a5299d897c">
             <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-01T00:00:00+00:00</time:inXSDDateTime>
           </time:Instant>
         </time:hasBeginning>
         <time:hasEnd>
-          <time:Instant rdf:nodeID="N2e545e9240354af89172f2839519abfd">
+          <time:Instant rdf:nodeID="N91e62f1b37e748f2b0792fc7714b682a">
             <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</time:inXSDDateTime>
           </time:Instant>
         </time:hasEnd>
       </dct:PeriodOfTime>
     </dct:temporal>
+    <dcat:dataset><dcat:Dataset rdf:about="https://172.17.8.174:8443/dataset/93b78bf0e9894786bc86eec50a04c557">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+    <dct:title xml:lang="es">01m. Por sexo, edad y regimen.px</dct:title>
+    <dct:description xml:lang="es">filiados Medios por Sexo, Edad y Régimen.</dct:description>
+    <dcat:landingPage rdf:resource="https://172.17.8.174:8443/dataset/93b78bf0e9894786bc86eec50a04c557" />
+    <dcat:landingPage rdf:resource="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad" />
+    <dct:identifier>93b78bf0-e989-4786-bc86-eec50a04c557</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-27T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-19T00:00:00+00:00</dct:issued>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/93b78bf0e9894786bc86eec50a04c557/resource/afiliados-medios-3-csv">
+        <dct:title xml:lang="es">Distribución CSV - Afiliados Sexo Edad</dct:title>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv" />
+        <dcat:accessURL rdf:resource="https://w6.seg-social.es/PXWeb/sq/726728d1-ca1f-43d3-8dfb-851a6e7dcd75" />
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-27T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-27T00:00:00+00:00</dct:issued>
+        <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
+        <dcat:downloadURL rdf:resource="https://w6.seg-social.es/PXWeb/sq/726728d1-ca1f-43d3-8dfb-851a6e7dcd75" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España" />
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501">
+        <foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones</foaf:name>
+        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier>
+      </foaf:Agent>
+    </dct:publisher>
+    <dcat:contactPoint>
+      <vcard:Kind rdf:nodeID="Nb7e7e47e48e5423b8fdf241da807b2ff">
+        <vcard:fn xml:lang="es">Oficina de Datos Abiertos Oberaxe</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:publicaciones@inclusion.gob.es" />
+        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501" />
+        <vcard:hasTelephone rdf:resource="tel:+34910000000" />
+      </vcard:Kind>
+    </dcat:contactPoint>
+  </dcat:Dataset>
+  </dcat:dataset>
     <dcat:dataset><dcat:Dataset rdf:about="https://172.17.8.174:8443/dataset/testdesa">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
     <dct:title xml:lang="es">Dataset Completo</dct:title>
@@ -79,7 +122,7 @@
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/plain" />
         <dct:format>
-          <dct:IMT rdf:nodeID="N35d4d4bf43d248439f240bd9498fcd64">
+          <dct:IMT rdf:nodeID="N47f5cc60d2974ddd859ac8569048e9d8">
             <rdf:value>text/PLAIN</rdf:value>
             <rdfs:label>PLAIN</rdfs:label>
           </dct:IMT>
@@ -97,7 +140,7 @@
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/CAT" />
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
         <dct:format>
-          <dct:IMT rdf:nodeID="N066725bbebc84025a2a62786d37d30f9">
+          <dct:IMT rdf:nodeID="Nafd0b4a84ea944d98e64e78f06839932">
             <rdf:value>text/VND.OPENXMLFORMATS-OFFICEDOCUMENT.SPREADSHEETML.SHEET</rdf:value>
             <rdfs:label>VND.OPENXMLFORMATS-OFFICEDOCUMENT.SPREADSHEETML.SHEET</rdfs:label>
           </dct:IMT>
@@ -125,7 +168,7 @@
       </foaf:Agent>
     </dct:creator>
     <dcat:contactPoint>
-      <vcard:Kind rdf:nodeID="N8d204c8f07734b59b66d425818c4b78c">
+      <vcard:Kind rdf:nodeID="N8ebc1d49d62342928f781e091e814897">
         <vcard:fn xml:lang="es">Torralba Resino</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:jtorralb@tragsa.es" />
         <vcard:organization-name xml:lang="es">Torralba Corp</vcard:organization-name>
@@ -146,26 +189,20 @@
         <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-16T00:00:00+00:00</dct:issued>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
         <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
         <dcat:distribution><dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/ttec20260316/resource/catalog-15-rdf">
     <dct:title xml:lang="es">Distirbución ejemplo</dct:title>
     <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml" />
-    <dct:format>
-      <dct:IMT rdf:nodeID="N78735f64ed704d24a06bd61f414c0483">
-        <rdf:value>text/RDF+XML</rdf:value>
-        <rdfs:label>RDF+XML</rdfs:label>
-      </dct:IMT>
-    </dct:format>
     <dcat:accessURL rdf:resource="https://www.rdf.es" />
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-23T00:00:00+00:00</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-16T00:00:00+00:00</dct:issued>
   </dcat:Distribution>
-</dcat:distribution>
+  </dcat:distribution>
         <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
         <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901"><foaf:name xml:lang="es">Ministerio de la Asun</foaf:name><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901</dct:identifier></foaf:Agent></dct:publisher>
         <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502"><foaf:name xml:lang="es">Dirección de coches</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/SupraNationalAuthority" /></foaf:Agent></dct:creator>
         <dcat:contactPoint>
-          <vcard:Kind rdf:nodeID="N60ee2d4a5e0c4ef9b2de138c6f9c0acc">
+          <vcard:Kind rdf:nodeID="N551ef281275e4cd6afaaa2f6d2f681ef">
             <vcard:fn xml:lang="es">Contacto A</vcard:fn>
             <vcard:hasEmail rdf:resource="mailto:mail@mail.es" />
             <vcard:organization-name xml:lang="es">Ministerio A</vcard:organization-name>
