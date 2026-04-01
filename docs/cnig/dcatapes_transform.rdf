@@ -560,7 +560,7 @@
     <dct:title xml:lang="en">Hydrography of Spain</dct:title>
     <dct:type>http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset</dct:type>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
-    <foaf:page rdf:resource="https://data.europa.eu/eli/reg/2010/1089"/>
+    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
   </dcat:Dataset>
   <dcat:Dataset rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM">
     <adms:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM"/>
@@ -1158,7 +1158,7 @@ Northern Extremadura: February 2026</dct:description>
     <dcat:accessURL rdf:resource="https://www.ign.es/atom/dataset_feeds/hidro_igr.es.xml"/>
     <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
-    <dcatap:applicableLegislation rdf:resource="https://data.europa.eu/eli/reg/2010/1089"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
     <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
     <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES"/>
     <dct:description xml:lang="es">Dirección de acceso a la descarga del dataset</dct:description>
@@ -1169,7 +1169,7 @@ Northern Extremadura: February 2026</dct:description>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:title xml:lang="es">Distribución asociado a este Dataset</dct:title>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
-    <foaf:page rdf:resource="https://data.europa.eu/eli/reg/2010/1089"/>
+    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
   </dcat:Distribution>
   <dcat:Distribution rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/xml">
     <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
@@ -1178,7 +1178,7 @@ Northern Extremadura: February 2026</dct:description>
     <dcat:accessURL rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/xml"/>
     <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
-    <dcatap:applicableLegislation rdf:resource="https://data.europa.eu/eli/reg/2010/1089"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
     <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
     <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES"/>
     <dct:description xml:lang="es">Distribción del Datset en XML bajo la normativa de INSPIRE</dct:description>
@@ -1189,7 +1189,7 @@ Northern Extremadura: February 2026</dct:description>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:title xml:lang="es">Distribución asociado a este Dataset</dct:title>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
-    <foaf:page rdf:resource="https://data.europa.eu/eli/reg/2010/1089"/>
+    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
   </dcat:Distribution>
   <dcat:Distribution rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM/formatters/html">
     <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
@@ -1542,7 +1542,7 @@ Northern Extremadura: February 2026</dct:description>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
   </dcat:Distribution>
-  <foaf:Organization rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002">
+  <foaf:Organization rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002">
     <dct:identifier rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002"/>
     <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
     <foaf:name xml:lang="es">Centro Nacional de Información Geográfica (CNIG)</foaf:name>
@@ -1553,3 +1553,4 @@ Northern Extremadura: February 2026</dct:description>
      <!-- Añadida ña uri del publisher en los servicios -->
      <!-- vcard:organization-name añadido el xml:lang-->
 </rdf:RDF>
+
