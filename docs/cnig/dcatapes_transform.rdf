@@ -1542,11 +1542,11 @@ Northern Extremadura: February 2026</dct:description>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
   </dcat:Distribution>
-  <foaf:Organization rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002">
+ <!-- <foaf:Organization rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002">
     <dct:identifier rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002"/>
     <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
     <foaf:name xml:lang="es">Centro Nacional de Información Geográfica (CNIG)</foaf:name>
-    <foaf:name xml:lang="en">National Centre of Geographic Information (CNIG)</foaf:name>
+    <foaf:name xml:lang="en">National Centre of Geographic Information (CNIG)</foaf:name> -->
 
   </foaf:Organization>
      <!-- Remplazada la uri del publisher por :http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002 -->
