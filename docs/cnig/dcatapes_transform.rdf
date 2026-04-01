@@ -535,7 +535,7 @@
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"/>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
-    <dcatap:applicableLegislation rdf:resource="https://data.europa.eu/eli/reg/2010/1089"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
     <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_06b1eec4"/>
     <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_dd313021"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
