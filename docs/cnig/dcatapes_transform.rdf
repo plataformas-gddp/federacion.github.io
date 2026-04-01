@@ -98,7 +98,7 @@
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
         <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:endpointURL rdf:resource="https://api-coverages.idee.es"/>
@@ -134,7 +134,7 @@
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
         <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:endpointURL rdf:resource="https://api-features.ign.es/"/>
@@ -174,7 +174,7 @@
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
         <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:endpointURL rdf:resource="https://api-features.idee.es"/>
@@ -214,7 +214,7 @@
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
         <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:endpointURL rdf:resource="https://api-maps.idee.es/"/>
@@ -260,7 +260,7 @@
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
         <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:endpointURL rdf:resource="https://www.ign.es/atom/ds.es.xml"/>
@@ -300,7 +300,7 @@
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
         <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@mitma.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:endpointDescription rdf:resource="https://www.ign.es/wfs-inspire/ngbe?REQUEST=GetCapabilities&amp;SERVICE=WFS&amp;VERSION=2.0.0"/>
@@ -341,7 +341,7 @@
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
         <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@mitma.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:endpointDescription rdf:resource="https://www.ign.es/wfs-inspire/unidades-administrativas?request=GetCapabilities&amp;service=WFS&amp;version=2.0.0"/>
@@ -390,7 +390,7 @@
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
         <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@mitma.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:endpointDescription rdf:resource="https://www.ign.es/wms-inspire/ngbe?REQUEST=GetCapabilities&amp;Service=WMS"/>
@@ -424,7 +424,7 @@
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
         <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@mitma.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:endpointDescription rdf:resource="https://www.ign.es/wms-inspire/unidades-administrativas?request=GetCapabilities&amp;service=WMS&amp;version=1.3.0"/>
@@ -464,7 +464,7 @@
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)">
         <vcard:fn xml:lang="es">Infraestructura de Datos Espaciales de España (IDEE)</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte/formatters/html"/>
@@ -513,7 +513,7 @@
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)">
         <vcard:fn xml:lang="es">Infraestructura de Datos Espaciales de España (IDEE)</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/html"/>
@@ -568,7 +568,7 @@
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
         <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:limites_municipales@transportes.gob.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM/formatters/html"/>
@@ -625,7 +625,7 @@
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)">
         <vcard:fn xml:lang="es">Infraestructura de Datos Espaciales de España (IDEE)</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT05/formatters/html"/>
@@ -673,7 +673,7 @@
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
         <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE/formatters/html"/>
@@ -729,7 +729,7 @@
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)">
         <vcard:fn xml:lang="es">Infraestructura de Datos Espaciales de España (IDEE)</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2021/formatters/html"/>
@@ -797,7 +797,7 @@ Canary Islands: September 2022</dct:description>
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)">
         <vcard:fn xml:lang="es">Infraestructura de Datos Espaciales de España (IDEE)</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2022/formatters/html"/>
@@ -859,7 +859,7 @@ C.A. Ceuta: June 2023</dct:description>
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)">
         <vcard:fn xml:lang="es">Infraestructura de Datos Espaciales de España (IDEE)</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2023/formatters/html"/>
@@ -907,7 +907,7 @@ The mosaics have been obtained from the most recent definitive orthophotos.</dct
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)">
         <vcard:fn xml:lang="es">Infraestructura de Datos Espaciales de España (IDEE)</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024/formatters/html"/>
@@ -971,7 +971,7 @@ Valencian Community: November 2025</dct:description>
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)">
         <vcard:fn xml:lang="es">Infraestructura de Datos Espaciales de España (IDEE)</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2025/formatters/html"/>
@@ -1025,7 +1025,7 @@ Northern Extremadura: February 2026</dct:description>
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)">
         <vcard:fn xml:lang="es">Infraestructura de Datos Espaciales de España (IDEE)</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:siose@transportes.gob.es"/>
-        <vcard:organization-name>Organismo</vcard:organization-name>
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignsioseAR2017/formatters/xml"/>
@@ -1542,7 +1542,7 @@ Northern Extremadura: February 2026</dct:description>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
   </dcat:Distribution>
-  <foaf:Organization>
+  <foaf:Organization rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002">
     <dct:identifier rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002"/>
     <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
     <foaf:name xml:lang="es">Centro Nacional de Información Geográfica (CNIG)</foaf:name>
@@ -1551,5 +1551,5 @@ Northern Extremadura: February 2026</dct:description>
   </foaf:Organization>
      <!-- Remplazada la uri del publisher por :http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002 -->
      <!-- Añadida ña uri del publisher en los servicios -->
+     <!-- vcard:organization-name añadido el xml:lang-->
 </rdf:RDF>
-
