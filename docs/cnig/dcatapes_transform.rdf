@@ -1548,9 +1548,10 @@ Northern Extremadura: February 2026</dct:description>
     <dct:identifier rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002"/>
     <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
     <foaf:name xml:lang="es">Centro Nacional de Información Geográfica (CNIG)</foaf:name>
-    <foaf:name xml:lang="en">National Centre of Geographic Information (CNIG)</foaf:name> -->
+    <foaf:name xml:lang="en">National Centre of Geographic Information (CNIG)</foaf:name> 
 
-  </foaf:Organization>
+  </foaf:Organization>-->
+
      <!-- Remplazada la uri del publisher por :http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002 -->
      <!-- Añadida ña uri del publisher en los servicios -->
      <!-- vcard:organization-name añadido el xml:lang-->
