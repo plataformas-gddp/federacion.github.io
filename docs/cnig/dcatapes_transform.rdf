@@ -94,6 +94,7 @@
     <foaf:primaryTopic rdf:resource="http://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/home"/>
   </dcat:CatalogRecord> -->
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_coverages_scne">
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002"/>
     <dcat:contactPoint>
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
         <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
@@ -386,6 +387,7 @@
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002"/>
   </dcat:DataService>
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ngbe">
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
     <dcat:contactPoint>
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
         <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
