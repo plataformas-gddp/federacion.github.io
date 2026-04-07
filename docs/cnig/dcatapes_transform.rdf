@@ -1321,12 +1321,12 @@ Northern Extremadura: February 2026</dct:description>
     <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_ngbe"/>
     <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ngbe"/>
     <dcat:accessURL rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE/formatters/xml"/>
-    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
+
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
     <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
     <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES"/>
     <dct:description xml:lang="es">Distribción del Datset en XML bajo la normativa de INSPIRE</dct:description>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
     <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
