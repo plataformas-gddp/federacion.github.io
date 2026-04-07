@@ -1,216 +1,128 @@
-<?xml version='1.0' encoding='utf-8'?>
-<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:ns9="http://www.w3.org/2011/content#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
-  <dcat:Catalog rdf:about="https://172.17.8.174:8443">
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:hydra="http://www.w3.org/ns/hydra/core#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <dcat:Dataset rdf:about="https://caoba.pre.sgai.csic.es/dataset/76699b98-9c63-4100-b0ee-8f3ffe21a682">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dct:title xml:lang="es">Institutos, Centros y Unidades del CSIC</dct:title>
+    <dct:description xml:lang="es">El CSIC es una Agencia Estatal con la consideración de Organismo Público de Investigación (OPI) de la Administración General del Estado con personalidad jurídica única que desarrolla su función a través de una multiplicidad de estructuras organizativas carentes de personalidad jurídica propia.&#13;
+&#13;
+Su actividad científica se desarrolla a través de dos estructuras fundamentales: los institutos de investigación y los centros nacionales.</dct:description>
+    <dcat:landingPage rdf:resource="https://caoba.pre.sgai.csic.es/dataset/76699b98-9c63-4100-b0ee-8f3ffe21a682"/>
+    <dct:identifier>https://caoba.pre.sgai.csic.es/dataset/icus</dct:identifier>
+    <dcat:keyword xml:lang="es">contacto</dcat:keyword>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-30T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-10T00:00:00+00:00</dct:issued>
     <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/ENG" />
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA"/>
     </dct:language>
-    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP" />
-    <dct:spatial>
-      <dct:Location rdf:nodeID="N646d07d1f47b4ee39f8027ed7c1cfe66">
-        <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</dcat:bbox>
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8150 40.5250)</dcat:centroid>
-        <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</locn:Geometry>
-      </dct:Location>
-    </dct:spatial>
-    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector" />
-    <dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme" />
-    <foaf:homepage rdf:resource="https://172.17.8.174:8443" />
+    <foaf:page>
+      <foaf:Document rdf:about="https://www.csic.es/es/el-csic/organizacion/institutos-centros-y-unidades"/>
+    </foaf:page>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"/>
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0020951">
+        <foaf:name xml:lang="es">Agencia Estatal Consejo Superior de Investigaciones Científicas</foaf:name>
+        <foaf:mbox>oficina.dato@csic.es</foaf:mbox>
+        <foaf:homepage rdf:resource="https://caoba.csic.es"/>
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+        <dct:identifier>EA0020951</dct:identifier>
+      </foaf:Agent>
+    </dct:publisher>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://caoba.pre.sgai.csic.es/dataset/76699b98-9c63-4100-b0ee-8f3ffe21a682/resource/cf3461f8-921e-4403-86fb-ec5839504410">
+        <dct:title xml:lang="es">Institutos, Centros y Unidades</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+        <dcat:accessURL rdf:resource="https://caoba.pre.sgai.csic.es/dataset/76699b98-9c63-4100-b0ee-8f3ffe21a682/resource/cf3461f8-921e-4403-86fb-ec5839504410/download/dataset_icus.xlsx"/>
+        <dcat:downloadURL rdf:resource="https://caoba.pre.sgai.csic.es/dataset/icus/resource/cf3461f8-921e-4403-86fb-ec5839504410/download"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-13T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-13T00:00:00+00:00</dct:issued>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+  </dcat:Dataset>
+  <hydra:PagedCollection rdf:about="https://caoba.pre.sgai.csic.es/catalog.rdf?page=1">
+    <hydra:firstPage>https://caoba.pre.sgai.csic.es/catalog.rdf?page=1</hydra:firstPage>
+    <hydra:first>https://caoba.pre.sgai.csic.es/catalog.rdf?page=1</hydra:first>
+    <hydra:lastPage>https://caoba.pre.sgai.csic.es/catalog.rdf?page=1</hydra:lastPage>
+    <hydra:last>https://caoba.pre.sgai.csic.es/catalog.rdf?page=1</hydra:last>
+    <hydra:totalItems rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hydra:totalItems>
+    <hydra:itemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hydra:itemsPerPage>
+  </hydra:PagedCollection>
+  <dcat:Catalog rdf:about="https://caoba.pre.sgai.csic.es">
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/ENG"/>
+    </dct:language>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
+    <foaf:homepage rdf:resource="https://caoba.pre.sgai.csic.es"/>
     <dct:license>
       <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
-        <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR" />
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR"/>
       </rdf:Description>
     </dct:license>
-    <dct:title xml:lang="es">CKAN</dct:title>
-    <dct:description xml:lang="es">Catalogo de datos del organismo</dct:description>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-27T10:27:23+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+00:00</dct:issued>
-    <dct:publisher>
-      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901">
-        <foaf:name xml:lang="es">Ministerio de la Asun</foaf:name>
-        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" />
-        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901</dct:identifier>
-      </foaf:Agent>
-    </dct:publisher>
-    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901"><foaf:name xml:lang="es">Ministerio de la Asun</foaf:name><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901</dct:identifier></foaf:Agent></dct:creator>
-    <dct:hasPart rdf:resource="https://datos.gob.es/catalogo/part-1" />
-    <dct:isPartOf rdf:resource="https://datos.gob.es/catalogo/main" />
-    <dcat:catalog rdf:resource="https://datos.gob.es/catalogo/related" />
-    <dcat:record rdf:resource="https://datos.gob.es/catalogo/record/1" />
-    <dct:temporal>
-      <dct:PeriodOfTime rdf:nodeID="N1faeee35799c4d26bc8965b19a42fe7b">
-        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-01T00:00:00+00:00</dcat:startDate>
-        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</dcat:endDate>
-        <time:hasBeginning>
-          <time:Instant rdf:nodeID="Ne537b8127b5d4854a3a427a5299d897c">
-            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-01T00:00:00+00:00</time:inXSDDateTime>
-          </time:Instant>
-        </time:hasBeginning>
-        <time:hasEnd>
-          <time:Instant rdf:nodeID="N91e62f1b37e748f2b0792fc7714b682a">
-            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</time:inXSDDateTime>
-          </time:Instant>
-        </time:hasEnd>
-      </dct:PeriodOfTime>
-    </dct:temporal>
-    <dcat:dataset><dcat:Dataset rdf:about="https://172.17.8.174:8443/dataset/93b78bf0e9894786bc86eec50a04c557">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-    <dct:title xml:lang="es">01m. Por sexo, edad y regimen.px</dct:title>
-    <dct:description xml:lang="es">filiados Medios por Sexo, Edad y Régimen.</dct:description>
-    <dcat:landingPage rdf:resource="https://172.17.8.174:8443/dataset/93b78bf0e9894786bc86eec50a04c557" />
-    <dcat:landingPage rdf:resource="https://plataformas-gddp.github.io/federacion.github.io/dataset/afiliados-sexo-edad" />
-    <dct:identifier>93b78bf0-e989-4786-bc86-eec50a04c557</dct:identifier>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-27T00:00:00+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-19T00:00:00+00:00</dct:issued>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-    <dcat:distribution>
-      <dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/93b78bf0e9894786bc86eec50a04c557/resource/afiliados-medios-3-csv">
-        <dct:title xml:lang="es">Distribución CSV - Afiliados Sexo Edad</dct:title>
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
-        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv" />
-        <dcat:accessURL rdf:resource="https://w6.seg-social.es/PXWeb/sq/726728d1-ca1f-43d3-8dfb-851a6e7dcd75" />
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-27T00:00:00+00:00</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-27T00:00:00+00:00</dct:issued>
-        <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-        <dcat:downloadURL rdf:resource="https://w6.seg-social.es/PXWeb/sq/726728d1-ca1f-43d3-8dfb-851a6e7dcd75" />
-      </dcat:Distribution>
-    </dcat:distribution>
-    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España" />
-    <dct:publisher>
-      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501">
-        <foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones</foaf:name>
-        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier>
-      </foaf:Agent>
-    </dct:publisher>
-    <dcat:contactPoint>
-      <vcard:Kind rdf:nodeID="Nb7e7e47e48e5423b8fdf241da807b2ff">
-        <vcard:fn xml:lang="es">Oficina de Datos Abiertos Oberaxe</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:publicaciones@inclusion.gob.es" />
-        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501" />
-        <vcard:hasTelephone rdf:resource="tel:+34910000000" />
-      </vcard:Kind>
-    </dcat:contactPoint>
-  </dcat:Dataset>
-  </dcat:dataset>
-    <dcat:dataset><dcat:Dataset rdf:about="https://172.17.8.174:8443/dataset/testdesa">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-    <dct:title xml:lang="es">Dataset Completo</dct:title>
-    <dct:description xml:lang="es">Un dataset con TODO</dct:description>
-    <dcat:landingPage rdf:resource="https://172.17.8.174:8443/dataset/testdesa" />
-    <dcat:landingPage rdf:resource="http://web.dataset.com" />
-    <dct:identifier>testDESA</dct:identifier>
-    <owl:versionInfo>1.0</owl:versionInfo>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-25T00:00:00+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-13T00:00:00+00:00</dct:issued>
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA" />
-    </dct:language>
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/CAT" />
-    </dct:language>
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/cultura-ocio" />
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-    <dcat:distribution>
-      <dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/testdesa/resource/distribucion-1-txt">
-        <dct:title xml:lang="es">Distribucion 1 txt</dct:title>
-        <dct:description xml:lang="es">Distribución 1</dct:description>
-        <ns9:characterEncoding>UTF-8</ns9:characterEncoding>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/plain" />
-        <dct:format>
-          <dct:IMT rdf:nodeID="N47f5cc60d2974ddd859ac8569048e9d8">
-            <rdf:value>text/PLAIN</rdf:value>
-            <rdfs:label>PLAIN</rdfs:label>
-          </dct:IMT>
-        </dct:format>
-        <dcat:accessURL rdf:resource="https://faketxt.es" />
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-23T00:00:00+00:00</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-13T00:00:00+00:00</dct:issued>
-      </dcat:Distribution>
-    </dcat:distribution>
-    <dcat:distribution>
-      <dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/testdesa/resource/distribucion-2-xlsx">
-        <dct:title xml:lang="es">Distribución 2</dct:title>
-        <dct:description xml:lang="es">Distribución 2</dct:description>
-        <ns9:characterEncoding>UTF-8</ns9:characterEncoding>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/CAT" />
-        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
-        <dct:format>
-          <dct:IMT rdf:nodeID="Nafd0b4a84ea944d98e64e78f06839932">
-            <rdf:value>text/VND.OPENXMLFORMATS-OFFICEDOCUMENT.SPREADSHEETML.SHEET</rdf:value>
-            <rdfs:label>VND.OPENXMLFORMATS-OFFICEDOCUMENT.SPREADSHEETML.SHEET</rdfs:label>
-          </dct:IMT>
-        </dct:format>
-        <dcat:accessURL rdf:resource="https://fakexls.es" />
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-23T00:00:00+00:00</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-13T00:00:00+00:00</dct:issued>
-      </dcat:Distribution>
-    </dcat:distribution>
-    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España" />
-    <dct:publisher>
-      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0023645">
-        <foaf:name xml:lang="es">Empresa de Transformación Agraria, S.A., S.M.E., M.P. (TRAGSA)</foaf:name>
-        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0023645</dct:identifier>
-        <dct:type rdf:resource="http://purl.org/adms/publishertype/Company" />
-      </foaf:Agent>
-    </dct:publisher>
-    <dct:creator>
-      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044367">
-        <foaf:name xml:lang="en">Javier Torralb</foaf:name>
-        <foaf:name xml:lang="es">Entidad Pública Empresarial Red.es</foaf:name>
-        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044367</dct:identifier>
-        <dct:type rdf:resource="http://purl.org/adms/publishertype/SupraNationalAuthority" />
-      </foaf:Agent>
-    </dct:creator>
-    <dcat:contactPoint>
-      <vcard:Kind rdf:nodeID="N8ebc1d49d62342928f781e091e814897">
-        <vcard:fn xml:lang="es">Torralba Resino</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:jtorralb@tragsa.es" />
-        <vcard:organization-name xml:lang="es">Torralba Corp</vcard:organization-name>
-        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00000000" />
-        <vcard:hasTelephone rdf:resource="tel:666321654" />
-      </vcard:Kind>
-    </dcat:contactPoint>
-  </dcat:Dataset>
-  </dcat:dataset>
+    <dct:title xml:lang="es">Catálogo de datos abiertos del CSIC</dct:title>
+    <dct:description xml:lang="es">Catálogo de datos abiertos CSIC</dct:description>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-30T11:39:22+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-01T00:00:00+00:00</dct:issued>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0020951"/>
     <dcat:dataset>
-      <dcat:Dataset rdf:about="https://172.17.8.174:8443/dataset/ttec20260316">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-        <dct:title xml:lang="es">Dataset con Autor</dct:title>
-        <dct:description xml:lang="es">Dataset con autor</dct:description>
-        <dcat:landingPage rdf:resource="https://172.17.8.174:8443/dataset/ttec20260316" />
-        <dct:identifier>TTEC20260316</dct:identifier>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-25T00:00:00+00:00</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-16T00:00:00+00:00</dct:issued>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/ttec20260316/resource/catalog-15-rdf">
-    <dct:title xml:lang="es">Distirbución ejemplo</dct:title>
-    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml" />
-    <dcat:accessURL rdf:resource="https://www.rdf.es" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-23T00:00:00+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-16T00:00:00+00:00</dct:issued>
-  </dcat:Distribution>
-  </dcat:distribution>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901"><foaf:name xml:lang="es">Ministerio de la Asun</foaf:name><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901</dct:identifier></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502"><foaf:name xml:lang="es">Dirección de coches</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/SupraNationalAuthority" /></foaf:Agent></dct:creator>
+      <dcat:Dataset rdf:about="https://caoba.pre.sgai.csic.es/dataset/63be4fe6-1b48-43d4-b987-bef594ff8743">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <dct:title xml:lang="es">Botánica y Literatura en la antigua Mesopotamia- Fuentes Secundarias</dct:title>
+        <dct:description xml:lang="es">Los datos utilizados y generados durante la ejecución del proyecto PID2021125678NB-I00 son de doble naturaleza, ambos relacionados con la disciplina del estudio de las lenguas y culturas del Próximo Oriente antiguo. Se trata por un lado de tablillas cuneiformes de arcilla, las “fuentes primarias”, concretamente textos cuneiformes que se fechan mayoritariamente en el primer milenio a.d.C. Los datos se enmarcan en temas muy diversos conforme a la variedad de géneros de las fuentes empleadas, desde documentos de contenido médico y farmacológico hasta literatura religiosa o mágica, pasando por textos literarios y léxicos. Todos los datos están utilizados en el ámbito internacional. Las “fuentes secundarias” o registros bibliográficos utilizados se encuentran en formato de publicaciones académicas, tanto impresas como digitales.&#13;
+&#13;
+Se incluye toda la información sobre los registros bibliográficos utilizados y citados en las publicaciones de los resultados siguiendo al estilo APA para garantizar una comunicación e interoperabilidad académica precisa, clara e inclusiva.</dct:description>
+        <dcat:landingPage rdf:resource="https://digital.csic.es/handle/10261/420841"/>
+        <dct:identifier>"http://hdl.handle.net/10261/420841"</dct:identifier>
+        <dcat:keyword xml:lang="es">adivinaciónmesopotámica</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-30T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-27T00:00:00+00:00</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <foaf:page rdf:resource="https://digital.csic.es/bitstream/10261/420841/3/Readme_Dataset_BoLiMes_Fuentes_secundarias.txt"/>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"/>
+        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0020951"/>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:distribution rdf:resource="https://caoba.pre.sgai.csic.es/dataset/63be4fe6-1b48-43d4-b987-bef594ff8743/resource/32d44d4e-f5ef-4947-9949-69f10993c607"/>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
         <dcat:contactPoint>
-          <vcard:Kind rdf:nodeID="N551ef281275e4cd6afaaa2f6d2f681ef">
-            <vcard:fn xml:lang="es">Contacto A</vcard:fn>
-            <vcard:hasEmail rdf:resource="mailto:mail@mail.es" />
-            <vcard:organization-name xml:lang="es">Ministerio A</vcard:organization-name>
-            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00000001" />
-            <vcard:hasTelephone rdf:resource="tel:666321654" />
+          <vcard:Kind rdf:nodeID="N99a1bef2d7ad425ead2ca39a2d165eae">
+            <vcard:fn xml:lang="es">CCHS-ILS</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:hcsdatos@cchs.csic.es"/>
+            <vcard:hasURL rdf:resource="https://datos.cchs.csic.es/"/>
+            <vcard:organization-name xml:lang="es">Centro de Ciencias Humanas y Sociales</vcard:organization-name>
+            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041274"/>
           </vcard:Kind>
         </dcat:contactPoint>
       </dcat:Dataset>
     </dcat:dataset>
+    <dcat:dataset rdf:resource="https://caoba.pre.sgai.csic.es/dataset/76699b98-9c63-4100-b0ee-8f3ffe21a682"/>
   </dcat:Catalog>
-  </rdf:RDF>
+  <rdf:Description rdf:about="https://caoba.pre.sgai.csic.es/dataset/76699b98-9c63-4100-b0ee-8f3ffe21a682/resource/cf3461f8-921e-4403-86fb-ec5839504410/dataservice">
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0020951"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://caoba.pre.sgai.csic.es/dataset/63be4fe6-1b48-43d4-b987-bef594ff8743/resource/32d44d4e-f5ef-4947-9949-69f10993c607/dataservice">
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0020951"/>
+  </rdf:Description>
+  <dcat:Distribution rdf:about="https://caoba.pre.sgai.csic.es/dataset/63be4fe6-1b48-43d4-b987-bef594ff8743/resource/32d44d4e-f5ef-4947-9949-69f10993c607">
+    <dct:title xml:lang="es">BoLiMes_Fuentes_secundarias.xlsx</dct:title>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by-nd/4.0/"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+    <dcat:accessURL rdf:resource="https://digital.csic.es/bitstream/10261/420841/1/BoLiMes_Fuentes_secundarias.xlsx"/>
+    <dcat:downloadURL rdf:resource="https://digital.csic.es/bitstream/10261/420841/1/BoLiMes_Fuentes_secundarias.xlsx"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-11T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-11T00:00:00+00:00</dct:issued>
+  </dcat:Distribution>
+  <foaf:Document rdf:about="https://digital.csic.es/bitstream/10261/420841/3/Readme_Dataset_BoLiMes_Fuentes_secundarias.txt"/>
+</rdf:RDF>
