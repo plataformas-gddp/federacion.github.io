@@ -83,7 +83,7 @@ Su actividad científica se desarrolla a través de dos estructuras fundamentale
 &#13;
 Se incluye toda la información sobre los registros bibliográficos utilizados y citados en las publicaciones de los resultados siguiendo al estilo APA para garantizar una comunicación e interoperabilidad académica precisa, clara e inclusiva.</dct:description>
         <dcat:landingPage rdf:resource="https://digital.csic.es/handle/10261/420841"/>
-        <dct:identifier>"http://hdl.handle.net/10261/420841"</dct:identifier>
+        <dct:identifier>http://hdl.handle.net/10261/420841</dct:identifier>
         <dcat:keyword xml:lang="es">adivinaciónmesopotámica</dcat:keyword>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-30T00:00:00+00:00</dct:modified>
         <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-27T00:00:00+00:00</dct:issued>
