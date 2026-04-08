@@ -12,6 +12,27 @@
   xmlns:adms="http://www.w3.org/ns/adms#"
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+
+  <dcat:Catalog rdf:about="http://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/home">
+    <dcat:dataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/f6c06a77-6af0-4bbf-a0bc-cb3fb33d2fde"/>
+    <dcat:record>
+      <dcat:CatalogRecord>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+        <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES"/>
+        <dct:description xml:lang="es">Información adicional sobre las entradas del catálogo</dct:description>
+        <dct:title xml:lang="es">Información de Registro de Catálogo</dct:title>
+      </dcat:CatalogRecord>
+    </dcat:record>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
+    <dct:description xml:lang="es">Conjunto de Datasets del CNIG</dct:description>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+01:00</dct:issued>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-02T00:00:00+01:00</dct:modified>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+    <dct:title xml:lang="es">Catálogo de CNIG-IGN</dct:title>
+    <foaf:homepage rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/home"/>
+  </dcat:Catalog>
   <dcat:Dataset rdf:about="https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/de873bb2-9560-4cb3-be85-4bab13665ce5">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
     <dct:title xml:lang="es">Humedales incluidos en la Lista del Convenio de Ramsar</dct:title>
