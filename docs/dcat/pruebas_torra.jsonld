@@ -460,12 +460,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -679,12 +673,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -901,12 +889,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -1117,12 +1099,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -1342,12 +1318,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -1558,12 +1528,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -1780,12 +1744,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -1999,12 +1957,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -2221,12 +2173,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -2437,12 +2383,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -2662,12 +2602,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -2878,12 +2812,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -3100,12 +3028,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -3319,12 +3241,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -3541,12 +3457,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -3757,12 +3667,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -3982,12 +3886,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -4198,12 +4096,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -4420,12 +4312,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -4639,12 +4525,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -4861,12 +4741,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -5077,12 +4951,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -5302,12 +5170,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -5518,12 +5380,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -5740,12 +5596,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -5959,12 +5809,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -6181,12 +6025,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -6397,12 +6235,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -6622,12 +6454,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -6838,12 +6664,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -7060,12 +6880,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -7279,12 +7093,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -7501,12 +7309,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -7717,12 +7519,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -7942,12 +7738,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -8158,12 +7948,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -8380,12 +8164,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -8599,12 +8377,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -8821,12 +8593,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -9037,12 +8803,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -9262,12 +9022,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -9478,12 +9232,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -9700,12 +9448,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -9919,12 +9661,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -10141,12 +9877,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -10357,12 +10087,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -10582,12 +10306,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -10798,12 +10516,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -11020,12 +10732,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -11239,12 +10945,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -11461,12 +11161,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -11677,12 +11371,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -11902,12 +11590,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -12118,12 +11800,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -12340,12 +12016,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -12559,12 +12229,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -12781,12 +12445,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -12997,12 +12655,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -13222,12 +12874,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -13438,12 +13084,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -13660,12 +13300,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -13879,12 +13513,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -14101,12 +13729,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -14317,12 +13939,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -14542,12 +14158,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -14758,12 +14368,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -14980,12 +14584,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -15199,12 +14797,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -15421,12 +15013,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -15637,12 +15223,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -15862,12 +15442,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -16078,12 +15652,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -16300,12 +15868,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -16519,12 +16081,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -16741,12 +16297,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -16957,12 +16507,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -17182,12 +16726,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -17398,12 +16936,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -17620,12 +17152,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -17839,12 +17365,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -18061,12 +17581,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -18277,12 +17791,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -18502,12 +18010,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -18718,12 +18220,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -18940,12 +18436,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -19159,12 +18649,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -19381,12 +18865,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -19597,12 +19075,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -19822,12 +19294,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -20038,12 +19504,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -20260,12 +19720,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -20479,12 +19933,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -20701,12 +20149,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -20917,12 +20359,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -21142,12 +20578,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -21358,12 +20788,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -21580,12 +21004,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -21799,12 +21217,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -22021,12 +21433,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
@@ -22237,12 +21643,6 @@
       "dct:provenance": {
         "@id": "procedencia"
       },
-      "dcat:temporalResolution": [
-        {
-          "@value": "86400.0",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
