@@ -291,6 +291,22 @@
           "@language": "es"
         }
       ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
+        }
+      ],
       "dcat:contactPoint": [
         {
           "@type": "vcard:Kind",
@@ -530,6 +546,22 @@
         {
           "@value": "blindaje",
           "@language": "es"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
         }
       ],
       "dcat:contactPoint": [
@@ -773,6 +805,22 @@
           "@language": "es"
         }
       ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
+        }
+      ],
       "dcat:contactPoint": [
         {
           "@type": "vcard:Kind",
@@ -1012,6 +1060,22 @@
         {
           "@value": "blindaje",
           "@language": "es"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
         }
       ],
       "dcat:contactPoint": [
@@ -1255,6 +1319,22 @@
           "@language": "es"
         }
       ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
+        }
+      ],
       "dcat:contactPoint": [
         {
           "@type": "vcard:Kind",
@@ -1494,6 +1574,22 @@
         {
           "@value": "blindaje",
           "@language": "es"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
         }
       ],
       "dcat:contactPoint": [
@@ -1737,6 +1833,22 @@
           "@language": "es"
         }
       ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
+        }
+      ],
       "dcat:contactPoint": [
         {
           "@type": "vcard:Kind",
@@ -1976,6 +2088,22 @@
         {
           "@value": "comunes",
           "@language": "es"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
         }
       ],
       "dcat:contactPoint": [
@@ -2219,6 +2347,22 @@
           "@language": "es"
         }
       ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
+        }
+      ],
       "dcat:contactPoint": [
         {
           "@type": "vcard:Kind",
@@ -2458,6 +2602,22 @@
         {
           "@value": "comunes",
           "@language": "es"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
         }
       ],
       "dcat:contactPoint": [
@@ -2701,6 +2861,22 @@
           "@language": "es"
         }
       ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
+        }
+      ],
       "dcat:contactPoint": [
         {
           "@type": "vcard:Kind",
@@ -2940,6 +3116,22 @@
         {
           "@value": "comunes",
           "@language": "es"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
         }
       ],
       "dcat:contactPoint": [
@@ -3183,6 +3375,22 @@
           "@language": "es"
         }
       ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
+        }
+      ],
       "dcat:contactPoint": [
         {
           "@type": "vcard:Kind",
@@ -3422,6 +3630,22 @@
         {
           "@value": "comunes",
           "@language": "es"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
         }
       ],
       "dcat:contactPoint": [
