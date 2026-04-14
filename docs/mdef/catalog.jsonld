@@ -171,11 +171,11 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Terrestre",
+          "@value": "Catálogo industria española de Defensa-Sector Terrestre.Sexta Edición",
           "@language": "es"
         },
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Terrestre",
+          "@value": "Catálogo industria española de Defensa-Sector Terrestre.Sexta Edición",
           "@language": "es"
         }
       ],
@@ -231,14 +231,6 @@
         },
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        }
-      ],
-      "dct:accrualPeriodicity": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
@@ -299,7 +291,7 @@
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2026-12-31T00:00:00+01:00",
+            "@value": "2025-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
@@ -312,7 +304,7 @@
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2026-12-31T00:00:00+01:00",
+              "@value": "2025-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -439,11 +431,11 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Naval",
+          "@value": "Catálogo industria española de Defensa-Sector Naval. Sexta Edición",
           "@language": "es"
         },
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Naval",
+          "@value": "Catálogo industria española de Defensa-Sector Naval. Sexta Edición",
           "@language": "es"
         }
       ],
@@ -499,14 +491,6 @@
         },
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        }
-      ],
-      "dct:accrualPeriodicity": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
@@ -567,7 +551,7 @@
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2026-12-31T00:00:00+01:00",
+            "@value": "2025-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
@@ -580,7 +564,7 @@
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2026-12-31T00:00:00+01:00",
+              "@value": "2025-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -707,11 +691,11 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Aeroespacial",
+          "@value": "Catálogo industria española de Defensa- Sector Aeroespacial. Sexta Edición",
           "@language": "es"
         },
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Aeroespacial",
+          "@value": "Catálogo industria española de Defensa- Sector Aeroespacial. Sexta Edición",
           "@language": "es"
         }
       ],
@@ -767,14 +751,6 @@
         },
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        }
-      ],
-      "dct:accrualPeriodicity": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
@@ -835,7 +811,7 @@
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2026-12-31T00:00:00+01:00",
+            "@value": "2025-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
@@ -848,7 +824,7 @@
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2026-12-31T00:00:00+01:00",
+              "@value": "2025-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -975,11 +951,11 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Armamento y Munición",
+          "@value": "Catálogo industria española de Defensa- Sector Armamento y Munición. Sexta Edición",
           "@language": "es"
         },
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Armamento y Munición",
+          "@value": "Catálogo industria española de Defensa- Sector Armamento y Munición. Sexta Edición",
           "@language": "es"
         }
       ],
@@ -1035,14 +1011,6 @@
         },
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        }
-      ],
-      "dct:accrualPeriodicity": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
@@ -1103,7 +1071,7 @@
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2026-12-31T00:00:00+01:00",
+            "@value": "2025-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
@@ -1116,7 +1084,7 @@
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2026-12-31T00:00:00+01:00",
+              "@value": "2025-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -1243,11 +1211,11 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Electrónica y Comunicaciones TIC",
+          "@value": "Catálogo industria española de Defensa - Sector Electrónica, Comunicación y TIC. Sexta Edición",
           "@language": "es"
         },
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Electrónica y Comunicaciones TIC",
+          "@value": "Catálogo industria española de Defensa - Sector Electrónica, Comunicación y TIC. Sexta Edición",
           "@language": "es"
         }
       ],
@@ -1303,14 +1271,6 @@
         },
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        }
-      ],
-      "dct:accrualPeriodicity": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
@@ -1371,7 +1331,7 @@
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2026-12-31T00:00:00+01:00",
+            "@value": "2025-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
@@ -1384,7 +1344,7 @@
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2026-12-31T00:00:00+01:00",
+              "@value": "2025-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -1511,11 +1471,11 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Logística Auxiliar",
+          "@value": "Catálogo industria española de Defensa - Sector Logística y Servicios auxiliares. Sexta Edición",
           "@language": "es"
         },
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Logística Auxiliar",
+          "@value": "Catálogo industria española de Defensa - Sector Logística y Servicios auxiliares. Sexta Edición",
           "@language": "es"
         }
       ],
@@ -1571,14 +1531,6 @@
         },
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        }
-      ],
-      "dct:accrualPeriodicity": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
@@ -1639,7 +1591,7 @@
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2026-12-31T00:00:00+01:00",
+            "@value": "2025-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
@@ -1652,7 +1604,7 @@
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2026-12-31T00:00:00+01:00",
+              "@value": "2025-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -1779,11 +1731,11 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Consultoría e Ingeniería",
+          "@value": "Catálogo industria española de Defensa - Sector Consultoría e Ingeniería. Sexta Edición",
           "@language": "es"
         },
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Consultoría e Ingeniería",
+          "@value": "Catálogo industria española de Defensa - Sector Consultoría e Ingeniería. Sexta Edición",
           "@language": "es"
         }
       ],
@@ -1839,14 +1791,6 @@
         },
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        }
-      ],
-      "dct:accrualPeriodicity": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
@@ -1907,7 +1851,7 @@
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2026-12-31T00:00:00+01:00",
+            "@value": "2025-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
@@ -1920,7 +1864,7 @@
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2026-12-31T00:00:00+01:00",
+              "@value": "2025-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -2171,24 +2115,24 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2025-01-01T00:00:00+01:00",
+            "@value": "2023-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2026-12-31T00:00:00+01:00",
+            "@value": "2023-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2025-01-01T00:00:00+01:00",
+              "@value": "2023-01-01T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           },
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2026-12-31T00:00:00+01:00",
+              "@value": "2023-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -2439,24 +2383,24 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2025-01-01T00:00:00+01:00",
+            "@value": "2023-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2026-12-31T00:00:00+01:00",
+            "@value": "2023-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2025-01-01T00:00:00+01:00",
+              "@value": "2023-01-01T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           },
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2026-12-31T00:00:00+01:00",
+              "@value": "2023-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -2707,24 +2651,24 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2025-01-01T00:00:00+01:00",
+            "@value": "2023-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2026-12-31T00:00:00+01:00",
+            "@value": "2023-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2025-01-01T00:00:00+01:00",
+              "@value": "2023-01-01T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           },
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2026-12-31T00:00:00+01:00",
+              "@value": "2023-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -2975,24 +2919,24 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2025-01-01T00:00:00+01:00",
+            "@value": "2023-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2026-12-31T00:00:00+01:00",
+            "@value": "2023-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2025-01-01T00:00:00+01:00",
+              "@value": "2023-01-01T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           },
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2026-12-31T00:00:00+01:00",
+              "@value": "2023-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -3243,24 +3187,24 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2025-01-01T00:00:00+01:00",
+            "@value": "2023-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2026-12-31T00:00:00+01:00",
+            "@value": "2023-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2025-01-01T00:00:00+01:00",
+              "@value": "2023-01-01T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           },
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2026-12-31T00:00:00+01:00",
+              "@value": "2023-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -3511,24 +3455,24 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2025-01-01T00:00:00+01:00",
+            "@value": "2023-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2026-12-31T00:00:00+01:00",
+            "@value": "2023-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2025-01-01T00:00:00+01:00",
+              "@value": "2023-01-01T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           },
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2026-12-31T00:00:00+01:00",
+              "@value": "2023-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -3779,24 +3723,24 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2025-01-01T00:00:00+01:00",
+            "@value": "2023-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2026-12-31T00:00:00+01:00",
+            "@value": "2023-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2025-01-01T00:00:00+01:00",
+              "@value": "2023-01-01T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           },
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2026-12-31T00:00:00+01:00",
+              "@value": "2023-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
