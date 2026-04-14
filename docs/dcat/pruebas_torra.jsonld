@@ -232,12 +232,12 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "http://dist.1.xls"
+          "@id": "1"
         }
       ]
     },
     {
-      "@id": "http://dist.1.xls",
+      "@id": "1",
       "@type": "dcat:Distribution",
       "dct:title": {
         "@value": "pdf de prueba",
