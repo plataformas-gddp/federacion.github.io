@@ -257,7 +257,7 @@
         "@language": "es"
       },
       "foaf:page": {
-        "@id": "http://documentación1.es"
+        "@id": "http://documentacion1.es"
       },
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
