@@ -11066,6 +11066,8 @@
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:DataService>
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/85276317-accd-4000-90c2-442ebea2e4a6">
+    <!-- Puesto a mano -->
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
     <dcat:endpointURL rdf:resource="https://www.mapama.gob.es/ide/inspire/atom/CategCostas/downloadservice.xml"/>
     <dcat:endpointURL rdf:resource="https://www.mapama.gob.es/ide/inspire/opensearch"/>
     <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
