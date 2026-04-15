@@ -22083,7 +22083,7 @@
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
-    <foaf:page rdf:resource="http://inspire.ec.europa.eu/id/ats/metadata/2.0/sds-invocable"/>
+    <!-- <foaf:page rdf:resource="http://inspire.ec.europa.eu/id/ats/metadata/2.0/sds-invocable"/> -->
   </dcat:DataService>
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignatom_download_service">
     <dcat:contactPoint>
@@ -22162,7 +22162,7 @@
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
-    <dcatap:applicableLegislation rdf:resource="http://inspire.ec.europa.eu/id/ats/metadata/2.0/sds-invocable"/>
+    <!-- <dcatap:applicableLegislation rdf:resource="http://inspire.ec.europa.eu/id/ats/metadata/2.0/sds-invocable"/> -->
     <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:description xml:lang="es">Servicio REST de geocodificación de España (CartoCiudad)</dct:description>
@@ -22175,7 +22175,7 @@
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
-    <foaf:page rdf:resource="http://inspire.ec.europa.eu/id/ats/metadata/2.0/sds-invocable"/>
+    <!-- <foaf:page rdf:resource="http://inspire.ec.europa.eu/id/ats/metadata/2.0/sds-invocable"/> -->
   </dcat:DataService>
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwcs_mdt">
     <dcat:contactPoint>
