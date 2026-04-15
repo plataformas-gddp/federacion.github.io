@@ -37,10 +37,6 @@
         {
           "@value": "Catálogo del Ministerio de Defensa",
           "@language": "es"
-        },
-        {
-          "@value": "Catálogo del Ministerio de Defensa",
-          "@language": "es"
         }
       ],
       "dct:issued": [
@@ -57,18 +53,11 @@
       ],
       "dct:description": [
         {
-          "@value": "Conjunto de datos publicados referentes a estadísticas de personal del Ministerio de Defensa y datos de emperesas proveedoras de la industria  del española de defensa.",
-          "@language": "es"
-        },
-        {
-          "@value": "Conjunto de datos publicados referentes a estadísticas de personal del Ministerio de Defensa y datos de emperesas proveedoras de la industria  del española de defensa.",
+          "@value": "Conjunto de datos publicados referentes a estadisticas de personal del Ministerio de Defensa y datos de emperesas proveedoras de la industria  del española de defensa.",
           "@language": "es"
         }
       ],
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -81,15 +70,9 @@
       "dct:license": [
         {
           "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
         }
       ],
       "dcat:themeTaxonomy": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector"
-        },
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector"
         }
@@ -156,9 +139,6 @@
           "dct:type": [
             {
               "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            },
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
             }
           ],
           "foaf:name": [
@@ -171,11 +151,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa-Sector Terrestre.Sexta Edición",
-          "@language": "es"
-        },
-        {
-          "@value": "Catálogo industria española de Defensa-Sector Terrestre.Sexta Edición",
+          "@value": "Catálogo industria española de Defensa. Sexta edición - Terrestre",
           "@language": "es"
         }
       ],
@@ -183,16 +159,9 @@
         {
           "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa.  \nDicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
           "@language": "es"
-        },
-        {
-          "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa.  \nDicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
-          "@language": "es"
         }
       ],
       "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
         }
@@ -212,15 +181,9 @@
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
         }
       ],
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -228,15 +191,14 @@
       "foaf:page": [
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        },
+        }
+      ],
+      "dct:accrualPeriodicity": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
+          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        },
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
         }
@@ -315,13 +277,13 @@
           "@type": "vcard:Kind",
           "vcard:organization-name": [
             {
-              "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+              "@value": "Ministerio de Defensa",
               "@language": "es"
             }
           ],
           "vcard:hasUID": [
             {
-              "@id": "Ministerio de Defensa"
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
             }
           ],
           "vcard:fn": [
@@ -365,9 +327,6 @@
       "dcat:accessURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010095.xlsx"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010095.xlsx"
         }
       ],
       "dct:format": {
@@ -377,9 +336,6 @@
         "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
       },
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -396,10 +352,12 @@
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
-      "dcat:downloadURL": [
+      "dcatap:availability": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010095.xlsx"
-        },
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010095.xlsx"
         }
@@ -416,9 +374,6 @@
           "dct:type": [
             {
               "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            },
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
             }
           ],
           "foaf:name": [
@@ -431,11 +386,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa-Sector Naval. Sexta Edición",
-          "@language": "es"
-        },
-        {
-          "@value": "Catálogo industria española de Defensa-Sector Naval. Sexta Edición",
+          "@value": "Catálogo industria española de Defensa. Sexta edición - Naval",
           "@language": "es"
         }
       ],
@@ -443,16 +394,9 @@
         {
           "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa.  \nDicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
           "@language": "es"
-        },
-        {
-          "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa.  \nDicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
-          "@language": "es"
         }
       ],
       "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
         }
@@ -472,15 +416,9 @@
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
         }
       ],
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -488,15 +426,14 @@
       "foaf:page": [
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        },
+        }
+      ],
+      "dct:accrualPeriodicity": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
+          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        },
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
         }
@@ -575,13 +512,13 @@
           "@type": "vcard:Kind",
           "vcard:organization-name": [
             {
-              "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+              "@value": "Ministerio de Defensa",
               "@language": "es"
             }
           ],
           "vcard:hasUID": [
             {
-              "@id": "Ministerio de Defensa"
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
             }
           ],
           "vcard:fn": [
@@ -625,9 +562,6 @@
       "dcat:accessURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010063.xlsx"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010063.xlsx"
         }
       ],
       "dct:format": {
@@ -637,9 +571,6 @@
         "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
       },
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -656,10 +587,12 @@
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
-      "dcat:downloadURL": [
+      "dcatap:availability": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010063.xlsx"
-        },
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010063.xlsx"
         }
@@ -676,9 +609,6 @@
           "dct:type": [
             {
               "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            },
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
             }
           ],
           "foaf:name": [
@@ -691,11 +621,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa- Sector Aeroespacial. Sexta Edición",
-          "@language": "es"
-        },
-        {
-          "@value": "Catálogo industria española de Defensa- Sector Aeroespacial. Sexta Edición",
+          "@value": "Catálogo industria española de Defensa. Sexta edición - Aeroespacial",
           "@language": "es"
         }
       ],
@@ -703,16 +629,9 @@
         {
           "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa.  \nDicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
           "@language": "es"
-        },
-        {
-          "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa.  \nDicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
-          "@language": "es"
         }
       ],
       "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
         }
@@ -732,15 +651,9 @@
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
         }
       ],
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -748,15 +661,14 @@
       "foaf:page": [
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        },
+        }
+      ],
+      "dct:accrualPeriodicity": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
+          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        },
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
         }
@@ -835,13 +747,13 @@
           "@type": "vcard:Kind",
           "vcard:organization-name": [
             {
-              "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+              "@value": "Ministerio de Defensa",
               "@language": "es"
             }
           ],
           "vcard:hasUID": [
             {
-              "@id": "Ministerio de Defensa"
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
             }
           ],
           "vcard:fn": [
@@ -885,9 +797,6 @@
       "dcat:accessURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009584.xlsx"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009584.xlsx"
         }
       ],
       "dct:format": {
@@ -897,9 +806,6 @@
         "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
       },
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -916,10 +822,12 @@
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
-      "dcat:downloadURL": [
+      "dcatap:availability": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009584.xlsx"
-        },
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009584.xlsx"
         }
@@ -936,9 +844,6 @@
           "dct:type": [
             {
               "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            },
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
             }
           ],
           "foaf:name": [
@@ -951,11 +856,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa- Sector Armamento y Munición. Sexta Edición",
-          "@language": "es"
-        },
-        {
-          "@value": "Catálogo industria española de Defensa- Sector Armamento y Munición. Sexta Edición",
+          "@value": "Catálogo industria española de Defensa. Sexta edición - Armamento y Munición",
           "@language": "es"
         }
       ],
@@ -963,16 +864,9 @@
         {
           "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa.  \nDicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
           "@language": "es"
-        },
-        {
-          "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa.  \nDicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
-          "@language": "es"
         }
       ],
       "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
         }
@@ -992,15 +886,9 @@
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
         }
       ],
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -1008,15 +896,14 @@
       "foaf:page": [
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        },
+        }
+      ],
+      "dct:accrualPeriodicity": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
+          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        },
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
         }
@@ -1095,13 +982,13 @@
           "@type": "vcard:Kind",
           "vcard:organization-name": [
             {
-              "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+              "@value": "Ministerio de Defensa",
               "@language": "es"
             }
           ],
           "vcard:hasUID": [
             {
-              "@id": "Ministerio de Defensa"
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
             }
           ],
           "vcard:fn": [
@@ -1145,9 +1032,6 @@
       "dcat:accessURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009952.xlsx"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009952.xlsx"
         }
       ],
       "dct:format": {
@@ -1157,9 +1041,6 @@
         "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
       },
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -1176,10 +1057,12 @@
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
-      "dcat:downloadURL": [
+      "dcatap:availability": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009952.xlsx"
-        },
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009952.xlsx"
         }
@@ -1196,9 +1079,6 @@
           "dct:type": [
             {
               "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            },
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
             }
           ],
           "foaf:name": [
@@ -1211,11 +1091,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa - Sector Electrónica, Comunicación y TIC. Sexta Edición",
-          "@language": "es"
-        },
-        {
-          "@value": "Catálogo industria española de Defensa - Sector Electrónica, Comunicación y TIC. Sexta Edición",
+          "@value": "Catálogo industria española de Defensa. Sexta edición - Electrónica y Comunicaciones TIC",
           "@language": "es"
         }
       ],
@@ -1223,16 +1099,9 @@
         {
           "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa.  \nDicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
           "@language": "es"
-        },
-        {
-          "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa.  \nDicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
-          "@language": "es"
         }
       ],
       "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
         }
@@ -1252,15 +1121,9 @@
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
         }
       ],
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -1268,15 +1131,14 @@
       "foaf:page": [
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        },
+        }
+      ],
+      "dct:accrualPeriodicity": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
+          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        },
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
         }
@@ -1355,13 +1217,13 @@
           "@type": "vcard:Kind",
           "vcard:organization-name": [
             {
-              "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+              "@value": "Ministerio de Defensa",
               "@language": "es"
             }
           ],
           "vcard:hasUID": [
             {
-              "@id": "Ministerio de Defensa"
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
             }
           ],
           "vcard:fn": [
@@ -1405,9 +1267,6 @@
       "dcat:accessURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009873.xlsx"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009873.xlsx"
         }
       ],
       "dct:format": {
@@ -1417,9 +1276,6 @@
         "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
       },
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -1436,10 +1292,12 @@
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
-      "dcat:downloadURL": [
+      "dcatap:availability": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009873.xlsx"
-        },
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009873.xlsx"
         }
@@ -1456,9 +1314,6 @@
           "dct:type": [
             {
               "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            },
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
             }
           ],
           "foaf:name": [
@@ -1471,11 +1326,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa - Sector Logística y Servicios auxiliares. Sexta Edición",
-          "@language": "es"
-        },
-        {
-          "@value": "Catálogo industria española de Defensa - Sector Logística y Servicios auxiliares. Sexta Edición",
+          "@value": "Catálogo industria española de Defensa. Sexta edición - Logística Auxiliar",
           "@language": "es"
         }
       ],
@@ -1483,16 +1334,9 @@
         {
           "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa.  \nDicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
           "@language": "es"
-        },
-        {
-          "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa.  \nDicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
-          "@language": "es"
         }
       ],
       "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
         }
@@ -1512,15 +1356,9 @@
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
         }
       ],
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -1528,15 +1366,14 @@
       "foaf:page": [
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        },
+        }
+      ],
+      "dct:accrualPeriodicity": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
+          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        },
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
         }
@@ -1615,13 +1452,13 @@
           "@type": "vcard:Kind",
           "vcard:organization-name": [
             {
-              "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+              "@value": "Ministerio de Defensa",
               "@language": "es"
             }
           ],
           "vcard:hasUID": [
             {
-              "@id": "Ministerio de Defensa"
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
             }
           ],
           "vcard:fn": [
@@ -1665,9 +1502,6 @@
       "dcat:accessURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010022.xlsx"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010022.xlsx"
         }
       ],
       "dct:format": {
@@ -1677,9 +1511,6 @@
         "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
       },
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -1696,10 +1527,12 @@
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
-      "dcat:downloadURL": [
+      "dcatap:availability": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010022.xlsx"
-        },
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010022.xlsx"
         }
@@ -1716,9 +1549,6 @@
           "dct:type": [
             {
               "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            },
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
             }
           ],
           "foaf:name": [
@@ -1731,11 +1561,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa - Sector Consultoría e Ingeniería. Sexta Edición",
-          "@language": "es"
-        },
-        {
-          "@value": "Catálogo industria española de Defensa - Sector Consultoría e Ingeniería. Sexta Edición",
+          "@value": "Catálogo industria española de Defensa. Sexta edición - Consultoría e Ingeniería",
           "@language": "es"
         }
       ],
@@ -1743,16 +1569,9 @@
         {
           "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa.  \nDicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
           "@language": "es"
-        },
-        {
-          "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa.  \nDicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
-          "@language": "es"
         }
       ],
       "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
         }
@@ -1772,15 +1591,9 @@
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
         }
       ],
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -1788,15 +1601,14 @@
       "foaf:page": [
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        },
+        }
+      ],
+      "dct:accrualPeriodicity": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
+          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-        },
         {
           "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
         }
@@ -1875,13 +1687,13 @@
           "@type": "vcard:Kind",
           "vcard:organization-name": [
             {
-              "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+              "@value": "Ministerio de Defensa",
               "@language": "es"
             }
           ],
           "vcard:hasUID": [
             {
-              "@id": "Ministerio de Defensa"
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
             }
           ],
           "vcard:fn": [
@@ -1925,9 +1737,6 @@
       "dcat:accessURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009987.xlsx"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009987.xlsx"
         }
       ],
       "dct:format": {
@@ -1937,9 +1746,6 @@
         "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
       },
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -1956,10 +1762,12 @@
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
-      "dcat:downloadURL": [
+      "dcatap:availability": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009987.xlsx"
-        },
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009987.xlsx"
         }
@@ -1976,9 +1784,6 @@
           "dct:type": [
             {
               "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            },
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
             }
           ],
           "foaf:name": [
@@ -1993,26 +1798,15 @@
         {
           "@value": "Anuario Estadístico - Personal Militar de Carrera",
           "@language": "es"
-        },
-        {
-          "@value": "Anuario Estadístico - Personal Militar de Carrera",
-          "@language": "es"
         }
       ],
       "dct:description": [
         {
           "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
           "@language": "es"
-        },
-        {
-          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
-          "@language": "es"
         }
       ],
       "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
         }
@@ -2032,15 +1826,9 @@
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
         }
       ],
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -2048,23 +1836,14 @@
       "foaf:page": [
         {
           "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
         }
       ],
       "dct:accrualPeriodicity": [
         {
           "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        },
         {
           "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
         }
@@ -2115,24 +1894,24 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2023-01-01T00:00:00+01:00",
+            "@value": "2025-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2023-12-31T00:00:00+01:00",
+            "@value": "2025-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2023-01-01T00:00:00+01:00",
+              "@value": "2025-01-01T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           },
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2023-12-31T00:00:00+01:00",
+              "@value": "2025-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -2143,13 +1922,13 @@
           "@type": "vcard:Kind",
           "vcard:organization-name": [
             {
-              "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+              "@value": "Ministerio de Defensa",
               "@language": "es"
             }
           ],
           "vcard:hasUID": [
             {
-              "@id": "Ministerio de Defensa"
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
             }
           ],
           "vcard:fn": [
@@ -2193,9 +1972,6 @@
       "dcat:accessURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010180.ods"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010180.ods"
         }
       ],
       "dct:format": {
@@ -2205,9 +1981,6 @@
         "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
       },
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -2224,10 +1997,12 @@
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
-      "dcat:downloadURL": [
+      "dcatap:availability": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010180.ods"
-        },
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010180.ods"
         }
@@ -2244,9 +2019,6 @@
           "dct:type": [
             {
               "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            },
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
             }
           ],
           "foaf:name": [
@@ -2261,26 +2033,15 @@
         {
           "@value": "Anuario Estadístico - Personal Militar No Permanentes (Baja)",
           "@language": "es"
-        },
-        {
-          "@value": "Anuario Estadístico - Personal Militar No Permanentes (Baja)",
-          "@language": "es"
         }
       ],
       "dct:description": [
         {
           "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
           "@language": "es"
-        },
-        {
-          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
-          "@language": "es"
         }
       ],
       "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
         }
@@ -2300,15 +2061,9 @@
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
         }
       ],
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -2316,23 +2071,14 @@
       "foaf:page": [
         {
           "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
         }
       ],
       "dct:accrualPeriodicity": [
         {
           "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        },
         {
           "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
         }
@@ -2383,24 +2129,24 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2023-01-01T00:00:00+01:00",
+            "@value": "2025-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2023-12-31T00:00:00+01:00",
+            "@value": "2025-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2023-01-01T00:00:00+01:00",
+              "@value": "2025-01-01T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           },
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2023-12-31T00:00:00+01:00",
+              "@value": "2025-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -2411,13 +2157,13 @@
           "@type": "vcard:Kind",
           "vcard:organization-name": [
             {
-              "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+              "@value": "Ministerio de Defensa",
               "@language": "es"
             }
           ],
           "vcard:hasUID": [
             {
-              "@id": "Ministerio de Defensa"
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
             }
           ],
           "vcard:fn": [
@@ -2461,9 +2207,6 @@
       "dcat:accessURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010258.ods"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010258.ods"
         }
       ],
       "dct:format": {
@@ -2473,9 +2216,6 @@
         "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
       },
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -2492,10 +2232,12 @@
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
-      "dcat:downloadURL": [
+      "dcatap:availability": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010258.ods"
-        },
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010258.ods"
         }
@@ -2512,9 +2254,6 @@
           "dct:type": [
             {
               "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            },
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
             }
           ],
           "foaf:name": [
@@ -2529,26 +2268,15 @@
         {
           "@value": "Anuario Estadístico - Personal Militar No Permanentes (Alta)",
           "@language": "es"
-        },
-        {
-          "@value": "Anuario Estadístico - Personal Militar No Permanentes (Alta)",
-          "@language": "es"
         }
       ],
       "dct:description": [
         {
           "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
           "@language": "es"
-        },
-        {
-          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
-          "@language": "es"
         }
       ],
       "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
         }
@@ -2568,15 +2296,9 @@
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
         }
       ],
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -2584,23 +2306,14 @@
       "foaf:page": [
         {
           "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
         }
       ],
       "dct:accrualPeriodicity": [
         {
           "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        },
         {
           "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
         }
@@ -2651,24 +2364,24 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2023-01-01T00:00:00+01:00",
+            "@value": "2025-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2023-12-31T00:00:00+01:00",
+            "@value": "2025-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2023-01-01T00:00:00+01:00",
+              "@value": "2025-01-01T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           },
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2023-12-31T00:00:00+01:00",
+              "@value": "2025-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -2679,13 +2392,13 @@
           "@type": "vcard:Kind",
           "vcard:organization-name": [
             {
-              "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+              "@value": "Ministerio de Defensa",
               "@language": "es"
             }
           ],
           "vcard:hasUID": [
             {
-              "@id": "Ministerio de Defensa"
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
             }
           ],
           "vcard:fn": [
@@ -2729,9 +2442,6 @@
       "dcat:accessURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010216.ods"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010216.ods"
         }
       ],
       "dct:format": {
@@ -2741,9 +2451,6 @@
         "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
       },
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -2760,10 +2467,12 @@
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
-      "dcat:downloadURL": [
+      "dcatap:availability": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010216.ods"
-        },
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010216.ods"
         }
@@ -2780,9 +2489,6 @@
           "dct:type": [
             {
               "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            },
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
             }
           ],
           "foaf:name": [
@@ -2797,26 +2503,15 @@
         {
           "@value": "Anuario Estadístico - Personal Guardia Civíl",
           "@language": "es"
-        },
-        {
-          "@value": "Anuario Estadístico - Personal Guardia Civíl",
-          "@language": "es"
         }
       ],
       "dct:description": [
         {
           "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
           "@language": "es"
-        },
-        {
-          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
-          "@language": "es"
         }
       ],
       "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
         }
@@ -2836,15 +2531,9 @@
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
         }
       ],
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -2852,23 +2541,14 @@
       "foaf:page": [
         {
           "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
         }
       ],
       "dct:accrualPeriodicity": [
         {
           "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        },
         {
           "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
         }
@@ -2919,24 +2599,24 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2023-01-01T00:00:00+01:00",
+            "@value": "2025-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2023-12-31T00:00:00+01:00",
+            "@value": "2025-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2023-01-01T00:00:00+01:00",
+              "@value": "2025-01-01T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           },
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2023-12-31T00:00:00+01:00",
+              "@value": "2025-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -2947,13 +2627,13 @@
           "@type": "vcard:Kind",
           "vcard:organization-name": [
             {
-              "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+              "@value": "Ministerio de Defensa",
               "@language": "es"
             }
           ],
           "vcard:hasUID": [
             {
-              "@id": "Ministerio de Defensa"
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
             }
           ],
           "vcard:fn": [
@@ -2997,9 +2677,6 @@
       "dcat:accessURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010321.ods"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010321.ods"
         }
       ],
       "dct:format": {
@@ -3009,9 +2686,6 @@
         "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
       },
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -3028,10 +2702,12 @@
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
-      "dcat:downloadURL": [
+      "dcatap:availability": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010321.ods"
-        },
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010321.ods"
         }
@@ -3048,9 +2724,6 @@
           "dct:type": [
             {
               "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            },
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
             }
           ],
           "foaf:name": [
@@ -3065,26 +2738,15 @@
         {
           "@value": "Anuario Estadístico - Personal Estatutario",
           "@language": "es"
-        },
-        {
-          "@value": "Anuario Estadístico - Personal Estatutario",
-          "@language": "es"
         }
       ],
       "dct:description": [
         {
           "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
           "@language": "es"
-        },
-        {
-          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
-          "@language": "es"
         }
       ],
       "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
         }
@@ -3104,15 +2766,9 @@
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
         }
       ],
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -3120,23 +2776,14 @@
       "foaf:page": [
         {
           "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
         }
       ],
       "dct:accrualPeriodicity": [
         {
           "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        },
         {
           "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
         }
@@ -3187,24 +2834,24 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2023-01-01T00:00:00+01:00",
+            "@value": "2025-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2023-12-31T00:00:00+01:00",
+            "@value": "2025-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2023-01-01T00:00:00+01:00",
+              "@value": "2025-01-01T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           },
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2023-12-31T00:00:00+01:00",
+              "@value": "2025-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -3215,13 +2862,13 @@
           "@type": "vcard:Kind",
           "vcard:organization-name": [
             {
-              "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+              "@value": "Ministerio de Defensa",
               "@language": "es"
             }
           ],
           "vcard:hasUID": [
             {
-              "@id": "Ministerio de Defensa"
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
             }
           ],
           "vcard:fn": [
@@ -3265,9 +2912,6 @@
       "dcat:accessURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010148.ods"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010148.ods"
         }
       ],
       "dct:format": {
@@ -3277,9 +2921,6 @@
         "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
       },
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -3296,10 +2937,12 @@
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
-      "dcat:downloadURL": [
+      "dcatap:availability": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010148.ods"
-        },
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010148.ods"
         }
@@ -3316,9 +2959,6 @@
           "dct:type": [
             {
               "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            },
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
             }
           ],
           "foaf:name": [
@@ -3333,26 +2973,15 @@
         {
           "@value": "Anuario Estadístico - Personal Laboral",
           "@language": "es"
-        },
-        {
-          "@value": "Anuario Estadístico - Personal Laboral",
-          "@language": "es"
         }
       ],
       "dct:description": [
         {
           "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
           "@language": "es"
-        },
-        {
-          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
-          "@language": "es"
         }
       ],
       "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
         }
@@ -3372,15 +3001,9 @@
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
         }
       ],
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -3388,23 +3011,14 @@
       "foaf:page": [
         {
           "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
         }
       ],
       "dct:accrualPeriodicity": [
         {
           "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        },
         {
           "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
         }
@@ -3455,24 +3069,24 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2023-01-01T00:00:00+01:00",
+            "@value": "2025-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2023-12-31T00:00:00+01:00",
+            "@value": "2025-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2023-01-01T00:00:00+01:00",
+              "@value": "2025-01-01T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           },
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2023-12-31T00:00:00+01:00",
+              "@value": "2025-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -3483,13 +3097,13 @@
           "@type": "vcard:Kind",
           "vcard:organization-name": [
             {
-              "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+              "@value": "Ministerio de Defensa",
               "@language": "es"
             }
           ],
           "vcard:hasUID": [
             {
-              "@id": "Ministerio de Defensa"
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
             }
           ],
           "vcard:fn": [
@@ -3533,9 +3147,6 @@
       "dcat:accessURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774261635.ods"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774261635.ods"
         }
       ],
       "dct:format": {
@@ -3545,9 +3156,6 @@
         "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
       },
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -3564,10 +3172,12 @@
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
-      "dcat:downloadURL": [
+      "dcatap:availability": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774261635.ods"
-        },
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774261635.ods"
         }
@@ -3584,9 +3194,6 @@
           "dct:type": [
             {
               "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            },
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
             }
           ],
           "foaf:name": [
@@ -3601,26 +3208,15 @@
         {
           "@value": "Anuario Estadístico - Personal Funcionario",
           "@language": "es"
-        },
-        {
-          "@value": "Anuario Estadístico - Personal Funcionario",
-          "@language": "es"
         }
       ],
       "dct:description": [
         {
           "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
           "@language": "es"
-        },
-        {
-          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
-          "@language": "es"
         }
       ],
       "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
         }
@@ -3640,15 +3236,9 @@
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
         }
       ],
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -3656,23 +3246,14 @@
       "foaf:page": [
         {
           "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
         }
       ],
       "dct:accrualPeriodicity": [
         {
           "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
         }
       ],
       "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        },
         {
           "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
         }
@@ -3723,24 +3304,24 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2023-01-01T00:00:00+01:00",
+            "@value": "2025-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "dcat:endDate": {
-            "@value": "2023-12-31T00:00:00+01:00",
+            "@value": "2025-12-31T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           },
           "time:hasBeginning": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2023-01-01T00:00:00+01:00",
+              "@value": "2025-01-01T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           },
           "time:hasEnd": {
             "@type": "time:Instant",
             "time:inXSDDateTime": {
-              "@value": "2023-12-31T00:00:00+01:00",
+              "@value": "2025-12-31T00:00:00+01:00",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
             }
           }
@@ -3751,13 +3332,13 @@
           "@type": "vcard:Kind",
           "vcard:organization-name": [
             {
-              "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+              "@value": "Ministerio de Defensa",
               "@language": "es"
             }
           ],
           "vcard:hasUID": [
             {
-              "@id": "Ministerio de Defensa"
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
             }
           ],
           "vcard:fn": [
@@ -3801,9 +3382,6 @@
       "dcat:accessURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010291.ods"
-        },
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010291.ods"
         }
       ],
       "dct:format": {
@@ -3813,9 +3391,6 @@
         "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
       },
       "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
         {
           "@id": "http://publications.europa.eu/resource/authority/language/SPA"
         }
@@ -3832,10 +3407,12 @@
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
-      "dcat:downloadURL": [
+      "dcatap:availability": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010291.ods"
-        },
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
         {
           "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010291.ods"
         }
