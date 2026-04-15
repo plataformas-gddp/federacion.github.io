@@ -1,124 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:dct="http://purl.org/dc/terms/"
-  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:time="http://www.w3.org/2006/time#"
   xmlns:dcat="http://www.w3.org/ns/dcat#"
-  xmlns:dcatap="http://data.europa.eu/r5r/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:locn="http://www.w3.org/ns/locn#"
+  xmlns:hydra="http://www.w3.org/ns/hydra/core#"
+  xmlns:dct="http://purl.org/dc/terms/"
   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:locn="http://www.w3.org/ns/locn#"
 >
-  <dcat:Catalog rdf:about="http://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/home">
-    <dcat:dataset rdf:resource="https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/9b635d3a-d1f9-4721-96d0-3914d977ae78"/>
-
-   
-    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
-
-    <dct:description xml:lang="es">Conjunto de Datasets del CNIG</dct:description>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-01</dct:issued>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-01</dct:modified>
-    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
-    <dct:title xml:lang="es">Catálogo de CNIG-IGN</dct:title>
-    <foaf:homepage rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/home"/>
-  </dcat:Catalog>
-  <dcat:Dataset rdf:about="https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/9b635d3a-d1f9-4721-96d0-3914d977ae78">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
-    <dct:title xml:lang="en">Weekly Hydrological Bulletin</dct:title>
-    <dct:title xml:lang="es">Boletín Hidrológico semanal</dct:title>
-    <dct:description xml:lang="en">The Hydrological Bulletin is a weekly publication produced by the Hydrological Information Area, which receives data originating from the River Basin Authorities and the intra-community water administrations, the State Meteorological Agency and the Spanish Electricity Network, carrying out the technical processing of the information for its presentation as support for water management decisions that must be taken at the national level, with their technical, economic and social implications.</dct:description>
-    <dct:description xml:lang="es">El Boletín Hidrológico es una publicación de periodicidad semanal realizada por el Área de Información Hidrológica, que recibe los datos que se originan en las Confederaciones Hidrográficas y en las Administraciones hidráulicas intracomunitarias, la Agencia Estatal de Meteorología y Red Eléctrica de España, realizando el tratamiento técnico de la información para su presentación como soporte de las decisiones de gestión hídrica que se deben tomar a nivel nacional, con sus implicaciones técnicas, económicas y sociales.</dct:description>
-    <dcat:landingPage rdf:resource="https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/9b635d3a-d1f9-4721-96d0-3914d977ae78"/>
-    <dct:identifier>9b635d3a-d1f9-4721-96d0-3914d977ae78</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/BIWEEKLY"/>
-    <dct:type rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset"/>
-    <dcat:keyword xml:lang="es">boletin-hidrológico-semanal</dcat:keyword>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-07T00:00:00+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-25T00:00:00+00:00</dct:issued>
+  <dcat:Catalog rdf:about="https://caoba.pre.sgai.csic.es">
     <dct:language>
       <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA"/>
     </dct:language>
-    <dcat:theme rdf:resource="http://inspire.ec.europa.eu/theme/hy"/>
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
-    <dcat:contactPoint>
-      <vcard:Kind rdf:about="https://catalogo.datosabiertos.miteco.gob.es/kos/role/E05068001/contact">
-        <vcard:fn xml:lang="es">SG de Protección de las Aguas y Gestión de Riesgos</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:bzn-sgpagr@miteco.es"/>
-        <vcard:hasURL rdf:resource="https://www.miteco.gob.es/"/>
-        <vcard:role rdf:resource="http://id.loc.gov/vocabulary/relators/mdc"/>
-      </vcard:Kind>
-    </dcat:contactPoint>
-    <dct:creator>
-      <foaf:Agent rdf:nodeID="N822a900df50046b1b807c4db58b945c0">
-        <foaf:name xml:lang="es">SG de Protección de las Aguas y Gestión de Riesgos</foaf:name>
-        <foaf:mbox rdf:resource="mailto:bzn-sgpagr@miteco.es"/>
-        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
-        <dct:identifier>E05068001</dct:identifier>
-      </foaf:Agent>
-    </dct:creator>
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/ENG"/>
+    </dct:language>
     <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España">
-        <locn:geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-18.1600 27.6400, 4.3200 27.6400, 4.3200 43.7900, -18.1600 43.7900, -18.1600 27.6400))</locn:geometry>
-        <skos:prefLabel>España</skos:prefLabel>
-        <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-18.1600 27.6400, 4.3200 27.6400, 4.3200 43.7900, -18.1600 43.7900, -18.1600 27.6400))</dcat:bbox>
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-6.9200 35.7150)</dcat:centroid>
+      <dct:Location rdf:about="http://publications.europa.eu/resource/authority/country/ESP">
+        <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</dcat:bbox>
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8150 40.5250)</dcat:centroid>
+        <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</locn:Geometry>
       </dct:Location>
     </dct:spatial>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
+    <foaf:homepage rdf:resource="https://caoba.pre.sgai.csic.es"/>
     <dct:license>
       <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
         <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR"/>
       </rdf:Description>
     </dct:license>
-    <dct:provenance>
-      <dct:ProvenanceStatement rdf:nodeID="Nf0c81f8b3c1845dd8849120a879042eb">
-        <dct:description xml:lang="en">Data is received from each of the reservoir confederations, from the regional governments' inter-community river basin authorities, from AEMET (the Spanish State Meteorological Agency) for rainfall data, and from REE (the Spanish Electricity Network) for hydroelectric production data from the reservoirs. During the process, occasional non-automated validations are performed, and the original source is consulted if necessary.</dct:description>
-        <dct:description xml:lang="es">Se reciben los datos de cada una de las confederaciones de datos de embalses, de las CCAA de organismos de cuencas intercomunitarios, de la AEMET se recibe la pluviometría, de REE se recibe la producción hidroeléctrica de los embalses. Durante el proceso se hacen validaciones puntuales no automatizadas, y se consulta con el punto de origen en caso de ser necesario.</dct:description>
-      </dct:ProvenanceStatement>
-    </dct:provenance>
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dcat:distribution>
-      <dcat:Distribution rdf:about="https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/9b635d3a-d1f9-4721-96d0-3914d977ae78/resource/6c588ec2-af6e-473c-9b68-91d585b92ff8">
-        <dct:title xml:lang="es">Datos embalses desde 1988 hasta la actualidad</dct:title>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
-        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/zip"/>
-        <dcat:accessURL rdf:resource="https://www.miteco.gob.es/content/dam/miteco/es/agua/temas/evaluacion-de-los-recursos-hidricos/boletin-hidrologico/Historico-de-embalses/BD-Embalses.zip"/>
-        <dcat:downloadURL rdf:resource="https://www.miteco.gob.es/content/dam/miteco/es/agua/temas/evaluacion-de-los-recursos-hidricos/boletin-hidrologico/Historico-de-embalses/BD-Embalses.zip"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-07T00:00:00+00:00</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-07T00:00:00+00:00</dct:issued>
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
-      </dcat:Distribution>
-    </dcat:distribution>
-    <dcat:distribution>
-      <dcat:Distribution rdf:about="https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/9b635d3a-d1f9-4721-96d0-3914d977ae78/resource/dfa65f54-8ef3-4a10-9013-cc079ca89416">
-        <dct:title xml:lang="es">Descarga datos semanales en PDF</dct:title>
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF"/>
-        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
-        <dcat:accessURL rdf:resource="https://sede.miteco.gob.es/BoleHWeb/"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-07T00:00:00+00:00</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-07T00:00:00+00:00</dct:issued>
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
-      </dcat:Distribution>
-    </dcat:distribution>
-    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+    <dct:title xml:lang="es">Catálogo de datos abiertos del CSIC</dct:title>
+    <dct:description xml:lang="es">Catálogo de datos abiertos CSIC</dct:description>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-15T11:08:51+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-01T00:00:00+00:00</dct:issued>
     <dct:publisher>
-      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068001">
-        <foaf:name xml:lang="es">Ministerio para la Transición Ecológica y el Reto Demográfico</foaf:name>
-        <foaf:mbox>bzn-datos@miteco.es</foaf:mbox>
-        <foaf:homepage rdf:resource="https://www.miteco.gob.es/"/>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041268">
+        <foaf:name xml:lang="es">Agencia Estatal Consejo Superior de Investigaciones Científicas</foaf:name>
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
         <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
-        <dct:identifier>E05068001</dct:identifier>
+        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041268</dct:identifier>
       </foaf:Agent>
     </dct:publisher>
-  </dcat:Dataset>
+    <dct:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041268"/>
+    <dct:hasPart rdf:resource="https://datos.gob.es/catalogo/part-1"/>
+    <dct:isPartOf rdf:resource="https://datos.gob.es/catalogo/main"/>
+    <dcat:catalog rdf:resource="https://datos.gob.es/catalogo/related"/>
+    <dcat:record rdf:resource="https://datos.gob.es/catalogo/record/1"/>
+    <dct:temporal>
+      <dct:PeriodOfTime rdf:nodeID="N595725d3d3e54eab807cf4564a08a4a5">
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-01T00:00:00+00:00</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</dcat:endDate>
+        <time:hasBeginning>
+          <time:Instant rdf:nodeID="N0fb7b6bc205e49b2bd49430f7f1a6be5">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-01T00:00:00+00:00</time:inXSDDateTime>
+          </time:Instant>
+        </time:hasBeginning>
+        <time:hasEnd>
+          <time:Instant rdf:nodeID="N5bbd442872ca45ad882777a155fdd488">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</time:inXSDDateTime>
+          </time:Instant>
+        </time:hasEnd>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://caoba.pre.sgai.csic.es/dataset/httpscaobapresgaicsicesdataseticus">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <dct:title xml:lang="es">Institutos, Centros y Unidades del CSIC</dct:title>
+        <dct:description xml:lang="es">"El CSIC es una Agencia Estatal con la consideración de Organismo Público de Investigación (OPI) de la Administración General del Estado con personalidad jurídica única que desarrolla su función a través de una multiplicidad de estructuras organizativas carentes de personalidad jurídica propia.&#13;
+&#13;
+Su actividad científica se desarrolla a través de dos estructuras fundamentales: los institutos de investigación y los centros nacionales."</dct:description>
+        <dcat:landingPage rdf:resource="https://caoba.pre.sgai.csic.es/dataset/httpscaobapresgaicsicesdataseticus"/>
+        <dct:identifier>"https://caoba.pre.sgai.csic.es/dataset/icus"</dct:identifier>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-15T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-15T00:00:00+00:00</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"/>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:distribution rdf:resource="https://caoba.pre.sgai.csic.es/dataset/httpscaobapresgaicsicesdataseticus/resource/dataset-icus-xlsx"/>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041268"/>
+        <adms:identifier>
+          <adms:Identifier rdf:nodeID="N52b094c82c4c4dd9896c97d7dbd95d7b">
+            <skos:notation>DCAT-AP-ES</skos:notation>
+          </adms:Identifier>
+        </adms:identifier>
+      </dcat:Dataset>
+    </dcat:dataset>
+  </dcat:Catalog>
+  <hydra:PagedCollection rdf:about="https://caoba.pre.sgai.csic.es/catalog.rdf?profiles=es_dcat_ap_2_impulsadata&amp;page=1">
+    <hydra:firstPage>https://caoba.pre.sgai.csic.es/catalog.rdf?profiles=es_dcat_ap_2_impulsadata&amp;page=1</hydra:firstPage>
+    <hydra:first>https://caoba.pre.sgai.csic.es/catalog.rdf?profiles=es_dcat_ap_2_impulsadata&amp;page=1</hydra:first>
+    <hydra:lastPage>https://caoba.pre.sgai.csic.es/catalog.rdf?profiles=es_dcat_ap_2_impulsadata&amp;page=1</hydra:lastPage>
+    <hydra:last>https://caoba.pre.sgai.csic.es/catalog.rdf?profiles=es_dcat_ap_2_impulsadata&amp;page=1</hydra:last>
+    <hydra:totalItems rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hydra:totalItems>
+    <hydra:itemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hydra:itemsPerPage>
+  </hydra:PagedCollection>
+  <dcat:Distribution rdf:about="https://caoba.pre.sgai.csic.es/dataset/httpscaobapresgaicsicesdataseticus/resource/dataset-icus-xlsx">
+    <dct:title xml:lang="es">Institutos, Centros y Unidades del CSIC</dct:title>
+    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+    <dct:format>
+      <dct:IMT rdf:nodeID="N4b4d3553956a45249db304631480689a">
+        <rdf:value>text/VND.OPENXMLFORMATS-OFFICEDOCUMENT.SPREADSHEETML.SHEET</rdf:value>
+        <rdfs:label>VND.OPENXMLFORMATS-OFFICEDOCUMENT.SPREADSHEETML.SHEET</rdfs:label>
+      </dct:IMT>
+    </dct:format>
+    <dcat:accessURL rdf:resource="https://caoba.pre.sgai.csic.es/dataset/76699b98-9c63-4100-b0ee-8f3ffe21a682/resource/cf3461f8-921e-4403-86fb-ec5839504410/download/dataset_icus.xlsx"/>
+    <dcat:downloadURL rdf:resource="https://caoba.pre.sgai.csic.es/dataset/icus/resource/cf3461f8-921e-4403-86fb-ec5839504410/download"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-15T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-15T00:00:00+00:00</dct:issued>
+  </dcat:Distribution>
 </rdf:RDF>
