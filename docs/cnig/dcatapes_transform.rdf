@@ -22070,7 +22070,7 @@
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
-    <dcatap:applicableLegislation rdf:resource="http://inspire.ec.europa.eu/id/ats/metadata/2.0/sds-invocable"/>
+    <!-- <dcatap:applicableLegislation rdf:resource="http://inspire.ec.europa.eu/id/ats/metadata/2.0/sds-invocable"/> -->
     <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:description xml:lang="es">API de procesos (API-Processes) del SCNE</dct:description>
