@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <dcat:Dataset rdf:about="https://172.17.8.173:8443/dataset/httphdlhandlenet10261394609">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+    <dct:title xml:lang="en">[EN] Additional file 5 of Heterochrony in orthodenticle expression is associated with ommatidial size variation between Drosophila species [Dataset]</dct:title>
+    <dct:title xml:lang="es">[ES] El archivo adicional 5 de Heterocronía en expresión ortodológica se asocia con la variación del tamaño ommatidial entre las especies de Drosophila [Dataset] (Traducción automática)</dct:title>
+    <dct:description xml:lang="en">[EN] Additional file 5: Table S3. Pair-wise differential gene expression analysis (D.sim vs. D.mau) results for each time point (72 hAEL, 96 hAEL and 120 hAEL).</dct:description>
+    <dct:description xml:lang="es">[ES] Archivo adicional 5: Tabla S3. Análisis de expresión de genes diferencial de par (D.sim vs. D.mau) resultados para cada punto de tiempo (72 hAEL, 96 hAEL y 120 hAEL). (Traducción automática)</dct:description>
+    <dcat:landingPage rdf:resource="https://172.17.8.173:8443/dataset/httphdlhandlenet10261394609" />
+    <dcat:landingPage rdf:resource="http://hdl.handle.net/10261/394609" />
+    <dct:identifier>"http://hdl.handle.net/10261/394609"</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-15T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-04T00:00:00+00:00</dct:issued>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://172.17.8.173:8443/dataset/httphdlhandlenet10261394609/resource/12915-2025-2136-moesm5-esm-xlsx">
+        <dct:title xml:lang="es">12915-2025-2136-moesm5-esm-xlsx</dct:title>
+        <dcat:accessURL rdf:resource="https://digital.csic.es/bitstream/10261/394609/1/12915_2025_2136_MOESM5_ESM.xlsx" />
+        <dcat:downloadURL rdf:resource="https://digital.csic.es/bitstream/10261/394609/1/12915_2025_2136_MOESM5_ESM.xlsx" />
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-15T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-07T00:00:00+00:00</dct:issued>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://172.17.8.173:8443/dataset/httphdlhandlenet10261394609/resource/readme-dataset-txt">
+        <dct:title xml:lang="es">readme-dataset-txt</dct:title>
+        <dcat:accessURL rdf:resource="https://digital.csic.es/bitstream/10261/394609/2/README_DATASET.txt" />
+        <dcat:downloadURL rdf:resource="https://digital.csic.es/bitstream/10261/394609/2/README_DATASET.txt" />
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-15T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-07T00:00:00+00:00</dct:issued>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041268">
+        <foaf:name xml:lang="es">Agencia Estatal Consejo Superior de Investigaciones Científicas</foaf:name>
+        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041268</dct:identifier>
+      </foaf:Agent>
+    </dct:publisher>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041268"><foaf:name xml:lang="es">Agencia Estatal Consejo Superior de Investigaciones Científicas</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041268</dct:identifier></foaf:Agent></dct:creator>
+  </dcat:Dataset>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
+    <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR" />
+  </rdf:Description>
+</rdf:RDF>
