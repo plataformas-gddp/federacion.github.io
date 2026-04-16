@@ -157,7 +157,7 @@
         <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_e1da4e07" />
         <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
         <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121"><foaf:name xml:lang="en">MINECO</foaf:name><foaf:name xml:lang="es">Ministerio de Asuntos Económicos y Transformación Digital</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"><foaf:name xml:lang="en">MINECO</foaf:name><foaf:name xml:lang="es">Ministerio de Asuntos Económicos y Transformación Digital</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
         <dcat:keyword xml:lang="en">comercio exterior</dcat:keyword>
         <dcat:keyword xml:lang="es">indicadores económicos</dcat:keyword>
         <dcat:contactPoint rdf:resource="https://172.17.8.174:8443/kos/role/vCard%20Org%20E/contact" />
@@ -194,7 +194,7 @@
         <prov:wasGeneratedBy rdf:resource="https://datos.gob.es/recurso/actividad/encuesta-sector-publico-ine-2023" />
         <dct:conformsTo rdf:resource="http://publications.europa.eu/resource/authority/data-specification/INSPIRE_DLS" />
         <dct:conformsTo rdf:resource="https://schema.org/Dataset" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121"><foaf:name xml:lang="en">MINECO</foaf:name><foaf:name xml:lang="es">Ministerio de Asuntos Económicos y Transformación Digital</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"><foaf:name xml:lang="en">MINECO</foaf:name><foaf:name xml:lang="es">Ministerio de Asuntos Económicos y Transformación Digital</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
         <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="en">INE</foaf:name><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
         <adms:identifier>
           <adms:Identifier rdf:nodeID="Ndab73f99a1544ea6ac4d06f29a33a762">
@@ -387,7 +387,7 @@
         <vcard:hasEmail rdf:resource="mailto:orgAarrobaeconomia.gob.es" />
         <vcard:hasURL rdf:resource="https://orgA.gob.es/info" />
         <vcard:organization-name xml:lang="es">Nombre Org A</vcard:organization-name>
-        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121" />
+        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801" />
         <vcard:hasTelephone rdf:resource="tel:+3210000001" />
       </vcard:Kind>
     </dcat:contactPoint>
@@ -397,7 +397,7 @@
         <vcard:hasEmail rdf:resource="mailto:orgBarrobaeconomia.gob.es" />
         <vcard:hasURL rdf:resource="https://orgB.gob.es/info" />
         <vcard:organization-name xml:lang="es">Nombre Org B</vcard:organization-name>
-        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121" />
+        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801" />
         <vcard:hasTelephone rdf:resource="tel:+3210000002" />
       </vcard:Kind>
     </dcat:contactPoint>
@@ -490,8 +490,8 @@
   </dcat:Distribution>
   </dcat:distribution>
         <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0020951"><foaf:name xml:lang="es">Agencia Estatal Consejo Superior de Investigaciones Científicas</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0020951</dct:identifier></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0020951"><foaf:name xml:lang="es">Agencia Estatal Consejo Superior de Investigaciones Científicas</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0020951</dct:identifier></foaf:Agent></dct:creator>
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"><foaf:name xml:lang="es">Agencia Estatal Consejo Superior de Investigaciones Científicas</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801</dct:identifier></foaf:Agent></dct:publisher>
+        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"><foaf:name xml:lang="es">Agencia Estatal Consejo Superior de Investigaciones Científicas</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801</dct:identifier></foaf:Agent></dct:creator>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -598,7 +598,7 @@
         <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_e1da4e07" />
         <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
         <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121"><foaf:name xml:lang="en">MINECO</foaf:name><foaf:name xml:lang="es">Ministerio de Asuntos Económicos y Transformación Digital</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"><foaf:name xml:lang="en">MINECO</foaf:name><foaf:name xml:lang="es">Ministerio de Asuntos Económicos y Transformación Digital</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
         <dcat:keyword xml:lang="en">comercio exterior</dcat:keyword>
         <dcat:keyword xml:lang="es">indicadores económicos</dcat:keyword>
         <dcat:contactPoint rdf:resource="https://172.17.8.174:8443/kos/role/vCard%20Org%20E/contact" />
@@ -663,7 +663,7 @@
         <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_e1da4e07" />
         <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
         <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121"><foaf:name xml:lang="en">MINECO</foaf:name><foaf:name xml:lang="es">Ministerio de Asuntos Económicos y Transformación Digital</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"><foaf:name xml:lang="en">MINECO</foaf:name><foaf:name xml:lang="es">Ministerio de Asuntos Económicos y Transformación Digital</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
         <dcat:keyword xml:lang="en">comercio exterior</dcat:keyword>
         <dcat:keyword xml:lang="es">indicadores económicos</dcat:keyword>
         <dcat:contactPoint rdf:resource="https://172.17.8.174:8443/kos/role/vCard%20Org%20E/contact" />
@@ -701,7 +701,7 @@
         <prov:wasGeneratedBy rdf:resource="https://datos.gob.es/recurso/actividad/encuesta-sector-publico-ine-2023" />
         <dct:conformsTo rdf:resource="http://publications.europa.eu/resource/authority/data-specification/INSPIRE_DLS" />
         <dct:conformsTo rdf:resource="https://schema.org/Dataset" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121"><foaf:name xml:lang="en">MINECO</foaf:name><foaf:name xml:lang="es">Ministerio de Asuntos Económicos y Transformación Digital</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"><foaf:name xml:lang="en">MINECO</foaf:name><foaf:name xml:lang="es">Ministerio de Asuntos Económicos y Transformación Digital</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
         <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="en">INE</foaf:name><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
         <adms:identifier>
           <adms:Identifier rdf:nodeID="N1e8542f025c143dbb9cdce043ca79fd9">
@@ -884,7 +884,7 @@
         <vcard:hasURL rdf:resource="https://orgB.gob.es/info" />
         <vcard:hasTelephone rdf:resource="tel:+3210000002" />
         <vcard:organization-name xml:lang="es">Nombre Org B</vcard:organization-name>
-        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121" />
+        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801" />
       </vcard:Kind>
     </dcat:contactPoint>
     <dcat:contactPoint>
@@ -904,7 +904,7 @@
     <vcard:hasURL rdf:resource="https://orgA.gob.es/info" />
     <vcard:hasTelephone rdf:resource="tel:+3210000001" />
     <vcard:organization-name xml:lang="es">Nombre Org A</vcard:organization-name>
-    <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121" />
+    <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801" />
   </vcard:Kind>
   <vcard:Kind rdf:about="https://172.17.8.174:8443/kos/role/vCard%20Org%20C/contact">
     <vcard:fn xml:lang="es">Unidad C</vcard:fn>
