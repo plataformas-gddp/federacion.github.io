@@ -368,7 +368,7 @@
     </prov:wasGeneratedBy>
     <dct:conformsTo rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
     <dct:conformsTo rdf:resource="http://publications.europa.eu/resource/authority/data-specification/SDMX" />
-    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="en">INE</foaf:name><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
+    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829"><foaf:name xml:lang="en">INE</foaf:name><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
     <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="en">INE</foaf:name><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
     <adms:identifier>
       <adms:Identifier rdf:nodeID="N507b6fbfc10b42d19b89249c1fae4c0f">
