@@ -18,9 +18,6 @@
   },
   "@graph": [
 
-    /* ============================
-       CATÁLOGO (igual que el original)
-       ============================ */
     {
       "@id": "https://sede.oepm.gob.es/catalogo",
       "@type": "dcat:Catalog",
@@ -79,7 +76,6 @@
       ]
     },
 
-    /* -------- Distribución T1 -------- */
     {
       "@id": "https://sede.oepm.gob.es/distribution/ES.OEPM.DataSet_distribuciones.2013T1",
       "@type": "dcat:Distribution",
@@ -100,7 +96,6 @@
       }
     },
 
-    /* -------- Distribución T2 -------- */
     {
       "@id": "https://sede.oepm.gob.es/distribution/ES.OEPM.DataSet_distribuciones.2013T2",
       "@type": "dcat:Distribution",
@@ -121,8 +116,7 @@
       }
     },
 
-    /* -------- Distribución T3 -------- */
-    {
+      {
       "@id": "https://sede.oepm.gob.es/distribution/ES.OEPM.DataSet_distribuciones.2013T3",
       "@type": "dcat:Distribution",
       "dct:title": [
