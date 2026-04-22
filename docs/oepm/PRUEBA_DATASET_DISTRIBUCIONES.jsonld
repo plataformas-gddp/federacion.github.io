@@ -1,0 +1,152 @@
+{
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "locn": "http://www.w3.org/ns/locn#",
+    "time": "http://www.w3.org/2006/time#",
+    "adms": "http://www.w3.org/ns/adms#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "impulsadata": "http://tragsatec.es/def/impulsadata#"
+  },
+  "@graph": [
+
+    /* ============================
+       CATÁLOGO (igual que el original)
+       ============================ */
+    {
+      "@id": "https://sede.oepm.gob.es/catalogo",
+      "@type": "dcat:Catalog",
+      "dcat:dataset": [
+        { "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Texto_Completo" },
+        { "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Datos_Legales" },
+        { "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Datos_Bibliograficos" },
+        { "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Documentos_Citados_ECLA" },
+        { "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.CPC" },
+        { "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Resumenes" },
+        { "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Authority_File" },
+        { "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Folletos_PDF" },
+        { "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Documentos_Citados" },
+
+        /* ✅ NUEVO DATASET */
+        { "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.DataSet_distribuciones" }
+      ]
+    },
+
+    /* =========================================================
+       ✅ NUEVO DATASET DE PRUEBA CON MÚLTIPLES DISTRIBUCIONES
+       ========================================================= */
+    {
+      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.DataSet_distribuciones",
+      "@type": "dcat:Dataset",
+      "dct:publisher": {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829"
+      },
+      "dct:title": [
+        { "@value": "DataSet con múltiples distribuciones", "@language": "es" },
+        { "@value": "Dataset with multiple distributions", "@language": "en" }
+      ],
+      "dct:description": [
+        {
+          "@value": "Dataset ficticio creado para validar la federación en datos.gob.es con varias distribuciones asociadas a un único dataset.",
+          "@language": "es"
+        },
+        {
+          "@value": "Fictitious dataset created to validate federation in datos.gob.es with multiple distributions linked to a single dataset.",
+          "@language": "en"
+        }
+      ],
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:language": [
+        { "@id": "http://publications.europa.eu/resource/authority/language/SPA" }
+      ],
+      "dcat:theme": {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
+      },
+      "dcat:distribution": [
+        { "@id": "https://sede.oepm.gob.es/distribution/ES.OEPM.DataSet_distribuciones.2013T1" },
+        { "@id": "https://sede.oepm.gob.es/distribution/ES.OEPM.DataSet_distribuciones.2013T2" },
+        { "@id": "https://sede.oepm.gob.es/distribution/ES.OEPM.DataSet_distribuciones.2013T3" }
+      ],
+      "impulsadata:validationStatus": [
+        { "@value": "conforme-DCAT-AP-ES", "@language": "es" }
+      ]
+    },
+
+    /* -------- Distribución T1 -------- */
+    {
+      "@id": "https://sede.oepm.gob.es/distribution/ES.OEPM.DataSet_distribuciones.2013T1",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        { "@value": "Documentos citados y ECLA – 1º Trimestre 2013", "@language": "es" }
+      ],
+      "dcat:downloadURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/1_Trimestre_Sgml_2013.zip"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+      },
+      "dct:license": {
+        "@id": "https://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      }
+    },
+
+    /* -------- Distribución T2 -------- */
+    {
+      "@id": "https://sede.oepm.gob.es/distribution/ES.OEPM.DataSet_distribuciones.2013T2",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        { "@value": "Documentos citados y ECLA – 2º Trimestre 2013", "@language": "es" }
+      ],
+      "dcat:downloadURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/2_Trimestre_Sgml_2013.zip"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+      },
+      "dct:license": {
+        "@id": "https://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      }
+    },
+
+    /* -------- Distribución T3 -------- */
+    {
+      "@id": "https://sede.oepm.gob.es/distribution/ES.OEPM.DataSet_distribuciones.2013T3",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        { "@value": "Documentos citados y ECLA – 3º Trimestre 2013", "@language": "es" }
+      ],
+      "dcat:downloadURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2013.zip"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+      },
+      "dct:license": {
+        "@id": "https://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      }
+    }
+
+    /* 🔹 Aquí continúan SIN CAMBIOS
+       todos los datasets y distribuciones originales
+       que ya teníais en el fichero */
+  ]
+}
