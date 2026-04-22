@@ -2692,8 +2692,7 @@
       "dcat:mediaType": {
         "@id": "http://www.iana.org/assignments/media-types/application/zip"
       }
-    }
-  ,
+  },
   {
     "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.DataSet_distribuciones",
     "@type": "dcat:Dataset",
@@ -2728,6 +2727,5 @@
       { "@id": "https://sede.oepm.gob.es/distribution/ES.OEPM.DataSet_distribuciones.2013T2" },
       { "@id": "https://sede.oepm.gob.es/distribution/ES.OEPM.DataSet_distribuciones.2013T3" }
     ]
-  }
 ]
-``] }
+}
