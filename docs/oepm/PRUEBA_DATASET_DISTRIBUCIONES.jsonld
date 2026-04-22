@@ -35,14 +35,11 @@
         { "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Folletos_PDF" },
         { "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Documentos_Citados" },
 
-        /* ✅ NUEVO DATASET */
+        
         { "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.DataSet_distribuciones" }
       ]
     },
 
-    /* =========================================================
-       ✅ NUEVO DATASET DE PRUEBA CON MÚLTIPLES DISTRIBUCIONES
-       ========================================================= */
     {
       "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.DataSet_distribuciones",
       "@type": "dcat:Dataset",
