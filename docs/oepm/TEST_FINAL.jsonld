@@ -354,7 +354,7 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260313.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260313.zip"
         }
       ],
       "impulsadata:validationStatus": [
@@ -365,7 +365,7 @@
       ]
     },
     {
-      "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260313.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260313.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
@@ -411,7 +411,7 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260313.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260313.zip"
       },
       "dcat:mediaType": {
         "@id": "http://www.iana.org/assignments/media-types/application/zip"
@@ -639,7 +639,7 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260327.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260327.zip"
         }
       ],
       "impulsadata:validationStatus": [
@@ -650,7 +650,7 @@
       ]
     },
     {
-      "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260327.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260327.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
@@ -696,7 +696,7 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260327.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260327.zip"
       },
       "dcat:mediaType": {
         "@id": "http://www.iana.org/assignments/media-types/application/zip"
@@ -1221,7 +1221,7 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2013.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2013.zip"
         }
       ],
       "impulsadata:validationStatus": [
@@ -1232,7 +1232,7 @@
       ]
     },
     {
-      "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2013.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2013.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
@@ -1278,7 +1278,7 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2013.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2013.zip"
       },
       "dcat:mediaType": {
         "@id": "http://www.iana.org/assignments/media-types/application/zip"
@@ -1498,7 +1498,7 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260322_CPC.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260322_CPC.zip"
         }
       ],
       "impulsadata:validationStatus": [
@@ -1509,7 +1509,7 @@
       ]
     },
     {
-      "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260322_CPC.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260322_CPC.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
@@ -1555,7 +1555,7 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260322_CPC.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260322_CPC.zip"
       },
       "dcat:mediaType": {
         "@id": "http://www.iana.org/assignments/media-types/application/zip"
@@ -1783,7 +1783,7 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260313.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260313.zip"
         }
       ],
       "impulsadata:validationStatus": [
@@ -1794,7 +1794,7 @@
       ]
     },
     {
-      "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260313.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260313.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
@@ -1840,7 +1840,7 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260313.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260313.zip"
       },
       "dcat:mediaType": {
         "@id": "http://www.iana.org/assignments/media-types/application/zip"
@@ -2076,7 +2076,7 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260331.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260331.zip"
         }
       ],
       "impulsadata:validationStatus": [
@@ -2087,7 +2087,7 @@
       ]
     },
     {
-      "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260331.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260331.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
@@ -2133,7 +2133,7 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260331.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260331.zip"
       },
       "dcat:mediaType": {
         "@id": "http://www.iana.org/assignments/media-types/application/zip"
@@ -2353,7 +2353,7 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260313.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260313.zip"
         }
       ],
       "impulsadata:validationStatus": [
@@ -2364,7 +2364,7 @@
       ]
     },
     {
-      "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260313.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260313.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
@@ -2410,7 +2410,7 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260313.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260313.zip"
       },
       "dcat:mediaType": {
         "@id": "http://www.iana.org/assignments/media-types/application/zip"
@@ -2630,7 +2630,7 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260322_Citaciones.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260322_Citaciones.zip"
         }
       ],
       "impulsadata:validationStatus": [
@@ -2641,7 +2641,7 @@
       ]
     },
     {
-      "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260322_Citaciones.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260322_Citaciones.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
@@ -2687,7 +2687,7 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descargar.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260322_Citaciones.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260322_Citaciones.zip"
       },
       "dcat:mediaType": {
         "@id": "http://www.iana.org/assignments/media-types/application/zip"
