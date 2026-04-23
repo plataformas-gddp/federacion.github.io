@@ -1,29 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcatap="http://data.europa.eu/r5r/" xmlns:dct="http://purl.org/dc/terms/" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:ns15="http://www.w3.org/2011/content#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:spdx="http://spdx.org/rdf/terms#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
-  <dcat:Catalog rdf:about="https://172.17.8.174:8443">
+<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcatap="http://data.europa.eu/r5r/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+  <dcat:Catalog rdf:about="https://localhost:30001">
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG" />
     <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/CAT" />
-    </dct:language>
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/POR" />
-    </dct:language>
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/FRA" />
-    </dct:language>
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/ITA" />
-    </dct:language>
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/GLG" />
-    </dct:language>
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/EUS" />
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/ENG" />
     </dct:language>
     <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP" />
     <dct:spatial>
-      <dct:Location rdf:nodeID="N4a2130e814344bdc8c336cbb7bf1bfdd">
+      <dct:Location rdf:nodeID="Ne8475ffd5cf440469a577f98d69af493">
         <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</dcat:bbox>
         <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8150 40.5250)</dcat:centroid>
         <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</locn:Geometry>
@@ -31,905 +15,95 @@
     </dct:spatial>
     <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector" />
     <dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme" />
-    <foaf:homepage rdf:resource="https://172.17.8.174:8443" />
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
-    <dct:rights rdf:resource="http://rightsstatements.org/vocab/InC/1.0/" />
-    <dct:title xml:lang="es">CKAN</dct:title>
-    <dct:description xml:lang="es">Catalogo de datos del organismo</dct:description>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-15T12:25:04+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-01</dct:issued>
-    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901"><foaf:name xml:lang="es">Ministerio de la Asun</foaf:name><foaf:mbox rdf:resource="mailto:organismo@example.org" /><foaf:homepage rdf:resource="https://organismo.example.org/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901</dct:identifier></foaf:Agent></dct:publisher>
-    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901"><foaf:name xml:lang="es">Ministerio de la Asun</foaf:name><foaf:mbox rdf:resource="mailto:organismo@example.org" /><foaf:homepage rdf:resource="https://organismo.example.org/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901</dct:identifier></foaf:Agent></dct:creator>
-    <dct:hasPart rdf:resource="https://datos.gob.es/catalogo/part-1" />
-    <dct:isPartOf rdf:resource="https://datos.gob.es/catalogo/main" />
-    <dcat:catalog rdf:resource="https://datos.gob.es/catalogo/related" />
-    <dcat:record rdf:resource="https://datos.gob.es/catalogo/record/1" />
+    <foaf:homepage rdf:resource="https://localhost:30001" />
+    <dct:license rdf:resource="https://web.guardiacivil.es/es/informacion-general/nota-legal/index.html" />
+    <dct:title xml:lang="es">Dirección General de la Guardia Civil</dct:title>
+    <dct:description xml:lang="es">Conjuntos de datos difundidos por la Dirección General de la Guardia Civil</dct:description>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-21T11:52:59+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-01-01</dct:issued>
+    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801"><foaf:name xml:lang="es">Ministerio del Interior</foaf:name><foaf:homepage rdf:resource="https://interior.gob.es/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801</dct:identifier></foaf:Agent></dct:publisher>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401"><foaf:name xml:lang="es">Dirección General de la Guardia Civil</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
+    <dct:hasPart rdf:resource="https://localhost:30001/part-1" />
+    <dct:isPartOf rdf:resource="https://localhost:30001/main" />
+    <dcat:catalog rdf:resource="https://localhost:30001/related" />
+    <dcat:record rdf:resource="https://localhost:30001/record/1" />
     <dct:temporal>
-      <dct:PeriodOfTime rdf:nodeID="Nac7c9e4b57a94aacbd8bd8045edc145c">
-        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-01</dcat:startDate>
-        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-01-01</dcat:endDate>
+      <dct:PeriodOfTime rdf:nodeID="N778e284d57b2462987c4d7c6584b0cce">
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-01</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2030-12-31</dcat:endDate>
         <time:hasBeginning>
-          <time:Instant rdf:nodeID="Naf2fab348721405dab00eb97ab4707a0">
-            <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-01</time:inXSDDate>
+          <time:Instant rdf:nodeID="N4f516df2e33e4831bdb8b2bb507a7640">
+            <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-01</time:inXSDDate>
           </time:Instant>
         </time:hasBeginning>
         <time:hasEnd>
-          <time:Instant rdf:nodeID="Nb9c7d515a49346ecb15a776da5eea740">
-            <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-01-01</time:inXSDDate>
+          <time:Instant rdf:nodeID="N45f91daa53dd4686811be6f61b2c20b7">
+            <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2030-12-31</time:inXSDDate>
           </time:Instant>
         </time:hasEnd>
       </dct:PeriodOfTime>
     </dct:temporal>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://172.17.8.174:8443/dataset/i000003813">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-        <dct:title xml:lang="en">DatasetName3</dct:title>
-        <dct:title xml:lang="es">NombreCjtoDato3</dct:title>
-        <dct:description xml:lang="en">descript dataset1</dct:description>
-        <dct:description xml:lang="es">descrip cjto datos1</dct:description>
-        <dcat:landingPage rdf:resource="https://172.17.8.174:8443/dataset/i000003813" />
-        <dcat:landingPage rdf:resource="https://datos.comercio.gob.es/dataset/indicadoreseconomicos" />
-        <dcat:landingPage rdf:resource="https://www.mineco.gob.es/portal/site/mineco/menuitem.9b76eb9e6e3cb59c3f1f3f1028618a0c/?vgnextoid=12345abcd" />
-        <dct:identifier>I00000381_3</dct:identifier>
-        <adms:versionNotes xml:lang="en">Version notes</adms:versionNotes>
-        <adms:versionNotes xml:lang="es">Notas version</adms:versionNotes>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OP_DATPRO" />
-        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/SYNTHETIC_DATA" />
-        <dcat:keyword xml:lang="es">etiqueta1, etiqueta2</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-09</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-01</dct:issued>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG" />
-        <dct:isReferencedBy rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/series-temporales-macro" />
-        <dct:isReferencedBy rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/datos-inflacion-consumo" />
-        <dct:isReferencedBy rdf:resource="https://www.mineco.gob.es/estudios/analisis-impacto-indicadores-economicos.pdf" />
-        <dct:isReferencedBy rdf:resource="https://revistaeconomica.gob.es/articulos/uso-indicadores-economicos-datos-abiertos" />
-        <dct:source rdf:resource="https://datos.gob.es/dataset/estadisticas-macroeconomicas-ine" />
-        <dct:source rdf:resource="https://datos.gob.es/dataset/boe-indicadores-financieros" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
-        <dct:temporal>
-          <dct:PeriodOfTime rdf:nodeID="Ne95aaa1f6cdf41bbb8b2fc08ddd91ff2">
-            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-28</dcat:startDate>
-            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-17</dcat:endDate>
-            <time:hasBeginning>
-              <time:Instant rdf:nodeID="Nf44247b09d3c442688777a4ea3e42dd6">
-                <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-28</time:inXSDDate>
-              </time:Instant>
-            </time:hasBeginning>
-            <time:hasEnd>
-              <time:Instant rdf:nodeID="Ncbdbcd5f66594103a6fe9a4b61991be0">
-                <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-17</time:inXSDDate>
-              </time:Instant>
-            </time:hasEnd>
-          </dct:PeriodOfTime>
-        </dct:temporal>
-        <dct:provenance rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/provenance/departamento-estadistica-mineco" />
-        <dct:provenance rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/provenance/actualizacion-trimestral-ine" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/i000003813/resource/informe-comercio-pdf">
-    <dct:title xml:lang="en">Foreign Trade — PDF</dct:title>
-    <dct:title xml:lang="es">Comercio Exterior — PDF</dct:title>
-    <dct:description xml:lang="en">PDF distribution for external trade report</dct:description>
-    <dct:description xml:lang="es">Distribución en formato PDF con el informe anual de comercio exterior</dct:description>
-    <foaf:page rdf:resource="https://datos.comercio.gob.es/docs/metodologia_informe_comercio.pdf" />
-    <foaf:page rdf:resource="https://datos.comercio.gob.es/docs/estructura_informe_comercio.html" />
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG" />
-    <dct:conformsTo rdf:resource="https://schema.org/Dataset" />
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF" />
-    <dcat:accessURL rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf" />
-    <dcat:accessURL rdf:resource="https://serviciosweb.mineco.gob.es/comercio/api/pdf" />
-    <dcat:downloadURL rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf" />
-    <dcat:downloadURL rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf.zip" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-01</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-01T00:00:00+00:00</dct:issued>
-    <dct:accessRights rdf:resource="https://schema.theodi.org/odrs/rightsholder" />
-    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2048</dcat:byteSize>
-    <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip" />
-    <dcat:packageFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip" />
-    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
-    <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000</dcat:spatialResolutionInMeters>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj" />
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
-    <dcat:accessService><dcat:DataService rdf:about="https://serviciosweb.mineco.gob.es/comercio/api/">
-        <dct:title xml:lang="en">Data service 1</dct:title>
-        <dct:title xml:lang="es">Servicio Datos 1</dct:title>
-        <dct:description xml:lang="en">Descripción2</dct:description>
-        <dct:description xml:lang="es">Descripción1</dct:description>
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-        <dcat:endpointDescription rdf:resource="https://ideihm.covam.es/wfs-inspire/hidrografia?SERVICE=WFS&amp;REQUEST=GetCapabilities" />
-        <dcat:endpointDescription rdf:resource="https://portal.datos.gob.es/docs/descripcion_servicio_datos.pdf" />
-        <dcat:endpointURL rdf:resource="https://serviciosweb.mineco.gob.es/indicadores2/api/" />
-        <dcat:endpointURL rdf:resource="https://api.comercio.gob.es/series-temporales2/" />
-        <dcat:endpointURL rdf:resource="https://serviciosweb.mineco.gob.es/indicadores/api/" />
-        <dcat:endpointURL rdf:resource="https://api.comercio.gob.es/series-temporales/" />
-        <dcat:servesDataset rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos" />
-        <dcat:servesDataset rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj" />
-        <foaf:page rdf:resource="https://172.17.8.174:8443/dataset/i000003813/resource/informe-comercio-pdf" />
-        <foaf:page rdf:resource="https://172.17.8.174:8443/dataset/i000003811/resource/datos-comercio-xml" />
-        <foaf:page rdf:resource="https://172.17.8.174:8443/dataset/i000003811/resource/informe-comercio-pdf" />
-        <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_04bf94a3" />
-        <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_e1da4e07" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"><foaf:name xml:lang="en">MINECO</foaf:name><foaf:name xml:lang="es">Ministerio de Asuntos Económicos y Transformación Digital</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-        <dcat:keyword xml:lang="en">comercio exterior</dcat:keyword>
-        <dcat:keyword xml:lang="es">indicadores económicos</dcat:keyword>
-        <dcat:contactPoint rdf:resource="https://172.17.8.174:8443/kos/role/vCard%20Org%20E/contact" />
-        <dcat:contactPoint rdf:resource="https://172.17.8.174:8443/kos/role/vCard%20Org%20F/contact" />
-        <dcat:contactPoint rdf:resource="https://172.17.8.174:8443/kos/role/vCard%20Org%20A/contact" />
-        <dcat:contactPoint rdf:resource="https://172.17.8.174:8443/kos/role/vCard%20Org%20C/contact" />
-      </dcat:DataService>
-    </dcat:accessService>
-    <dct:rights rdf:resource="https://schema.theodi.org/odrs/rightsholder" />
-    <odrl:hasPolicy rdf:resource="https://datos.comercio.gob.es/policy/cc-by-4.0" />
-    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/pdf" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj" />
-        <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_e1da4e07" />
-        <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_04bf94a3" />
-        <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">500</dcat:spatialResolutionInMeters>
-        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid" />
-        <dct:spatial>
-          <dct:Location rdf:nodeID="N9ce128dcdadf463191ad3aaf296aa388">
-            <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</locn:Geometry>
-            <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</dcat:bbox>
-            <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8150 40.5250)</dcat:centroid>
-          </dct:Location>
-        </dct:spatial>
-        <dcat:version>Version 1</dcat:version>
-        <dcat:hasVersion rdf:resource="https://172.17.8.174:8443/dataset/i000003813" />
-        <dcat:isVersionOf rdf:resource="https://172.17.8.174:8443/dataset/i000003813" />
-        <dct:relation rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/series-temporales-macro" />
-        <dct:relation rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/datos-inflacion-consumo" />
-        <prov:wasGeneratedBy rdf:resource="https://datos.gob.es/recurso/actividad/proyecto-indicadores-economicos-2024" />
-        <prov:wasGeneratedBy rdf:resource="https://datos.gob.es/recurso/actividad/encuesta-sector-publico-ine-2023" />
-        <dct:conformsTo rdf:resource="http://publications.europa.eu/resource/authority/data-specification/INSPIRE_DLS" />
-        <dct:conformsTo rdf:resource="https://schema.org/Dataset" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"><foaf:name xml:lang="en">MINECO</foaf:name><foaf:name xml:lang="es">Ministerio de Asuntos Económicos y Transformación Digital</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="en">INE</foaf:name><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
-        <adms:identifier>
-          <adms:Identifier rdf:nodeID="Ndab73f99a1544ea6ac4d06f29a33a762">
-            <skos:notation>ISO19115</skos:notation>
-            <dct:identifier rdf:resource="https://www.iso.org/standard/53798.html" />
-            <dct:conformsTo>ISO19115:2014</dct:conformsTo>
-            <foaf:page rdf:resource="https://www.iso.org/standard/53798.html" />
-            <rdfs:comment>Norma internacional para metadatos geográficos.</rdfs:comment>
-            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-04-01</dct:issued>
-            <dct:format>XML / GML</dct:format>
-          </adms:Identifier>
-        </adms:identifier>
-        <dcat:contactPoint>
-          <vcard:Kind rdf:nodeID="Ncc29cd45a1d943a48473c65c043cdffb">
-            <vcard:fn xml:lang="es">Unidad C</vcard:fn>
-            <vcard:hasEmail rdf:resource="mailto:orgCarrobaeconomia.gob.es" />
-            <vcard:hasURL rdf:resource="https://orgC.gob.es/info" />
-            <vcard:organization-name xml:lang="es">Nombre Org E</vcard:organization-name>
-            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381" />
-            <vcard:hasTelephone rdf:resource="tel:+3210000003" />
-          </vcard:Kind>
-        </dcat:contactPoint>
-        <dcat:contactPoint>
-          <vcard:Kind rdf:nodeID="Nb104b377ba4f428197a74a14b8020e80">
-            <vcard:fn xml:lang="es">Unidad D</vcard:fn>
-            <vcard:hasEmail rdf:resource="mailto:orgDarrobaeconomia.gob.es" />
-            <vcard:hasURL rdf:resource="https://orgD.gob.es/info" />
-            <vcard:organization-name xml:lang="es">Nombre Org F</vcard:organization-name>
-            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381" />
-            <vcard:hasTelephone rdf:resource="tel:+3210000004" />
-          </vcard:Kind>
-        </dcat:contactPoint>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset><dcat:Dataset rdf:about="https://172.17.8.174:8443/dataset/i000002812">
+    <dcat:dataset><dcat:Dataset rdf:about="https://localhost:30001/dataset/mire04931401dsdepend000001">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-    <dct:title xml:lang="en">DatasetName2</dct:title>
-    <dct:title xml:lang="es">NombreCjtoDato2</dct:title>
-    <dct:description xml:lang="en">descript dataset2</dct:description>
-    <dct:description xml:lang="es">descrip cjto datos2</dct:description>
-    <dcat:landingPage rdf:resource="https://172.17.8.174:8443/dataset/i000002812" />
-    <dcat:landingPage rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior" />
-    <dcat:landingPage rdf:resource="https://www.mineco.gob.es/portal/site/mineco/menuitem.8a1bcd9e7e4fb59c3f1f3f1028618a0c/?vgnextoid=67890efgh" />
-    <dct:identifier>I00000281_2</dct:identifier>
-    <adms:versionNotes xml:lang="en">Version notes</adms:versionNotes>
-    <adms:versionNotes xml:lang="es">Notas version</adms:versionNotes>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER" />
-    <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/SYNTHETIC_DATA" />
-    <dcat:keyword xml:lang="es">etiqueta3, etiqueta4</dcat:keyword>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-09</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-01</dct:issued>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/ENG" />
-    </dct:language>
-    <dct:isReferencedBy rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior/resource/exportaciones-por-pais" />
-    <dct:isReferencedBy rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior/resource/importaciones-sectoriales" />
-    <dct:isReferencedBy rdf:resource="https://www.mineco.gob.es/estudios/analisis-comercio-exterior-2024.pdf" />
-    <dct:isReferencedBy rdf:resource="https://revistaeconomica.gob.es/articulos/tendencias-comercio-exterior-datos" />
-    <dct:source rdf:resource="https://datos.gob.es/dataset/aduanas-flujos-comerciales-aeat" />
-    <dct:source rdf:resource="https://datos.gob.es/dataset/registro-empresas-ministerio-industria" />
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
-    <dct:temporal>
-      <dct:PeriodOfTime rdf:nodeID="N712cd3cc348e4d85bccbd32cba0a153c">
-        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-07</dcat:startDate>
-        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-05-12</dcat:endDate>
-        <time:hasBeginning>
-          <time:Instant rdf:nodeID="N694f48168f6e4485825d88685a7991ec">
-            <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-07</time:inXSDDate>
-          </time:Instant>
-        </time:hasBeginning>
-        <time:hasEnd>
-          <time:Instant rdf:nodeID="Nbcf846a8fcd048f1ab032a89210eba36">
-            <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-05-12</time:inXSDDate>
-          </time:Instant>
-        </time:hasEnd>
-      </dct:PeriodOfTime>
-    </dct:temporal>
-    <dct:provenance rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior/provenance/fuente-aduanas-aeat" />
-    <dct:provenance rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior/provenance/integracion-series-historicas" />
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-    <dcat:distribution rdf:resource="https://172.17.8.174:8443/dataset/i000002812/resource/indicadores-json" />
-    <dcat:distribution>
-      <dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/i000002812/resource/indicadores-csv">
-        <dct:title xml:lang="en">Economic indicators — CSV</dct:title>
-        <dct:title xml:lang="es">Indicadores económicos — CSV</dct:title>
-        <dct:description xml:lang="en">CSV distrib</dct:description>
-        <dct:description xml:lang="es">Distribución en formato CSV que contiene los principales</dct:description>
-        <foaf:page rdf:resource="https://datos.comercio.gob.es/docs/metodologia_indicadores_csv.pdf" />
-        <foaf:page rdf:resource="https://datos.comercio.gob.es/docs/estructura_datos_csv.html" />
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG" />
-        <dct:conformsTo rdf:resource="http://publications.europa.eu/resource/authority/data-specification/SDMX" />
-        <dct:conformsTo rdf:resource="https://schema.org/Dataset" />
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
-        <dcat:accessURL rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.csv" />
-        <dcat:accessURL rdf:resource="https://serviciosweb.mineco.gob.es/indicadores/api/csv" />
-        <dcat:downloadURL rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.csv" />
-        <dcat:downloadURL rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.csv.zip" />
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-02</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-01T00:00:00+00:00</dct:issued>
-        <dct:accessRights rdf:resource="https://schema.theodi.org/odrs/rightsholder" />
-        <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-        <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip" />
-        <dcat:packageFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip" />
-        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
-        <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000</dcat:spatialResolutionInMeters>
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
-        <dcat:accessService><dcat:DataService rdf:about="https://serviciosweb.mineco.gob.es/indicadores/api/">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
-    <dct:title xml:lang="en">Data service 2</dct:title>
-    <dct:title xml:lang="es">Servicio Datos 2</dct:title>
-    <dct:description xml:lang="en">Descripción2</dct:description>
-    <dct:description xml:lang="es">Descripción1</dct:description>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/NORMAL" />
-    <dcat:endpointDescription rdf:resource="https://geoportal.mineco.gob.es/wms/datos-economicos?SERVICE=WMS&amp;REQUEST=GetCapabilities" />
-    <dcat:endpointDescription rdf:resource="https://datos.comercio.gob.es/docs/descripcion_servicio_wms_economia.pdf" />
-    <dcat:endpointURL rdf:resource="https://serviciosweb.mineco.gob.es/indicadores2/api/" />
-    <dcat:endpointURL rdf:resource="https://api.comercio.gob.es/series-temporales2/" />
-    <dcat:servesDataset rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos" />
-    <dcat:servesDataset rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior" />
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
-    <foaf:page rdf:resource="https://172.17.8.174:8443/dataset/i000002812/resource/indicadores-csv" />
-    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_04bf94a3" />
-    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_317b9493" />
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/comercio" />
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/empleo" />
-    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="en">INE</foaf:name><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-    <dcat:keyword xml:lang="en">comercio exterior2</dcat:keyword>
-    <dcat:keyword xml:lang="es">indicadores económicos2</dcat:keyword>
-    <dcat:contactPoint rdf:resource="https://172.17.8.174:8443/kos/role/vCard%20Org%20B/contact" />
-    <dcat:contactPoint rdf:resource="https://172.17.8.174:8443/kos/role/vCard%20Org%20D/contact" />
-  </dcat:DataService>
-  </dcat:accessService>
-        <dct:rights rdf:resource="https://schema.theodi.org/odrs/rightsholder" />
-        <odrl:hasPolicy rdf:resource="https://datos.comercio.gob.es/policy/cc-by-4.0" />
-        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv" />
-      </dcat:Distribution>
-    </dcat:distribution>
-    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/DEVELOP" />
-    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
-    <dcatap:applicableLegislation>
-      <eli:LegalResource rdf:about="http://data.europa.eu/eli/dir/2019/1024/oj" />
-    </dcatap:applicableLegislation>
-    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_04bf94a3" />
-    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_317b9493" />
-    <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000</dcat:spatialResolutionInMeters>
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España" />
-    <dct:spatial>
-      <dct:Location rdf:nodeID="Nb3b3bcd8fa7e4f4db60244b6d70a0e94">
-        <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-18.1600 27.6400, 4.3200 27.6400, 4.3200 43.7900, -18.1600 43.7900, -18.1600 27.6400))</locn:Geometry>
-        <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-18.1600 27.6400, 4.3200 27.6400, 4.3200 43.7900, -18.1600 43.7900, -18.1600 27.6400))</dcat:bbox>
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-6.9200 35.7150)</dcat:centroid>
-      </dct:Location>
-    </dct:spatial>
-    <dcat:version>Version 1.1</dcat:version>
-    <dcat:hasVersion rdf:resource="https://172.17.8.174:8443/dataset/i000002812" />
-    <dcat:isVersionOf rdf:resource="https://172.17.8.174:8443/dataset/i000002812" />
-    <dct:relation rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior/resource/exportaciones-por-pais" />
-    <dct:relation rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior/resource/importaciones-sectoriales" />
-    <prov:wasGeneratedBy>
-      <prov:Activity rdf:about="https://datos.gob.es/recurso/actividad/estudio-comercio-exterior-2024" />
-    </prov:wasGeneratedBy>
-    <prov:wasGeneratedBy>
-      <prov:Activity rdf:about="https://datos.gob.es/recurso/actividad/informe-flujos-internacionales-2023" />
-    </prov:wasGeneratedBy>
-    <dct:conformsTo rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
-    <dct:conformsTo rdf:resource="http://publications.europa.eu/resource/authority/data-specification/SDMX" />
-    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829"><foaf:name xml:lang="en">INE</foaf:name><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="en">INE</foaf:name><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
-    <adms:identifier>
-      <adms:Identifier rdf:nodeID="N507b6fbfc10b42d19b89249c1fae4c0f">
-        <skos:notation>INSPIRE</skos:notation>
-        <dct:identifier rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset" />
-        <dct:conformsTo>ISO 19115 / INSPIRE</dct:conformsTo>
-        <foaf:page rdf:resource="https://inspire.ec.europa.eu/" />
-        <rdfs:comment>Norma europea de interoperabilidad espacial (Directiva INSPIRE).</rdfs:comment>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-14</dct:issued>
-        <dct:format>XML / RDF</dct:format>
-      </adms:Identifier>
-    </adms:identifier>
-    <dcat:contactPoint>
-      <vcard:Kind rdf:nodeID="Ncc26c5ad88ff4174a405fd9f0cbd8439">
-        <vcard:fn xml:lang="es">Unidad A</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:orgAarrobaeconomia.gob.es" />
-        <vcard:hasURL rdf:resource="https://orgA.gob.es/info" />
-        <vcard:organization-name xml:lang="es">Nombre Org A</vcard:organization-name>
-        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801" />
-        <vcard:hasTelephone rdf:resource="tel:+3210000001" />
-      </vcard:Kind>
-    </dcat:contactPoint>
-    <dcat:contactPoint>
-      <vcard:Kind rdf:nodeID="N71e4f643ea0b47c68208b8f66ef81af5">
-        <vcard:fn xml:lang="es">Unidad B</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:orgBarrobaeconomia.gob.es" />
-        <vcard:hasURL rdf:resource="https://orgB.gob.es/info" />
-        <vcard:organization-name xml:lang="es">Nombre Org B</vcard:organization-name>
-        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801" />
-        <vcard:hasTelephone rdf:resource="tel:+3210000002" />
-      </vcard:Kind>
-    </dcat:contactPoint>
-  </dcat:Dataset>
-  </dcat:dataset>
-    <dcat:dataset><dcat:Dataset rdf:about="https://172.17.8.174:8443/dataset/ttec20260316">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-    <dct:title xml:lang="es">Dataset con Autor</dct:title>
-    <dct:description xml:lang="es">Dataset con autor</dct:description>
-    <dcat:landingPage rdf:resource="https://172.17.8.174:8443/dataset/ttec20260316" />
-    <dct:identifier>TTEC20260316</dct:identifier>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-07</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-16</dct:issued>
+    <dct:title xml:lang="es">Dependencias de atención al ciudadano de la Guardia Civil</dct:title>
+    <dct:description xml:lang="es">Listado de las unidades de la Guardia Civil que prestan servicios de atención al ciudadano, incluyendo teléfono de contacto, su dirección postal y coordenadas geográficas.</dct:description>
+    <dcat:landingPage rdf:resource="https://localhost:30001/dataset/mire04931401dsdepend000001" />
+    <dct:identifier>MIR:E04931401:ds:DEPEND:000001</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/AS_NEEDED" />
+    <dcat:keyword xml:lang="es">Guardia Civil, atención ciudadana, dependencias, cuarteles, puestos, denuncias</dcat:keyword>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-18T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-18T00:00:00+00:00</dct:issued>
     <dct:language>
       <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA" />
     </dct:language>
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sector-publico" />
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/seguridad" />
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
     <dcat:distribution>
-      <dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/ttec20260316/resource/catalog-15-rdf">
-        <dct:title xml:lang="es">Distirbución ejemplo</dct:title>
-        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml" />
-        <dct:format>
-          <dct:IMT rdf:nodeID="N30a12e4e17da4fd2b24f03fe4d980be4">
-            <rdf:value>text/RDF+XML</rdf:value>
-            <rdfs:label>RDF+XML</rdfs:label>
-          </dct:IMT>
-        </dct:format>
-        <dcat:accessURL rdf:resource="https://www.rdf.es" />
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-07</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-16T00:00:00+00:00</dct:issued>
+      <dcat:Distribution rdf:about="https://localhost:30001/dataset/mire04931401dsdepend000001/resource/direcciones-dependencias-guardia-civil-csv">
+        <dct:title xml:lang="es">Dependencias de atención al ciudadano de la Guardia Civil</dct:title>
+        <dct:description xml:lang="es">Listado de las unidades de la Guardia Civil que prestan servicios de atención al ciudadano, incluyendo teléfono de contacto, su dirección postal y coordenadas geográficas.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+        <dct:license rdf:resource="https://web.guardiacivil.es/es/informacion-general/nota-legal/index.html" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
+        <dcat:accessURL rdf:resource="http://www.guardiacivil.es/documentos/contenidos_reutilizables/direcciones_dependencias_guardia_civil.csv" />
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-18T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-18T00:00:00+00:00</dct:issued>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
       </dcat:Distribution>
     </dcat:distribution>
     <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España" />
+    <dct:spatial>
+      <dct:Location rdf:nodeID="N3c56d9f97d434b038f26844f92125adb">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.7038 40.4168)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
     <dct:publisher>
-      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901">
-        <foaf:name xml:lang="es">Ministerio de la Asun</foaf:name>
-        <foaf:mbox rdf:resource="mailto:organismo@example.org" />
-        <foaf:homepage rdf:resource="https://organismo.example.org/" />
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801">
+        <foaf:name xml:lang="es">Ministerio del Interior</foaf:name>
+        <foaf:homepage rdf:resource="https://interior.gob.es/" />
         <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" />
-        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901</dct:identifier>
+        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801</dct:identifier>
       </foaf:Agent>
     </dct:publisher>
     <dct:creator>
-      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502">
-        <foaf:name xml:lang="es">Dirección de coches</foaf:name>
-        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502</dct:identifier>
-        <dct:type rdf:resource="http://purl.org/adms/publishertype/SupraNationalAuthority" />
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401">
+        <foaf:name xml:lang="es">Dirección General de la Guardia Civil</foaf:name>
+        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401</dct:identifier>
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" />
       </foaf:Agent>
     </dct:creator>
     <dcat:contactPoint>
-      <vcard:Kind rdf:nodeID="N457c87c6e87f4ca4b76d000da883d1a4">
-        <vcard:fn xml:lang="es">Contacto A</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:mail@mail.es" />
-        <vcard:organization-name xml:lang="es">Ministerio A</vcard:organization-name>
-        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00000001" />
-        <vcard:hasTelephone rdf:resource="tel:666321654" />
+      <vcard:Kind rdf:nodeID="N2b3af0b78d6640b28912311caac2653b">
+        <vcard:fn xml:lang="es">Oficina de Información y Atención a la Ciudadanía</vcard:fn>
+        <vcard:hasURL rdf:resource="https://web.guardiacivil.es" />
+        <vcard:organization-name xml:lang="es">Dirección General de la Guardia Civil</vcard:organization-name>
+        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401" />
       </vcard:Kind>
     </dcat:contactPoint>
   </dcat:Dataset>
   </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://172.17.8.174:8443/dataset/httphdlhandlenet10261394609">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-        <dct:title xml:lang="en">[EN] Additional file 5 of Heterochrony in orthodenticle expression is associated with ommatidial size variation between Drosophila species [Dataset]</dct:title>
-        <dct:title xml:lang="es">[ES] El archivo adicional 5 de Heterocronía en expresión ortodológica se asocia con la variación del tamaño ommatidial entre las especies de Drosophila [Dataset] (Traducción automática)</dct:title>
-        <dct:description xml:lang="en">[EN] Additional file 5: Table S3. Pair-wise differential gene expression analysis (D.sim vs. D.mau) results for each time point (72 hAEL, 96 hAEL and 120 hAEL).</dct:description>
-        <dct:description xml:lang="es">[ES] Archivo adicional 5: Tabla S3. Análisis de expresión de genes diferencial de par (D.sim vs. D.mau) resultados para cada punto de tiempo (72 hAEL, 96 hAEL y 120 hAEL). (Traducción automática)</dct:description>
-        <dcat:landingPage rdf:resource="https://172.17.8.174:8443/dataset/httphdlhandlenet10261394609" />
-        <dcat:landingPage rdf:resource="http://hdl.handle.net/10261/394609" />
-        <dct:identifier>http://hdl.handle.net/10261/394609</dct:identifier>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-23T18:15:14+00:00</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-04</dct:issued>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/httphdlhandlenet10261394609/resource/12915-2025-2136-moesm5-esm-xlsx">
-    <dct:title xml:lang="es">12915-2025-2136-moesm5-esm-xlsx</dct:title>
-    <dcat:accessURL rdf:resource="https://digital.csic.es/bitstream/10261/394609/1/12915_2025_2136_MOESM5_ESM.xlsx" />
-    <dcat:downloadURL rdf:resource="https://digital.csic.es/bitstream/10261/394609/1/12915_2025_2136_MOESM5_ESM.xlsx" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-23T18:14:49+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-23T18:14:49+00:00</dct:issued>
-  </dcat:Distribution>
-  </dcat:distribution>
-        <dcat:distribution><dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/httphdlhandlenet10261394609/resource/readme-dataset-txt">
-    <dct:title xml:lang="es">readme-dataset-txt</dct:title>
-    <dcat:accessURL rdf:resource="https://digital.csic.es/bitstream/10261/394609/2/README_DATASET.txt" />
-    <dcat:downloadURL rdf:resource="https://digital.csic.es/bitstream/10261/394609/2/README_DATASET.txt" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-23T18:14:49+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-23T18:14:49+00:00</dct:issued>
-  </dcat:Distribution>
-  </dcat:distribution>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"><foaf:name xml:lang="es">Agencia Estatal Consejo Superior de Investigaciones Científicas</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801</dct:identifier></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"><foaf:name xml:lang="es">Agencia Estatal Consejo Superior de Investigaciones Científicas</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801</dct:identifier></foaf:Agent></dct:creator>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://172.17.8.174:8443/dataset/i000003811">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-        <dct:title xml:lang="en">DatasetName1</dct:title>
-        <dct:title xml:lang="es">NombreCjtoDato1</dct:title>
-        <dct:description xml:lang="en">descript dataset1</dct:description>
-        <dct:description xml:lang="es">descrip cjto datos1</dct:description>
-        <dcat:landingPage rdf:resource="https://172.17.8.174:8443/dataset/i000003811" />
-        <dcat:landingPage rdf:resource="https://datos.comercio.gob.es/dataset/indicadoreseconomicos" />
-        <dcat:landingPage rdf:resource="https://www.mineco.gob.es/portal/site/mineco/menuitem.9b76eb9e6e3cb59c3f1f3f1028618a0c/?vgnextoid=12345abcd" />
-        <dct:identifier>I00000381_1</dct:identifier>
-        <adms:versionNotes xml:lang="en">Version notes</adms:versionNotes>
-        <adms:versionNotes xml:lang="es">Notas version</adms:versionNotes>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OP_DATPRO" />
-        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/SYNTHETIC_DATA" />
-        <dcat:keyword xml:lang="es">etiqueta2</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-09</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-01</dct:issued>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG" />
-        <dct:isReferencedBy rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/series-temporales-macro" />
-        <dct:isReferencedBy rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/datos-inflacion-consumo" />
-        <dct:isReferencedBy rdf:resource="https://www.mineco.gob.es/estudios/analisis-impacto-indicadores-economicos.pdf" />
-        <dct:isReferencedBy rdf:resource="https://revistaeconomica.gob.es/articulos/uso-indicadores-economicos-datos-abiertos" />
-        <dct:source rdf:resource="https://datos.gob.es/dataset/estadisticas-macroeconomicas-ine" />
-        <dct:source rdf:resource="https://datos.gob.es/dataset/boe-indicadores-financieros" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
-        <dct:temporal>
-          <dct:PeriodOfTime rdf:nodeID="Nf1f9a606defa46e0a2bc0e1a040e0680">
-            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-28</dcat:startDate>
-            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-17</dcat:endDate>
-            <time:hasBeginning>
-              <time:Instant rdf:nodeID="Na22634b19f2344a0b49b3245c0177065">
-                <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-28</time:inXSDDate>
-              </time:Instant>
-            </time:hasBeginning>
-            <time:hasEnd>
-              <time:Instant rdf:nodeID="N3833e088df764b40904425ea119e613f">
-                <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-17</time:inXSDDate>
-              </time:Instant>
-            </time:hasEnd>
-          </dct:PeriodOfTime>
-        </dct:temporal>
-        <dct:provenance rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/provenance/departamento-estadistica-mineco" />
-        <dct:provenance rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/provenance/actualizacion-trimestral-ine" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/i000003811/resource/datos-comercio-xml">
-    <dct:title xml:lang="en">Foreign Trade — XML</dct:title>
-    <dct:title xml:lang="es">Comercio Exterior — XML</dct:title>
-    <dct:description xml:lang="en">XML distribution structured for trade data series</dct:description>
-    <dct:description xml:lang="es">Distribución XML estructurada con series de comercio exterior</dct:description>
-    <foaf:page rdf:resource="https://datos.comercio.gob.es/docs/metodologia_datos_comercio_xml.pdf" />
-    <foaf:page rdf:resource="https://datos.comercio.gob.es/docs/api_uso_datos_xml.html" />
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG" />
-    <dct:conformsTo rdf:resource="http://publications.europa.eu/resource/authority/data-specification/SDMX" />
-    <dct:conformsTo rdf:resource="https://www.w3.org/XML/Schema" />
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML" />
-    <dcat:accessURL rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior/resource/datos-comercio.xml" />
-    <dcat:accessURL rdf:resource="https://serviciosweb.mineco.gob.es/comercio/api/xml" />
-    <dcat:downloadURL rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior/resource/datos-comercio.xml" />
-    <dcat:downloadURL rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior/resource/datos-comercio.xml.zip" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-01</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-01T00:00:00+00:00</dct:issued>
-    <dct:accessRights rdf:resource="https://schema.theodi.org/odrs/rightsstatement" />
-    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2048</dcat:byteSize>
-    <spdx:checksum>
-      <spdx:Checksum rdf:nodeID="N1b7a889bb6244e0db404fe859dfd15f3">
-        <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">356a192b7913b04c54574d18c28d46e6395428ab</spdx:checksumValue>
-        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
-      </spdx:Checksum>
-    </spdx:checksum>
-    <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/gzip" />
-    <dcat:packageFormat rdf:resource="http://www.iana.org/assignments/media-types/application/x-tar" />
-    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/STABLE" />
-    <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000</dcat:spatialResolutionInMeters>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj" />
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
-    <dcat:accessService><dcat:DataService rdf:about="https://serviciosweb.mineco.gob.es/comercio/api/">
-        <dct:title xml:lang="en">Data service 1</dct:title>
-        <dct:title xml:lang="es">Servicio Datos 1</dct:title>
-        <dct:description xml:lang="en">Descripción2</dct:description>
-        <dct:description xml:lang="es">Descripción1</dct:description>
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-        <dcat:endpointDescription rdf:resource="https://ideihm.covam.es/wfs-inspire/hidrografia?SERVICE=WFS&amp;REQUEST=GetCapabilities" />
-        <dcat:endpointDescription rdf:resource="https://portal.datos.gob.es/docs/descripcion_servicio_datos.pdf" />
-        <dcat:endpointURL rdf:resource="https://serviciosweb.mineco.gob.es/indicadores2/api/" />
-        <dcat:endpointURL rdf:resource="https://api.comercio.gob.es/series-temporales2/" />
-        <dcat:endpointURL rdf:resource="https://serviciosweb.mineco.gob.es/indicadores/api/" />
-        <dcat:endpointURL rdf:resource="https://api.comercio.gob.es/series-temporales/" />
-        <dcat:servesDataset rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos" />
-        <dcat:servesDataset rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj" />
-        <foaf:page rdf:resource="https://172.17.8.174:8443/dataset/i000003813/resource/informe-comercio-pdf" />
-        <foaf:page rdf:resource="https://172.17.8.174:8443/dataset/i000003811/resource/datos-comercio-xml" />
-        <foaf:page rdf:resource="https://172.17.8.174:8443/dataset/i000003811/resource/informe-comercio-pdf" />
-        <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_04bf94a3" />
-        <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_e1da4e07" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"><foaf:name xml:lang="en">MINECO</foaf:name><foaf:name xml:lang="es">Ministerio de Asuntos Económicos y Transformación Digital</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-        <dcat:keyword xml:lang="en">comercio exterior</dcat:keyword>
-        <dcat:keyword xml:lang="es">indicadores económicos</dcat:keyword>
-        <dcat:contactPoint rdf:resource="https://172.17.8.174:8443/kos/role/vCard%20Org%20E/contact" />
-        <dcat:contactPoint rdf:resource="https://172.17.8.174:8443/kos/role/vCard%20Org%20F/contact" />
-        <dcat:contactPoint rdf:resource="https://172.17.8.174:8443/kos/role/vCard%20Org%20A/contact" />
-        <dcat:contactPoint rdf:resource="https://172.17.8.174:8443/kos/role/vCard%20Org%20C/contact" />
-      </dcat:DataService>
-    </dcat:accessService>
-    <dct:rights rdf:resource="https://schema.theodi.org/odrs/rightsstatement" />
-    <odrl:hasPolicy rdf:resource="https://datos.comercio.gob.es/policy/cc0-1.0" />
-    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/xml" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <dcat:distribution><dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/i000003811/resource/informe-comercio-pdf">
-    <dct:title xml:lang="en">Foreign Trade — PDF</dct:title>
-    <dct:title xml:lang="es">Comercio Exterior — PDF</dct:title>
-    <dct:description xml:lang="en">PDF distribution for external trade report</dct:description>
-    <dct:description xml:lang="es">Distribución en formato PDF con el informe anual de comercio exterior</dct:description>
-    <foaf:page rdf:resource="https://datos.comercio.gob.es/docs/metodologia_informe_comercio.pdf" />
-    <foaf:page rdf:resource="https://datos.comercio.gob.es/docs/estructura_informe_comercio.html" />
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG" />
-    <dct:conformsTo rdf:resource="https://schema.org/Dataset" />
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF" />
-    <dcat:accessURL rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf" />
-    <dcat:accessURL rdf:resource="https://serviciosweb.mineco.gob.es/comercio/api/pdf" />
-    <dcat:downloadURL rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf" />
-    <dcat:downloadURL rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf.zip" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-01</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-01T00:00:00+00:00</dct:issued>
-    <dct:accessRights rdf:resource="https://schema.theodi.org/odrs/rightsholder" />
-    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2048</dcat:byteSize>
-    <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip" />
-    <dcat:packageFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip" />
-    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
-    <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000</dcat:spatialResolutionInMeters>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj" />
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
-    <dcat:accessService>
-      <dcat:DataService rdf:about="https://serviciosweb.mineco.gob.es/comercio/api/">
-        <dct:title xml:lang="en">Data service 1</dct:title>
-        <dct:title xml:lang="es">Servicio Datos 1</dct:title>
-        <dct:description xml:lang="en">Descripción2</dct:description>
-        <dct:description xml:lang="es">Descripción1</dct:description>
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-        <dcat:endpointDescription rdf:resource="https://ideihm.covam.es/wfs-inspire/hidrografia?SERVICE=WFS&amp;REQUEST=GetCapabilities" />
-        <dcat:endpointDescription rdf:resource="https://portal.datos.gob.es/docs/descripcion_servicio_datos.pdf" />
-        <dcat:endpointURL rdf:resource="https://serviciosweb.mineco.gob.es/indicadores2/api/" />
-        <dcat:endpointURL rdf:resource="https://api.comercio.gob.es/series-temporales2/" />
-        <dcat:endpointURL rdf:resource="https://serviciosweb.mineco.gob.es/indicadores/api/" />
-        <dcat:endpointURL rdf:resource="https://api.comercio.gob.es/series-temporales/" />
-        <dcat:servesDataset rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos" />
-        <dcat:servesDataset rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj" />
-        <foaf:page rdf:resource="https://172.17.8.174:8443/dataset/i000003813/resource/informe-comercio-pdf" />
-        <foaf:page rdf:resource="https://172.17.8.174:8443/dataset/i000003811/resource/datos-comercio-xml" />
-        <foaf:page rdf:resource="https://172.17.8.174:8443/dataset/i000003811/resource/informe-comercio-pdf" />
-        <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_04bf94a3" />
-        <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_e1da4e07" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"><foaf:name xml:lang="en">MINECO</foaf:name><foaf:name xml:lang="es">Ministerio de Asuntos Económicos y Transformación Digital</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-        <dcat:keyword xml:lang="en">comercio exterior</dcat:keyword>
-        <dcat:keyword xml:lang="es">indicadores económicos</dcat:keyword>
-        <dcat:contactPoint rdf:resource="https://172.17.8.174:8443/kos/role/vCard%20Org%20E/contact" />
-        <dcat:contactPoint rdf:resource="https://172.17.8.174:8443/kos/role/vCard%20Org%20F/contact" />
-        <dcat:contactPoint rdf:resource="https://172.17.8.174:8443/kos/role/vCard%20Org%20A/contact" />
-        <dcat:contactPoint rdf:resource="https://172.17.8.174:8443/kos/role/vCard%20Org%20C/contact" />
-      </dcat:DataService>
-    </dcat:accessService>
-    <dct:rights rdf:resource="https://schema.theodi.org/odrs/rightsholder" />
-    <odrl:hasPolicy rdf:resource="https://datos.comercio.gob.es/policy/cc-by-4.0" />
-    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/pdf" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/DEVELOP" />
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj" />
-        <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_e1da4e07" />
-        <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_04bf94a3" />
-        <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">500</dcat:spatialResolutionInMeters>
-        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid" />
-        <dct:spatial>
-          <dct:Location rdf:nodeID="N62c5fba3c2f442b4bbedae4847434ae0">
-            <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</locn:Geometry>
-            <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</dcat:bbox>
-            <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8150 40.5250)</dcat:centroid>
-          </dct:Location>
-        </dct:spatial>
-        <dcat:version>Version 1</dcat:version>
-        <dcat:hasVersion rdf:resource="https://172.17.8.174:8443/dataset/i000003811" />
-        <dcat:isVersionOf rdf:resource="https://172.17.8.174:8443/dataset/i000003811" />
-        <dct:relation rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/series-temporales-macro" />
-        <dct:relation rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/datos-inflacion-consumo" />
-        <prov:wasGeneratedBy rdf:resource="https://datos.gob.es/recurso/actividad/proyecto-indicadores-economicos-2024" />
-        <prov:wasGeneratedBy rdf:resource="https://datos.gob.es/recurso/actividad/encuesta-sector-publico-ine-2023" />
-        <dct:conformsTo rdf:resource="http://publications.europa.eu/resource/authority/data-specification/INSPIRE_DLS" />
-        <dct:conformsTo rdf:resource="https://schema.org/Dataset" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"><foaf:name xml:lang="en">MINECO</foaf:name><foaf:name xml:lang="es">Ministerio de Asuntos Económicos y Transformación Digital</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="en">INE</foaf:name><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
-        <adms:identifier>
-          <adms:Identifier rdf:nodeID="N1e8542f025c143dbb9cdce043ca79fd9">
-            <skos:notation>DCAT-AP</skos:notation>
-            <dct:identifier rdf:resource="https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe" />
-            <dct:conformsTo>W3C DCAT-AP 2.1.1</dct:conformsTo>
-            <foaf:page rdf:resource="https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe" />
-            <rdfs:comment>Perfil de aplicación europeo del estándar DCAT para catálogos de datos.</rdfs:comment>
-            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-10</dct:issued>
-            <dct:format>RDF / JSON-LD</dct:format>
-          </adms:Identifier>
-        </adms:identifier>
-        <dcat:contactPoint>
-          <vcard:Kind rdf:nodeID="N8cefd01dfa0a45019df2918bf0ae4cba">
-            <vcard:fn xml:lang="es">Unidad C</vcard:fn>
-            <vcard:hasEmail rdf:resource="mailto:orgCarrobaeconomia.gob.es" />
-            <vcard:hasURL rdf:resource="https://orgC.gob.es/info" />
-            <vcard:organization-name xml:lang="es">Nombre Org C</vcard:organization-name>
-            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381" />
-            <vcard:hasTelephone rdf:resource="tel:+3210000003" />
-          </vcard:Kind>
-        </dcat:contactPoint>
-        <dcat:contactPoint>
-          <vcard:Kind rdf:nodeID="N33abc1af976343f68b586d291d015156">
-            <vcard:fn xml:lang="es">Unidad D</vcard:fn>
-            <vcard:hasEmail rdf:resource="mailto:orgDarrobaeconomia.gob.es" />
-            <vcard:hasURL rdf:resource="https://orgD.gob.es/info" />
-            <vcard:organization-name xml:lang="es">Nombre Org D</vcard:organization-name>
-            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381" />
-            <vcard:hasTelephone rdf:resource="tel:+3210000004" />
-          </vcard:Kind>
-        </dcat:contactPoint>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://172.17.8.174:8443/dataset/testdesa">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-        <dct:title xml:lang="es">Dataset Completo</dct:title>
-        <dct:description xml:lang="es">Un dataset con TODO</dct:description>
-        <dcat:landingPage rdf:resource="https://172.17.8.174:8443/dataset/testdesa" />
-        <dcat:landingPage rdf:resource="http://web.dataset.com" />
-        <dct:identifier>testDESA</dct:identifier>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-15</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-13</dct:issued>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/CAT" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/cultura-ocio" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/testdesa/resource/distribucion-1-txt">
-    <dct:title xml:lang="es">Distribucion 1 txt</dct:title>
-    <dct:description xml:lang="es">Distribución 1</dct:description>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/plain" />
-    <dct:format>
-      <dct:IMT rdf:nodeID="Nb0171a07499640d4bc5dfb82775cad92">
-        <rdf:value>text/PLAIN</rdf:value>
-        <rdfs:label>PLAIN</rdfs:label>
-      </dct:IMT>
-    </dct:format>
-    <dcat:accessURL rdf:resource="https://faketxt.es" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-08</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-13T00:00:00+00:00</dct:issued>
-    <dct:accessRights rdf:resource="https://info:eu-repo/semantics/openAccess" />
-    <dct:rights rdf:resource="https://info:eu-repo/semantics/openAccess" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <dcat:distribution><dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/testdesa/resource/distribucion-2-xlsx">
-    <dct:title xml:lang="es">Distribución 2</dct:title>
-    <dct:description xml:lang="es">Distribución 2</dct:description>
-    <ns15:characterEncoding>UTF-8</ns15:characterEncoding>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/CAT" />
-    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
-    <dct:format>
-      <dct:IMT rdf:nodeID="N3736ab40a6164062aa5b0ea36f06d990">
-        <rdf:value>text/VND.OPENXMLFORMATS-OFFICEDOCUMENT.SPREADSHEETML.SHEET</rdf:value>
-        <rdfs:label>VND.OPENXMLFORMATS-OFFICEDOCUMENT.SPREADSHEETML.SHEET</rdfs:label>
-      </dct:IMT>
-    </dct:format>
-    <dcat:accessURL rdf:resource="https://fakexls.es" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-08</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-13T00:00:00+00:00</dct:issued>
-  </dcat:Distribution>
-  </dcat:distribution>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España" />
-        <dcat:version>1.0</dcat:version>
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0023645"><foaf:name xml:lang="es">Empresa de Transformación Agraria, S.A., S.M.E., M.P. (TRAGSA)</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0023645</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/Company" /></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044367"><foaf:name xml:lang="en">Javier Torralba</foaf:name><foaf:name xml:lang="es">Entidad Pública Empresarial Red.es</foaf:name><dct:identifier>EA0044367</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/SupraNationalAuthority" /></foaf:Agent></dct:creator>
-        <dcat:contactPoint>
-          <vcard:Kind rdf:nodeID="N14a67b98cdf9420ca3c7cd99a25beebe">
-            <vcard:fn xml:lang="es">Torralba Resino</vcard:fn>
-            <vcard:hasEmail rdf:resource="mailto:jtorralb@tragsa.es" />
-            <vcard:organization-name xml:lang="es">Torralba Corp</vcard:organization-name>
-            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00000000" />
-            <vcard:hasTelephone rdf:resource="tel:666321654" />
-          </vcard:Kind>
-        </dcat:contactPoint>
-      </dcat:Dataset>
-    </dcat:dataset>
   </dcat:Catalog>
-  <dcat:DataService rdf:about="https://serviciosweb.mineco.gob.es/indicadores2/api/">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
-    <dct:title xml:lang="en">Data service 2</dct:title>
-    <dct:title xml:lang="es">Servicio Datos 2</dct:title>
-    <dct:description xml:lang="en">Descripción2</dct:description>
-    <dct:description xml:lang="es">Descripción1</dct:description>
-    <dct:license>
-      <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
-        <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR" />
-      </rdf:Description>
-    </dct:license>
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/NORMAL" />
-    <dcat:endpointDescription rdf:resource="https://geoportal.mineco.gob.es/wms/datos-economicos?SERVICE=WMS&amp;REQUEST=GetCapabilities" />
-    <dcat:endpointDescription rdf:resource="https://datos.comercio.gob.es/docs/descripcion_servicio_wms_economia.pdf" />
-    <dcat:endpointURL rdf:resource="https://serviciosweb.mineco.gob.es/indicadores2/api/" />
-    <dcat:endpointURL rdf:resource="https://api.comercio.gob.es/series-temporales2/" />
-    <dcat:servesDataset rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos" />
-    <dcat:servesDataset rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior" />
-    <dcatap:applicableLegislation>
-      <eli:LegalResource rdf:about="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
-    </dcatap:applicableLegislation>
-    <foaf:page>
-      <dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/i000002812/resource/indicadores-json">
-        <dct:title xml:lang="en">Economic indicators — JSON</dct:title>
-        <dct:title xml:lang="es">Indicadores económicos — JSON</dct:title>
-        <dct:description xml:lang="en">JSON distribution structured for API consumptio</dct:description>
-        <dct:description xml:lang="es">Distribución</dct:description>
-        <foaf:page rdf:resource="https://datos.comercio.gob.es/docs/metodologia_indicadores_json.pdf" />
-        <foaf:page rdf:resource="https://datos.comercio.gob.es/docs/api_uso_datos_json.html" />
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG" />
-        <dct:conformsTo rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON" />
-        <dct:conformsTo rdf:resource="https://json-schema.org/draft/2020-12/schema" />
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD" />
-        <dcat:accessURL rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.json" />
-        <dcat:accessURL rdf:resource="https://serviciosweb.mineco.gob.es/indicadores/api/json" />
-        <dcat:downloadURL rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.json" />
-        <dcat:downloadURL rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/indicadores.json.zip" />
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-02</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-01T00:00:00+00:00</dct:issued>
-        <dct:accessRights rdf:resource="https://schema.theodi.org/odrs/rightsstatement" />
-        <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-        <spdx:checksum>
-          <spdx:Checksum rdf:nodeID="N3e4c84b599de4ac7a08783b3fc922527">
-            <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">356a192b7913b04c54574d18c28d46e6395428ab</spdx:checksumValue>
-            <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
-          </spdx:Checksum>
-        </spdx:checksum>
-        <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/gzip" />
-        <dcat:packageFormat rdf:resource="http://www.iana.org/assignments/media-types/application/x-tar" />
-        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/STABLE" />
-        <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000</dcat:spatialResolutionInMeters>
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
-        <dcat:accessService rdf:resource="https://serviciosweb.mineco.gob.es/indicadores2/api/" />
-        <dct:rights rdf:resource="https://schema.theodi.org/odrs/rightsstatement" />
-        <odrl:hasPolicy rdf:resource="https://datos.comercio.gob.es/policy/cc0-1.0" />
-        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/json" />
-      </dcat:Distribution>
-    </foaf:page>
-    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_04bf94a3" />
-    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_317b9493" />
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/comercio" />
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/empleo" />
-    <dct:publisher>
-      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381">
-        <foaf:name xml:lang="en">INE</foaf:name>
-        <foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name>
-        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier>
-        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" />
-      </foaf:Agent>
-    </dct:publisher>
-    <dcat:keyword xml:lang="en">comercio exterior2</dcat:keyword>
-    <dcat:keyword xml:lang="es">indicadores económicos2</dcat:keyword>
-    <dcat:contactPoint>
-      <vcard:Kind rdf:about="https://172.17.8.174:8443/kos/role/vCard%20Org%20B/contact">
-        <vcard:fn xml:lang="es">Unidad B</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:orgBarrobaeconomia.gob.es" />
-        <vcard:hasURL rdf:resource="https://orgB.gob.es/info" />
-        <vcard:hasTelephone rdf:resource="tel:+3210000002" />
-        <vcard:organization-name xml:lang="es">Nombre Org B</vcard:organization-name>
-        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801" />
-      </vcard:Kind>
-    </dcat:contactPoint>
-    <dcat:contactPoint>
-      <vcard:Kind rdf:about="https://172.17.8.174:8443/kos/role/vCard%20Org%20D/contact">
-        <vcard:fn xml:lang="es">Unidad D</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:orgDarrobaeconomia.gob.es" />
-        <vcard:hasURL rdf:resource="https://orgD.gob.es/info" />
-        <vcard:hasTelephone rdf:resource="tel:+3210000004" />
-        <vcard:organization-name xml:lang="es">Nombre Org D</vcard:organization-name>
-        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381" />
-      </vcard:Kind>
-    </dcat:contactPoint>
-  </dcat:DataService>
-  <vcard:Kind rdf:about="https://172.17.8.174:8443/kos/role/vCard%20Org%20A/contact">
-    <vcard:fn xml:lang="es">Unidad A</vcard:fn>
-    <vcard:hasEmail rdf:resource="mailto:orgAarrobaeconomia.gob.es" />
-    <vcard:hasURL rdf:resource="https://orgA.gob.es/info" />
-    <vcard:hasTelephone rdf:resource="tel:+3210000001" />
-    <vcard:organization-name xml:lang="es">Nombre Org A</vcard:organization-name>
-    <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801" />
-  </vcard:Kind>
-  <vcard:Kind rdf:about="https://172.17.8.174:8443/kos/role/vCard%20Org%20C/contact">
-    <vcard:fn xml:lang="es">Unidad C</vcard:fn>
-    <vcard:hasEmail rdf:resource="mailto:orgCarrobaeconomia.gob.es" />
-    <vcard:hasURL rdf:resource="https://orgC.gob.es/info" />
-    <vcard:hasTelephone rdf:resource="tel:+3210000003" />
-    <vcard:organization-name xml:lang="es">Nombre Org C</vcard:organization-name>
-    <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381" />
-  </vcard:Kind>
-  <vcard:Kind rdf:about="https://172.17.8.174:8443/kos/role/vCard%20Org%20E/contact">
-    <vcard:fn xml:lang="es">Unidad C</vcard:fn>
-    <vcard:hasEmail rdf:resource="mailto:orgCarrobaeconomia.gob.es" />
-    <vcard:hasURL rdf:resource="https://orgC.gob.es/info" />
-    <vcard:hasTelephone rdf:resource="tel:+3210000003" />
-    <vcard:organization-name xml:lang="es">Nombre Org E</vcard:organization-name>
-    <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381" />
-  </vcard:Kind>
-  <vcard:Kind rdf:about="https://172.17.8.174:8443/kos/role/vCard%20Org%20F/contact">
-    <vcard:fn xml:lang="es">Unidad D</vcard:fn>
-    <vcard:hasEmail rdf:resource="mailto:orgDarrobaeconomia.gob.es" />
-    <vcard:hasURL rdf:resource="https://orgD.gob.es/info" />
-    <vcard:hasTelephone rdf:resource="tel:+3210000004" />
-    <vcard:organization-name xml:lang="es">Nombre Org F</vcard:organization-name>
-    <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381" />
-  </vcard:Kind>
-  <prov:Activity rdf:about="https://datos.gob.es/recurso/actividad/encuesta-sector-publico-ine-2023" />
-  <prov:Activity rdf:about="https://datos.gob.es/recurso/actividad/proyecto-indicadores-economicos-2024" />
 </rdf:RDF>
