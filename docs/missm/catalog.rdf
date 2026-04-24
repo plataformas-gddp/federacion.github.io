@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <dcat:Catalog rdf:about="https://10.99.193.1:8443">
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA" />
+    </dct:language>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP" />
+    <dct:spatial>
+      <dct:Location rdf:nodeID="N039b4b4aa48f48de967abf15be9a402c">
+        <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</dcat:bbox>
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8150 40.5250)</dcat:centroid>
+        <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</locn:Geometry>
+      </dct:Location>
+    </dct:spatial>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector" />
+    <dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme" />
+    <foaf:homepage rdf:resource="https://10.99.193.1:8443" />
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+    <dct:title xml:lang="es">CKAN</dct:title>
+    <dct:description xml:lang="es">Catalogo de datos abiertos del MISSM</dct:description>
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501">
+        <foaf:name xml:lang="es">Ministerio de Inclusion</foaf:name>
+        <foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." />
+        <foaf:homepage rdf:resource="https://www.inclusion.gob.es/" />
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" />
+        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier>
+      </foaf:Agent>
+    </dct:publisher>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"><foaf:name xml:lang="es">Ministerio de Inclusion</foaf:name><foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." /><foaf:homepage rdf:resource="https://www.inclusion.gob.es/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier></foaf:Agent></dct:creator>
+    <dct:temporal>
+      <dct:PeriodOfTime rdf:nodeID="N1659fe71c03449f0ab3e49e6590a12ea">
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-31</dcat:endDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/375df24aa79644079f666f96efa05afb" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/f7d00dd3c60d4fbda7be17f92d95b8ec" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/4eba86edbc7543e78f3490016f829845" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/656c72f485c04fb8b374218bd0aa27bf" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/4e44c6d4e0784777ab82600a0a2399b9" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/9cc9deaeb3c84546bc5a63593fbb015e" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/2ca0c36aea37415b92e471d5e760b225" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/bcfb350c3d534f4296f9aac255a1f1a8" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/972d4c4da0c14837833342be5e34d7f0" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/31deafe675b94cbe93eb6bbbff406721" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/3deb8bb8502947118f25c66fcf412cc7" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/7b9417ba4f9e41dc94fb5f037cc1cdd7" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/7704cd07b7d94df9b0bd7b64ca9a4627" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/7763c3b0a237400cb37cedc42c89d69c" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/0e87f97a61a14b9dae74122f890d70c5" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/e2ee7d6c20b144ac859f6d9b24e01e3b" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/b24c288e118a421f8bff52b49e2ba55d" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/98cdba6392874eff822919942af07674" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/74e6c29a2e234a11b134d6cc395d8367" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/451832c9ac8d4949bdd89482aa3f22ff" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/9db8d07d2c334531933deaaff10b6e4d" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/3a5c5db5bbbd40c19c2faac99d7636c0" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/f921c1a3ac2b43ae960b79c8aeec4012" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/061a3bc4c0b043e5a0bab9a6ac3cf681" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/d4a13298f6e14858a8412b32f840cfb1" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/b4eb4546793944dcb7bb7e4fe7675b14" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/b805474682d24895a9a966a22dc29427" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/ce7dc9c8c3aa4f628071e85d88425978" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/66bcf8f799a74b80bef7d9cb235050ba" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/574aaf64f963455b81098545b7b53977" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/7f6a76995f354fa4af8f20efad31b051" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/649701cd79364ee3bb87e3855e580335" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/ecef0019b8294da8971e26377f6aede1" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/64958ebd90c24e818d353ec29062f282" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/a258f1fad910417796bc6ad6d4e441ee" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/364f96203e9847818e00984f5d74080f" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/a11817fe02654d15a3e0602272a47558" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/17ddf88f25ba49a882cb4f1092534f75" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/b4cc6312b75b4f6490a36eb3a75fab68" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/5cd2832277044499b282d768c2e230eb" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/5f2b94550e6549fa8e55afa665d2f4f6" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/1e8db850d8a840aba3572449d041d3ac" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/a2232307898d4ccd84d77022cb3e4dc8" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/a705281e152048e7991898eeeefe3188" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/806b0dc4a58045c5879d21c8ae99b27b" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/02cea83f84604a7281c8605460421ca7" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/03bf2a2111cd42b3ade72dd7ad3eae9d" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/2565b2e17caa4af0b9b3dd8675f8be3f" />
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-24T08:28:41+00:00</dct:modified>
+  </dcat:Catalog>
+</rdf:RDF>
