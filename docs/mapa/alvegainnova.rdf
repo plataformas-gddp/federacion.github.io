@@ -61,21 +61,21 @@ xmlns:time="http://www.w3.org/2006/time#"
     </dct:temporal>
 	<dcat:dataset>
 <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/1da2aaa5-892b-4fe2-bca9-48e83c3fbcc9">
-    <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dc:description xml:lang="es">Este dataset pertenece a un proyecto independiente de dispositivos que se encuentran instalados en la Finca Experimental de Rabanales de la Universidad de Córdoba. Este dataset abarca datos meteorológicos y de condiciones ambientales, como humedad, temperatura, viento, radiación solar, y riesgo de heladas, además de información de batería y referencias a parcelas agrícolas. Datos cedidos a La Vega Innova por la Universidad de Córdoba.</dc:description>
-    <dc:identifier>1da2aaa5-892b-4fe2-bca9-48e83c3fbcc9</dc:identifier>
-    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dc:issued>
-    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dc:modified>
-    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dc:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
-    <dc:temporal>
-      <dc:PeriodOfTime>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description xml:lang="es">Este dataset pertenece a un proyecto independiente de dispositivos que se encuentran instalados en la Finca Experimental de Rabanales de la Universidad de Córdoba. Este dataset abarca datos meteorológicos y de condiciones ambientales, como humedad, temperatura, viento, radiación solar, y riesgo de heladas, además de información de batería y referencias a parcelas agrícolas. Datos cedidos a La Vega Innova por la Universidad de Córdoba.</dct:description>
+    <dct:identifier>1da2aaa5-892b-4fe2-bca9-48e83c3fbcc9</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dct:temporal>
+      <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-11-25</dcat:startDate>
-      </dc:PeriodOfTime>
-    </dc:temporal>
+      </dct:PeriodOfTime>
+    </dct:temporal>
 
-    <dc:title xml:lang="es">Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Datos meteorológicos</dc:title>
+    <dct:title xml:lang="es">Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Datos meteorológicos</dct:title>
     <dcat:contactPoint>
       <vcard:Kind>
         <vcard:fn xml:lang="es">La Vega Innova</vcard:fn>
@@ -88,10 +88,10 @@ xmlns:time="http://www.w3.org/2006/time#"
 
     <dcat:distribution>
       <dcat:Distribution>
-        <dc:description xml:lang="es">Distribución de datos en formato CSV</dc:description>
-        <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dc:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
-        <dc:title xml:lang="es">agroweatherobserved_historic_join</dc:title>
+        <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:title xml:lang="es">agroweatherobserved_historic_join</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/agroweatherobserved_historic_join.cda&amp;dataAccessId=agrosensors_agroweatherobserved_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;paramuneentitytype=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -105,21 +105,21 @@ xmlns:time="http://www.w3.org/2006/time#"
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/2a4f788d-49f4-402d-8acc-9600ab7c0fec">
-    <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dc:description xml:lang="es">Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. Este dataset contiene parámetros relacionados con el riego, como el tiempo y cantidad de riego, consumo de agua, referencias a parcelas agrícolas y datos de identificación, además de información descriptiva.</dc:description>
-    <dc:identifier>2a4f788d-49f4-402d-8acc-9600ab7c0fec</dc:identifier>
-    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dc:issued>
-    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dc:modified>
-    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dc:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
-    <dc:temporal>
-      <dc:PeriodOfTime>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description xml:lang="es">Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. Este dataset contiene parámetros relacionados con el riego, como el tiempo y cantidad de riego, consumo de agua, referencias a parcelas agrícolas y datos de identificación, además de información descriptiva.</dct:description>
+    <dct:identifier>2a4f788d-49f4-402d-8acc-9600ab7c0fec</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dct:temporal>
+      <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-14</dcat:startDate>
-      </dc:PeriodOfTime>
-    </dc:temporal>
+      </dct:PeriodOfTime>
+    </dct:temporal>
 
-    <dc:title xml:lang="es">Smart Pivot - Datos de riego y consumo de agua</dc:title>
+    <dct:title xml:lang="es">Smart Pivot - Datos de riego y consumo de agua</dct:title>
     <dcat:contactPoint>
       <vcard:Kind>
         <vcard:fn xml:lang="es">La Vega Innova</vcard:fn>
@@ -132,10 +132,10 @@ xmlns:time="http://www.w3.org/2006/time#"
 
     <dcat:distribution>
       <dcat:Distribution>
-        <dc:description xml:lang="es">Distribución de datos en formato CSV</dc:description>
-        <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dc:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
-        <dc:title xml:lang="es">irrigationoperation_historic_join</dc:title>
+        <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:title xml:lang="es">irrigationoperation_historic_join</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationoperation_historic_join.cda&amp;dataAccessId=crops_irrigationoperation_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -149,21 +149,21 @@ xmlns:time="http://www.w3.org/2006/time#"
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/2d0e29f2-8f86-49b5-b21f-7114a5c832d0">
-    <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dc:description xml:lang="es">Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. Este dataset incluye parámetros observados meteorológicos y ambientales, como precipitación, humedad relativa, temperatura, dirección y velocidad del viento, radiación solar, evapotranspiración, probabilidad de precipitación, cobertura de nubes, riesgo de heladas, déficit de presión de vapor y horas de enfriamiento, además de información de mantenimiento y referencias a parcelas agrícolas.</dc:description>
-    <dc:identifier>2d0e29f2-8f86-49b5-b21f-7114a5c832d0</dc:identifier>
-    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dc:issued>
-    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dc:modified>
-    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dc:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
-    <dc:temporal>
-      <dc:PeriodOfTime>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description xml:lang="es">Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. Este dataset incluye parámetros observados meteorológicos y ambientales, como precipitación, humedad relativa, temperatura, dirección y velocidad del viento, radiación solar, evapotranspiración, probabilidad de precipitación, cobertura de nubes, riesgo de heladas, déficit de presión de vapor y horas de enfriamiento, además de información de mantenimiento y referencias a parcelas agrícolas.</dct:description>
+    <dct:identifier>2d0e29f2-8f86-49b5-b21f-7114a5c832d0</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dct:temporal>
+      <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-14</dcat:startDate>
-      </dc:PeriodOfTime>
-    </dc:temporal>
+      </dct:PeriodOfTime>
+    </dct:temporal>
 
-    <dc:title xml:lang="es">Smart Pivot - Datos meteorológicos observados</dc:title>
+    <dct:title xml:lang="es">Smart Pivot - Datos meteorológicos observados</dct:title>
     <dcat:contactPoint>
       <vcard:Kind>
         <vcard:fn xml:lang="es">La Vega Innova</vcard:fn>
@@ -176,10 +176,10 @@ xmlns:time="http://www.w3.org/2006/time#"
 
     <dcat:distribution>
       <dcat:Distribution>
-        <dc:description xml:lang="es">Distribución de datos en formato CSV</dc:description>
-        <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dc:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
-        <dc:title xml:lang="es">agroweatherobserved_historic_join</dc:title>
+        <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:title xml:lang="es">agroweatherobserved_historic_join</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherobserved_historic_join.cda&amp;dataAccessId=crops_agroweatherobserved_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -193,21 +193,21 @@ xmlns:time="http://www.w3.org/2006/time#"
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/3422e507-6394-4235-9cf4-187cb04ddf31">
-    <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dc:description xml:lang="es">Este dataset pertenece al Agrolab Fertilización Inteligente que se trata de generar prescripciones de fertilizante basadas en estudios fisicoquimicos y de conductividad en varias de las parcelas perteneciente al CENCA. Este dataset incluye datos sobre las prescripciones de fertilizante incluyendo nutrientes aplicados como nitrógeno, fósforo y potasio, junto con información sobre la fecha de muestreo, identificadores de entidad y parcelas agrícolas, y detalles de cada lote.</dc:description>
-    <dc:identifier>3422e507-6394-4235-9cf4-187cb04ddf31</dc:identifier>
-    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dc:issued>
-    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dc:modified>
-    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dc:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
-    <dc:temporal>
-      <dc:PeriodOfTime>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description xml:lang="es">Este dataset pertenece al Agrolab Fertilización Inteligente que se trata de generar prescripciones de fertilizante basadas en estudios fisicoquimicos y de conductividad en varias de las parcelas perteneciente al CENCA. Este dataset incluye datos sobre las prescripciones de fertilizante incluyendo nutrientes aplicados como nitrógeno, fósforo y potasio, junto con información sobre la fecha de muestreo, identificadores de entidad y parcelas agrícolas, y detalles de cada lote.</dct:description>
+    <dct:identifier>3422e507-6394-4235-9cf4-187cb04ddf31</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dct:temporal>
+      <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-20</dcat:startDate>
-      </dc:PeriodOfTime>
-    </dc:temporal>
+      </dct:PeriodOfTime>
+    </dct:temporal>
 
-    <dc:title xml:lang="es">Fertilización Inteligente - Prescripciones de fertilizante</dc:title>
+    <dct:title xml:lang="es">Fertilización Inteligente - Prescripciones de fertilizante</dct:title>
     <dcat:contactPoint>
       <vcard:Kind>
         <vcard:fn xml:lang="es">La Vega Innova</vcard:fn>
@@ -220,10 +220,10 @@ xmlns:time="http://www.w3.org/2006/time#"
 
     <dcat:distribution>
       <dcat:Distribution>
-        <dc:description xml:lang="es">Distribución de datos en formato CSV</dc:description>
-        <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dc:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
-        <dc:title xml:lang="es">gridcellprescription_lastdata_batch</dc:title>
+        <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:title xml:lang="es">gridcellprescription_lastdata_batch</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellprescription_lastdata_batch.cda&amp;dataAccessId=fertilization_batch_gridcellprescription_lastdata&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -237,21 +237,21 @@ xmlns:time="http://www.w3.org/2006/time#"
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/3e0313e1-bac8-4d5e-aa02-35f37d33907e">
-    <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dc:description xml:lang="es">Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. Este dataset abarca parámetros de cultivo como coeficientes de  riego y su eficiencia, índice de estrés hídrico, tipo de suelo, tipo de cultivo, sistema de riego y referencias climáticas, además de información descriptiva del cultivo.</dc:description>
-    <dc:identifier>3e0313e1-bac8-4d5e-aa02-35f37d33907e</dc:identifier>
-    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dc:issued>
-    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dc:modified>
-    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dc:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
-    <dc:temporal>
-      <dc:PeriodOfTime>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description xml:lang="es">Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. Este dataset abarca parámetros de cultivo como coeficientes de  riego y su eficiencia, índice de estrés hídrico, tipo de suelo, tipo de cultivo, sistema de riego y referencias climáticas, además de información descriptiva del cultivo.</dct:description>
+    <dct:identifier>3e0313e1-bac8-4d5e-aa02-35f37d33907e</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dct:temporal>
+      <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-14</dcat:startDate>
-      </dc:PeriodOfTime>
-    </dc:temporal>
+      </dct:PeriodOfTime>
+    </dct:temporal>
 
-    <dc:title xml:lang="es">Smart Pivot - Parámetros de cultivo</dc:title>
+    <dct:title xml:lang="es">Smart Pivot - Parámetros de cultivo</dct:title>
     <dcat:contactPoint>
       <vcard:Kind>
         <vcard:fn xml:lang="es">La Vega Innova</vcard:fn>
@@ -264,10 +264,10 @@ xmlns:time="http://www.w3.org/2006/time#"
 
     <dcat:distribution>
       <dcat:Distribution>
-        <dc:description xml:lang="es">Distribución de datos en formato CSV</dc:description>
-        <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dc:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
-        <dc:title xml:lang="es">agriparcel_historic_join</dc:title>
+        <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:title xml:lang="es">agriparcel_historic_join</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agriparcel_historic_join.cda&amp;dataAccessId=crops_agriparcel_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -281,23 +281,23 @@ xmlns:time="http://www.w3.org/2006/time#"
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/402c32a8-1278-4b69-8cee-ace354948d1c">
-    <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dc:description xml:lang="es">Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. 
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description xml:lang="es">Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. 
 
-Este dataset abarca parámetros relacionados con las recomendaciónes futuras incluyendo datos sobre consumo de agua, riego, y parcelas agrícolas, incluyendo identificadores, tiempo, y detalles descriptivos.</dc:description>
-    <dc:identifier>402c32a8-1278-4b69-8cee-ace354948d1c</dc:identifier>
-    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dc:issued>
-    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dc:modified>
-    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dc:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
-    <dc:temporal>
-      <dc:PeriodOfTime>
+Este dataset abarca parámetros relacionados con las recomendaciónes futuras incluyendo datos sobre consumo de agua, riego, y parcelas agrícolas, incluyendo identificadores, tiempo, y detalles descriptivos.</dct:description>
+    <dct:identifier>402c32a8-1278-4b69-8cee-ace354948d1c</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dct:temporal>
+      <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-14</dcat:startDate>
-      </dc:PeriodOfTime>
-    </dc:temporal>
+      </dct:PeriodOfTime>
+    </dct:temporal>
 
-    <dc:title xml:lang="es">Smart Pivot - Recomendaciones futuras de riego</dc:title>
+    <dct:title xml:lang="es">Smart Pivot - Recomendaciones futuras de riego</dct:title>
     <dcat:contactPoint>
       <vcard:Kind>
         <vcard:fn xml:lang="es">La Vega Innova</vcard:fn>
@@ -310,10 +310,10 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
 
     <dcat:distribution>
       <dcat:Distribution>
-        <dc:description xml:lang="es">Distribución de datos en formato CSV</dc:description>
-        <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dc:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
-        <dc:title xml:lang="es">Distribución CSV</dc:title>
+        <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:title xml:lang="es">Distribución CSV</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationrecommendation_historic_join.cda&amp;dataAccessId=crops_irrigationrecommendation_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -327,21 +327,21 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/5fdc8cc9-a042-410f-85e3-66ec3615c9f3">
-    <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dc:description xml:lang="es">Este dataset pertenece al piloto estimación de rendimiento que se trata de estimar el rendimiento de 4 explotaciones agrarias de olivar situadas en varios puntos de España. Estas estimaciones se han llevado a partir de datos históricos climáticos, satelitales, de producción y otros. Este dataset recopila datos meteorológicos y ambientales, índices de vegetación y teledetección y estimación de producción agrícola y muestra los datos históricos de proyecto.</dc:description>
-    <dc:identifier>5fdc8cc9-a042-410f-85e3-66ec3615c9f3</dc:identifier>
-    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-20</dc:issued>
-    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-12</dc:modified>
-    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dc:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
-    <dc:temporal>
-      <dc:PeriodOfTime>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description xml:lang="es">Este dataset pertenece al piloto estimación de rendimiento que se trata de estimar el rendimiento de 4 explotaciones agrarias de olivar situadas en varios puntos de España. Estas estimaciones se han llevado a partir de datos históricos climáticos, satelitales, de producción y otros. Este dataset recopila datos meteorológicos y ambientales, índices de vegetación y teledetección y estimación de producción agrícola y muestra los datos históricos de proyecto.</dct:description>
+    <dct:identifier>5fdc8cc9-a042-410f-85e3-66ec3615c9f3</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-20</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-12</dct:modified>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dct:temporal>
+      <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-01</dcat:startDate>
-      </dc:PeriodOfTime>
-    </dc:temporal>
+      </dct:PeriodOfTime>
+    </dct:temporal>
 
-    <dc:title xml:lang="es">Estimación de Rendimiento - Histórico Agroclimático y Productivo Olivar</dc:title>
+    <dct:title xml:lang="es">Estimación de Rendimiento - Histórico Agroclimático y Productivo Olivar</dct:title>
     <dcat:contactPoint>
       <vcard:Kind>
         <vcard:fn xml:lang="es">La Vega Innova</vcard:fn>
@@ -354,10 +354,10 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
 
     <dcat:distribution>
       <dcat:Distribution>
-        <dc:description xml:lang="es">Distribución de datos en formato CSV</dc:description>
-        <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dc:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
-        <dc:title xml:lang="es">harvest_historic</dc:title>
+        <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:title xml:lang="es">harvest_historic</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=public/ihub_mapa/verticals/harvests/sql/harvest_historic_mutable.cda&amp;dataAccessId=harvest_harvest_mutable&amp;paramentityid=&amp;paramstart=2020-01-01%2000%3A00%3A00&amp;paramfinish=2027-01-31%2023%3A59%3A59&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -371,23 +371,23 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/61666b49-c102-4ee7-8878-84bc047f2243">
-    <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dc:description xml:lang="es">Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. 
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description xml:lang="es">Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA. 
 
-Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiempo de riego, velocidad actual y velocidad máxima teórica, junto con referencias a parcelas agrícolas e información descriptiva.</dc:description>
-    <dc:identifier>61666b49-c102-4ee7-8878-84bc047f2243</dc:identifier>
-    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dc:issued>
-    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dc:modified>
-    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dc:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
-    <dc:temporal>
-      <dc:PeriodOfTime>
+Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiempo de riego, velocidad actual y velocidad máxima teórica, junto con referencias a parcelas agrícolas e información descriptiva.</dct:description>
+    <dct:identifier>61666b49-c102-4ee7-8878-84bc047f2243</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dct:temporal>
+      <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-14</dcat:startDate>
-      </dc:PeriodOfTime>
-    </dc:temporal>
+      </dct:PeriodOfTime>
+    </dct:temporal>
 
-    <dc:title xml:lang="es">Smart Pivot - Parámetros del pivot</dc:title>
+    <dct:title xml:lang="es">Smart Pivot - Parámetros del pivot</dct:title>
     <dcat:contactPoint>
       <vcard:Kind>
         <vcard:fn xml:lang="es">La Vega Innova</vcard:fn>
@@ -400,10 +400,10 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
 
     <dcat:distribution>
       <dcat:Distribution>
-        <dc:description xml:lang="es">Distribución de datos en formato CSV</dc:description>
-        <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dc:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
-        <dc:title xml:lang="es">irrigationpivot_historic_join</dc:title>
+        <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:title xml:lang="es">irrigationpivot_historic_join</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationpivot_historic_join.cda&amp;dataAccessId=crops_irrigationpivot_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -417,21 +417,21 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/6940281b-e8f6-449e-b7d8-0c51b9d5db7d">
-    <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dc:description xml:lang="es">Este dataset contiene parámetros dinámicos de monitorización animal a través de collares IoT dotados con GPS, Termómetro y acelerómetros junto con parámetros pseudoestáticos como raza de animal,sexo de animal, etc. de 4 explotaciones ganaderas en la península Ibérica.</dc:description>
-    <dc:identifier>6940281b-e8f6-449e-b7d8-0c51b9d5db7d</dc:identifier>
-    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-30</dc:issued>
-    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dc:modified>
-    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dc:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
-    <dc:temporal>
-      <dc:PeriodOfTime>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description xml:lang="es">Este dataset contiene parámetros dinámicos de monitorización animal a través de collares IoT dotados con GPS, Termómetro y acelerómetros junto con parámetros pseudoestáticos como raza de animal,sexo de animal, etc. de 4 explotaciones ganaderas en la península Ibérica.</dct:description>
+    <dct:identifier>6940281b-e8f6-449e-b7d8-0c51b9d5db7d</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-30</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dct:temporal>
+      <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-31</dcat:endDate>
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-03</dcat:startDate>
-      </dc:PeriodOfTime>
-    </dc:temporal>
+      </dct:PeriodOfTime>
+    </dct:temporal>
 
-    <dc:title xml:lang="es">Cercados Virtuales - Monitorización animal con collares IoT en explotaciones ganaderas</dc:title>
+    <dct:title xml:lang="es">Cercados Virtuales - Monitorización animal con collares IoT en explotaciones ganaderas</dct:title>
     <dcat:contactPoint>
       <vcard:Kind>
         <vcard:fn xml:lang="es">La Vega Innova</vcard:fn>
@@ -444,10 +444,10 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
 
     <dcat:distribution>
       <dcat:Distribution>
-        <dc:description xml:lang="es">Distribución de datos en formato CSV</dc:description>
-        <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dc:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
-        <dc:title xml:lang="es">animal_historic_join</dc:title>
+        <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:title xml:lang="es">animal_historic_join</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/virtualenclosures/sql/animal_historic_join.cda&amp;dataAccessId=virtualenclosures_animal_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -461,21 +461,21 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/7bc1d2c8-bb52-4af0-ab01-9fab31d52ac3">
-    <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dc:description xml:lang="es">Este dataset pertenece a un proyecto independiente de dispositivos que se encuentran instalados en la Finca Experimental de Rabanales de la Universidad de Córdoba. La tecnología de comunicación es LORAWAN. Este dataset recopila datos ambientales, como humedad relativa, temperatura y nivel de batería, junto con detalles de la entidad, como su nombre, descripción y ruta de servicio. Datos cedidos a La Vega Innova por lua Universidad de Córdoba.</dc:description>
-    <dc:identifier>7bc1d2c8-bb52-4af0-ab01-9fab31d52ac3</dc:identifier>
-    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dc:issued>
-    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-24</dc:modified>
-    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dc:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
-    <dc:temporal>
-      <dc:PeriodOfTime>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description xml:lang="es">Este dataset pertenece a un proyecto independiente de dispositivos que se encuentran instalados en la Finca Experimental de Rabanales de la Universidad de Córdoba. La tecnología de comunicación es LORAWAN. Este dataset recopila datos ambientales, como humedad relativa, temperatura y nivel de batería, junto con detalles de la entidad, como su nombre, descripción y ruta de servicio. Datos cedidos a La Vega Innova por lua Universidad de Córdoba.</dct:description>
+    <dct:identifier>7bc1d2c8-bb52-4af0-ab01-9fab31d52ac3</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-24</dct:modified>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dct:temporal>
+      <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-11-25</dcat:startDate>
-      </dc:PeriodOfTime>
-    </dc:temporal>
+      </dct:PeriodOfTime>
+    </dct:temporal>
 
-    <dc:title xml:lang="es">Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Datos ambientales y nivel de batería</dc:title>
+    <dct:title xml:lang="es">Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Datos ambientales y nivel de batería</dct:title>
     <dcat:contactPoint>
       <vcard:Kind>
         <vcard:fn xml:lang="es">La Vega Innova</vcard:fn>
@@ -488,10 +488,10 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
 
     <dcat:distribution>
       <dcat:Distribution>
-        <dc:description xml:lang="es">Distribución de datos en formato CSV</dc:description>
-        <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dc:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
-        <dc:title xml:lang="es">thrsensor_historic_join</dc:title>
+        <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:title xml:lang="es">thrsensor_historic_join</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/thrsensor_historic_join.cda&amp;dataAccessId=agrosensors_thrsensor_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;paramuneentitytype=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -505,21 +505,21 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/9590faa4-5b78-4ba9-ad62-6dccfcb512d9">
-    <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dc:description xml:lang="es">Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA.Este dataset incluye parámetros de pronósticos meteorológicos y ambientales, como precipitación, humedad relativa, temperatura, dirección y velocidad del viento, radiación solar, evapotranspiración, probabilidad de precipitación, cobertura de nubes, riesgo de heladas, déficit de presión de vapor y horas de enfriamiento, además de información de mantenimiento y referencias a parcelas agrícolas.</dc:description>
-    <dc:identifier>9590faa4-5b78-4ba9-ad62-6dccfcb512d9</dc:identifier>
-    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dc:issued>
-    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dc:modified>
-    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dc:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
-    <dc:temporal>
-      <dc:PeriodOfTime>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description xml:lang="es">Este dataset pertenece al piloto Smartpivot que se trata de generar recomendaciones de riego basadas en sensores de humedad, Estaciones meteorológicas cercanas e imágenes satelitales de NDVI en la parcela circular perteneciente al CENCA.Este dataset incluye parámetros de pronósticos meteorológicos y ambientales, como precipitación, humedad relativa, temperatura, dirección y velocidad del viento, radiación solar, evapotranspiración, probabilidad de precipitación, cobertura de nubes, riesgo de heladas, déficit de presión de vapor y horas de enfriamiento, además de información de mantenimiento y referencias a parcelas agrícolas.</dct:description>
+    <dct:identifier>9590faa4-5b78-4ba9-ad62-6dccfcb512d9</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dct:temporal>
+      <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-14</dcat:startDate>
-      </dc:PeriodOfTime>
-    </dc:temporal>
+      </dct:PeriodOfTime>
+    </dct:temporal>
 
-    <dc:title xml:lang="es">Smart Pivot - Pronósticos meteorológicos y ambientales</dc:title>
+    <dct:title xml:lang="es">Smart Pivot - Pronósticos meteorológicos y ambientales</dct:title>
     <dcat:contactPoint>
       <vcard:Kind>
         <vcard:fn xml:lang="es">La Vega Innova</vcard:fn>
@@ -532,10 +532,10 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
 
     <dcat:distribution>
       <dcat:Distribution>
-        <dc:description xml:lang="es">Distribución de datos en formato CSV</dc:description>
-        <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dc:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
-        <dc:title xml:lang="es">agroweatherforecast_historic_join</dc:title>
+        <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:title xml:lang="es">agroweatherforecast_historic_join</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherforecast_historic_join.cda&amp;dataAccessId=crops_agroweatherforecast_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -549,21 +549,21 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/b2532ab2-1ad7-4ed7-909a-295f21b7d143">
-    <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dc:description xml:lang="es">Este dataset pertenece al Reto de Innovación Integración de la Norma UNE en Plataforma FIWARE. Incluye los datos históricos recibidos en la plataforma FIWARE de La Vega Innova desde el broker de la Norma UNE del CENTER situado en el CENCA.</dc:description>
-    <dc:identifier>b2532ab2-1ad7-4ed7-909a-295f21b7d143</dc:identifier>
-    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dc:issued>
-    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dc:modified>
-    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dc:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
-    <dc:temporal>
-      <dc:PeriodOfTime>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description xml:lang="es">Este dataset pertenece al Reto de Innovación Integración de la Norma UNE en Plataforma FIWARE. Incluye los datos históricos recibidos en la plataforma FIWARE de La Vega Innova desde el broker de la Norma UNE del CENTER situado en el CENCA.</dct:description>
+    <dct:identifier>b2532ab2-1ad7-4ed7-909a-295f21b7d143</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dct:temporal>
+      <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-11-25</dcat:startDate>
-      </dc:PeriodOfTime>
-    </dc:temporal>
+      </dct:PeriodOfTime>
+    </dct:temporal>
 
-    <dc:title xml:lang="es">Integración Norma  UNE 318.000 - Datos históricos</dc:title>
+    <dct:title xml:lang="es">Integración Norma  UNE 318.000 - Datos históricos</dct:title>
     <dcat:contactPoint>
       <vcard:Kind>
         <vcard:fn xml:lang="es">La Vega Innova</vcard:fn>
@@ -576,10 +576,10 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
 
     <dcat:distribution>
       <dcat:Distribution>
-        <dc:description xml:lang="es">Distribución de datos en formato CSV</dc:description>
-        <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dc:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
-        <dc:title xml:lang="es">irrigationune_lastdata</dc:title>
+        <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:title xml:lang="es">irrigationune_lastdata</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/irrigationune/sql/irrigationune_lastdata.cda&amp;dataAccessId=irrigationune_irrigationune_lastdata&amp;paramentityid=&amp;paramuneentitytype=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -593,21 +593,21 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/ceb48d59-1e5d-407d-bb43-b0c84b9e2438">
-    <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dc:description xml:lang="es">Este dataset pertenece al Agrolab Fertilización Inteligente que se trata de generar prescripciones de fertilizante basadas en estudios fisicoquimicos y de conductividad en varias de las parcelas perteneciente al CENCA. Este dataset incluye datos sobre los estudios fisicoquímicos del suelo incluyendo datos como nutrientes (nitrógeno, fósforo, potasio), propiedades físicas (conductividad eléctrica, pH, contenido orgánico) y texturales (arena, limo, arcilla), junto con información del lote, fecha de muestreo y referencias a parcelas agrícolas.</dc:description>
-    <dc:identifier>ceb48d59-1e5d-407d-bb43-b0c84b9e2438</dc:identifier>
-    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dc:issued>
-    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dc:modified>
-    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dc:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
-    <dc:temporal>
-      <dc:PeriodOfTime>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description xml:lang="es">Este dataset pertenece al Agrolab Fertilización Inteligente que se trata de generar prescripciones de fertilizante basadas en estudios fisicoquimicos y de conductividad en varias de las parcelas perteneciente al CENCA. Este dataset incluye datos sobre los estudios fisicoquímicos del suelo incluyendo datos como nutrientes (nitrógeno, fósforo, potasio), propiedades físicas (conductividad eléctrica, pH, contenido orgánico) y texturales (arena, limo, arcilla), junto con información del lote, fecha de muestreo y referencias a parcelas agrícolas.</dct:description>
+    <dct:identifier>ceb48d59-1e5d-407d-bb43-b0c84b9e2438</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dct:temporal>
+      <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-20</dcat:startDate>
-      </dc:PeriodOfTime>
-    </dc:temporal>
+      </dct:PeriodOfTime>
+    </dct:temporal>
 
-    <dc:title xml:lang="es">Fertilización Inteligente - Análisis fisicoquímicos del suelo</dc:title>
+    <dct:title xml:lang="es">Fertilización Inteligente - Análisis fisicoquímicos del suelo</dct:title>
     <dcat:contactPoint>
       <vcard:Kind>
         <vcard:fn xml:lang="es">La Vega Innova</vcard:fn>
@@ -620,10 +620,10 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
 
     <dcat:distribution>
       <dcat:Distribution>
-        <dc:description xml:lang="es">Distribución de datos en formato CSV</dc:description>
-        <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dc:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
-        <dc:title xml:lang="es">gridcellsampling_lastdata_batch</dc:title>
+        <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:title xml:lang="es">gridcellsampling_lastdata_batch</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellsampling_lastdata_batch.cda&amp;dataAccessId=fertilization_batch_gridcellsampling_lastdata&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -637,21 +637,21 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/da8e6f5e-3c8b-4672-ac98-709af0ae65ec">
-    <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dc:description xml:lang="es">Este dataset pertenece a un proyecto independiente de dispositivos que se encuentran instalados en la Finca Experimental de Rabanales de la Universidad de Córdoba. La tecnología de comunicación es LORAWAN. Este dataset contiene datos sobre las condiciones del suelo, incluyendo humedad, temperatura y conductividad eléctrica, junto con la profundidad de medición y detalles de la entidad, como su nombre, descripción y ruta de servicio. Datos cedidos a La Vega Innova por lua Universidad de Córdoba.</dc:description>
-    <dc:identifier>da8e6f5e-3c8b-4672-ac98-709af0ae65ec</dc:identifier>
-    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dc:issued>
-    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dc:modified>
-    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dc:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
-    <dc:temporal>
-      <dc:PeriodOfTime>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description xml:lang="es">Este dataset pertenece a un proyecto independiente de dispositivos que se encuentran instalados en la Finca Experimental de Rabanales de la Universidad de Córdoba. La tecnología de comunicación es LORAWAN. Este dataset contiene datos sobre las condiciones del suelo, incluyendo humedad, temperatura y conductividad eléctrica, junto con la profundidad de medición y detalles de la entidad, como su nombre, descripción y ruta de servicio. Datos cedidos a La Vega Innova por lua Universidad de Córdoba.</dct:description>
+    <dct:identifier>da8e6f5e-3c8b-4672-ac98-709af0ae65ec</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dct:temporal>
+      <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-11-25</dcat:startDate>
-      </dc:PeriodOfTime>
-    </dc:temporal>
+      </dct:PeriodOfTime>
+    </dct:temporal>
 
-    <dc:title xml:lang="es">Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Condiciones del suelo</dc:title>
+    <dct:title xml:lang="es">Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Condiciones del suelo</dct:title>
     <dcat:contactPoint>
       <vcard:Kind>
         <vcard:fn xml:lang="es">La Vega Innova</vcard:fn>
@@ -664,10 +664,10 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
 
     <dcat:distribution>
       <dcat:Distribution>
-        <dc:description xml:lang="es">Distribución de datos en formato CSV</dc:description>
-        <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dc:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
-        <dc:title xml:lang="es">soilobserved_historic_join</dc:title>
+        <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:title xml:lang="es">soilobserved_historic_join</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/soilobserved_historic_join.cda&amp;dataAccessId=agrosensors_soilobserved_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;paramuneentitytype=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
