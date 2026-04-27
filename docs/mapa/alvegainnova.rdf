@@ -1,12 +1,54 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:dcat="http://www.w3.org/ns/dcat#"
-         xmlns:dc="http://purl.org/dc/terms/"
-         xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-         xmlns:ns0="http://www.w3.org/ns/dcat-ap#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcatap="http://data.europa.eu/r5r/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:spdx="http://spdx.org/rdf/terms#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+  <dcat:Catalog rdf:about="https://desa-servicio.mapa.gob.es">
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA" />
+    </dct:language>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP" />
+    <dct:spatial>
+      <dct:Location rdf:nodeID="N8b20c8715b284acf831391ccd66f9b5d">
+        <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-9.3015 35.9468, 3.0395 35.9468, 3.0395 43.7483, -9.3015 43.7483, -9.3015 35.9468))</dcat:bbox>
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8150 40.5250)</dcat:centroid>
+        <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-9.3015 35.9468, 3.0395 35.9468, 3.0395 43.7483, -9.3015 43.7483, -9.3015 35.9468))</locn:Geometry>
+      </dct:Location>
+    </dct:spatial>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector" />
+    <foaf:homepage rdf:resource="https://desa-servicio.mapa.gob.es" />
+    <dct:license>
+      <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR" />
+      </rdf:Description>
+    </dct:license>
+    <dct:title xml:lang="es">La Vega Innova</dct:title>
+    <dct:description xml:lang="es">Catálogo de datos de La Vega Innova</dct:description>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-22T11:36:08+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-01T00:00:00+00:00</dct:issued>
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401">
+        <foaf:name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</foaf:name>
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" />
+        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401</dct:identifier>
+      </foaf:Agent>
+    </dct:publisher>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"><foaf:name xml:lang="en">Ministerio de Agricultura, Pesca y Alimentación</foaf:name><foaf:name xml:lang="es">S.G. Análisis, Coordinación y Estadística</foaf:name><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401</dct:identifier></foaf:Agent></dct:creator>
+    <dct:temporal>
+      <dct:PeriodOfTime rdf:nodeID="Ncf73e4f2211a4905a25749bda355dba2">
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-01-01T00:00:00+00:00</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2100-01-01T00:00:00+00:00</dcat:endDate>
+        <time:hasBeginning>
+          <time:Instant rdf:nodeID="Nd0294588dc494cd8a946746c8e3ede68">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-01-01T00:00:00+00:00</time:inXSDDateTime>
+          </time:Instant>
+        </time:hasBeginning>
+        <time:hasEnd>
+          <time:Instant rdf:nodeID="Nd091ed5a8d614d0788bb16df8272aecd">
+            <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2100-01-01T00:00:00+00:00</time:inXSDDateTime>
+          </time:Instant>
+        </time:hasEnd>
+      </dct:PeriodOfTime>
+    </dct:temporal>
 
-  <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/1da2aaa5-892b-4fe2-bca9-48e83c3fbcc9">
+<dcat:Dataset rdf:about="http://lavegainnova.es/dataset/1da2aaa5-892b-4fe2-bca9-48e83c3fbcc9">
     <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dc:description xml:lang="es">Este dataset pertenece a un proyecto independiente de dispositivos que se encuentran instalados en la Finca Experimental de Rabanales de la Universidad de Córdoba. Este dataset abarca datos meteorológicos y de condiciones ambientales, como humedad, temperatura, viento, radiación solar, y riesgo de heladas, además de información de batería y referencias a parcelas agrícolas. Datos cedidos a La Vega Innova por la Universidad de Córdoba.</dc:description>
     <dc:identifier>1da2aaa5-892b-4fe2-bca9-48e83c3fbcc9</dc:identifier>
@@ -624,11 +666,7 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
     <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-  </dcat:Dataset>
+  </dcat:Dataset>	
 
-  <skos:Concept rdf:about="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca">
-    <skos:inScheme rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
-    <skos:prefLabel xml:lang="es">Medio rural y pesca</skos:prefLabel>
-  </skos:Concept>
-
-</rdf:RDF>
+  </dcat:Catalog>
+  </rdf:RDF>
