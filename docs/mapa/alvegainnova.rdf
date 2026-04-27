@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcatap="http://data.europa.eu/r5r/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:spdx="http://spdx.org/rdf/terms#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
-  <dcat:Catalog rdf:about="https://desa-servicio.mapa.gob.es">
+<rdf:RDF 
+xmlns:adms="http://www.w3.org/ns/adms#" 
+xmlns:dcat="http://www.w3.org/ns/dcat#" 
+xmlns:dcatap="http://data.europa.eu/r5r/" 
+xmlns:dct="http://purl.org/dc/terms/" 
+xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+xmlns:locn="http://www.w3.org/ns/locn#" 
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
+xmlns:spdx="http://spdx.org/rdf/terms#" 
+xmlns:time="http://www.w3.org/2006/time#"
+ xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+  <dcat:Catalog rdf:about="https://opendata.lavegainnova.es/">
     <dct:language>
       <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA" />
     </dct:language>
@@ -13,7 +24,7 @@
       </dct:Location>
     </dct:spatial>
     <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector" />
-    <foaf:homepage rdf:resource="https://desa-servicio.mapa.gob.es" />
+    <foaf:homepage rdf:resource="https://opendata.lavegainnova.es/" />
     <dct:license>
       <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
         <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR" />
@@ -25,12 +36,13 @@
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-01T00:00:00+00:00</dct:issued>
     <dct:publisher>
       <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401">
+        <foaf:name xml:lang="en">Ministerio de Agricultura, Pesca y Alimentación</foaf:name>
         <foaf:name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</foaf:name>
         <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" />
         <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401</dct:identifier>
       </foaf:Agent>
     </dct:publisher>
-    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"><foaf:name xml:lang="en">Ministerio de Agricultura, Pesca y Alimentación</foaf:name><foaf:name xml:lang="es">S.G. Análisis, Coordinación y Estadística</foaf:name><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401</dct:identifier></foaf:Agent></dct:creator>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"><foaf:name xml:lang="en">Ministerio de Agricultura, Pesca y Alimentación</foaf:name><foaf:name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</foaf:name><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401</dct:identifier></foaf:Agent></dct:creator>
     <dct:temporal>
       <dct:PeriodOfTime rdf:nodeID="Ncf73e4f2211a4905a25749bda355dba2">
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-01-01T00:00:00+00:00</dcat:startDate>
@@ -47,7 +59,7 @@
         </time:hasEnd>
       </dct:PeriodOfTime>
     </dct:temporal>
-
+	<dcat:dataset>
 <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/1da2aaa5-892b-4fe2-bca9-48e83c3fbcc9">
     <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dc:description xml:lang="es">Este dataset pertenece a un proyecto independiente de dispositivos que se encuentran instalados en la Finca Experimental de Rabanales de la Universidad de Córdoba. Este dataset abarca datos meteorológicos y de condiciones ambientales, como humedad, temperatura, viento, radiación solar, y riesgo de heladas, además de información de batería y referencias a parcelas agrícolas. Datos cedidos a La Vega Innova por la Universidad de Córdoba.</dc:description>
@@ -82,14 +94,14 @@
         <dc:title xml:lang="es">agroweatherobserved_historic_join</dc:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/agroweatherobserved_historic_join.cda&amp;dataAccessId=agrosensors_agroweatherobserved_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;paramuneentitytype=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
-        <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
         <ns0:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
       </dcat:Distribution>
     </dcat:distribution>
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/2a4f788d-49f4-402d-8acc-9600ab7c0fec">
@@ -126,14 +138,14 @@
         <dc:title xml:lang="es">irrigationoperation_historic_join</dc:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationoperation_historic_join.cda&amp;dataAccessId=crops_irrigationoperation_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
-        <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
         <ns0:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
       </dcat:Distribution>
     </dcat:distribution>
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/2d0e29f2-8f86-49b5-b21f-7114a5c832d0">
@@ -170,14 +182,14 @@
         <dc:title xml:lang="es">agroweatherobserved_historic_join</dc:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherobserved_historic_join.cda&amp;dataAccessId=crops_agroweatherobserved_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
-        <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
         <ns0:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
       </dcat:Distribution>
     </dcat:distribution>
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/3422e507-6394-4235-9cf4-187cb04ddf31">
@@ -214,14 +226,14 @@
         <dc:title xml:lang="es">gridcellprescription_lastdata_batch</dc:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellprescription_lastdata_batch.cda&amp;dataAccessId=fertilization_batch_gridcellprescription_lastdata&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
-        <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
         <ns0:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
       </dcat:Distribution>
     </dcat:distribution>
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/3e0313e1-bac8-4d5e-aa02-35f37d33907e">
@@ -258,14 +270,14 @@
         <dc:title xml:lang="es">agriparcel_historic_join</dc:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agriparcel_historic_join.cda&amp;dataAccessId=crops_agriparcel_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
-        <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
         <ns0:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
       </dcat:Distribution>
     </dcat:distribution>
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/402c32a8-1278-4b69-8cee-ace354948d1c">
@@ -304,14 +316,14 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
         <dc:title xml:lang="es">Distribución CSV</dc:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationrecommendation_historic_join.cda&amp;dataAccessId=crops_irrigationrecommendation_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
-        <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
         <ns0:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
       </dcat:Distribution>
     </dcat:distribution>
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/5fdc8cc9-a042-410f-85e3-66ec3615c9f3">
@@ -348,14 +360,14 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
         <dc:title xml:lang="es">harvest_historic</dc:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=public/ihub_mapa/verticals/harvests/sql/harvest_historic_mutable.cda&amp;dataAccessId=harvest_harvest_mutable&amp;paramentityid=&amp;paramstart=2020-01-01%2000%3A00%3A00&amp;paramfinish=2027-01-31%2023%3A59%3A59&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
-        <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
         <ns0:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
       </dcat:Distribution>
     </dcat:distribution>
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/61666b49-c102-4ee7-8878-84bc047f2243">
@@ -394,14 +406,14 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
         <dc:title xml:lang="es">irrigationpivot_historic_join</dc:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationpivot_historic_join.cda&amp;dataAccessId=crops_irrigationpivot_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
-        <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
         <ns0:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
       </dcat:Distribution>
     </dcat:distribution>
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/6940281b-e8f6-449e-b7d8-0c51b9d5db7d">
@@ -438,14 +450,14 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
         <dc:title xml:lang="es">animal_historic_join</dc:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/virtualenclosures/sql/animal_historic_join.cda&amp;dataAccessId=virtualenclosures_animal_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
-        <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
         <ns0:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
       </dcat:Distribution>
     </dcat:distribution>
 
     <dcat:keyword xml:lang="es">ganadería</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/7bc1d2c8-bb52-4af0-ab01-9fab31d52ac3">
@@ -482,14 +494,14 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
         <dc:title xml:lang="es">thrsensor_historic_join</dc:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/thrsensor_historic_join.cda&amp;dataAccessId=agrosensors_thrsensor_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;paramuneentitytype=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
-        <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
         <ns0:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
       </dcat:Distribution>
     </dcat:distribution>
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/9590faa4-5b78-4ba9-ad62-6dccfcb512d9">
@@ -526,14 +538,14 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
         <dc:title xml:lang="es">agroweatherforecast_historic_join</dc:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherforecast_historic_join.cda&amp;dataAccessId=crops_agroweatherforecast_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
-        <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
         <ns0:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
       </dcat:Distribution>
     </dcat:distribution>
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/b2532ab2-1ad7-4ed7-909a-295f21b7d143">
@@ -570,14 +582,14 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
         <dc:title xml:lang="es">irrigationune_lastdata</dc:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/irrigationune/sql/irrigationune_lastdata.cda&amp;dataAccessId=irrigationune_irrigationune_lastdata&amp;paramentityid=&amp;paramuneentitytype=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
-        <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
         <ns0:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
       </dcat:Distribution>
     </dcat:distribution>
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/ceb48d59-1e5d-407d-bb43-b0c84b9e2438">
@@ -614,14 +626,14 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
         <dc:title xml:lang="es">gridcellsampling_lastdata_batch</dc:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellsampling_lastdata_batch.cda&amp;dataAccessId=fertilization_batch_gridcellsampling_lastdata&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
-        <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
         <ns0:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
       </dcat:Distribution>
     </dcat:distribution>
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="http://lavegainnova.es/dataset/da8e6f5e-3c8b-4672-ac98-709af0ae65ec">
@@ -658,15 +670,15 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
         <dc:title xml:lang="es">soilobserved_historic_join</dc:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/soilobserved_historic_join.cda&amp;dataAccessId=agrosensors_soilobserved_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;paramuneentitytype=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
-        <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
         <ns0:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
       </dcat:Distribution>
     </dcat:distribution>
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <ns0:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>	
-
+</dcat:dataset>
   </dcat:Catalog>
   </rdf:RDF>
