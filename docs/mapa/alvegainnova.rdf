@@ -68,7 +68,7 @@ xmlns:time="http://www.w3.org/2006/time#"
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
     <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
-	<dcatap:applicableLegislation rdf:resource="https://eur-lex.europa.eu/eli/reg_impl/2023/2745v"/>
+	<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/2745/oj"/>
 	<dct:temporal>
       <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
