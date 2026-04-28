@@ -67,7 +67,6 @@ xmlns:time="http://www.w3.org/2006/time#"
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
     <dct:temporal>
       <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
@@ -90,12 +89,12 @@ xmlns:time="http://www.w3.org/2006/time#"
       <dcat:Distribution>
         <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
         <dct:title xml:lang="es">agroweatherobserved_historic_join</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/agroweatherobserved_historic_join.cda&amp;dataAccessId=agrosensors_agroweatherobserved_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;paramuneentitytype=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-        <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
       </dcat:Distribution>
     </dcat:distribution>
 
@@ -113,7 +112,6 @@ xmlns:time="http://www.w3.org/2006/time#"
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
     <dct:temporal>
       <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
@@ -136,12 +134,12 @@ xmlns:time="http://www.w3.org/2006/time#"
       <dcat:Distribution>
         <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
         <dct:title xml:lang="es">irrigationoperation_historic_join</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationoperation_historic_join.cda&amp;dataAccessId=crops_irrigationoperation_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-        <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
       </dcat:Distribution>
     </dcat:distribution>
 
@@ -159,7 +157,6 @@ xmlns:time="http://www.w3.org/2006/time#"
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
     <dct:temporal>
       <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
@@ -182,12 +179,12 @@ xmlns:time="http://www.w3.org/2006/time#"
       <dcat:Distribution>
         <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
         <dct:title xml:lang="es">agroweatherobserved_historic_join</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherobserved_historic_join.cda&amp;dataAccessId=crops_agroweatherobserved_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-        <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
       </dcat:Distribution>
     </dcat:distribution>
 
@@ -205,7 +202,6 @@ xmlns:time="http://www.w3.org/2006/time#"
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
     <dct:temporal>
       <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
@@ -228,12 +224,12 @@ xmlns:time="http://www.w3.org/2006/time#"
       <dcat:Distribution>
         <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
         <dct:title xml:lang="es">gridcellprescription_lastdata_batch</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellprescription_lastdata_batch.cda&amp;dataAccessId=fertilization_batch_gridcellprescription_lastdata&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-        <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
       </dcat:Distribution>
     </dcat:distribution>
 
@@ -251,7 +247,6 @@ xmlns:time="http://www.w3.org/2006/time#"
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
     <dct:temporal>
       <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
@@ -274,12 +269,12 @@ xmlns:time="http://www.w3.org/2006/time#"
       <dcat:Distribution>
         <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
-        <dct:title xml:lang="es">agriparcel_historic_join</dct:title>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+		<dct:title xml:lang="es">agriparcel_historic_join</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agriparcel_historic_join.cda&amp;dataAccessId=crops_agriparcel_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-        <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
       </dcat:Distribution>
     </dcat:distribution>
 
@@ -299,7 +294,6 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
     <dct:temporal>
       <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
@@ -322,12 +316,12 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
       <dcat:Distribution>
         <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
         <dct:title xml:lang="es">Distribución CSV</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationrecommendation_historic_join.cda&amp;dataAccessId=crops_irrigationrecommendation_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-        <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
       </dcat:Distribution>
     </dcat:distribution>
 
@@ -345,7 +339,6 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-20</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-12</dct:modified>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
     <dct:temporal>
       <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
@@ -368,12 +361,12 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
       <dcat:Distribution>
         <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
         <dct:title xml:lang="es">harvest_historic</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=public/ihub_mapa/verticals/harvests/sql/harvest_historic_mutable.cda&amp;dataAccessId=harvest_harvest_mutable&amp;paramentityid=&amp;paramstart=2020-01-01%2000%3A00%3A00&amp;paramfinish=2027-01-31%2023%3A59%3A59&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-        <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
       </dcat:Distribution>
     </dcat:distribution>
 
@@ -393,7 +386,6 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
     <dct:temporal>
       <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
@@ -416,12 +408,12 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
       <dcat:Distribution>
         <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
         <dct:title xml:lang="es">irrigationpivot_historic_join</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/irrigationpivot_historic_join.cda&amp;dataAccessId=crops_irrigationpivot_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-        <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
       </dcat:Distribution>
     </dcat:distribution>
 
@@ -439,7 +431,6 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-30</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
     <dct:temporal>
       <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-31</dcat:endDate>
@@ -462,12 +453,12 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
       <dcat:Distribution>
         <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
         <dct:title xml:lang="es">animal_historic_join</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/virtualenclosures/sql/animal_historic_join.cda&amp;dataAccessId=virtualenclosures_animal_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-        <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
       </dcat:Distribution>
     </dcat:distribution>
 
@@ -485,7 +476,6 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-24</dct:modified>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
     <dct:temporal>
       <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
@@ -508,12 +498,12 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
       <dcat:Distribution>
         <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
         <dct:title xml:lang="es">thrsensor_historic_join</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/thrsensor_historic_join.cda&amp;dataAccessId=agrosensors_thrsensor_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;paramuneentitytype=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-        <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
       </dcat:Distribution>
     </dcat:distribution>
 
@@ -531,7 +521,6 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
     <dct:temporal>
       <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
@@ -554,12 +543,12 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
       <dcat:Distribution>
         <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
         <dct:title xml:lang="es">agroweatherforecast_historic_join</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/crops/sql/agroweatherforecast_historic_join.cda&amp;dataAccessId=crops_agroweatherforecast_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-        <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
       </dcat:Distribution>
     </dcat:distribution>
 
@@ -577,7 +566,6 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
     <dct:temporal>
       <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
@@ -600,12 +588,12 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
       <dcat:Distribution>
         <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
         <dct:title xml:lang="es">irrigationune_lastdata</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/irrigationune/sql/irrigationune_lastdata.cda&amp;dataAccessId=irrigationune_irrigationune_lastdata&amp;paramentityid=&amp;paramuneentitytype=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-        <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
       </dcat:Distribution>
     </dcat:distribution>
 
@@ -623,7 +611,6 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
     <dct:temporal>
       <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
@@ -646,12 +633,12 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
       <dcat:Distribution>
         <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
         <dct:title xml:lang="es">gridcellsampling_lastdata_batch</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/fetilization/sql/gridcellsampling_lastdata_batch.cda&amp;dataAccessId=fertilization_batch_gridcellsampling_lastdata&amp;paramentityid=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-        <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
       </dcat:Distribution>
     </dcat:distribution>
 
@@ -669,7 +656,6 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
-    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
     <dct:temporal>
       <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
@@ -692,13 +678,13 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
       <dcat:Distribution>
         <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-        <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
         <dct:title xml:lang="es">soilobserved_historic_join</dct:title>
         <dcat:accessURL rdf:resource="https://bi.iotplatform.telefonica.com/pentaho/plugin/cda/api/doQuery?path=/public/ihub_mapa/verticals/agrosensors/sql/soilobserved_historic_join.cda&amp;dataAccessId=agrosensors_soilobserved_historic_join&amp;paramstart=&amp;paramfinish=&amp;paramentityid=&amp;paramuneentitytype=&amp;_TRUST_USER_=opendata_ihub_mapa&amp;outputType=csv"/>
         <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-        <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
-      </dcat:Distribution>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+	  </dcat:Distribution>
     </dcat:distribution>
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
