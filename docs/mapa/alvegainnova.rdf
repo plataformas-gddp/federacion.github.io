@@ -67,6 +67,7 @@ xmlns:time="http://www.w3.org/2006/time#"
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-01</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</dct:modified>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"/>
+	<dc:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
     <dct:temporal>
       <dct:PeriodOfTime>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcat:endDate>
@@ -86,7 +87,6 @@ xmlns:time="http://www.w3.org/2006/time#"
         <vcard:organization_name xml:lang="es">La Vega Innova</vcard:organization_name>
       </vcard:Kind>
     </dcat:contactPoint>
-
     <dcat:distribution>
       <dcat:Distribution>
         <dct:description xml:lang="es">Distribución de datos en formato CSV</dct:description>
@@ -101,6 +101,5 @@ xmlns:time="http://www.w3.org/2006/time#"
     </dcat:distribution>
   </dcat:Dataset>
   </dcat:dataset>
-  
   </dcat:Catalog>
   </rdf:RDF>
