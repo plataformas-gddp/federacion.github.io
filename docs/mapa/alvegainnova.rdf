@@ -76,7 +76,6 @@ xmlns:time="http://www.w3.org/2006/time#"
     </dct:temporal>
 	<dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
     <dct:title xml:lang="es">Datos ambientales y del suelo en Finca Experimental de Rabanales UCO - Datos meteorológicos</dct:title>
     <dcat:contactPoint>
       <vcard:Kind>
@@ -119,7 +118,6 @@ xmlns:time="http://www.w3.org/2006/time#"
     </dct:temporal>
 	<dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
     <dct:title xml:lang="es">Smart Pivot - Datos de riego y consumo de agua</dct:title>
     <dcat:contactPoint>
       <vcard:Kind>
@@ -186,7 +184,6 @@ xmlns:time="http://www.w3.org/2006/time#"
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
   </dcat:dataset>
   
@@ -231,7 +228,6 @@ xmlns:time="http://www.w3.org/2006/time#"
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
   </dcat:dataset>
   
@@ -276,7 +272,6 @@ xmlns:time="http://www.w3.org/2006/time#"
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
   </dcat:dataset>
   
@@ -323,7 +318,6 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
   </dcat:dataset>
   
@@ -368,7 +362,6 @@ Este dataset abarca parámetros relacionados con las recomendaciónes futuras in
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
   </dcat:dataset>
   
@@ -415,7 +408,6 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
   </dcat:dataset>
   
@@ -460,7 +452,6 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
 
     <dcat:keyword xml:lang="es">ganadería</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
   </dcat:dataset>
   
@@ -505,7 +496,6 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
   </dcat:dataset>
   
@@ -550,7 +540,6 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
   </dcat:dataset>
   
@@ -595,7 +584,6 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
   </dcat:dataset>
   
@@ -640,7 +628,6 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>
   </dcat:dataset>
   
@@ -685,7 +672,6 @@ Este esquema abarca parámetros del pivot, incluyendo presión, posición, tiemp
 
     <dcat:keyword xml:lang="es">agricultura</dcat:keyword>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
-    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Dataset>	
 
 </dcat:dataset>
