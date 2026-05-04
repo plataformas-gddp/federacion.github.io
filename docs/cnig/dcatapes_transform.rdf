@@ -5563,7 +5563,7 @@ Southern Extremadura: February 2026</dct:description>
             <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON((-19.00 27.60, 4.30 27.60, 4.30 44.00, -19.00 44.00, -19.00 27.60))</dcat:bbox>
           </dct:Location>
         </dct:spatial>
-        <dct:title xml:lang="es">Sistema de Información de Ocupación del Suelo en España de Alta Resolución (SIOSE AR), 2016-2018</dct:title>
+
         <dct:title xml:lang="en">High Resolution Land Cover and Land Use Information System of Spain (HR SIOSE), 2016-2018</dct:title>
         <dct:type rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset"/>
         <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
