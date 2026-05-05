@@ -2012,7 +2012,14 @@
         <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
         <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
         <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES"/>
-        <dct:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
+        <dct:creator>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901">
+            <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901</dct:identifier>
+            <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
+            <foaf:name xml:lang="es">Instituto Geográfico Nacional</foaf:name>
+            <foaf:name xml:lang="en">National Geographic Institute</foaf:name>
+          </foaf:Agent>
+        </dct:creator>
         <dct:description xml:lang="es">Recintos municipales, provinciales y autonómicos y líneas límite municipales, provinciales y autonómicas inscritos en el Registro Central de Cartografía (RCC)(https://www.ign.es/web/ign/portal/rcc-area-rcc). La geometría inscrita en el RCC responde a la interpretación de los títulos jurídicos inscritos en el RCC: actas de línea límite, resoluciones administrativas, sentencias judiciales, etc. Algunas líneas o tramos de líneas pueden ser "provisionales", es decir, que carecen de título jurídico que avale su geometría y por tanto su representación en la cartografía solo obedece a la necesidad topológica del cierre de polígonos municipales.
                   El Real Decreto 1545/2007, de 23 de noviembre, por el que se regula el Sistema Cartográfico Nacional establece entre las funciones del RCC las de inscribir la cartografía oficial, las delimitaciones territoriales y sus variaciones, y recopilar, normalizar y difundir la toponimia oficial. El artículo 20 de este Real Decreto señala que las líneas límite municipales, los límites de las provincias y las delimitaciones de los territorios de las comunidades autónomas son parte de las Delimitaciones Territoriales y por tanto, deben inscribirse en el Registro Central de Cartografía. Asimismo, el artículo 4.1 del mencionado Real Decreto establece que «toda la producción de información geográfica y cartografía oficiales se realizará a partir del Equipamiento Geográfico de Referencia Nacional, que estará integrado por (…); por las Delimitaciones Territoriales inscritas en el Registro Central de Cartografía (...)», es decir, las delimitaciones territoriales usadas en la cartografía oficial deberán ser las inscritas en el RCC.                
                   Hay que señalar que, con carácter general, la geometría con la que figura inscrita cada línea en el RCC tiene una incertidumbre geométrica en torno a 40 metros, según la experiencia y contrastación con trabajos puntuales precisos realizados por el Instituto Geográfico en numerosas líneas límite. Esto es consecuencia de las imprecisiones propias de los métodos e instrumentos topográficos utilizados en su día por el Instituto Geográfico para su levantamiento y posterior trazado sobre el Mapa Topográfico Nacional, a las que hay que añadir las de los procesos de digitalización de dichas líneas límite sobre cartografía impresa, llevados a cabo años después para obtener su versión digital. La excepción a lo anterior son aquellas líneas en las que se han desarrollado una serie de trabajos técnicos y administrativos exigidos por la normativa estatal o autonómica vigente para el deslinde de los términos municipales, lo que ha permitido la inscripción de una geometría más precisa.</dct:description>
@@ -3241,7 +3248,14 @@
         <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
         <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
         <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES"/>
-        <dct:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
+        <dct:creator>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901">
+            <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901</dct:identifier>
+            <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
+            <foaf:name xml:lang="es">Instituto Geográfico Nacional</foaf:name>
+            <foaf:name xml:lang="en">National Geographic Institute</foaf:name>
+          </foaf:Agent>
+        </dct:creator>
         <dct:description xml:lang="es">Base de datos con la relación de topónimos con sus correspondientes coordenadas y resto de atributos procedentes de la depuración de los topónimos previamente extraídos de la BTN.</dct:description>
         <dct:description xml:lang="en">Database with the list of geographical names with their corresponding coordinates and other attributes from the debugging of the toponyms previously extracted from the projects BTN, and which constitutes the Basic Gazetteer of Spain, called NGBE.</dct:description>
         <dct:identifier>spaignNGBE</dct:identifier>
@@ -6986,6 +7000,5 @@ Cartagena: November 2025</dct:description>
     <foaf:homepage rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/home"/>
   </dcat:Catalog>
 </rdf:RDF>
-
 
 
