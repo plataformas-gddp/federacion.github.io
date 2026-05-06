@@ -98,6 +98,12 @@
       ],
       "dcat:dataset": [
         {
+          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Folletos_PDF"
+        },
+        {
+          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Documentos_Citados"
+        },
+        {
           "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Authority_File"
         },
         {
@@ -110,16 +116,10 @@
           "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Texto_Completo"
         },
         {
-          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Folletos_PDF"
-        },
-        {
           "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Datos_Legales"
         },
         {
           "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.CPC"
-        },
-        {
-          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Documentos_Citados"
         },
         {
           "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Documentos_Citados_ECLA"
@@ -131,6 +131,960 @@
           "@value": "conforme-DCAT-AP-ES"
         }
       ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Folletos_PDF",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Oficina Española de Patentes y Marcas",
+              "@language": "es"
+            },
+            {
+              "@value": "Spanish Patent and Trademark Office",
+              "@language": "en"
+            }
+          ]
+        }
+      ],
+      "dct:title": [
+        {
+          "@value": "Folletos en formato PDF",
+          "@language": "es"
+        },
+        {
+          "@value": "Pamphlets in PDF format",
+          "@language": "en"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Oficina Española de Patentes y Marcas",
+              "@language": "es"
+            },
+            {
+              "@value": "Spanish Patent and Trademark Office",
+              "@language": "en"
+            }
+          ]
+        }
+      ],
+      "dct:description": [
+        {
+          "@value": "Ficheros de descarga con publicaciones diarias de folletos en el año en curso y el anterior. Para años anteriores al año pasado, los ficheros se agrupan en un único fichero por año.",
+          "@language": "es"
+        },
+        {
+          "@value": "Download files containing daily publications of brochures for the current year and the previous year. For years prior to the previous year, files are grouped into a single file per year.",
+          "@language": "en"
+        }
+      ],
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "1987-06-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-04-15T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
+      },
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "foaf:page": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/BIWEEKLY"
+      },
+      "dct:conformsTo": {
+        "@id": "https://www.wipo.int/es/web/standards/part_03_standards"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/rd/2011/10/24/1495"
+      },
+      "dcat:landingPage": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/folletos/"
+      },
+      "dct:provenance": [
+        {
+          "@id": "Datos generados a partir de los registros oficiales de Propiedad Industrial de la Oficina Española de Patentes y Marcas."
+        },
+        {
+          "@id": "Data generated from the official Industrial Property registers of the Spanish Patent and Trademark Office."
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "patentes",
+          "@language": "es"
+        },
+        {
+          "@value": "modelos de utilidad",
+          "@language": "es"
+        },
+        {
+          "@value": "catálogo de invenciones",
+          "@language": "es"
+        },
+        {
+          "@value": "folletos de patentes",
+          "@language": "es"
+        },
+        {
+          "@value": "documentos PDF",
+          "@language": "es"
+        },
+        {
+          "@value": "publicaciones oficiales",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "1987-06-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Oficina Española de Patentes y Marcas",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "mailto:informacion@oepm.es"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Punto de contacto OEPM - Servicios de Datos",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:informacion@oepm.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:910780780"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://sede.oepm.gob.es/eSede/datos/es/contacto/"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/04/15/FULLTEXT_PDF_20260409.zip"
+        },
+        {
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/04/15/FULLTEXT_PDF_20260410.zip"
+        },
+        {
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/04/15/FULLTEXT_PDF_20260413.zip"
+        },
+        {
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/04/15/FULLTEXT_PDF_20260414.zip"
+        },
+        {
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/04/15/FULLTEXT_PDF_20260415.zip"
+        }
+      ],
+      "impulsadata:validationStatus": [
+        {
+          "@language": "es",
+          "@value": "conforme-DCAT-AP-ES"
+        }
+      ]
+    },
+    {
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/04/15/FULLTEXT_PDF_20260409.zip",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Folletos en formato PDF (Recurso ZIP) (2026-04-09)",
+          "@language": "es"
+        },
+        {
+          "@value": "Pamphlets in PDF format (ZIP Resource) (2026-04-09)",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/folletos/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Folletos en formato PDF de la OEPM en formato comprimido ZIP.",
+          "@language": "es"
+        },
+        {
+          "@value": "OEPM Pamphlets in PDF format in compressed ZIP format.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/04/15/FULLTEXT_PDF_20260409.zip"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
+      }
+    },
+    {
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/04/15/FULLTEXT_PDF_20260410.zip",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Folletos en formato PDF (Recurso ZIP) (2026-04-10)",
+          "@language": "es"
+        },
+        {
+          "@value": "Pamphlets in PDF format (ZIP Resource) (2026-04-10)",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/folletos/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Folletos en formato PDF de la OEPM en formato comprimido ZIP.",
+          "@language": "es"
+        },
+        {
+          "@value": "OEPM Pamphlets in PDF format in compressed ZIP format.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/04/15/FULLTEXT_PDF_20260410.zip"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
+      }
+    },
+    {
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/04/15/FULLTEXT_PDF_20260413.zip",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Folletos en formato PDF (Recurso ZIP) (2026-04-13)",
+          "@language": "es"
+        },
+        {
+          "@value": "Pamphlets in PDF format (ZIP Resource) (2026-04-13)",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/folletos/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Folletos en formato PDF de la OEPM en formato comprimido ZIP.",
+          "@language": "es"
+        },
+        {
+          "@value": "OEPM Pamphlets in PDF format in compressed ZIP format.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/04/15/FULLTEXT_PDF_20260413.zip"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
+      }
+    },
+    {
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/04/15/FULLTEXT_PDF_20260414.zip",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Folletos en formato PDF (Recurso ZIP) (2026-04-14)",
+          "@language": "es"
+        },
+        {
+          "@value": "Pamphlets in PDF format (ZIP Resource) (2026-04-14)",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/folletos/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Folletos en formato PDF de la OEPM en formato comprimido ZIP.",
+          "@language": "es"
+        },
+        {
+          "@value": "OEPM Pamphlets in PDF format in compressed ZIP format.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/04/15/FULLTEXT_PDF_20260414.zip"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
+      }
+    },
+    {
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/04/15/FULLTEXT_PDF_20260415.zip",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Folletos en formato PDF (Recurso ZIP) (2026-04-15)",
+          "@language": "es"
+        },
+        {
+          "@value": "Pamphlets in PDF format (ZIP Resource) (2026-04-15)",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/folletos/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Folletos en formato PDF de la OEPM en formato comprimido ZIP.",
+          "@language": "es"
+        },
+        {
+          "@value": "OEPM Pamphlets in PDF format in compressed ZIP format.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/04/15/FULLTEXT_PDF_20260415.zip"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Documentos_Citados",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Oficina Española de Patentes y Marcas",
+              "@language": "es"
+            },
+            {
+              "@value": "Spanish Patent and Trademark Office",
+              "@language": "en"
+            }
+          ]
+        }
+      ],
+      "dct:title": [
+        {
+          "@value": "Datos en Documentos Citados",
+          "@language": "es"
+        },
+        {
+          "@value": "Data in Cited Documents",
+          "@language": "en"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Oficina Española de Patentes y Marcas",
+              "@language": "es"
+            },
+            {
+              "@value": "Spanish Patent and Trademark Office",
+              "@language": "en"
+            }
+          ]
+        }
+      ],
+      "dct:description": [
+        {
+          "@value": "Ficheros de descarga semanales y mensuales para el año en curso. Para años anteriores al año en curso, los ficheros se agrupan en un único fichero por año.",
+          "@language": "es"
+        },
+        {
+          "@value": "Weekly and monthly download files for the current year. For years prior to the current year, files are grouped into a single file per year.",
+          "@language": "en"
+        }
+      ],
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2013-10-06T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-05-03T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
+      },
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "foaf:page": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/WEEKLY"
+      },
+      "dct:conformsTo": {
+        "@id": "https://www.wipo.int/es/web/standards/part_03_standards"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/rd/2011/10/24/1495"
+      },
+      "dcat:landingPage": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones/"
+      },
+      "dct:provenance": [
+        {
+          "@id": "Datos generados a partir de los registros oficiales de Propiedad Industrial de la Oficina Española de Patentes y Marcas."
+        },
+        {
+          "@id": "Data generated from the official Industrial Property registers of the Spanish Patent and Trademark Office."
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "patentes",
+          "@language": "es"
+        },
+        {
+          "@value": "modelos de utilidad",
+          "@language": "es"
+        },
+        {
+          "@value": "catálogo de invenciones",
+          "@language": "es"
+        },
+        {
+          "@value": "documentos citados",
+          "@language": "es"
+        },
+        {
+          "@value": "referencias de patentes",
+          "@language": "es"
+        },
+        {
+          "@value": "estado de la técnica",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2013-10-06T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Oficina Española de Patentes y Marcas",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "mailto:informacion@oepm.es"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Punto de contacto OEPM - Servicios de Datos",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:informacion@oepm.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:910780780"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://sede.oepm.gob.es/eSede/datos/es/contacto/"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/05/03/ES20260405_Citaciones.zip"
+        },
+        {
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/05/03/ES20260412_Citaciones.zip"
+        },
+        {
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/05/03/ES20260419_Citaciones.zip"
+        },
+        {
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/05/03/ES20260426_Citaciones.zip"
+        },
+        {
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/05/03/ES20260503_Citaciones.zip"
+        }
+      ],
+      "impulsadata:validationStatus": [
+        {
+          "@language": "es",
+          "@value": "conforme-DCAT-AP-ES"
+        }
+      ]
+    },
+    {
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/05/03/ES20260405_Citaciones.zip",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Datos en Documentos Citados (Recurso ZIP) (2026-04-05)",
+          "@language": "es"
+        },
+        {
+          "@value": "Data in Cited Documents (ZIP Resource) (2026-04-05)",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Datos de Documentos Citados de la OEPM en formato comprimido ZIP.",
+          "@language": "es"
+        },
+        {
+          "@value": "OEPM Authority File inventory in compressed ZIP format.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/05/03/ES20260405_Citaciones.zip"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
+      }
+    },
+    {
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/05/03/ES20260412_Citaciones.zip",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Datos en Documentos Citados (Recurso ZIP) (2026-04-12)",
+          "@language": "es"
+        },
+        {
+          "@value": "Data in Cited Documents (ZIP Resource) (2026-04-12)",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Datos de Documentos Citados de la OEPM en formato comprimido ZIP.",
+          "@language": "es"
+        },
+        {
+          "@value": "OEPM Authority File inventory in compressed ZIP format.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/05/03/ES20260412_Citaciones.zip"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
+      }
+    },
+    {
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/05/03/ES20260419_Citaciones.zip",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Datos en Documentos Citados (Recurso ZIP) (2026-04-19)",
+          "@language": "es"
+        },
+        {
+          "@value": "Data in Cited Documents (ZIP Resource) (2026-04-19)",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Datos de Documentos Citados de la OEPM en formato comprimido ZIP.",
+          "@language": "es"
+        },
+        {
+          "@value": "OEPM Authority File inventory in compressed ZIP format.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/05/03/ES20260419_Citaciones.zip"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
+      }
+    },
+    {
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/05/03/ES20260426_Citaciones.zip",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Datos en Documentos Citados (Recurso ZIP) (2026-04-26)",
+          "@language": "es"
+        },
+        {
+          "@value": "Data in Cited Documents (ZIP Resource) (2026-04-26)",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Datos de Documentos Citados de la OEPM en formato comprimido ZIP.",
+          "@language": "es"
+        },
+        {
+          "@value": "OEPM Authority File inventory in compressed ZIP format.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/05/03/ES20260426_Citaciones.zip"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
+      }
+    },
+    {
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/05/03/ES20260503_Citaciones.zip",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Datos en Documentos Citados (Recurso ZIP) (2026-05-03)",
+          "@language": "es"
+        },
+        {
+          "@value": "Data in Cited Documents (ZIP Resource) (2026-05-03)",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Datos de Documentos Citados de la OEPM en formato comprimido ZIP.",
+          "@language": "es"
+        },
+        {
+          "@value": "OEPM Authority File inventory in compressed ZIP format.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/05/03/ES20260503_Citaciones.zip"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
+      }
     },
     {
       "@type": "dcat:Dataset",
@@ -205,7 +1159,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-03-31T00:00:00+01:00",
+          "@value": "2026-04-01T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -275,38 +1229,6 @@
         {
           "@value": "metadatos",
           "@language": "es"
-        },
-        {
-          "@value": "authority file",
-          "@language": "es"
-        },
-        {
-          "@value": "inventions catalogue",
-          "@language": "es"
-        },
-        {
-          "@value": "patents",
-          "@language": "es"
-        },
-        {
-          "@value": "utility models",
-          "@language": "es"
-        },
-        {
-          "@value": "inventors",
-          "@language": "es"
-        },
-        {
-          "@value": "patent holders",
-          "@language": "es"
-        },
-        {
-          "@value": "agent identifiers",
-          "@language": "es"
-        },
-        {
-          "@value": "metadata",
-          "@language": "es"
         }
       ],
       "dct:spatial": [
@@ -362,12 +1284,6 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260331.zip"
-        },
-        {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20251030.zip"
-        },
-        {
           "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20251231.zip"
         },
         {
@@ -375,6 +1291,12 @@
         },
         {
           "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260228.zip"
+        },
+        {
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260331.zip"
+        },
+        {
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260430.zip"
         }
       ],
       "impulsadata:validationStatus": [
@@ -385,121 +1307,15 @@
       ]
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260331.zip",
-      "@type": "dcat:Distribution",
-      "dct:title": [
-        {
-          "@value": "Authority File — Inventario de patentes y modelos de utilidad (Recurso ZIP) (31/03/2026)",
-          "@language": "es"
-        },
-        {
-          "@value": "Authority File — Patent and Utility Model Inventory (ZIP Resource) (31/03/2026)",
-          "@language": "en"
-        }
-      ],
-      "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/inventario-de-documentos-de-patente/"
-      },
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
-      },
-      "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      },
-      "dct:description": [
-        {
-          "@value": "Inventario Authority File de la OEPM en formato comprimido ZIP.",
-          "@language": "es"
-        },
-        {
-          "@value": "OEPM Authority File inventory in compressed ZIP format.",
-          "@language": "en"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "dcatap:availability": {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260331.zip"
-      },
-      "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
-      }
-    },
-    {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20251030.zip",
-      "@type": "dcat:Distribution",
-      "dct:title": [
-        {
-          "@value": "Authority File — Inventario de patentes y modelos de utilidad (Recurso ZIP) (30/10/2025)",
-          "@language": "es"
-        },
-        {
-          "@value": "Authority File — Patent and Utility Model Inventory (ZIP Resource) (30/10/2025)",
-          "@language": "en"
-        }
-      ],
-      "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/inventario-de-documentos-de-patente/"
-      },
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
-      },
-      "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      },
-      "dct:description": [
-        {
-          "@value": "Inventario Authority File de la OEPM en formato comprimido ZIP.",
-          "@language": "es"
-        },
-        {
-          "@value": "OEPM Authority File inventory in compressed ZIP format.",
-          "@language": "en"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "dcatap:availability": {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20251030.zip"
-      },
-      "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
-      }
-    },
-    {
       "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20251231.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Authority File — Inventario de patentes y modelos de utilidad (Recurso ZIP) (31/12/2025)",
+          "@value": "Authority File - Inventario de patentes y modelos de utilidad (Recurso ZIP) (2025-12-31)",
           "@language": "es"
         },
         {
-          "@value": "Authority File — Patent and Utility Model Inventory (ZIP Resource) (31/12/2025)",
+          "@value": "Authority File - Patent and Utility Model Inventory (ZIP Resource) (2025-12-31)",
           "@language": "en"
         }
       ],
@@ -540,7 +1356,7 @@
         "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20251231.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
@@ -548,11 +1364,11 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Authority File — Inventario de patentes y modelos de utilidad (Recurso ZIP) (31/01/2026)",
+          "@value": "Authority File - Inventario de patentes y modelos de utilidad (Recurso ZIP) (2026-01-31)",
           "@language": "es"
         },
         {
-          "@value": "Authority File — Patent and Utility Model Inventory (ZIP Resource) (31/01/2026)",
+          "@value": "Authority File - Patent and Utility Model Inventory (ZIP Resource) (2026-01-31)",
           "@language": "en"
         }
       ],
@@ -593,7 +1409,7 @@
         "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260131.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
@@ -601,11 +1417,11 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Authority File — Inventario de patentes y modelos de utilidad (Recurso ZIP) (28/02/2026)",
+          "@value": "Authority File - Inventario de patentes y modelos de utilidad (Recurso ZIP) (2026-02-28)",
           "@language": "es"
         },
         {
-          "@value": "Authority File — Patent and Utility Model Inventory (ZIP Resource) (28/02/2026)",
+          "@value": "Authority File - Patent and Utility Model Inventory (ZIP Resource) (2026-02-28)",
           "@language": "en"
         }
       ],
@@ -646,7 +1462,113 @@
         "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260228.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
+      }
+    },
+    {
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260331.zip",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Authority File - Inventario de patentes y modelos de utilidad (Recurso ZIP) (2026-03-31)",
+          "@language": "es"
+        },
+        {
+          "@value": "Authority File - Patent and Utility Model Inventory (ZIP Resource) (2026-03-31)",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/inventario-de-documentos-de-patente/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Inventario Authority File de la OEPM en formato comprimido ZIP.",
+          "@language": "es"
+        },
+        {
+          "@value": "OEPM Authority File inventory in compressed ZIP format.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260331.zip"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
+      }
+    },
+    {
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260430.zip",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Authority File - Inventario de patentes y modelos de utilidad (Recurso ZIP) (2026-04-30)",
+          "@language": "es"
+        },
+        {
+          "@value": "Authority File - Patent and Utility Model Inventory (ZIP Resource) (2026-04-30)",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/inventario-de-documentos-de-patente/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Inventario Authority File de la OEPM en formato comprimido ZIP.",
+          "@language": "es"
+        },
+        {
+          "@value": "OEPM Authority File inventory in compressed ZIP format.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260430.zip"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
@@ -716,13 +1638,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2025-01-02T00:00:00+01:00",
+          "@value": "1987-06-01T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-03-27T00:00:00+01:00",
+          "@value": "2026-05-04T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -792,38 +1714,6 @@
         {
           "@value": "inventores",
           "@language": "es"
-        },
-        {
-          "@value": "patents",
-          "@language": "es"
-        },
-        {
-          "@value": "utility models",
-          "@language": "es"
-        },
-        {
-          "@value": "inventions catalogue",
-          "@language": "es"
-        },
-        {
-          "@value": "bibliographic data",
-          "@language": "en"
-        },
-        {
-          "@value": "patent metadata",
-          "@language": "es"
-        },
-        {
-          "@value": "applications",
-          "@language": "es"
-        },
-        {
-          "@value": "publications",
-          "@language": "es"
-        },
-        {
-          "@value": "inventors",
-          "@language": "es"
         }
       ],
       "dct:spatial": [
@@ -835,7 +1725,7 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2025-01-02T00:00:00+01:00",
+            "@value": "1987-06-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           }
         }
@@ -939,7 +1829,7 @@
         "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/bibliograficos/"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
@@ -1009,13 +1899,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2025-01-02T00:00:00+01:00",
+          "@value": "1987-01-01T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-03-13T00:00:00+01:00",
+          "@value": "2026-04-07T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1081,34 +1971,6 @@
         {
           "@value": "metadatos",
           "@language": "es"
-        },
-        {
-          "@value": "patents",
-          "@language": "es"
-        },
-        {
-          "@value": "utility models",
-          "@language": "es"
-        },
-        {
-          "@value": "inventions catalogue",
-          "@language": "es"
-        },
-        {
-          "@value": "patent abstracts",
-          "@language": "es"
-        },
-        {
-          "@value": "inventions",
-          "@language": "es"
-        },
-        {
-          "@value": "publications",
-          "@language": "es"
-        },
-        {
-          "@value": "metadata",
-          "@language": "es"
         }
       ],
       "dct:spatial": [
@@ -1120,7 +1982,7 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2025-01-02T00:00:00+01:00",
+            "@value": "1987-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           }
         }
@@ -1164,19 +2026,19 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260409.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/04/07/RESUMENES_Spanish_Abstracts_ST32_20260424.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260410.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/04/07/RESUMENES_Spanish_Abstracts_ST32_20260427.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260413.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/04/07/RESUMENES_Spanish_Abstracts_ST32_20260428.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260414.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/04/07/RESUMENES_Spanish_Abstracts_ST32_20260429.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260415.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/04/07/RESUMENES_Spanish_Abstracts_ST32_20260430.zip"
         }
       ],
       "impulsadata:validationStatus": [
@@ -1187,15 +2049,15 @@
       ]
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260409.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/04/07/RESUMENES_Spanish_Abstracts_ST32_20260424.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Resúmenes (Recurso ZIP) (09/04/2026)",
+          "@value": "Resúmenes (Recurso ZIP) (2026-04-24)",
           "@language": "es"
         },
         {
-          "@value": "Abstracts (ZIP Resource) (09/04/2026)",
+          "@value": "Abstracts (ZIP Resource) (2026-04-24)",
           "@language": "en"
         }
       ],
@@ -1233,22 +2095,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260409.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/04/07/RESUMENES_Spanish_Abstracts_ST32_20260424.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260410.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/04/07/RESUMENES_Spanish_Abstracts_ST32_20260427.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Resúmenes (Recurso ZIP) (10/04/2026)",
+          "@value": "Resúmenes (Recurso ZIP) (2026-04-27)",
           "@language": "es"
         },
         {
-          "@value": "Abstracts (ZIP Resource) (10/04/2026)",
+          "@value": "Abstracts (ZIP Resource) (2026-04-27)",
           "@language": "en"
         }
       ],
@@ -1286,22 +2148,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260410.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/04/07/RESUMENES_Spanish_Abstracts_ST32_20260427.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260413.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/04/07/RESUMENES_Spanish_Abstracts_ST32_20260428.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Resúmenes (Recurso ZIP) (13/04/2026)",
+          "@value": "Resúmenes (Recurso ZIP) (2026-04-28)",
           "@language": "es"
         },
         {
-          "@value": "Abstracts (ZIP Resource) (13/04/2026)",
+          "@value": "Abstracts (ZIP Resource) (2026-04-28)",
           "@language": "en"
         }
       ],
@@ -1339,22 +2201,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260413.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/04/07/RESUMENES_Spanish_Abstracts_ST32_20260428.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260414.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/04/07/RESUMENES_Spanish_Abstracts_ST32_20260429.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Resúmenes (Recurso ZIP) (14/04/2026)",
+          "@value": "Resúmenes (Recurso ZIP) (2026-04-29)",
           "@language": "es"
         },
         {
-          "@value": "Abstracts (ZIP Resource) (14/04/2026)",
+          "@value": "Abstracts (ZIP Resource) (2026-04-29)",
           "@language": "en"
         }
       ],
@@ -1392,22 +2254,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260414.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/04/07/RESUMENES_Spanish_Abstracts_ST32_20260429.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260415.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/04/07/RESUMENES_Spanish_Abstracts_ST32_20260430.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Resúmenes (Recurso ZIP) (15/04/2026)",
+          "@value": "Resúmenes (Recurso ZIP) (2026-04-30)",
           "@language": "es"
         },
         {
-          "@value": "Abstracts (ZIP Resource) (15/04/2026)",
+          "@value": "Abstracts (ZIP Resource) (2026-04-30)",
           "@language": "en"
         }
       ],
@@ -1445,10 +2307,10 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260415.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/04/07/RESUMENES_Spanish_Abstracts_ST32_20260430.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
@@ -1518,13 +2380,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2025-01-02T00:00:00+01:00",
+          "@value": "1987-06-01T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-03-13T00:00:00+01:00",
+          "@value": "2026-04-15T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1590,34 +2452,6 @@
         {
           "@value": "estándar ST36",
           "@language": "es"
-        },
-        {
-          "@value": "patents",
-          "@language": "es"
-        },
-        {
-          "@value": "utility models",
-          "@language": "es"
-        },
-        {
-          "@value": "inventions catalogue",
-          "@language": "es"
-        },
-        {
-          "@value": "full text patents",
-          "@language": "es"
-        },
-        {
-          "@value": "patent documents",
-          "@language": "es"
-        },
-        {
-          "@value": "claims",
-          "@language": "es"
-        },
-        {
-          "@value": "ST36 standard",
-          "@language": "es"
         }
       ],
       "dct:spatial": [
@@ -1629,7 +2463,7 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2025-01-02T00:00:00+01:00",
+            "@value": "1987-06-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           }
         }
@@ -1673,19 +2507,19 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260409.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/04/15/FULLTEXT_XML_20260409.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260410.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/04/15/FULLTEXT_XML_20260410.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260413.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/04/15/FULLTEXT_XML_20260413.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260414.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/04/15/FULLTEXT_XML_20260414.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260415.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/04/15/FULLTEXT_XML_20260415.zip"
         }
       ],
       "impulsadata:validationStatus": [
@@ -1696,15 +2530,15 @@
       ]
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260409.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/04/15/FULLTEXT_XML_20260409.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Texto Completo (Recurso ZIP) (09/04/2026)",
+          "@value": "Texto Completo (Recurso ZIP) (2026-04-09)",
           "@language": "es"
         },
         {
-          "@value": "Full Text (ZIP Resource) (09/04/2026)",
+          "@value": "Full Text (ZIP Resource) (2026-04-09)",
           "@language": "en"
         }
       ],
@@ -1742,22 +2576,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260409.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/04/15/FULLTEXT_XML_20260409.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260410.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/04/15/FULLTEXT_XML_20260410.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Texto Completo (Recurso ZIP) (10/04/2026)",
+          "@value": "Texto Completo (Recurso ZIP) (2026-04-10)",
           "@language": "es"
         },
         {
-          "@value": "Full Text (ZIP Resource) (10/04/2026)",
+          "@value": "Full Text (ZIP Resource) (2026-04-10)",
           "@language": "en"
         }
       ],
@@ -1795,22 +2629,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260410.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/04/15/FULLTEXT_XML_20260410.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260413.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/04/15/FULLTEXT_XML_20260413.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Texto Completo (Recurso ZIP) (13/04/2026)",
+          "@value": "Texto Completo (Recurso ZIP) (2026-04-13)",
           "@language": "es"
         },
         {
-          "@value": "Full Text (ZIP Resource) (13/04/2026)",
+          "@value": "Full Text (ZIP Resource) (2026-04-13)",
           "@language": "en"
         }
       ],
@@ -1848,22 +2682,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260413.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/04/15/FULLTEXT_XML_20260413.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260414.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/04/15/FULLTEXT_XML_20260414.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Texto Completo (Recurso ZIP) (14/04/2026)",
+          "@value": "Texto Completo (Recurso ZIP) (2026-04-14)",
           "@language": "es"
         },
         {
-          "@value": "Full Text (ZIP Resource) (14/04/2026)",
+          "@value": "Full Text (ZIP Resource) (2026-04-14)",
           "@language": "en"
         }
       ],
@@ -1901,22 +2735,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260414.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/04/15/FULLTEXT_XML_20260414.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260415.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/04/15/FULLTEXT_XML_20260415.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Texto Completo (Recurso ZIP) (15/04/2026)",
+          "@value": "Texto Completo (Recurso ZIP) (2026-04-15)",
           "@language": "es"
         },
         {
-          "@value": "Full Text (ZIP Resource) (15/04/2026)",
+          "@value": "Full Text (ZIP Resource) (2026-04-15)",
           "@language": "en"
         }
       ],
@@ -1954,511 +2788,10 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260415.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/04/15/FULLTEXT_XML_20260415.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
-      }
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Folletos_PDF",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Oficina Española de Patentes y Marcas",
-              "@language": "es"
-            },
-            {
-              "@value": "Spanish Patent and Trademark Office",
-              "@language": "en"
-            }
-          ]
-        }
-      ],
-      "dct:title": [
-        {
-          "@value": "Folletos en formato PDF",
-          "@language": "es"
-        },
-        {
-          "@value": "Pamphlets in PDF format",
-          "@language": "en"
-        }
-      ],
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Oficina Española de Patentes y Marcas",
-              "@language": "es"
-            },
-            {
-              "@value": "Spanish Patent and Trademark Office",
-              "@language": "en"
-            }
-          ]
-        }
-      ],
-      "dct:description": [
-        {
-          "@value": "Ficheros de descarga con publicaciones diarias de folletos en el año en curso y el anterior. Para años anteriores al año pasado, los ficheros se agrupan en un único fichero por año.",
-          "@language": "es"
-        },
-        {
-          "@value": "Download files containing daily publications of brochures for the current year and the previous year. For years prior to the previous year, files are grouped into a single file per year.",
-          "@language": "en"
-        }
-      ],
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
-      "dct:issued": [
-        {
-          "@value": "2026-02-02T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-03-13T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": {
-        "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
-      },
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "foaf:page": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/BIWEEKLY"
-      },
-      "dct:conformsTo": {
-        "@id": "https://www.wipo.int/es/web/standards/part_03_standards"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/rd/2011/10/24/1495"
-      },
-      "dcat:landingPage": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/folletos/"
-      },
-      "dct:provenance": [
-        {
-          "@id": "Datos generados a partir de los registros oficiales de Propiedad Industrial de la Oficina Española de Patentes y Marcas."
-        },
-        {
-          "@id": "Data generated from the official Industrial Property registers of the Spanish Patent and Trademark Office."
-        }
-      ],
-      "dcat:keyword": [
-        {
-          "@value": "patentes",
-          "@language": "es"
-        },
-        {
-          "@value": "modelos de utilidad",
-          "@language": "es"
-        },
-        {
-          "@value": "catálogo de invenciones",
-          "@language": "es"
-        },
-        {
-          "@value": "folletos de patentes",
-          "@language": "es"
-        },
-        {
-          "@value": "documentos PDF",
-          "@language": "es"
-        },
-        {
-          "@value": "publicaciones oficiales",
-          "@language": "es"
-        },
-        {
-          "@value": "patents",
-          "@language": "es"
-        },
-        {
-          "@value": "utility models",
-          "@language": "es"
-        },
-        {
-          "@value": "inventions catalogue",
-          "@language": "es"
-        },
-        {
-          "@value": "patent brochures",
-          "@language": "es"
-        },
-        {
-          "@value": "PDF documents",
-          "@language": "es"
-        },
-        {
-          "@value": "official publications",
-          "@language": "es"
-        }
-      ],
-      "dct:spatial": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2026-02-02T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          }
-        }
-      ],
-      "dcat:contactPoint": [
-        {
-          "@type": "vcard:Kind",
-          "vcard:organization-name": [
-            {
-              "@value": "Oficina Española de Patentes y Marcas",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasUID": [
-            {
-              "@id": "mailto:informacion@oepm.es"
-            }
-          ],
-          "vcard:fn": [
-            {
-              "@value": "Punto de contacto OEPM - Servicios de Datos",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasEmail": [
-            {
-              "@id": "mailto:informacion@oepm.es"
-            }
-          ],
-          "vcard:hasTelephone": [
-            {
-              "@id": "tel:910780780"
-            }
-          ],
-          "vcard:hasURL": [
-            {
-              "@id": "https://sede.oepm.gob.es/eSede/datos/es/contacto/"
-            }
-          ]
-        }
-      ],
-      "dcat:distribution": [
-        {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260409.zip"
-        },
-        {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260410.zip"
-        },
-        {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260413.zip"
-        },
-        {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260414.zip"
-        },
-        {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260415.zip"
-        }
-      ],
-      "impulsadata:validationStatus": [
-        {
-          "@language": "es",
-          "@value": "conforme-DCAT-AP-ES"
-        }
-      ]
-    },
-    {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260409.zip",
-      "@type": "dcat:Distribution",
-      "dct:title": [
-        {
-          "@value": "Folletos en formato PDF (Recurso ZIP) (09/04/2026)",
-          "@language": "es"
-        },
-        {
-          "@value": "Pamphlets in PDF format (ZIP Resource) (09/04/2026)",
-          "@language": "en"
-        }
-      ],
-      "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/folletos/"
-      },
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
-      },
-      "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      },
-      "dct:description": [
-        {
-          "@value": "Folletos en formato PDF de la OEPM en formato comprimido ZIP.",
-          "@language": "es"
-        },
-        {
-          "@value": "OEPM Pamphlets in PDF format in compressed ZIP format.",
-          "@language": "en"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "dcatap:availability": {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260409.zip"
-      },
-      "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
-      }
-    },
-    {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260410.zip",
-      "@type": "dcat:Distribution",
-      "dct:title": [
-        {
-          "@value": "Folletos en formato PDF (Recurso ZIP) (10/04/2026)",
-          "@language": "es"
-        },
-        {
-          "@value": "Pamphlets in PDF format (ZIP Resource) (10/04/2026)",
-          "@language": "en"
-        }
-      ],
-      "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/folletos/"
-      },
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
-      },
-      "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      },
-      "dct:description": [
-        {
-          "@value": "Folletos en formato PDF de la OEPM en formato comprimido ZIP.",
-          "@language": "es"
-        },
-        {
-          "@value": "OEPM Pamphlets in PDF format in compressed ZIP format.",
-          "@language": "en"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "dcatap:availability": {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260410.zip"
-      },
-      "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
-      }
-    },
-    {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260413.zip",
-      "@type": "dcat:Distribution",
-      "dct:title": [
-        {
-          "@value": "Folletos en formato PDF (Recurso ZIP) (13/04/2026)",
-          "@language": "es"
-        },
-        {
-          "@value": "Pamphlets in PDF format (ZIP Resource) (13/04/2026)",
-          "@language": "en"
-        }
-      ],
-      "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/folletos/"
-      },
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
-      },
-      "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      },
-      "dct:description": [
-        {
-          "@value": "Folletos en formato PDF de la OEPM en formato comprimido ZIP.",
-          "@language": "es"
-        },
-        {
-          "@value": "OEPM Pamphlets in PDF format in compressed ZIP format.",
-          "@language": "en"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "dcatap:availability": {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260413.zip"
-      },
-      "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
-      }
-    },
-    {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260414.zip",
-      "@type": "dcat:Distribution",
-      "dct:title": [
-        {
-          "@value": "Folletos en formato PDF (Recurso ZIP) (14/04/2026)",
-          "@language": "es"
-        },
-        {
-          "@value": "Pamphlets in PDF format (ZIP Resource) (14/04/2026)",
-          "@language": "en"
-        }
-      ],
-      "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/folletos/"
-      },
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
-      },
-      "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      },
-      "dct:description": [
-        {
-          "@value": "Folletos en formato PDF de la OEPM en formato comprimido ZIP.",
-          "@language": "es"
-        },
-        {
-          "@value": "OEPM Pamphlets in PDF format in compressed ZIP format.",
-          "@language": "en"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "dcatap:availability": {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260414.zip"
-      },
-      "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
-      }
-    },
-    {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260415.zip",
-      "@type": "dcat:Distribution",
-      "dct:title": [
-        {
-          "@value": "Folletos en formato PDF (Recurso ZIP) (15/04/2026)",
-          "@language": "es"
-        },
-        {
-          "@value": "Pamphlets in PDF format (ZIP Resource) (15/04/2026)",
-          "@language": "en"
-        }
-      ],
-      "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/folletos/"
-      },
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
-      },
-      "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      },
-      "dct:description": [
-        {
-          "@value": "Folletos en formato PDF de la OEPM en formato comprimido ZIP.",
-          "@language": "es"
-        },
-        {
-          "@value": "OEPM Pamphlets in PDF format in compressed ZIP format.",
-          "@language": "en"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "dcatap:availability": {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260415.zip"
-      },
-      "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
@@ -2528,13 +2861,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2025-01-02T00:00:00+01:00",
+          "@value": "2010-11-10T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-03-30T00:00:00+01:00",
+          "@value": "2026-05-05T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2600,34 +2933,6 @@
         {
           "@value": "situación jurídica",
           "@language": "es"
-        },
-        {
-          "@value": "patents",
-          "@language": "es"
-        },
-        {
-          "@value": "utility models",
-          "@language": "es"
-        },
-        {
-          "@value": "inventions catalogue",
-          "@language": "es"
-        },
-        {
-          "@value": "patent legal status",
-          "@language": "es"
-        },
-        {
-          "@value": "legal events",
-          "@language": "es"
-        },
-        {
-          "@value": "patent holders",
-          "@language": "es"
-        },
-        {
-          "@value": "legal status",
-          "@language": "es"
         }
       ],
       "dct:spatial": [
@@ -2639,7 +2944,7 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2025-01-02T00:00:00+01:00",
+            "@value": "2010-11-10T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           }
         }
@@ -2683,19 +2988,19 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260421.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/05/05/LEGAL_ES20260427.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260420.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/05/05/LEGAL_ES20260428.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260422.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/05/05/LEGAL_ES20260429.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260423.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/05/05/LEGAL_ES20260430.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260424.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/05/05/LEGAL_ES20260504.zip"
         }
       ],
       "impulsadata:validationStatus": [
@@ -2706,15 +3011,15 @@
       ]
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260421.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/05/05/LEGAL_ES20260427.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos Legales (Recurso ZIP) (21/04/2026)",
+          "@value": "Datos Legales (Recurso ZIP) (2026-04-27)",
           "@language": "es"
         },
         {
-          "@value": "Legal Data (ZIP Resource) (21/04/2026)",
+          "@value": "Legal Data (ZIP Resource) (2026-04-27)",
           "@language": "en"
         }
       ],
@@ -2752,22 +3057,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260421.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/05/05/LEGAL_ES20260427.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260420.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/05/05/LEGAL_ES20260428.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos Legales (Recurso ZIP) (20/04/2026)",
+          "@value": "Datos Legales (Recurso ZIP) (2026-04-28)",
           "@language": "es"
         },
         {
-          "@value": "Legal Data (ZIP Resource) (20/04/2026)",
+          "@value": "Legal Data (ZIP Resource) (2026-04-28)",
           "@language": "en"
         }
       ],
@@ -2805,22 +3110,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260420.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/05/05/LEGAL_ES20260428.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260422.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/05/05/LEGAL_ES20260429.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos Legales (Recurso ZIP) (22/04/2026)",
+          "@value": "Datos Legales (Recurso ZIP) (2026-04-29)",
           "@language": "es"
         },
         {
-          "@value": "Legal Data (ZIP Resource) (22/04/2026)",
+          "@value": "Legal Data (ZIP Resource) (2026-04-29)",
           "@language": "en"
         }
       ],
@@ -2858,22 +3163,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260422.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/05/05/LEGAL_ES20260429.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260423.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/05/05/LEGAL_ES20260430.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos Legales (Recurso ZIP) (23/04/2026)",
+          "@value": "Datos Legales (Recurso ZIP) (2026-04-30)",
           "@language": "es"
         },
         {
-          "@value": "Legal Data (ZIP Resource) (23/04/2026)",
+          "@value": "Legal Data (ZIP Resource) (2026-04-30)",
           "@language": "en"
         }
       ],
@@ -2911,22 +3216,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260423.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/05/05/LEGAL_ES20260430.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260424.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/05/05/LEGAL_ES20260504.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos Legales (Recurso ZIP) (24/04/2026)",
+          "@value": "Datos Legales (Recurso ZIP) (2026-05-04)",
           "@language": "es"
         },
         {
-          "@value": "Legal Data (ZIP Resource) (24/04/2026)",
+          "@value": "Legal Data (ZIP Resource) (2026-05-04)",
           "@language": "en"
         }
       ],
@@ -2964,10 +3269,10 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260424.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/05/05/LEGAL_ES20260504.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
@@ -3037,13 +3342,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2025-01-05T00:00:00+01:00",
+          "@value": "2013-10-06T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-03-29T00:00:00+01:00",
+          "@value": "2026-05-03T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3105,30 +3410,6 @@
         {
           "@value": "tecnología",
           "@language": "es"
-        },
-        {
-          "@value": "patents",
-          "@language": "es"
-        },
-        {
-          "@value": "utility models",
-          "@language": "es"
-        },
-        {
-          "@value": "inventions catalogue",
-          "@language": "es"
-        },
-        {
-          "@value": "CPC classification",
-          "@language": "es"
-        },
-        {
-          "@value": "patent classification",
-          "@language": "es"
-        },
-        {
-          "@value": "technology",
-          "@language": "es"
         }
       ],
       "dct:spatial": [
@@ -3140,7 +3421,7 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2025-01-05T00:00:00+01:00",
+            "@value": "2013-10-06T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           }
         }
@@ -3184,19 +3465,19 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260322_CPC.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/05/03/ES20260405_CPC.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260329_CPC.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/05/03/ES20260412_CPC.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260405_CPC.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/05/03/ES20260419_CPC.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260412_CPC.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/05/03/ES20260426_CPC.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260419_CPC.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/05/03/ES20260503_CPC.zip"
         }
       ],
       "impulsadata:validationStatus": [
@@ -3207,15 +3488,15 @@
       ]
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260322_CPC.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/05/03/ES20260405_CPC.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos de Clasificación CPC (Recurso ZIP) (22/03/2026)",
+          "@value": "Datos de Clasificación CPC (Recurso ZIP) (2026-04-05)",
           "@language": "es"
         },
         {
-          "@value": "CPC (Cooperative Patent Classification) (ZIP Resource) (22/03/2026)",
+          "@value": "CPC (Cooperative Patent Classification) (ZIP Resource) (2026-04-05)",
           "@language": "en"
         }
       ],
@@ -3253,22 +3534,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260322_CPC.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/05/03/ES20260405_CPC.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260329_CPC.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/05/03/ES20260412_CPC.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos de Clasificación CPC (Recurso ZIP) (29/03/2026)",
+          "@value": "Datos de Clasificación CPC (Recurso ZIP) (2026-04-12)",
           "@language": "es"
         },
         {
-          "@value": "CPC (Cooperative Patent Classification) (ZIP Resource) (29/03/2026)",
+          "@value": "CPC (Cooperative Patent Classification) (ZIP Resource) (2026-04-12)",
           "@language": "en"
         }
       ],
@@ -3306,22 +3587,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260329_CPC.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/05/03/ES20260412_CPC.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260405_CPC.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/05/03/ES20260419_CPC.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos de Clasificación CPC (Recurso ZIP) (05/04/2026)",
+          "@value": "Datos de Clasificación CPC (Recurso ZIP) (2026-04-19)",
           "@language": "es"
         },
         {
-          "@value": "CPC (Cooperative Patent Classification) (ZIP Resource) (05/04/2026)",
+          "@value": "CPC (Cooperative Patent Classification) (ZIP Resource) (2026-04-19)",
           "@language": "en"
         }
       ],
@@ -3359,22 +3640,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260405_CPC.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/05/03/ES20260419_CPC.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260412_CPC.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/05/03/ES20260426_CPC.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos de Clasificación CPC (Recurso ZIP) (12/04/2026)",
+          "@value": "Datos de Clasificación CPC (Recurso ZIP) (2026-04-26)",
           "@language": "es"
         },
         {
-          "@value": "CPC (Cooperative Patent Classification) (ZIP Resource) (12/04/2026)",
+          "@value": "CPC (Cooperative Patent Classification) (ZIP Resource) (2026-04-26)",
           "@language": "en"
         }
       ],
@@ -3412,22 +3693,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260412_CPC.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/05/03/ES20260426_CPC.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260419_CPC.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/05/03/ES20260503_CPC.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos de Clasificación CPC (Recurso ZIP) (19/04/2026)",
+          "@value": "Datos de Clasificación CPC (Recurso ZIP) (2026-05-03)",
           "@language": "es"
         },
         {
-          "@value": "CPC (Cooperative Patent Classification) (ZIP Resource) (19/04/2026)",
+          "@value": "CPC (Cooperative Patent Classification) (ZIP Resource) (2026-05-03)",
           "@language": "en"
         }
       ],
@@ -3465,511 +3746,10 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/03/22/ES20260419_CPC.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/05/03/ES20260503_CPC.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
-      }
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Documentos_Citados",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Oficina Española de Patentes y Marcas",
-              "@language": "es"
-            },
-            {
-              "@value": "Spanish Patent and Trademark Office",
-              "@language": "en"
-            }
-          ]
-        }
-      ],
-      "dct:title": [
-        {
-          "@value": "Datos en Documentos Citados",
-          "@language": "es"
-        },
-        {
-          "@value": "Data in Cited Documents",
-          "@language": "en"
-        }
-      ],
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Oficina Española de Patentes y Marcas",
-              "@language": "es"
-            },
-            {
-              "@value": "Spanish Patent and Trademark Office",
-              "@language": "en"
-            }
-          ]
-        }
-      ],
-      "dct:description": [
-        {
-          "@value": "Ficheros de descarga semanales y mensuales para el año en curso. Para años anteriores al año en curso, los ficheros se agrupan en un único fichero por año.",
-          "@language": "es"
-        },
-        {
-          "@value": "Weekly and monthly download files for the current year. For years prior to the current year, files are grouped into a single file per year.",
-          "@language": "en"
-        }
-      ],
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
-      "dct:issued": [
-        {
-          "@value": "2025-01-05T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-03-29T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": {
-        "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
-      },
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "foaf:page": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/WEEKLY"
-      },
-      "dct:conformsTo": {
-        "@id": "https://www.wipo.int/es/web/standards/part_03_standards"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/rd/2011/10/24/1495"
-      },
-      "dcat:landingPage": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones/"
-      },
-      "dct:provenance": [
-        {
-          "@id": "Datos generados a partir de los registros oficiales de Propiedad Industrial de la Oficina Española de Patentes y Marcas."
-        },
-        {
-          "@id": "Data generated from the official Industrial Property registers of the Spanish Patent and Trademark Office."
-        }
-      ],
-      "dcat:keyword": [
-        {
-          "@value": "patentes",
-          "@language": "es"
-        },
-        {
-          "@value": "modelos de utilidad",
-          "@language": "es"
-        },
-        {
-          "@value": "catálogo de invenciones",
-          "@language": "es"
-        },
-        {
-          "@value": "documentos citados",
-          "@language": "es"
-        },
-        {
-          "@value": "referencias de patentes",
-          "@language": "es"
-        },
-        {
-          "@value": "estado de la técnica",
-          "@language": "es"
-        },
-        {
-          "@value": "patents",
-          "@language": "es"
-        },
-        {
-          "@value": "utility models",
-          "@language": "es"
-        },
-        {
-          "@value": "inventions catalogue",
-          "@language": "es"
-        },
-        {
-          "@value": "cited documents",
-          "@language": "es"
-        },
-        {
-          "@value": "patent references",
-          "@language": "es"
-        },
-        {
-          "@value": "prior art",
-          "@language": "es"
-        }
-      ],
-      "dct:spatial": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2025-01-05T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          }
-        }
-      ],
-      "dcat:contactPoint": [
-        {
-          "@type": "vcard:Kind",
-          "vcard:organization-name": [
-            {
-              "@value": "Oficina Española de Patentes y Marcas",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasUID": [
-            {
-              "@id": "mailto:informacion@oepm.es"
-            }
-          ],
-          "vcard:fn": [
-            {
-              "@value": "Punto de contacto OEPM - Servicios de Datos",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasEmail": [
-            {
-              "@id": "mailto:informacion@oepm.es"
-            }
-          ],
-          "vcard:hasTelephone": [
-            {
-              "@id": "tel:910780780"
-            }
-          ],
-          "vcard:hasURL": [
-            {
-              "@id": "https://sede.oepm.gob.es/eSede/datos/es/contacto/"
-            }
-          ]
-        }
-      ],
-      "dcat:distribution": [
-        {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260322_Citaciones.zip"
-        },
-        {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260329_Citaciones.zip"
-        },
-        {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260405_Citaciones.zip"
-        },
-        {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260412_Citaciones.zip"
-        },
-        {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260419_Citaciones.zip"
-        }
-      ],
-      "impulsadata:validationStatus": [
-        {
-          "@language": "es",
-          "@value": "conforme-DCAT-AP-ES"
-        }
-      ]
-    },
-    {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260322_Citaciones.zip",
-      "@type": "dcat:Distribution",
-      "dct:title": [
-        {
-          "@value": "Datos en Documentos Citados (Recurso ZIP) (22/03/2026)",
-          "@language": "es"
-        },
-        {
-          "@value": "Data in Cited Documents (ZIP Resource) (22/03/2026)",
-          "@language": "en"
-        }
-      ],
-      "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones/"
-      },
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
-      },
-      "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      },
-      "dct:description": [
-        {
-          "@value": "Datos de Documentos Citados de la OEPM en formato comprimido ZIP.",
-          "@language": "es"
-        },
-        {
-          "@value": "OEPM Authority File inventory in compressed ZIP format.",
-          "@language": "en"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "dcatap:availability": {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260322_Citaciones.zip"
-      },
-      "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
-      }
-    },
-    {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260329_Citaciones.zip",
-      "@type": "dcat:Distribution",
-      "dct:title": [
-        {
-          "@value": "Datos en Documentos Citados (Recurso ZIP) (29/03/2026)",
-          "@language": "es"
-        },
-        {
-          "@value": "Data in Cited Documents (ZIP Resource) (29/03/2026)",
-          "@language": "en"
-        }
-      ],
-      "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones/"
-      },
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
-      },
-      "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      },
-      "dct:description": [
-        {
-          "@value": "Datos de Documentos Citados de la OEPM en formato comprimido ZIP.",
-          "@language": "es"
-        },
-        {
-          "@value": "OEPM Authority File inventory in compressed ZIP format.",
-          "@language": "en"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "dcatap:availability": {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260329_Citaciones.zip"
-      },
-      "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
-      }
-    },
-    {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260405_Citaciones.zip",
-      "@type": "dcat:Distribution",
-      "dct:title": [
-        {
-          "@value": "Datos en Documentos Citados (Recurso ZIP) (05/04/2026)",
-          "@language": "es"
-        },
-        {
-          "@value": "Data in Cited Documents (ZIP Resource) (05/04/2026)",
-          "@language": "en"
-        }
-      ],
-      "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones/"
-      },
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
-      },
-      "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      },
-      "dct:description": [
-        {
-          "@value": "Datos de Documentos Citados de la OEPM en formato comprimido ZIP.",
-          "@language": "es"
-        },
-        {
-          "@value": "OEPM Authority File inventory in compressed ZIP format.",
-          "@language": "en"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "dcatap:availability": {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260405_Citaciones.zip"
-      },
-      "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
-      }
-    },
-    {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260412_Citaciones.zip",
-      "@type": "dcat:Distribution",
-      "dct:title": [
-        {
-          "@value": "Datos en Documentos Citados (Recurso ZIP) (12/04/2026)",
-          "@language": "es"
-        },
-        {
-          "@value": "Data in Cited Documents (ZIP Resource) (12/04/2026)",
-          "@language": "en"
-        }
-      ],
-      "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones/"
-      },
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
-      },
-      "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      },
-      "dct:description": [
-        {
-          "@value": "Datos de Documentos Citados de la OEPM en formato comprimido ZIP.",
-          "@language": "es"
-        },
-        {
-          "@value": "OEPM Authority File inventory in compressed ZIP format.",
-          "@language": "en"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "dcatap:availability": {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260412_Citaciones.zip"
-      },
-      "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
-      }
-    },
-    {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260419_Citaciones.zip",
-      "@type": "dcat:Distribution",
-      "dct:title": [
-        {
-          "@value": "Datos en Documentos Citados (Recurso ZIP) (19/04/2026)",
-          "@language": "es"
-        },
-        {
-          "@value": "Data in Cited Documents (ZIP Resource) (19/04/2026)",
-          "@language": "en"
-        }
-      ],
-      "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones/"
-      },
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
-      },
-      "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      },
-      "dct:description": [
-        {
-          "@value": "Datos de Documentos Citados de la OEPM en formato comprimido ZIP.",
-          "@language": "es"
-        },
-        {
-          "@value": "OEPM Authority File inventory in compressed ZIP format.",
-          "@language": "en"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "dcatap:availability": {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260419_Citaciones.zip"
-      },
-      "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
@@ -4111,34 +3891,6 @@
         {
           "@value": "fondo histórico",
           "@language": "es"
-        },
-        {
-          "@value": "patents",
-          "@language": "es"
-        },
-        {
-          "@value": "utility models",
-          "@language": "es"
-        },
-        {
-          "@value": "inventions catalogue",
-          "@language": "es"
-        },
-        {
-          "@value": "cited documents",
-          "@language": "es"
-        },
-        {
-          "@value": "ECLA classification",
-          "@language": "es"
-        },
-        {
-          "@value": "references",
-          "@language": "es"
-        },
-        {
-          "@value": "historical records",
-          "@language": "es"
         }
       ],
       "dct:spatial": [
@@ -4198,19 +3950,19 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/2_Trimestre_Sgml_2012.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2012/3_Trimestre_Sgml_2012.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2012.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2012/4_Trimestre_Sgml_2012.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/1_Trimestre_Sgml_2013.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2012/1_Trimestre_Sgml_2013.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/2_Trimestre_Sgml_2013.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2012/2_Trimestre_Sgml_2013.zip"
         },
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2013.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2012/3_Trimestre_Sgml_2013.zip"
         }
       ],
       "impulsadata:validationStatus": [
@@ -4221,15 +3973,15 @@
       ]
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/2_Trimestre_Sgml_2012.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2012/3_Trimestre_Sgml_2012.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013) (Recurso ZIP)",
+          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013) (Recurso ZIP) (3_Trimestre_Sgml_2012)",
           "@language": "es"
         },
         {
-          "@value": "Data in Cited Documents and ECLA (for documents prior to 2013) (ZIP Resource)",
+          "@value": "Data in Cited Documents and ECLA (for documents prior to 2013) (ZIP Resource) (3_Trimestre_Sgml_2012)",
           "@language": "en"
         }
       ],
@@ -4267,22 +4019,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/2_Trimestre_Sgml_2012.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2012/3_Trimestre_Sgml_2012.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2012.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2012/4_Trimestre_Sgml_2012.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013) (Recurso ZIP)",
+          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013) (Recurso ZIP) (4_Trimestre_Sgml_2012)",
           "@language": "es"
         },
         {
-          "@value": "Data in Cited Documents and ECLA (for documents prior to 2013) (ZIP Resource)",
+          "@value": "Data in Cited Documents and ECLA (for documents prior to 2013) (ZIP Resource) (4_Trimestre_Sgml_2012)",
           "@language": "en"
         }
       ],
@@ -4320,22 +4072,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2012.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2012/4_Trimestre_Sgml_2012.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/1_Trimestre_Sgml_2013.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2012/1_Trimestre_Sgml_2013.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013) (Recurso ZIP)",
+          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013) (Recurso ZIP) (1_Trimestre_Sgml_2013)",
           "@language": "es"
         },
         {
-          "@value": "Data in Cited Documents and ECLA (for documents prior to 2013) (ZIP Resource)",
+          "@value": "Data in Cited Documents and ECLA (for documents prior to 2013) (ZIP Resource) (1_Trimestre_Sgml_2013)",
           "@language": "en"
         }
       ],
@@ -4373,22 +4125,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/1_Trimestre_Sgml_2013.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2012/1_Trimestre_Sgml_2013.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/2_Trimestre_Sgml_2013.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2012/2_Trimestre_Sgml_2013.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013) (Recurso ZIP)",
+          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013) (Recurso ZIP) (2_Trimestre_Sgml_2013)",
           "@language": "es"
         },
         {
-          "@value": "Data in Cited Documents and ECLA (for documents prior to 2013) (ZIP Resource)",
+          "@value": "Data in Cited Documents and ECLA (for documents prior to 2013) (ZIP Resource) (2_Trimestre_Sgml_2013)",
           "@language": "en"
         }
       ],
@@ -4426,22 +4178,22 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/2_Trimestre_Sgml_2013.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2012/2_Trimestre_Sgml_2013.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2013.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2012/3_Trimestre_Sgml_2013.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013) (Recurso ZIP)",
+          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013) (Recurso ZIP) (3_Trimestre_Sgml_2013)",
           "@language": "es"
         },
         {
-          "@value": "Data in Cited Documents and ECLA (for documents prior to 2013) (ZIP Resource)",
+          "@value": "Data in Cited Documents and ECLA (for documents prior to 2013) (ZIP Resource) (3_Trimestre_Sgml_2013)",
           "@language": "en"
         }
       ],
@@ -4479,10 +4231,10 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2013.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2012/3_Trimestre_Sgml_2013.zip"
       },
       "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
       }
     }
   ]
