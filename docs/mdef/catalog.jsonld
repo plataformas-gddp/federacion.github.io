@@ -79,10 +79,25 @@
       ],
       "dcat:dataset": [
         {
-          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CATALOGINDUS:000001"
+          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000005"
         },
         {
-          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CATALOGINDUS:000002"
+          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000007"
+        },
+        {
+          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000004"
+        },
+        {
+          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000006"
+        },
+        {
+          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000003"
+        },
+        {
+          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000002"
+        },
+        {
+          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000001"
         },
         {
           "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CATALOGINDUS:000003"
@@ -91,34 +106,19 @@
           "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CATALOGINDUS:000004"
         },
         {
+          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CATALOGINDUS:000007"
+        },
+        {
           "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CATALOGINDUS:000005"
         },
         {
           "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CATALOGINDUS:000006"
         },
         {
-          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CATALOGINDUS:000007"
+          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CATALOGINDUS:000002"
         },
         {
-          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000001"
-        },
-        {
-          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000002"
-        },
-        {
-          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000003"
-        },
-        {
-          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000004"
-        },
-        {
-          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000005"
-        },
-        {
-          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000006"
-        },
-        {
-          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000007"
+          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CATALOGINDUS:000001"
         }
       ],
       "impulsadata:validationStatus": [
@@ -130,7 +130,7 @@
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CATALOGINDUS:000001",
+      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000005",
       "dct:publisher": [
         {
           "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
@@ -151,13 +151,13 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Terrestre",
+          "@value": "Estadísticas Personal Guardia Civil 2023",
           "@language": "es"
         }
       ],
       "dct:description": [
         {
-          "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa.  \nDicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
+          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
           "@language": "es"
         }
       ],
@@ -168,13 +168,13 @@
       ],
       "dct:issued": [
         {
-          "@value": "2025-05-25T00:00:00+01:00",
+          "@value": "2025-09-25T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2025-05-25T00:00:00+01:00",
+          "@value": "2025-09-25T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -190,7 +190,7 @@
       ],
       "foaf:page": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
+          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
         }
       ],
       "dct:accrualPeriodicity": [
@@ -200,48 +200,48 @@
       ],
       "dcat:landingPage": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
+          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
         }
       ],
       "dcat:keyword": [
         {
-          "@value": "Industria",
+          "@value": "Empleos",
           "@language": "es"
         },
         {
-          "@value": "armamento",
+          "@value": "Oficiales",
           "@language": "es"
         },
         {
-          "@value": "defensa",
+          "@value": "Suboficiales",
           "@language": "es"
         },
         {
-          "@value": "española",
+          "@value": "Soldados",
           "@language": "es"
         },
         {
-          "@value": "naves",
+          "@value": "Marineros",
           "@language": "es"
         },
         {
-          "@value": "radares",
+          "@value": "Mujeres",
           "@language": "es"
         },
         {
-          "@value": "logística",
+          "@value": "carrera",
           "@language": "es"
         },
         {
-          "@value": "aeronaves",
+          "@value": "complemento",
           "@language": "es"
         },
         {
-          "@value": "carros",
+          "@value": "intendencia",
           "@language": "es"
         },
         {
-          "@value": "blindaje",
+          "@value": "comunes",
           "@language": "es"
         }
       ],
@@ -288,18 +288,18 @@
           ],
           "vcard:fn": [
             {
-              "@value": "Dirección General Estratégica e Innovación de la Industria de Defensa Española",
+              "@value": "Secretaria General Técnica Unidad Estadísitca Órgano Central",
               "@language": "es"
             }
           ],
           "vcard:hasEmail": [
             {
-              "@id": "mailto:digeid_esind_apoyoext@mde.es"
+              "@id": "mailto:infoest@oc.mde.es"
             }
           ],
           "vcard:hasTelephone": [
             {
-              "@id": "tel:+34917743632"
+              "@id": "tel:+3493647427"
             }
           ],
           "vcard:hasURL": [
@@ -311,7 +311,7 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010095.xlsx"
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010148.ods"
         }
       ],
       "impulsadata:validationStatus": [
@@ -322,11 +322,11 @@
       ]
     },
     {
-      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010095.xlsx",
+      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010148.ods",
       "@type": "dcat:Distribution",
       "dcat:accessURL": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010095.xlsx"
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010148.ods"
         }
       ],
       "dct:format": {
@@ -359,13 +359,13 @@
       ],
       "dcat:downloadURL": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010095.xlsx"
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010148.ods"
         }
       ]
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CATALOGINDUS:000002",
+      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000007",
       "dct:publisher": [
         {
           "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
@@ -386,13 +386,13 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Naval",
+          "@value": "Estadísticas Personal Funcionario 2023",
           "@language": "es"
         }
       ],
       "dct:description": [
         {
-          "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa.  \nDicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
+          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
           "@language": "es"
         }
       ],
@@ -403,13 +403,13 @@
       ],
       "dct:issued": [
         {
-          "@value": "2025-05-25T00:00:00+01:00",
+          "@value": "2025-09-25T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2025-05-25T00:00:00+01:00",
+          "@value": "2025-09-25T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -425,7 +425,7 @@
       ],
       "foaf:page": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
+          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
         }
       ],
       "dct:accrualPeriodicity": [
@@ -435,48 +435,48 @@
       ],
       "dcat:landingPage": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
+          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
         }
       ],
       "dcat:keyword": [
         {
-          "@value": "Industria",
+          "@value": "Empleos",
           "@language": "es"
         },
         {
-          "@value": "armamento",
+          "@value": "Oficiales",
           "@language": "es"
         },
         {
-          "@value": "defensa",
+          "@value": "Suboficiales",
           "@language": "es"
         },
         {
-          "@value": "española",
+          "@value": "Soldados",
           "@language": "es"
         },
         {
-          "@value": "naves",
+          "@value": "Marineros",
           "@language": "es"
         },
         {
-          "@value": "radares",
+          "@value": "Mujeres",
           "@language": "es"
         },
         {
-          "@value": "logística",
+          "@value": "carrera",
           "@language": "es"
         },
         {
-          "@value": "aeronaves",
+          "@value": "complemento",
           "@language": "es"
         },
         {
-          "@value": "carros",
+          "@value": "intendencia",
           "@language": "es"
         },
         {
-          "@value": "blindaje",
+          "@value": "comunes",
           "@language": "es"
         }
       ],
@@ -523,18 +523,18 @@
           ],
           "vcard:fn": [
             {
-              "@value": "Dirección General Estratégica e Innovación de la Industria de Defensa Española",
+              "@value": "Secretaria General Técnica Unidad Estadísitca Órgano Central",
               "@language": "es"
             }
           ],
           "vcard:hasEmail": [
             {
-              "@id": "mailto:digeid_esind_apoyoext@mde.es"
+              "@id": "mailto:infoest@oc.mde.es"
             }
           ],
           "vcard:hasTelephone": [
             {
-              "@id": "tel:+34917743632"
+              "@id": "tel:+3493647427"
             }
           ],
           "vcard:hasURL": [
@@ -546,7 +546,7 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010063.xlsx"
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010291.ods"
         }
       ],
       "impulsadata:validationStatus": [
@@ -557,11 +557,11 @@
       ]
     },
     {
-      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010063.xlsx",
+      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010291.ods",
       "@type": "dcat:Distribution",
       "dcat:accessURL": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010063.xlsx"
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010291.ods"
         }
       ],
       "dct:format": {
@@ -594,7 +594,1182 @@
       ],
       "dcat:downloadURL": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010063.xlsx"
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010291.ods"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000004",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+          "dct:type": [
+            {
+              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+            }
+          ],
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Defensa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": [
+        {
+          "@value": "Estadísticas Personal Guardia Civil 2023",
+          "@language": "es"
+        }
+      ],
+      "dct:description": [
+        {
+          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
+          "@language": "es"
+        }
+      ],
+      "dct:accessRights": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2025-09-25T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2025-09-25T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        }
+      ],
+      "foaf:page": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
+        }
+      ],
+      "dct:accrualPeriodicity": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
+        }
+      ],
+      "dcat:landingPage": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "Empleos",
+          "@language": "es"
+        },
+        {
+          "@value": "Oficiales",
+          "@language": "es"
+        },
+        {
+          "@value": "Suboficiales",
+          "@language": "es"
+        },
+        {
+          "@value": "Soldados",
+          "@language": "es"
+        },
+        {
+          "@value": "Marineros",
+          "@language": "es"
+        },
+        {
+          "@value": "Mujeres",
+          "@language": "es"
+        },
+        {
+          "@value": "carrera",
+          "@language": "es"
+        },
+        {
+          "@value": "complemento",
+          "@language": "es"
+        },
+        {
+          "@value": "intendencia",
+          "@language": "es"
+        },
+        {
+          "@value": "comunes",
+          "@language": "es"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2025-01-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasBeginning": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-01-01T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Ministerio de Defensa",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Secretaria General Técnica Unidad Estadísitca Órgano Central",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:infoest@oc.mde.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+3493647427"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://publicaciones.defensa.gob.es/contacts/index/"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010321.ods"
+        }
+      ],
+      "impulsadata:validationStatus": [
+        {
+          "@language": "es",
+          "@value": "conforme-DCAT-AP-ES"
+        }
+      ]
+    },
+    {
+      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010321.ods",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010321.ods"
+        }
+      ],
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
+      },
+      "dct:license": {
+        "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
+      },
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2026-04-30T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-04-30T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcatap:availability": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010321.ods"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000006",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+          "dct:type": [
+            {
+              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+            }
+          ],
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Defensa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": [
+        {
+          "@value": "Estadísticas Personal Laboral 2023",
+          "@language": "es"
+        }
+      ],
+      "dct:description": [
+        {
+          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
+          "@language": "es"
+        }
+      ],
+      "dct:accessRights": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2025-09-25T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2025-09-25T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        }
+      ],
+      "foaf:page": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
+        }
+      ],
+      "dct:accrualPeriodicity": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
+        }
+      ],
+      "dcat:landingPage": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "Empleos",
+          "@language": "es"
+        },
+        {
+          "@value": "Oficiales",
+          "@language": "es"
+        },
+        {
+          "@value": "Suboficiales",
+          "@language": "es"
+        },
+        {
+          "@value": "Soldados",
+          "@language": "es"
+        },
+        {
+          "@value": "Marineros",
+          "@language": "es"
+        },
+        {
+          "@value": "Mujeres",
+          "@language": "es"
+        },
+        {
+          "@value": "carrera",
+          "@language": "es"
+        },
+        {
+          "@value": "complemento",
+          "@language": "es"
+        },
+        {
+          "@value": "intendencia",
+          "@language": "es"
+        },
+        {
+          "@value": "comunes",
+          "@language": "es"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2025-01-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasBeginning": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-01-01T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Ministerio de Defensa",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Secretaria General Técnica Unidad Estadísitca Órgano Central",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:infoest@oc.mde.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+3493647427"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://publicaciones.defensa.gob.es/contacts/index/"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774261635.ods"
+        }
+      ],
+      "impulsadata:validationStatus": [
+        {
+          "@language": "es",
+          "@value": "conforme-DCAT-AP-ES"
+        }
+      ]
+    },
+    {
+      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774261635.ods",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774261635.ods"
+        }
+      ],
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
+      },
+      "dct:license": {
+        "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
+      },
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2026-04-30T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-04-30T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcatap:availability": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774261635.ods"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000003",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+          "dct:type": [
+            {
+              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+            }
+          ],
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Defensa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": [
+        {
+          "@value": "Estadísticas Militares No Permanentes A 2023",
+          "@language": "es"
+        }
+      ],
+      "dct:description": [
+        {
+          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
+          "@language": "es"
+        }
+      ],
+      "dct:accessRights": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2025-09-25T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2025-09-25T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        }
+      ],
+      "foaf:page": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
+        }
+      ],
+      "dct:accrualPeriodicity": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
+        }
+      ],
+      "dcat:landingPage": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "Empleos",
+          "@language": "es"
+        },
+        {
+          "@value": "Oficiales",
+          "@language": "es"
+        },
+        {
+          "@value": "Suboficiales",
+          "@language": "es"
+        },
+        {
+          "@value": "Soldados",
+          "@language": "es"
+        },
+        {
+          "@value": "Marineros",
+          "@language": "es"
+        },
+        {
+          "@value": "Mujeres",
+          "@language": "es"
+        },
+        {
+          "@value": "carrera",
+          "@language": "es"
+        },
+        {
+          "@value": "complemento",
+          "@language": "es"
+        },
+        {
+          "@value": "intendencia",
+          "@language": "es"
+        },
+        {
+          "@value": "comunes",
+          "@language": "es"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2025-01-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasBeginning": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-01-01T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Ministerio de Defensa",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Secretaria General Técnica Unidad Estadísitca Órgano Central",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:infoest@oc.mde.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+3493647427"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://publicaciones.defensa.gob.es/contacts/index/"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010216.ods"
+        }
+      ],
+      "impulsadata:validationStatus": [
+        {
+          "@language": "es",
+          "@value": "conforme-DCAT-AP-ES"
+        }
+      ]
+    },
+    {
+      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010216.ods",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010216.ods"
+        }
+      ],
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
+      },
+      "dct:license": {
+        "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
+      },
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2026-04-30T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-04-30T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcatap:availability": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010216.ods"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000002",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+          "dct:type": [
+            {
+              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+            }
+          ],
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Defensa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": [
+        {
+          "@value": "Estadísticas Militares No Permanentes B 2023",
+          "@language": "es"
+        }
+      ],
+      "dct:description": [
+        {
+          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
+          "@language": "es"
+        }
+      ],
+      "dct:accessRights": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2025-09-25T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2025-09-25T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        }
+      ],
+      "foaf:page": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
+        }
+      ],
+      "dct:accrualPeriodicity": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
+        }
+      ],
+      "dcat:landingPage": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "Empleos",
+          "@language": "es"
+        },
+        {
+          "@value": "Oficiales",
+          "@language": "es"
+        },
+        {
+          "@value": "Suboficiales",
+          "@language": "es"
+        },
+        {
+          "@value": "Soldados",
+          "@language": "es"
+        },
+        {
+          "@value": "Marineros",
+          "@language": "es"
+        },
+        {
+          "@value": "Mujeres",
+          "@language": "es"
+        },
+        {
+          "@value": "carrera",
+          "@language": "es"
+        },
+        {
+          "@value": "complemento",
+          "@language": "es"
+        },
+        {
+          "@value": "intendencia",
+          "@language": "es"
+        },
+        {
+          "@value": "comunes",
+          "@language": "es"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2025-01-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasBeginning": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-01-01T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Ministerio de Defensa",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Secretaria General Técnica Unidad Estadísitca Órgano Central",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:infoest@oc.mde.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+3493647427"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://publicaciones.defensa.gob.es/contacts/index/"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010258.ods"
+        }
+      ],
+      "impulsadata:validationStatus": [
+        {
+          "@language": "es",
+          "@value": "conforme-DCAT-AP-ES"
+        }
+      ]
+    },
+    {
+      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010258.ods",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010258.ods"
+        }
+      ],
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
+      },
+      "dct:license": {
+        "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
+      },
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2026-04-30T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-04-30T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcatap:availability": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010258.ods"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000001",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+          "dct:type": [
+            {
+              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+            }
+          ],
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Defensa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": [
+        {
+          "@value": "Estadísticas sobre el personal Militares de Carrera y su distribución por empleo, provincias, ejércitos, situación administrativa",
+          "@language": "es"
+        }
+      ],
+      "dct:description": [
+        {
+          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
+          "@language": "es"
+        }
+      ],
+      "dct:accessRights": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2025-09-25T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2025-09-25T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        }
+      ],
+      "foaf:page": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
+        }
+      ],
+      "dct:accrualPeriodicity": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
+        }
+      ],
+      "dcat:landingPage": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "Empleos",
+          "@language": "es"
+        },
+        {
+          "@value": "Oficiales",
+          "@language": "es"
+        },
+        {
+          "@value": "Suboficiales",
+          "@language": "es"
+        },
+        {
+          "@value": "Soldados",
+          "@language": "es"
+        },
+        {
+          "@value": "Marineros",
+          "@language": "es"
+        },
+        {
+          "@value": "Mujeres",
+          "@language": "es"
+        },
+        {
+          "@value": "carrera",
+          "@language": "es"
+        },
+        {
+          "@value": "complemento",
+          "@language": "es"
+        },
+        {
+          "@value": "intendencia",
+          "@language": "es"
+        },
+        {
+          "@value": "comunes",
+          "@language": "es"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2025-01-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasBeginning": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-01-01T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Ministerio de Defensa",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Secretaria General Técnica Unidad Estadísitca Órgano Central",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:infoest@oc.mde.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+3493647427"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://publicaciones.defensa.gob.es/contacts/index/"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010180.ods"
+        }
+      ],
+      "impulsadata:validationStatus": [
+        {
+          "@language": "es",
+          "@value": "conforme-DCAT-AP-ES"
+        }
+      ]
+    },
+    {
+      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010180.ods",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010180.ods"
+        }
+      ],
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
+      },
+      "dct:license": {
+        "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
+      },
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2026-04-30T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-04-30T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcatap:availability": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010180.ods"
         }
       ]
     },
@@ -621,7 +1796,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Aeroespacial",
+          "@value": "Catálogo industria española de Defensa. Sexta edición",
           "@language": "es"
         }
       ],
@@ -856,7 +2031,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Armamento y Munición",
+          "@value": "Catálogo industria española de Defensa. Sexta edición",
           "@language": "es"
         }
       ],
@@ -1070,6 +2245,241 @@
     },
     {
       "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CATALOGINDUS:000007",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+          "dct:type": [
+            {
+              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+            }
+          ],
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Defensa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": [
+        {
+          "@value": "Catálogo industria española de Defensa. Sexta edición",
+          "@language": "es"
+        }
+      ],
+      "dct:description": [
+        {
+          "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa.  \nDicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
+          "@language": "es"
+        }
+      ],
+      "dct:accessRights": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2025-05-25T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2025-05-25T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        }
+      ],
+      "foaf:page": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
+        }
+      ],
+      "dct:accrualPeriodicity": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
+        }
+      ],
+      "dcat:landingPage": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "Industria",
+          "@language": "es"
+        },
+        {
+          "@value": "armamento",
+          "@language": "es"
+        },
+        {
+          "@value": "defensa",
+          "@language": "es"
+        },
+        {
+          "@value": "española",
+          "@language": "es"
+        },
+        {
+          "@value": "naves",
+          "@language": "es"
+        },
+        {
+          "@value": "radares",
+          "@language": "es"
+        },
+        {
+          "@value": "logística",
+          "@language": "es"
+        },
+        {
+          "@value": "aeronaves",
+          "@language": "es"
+        },
+        {
+          "@value": "carros",
+          "@language": "es"
+        },
+        {
+          "@value": "blindaje",
+          "@language": "es"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2025-01-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2025-12-31T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasBeginning": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-01-01T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2025-12-31T00:00:00+01:00",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Ministerio de Defensa",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Dirección General Estratégica e Innovación de la Industria de Defensa Española",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:digeid_esind_apoyoext@mde.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+34917743632"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://publicaciones.defensa.gob.es/contacts/index/"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009987.xlsx"
+        }
+      ],
+      "impulsadata:validationStatus": [
+        {
+          "@language": "es",
+          "@value": "conforme-DCAT-AP-ES"
+        }
+      ]
+    },
+    {
+      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009987.xlsx",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009987.xlsx"
+        }
+      ],
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
+      },
+      "dct:license": {
+        "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
+      },
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        }
+      ],
+      "dct:issued": [
+        {
+          "@value": "2026-04-30T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-04-30T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcatap:availability": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        }
+      ],
+      "dcat:downloadURL": [
+        {
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009987.xlsx"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
       "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CATALOGINDUS:000005",
       "dct:publisher": [
         {
@@ -1091,7 +2501,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Electrónica y Comunicaciones TIC",
+          "@value": "Catálogo industria española de Defensa. Sexta edición",
           "@language": "es"
         }
       ],
@@ -1326,7 +2736,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Logística Auxiliar",
+          "@value": "Catálogo industria española de Defensa. Sexta edición",
           "@language": "es"
         }
       ],
@@ -1540,7 +2950,7 @@
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CATALOGINDUS:000007",
+      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CATALOGINDUS:000002",
       "dct:publisher": [
         {
           "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
@@ -1561,7 +2971,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo industria española de Defensa. Sexta edición - Consultoría e Ingeniería",
+          "@value": "Catálogo industria española de Defensa. Sexta edición",
           "@language": "es"
         }
       ],
@@ -1721,7 +3131,7 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009987.xlsx"
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010063.xlsx"
         }
       ],
       "impulsadata:validationStatus": [
@@ -1732,11 +3142,11 @@
       ]
     },
     {
-      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009987.xlsx",
+      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010063.xlsx",
       "@type": "dcat:Distribution",
       "dcat:accessURL": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009987.xlsx"
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010063.xlsx"
         }
       ],
       "dct:format": {
@@ -1769,13 +3179,13 @@
       ],
       "dcat:downloadURL": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774009987.xlsx"
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010063.xlsx"
         }
       ]
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000001",
+      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CATALOGINDUS:000001",
       "dct:publisher": [
         {
           "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
@@ -1796,13 +3206,13 @@
       ],
       "dct:title": [
         {
-          "@value": "Anuario Estadístico - Personal Militar de Carrera",
+          "@value": "Catálogo industria española de Defensa. Sexta edición",
           "@language": "es"
         }
       ],
       "dct:description": [
         {
-          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
+          "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa.  \nDicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
           "@language": "es"
         }
       ],
@@ -1813,13 +3223,13 @@
       ],
       "dct:issued": [
         {
-          "@value": "2025-09-25T00:00:00+01:00",
+          "@value": "2025-05-25T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2025-09-25T00:00:00+01:00",
+          "@value": "2025-05-25T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1835,7 +3245,7 @@
       ],
       "foaf:page": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
+          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
         }
       ],
       "dct:accrualPeriodicity": [
@@ -1845,48 +3255,48 @@
       ],
       "dcat:landingPage": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
+          "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
         }
       ],
       "dcat:keyword": [
         {
-          "@value": "Empleos",
+          "@value": "Industria",
           "@language": "es"
         },
         {
-          "@value": "Oficiales",
+          "@value": "armamento",
           "@language": "es"
         },
         {
-          "@value": "Suboficiales",
+          "@value": "defensa",
           "@language": "es"
         },
         {
-          "@value": "Soldados",
+          "@value": "española",
           "@language": "es"
         },
         {
-          "@value": "Marineros",
+          "@value": "naves",
           "@language": "es"
         },
         {
-          "@value": "Mujeres",
+          "@value": "radares",
           "@language": "es"
         },
         {
-          "@value": "carrera",
+          "@value": "logística",
           "@language": "es"
         },
         {
-          "@value": "complemento",
+          "@value": "aeronaves",
           "@language": "es"
         },
         {
-          "@value": "intendencia",
+          "@value": "carros",
           "@language": "es"
         },
         {
-          "@value": "comunes",
+          "@value": "blindaje",
           "@language": "es"
         }
       ],
@@ -1933,18 +3343,18 @@
           ],
           "vcard:fn": [
             {
-              "@value": "Secretaria General Técnica Unidad Estadísitca Órgano Central",
+              "@value": "Dirección General Estratégica e Innovación de la Industria de Defensa Española",
               "@language": "es"
             }
           ],
           "vcard:hasEmail": [
             {
-              "@id": "mailto:infoest@oc.mde.es"
+              "@id": "mailto:digeid_esind_apoyoext@mde.es"
             }
           ],
           "vcard:hasTelephone": [
             {
-              "@id": "tel:+3493647427"
+              "@id": "tel:+34917743632"
             }
           ],
           "vcard:hasURL": [
@@ -1956,7 +3366,7 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010180.ods"
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010095.xlsx"
         }
       ],
       "impulsadata:validationStatus": [
@@ -1967,11 +3377,11 @@
       ]
     },
     {
-      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010180.ods",
+      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010095.xlsx",
       "@type": "dcat:Distribution",
       "dcat:accessURL": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010180.ods"
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010095.xlsx"
         }
       ],
       "dct:format": {
@@ -2004,1417 +3414,7 @@
       ],
       "dcat:downloadURL": [
         {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010180.ods"
-        }
-      ]
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000002",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
-          "dct:type": [
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            }
-          ],
-          "foaf:name": [
-            {
-              "@value": "Ministerio de Defensa",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": [
-        {
-          "@value": "Anuario Estadístico - Personal Militar No Permanentes (Baja)",
-          "@language": "es"
-        }
-      ],
-      "dct:description": [
-        {
-          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
-          "@language": "es"
-        }
-      ],
-      "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        }
-      ],
-      "dct:issued": [
-        {
-          "@value": "2025-09-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2025-09-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        }
-      ],
-      "foaf:page": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        }
-      ],
-      "dct:accrualPeriodicity": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        }
-      ],
-      "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        }
-      ],
-      "dcat:keyword": [
-        {
-          "@value": "Empleos",
-          "@language": "es"
-        },
-        {
-          "@value": "Oficiales",
-          "@language": "es"
-        },
-        {
-          "@value": "Suboficiales",
-          "@language": "es"
-        },
-        {
-          "@value": "Soldados",
-          "@language": "es"
-        },
-        {
-          "@value": "Marineros",
-          "@language": "es"
-        },
-        {
-          "@value": "Mujeres",
-          "@language": "es"
-        },
-        {
-          "@value": "carrera",
-          "@language": "es"
-        },
-        {
-          "@value": "complemento",
-          "@language": "es"
-        },
-        {
-          "@value": "intendencia",
-          "@language": "es"
-        },
-        {
-          "@value": "comunes",
-          "@language": "es"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2025-01-01T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          },
-          "dcat:endDate": {
-            "@value": "2025-12-31T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          },
-          "time:hasBeginning": {
-            "@type": "time:Instant",
-            "time:inXSDDateTime": {
-              "@value": "2025-01-01T00:00:00+01:00",
-              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-            }
-          },
-          "time:hasEnd": {
-            "@type": "time:Instant",
-            "time:inXSDDateTime": {
-              "@value": "2025-12-31T00:00:00+01:00",
-              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-            }
-          }
-        }
-      ],
-      "dcat:contactPoint": [
-        {
-          "@type": "vcard:Kind",
-          "vcard:organization-name": [
-            {
-              "@value": "Ministerio de Defensa",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasUID": [
-            {
-              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
-            }
-          ],
-          "vcard:fn": [
-            {
-              "@value": "Secretaria General Técnica Unidad Estadísitca Órgano Central",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasEmail": [
-            {
-              "@id": "mailto:infoest@oc.mde.es"
-            }
-          ],
-          "vcard:hasTelephone": [
-            {
-              "@id": "tel:+3493647427"
-            }
-          ],
-          "vcard:hasURL": [
-            {
-              "@id": "https://publicaciones.defensa.gob.es/contacts/index/"
-            }
-          ]
-        }
-      ],
-      "dcat:distribution": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010258.ods"
-        }
-      ],
-      "impulsadata:validationStatus": [
-        {
-          "@language": "es",
-          "@value": "conforme-DCAT-AP-ES"
-        }
-      ]
-    },
-    {
-      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010258.ods",
-      "@type": "dcat:Distribution",
-      "dcat:accessURL": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010258.ods"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      },
-      "dct:license": {
-        "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
-      },
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        }
-      ],
-      "dct:issued": [
-        {
-          "@value": "2026-04-30T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-04-30T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcatap:availability": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-        }
-      ],
-      "dcat:downloadURL": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010258.ods"
-        }
-      ]
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000003",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
-          "dct:type": [
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            }
-          ],
-          "foaf:name": [
-            {
-              "@value": "Ministerio de Defensa",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": [
-        {
-          "@value": "Anuario Estadístico - Personal Militar No Permanentes (Alta)",
-          "@language": "es"
-        }
-      ],
-      "dct:description": [
-        {
-          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
-          "@language": "es"
-        }
-      ],
-      "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        }
-      ],
-      "dct:issued": [
-        {
-          "@value": "2025-09-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2025-09-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        }
-      ],
-      "foaf:page": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        }
-      ],
-      "dct:accrualPeriodicity": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        }
-      ],
-      "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        }
-      ],
-      "dcat:keyword": [
-        {
-          "@value": "Empleos",
-          "@language": "es"
-        },
-        {
-          "@value": "Oficiales",
-          "@language": "es"
-        },
-        {
-          "@value": "Suboficiales",
-          "@language": "es"
-        },
-        {
-          "@value": "Soldados",
-          "@language": "es"
-        },
-        {
-          "@value": "Marineros",
-          "@language": "es"
-        },
-        {
-          "@value": "Mujeres",
-          "@language": "es"
-        },
-        {
-          "@value": "carrera",
-          "@language": "es"
-        },
-        {
-          "@value": "complemento",
-          "@language": "es"
-        },
-        {
-          "@value": "intendencia",
-          "@language": "es"
-        },
-        {
-          "@value": "comunes",
-          "@language": "es"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2025-01-01T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          },
-          "dcat:endDate": {
-            "@value": "2025-12-31T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          },
-          "time:hasBeginning": {
-            "@type": "time:Instant",
-            "time:inXSDDateTime": {
-              "@value": "2025-01-01T00:00:00+01:00",
-              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-            }
-          },
-          "time:hasEnd": {
-            "@type": "time:Instant",
-            "time:inXSDDateTime": {
-              "@value": "2025-12-31T00:00:00+01:00",
-              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-            }
-          }
-        }
-      ],
-      "dcat:contactPoint": [
-        {
-          "@type": "vcard:Kind",
-          "vcard:organization-name": [
-            {
-              "@value": "Ministerio de Defensa",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasUID": [
-            {
-              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
-            }
-          ],
-          "vcard:fn": [
-            {
-              "@value": "Secretaria General Técnica Unidad Estadísitca Órgano Central",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasEmail": [
-            {
-              "@id": "mailto:infoest@oc.mde.es"
-            }
-          ],
-          "vcard:hasTelephone": [
-            {
-              "@id": "tel:+3493647427"
-            }
-          ],
-          "vcard:hasURL": [
-            {
-              "@id": "https://publicaciones.defensa.gob.es/contacts/index/"
-            }
-          ]
-        }
-      ],
-      "dcat:distribution": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010216.ods"
-        }
-      ],
-      "impulsadata:validationStatus": [
-        {
-          "@language": "es",
-          "@value": "conforme-DCAT-AP-ES"
-        }
-      ]
-    },
-    {
-      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010216.ods",
-      "@type": "dcat:Distribution",
-      "dcat:accessURL": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010216.ods"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      },
-      "dct:license": {
-        "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
-      },
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        }
-      ],
-      "dct:issued": [
-        {
-          "@value": "2026-04-30T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-04-30T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcatap:availability": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-        }
-      ],
-      "dcat:downloadURL": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010216.ods"
-        }
-      ]
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000004",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
-          "dct:type": [
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            }
-          ],
-          "foaf:name": [
-            {
-              "@value": "Ministerio de Defensa",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": [
-        {
-          "@value": "Anuario Estadístico - Personal Guardia Civíl",
-          "@language": "es"
-        }
-      ],
-      "dct:description": [
-        {
-          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
-          "@language": "es"
-        }
-      ],
-      "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        }
-      ],
-      "dct:issued": [
-        {
-          "@value": "2025-09-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2025-09-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        }
-      ],
-      "foaf:page": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        }
-      ],
-      "dct:accrualPeriodicity": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        }
-      ],
-      "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        }
-      ],
-      "dcat:keyword": [
-        {
-          "@value": "Empleos",
-          "@language": "es"
-        },
-        {
-          "@value": "Oficiales",
-          "@language": "es"
-        },
-        {
-          "@value": "Suboficiales",
-          "@language": "es"
-        },
-        {
-          "@value": "Soldados",
-          "@language": "es"
-        },
-        {
-          "@value": "Marineros",
-          "@language": "es"
-        },
-        {
-          "@value": "Mujeres",
-          "@language": "es"
-        },
-        {
-          "@value": "carrera",
-          "@language": "es"
-        },
-        {
-          "@value": "complemento",
-          "@language": "es"
-        },
-        {
-          "@value": "intendencia",
-          "@language": "es"
-        },
-        {
-          "@value": "comunes",
-          "@language": "es"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2025-01-01T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          },
-          "dcat:endDate": {
-            "@value": "2025-12-31T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          },
-          "time:hasBeginning": {
-            "@type": "time:Instant",
-            "time:inXSDDateTime": {
-              "@value": "2025-01-01T00:00:00+01:00",
-              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-            }
-          },
-          "time:hasEnd": {
-            "@type": "time:Instant",
-            "time:inXSDDateTime": {
-              "@value": "2025-12-31T00:00:00+01:00",
-              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-            }
-          }
-        }
-      ],
-      "dcat:contactPoint": [
-        {
-          "@type": "vcard:Kind",
-          "vcard:organization-name": [
-            {
-              "@value": "Ministerio de Defensa",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasUID": [
-            {
-              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
-            }
-          ],
-          "vcard:fn": [
-            {
-              "@value": "Secretaria General Técnica Unidad Estadísitca Órgano Central",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasEmail": [
-            {
-              "@id": "mailto:infoest@oc.mde.es"
-            }
-          ],
-          "vcard:hasTelephone": [
-            {
-              "@id": "tel:+3493647427"
-            }
-          ],
-          "vcard:hasURL": [
-            {
-              "@id": "https://publicaciones.defensa.gob.es/contacts/index/"
-            }
-          ]
-        }
-      ],
-      "dcat:distribution": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010321.ods"
-        }
-      ],
-      "impulsadata:validationStatus": [
-        {
-          "@language": "es",
-          "@value": "conforme-DCAT-AP-ES"
-        }
-      ]
-    },
-    {
-      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010321.ods",
-      "@type": "dcat:Distribution",
-      "dcat:accessURL": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010321.ods"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      },
-      "dct:license": {
-        "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
-      },
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        }
-      ],
-      "dct:issued": [
-        {
-          "@value": "2026-04-30T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-04-30T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcatap:availability": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-        }
-      ],
-      "dcat:downloadURL": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010321.ods"
-        }
-      ]
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000005",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
-          "dct:type": [
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            }
-          ],
-          "foaf:name": [
-            {
-              "@value": "Ministerio de Defensa",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": [
-        {
-          "@value": "Anuario Estadístico - Personal Estatutario",
-          "@language": "es"
-        }
-      ],
-      "dct:description": [
-        {
-          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
-          "@language": "es"
-        }
-      ],
-      "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        }
-      ],
-      "dct:issued": [
-        {
-          "@value": "2025-09-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2025-09-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        }
-      ],
-      "foaf:page": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        }
-      ],
-      "dct:accrualPeriodicity": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        }
-      ],
-      "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        }
-      ],
-      "dcat:keyword": [
-        {
-          "@value": "Empleos",
-          "@language": "es"
-        },
-        {
-          "@value": "Oficiales",
-          "@language": "es"
-        },
-        {
-          "@value": "Suboficiales",
-          "@language": "es"
-        },
-        {
-          "@value": "Soldados",
-          "@language": "es"
-        },
-        {
-          "@value": "Marineros",
-          "@language": "es"
-        },
-        {
-          "@value": "Mujeres",
-          "@language": "es"
-        },
-        {
-          "@value": "carrera",
-          "@language": "es"
-        },
-        {
-          "@value": "complemento",
-          "@language": "es"
-        },
-        {
-          "@value": "intendencia",
-          "@language": "es"
-        },
-        {
-          "@value": "comunes",
-          "@language": "es"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2025-01-01T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          },
-          "dcat:endDate": {
-            "@value": "2025-12-31T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          },
-          "time:hasBeginning": {
-            "@type": "time:Instant",
-            "time:inXSDDateTime": {
-              "@value": "2025-01-01T00:00:00+01:00",
-              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-            }
-          },
-          "time:hasEnd": {
-            "@type": "time:Instant",
-            "time:inXSDDateTime": {
-              "@value": "2025-12-31T00:00:00+01:00",
-              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-            }
-          }
-        }
-      ],
-      "dcat:contactPoint": [
-        {
-          "@type": "vcard:Kind",
-          "vcard:organization-name": [
-            {
-              "@value": "Ministerio de Defensa",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasUID": [
-            {
-              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
-            }
-          ],
-          "vcard:fn": [
-            {
-              "@value": "Secretaria General Técnica Unidad Estadísitca Órgano Central",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasEmail": [
-            {
-              "@id": "mailto:infoest@oc.mde.es"
-            }
-          ],
-          "vcard:hasTelephone": [
-            {
-              "@id": "tel:+3493647427"
-            }
-          ],
-          "vcard:hasURL": [
-            {
-              "@id": "https://publicaciones.defensa.gob.es/contacts/index/"
-            }
-          ]
-        }
-      ],
-      "dcat:distribution": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010148.ods"
-        }
-      ],
-      "impulsadata:validationStatus": [
-        {
-          "@language": "es",
-          "@value": "conforme-DCAT-AP-ES"
-        }
-      ]
-    },
-    {
-      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010148.ods",
-      "@type": "dcat:Distribution",
-      "dcat:accessURL": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010148.ods"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      },
-      "dct:license": {
-        "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
-      },
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        }
-      ],
-      "dct:issued": [
-        {
-          "@value": "2026-04-30T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-04-30T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcatap:availability": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-        }
-      ],
-      "dcat:downloadURL": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010148.ods"
-        }
-      ]
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000006",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
-          "dct:type": [
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            }
-          ],
-          "foaf:name": [
-            {
-              "@value": "Ministerio de Defensa",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": [
-        {
-          "@value": "Anuario Estadístico - Personal Laboral",
-          "@language": "es"
-        }
-      ],
-      "dct:description": [
-        {
-          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
-          "@language": "es"
-        }
-      ],
-      "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        }
-      ],
-      "dct:issued": [
-        {
-          "@value": "2025-09-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2025-09-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        }
-      ],
-      "foaf:page": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        }
-      ],
-      "dct:accrualPeriodicity": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        }
-      ],
-      "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        }
-      ],
-      "dcat:keyword": [
-        {
-          "@value": "Empleos",
-          "@language": "es"
-        },
-        {
-          "@value": "Oficiales",
-          "@language": "es"
-        },
-        {
-          "@value": "Suboficiales",
-          "@language": "es"
-        },
-        {
-          "@value": "Soldados",
-          "@language": "es"
-        },
-        {
-          "@value": "Marineros",
-          "@language": "es"
-        },
-        {
-          "@value": "Mujeres",
-          "@language": "es"
-        },
-        {
-          "@value": "carrera",
-          "@language": "es"
-        },
-        {
-          "@value": "complemento",
-          "@language": "es"
-        },
-        {
-          "@value": "intendencia",
-          "@language": "es"
-        },
-        {
-          "@value": "comunes",
-          "@language": "es"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2025-01-01T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          },
-          "dcat:endDate": {
-            "@value": "2025-12-31T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          },
-          "time:hasBeginning": {
-            "@type": "time:Instant",
-            "time:inXSDDateTime": {
-              "@value": "2025-01-01T00:00:00+01:00",
-              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-            }
-          },
-          "time:hasEnd": {
-            "@type": "time:Instant",
-            "time:inXSDDateTime": {
-              "@value": "2025-12-31T00:00:00+01:00",
-              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-            }
-          }
-        }
-      ],
-      "dcat:contactPoint": [
-        {
-          "@type": "vcard:Kind",
-          "vcard:organization-name": [
-            {
-              "@value": "Ministerio de Defensa",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasUID": [
-            {
-              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
-            }
-          ],
-          "vcard:fn": [
-            {
-              "@value": "Secretaria General Técnica Unidad Estadísitca Órgano Central",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasEmail": [
-            {
-              "@id": "mailto:infoest@oc.mde.es"
-            }
-          ],
-          "vcard:hasTelephone": [
-            {
-              "@id": "tel:+3493647427"
-            }
-          ],
-          "vcard:hasURL": [
-            {
-              "@id": "https://publicaciones.defensa.gob.es/contacts/index/"
-            }
-          ]
-        }
-      ],
-      "dcat:distribution": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774261635.ods"
-        }
-      ],
-      "impulsadata:validationStatus": [
-        {
-          "@language": "es",
-          "@value": "conforme-DCAT-AP-ES"
-        }
-      ]
-    },
-    {
-      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774261635.ods",
-      "@type": "dcat:Distribution",
-      "dcat:accessURL": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774261635.ods"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      },
-      "dct:license": {
-        "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
-      },
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        }
-      ],
-      "dct:issued": [
-        {
-          "@value": "2026-04-30T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-04-30T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcatap:availability": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-        }
-      ],
-      "dcat:downloadURL": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774261635.ods"
-        }
-      ]
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:ESTADISPERSO:000007",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
-          "dct:type": [
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            }
-          ],
-          "foaf:name": [
-            {
-              "@value": "Ministerio de Defensa",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": [
-        {
-          "@value": "Anuario Estadístico - Personal Funcionario",
-          "@language": "es"
-        }
-      ],
-      "dct:description": [
-        {
-          "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.\n\nOfrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.\n\nLa calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.\n\nSe agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
-          "@language": "es"
-        }
-      ],
-      "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        }
-      ],
-      "dct:issued": [
-        {
-          "@value": "2025-09-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2025-09-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        }
-      ],
-      "foaf:page": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        }
-      ],
-      "dct:accrualPeriodicity": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
-        }
-      ],
-      "dcat:landingPage": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-        }
-      ],
-      "dcat:keyword": [
-        {
-          "@value": "Empleos",
-          "@language": "es"
-        },
-        {
-          "@value": "Oficiales",
-          "@language": "es"
-        },
-        {
-          "@value": "Suboficiales",
-          "@language": "es"
-        },
-        {
-          "@value": "Soldados",
-          "@language": "es"
-        },
-        {
-          "@value": "Marineros",
-          "@language": "es"
-        },
-        {
-          "@value": "Mujeres",
-          "@language": "es"
-        },
-        {
-          "@value": "carrera",
-          "@language": "es"
-        },
-        {
-          "@value": "complemento",
-          "@language": "es"
-        },
-        {
-          "@value": "intendencia",
-          "@language": "es"
-        },
-        {
-          "@value": "comunes",
-          "@language": "es"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2025-01-01T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          },
-          "dcat:endDate": {
-            "@value": "2025-12-31T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          },
-          "time:hasBeginning": {
-            "@type": "time:Instant",
-            "time:inXSDDateTime": {
-              "@value": "2025-01-01T00:00:00+01:00",
-              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-            }
-          },
-          "time:hasEnd": {
-            "@type": "time:Instant",
-            "time:inXSDDateTime": {
-              "@value": "2025-12-31T00:00:00+01:00",
-              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-            }
-          }
-        }
-      ],
-      "dcat:contactPoint": [
-        {
-          "@type": "vcard:Kind",
-          "vcard:organization-name": [
-            {
-              "@value": "Ministerio de Defensa",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasUID": [
-            {
-              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
-            }
-          ],
-          "vcard:fn": [
-            {
-              "@value": "Secretaria General Técnica Unidad Estadísitca Órgano Central",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasEmail": [
-            {
-              "@id": "mailto:infoest@oc.mde.es"
-            }
-          ],
-          "vcard:hasTelephone": [
-            {
-              "@id": "tel:+3493647427"
-            }
-          ],
-          "vcard:hasURL": [
-            {
-              "@id": "https://publicaciones.defensa.gob.es/contacts/index/"
-            }
-          ]
-        }
-      ],
-      "dcat:distribution": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010291.ods"
-        }
-      ],
-      "impulsadata:validationStatus": [
-        {
-          "@language": "es",
-          "@value": "conforme-DCAT-AP-ES"
-        }
-      ]
-    },
-    {
-      "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010291.ods",
-      "@type": "dcat:Distribution",
-      "dcat:accessURL": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010291.ods"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      },
-      "dct:license": {
-        "@id": "https://www.defensa.gob.es/comun/avisoLegal.html"
-      },
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        }
-      ],
-      "dct:issued": [
-        {
-          "@value": "2026-04-30T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-04-30T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcatap:availability": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-        }
-      ],
-      "dcat:downloadURL": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010291.ods"
+          "@id": "https://publicaciones.defensa.gob.es/index.php/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-1774010095.xlsx"
         }
       ]
     }
