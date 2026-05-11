@@ -436,471 +436,6 @@
         },
         {
           "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_2023_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2007_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2013_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2009_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2026_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2016_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2022_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2024_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2017_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2026_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2015_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2020_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2018_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2021_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2008_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2007_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2011_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2025_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2009_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2013_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2012_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2025_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2011_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2025_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2013_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2022_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2010_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2008_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2014_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2020_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2006_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2015_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2010_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2017_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2023_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2022_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2023_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2007_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2016_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2021_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2024_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2018_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2020_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2019_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2011_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2006_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2021_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2009_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2006_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2019_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2008_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2024_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2015_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2014_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2023_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2012_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2016_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2018_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2012_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2019_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2017_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2014_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2010_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2006_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2006_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2006_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2007_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2007_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2007_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2008_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2008_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2008_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2009_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2009_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2009_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2010_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2010_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2010_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2011_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2011_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2011_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2012_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2012_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2012_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2013_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2013_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2013_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2014_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2014_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2014_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2015_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2015_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2015_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2016_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2016_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2016_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2017_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2017_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2017_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2018_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2018_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2018_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2019_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2019_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2019_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2020_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2020_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2020_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2021_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2021_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2021_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2022_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2022_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2022_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2023_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2023_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2023_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2024_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2024_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2024_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2025_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2025_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2025_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2026_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2026_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2010_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2010_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2011_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2011_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2012_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2012_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2013_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2013_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2014_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2014_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2015_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2015_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2016_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2016_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2017_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2017_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2018_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2018_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2019_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2019_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2020_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2020_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2021_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2021_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2022_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2022_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2023_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2023_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2024_xls.xls"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2024_csv.csv"
-        },
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2025_xls.xls"
         }
       ]
     },
@@ -3509,6 +3044,324 @@
       }
     },
     {
+      "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/2",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513",
+          "@type": "foaf:Agent",
+          "dct:identifier": "EA0041513",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Servicio Público de Empleo Estatal",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": {
+        "@value": "Contratos registrados por municipio",
+        "@language": "es"
+      },
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "EA0041513",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Servicio Público de Empleo Estatal",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:description": {
+        "@value": "Datos estadísticos del SEPE sobre Contratos registrados, desagregados por municipio, sexo, tipo de contrato y sector de actividad económica.",
+        "@language": "es"
+      },
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-25T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-05-11T15:02:40+02:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
+        },
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
+        }
+      ],
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
+      },
+      "dcat:keyword": [
+        {
+          "@value": "Empleo",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@type": "dct:Location",
+          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2006-01-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Servicio Público de Empleo Estatal",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Observatorio de Ocupaciones",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:bop2807930@sepe.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:060"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://sede.sepe.gob.es/contacte/contacteInternet.do"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2007_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2013_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2009_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2026_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2016_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2022_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2024_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2017_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2026_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2015_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2020_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2018_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2021_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2008_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2007_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2011_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2025_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2009_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2013_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2012_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2025_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2011_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2025_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2013_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2022_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2010_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2008_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2014_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2020_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2006_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2015_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2010_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2017_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2023_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2022_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2023_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2007_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2016_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2021_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2024_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2018_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2020_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2019_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2011_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2006_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2021_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2009_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2006_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2019_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2008_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2024_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2015_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2014_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2023_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2012_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2016_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2018_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2012_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2019_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2017_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2014_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2010_xls.xls"
+        }
+      ]
+    },
+    {
       "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2007_xls.xls",
       "@type": "dcat:Distribution",
       "dct:title": {
@@ -6113,6 +5966,324 @@
       }
     },
     {
+      "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/3",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513",
+          "@type": "foaf:Agent",
+          "dct:identifier": "EA0041513",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Servicio Público de Empleo Estatal",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": {
+        "@value": "Paro Registrado por municipio",
+        "@language": "es"
+      },
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "EA0041513",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Servicio Público de Empleo Estatal",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:description": {
+        "@value": "Datos estadísticos del SEPE sobre Paro Registrado, desagregados por municipio, sexo, edad y sector de actividad económica.",
+        "@language": "es"
+      },
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-25T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-05-11T15:02:40+02:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
+        },
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
+        }
+      ],
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
+      },
+      "dcat:keyword": [
+        {
+          "@value": "Empleo",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@type": "dct:Location",
+          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2006-01-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Servicio Público de Empleo Estatal",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Observatorio de Ocupaciones",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:bop2807930@sepe.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:060"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://sede.sepe.gob.es/contacte/contacteInternet.do"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2006_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2006_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2006_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2007_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2007_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2007_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2008_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2008_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2008_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2009_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2009_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2009_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2010_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2010_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2010_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2011_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2011_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2011_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2012_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2012_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2012_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2013_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2013_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2013_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2014_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2014_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2014_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2015_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2015_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2015_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2016_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2016_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2016_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2017_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2017_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2017_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2018_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2018_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2018_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2019_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2019_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2019_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2020_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2020_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2020_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2021_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2021_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2021_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2022_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2022_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2022_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2023_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2023_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2023_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2024_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2024_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2024_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2025_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2025_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2025_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2026_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2026_xls.xls"
+        }
+      ]
+    },
+    {
       "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2006_csv.csv",
       "@type": "dcat:Distribution",
       "dct:title": {
@@ -8633,6 +8804,240 @@
       }
     },
     {
+      "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/4",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513",
+          "@type": "foaf:Agent",
+          "dct:identifier": "EA0041513",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Servicio Público de Empleo Estatal",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": {
+        "@value": "Gasto en prestaciones por desempleo",
+        "@language": "es"
+      },
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "EA0041513",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Servicio Público de Empleo Estatal",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:description": {
+        "@value": "Datos estadísticos del SEPE sobre Gasto en Prestaciones por Desempleo, desagregados por provincia y tipo de prestación",
+        "@language": "es"
+      },
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-25T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-05-11T15:02:40+02:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
+        },
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
+        }
+      ],
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
+      },
+      "dcat:keyword": [
+        {
+          "@value": "Empleo",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@type": "dct:Location",
+          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2010-01-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Servicio Público de Empleo Estatal",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Observatorio de Ocupaciones",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:bop2807930@sepe.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:060"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://sede.sepe.gob.es/contacte/contacteInternet.do"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2010_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2010_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2011_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2011_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2012_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2012_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2013_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2013_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2014_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2014_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2015_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2015_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2016_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2016_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2017_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2017_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2018_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2018_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2019_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2019_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2020_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2020_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2021_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2021_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2022_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2022_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2023_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2023_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2024_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2024_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2025_xls.xls"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2025_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2026_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2026_xls.xls"
+        }
+      ]
+    },
+    {
       "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2026_csv.csv",
       "@type": "dcat:Distribution",
       "dct:title": {
@@ -10019,141 +10424,6 @@
       }
     },
     {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/2",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513",
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Público de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": {
-        "@value": "Contratos registrados por municipio",
-        "@language": "es"
-      },
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Público de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:description": {
-        "@value": "Datos estadísticos del SEPE sobre Contratos registrados, desagregados por municipio, sexo, tipo de contrato y sector de actividad económica.",
-        "@language": "es"
-      },
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
-      "dct:issued": [
-        {
-          "@value": "2026-02-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-11T15:02:40+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
-        }
-      ],
-      "dct:language": {
-        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
-      },
-      "dcat:keyword": [
-        {
-          "@value": "Empleo",
-          "@language": "es"
-        }
-      ],
-      "dct:spatial": [
-        {
-          "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2006-01-01T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          }
-        }
-      ],
-      "dcat:contactPoint": [
-        {
-          "@type": "vcard:Kind",
-          "vcard:organization-name": [
-            {
-              "@value": "Servicio Público de Empleo Estatal",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasUID": [
-            {
-              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513"
-            }
-          ],
-          "vcard:fn": [
-            {
-              "@value": "Observatorio de Ocupaciones",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasEmail": [
-            {
-              "@id": "mailto:bop2807930@sepe.es"
-            }
-          ],
-          "vcard:hasTelephone": [
-            {
-              "@id": "tel:060"
-            }
-          ],
-          "vcard:hasURL": [
-            {
-              "@id": "https://sede.sepe.gob.es/contacte/contacteInternet.do"
-            }
-          ]
-        }
-      ],
-      "dcat:distribution": [
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2025_csv.csv"
-        }
-      ]
-    },
-    {
       "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2025_csv.csv",
       "@type": "dcat:Distribution",
       "dct:title": {
@@ -10196,141 +10466,6 @@
       }
     },
     {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/3",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513",
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Público de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": {
-        "@value": "Paro Registrado por municipio",
-        "@language": "es"
-      },
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Público de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:description": {
-        "@value": "Datos estadísticos del SEPE sobre Paro Registrado, desagregados por municipio, sexo, edad y sector de actividad económica.",
-        "@language": "es"
-      },
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
-      "dct:issued": [
-        {
-          "@value": "2026-02-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-11T15:02:40+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
-        }
-      ],
-      "dct:language": {
-        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
-      },
-      "dcat:keyword": [
-        {
-          "@value": "Empleo",
-          "@language": "es"
-        }
-      ],
-      "dct:spatial": [
-        {
-          "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2006-01-01T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          }
-        }
-      ],
-      "dcat:contactPoint": [
-        {
-          "@type": "vcard:Kind",
-          "vcard:organization-name": [
-            {
-              "@value": "Servicio Público de Empleo Estatal",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasUID": [
-            {
-              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513"
-            }
-          ],
-          "vcard:fn": [
-            {
-              "@value": "Observatorio de Ocupaciones",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasEmail": [
-            {
-              "@id": "mailto:bop2807930@sepe.es"
-            }
-          ],
-          "vcard:hasTelephone": [
-            {
-              "@id": "tel:060"
-            }
-          ],
-          "vcard:hasURL": [
-            {
-              "@id": "https://sede.sepe.gob.es/contacte/contacteInternet.do"
-            }
-          ]
-        }
-      ],
-      "dcat:distribution": [
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2026_csv.csv"
-        }
-      ]
-    },
-    {
       "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2026_csv.csv",
       "@type": "dcat:Distribution",
       "dct:title": {
@@ -10371,141 +10506,6 @@
       "dcatap:applicableLegislation": {
         "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
       }
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/4",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513",
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Público de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": {
-        "@value": "Gasto en prestaciones por desempleo",
-        "@language": "es"
-      },
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "EA0041513",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Servicio Público de Empleo Estatal",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:description": {
-        "@value": "Datos estadísticos del SEPE sobre Gasto en Prestaciones por Desempleo, desagregados por provincia y tipo de prestación",
-        "@language": "es"
-      },
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
-      "dct:issued": [
-        {
-          "@value": "2026-02-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-11T15:02:40+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
-        },
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
-        }
-      ],
-      "dct:language": {
-        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
-      },
-      "dcat:keyword": [
-        {
-          "@value": "Empleo",
-          "@language": "es"
-        }
-      ],
-      "dct:spatial": [
-        {
-          "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2010-01-01T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          }
-        }
-      ],
-      "dcat:contactPoint": [
-        {
-          "@type": "vcard:Kind",
-          "vcard:organization-name": [
-            {
-              "@value": "Servicio Público de Empleo Estatal",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasUID": [
-            {
-              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513"
-            }
-          ],
-          "vcard:fn": [
-            {
-              "@value": "Observatorio de Ocupaciones",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasEmail": [
-            {
-              "@id": "mailto:bop2807930@sepe.es"
-            }
-          ],
-          "vcard:hasTelephone": [
-            {
-              "@id": "tel:060"
-            }
-          ],
-          "vcard:hasURL": [
-            {
-              "@id": "https://sede.sepe.gob.es/contacte/contacteInternet.do"
-            }
-          ]
-        }
-      ],
-      "dcat:distribution": [
-        {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2026_xls.xls"
-        }
-      ]
     },
     {
       "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2026_xls.xls",
