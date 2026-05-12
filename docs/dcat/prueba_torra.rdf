@@ -1,524 +1,423 @@
-<?xml version='1.0' encoding='utf-8'?>
-<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcatap="http://data.europa.eu/r5r/" xmlns:dct="http://purl.org/dc/terms/" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
-  <dcat:Catalog rdf:about="https://prees-datalab.ine.es">
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA" />
-    </dct:language>
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/ENG" />
-    </dct:language>
-    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector" />
-    <foaf:homepage rdf:resource="https://prees-datalab.ine.es" />
-    <dct:license>
-      <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
-        <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR" />
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:adms="http://www.w3.org/ns/adms#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:odrs="http://schema.theodi.org/odrs#"
+         xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+         xmlns:dcatap="http://data.europa.eu/r5r/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:spdx="http://spdx.org/rdf/terms#"
+         xmlns:odrl="http://www.w3.org/ns/odrl/2/">
+
+  <dcat:Catalog rdf:about="http://dcat-ap-es.ejemplo.org/catalogo">
+    <dc:title xml:lang="es">Catálogo de Datos Abiertos</dc:title>
+    <dc:description xml:lang="es">Catálogo de Datos Abiertos que sirve de ejemplo en DCAT-AP-ES.</dc:description>
+    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-01T12:00:00+01:00</dc:issued>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-02T12:00:00+01:00</dc:modified>
+    <foaf:homepage rdf:resource="http://dcat-ap-es.ejemplo.org"/>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
+    <dc:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dc:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dc:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+    <dcat:catalog rdf:resource="http://dcat-ap-es.ejemplo.org/catalogo_relacionado"/>
+    <dcat:record rdf:resource="http://dcat-ap-es.ejemplo.org/catalogo/record/dataset-ejemplo-1"/>
+
+    <dc:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"/>
+
+    <dc:hasPart rdf:resource="http://dcat-ap-es.ejemplo.org/catalogo-vinculado"/>
+    <dc:isPartOf rdf:resource="http://dcat-ap-es.ejemplo.org/catalogo-delqueformaparte"/>
+    <dc:rights>
+      <rdf:Description rdf:about="http://dcat-ap-es.ejemplo.org/catalogo/derechos-de-acceso">
+        <rdf:type rdf:resource="http://schema.theodi.org/odrs#RightsStatement"/>
+        <rdfs:label>Derechos relativos a la reutilización del Catálogo de Datos Abiertos</rdfs:label>
+        <odrs:dataLicense rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+        <odrs:attributionText>Atribución de autoría al Organismo</odrs:attributionText>
+        <odrs:attributionURL rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"/>
       </rdf:Description>
-    </dct:license>
-    <dct:title xml:lang="es">Catalogo Datos ES_Datalab</dct:title>
-    <dct:description xml:lang="es">ES_DataLab nace para contribuir al desarrollo de la investigación facilitando a la comunidad investigadora el acceso conjunto a las bases de datos de las instituciones participantes para trabajos científicos de interés público. Permite el acceso a microdatos, en un entorno que garantiza la confidencialidad de la información. Se proporcionan datos confidenciales, que no permiten la identificación directa de las unidades, procedentes de distintas bases de datos.La capacidad de poder cruzar las bases de datos de las instituciones participantes maximiza el valor que los datos pueden ofrecer al desarrollo de la investigación.Estas bases de datos pertenecen a dos o más de los siguientes organismos públicos: Instituto Nacional de Estadística (INE), Agencia Estatal de Administración Tributaria (AEAT), Secretaría de Estado de Seguridad Social y Pensiones, Tesorería General de la Seguridad Social (TGSS), Instituto Nacional de la Seguridad Social (INSS), Instituto Social de la Marina (ISM), Gerencia de Informática de la Seguridad Social (GISS), Servicio Público de Empleo Estatal (SEPE) y Banco de España (BdE). Estos organismos han firmado un convenio que ampara este proyecto.</dct:description>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-05T06:57:13+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-06</dct:issued>
-    <dct:publisher>
-      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0010587">
-        <foaf:name xml:lang="en">INE</foaf:name>
-        <foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name>
-        <foaf:mbox rdf:resource="mailto:organismo@example.org" />
-        <foaf:homepage rdf:resource="https://organismo.example.org/" />
-        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" />
-        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0010587</dct:identifier>
-      </foaf:Agent>
-    </dct:publisher>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/i000003811">
-        <dct:title xml:lang="en">DatasetName1</dct:title>
-        <dct:title xml:lang="es">NombreCjtoDato1</dct:title>
-        <dct:description xml:lang="en">descript dataset1</dct:description>
-        <dct:description xml:lang="es">descrip cjto datos1</dct:description>
-        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/i000003811" />
-        <dcat:landingPage rdf:resource="https://datos.comercio.gob.es/dataset/indicadoreseconomicos" />
-        <dcat:landingPage rdf:resource="https://www.mineco.gob.es/portal/site/mineco/menuitem.9b76eb9e6e3cb59c3f1f3f1028618a0c/?vgnextoid=12345abcd" />
-        <dct:identifier>I00000381_1</dct:identifier>
-        <adms:versionNotes xml:lang="en">Version notes</adms:versionNotes>
-        <adms:versionNotes xml:lang="es">Notas version</adms:versionNotes>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OP_DATPRO" />
-        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/SYNTHETIC_DATA" />
-        <dcat:keyword xml:lang="es">etiqueta1, etiqueta2</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-09</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-01</dct:issued>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG" />
-        <dct:isReferencedBy rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/series-temporales-macro" />
-        <dct:isReferencedBy rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/datos-inflacion-consumo" />
-        <dct:isReferencedBy rdf:resource="https://www.mineco.gob.es/estudios/analisis-impacto-indicadores-economicos.pdf" />
-        <dct:isReferencedBy rdf:resource="https://revistaeconomica.gob.es/articulos/uso-indicadores-economicos-datos-abiertos" />
-        <dct:source rdf:resource="https://datos.gob.es/dataset/estadisticas-macroeconomicas-ine" />
-        <dct:source rdf:resource="https://datos.gob.es/dataset/boe-indicadores-financieros" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
-        <dct:temporal>
-          <dct:PeriodOfTime rdf:nodeID="N516f4c6159104209b56fb6bc8f7aa8b7">
-            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-28</dcat:startDate>
-            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-17</dcat:endDate>
-            <time:hasBeginning>
-              <time:Instant rdf:nodeID="Nf61b8dd521d5421aaca50d12f44ac0c0">
-                <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-28</time:inXSDDate>
-              </time:Instant>
-            </time:hasBeginning>
-            <time:hasEnd>
-              <time:Instant rdf:nodeID="Nf19502019a824f00afa530f25b178cd9">
-                <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-17</time:inXSDDate>
-              </time:Instant>
-            </time:hasEnd>
-          </dct:PeriodOfTime>
-        </dct:temporal>
-        <dct:provenance rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/provenance/departamento-estadistica-mineco" />
-        <dct:provenance rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/provenance/actualizacion-trimestral-ine" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-        <dcat:distribution rdf:resource="https://prees-datalab.ine.es/dataset/i000003811/resource/ckan" />
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj" />
-        <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_e1da4e07" />
-        <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_04bf94a3" />
-        <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">500</dcat:spatialResolutionInMeters>
-        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid" />
-        <dct:spatial>
-          <dct:Location rdf:nodeID="Nc8be0b4893e64430af036ee0f724009e">
-            <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</locn:Geometry>
-            <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</dcat:bbox>
-            <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8150 40.5250)</dcat:centroid>
-          </dct:Location>
-        </dct:spatial>
-        <dcat:version>Version 1</dcat:version>
-        <dcat:hasVersion rdf:resource="https://prees-datalab.ine.es/dataset/i000003811" />
-        <dcat:isVersionOf rdf:resource="https://prees-datalab.ine.es/dataset/i000003811" />
-        <dct:relation rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/series-temporales-macro" />
-        <dct:relation rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/datos-inflacion-consumo" />
-        <prov:wasGeneratedBy rdf:resource="https://datos.gob.es/recurso/actividad/proyecto-indicadores-economicos-2024" />
-        <prov:wasGeneratedBy rdf:resource="https://datos.gob.es/recurso/actividad/encuesta-sector-publico-ine-2023" />
-        <dct:conformsTo rdf:resource="http://publications.europa.eu/resource/authority/data-specification/INSPIRE_DLS" />
-        <dct:conformsTo rdf:resource="https://schema.org/Dataset" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0010587"><foaf:name xml:lang="en">INE</foaf:name><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><foaf:mbox rdf:resource="mailto:organismo@example.org" /><foaf:homepage rdf:resource="https://organismo.example.org/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0010587</dct:identifier></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0010587"><foaf:name xml:lang="en">INE</foaf:name><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><foaf:mbox rdf:resource="mailto:organismo@example.org" /><foaf:homepage rdf:resource="https://organismo.example.org/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0010587</dct:identifier></foaf:Agent></dct:creator>
-        <adms:identifier>
-          <adms:Identifier rdf:nodeID="N6d17e910c1da41d68e48c535e554c509">
-            <skos:notation>DCAT-AP</skos:notation>
-            <dct:identifier rdf:resource="https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe" />
-            <dct:conformsTo>W3C DCAT-AP 2.1.1</dct:conformsTo>
-            <foaf:page rdf:resource="https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe" />
-            <rdfs:comment>Perfil de aplicación europeo del estándar DCAT para catálogos de datos.</rdfs:comment>
-            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-10</dct:issued>
-            <dct:format>RDF / JSON-LD</dct:format>
-          </adms:Identifier>
-        </adms:identifier>
-        <dcat:contactPoint>
-          <vcard:Kind rdf:nodeID="Nbd86f4e0c0de4a4ba42d578ef6d38276">
-            <vcard:fn xml:lang="es">Unidad C</vcard:fn>
-            <vcard:hasEmail rdf:resource="mailto:orgCarrobaeconomia.gob.es" />
-            <vcard:hasURL rdf:resource="https://orgC.gob.es/info" />
-            <vcard:organization-name xml:lang="es">Nombre Org C</vcard:organization-name>
-            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381" />
-            <vcard:hasTelephone rdf:resource="tel:+3210000003" />
-          </vcard:Kind>
-        </dcat:contactPoint>
-        <dcat:contactPoint>
-          <vcard:Kind rdf:nodeID="N9f300f0bcc7e4e1785d295dc0dcc32b1">
-            <vcard:fn xml:lang="es">Unidad D</vcard:fn>
-            <vcard:hasEmail rdf:resource="mailto:orgDarrobaeconomia.gob.es" />
-            <vcard:hasURL rdf:resource="https://orgD.gob.es/info" />
-            <vcard:organization-name xml:lang="es">Nombre Org D</vcard:organization-name>
-            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381" />
-            <vcard:hasTelephone rdf:resource="tel:+3210000004" />
-          </vcard:Kind>
-        </dcat:contactPoint>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe302331">
-        <dct:title xml:lang="es">Estadística de Productos en el Sector Comercio</dct:title>
-        <dct:description xml:lang="en">To analyse the main structural characteristics of enterprises in the trade sector</dct:description>
-        <dct:description xml:lang="es">Investigar las principales características estructurales específicas de las empresas del sector comercio</dct:description>
-        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe302331" />
-        <dct:identifier>IOE30233_1</dct:identifier>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
-        <dcat:keyword xml:lang="en">Number of enterprises, breakdown of turnover by product and type of customer</dcat:keyword>
-        <dcat:keyword xml:lang="pt">Número de empresas, desagregación de la cifra de negocios por producto y tipo de cliente</dcat:keyword>
-        <dcat:keyword xml:lang="es">Number of enterprises, breakdown of turnover by product and type of customer</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-28</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</dct:issued>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/comercio" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe302331/resource/tramites-htm">
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/MSG_HTTP" />
-    <dcat:accessURL rdf:resource="https://es-datalab.es/es/tramites.htm#" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-28</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-04T14:04:07+00:00</dct:issued>
-    <dct:accessRights rdf:resource="https://tbd.org" />
-    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-    <dct:rights rdf:resource="https://tbd.org" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Instituto Nacional de Estadística | INE</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe300821">
-        <dct:title xml:lang="es">Estadística de Filiales de Empresas Españolas en el Exterior</dct:title>
-        <dct:description xml:lang="en">To analyse the main structural and economic characteristics of affiliate companies and branches located abroad that are ultimately controlled by a unit resident in the Spanish economy</dct:description>
-        <dct:description xml:lang="es">Investigar las principales características estructurales y económicas de las empresas filiales y sucursales ubicadas en el exterior que son controladas por una unidad en última instancia residente en la economía española</dct:description>
-        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe300821" />
-        <dct:identifier>IOE30082_1</dct:identifier>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
-        <dcat:keyword xml:lang="es">Cifra de negocios, número de personas empleadas y número de empresas, gastos por retribuciones a los asalariados, inversión bruta en activos no corrientes tangibles, Turnover, number of persons employed and number of enterprises, employee compensation costs, gross investment in tangible non-current assets</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-25</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</dct:issued>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe300821/resource/tramites-htm">
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/MSG_HTTP" />
-    <dcat:accessURL rdf:resource="https://es-datalab.es/es/tramites.htm#" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-25</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-04T14:04:10+00:00</dct:issued>
-    <dct:accessRights rdf:resource="https://tbd.org" />
-    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-    <dct:rights rdf:resource="https://tbd.org" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Instituto Nacional de Estadística | INE</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe304478">
-        <dct:title xml:lang="es">Encuesta de Empleo del Tiempo:FICHERO SDHOGAR. SERVICIO DOMÉSTICO</dct:title>
-        <dct:description xml:lang="en">Knowledge of activities carried out by persons: production of goods and services (paid and unpaid), distribution of household family responsibilities, participation of the population in culture and leisure activities, time spent on transport and other activities</dct:description>
-        <dct:description xml:lang="es">Conocimiento de las actividades realizadas por las personas: actividad de producción de bienes y servicios (renumeradas y no remuneradas), distribución de las responsabilidades familiares del hogar, participación de la población en actividades culturales y de ocio, tiempo empleado en transporte y en otras actividades</dct:description>
-        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe304478" />
-        <dct:identifier>IOE30447_8</dct:identifier>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
-        <dcat:keyword xml:lang="en">Level, structure and distribution of the populations time in different activities, percentage of persons carrying out different activities and their average and aggregate duration</dcat:keyword>
-        <dcat:keyword xml:lang="es">Nivel, estructura y distribución del tiempo de la población en diferentes actividades, porcentaje de personas que realizan distintas actividades y duración promedio y agregada de aquéllas</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-14</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-01-01</dct:issued>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe304478/resource/tramites-htm">
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/MSG_HTTP" />
-    <dcat:accessURL rdf:resource="https://es-datalab.es/es/tramites.htm#" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-14</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-04T13:52:42+00:00</dct:issued>
-    <dct:accessRights rdf:resource="https://tbd.org" />
-    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-    <dct:rights rdf:resource="https://tbd.org" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Instituto Nacional de Estadística | INE</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Instituto Nacional de Estadística | INE</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe304477">
-        <dct:title xml:lang="es">Encuesta de Empleo del Tiempo:FICHERO HTR2. HORARIOS DE TRABAJO (1)</dct:title>
-        <dct:description xml:lang="en">Knowledge of activities carried out by persons: production of goods and services (paid and unpaid), distribution of household family responsibilities, participation of the population in culture and leisure activities, time spent on transport and other activities</dct:description>
-        <dct:description xml:lang="es">Conocimiento de las actividades realizadas por las personas: actividad de producción de bienes y servicios (renumeradas y no remuneradas), distribución de las responsabilidades familiares del hogar, participación de la población en actividades culturales y de ocio, tiempo empleado en transporte y en otras actividades</dct:description>
-        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe304477" />
-        <dct:identifier>IOE30447_7</dct:identifier>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
-        <dcat:keyword xml:lang="en">Level, structure and distribution of the populations time in different activities, percentage of persons carrying out different activities and their average and aggregate duration</dcat:keyword>
-        <dcat:keyword xml:lang="es">Nivel, estructura y distribución del tiempo de la población en diferentes actividades, porcentaje de personas que realizan distintas actividades y duración promedio y agregada de aquéllas</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-14</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-01-01</dct:issued>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe304477/resource/tramites-htm">
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/MSG_HTTP" />
-    <dcat:accessURL rdf:resource="https://es-datalab.es/es/tramites.htm#" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-14</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-04T13:52:43+00:00</dct:issued>
-    <dct:accessRights rdf:resource="https://tbd.org" />
-    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-    <dct:rights rdf:resource="https://tbd.org" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Instituto Nacional de Estadística | INE</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Instituto Nacional de Estadística | INE</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe304476">
-        <dct:title xml:lang="es">Encuesta de Empleo del Tiempo: FICHERO HTR1. CARACTERÍSTICAS HORARIO DE TRABAJO</dct:title>
-        <dct:description xml:lang="en">Knowledge of activities carried out by persons: production of goods and services (paid and unpaid), distribution of household family responsibilities, participation of the population in culture and leisure activities, time spent on transport and other activities</dct:description>
-        <dct:description xml:lang="es">Conocimiento de las actividades realizadas por las personas: actividad de producción de bienes y servicios (renumeradas y no remuneradas), distribución de las responsabilidades familiares del hogar, participación de la población en actividades culturales y de ocio, tiempo empleado en transporte y en otras actividades</dct:description>
-        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe304476" />
-        <dct:identifier>IOE30447_6</dct:identifier>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
-        <dcat:keyword xml:lang="en">Level, structure and distribution of the populations time in different activities, percentage of persons carrying out different activities and their average and aggregate duration</dcat:keyword>
-        <dcat:keyword xml:lang="es">Nivel, estructura y distribución del tiempo de la población en diferentes actividades, porcentaje de personas que realizan distintas actividades y duración promedio y agregada de aquéllas</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-14</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-01-01</dct:issued>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe304476/resource/tramites-htm">
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/MSG_HTTP" />
-    <dcat:accessURL rdf:resource="https://es-datalab.es/es/tramites.htm#" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-14</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-04T13:52:38+00:00</dct:issued>
-    <dct:accessRights rdf:resource="https://tbd.org" />
-    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-    <dct:rights rdf:resource="https://tbd.org" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Instituto Nacional de Estadística | INE</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Instituto Nacional de Estadística | INE</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe304475">
-        <dct:title xml:lang="es">Encuesta de Empleo del Tiempo:FICHERO DIARIO2. DIARIO DE ACTIVIDADES (1)</dct:title>
-        <dct:description xml:lang="en">Knowledge of activities carried out by persons: production of goods and services (paid and unpaid), distribution of household family responsibilities, participation of the population in culture and leisure activities, time spent on transport and other activities</dct:description>
-        <dct:description xml:lang="es">Conocimiento de las actividades realizadas por las personas: actividad de producción de bienes y servicios (renumeradas y no remuneradas), distribución de las responsabilidades familiares del hogar, participación de la población en actividades culturales y de ocio, tiempo empleado en transporte y en otras actividades</dct:description>
-        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe304475" />
-        <dct:identifier>IOE30447_5</dct:identifier>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
-        <dcat:keyword xml:lang="en">Level, structure and distribution of the populations time in different activities, percentage of persons carrying out different activities and their average and aggregate duration</dcat:keyword>
-        <dcat:keyword xml:lang="es">Nivel, estructura y distribución del tiempo de la población en diferentes actividades, porcentaje de personas que realizan distintas actividades y duración promedio y agregada de aquéllas</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-14</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-01-01</dct:issued>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe304475/resource/tramites-htm">
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/MSG_HTTP" />
-    <dcat:accessURL rdf:resource="https://es-datalab.es/es/tramites.htm#" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-14</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-04T13:52:45+00:00</dct:issued>
-    <dct:accessRights rdf:resource="https://tbd.org" />
-    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-    <dct:rights rdf:resource="https://tbd.org" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Instituto Nacional de Estadística | INE</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Instituto Nacional de Estadística | INE</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe304474">
-        <dct:title xml:lang="es">Encuesta de Empleo del Tiempo:FICHERO DIARIO1.  INFORMACIÓN COMPLEMENTARIA A DIARIO DE ACTIVIDADES</dct:title>
-        <dct:description xml:lang="en">Knowledge of activities carried out by persons: production of goods and services (paid and unpaid), distribution of household family responsibilities, participation of the population in culture and leisure activities, time spent on transport and other activities</dct:description>
-        <dct:description xml:lang="es">Conocimiento de las actividades realizadas por las personas: actividad de producción de bienes y servicios (renumeradas y no remuneradas), distribución de las responsabilidades familiares del hogar, participación de la población en actividades culturales y de ocio, tiempo empleado en transporte y en otras actividades</dct:description>
-        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe304474" />
-        <dct:identifier>IOE30447_4</dct:identifier>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
-        <dcat:keyword xml:lang="en">Level, structure and distribution of the populations time in different activities, percentage of persons carrying out different activities and their average and aggregate duration</dcat:keyword>
-        <dcat:keyword xml:lang="es">Nivel, estructura y distribución del tiempo de la población en diferentes actividades, porcentaje de personas que realizan distintas actividades y duración promedio y agregada de aquéllas</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-14</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-01-01</dct:issued>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe304474/resource/tramites-htm">
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/MSG_HTTP" />
-    <dcat:accessURL rdf:resource="https://es-datalab.es/es/tramites.htm#" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-14</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-04T13:52:44+00:00</dct:issued>
-    <dct:accessRights rdf:resource="https://tbd.org" />
-    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-    <dct:rights rdf:resource="https://tbd.org" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Instituto Nacional de Estadística | INE</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Instituto Nacional de Estadística | INE</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe304473">
-        <dct:title xml:lang="es">Encuesta de Empleo del Tiempo:FICHERO CINDIV. CUESTIONARIO INDIVIDUAL</dct:title>
-        <dct:description xml:lang="en">Knowledge of activities carried out by persons: production of goods and services (paid and unpaid), distribution of household family responsibilities, participation of the population in culture and leisure activities, time spent on transport and other activities</dct:description>
-        <dct:description xml:lang="es">Conocimiento de las actividades realizadas por las personas: actividad de producción de bienes y servicios (renumeradas y no remuneradas), distribución de las responsabilidades familiares del hogar, participación de la población en actividades culturales y de ocio, tiempo empleado en transporte y en otras actividades</dct:description>
-        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe304473" />
-        <dct:identifier>IOE30447_3</dct:identifier>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
-        <dcat:keyword xml:lang="en">Level, structure and distribution of the populations time in different activities, percentage of persons carrying out different activities and their average and aggregate duration</dcat:keyword>
-        <dcat:keyword xml:lang="es">Nivel, estructura y distribución del tiempo de la población en diferentes actividades, porcentaje de personas que realizan distintas actividades y duración promedio y agregada de aquéllas</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-14</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-01-01</dct:issued>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe304473/resource/tramites-htm">
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/MSG_HTTP" />
-    <dcat:accessURL rdf:resource="https://es-datalab.es/es/tramites.htm#" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-14</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-04T13:52:39+00:00</dct:issued>
-    <dct:accessRights rdf:resource="https://tbd.org" />
-    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-    <dct:rights rdf:resource="https://tbd.org" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Instituto Nacional de Estadística | INE</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Instituto Nacional de Estadística | INE</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe304472">
-        <dct:title xml:lang="es">Encuesta de Empleo del Tiempo:FICHERO MHOGAR. MIEMBROS DEL HOGAR</dct:title>
-        <dct:description xml:lang="en">Knowledge of activities carried out by persons: production of goods and services (paid and unpaid), distribution of household family responsibilities, participation of the population in culture and leisure activities, time spent on transport and other activities</dct:description>
-        <dct:description xml:lang="es">Conocimiento de las actividades realizadas por las personas: actividad de producción de bienes y servicios (renumeradas y no remuneradas), distribución de las responsabilidades familiares del hogar, participación de la población en actividades culturales y de ocio, tiempo empleado en transporte y en otras actividades</dct:description>
-        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe304472" />
-        <dct:identifier>IOE30447_2</dct:identifier>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
-        <dcat:keyword xml:lang="en">Level, structure and distribution of the populations time in different activities, percentage of persons carrying out different activities and their average and aggregate duration</dcat:keyword>
-        <dcat:keyword xml:lang="es">Nivel, estructura y distribución del tiempo de la población en diferentes actividades, porcentaje de personas que realizan distintas actividades y duración promedio y agregada de aquéllas</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-14</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-01-01</dct:issued>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe304472/resource/tramites-htm">
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/MSG_HTTP" />
-    <dcat:accessURL rdf:resource="https://es-datalab.es/es/tramites.htm#" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-14</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-04T13:52:37+00:00</dct:issued>
-    <dct:accessRights rdf:resource="https://tbd.org" />
-    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-    <dct:rights rdf:resource="https://tbd.org" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Instituto Nacional de Estadística | INE</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Instituto Nacional de Estadística | INE</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe304471">
-        <dct:title xml:lang="es">Encuesta de Empleo del Tiempo: FICHERO DHOGAR. CUESTIONARIO DE  HOGAR</dct:title>
-        <dct:description xml:lang="en">Knowledge of activities carried out by persons: production of goods and services (paid and unpaid), distribution of household family responsibilities, participation of the population in culture and leisure activities, time spent on transport and other activities</dct:description>
-        <dct:description xml:lang="es">Conocimiento de las actividades realizadas por las personas: actividad de producción de bienes y servicios (renumeradas y no remuneradas), distribución de las responsabilidades familiares del hogar, participación de la población en actividades culturales y de ocio, tiempo empleado en transporte y en otras actividades</dct:description>
-        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe304471" />
-        <dct:identifier>IOE30447_1</dct:identifier>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
-        <dcat:keyword xml:lang="en">Level, structure and distribution of the populations time in different activities, percentage of persons carrying out different activities and their average and aggregate duration</dcat:keyword>
-        <dcat:keyword xml:lang="es">Nivel, estructura y distribución del tiempo de la población en diferentes actividades, porcentaje de personas que realizan distintas actividades y duración promedio y agregada de aquéllas</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-14</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-01-01</dct:issued>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe304471/resource/tramites-htm">
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/MSG_HTTP" />
-    <dcat:accessURL rdf:resource="https://es-datalab.es/es/tramites.htm#" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-14</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-04T13:52:46+00:00</dct:issued>
-    <dct:accessRights rdf:resource="https://tbd.org" />
-    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-    <dct:rights rdf:resource="https://tbd.org" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Instituto Nacional de Estadística | INE</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Instituto Nacional de Estadística | INE</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
-      </dcat:Dataset>
-    </dcat:dataset>
+    </dc:rights>
+
+    <dc:temporal>
+      <dc:PeriodOfTime>
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-03T12:00:00+01:00</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-03T12:00:00+01:00</dcat:endDate>
+      </dc:PeriodOfTime>
+    </dc:temporal>
+
+    <dcat:dataset rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-1"/>
+    <dcat:dataset rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-2"/>
+    <dcat:dataset rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-3"/>
+    <dcat:service rdf:resource="http://dcat-ap-es.ejemplo.org/dataservice/dataservice-ejemplo-1"/>
   </dcat:Catalog>
-  <dcat:DataService rdf:about="https://serviciosweb.mineco.gob.es/comercio/api/">
-    <dct:title xml:lang="en">Data service 1</dct:title>
-    <dct:title xml:lang="es">Servicio Datos 1</dct:title>
-    <dct:description xml:lang="en">Descripción2</dct:description>
-    <dct:description xml:lang="es">Descripción1</dct:description>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-    <dcat:endpointDescription rdf:resource="https://ideihm.covam.es/wfs-inspire/hidrografia?SERVICE=WFS&amp;REQUEST=GetCapabilities" />
-    <dcat:endpointDescription rdf:resource="https://portal.datos.gob.es/docs/descripcion_servicio_datos.pdf" />
-    <dcat:endpointURL rdf:resource="https://serviciosweb.mineco.gob.es/indicadores/api/" />
-    <dcat:endpointURL rdf:resource="https://api.comercio.gob.es/series-temporales/" />
-    <dcat:servesDataset rdf:resource="https://datos.comercio.gob.es/dataset/indicadores-economicos" />
-    <dcat:servesDataset rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior" />
-    <dcatap:applicableLegislation>
-      <eli:LegalResource rdf:about="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
-    </dcatap:applicableLegislation>
-    <dcatap:applicableLegislation>
-      <eli:LegalResource rdf:about="http://data.europa.eu/eli/dir/2019/1024/oj" />
-    </dcatap:applicableLegislation>
-    <foaf:page>
-      <dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/i000003811/resource/ckan">
-        <dct:title xml:lang="en">Foreign Trade — PDF</dct:title>
-        <dct:title xml:lang="es">Comercio Exterior — PDF</dct:title>
-        <dct:description xml:lang="en">PDF distribution for external trade report</dct:description>
-        <dct:description xml:lang="es">Distribución en formato PDF con el informe anual de comercio exterior</dct:description>
-        <foaf:page rdf:resource="https://datos.comercio.gob.es/docs/metodologia_informe_comercio.pdf" />
-        <foaf:page rdf:resource="https://datos.comercio.gob.es/docs/estructura_informe_comercio.html" />
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG" />
-        <dct:conformsTo rdf:resource="https://schema.org/Dataset" />
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF" />
-        <dcat:accessURL rdf:resource="https://prees-datalab.ine.es/ckan/" />
-        <dcat:downloadURL rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf" />
-        <dcat:downloadURL rdf:resource="https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf.zip" />
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-01</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-01T00:00:00+00:00</dct:issued>
-        <dct:accessRights rdf:resource="https://schema.theodi.org/odrs/rightsholder" />
-        <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2048</dcat:byteSize>
-        <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip" />
-        <dcat:packageFormat rdf:resource="http://www.iana.org/assignments/media-types/application/zip" />
-        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
-        <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000</dcat:spatialResolutionInMeters>
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj" />
-        <dcat:accessService rdf:resource="https://serviciosweb.mineco.gob.es/comercio/api/" />
-        <dct:rights rdf:resource="https://schema.theodi.org/odrs/rightsholder" />
-        <odrl:hasPolicy rdf:resource="https://datos.comercio.gob.es/policy/cc-by-4.0" />
-        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/pdf" />
+
+  <dcat:Catalog rdf:about="http://dcat-ap-es.ejemplo.org/catalogo-vinculado">
+    <dc:title xml:lang="es">Catálogo vinculado</dc:title>
+    <dc:description xml:lang="es">Catálogo asociado que sirve de ejemplo en DCAT-AP-ES.</dc:description>
+    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T09:00:00+01:00</dc:issued>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-02T12:00:00+01:00</dc:modified>
+    <foaf:homepage rdf:resource="http://dcat-ap-es.ejemplo.org/catalogo-vinculado"/>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
+    <dc:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dc:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dc:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="http://dcat-ap-es.ejemplo.org/catalogo-vinculado/dataset/ejemplo">
+        <dc:title xml:lang="es">Dataset ejemplo en catálogo vinculado</dc:title>
+        <dc:description xml:lang="es">Dataset de ejemplo en el catálogo vinculado</dc:description>
+        <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"/>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
+        <dcat:keyword xml:lang="es">ejemplo</dcat:keyword>
+        <dc:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+        <dcat:contactPoint>
+          <vcard:Organization>
+            <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
+            <vcard:fn xml:lang="es">Oficina del dato</vcard:fn>
+            <vcard:hasURL rdf:resource="http://dcat-ap-es.ejemplo.org/"/>
+            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"/>
+            <vcard:hasEmail rdf:resource="mailto:info-contacto@dcat-ap-es.ejemplo.org"/>
+            <vcard:hasTelephone rdf:resource="tel:.+3491222222"/>
+          </vcard:Organization>
+        </dcat:contactPoint>
+
+        <dc:temporal>
+          <dc:PeriodOfTime>
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-01T00:00:00Z</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-31T23:59:59Z</dcat:endDate>
+          </dc:PeriodOfTime>
+        </dc:temporal>
+
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://dcat-ap-es.ejemplo.org/catalogo-vinculado/distribucion/ejemplo">
+            <dc:title xml:lang="es">Distribución de ejemplo en formato CSV</dc:title>
+            <dcat:accessURL rdf:resource="http://dcat-ap-es.ejemplo.org/catalogo-vinculado/files/ejemplo.csv"/>
+            <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2007/2/2019-06-26"/>
+            <dc:description xml:lang="es">Descripción de una distribución distribuida de ejemplo</dc:description>
+            <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/STABLE"/>
+            <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dc:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+
+      </dcat:Dataset>
+    </dcat:dataset>
+
+  </dcat:Catalog>
+
+  <dcat:Dataset rdf:about="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-1">
+    <dc:title xml:lang="es">Dataset de ejemplo 1</dc:title>
+    <dc:description xml:lang="es">Descripción de un dataset de ejemplo 1</dc:description>
+    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"/>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
+    <dcat:keyword xml:lang="es">estadísticas</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://dcat-ap-es.ejemplo.org/contactDataset"/>
+    <dc:temporal>
+      <dc:PeriodOfTime>
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-01T12:00:00+01:00</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-01T12:00:00+01:00</dcat:endDate>
+      </dc:PeriodOfTime>
+    </dc:temporal>
+
+    <dc:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid"/>
+    <dc:identifier>IDD1</dc:identifier>
+    <dc:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"/>
+    <foaf:page rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-1/page"/>
+    <dcat:landingPage rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-1/landing"/>
+    <adms:sample rdf:resource="http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-1-CSV"/>
+    <dc:conformsTo rdf:resource="http://normativaespecifica-dataset.com"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-01T12:00:00+01:00</dc:issued>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-01T12:00:00+01:00</dc:modified>
+    <dc:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dc:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dc:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+    <dcat:version>1</dcat:version>
+    <adms:versionNotes xml:lang="es">Version 1</adms:versionNotes>
+    <dcat:qualifiedRelation>
+      <dcat:Relationship>
+        <dc:relation rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-2"/>
+        <dc:type rdf:resource="http://www.w3.org/ns/dcat#isReferencedBy"/>
+        <dcat:hadRole rdf:resource="http://purl.org/dc/terms/references"/>
+      </dcat:Relationship>
+    </dcat:qualifiedRelation>
+
+    <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</dcat:spatialResolutionInMeters>
+    <dcat:temporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">PT24M</dcat:temporalResolution>
+    <dc:isReferencedBy rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-2"/>
+    <dc:provenance rdf:resource="http://dcat-ap-es.ejemplo.org/provenance/statement1"/>
+    <prov:qualifiedAttribution>
+      <prov:Attribution>
+        <dcat:hadRole rdf:resource="http://purl.org/dc/terms/publisher"/>
+        <prov:agent rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"/>
+      </prov:Attribution>
+    </prov:qualifiedAttribution>
+
+    <prov:wasGeneratedBy rdf:resource="http://dcat-ap-es.ejemplo.org/actividad/generacion-dataset"/>
+    <dcat:hasVersion rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-2"/>
+    <dc:isVersionOf rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-3"/>
+    <dc:source rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-raiz-ejemplo-1"/>
+    <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:distribution rdf:resource="http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-1-CSV"/>
+  </dcat:Dataset>
+
+  <vcard:Organization rdf:about="http://dcat-ap-es.ejemplo.org/contactDataset">
+    <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
+    <vcard:fn xml:lang="es">Oficina del dato</vcard:fn>
+    <vcard:hasURL rdf:resource="http://dcat-ap-es.ejemplo.org/"/>
+    <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"/>
+    <vcard:hasEmail rdf:resource="mailto:info-contacto@dcat-ap-es.ejemplo.org"/>
+    <vcard:hasTelephone rdf:resource="tel:.+3491222222"/>
+  </vcard:Organization>
+
+  <prov:Activity rdf:about="http://dcat-ap-es.ejemplo.org/actividad/generacion-dataset">
+    <rdfs:label>Proceso de generación del dataset</rdfs:label>
+    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-10T12:00:00+01:00</prov:startedAtTime>
+    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-20T12:00:00+01:00</prov:endedAtTime>
+  </prov:Activity>
+
+  <dcat:Distribution rdf:about="http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-1-CSV">
+    <dcat:accessURL rdf:resource="http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-1-CSV/files/1T2p3o4B.CSV"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2007/2/2019-06-26"/>
+    <dc:description xml:lang="es">Descripción de un distribución de ejemplo 1</dc:description>
+    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/STABLE"/>
+    <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dc:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/calendar"/>
+    <dcat:accessService rdf:resource="http://dcat-ap-es.ejemplo.org/dataservice/dataservice-ejemplo-1"/>
+    <dc:title xml:lang="es">Distribución de ejemplo 1</dc:title>
+    <dc:title xml:lang="en">Example distribution 1</dc:title>
+    <foaf:page rdf:resource="http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-1-CSV/page"/>
+    <dcat:downloadURL rdf:resource="http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-1-CSV/download"/>
+    <dc:conformsTo rdf:resource="http://normativaespecifica-distribucion.com"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-05T12:00:00+01:00</dc:issued>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-06T12:00:00+01:00</dc:modified>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+    <dc:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/gzip"/>
+    <dcat:packageFormat rdf:resource="http://www.iana.org/assignments/media-types/application/json"/>
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1000</dcat:byteSize>
+    <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">199.0</dcat:spatialResolutionInMeters>
+    <dcat:temporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">PT99M</dcat:temporalResolution>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">4304CF2E751E6053C90B1804C89C0EBB758F395A</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+
+    <odrl:hasPolicy rdf:resource="http://publications.europa.eu/resource/authority/access-right/SENSITIVE"/>
+    <dc:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/CONFIDENTIAL"/>
+  </dcat:Distribution>
+
+  <dcat:Dataset rdf:about="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-2">
+    <dc:title xml:lang="es">Dataset de ejemplo 2</dc:title>
+    <dc:description xml:lang="es">Descripción de un dataset de ejemplo 2</dc:description>
+    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"/>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
+    <dcat:keyword xml:lang="es">estadísticas</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://dcat-ap-es.ejemplo.org/contactDataset"/>
+    <dc:temporal>
+      <dc:PeriodOfTime>
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-01T12:00:00+01:00</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-01T12:00:00+01:00</dcat:endDate>
+      </dc:PeriodOfTime>
+    </dc:temporal>
+
+    <dc:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid"/>
+    <dc:identifier>IDD2</dc:identifier>
+    <dc:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"/>
+    <foaf:page rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-2/page"/>
+    <dcat:landingPage rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-2/landing"/>
+    <adms:sample rdf:resource="http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-1-CSV"/>
+    <dc:conformsTo rdf:resource="http://normativaespecifica-dataset.com"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-01T12:00:00+01:00</dc:issued>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-01T12:00:00+01:00</dc:modified>
+    <dc:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dc:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dc:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+    <dcat:version>2</dcat:version>
+    <adms:versionNotes xml:lang="es">Version 2</adms:versionNotes>
+    <dcat:qualifiedRelation>
+      <dcat:Relationship>
+        <dc:relation rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-3"/>
+        <dc:type rdf:resource="http://www.w3.org/ns/dcat#isReferencedBy"/>
+        <dcat:hadRole rdf:resource="http://purl.org/dc/terms/references"/>
+      </dcat:Relationship>
+    </dcat:qualifiedRelation>
+
+    <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</dcat:spatialResolutionInMeters>
+    <dcat:temporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">PT24M</dcat:temporalResolution>
+    <dc:isReferencedBy rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-3"/>
+    <dc:provenance rdf:resource="http://dcat-ap-es.ejemplo.org/provenance/statement1"/>
+    <prov:qualifiedAttribution>
+      <prov:Attribution>
+        <dcat:hadRole rdf:resource="http://purl.org/dc/terms/publisher"/>
+        <prov:agent rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"/>
+      </prov:Attribution>
+    </prov:qualifiedAttribution>
+
+    <prov:wasGeneratedBy rdf:resource="http://dcat-ap-es.ejemplo.org/actividad/generacion-dataset"/>
+    <dc:source rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-raiz-ejemplo-1"/>
+    <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-2-CSV">
+        <dcat:accessURL rdf:resource="http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-2-CSV/files/1T2p3o4B.CSV"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2007/2/2019-06-26"/>
+        <dc:description xml:lang="es">Descripción de un distribución de ejemplo 2</dc:description>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/STABLE"/>
+        <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dc:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+        <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/calendar"/>
+        <dc:title xml:lang="es">Distribución de ejemplo 2</dc:title>
+        <foaf:page rdf:resource="http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-2-CSV/page"/>
+        <dcat:downloadURL rdf:resource="http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-2-CSV/download"/>
+        <dc:conformsTo rdf:resource="http://normativaespecifica-distribucion.com"/>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-05T12:00:00+01:00</dc:issued>
+        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-06T12:00:00+01:00</dc:modified>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+        <dc:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/gzip"/>
+        <dcat:packageFormat rdf:resource="http://www.iana.org/assignments/media-types/application/json"/>
+        <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2000</dcat:byteSize>
+        <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">299.0</dcat:spatialResolutionInMeters>
+        <dcat:temporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">PT99M</dcat:temporalResolution>
+        <spdx:checksum>
+          <spdx:Checksum>
+            <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">4304CF2E751E6053C90B1804C89C0EBB758F395A</spdx:checksumValue>
+            <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+          </spdx:Checksum>
+        </spdx:checksum>
+
+        <odrl:hasPolicy rdf:resource="http://publications.europa.eu/resource/authority/access-right/SENSITIVE"/>
+        <dc:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/CONFIDENTIAL"/>
       </dcat:Distribution>
-    </foaf:page>
-    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_e1da4e07" />
-    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_04bf94a3" />
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
-    <dct:publisher>
-      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121">
-        <foaf:name xml:lang="en">MINECO</foaf:name>
-        <foaf:name xml:lang="es">Ministerio de Asuntos Económicos y Transformación Digital</foaf:name>
-        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121</dct:identifier>
-        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" />
-      </foaf:Agent>
-    </dct:publisher>
-    <dcat:keyword xml:lang="en">comercio exterior</dcat:keyword>
-    <dcat:keyword xml:lang="es">indicadores económicos</dcat:keyword>
+    </dcat:distribution>
+
+  </dcat:Dataset>
+
+  <dcat:Dataset rdf:about="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-3">
+    <dc:title xml:lang="es">Dataset de ejemplo 3</dc:title>
+    <dc:description xml:lang="es">Descripción de un dataset de ejemplo 3</dc:description>
+    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"/>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
+    <dcat:keyword xml:lang="es">estadísticas</dcat:keyword>
+    <dcat:contactPoint rdf:resource="http://dcat-ap-es.ejemplo.org/contactDataset"/>
+    <dc:temporal>
+      <dc:PeriodOfTime>
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-01T12:00:00+01:00</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-01T12:00:00+01:00</dcat:endDate>
+      </dc:PeriodOfTime>
+    </dc:temporal>
+
+    <dc:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid"/>
+    <dc:identifier>IDD3</dc:identifier>
+    <dc:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"/>
+    <foaf:page rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-3/page"/>
+    <dcat:landingPage rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-3/landing"/>
+    <adms:sample rdf:resource="http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-1-CSV"/>
+    <dc:conformsTo rdf:resource="http://normativaespecifica-dataset.com"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-01T12:00:00+01:00</dc:issued>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-01T12:00:00+01:00</dc:modified>
+    <dc:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL"/>
+    <dc:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dc:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+    <dcat:version>3</dcat:version>
+    <adms:versionNotes xml:lang="es">Version 3</adms:versionNotes>
+    <dcat:qualifiedRelation>
+      <dcat:Relationship>
+        <dc:relation rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-1"/>
+        <dc:type rdf:resource="http://www.w3.org/ns/dcat#isReferencedBy"/>
+        <dcat:hadRole rdf:resource="http://purl.org/dc/terms/references"/>
+      </dcat:Relationship>
+    </dcat:qualifiedRelation>
+
+    <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</dcat:spatialResolutionInMeters>
+    <dcat:temporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">PT24M</dcat:temporalResolution>
+    <dc:isReferencedBy rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-1"/>
+    <dc:provenance rdf:resource="http://dcat-ap-es.ejemplo.org/provenance/statement1"/>
+    <prov:qualifiedAttribution>
+      <prov:Attribution>
+        <dcat:hadRole rdf:resource="http://purl.org/dc/terms/publisher"/>
+        <prov:agent rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"/>
+      </prov:Attribution>
+    </prov:qualifiedAttribution>
+
+    <prov:wasGeneratedBy rdf:resource="http://dcat-ap-es.ejemplo.org/actividad/generacion-dataset"/>
+    <dc:source rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-raiz-ejemplo-1"/>
+    <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-3-CSV">
+        <dcat:accessURL rdf:resource="http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-3-CSV/files/1T2p3o4B.CSV"/>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2007/2/2019-06-26"/>
+        <dc:description xml:lang="es">Descripción de un distribución de ejemplo 3</dc:description>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/STABLE"/>
+        <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dc:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+        <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/calendar"/>
+        <dc:title xml:lang="es">Distribución de ejemplo 3</dc:title>
+        <foaf:page rdf:resource="http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-3-CSV/page"/>
+        <dcat:downloadURL rdf:resource="http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-3-CSV/download"/>
+        <dc:conformsTo rdf:resource="http://normativaespecifica-distribucion.com"/>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-05T12:00:00+01:00</dc:issued>
+        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-06T12:00:00+01:00</dc:modified>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+        <dc:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/gzip"/>
+        <dcat:packageFormat rdf:resource="http://www.iana.org/assignments/media-types/application/json"/>
+        <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3000</dcat:byteSize>
+        <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">399.0</dcat:spatialResolutionInMeters>
+        <dcat:temporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">PT99M</dcat:temporalResolution>
+        <spdx:checksum>
+          <spdx:Checksum>
+            <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">4304CF2E751E6053C90B1804C89C0EBB758F395A</spdx:checksumValue>
+            <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+          </spdx:Checksum>
+        </spdx:checksum>
+
+        <odrl:hasPolicy rdf:resource="http://publications.europa.eu/resource/authority/access-right/SENSITIVE"/>
+        <dc:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/CONFIDENTIAL"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+
+  </dcat:Dataset>
+
+  <dcat:DataService rdf:about="http://dcat-ap-es.ejemplo.org/dataservice/dataservice-ejemplo-1">
+    <dc:title xml:lang="es">Data Service de ejemplo</dc:title>
+    <dcat:endpointURL rdf:resource="http://api.dcat-ap-es.ejemplo.org/dataservice/dataservice-ejemplo-1"/>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
+    <dc:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"/>
     <dcat:contactPoint>
-      <vcard:Kind rdf:about="https://prees-datalab.ine.es/kos/role/vCard%20Org%20A/contact">
-        <vcard:fn xml:lang="es">Unidad A</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:orgAarrobaeconomia.gob.es" />
-        <vcard:hasURL rdf:resource="https://orgA.gob.es/info" />
-        <vcard:hasTelephone rdf:resource="tel:+3210000001" />
-        <vcard:organization-name xml:lang="es">Nombre Org A</vcard:organization-name>
-        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121" />
-      </vcard:Kind>
+      <vcard:Organization rdf:about="http://dcat-ap-es.ejemplo.org/contactDataservice">
+        <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
+        <vcard:fn xml:lang="es">Oficina del dato</vcard:fn>
+        <vcard:hasURL rdf:resource="http://dcat-ap-es.ejemplo.org/"/>
+        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"/>
+        <vcard:hasEmail rdf:resource="mailto:info-contacto@dcat-ap-es.ejemplo.org"/>
+        <vcard:hasTelephone rdf:resource="tel:.+3491222222"/>
+      </vcard:Organization>
     </dcat:contactPoint>
-    <dcat:contactPoint>
-      <vcard:Kind rdf:about="https://prees-datalab.ine.es/kos/role/vCard%20Org%20C/contact">
-        <vcard:fn xml:lang="es">Unidad C</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:orgCarrobaeconomia.gob.es" />
-        <vcard:hasURL rdf:resource="https://orgC.gob.es/info" />
-        <vcard:hasTelephone rdf:resource="tel:+3210000003" />
-        <vcard:organization-name xml:lang="es">Nombre Org C</vcard:organization-name>
-        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381" />
-      </vcard:Kind>
-    </dcat:contactPoint>
+
+    <foaf:page rdf:resource="https://dcat-ap-es.ejemplo.org/api/doc.html"/>
+    <dcat:endpointDescription rdf:resource="http://dcat-ap-es.ejemplo.org/dataservice/dataservice-ejemplo-1-HVD?service=CSW"/>
+    <dcat:servesDataset rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-1"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2007/2/2019-06-26"/>
+    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_b7f6a4f3"/>
+    <dc:description xml:lang="es">Descripción de un dataservice de ejemplo.</dc:description>
+    <dc:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/OP_DATPRO"/>
+    <dc:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:keyword xml:lang="es">estadísticas</dcat:keyword>
   </dcat:DataService>
-  <eli:LegalResource rdf:about="http://data.europa.eu/eli/reg/2022/868/oj" />
-  <prov:Activity rdf:about="https://datos.gob.es/recurso/actividad/encuesta-sector-publico-ine-2023" />
-  <prov:Activity rdf:about="https://datos.gob.es/recurso/actividad/proyecto-indicadores-economicos-2024" />
+
+  <dcat:CatalogRecord rdf:about="http://dcat-ap-es.ejemplo.org/catalogo/record/dataset-ejemplo-1">
+    <foaf:primaryTopic rdf:resource="http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-1"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-02T12:00:00+01:00</dc:modified>
+    <dc:conformsTo rdf:resource="http://datos.gob.es/es/documentacion/DCAT-AP-ES"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-01T12:00:00+01:00</dc:issued>
+    <adms:status rdf:resource="http://purl.org/adms/status/Completed"/>
+    <dc:title xml:lang="es">Registro del Dataset de ejemplo 1</dc:title>
+    <dc:description xml:lang="es">Registro de metadatos del Dataset de ejemplo 1 del Catálogo de Datos Abiertos</dc:description>
+  </dcat:CatalogRecord>
+
 </rdf:RDF>
