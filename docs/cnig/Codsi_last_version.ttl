@@ -8639,10 +8639,14 @@ La ortofotografía con información RGB+IR se publica en el sistema geodésico d
         "Instituto de Estadística y Cartografía de Andalucía. Junta de Andalucía"@es .
 
 <http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901> a foaf:Agent ;
+    dcterms:identifier "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901" ;
+    dcterms:type <http://purl.org/adms/publishertype/NationalAuthority> ;
     foaf:name "National Geographic Institute"@en,
         "Instituto Geográfico Nacional"@es .
 
 <http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000008> a foaf:Agent ;
+    dcterms:identifier "http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000008" ;
+    dcterms:type <http://purl.org/adms/publishertype/NationalAuthority> ;
     foaf:name "Diputació de Barcelona - Oficina d'Activitats"@cat,
         "Barcelona Provincial Council - Activities Office"@en,
         "Diputación de Barcelona - Oficina de actividades"@es .
@@ -13249,7 +13253,9 @@ Cartagena: noviembre 2025"""@es ;
         <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
 
 <http://datos.gob.es/recurso/sector-publico/org/Organismo/E00127105> a foaf:Agent ;
-    foaf:name "Dirección General de Catastro. España"@es .
+    foaf:name "Dirección General de Catastro. España"@es ;
+    dcterms:type <http://purl.org/adms/publishertype/NationalAuthority> ;
+    dcterms:identifier "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00127105" .
 
 <http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000048> a foaf:Agent ;
     dcterms:identifier "http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000048" ;
@@ -39572,9 +39578,13 @@ Debe señalarse que la información no es completa, porque hasta la cuarta fase 
     vcard:organization-name "Organismo"@es .
 
 <http://datos.gob.es/recurso/sector-publico/org/Organismo/A09002970> a foaf:Agent ;
+    dcterms:identifier "http://datos.gob.es/recurso/sector-publico/org/Organismo/A09002970" ;
+    dcterms:type <http://purl.org/adms/publishertype/NationalAuthority> ;
     foaf:name "Departament d'Acció Climàtica, Alimentació i Agenda Rural (Generalitat de Catalunya)"@cat,
         "Direcció General de Polítiques Ambientals i Medi Natural (Government of Catalonia)"@en,
         "Departamento de Acción Climática, Alimentación y Agenda Rural (Generalitat de Catalunya)"@es .
+        
+        
 
 <https://www.idee.es/csw-codsi-idee/srv/api/records/DirectorateGeneralforCadastre.Spain> a vcard:Organization ;
     vcard:fn "Directorate General for Cadastre. Spain"@es ;
@@ -41004,5 +41014,4 @@ Debe señalarse que la información no es completa, porque hasta la cuarta fase 
     dcterms:identifier "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002" ;
     dcterms:type <http://purl.org/adms/publishertype/NationalAuthority> ;
     foaf:name "Catálogo Oficial de Datos y Servicios INSPIRE"@es .
-
 
