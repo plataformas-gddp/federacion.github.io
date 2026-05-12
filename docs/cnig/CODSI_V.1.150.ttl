@@ -13259,8 +13259,7 @@ Cartagena: noviembre 2025"""@es ;
 <http://datos.gob.es/recurso/sector-publico/org/Organismo/E00127105> a foaf:Agent ;
     dcterms:identifier "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00127105" ;
     dcterms:type <http://purl.org/adms/publishertype/NationalAuthority> ;
-    foaf:name "Dirección General de Catastro. España"@es,
-        "Directorate General for Cadastre. Spain"@es .
+    foaf:name "Directorate General for Cadastre. Spain"@es .
 
 <http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000048> a foaf:Agent ;
     dcterms:identifier "http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000048" ;
@@ -39135,7 +39134,8 @@ Esta información responde a las obligaciones del Art. 13 de la Directiva 2000/6
     vcard:organization-name "Organismo"@es .
 
 <https://www.idee.es/csw-codsi-idee/srv/api/records/MinisterioparalaTransicionEcologicayelRetoDemografico.DireccionGeneraldelAgua(DGA).SubdireccionGeneraldePlanificacionHidrologica(SGPH).> a vcard:Organization ;
-    vcard:fn "Ministerio para la Transición Ecológica y el Reto Demográfico. Dirección General del Agua (DGA). Subdirección General de Planificación Hidrológica (SGPH)."@es ;
+    vcard:fn "Ministerio para la Transición Ecológica y el Reto Demográfico . Dirección General del Agua (DGA). Subdirección General de Planificación Hidrológica (SGPH)."@es,
+        "Ministerio para la Transición Ecológica y el Reto Demográfico. Dirección General del Agua (DGA). Subdirección General de Planificación Hidrológica (SGPH)."@es ;
     vcard:hasEmail <mailto:bzn-sgph@miteco.es> ;
     vcard:organization-name "Organismo"@es .
 
