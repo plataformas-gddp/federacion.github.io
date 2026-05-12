@@ -13,8 +13,7 @@
     "locn": "http://www.w3.org/ns/locn#",
     "time": "http://www.w3.org/2006/time#",
     "adms": "http://www.w3.org/ns/adms#",
-    "odrl": "http://www.w3.org/ns/odrl/2/",
-    "impulsadata": "http://tragsatec.es/def/impulsadata#"
+    "odrl": "http://www.w3.org/ns/odrl/2/"
   },
   "@graph": [
     {
@@ -22,161 +21,401 @@
       "@type": "dcat:Catalog",
       "dct:publisher": [
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234201",
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001",
           "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234201",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001",
+          "dct:type": [
+            {
+              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+            }
+          ],
           "foaf:name": [
             {
-              "@value": "Ministerio de Cultura",
+              "@value": "Coordinación Iniciativa Aporta",
               "@language": "es"
             }
           ]
         }
       ],
-      "dct:title": {
-        "@value": "Catálogo de Datos Abiertos del Ministerio de Cultura",
-        "@language": "es"
-      },
+      "dct:title": [
+        {
+          "@value": "Catálogo de Datos Abiertos",
+          "@language": "es"
+        }
+      ],
       "dct:issued": [
         {
-          "@value": "2026-05-05T12:03:36Z",
+          "@value": "2020-01-01T12:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-05T12:03:36Z",
+          "@value": "2025-01-02T12:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
-      "dct:description": {
-        "@value": "Catálogo con los fondos documentales públicos del Ministerio de Cultura del Reino de España",
-        "@language": "es"
-      },
-      "dct:language": {
-        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-      },
-      "foaf:homepage": [
+      "dct:creator": [
         {
-          "@id": "https://www.cultura.gob.es/portada.html"
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001",
+          "dct:type": [
+            {
+              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+            }
+          ],
+          "foaf:name": [
+            {
+              "@value": "Coordinación Iniciativa Aporta",
+              "@language": "es"
+            }
+          ]
         }
       ],
-      "dct:license": {
-        "@id": "https://www.cultura.gob.es/comunes/aviso-legal.html"
-      },
+      "dct:description": [
+        {
+          "@value": "Catálogo de Datos Abiertos que sirve de ejemplo en DCAT-AP-ES.",
+          "@language": "es"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        }
+      ],
+      "foaf:homepage": [
+        {
+          "@id": "http://dcat-ap-es.ejemplo.org"
+        }
+      ],
+      "dct:license": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+        }
+      ],
       "dcat:themeTaxonomy": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector"
-        },
+        }
+      ],
+      "dct:rights": [
         {
-          "@id": "http://publications.europa.eu/resource/authority/data-theme"
+          "@id": "http://dcat-ap-es.ejemplo.org/catalogo/derechos-de-acceso"
         }
       ],
       "dcat:dataset": [
         {
-          "@id": "https://datos.organismo.es/dataset/ES-MCU-000001"
-        }
-      ],
-      "impulsadata:validationStatus": [
-        {
-          "@language": "es",
-          "@value": "conforme-DCAT-AP-ES"
+          "@id": "https://datos.organismo.es/dataset/IDD1"
         }
       ]
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/ES-MCU-000001",
+      "@id": "https://datos.organismo.es/dataset/IDD1",
       "dct:publisher": [
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234201",
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001",
           "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234201",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001",
+          "dct:type": [
+            {
+              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+            }
+          ],
           "foaf:name": [
             {
-              "@value": "Ministerio de Cultura",
+              "@value": "Coordinación Iniciativa Aporta",
               "@language": "es"
             }
           ]
         }
       ],
-      "dct:title": {
-        "@value": "Encuesta del Ateneo",
-        "@language": "es"
-      },
-      "dct:description": {
-        "@value": "La \"información general en toda España\" sobre costumbres de nacimiento, matrimonio y defunción, conocida como \"Encuesta del Ateneo\", fue organizada desde la Sección de Ciencias Morales y Políticas del Ateneo Científico, Literario y Artístico de Madrid, durante el Curso de 1901-1902.",
-        "@language": "es"
-      },
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
+      "dct:title": [
+        {
+          "@value": "Dataset de ejemplo 1",
+          "@language": "es"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001",
+          "dct:type": [
+            {
+              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+            }
+          ],
+          "foaf:name": [
+            {
+              "@value": "Coordinación Iniciativa Aporta",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:description": [
+        {
+          "@value": "Descripción de un dataset de ejemplo 1",
+          "@language": "es"
+        }
+      ],
+      "dct:accessRights": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+        }
+      ],
       "dct:issued": [
         {
-          "@value": "2026-05-05T12:03:36Z",
+          "@value": "2024-01-01T12:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-05T12:03:36Z",
+          "@value": "2024-02-01T12:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dcat:theme": [
         {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/cultura-ocio"
-        },
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"
+        }
+      ],
+      "dct:language": [
         {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/demografia"
-        },
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        }
+      ],
+      "dct:accrualPeriodicity": [
         {
-          "@id": "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+          "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
+        }
+      ],
+      "dct:conformsTo": [
+        {
+          "@id": "http://normativaespecifica-dataset.com"
+        }
+      ],
+      "dcat:version": "1",
+      "dcat:hasVersion": [
+        {
+          "@id": "http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-2"
+        }
+      ],
+      "dcat:isVersionOf": [
+        {
+          "@id": "http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-3"
+        }
+      ],
+      "dct:provenance": [
+        {
+          "@id": "http://dcat-ap-es.ejemplo.org/provenance/statement1"
+        }
+      ],
+      "dct:source": [
+        {
+          "@id": "http://dcat-ap-es.ejemplo.org/dataset/dataset-raiz-ejemplo-1"
+        }
+      ],
+      "dct:isReferencedBy": [
+        {
+          "@id": "http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-2"
+        }
+      ],
+      "dcat:temporalResolution": [
+        {
+          "@value": "PT24M",
+          "@type": "xsd:duration"
+        }
+      ],
+      "dcat:qualifiedRelation": [
+        {
+          "@id": "http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-2"
+        }
+      ],
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "estadísticas",
+          "@language": "es"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2024-01-01T00:00:00Z",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2024-12-31T23:59:59Z",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "time:hasBeginning": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2024-01-01T00:00:00Z",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          },
+          "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inXSDDateTime": {
+              "@value": "2024-12-31T23:59:59Z",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "@id": "https://www.vcard.com",
+          "vcard:organization-name": [
+            {
+              "@value": "Organismo",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Oficina del dato",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:info-contacto@dcat-ap-es.ejemplo.org"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:.+3491222222"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "http://dcat-ap-es.ejemplo.org/"
+            }
+          ]
         }
       ],
       "dcat:distribution": [
         {
-          "@id": "https://datosabiertos.cultura.gob.es/ES-MCU-000001.csv"
-        }
-      ],
-      "impulsadata:validationStatus": [
-        {
-          "@language": "es",
-          "@value": "conforme-DCAT-AP-ES"
+          "@id": "Distribución de ejemplo 1"
         }
       ]
     },
     {
-      "@id": "https://datosabiertos.cultura.gob.es/ES-MCU-000001.csv",
+      "@id": "Distribución de ejemplo 1",
       "@type": "dcat:Distribution",
-      "dct:title": {
-        "@value": "Encuesta del Ateneo - CSV",
-        "@language": "es"
-      },
-      "dcat:accessURL": {
-        "@id": "https://datosabiertos.cultura.gob.es/ES-MCU-000001.csv"
-      },
+      "dct:title": [
+        {
+          "@value": "Distribución de ejemplo 1",
+          "@language": "es"
+        }
+      ],
+      "dcat:accessURL": [
+        {
+          "@id": "http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-1-CSV/files/1T2p3o4B.CSV"
+        }
+      ],
       "dct:format": {
         "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
       },
       "dct:license": {
-        "@id": "https://www.cultura.gob.es/comunes/aviso-legal.html"
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
       },
+      "dct:description": [
+        {
+          "@value": "Descripción de un distribución de ejemplo 1",
+          "@language": "es"
+        }
+      ],
+      "foaf:page": [
+        {
+          "@id": "http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-1-CSV/page"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        }
+      ],
+      "dct:conformsTo": [
+        {
+          "@id": "http://normativaespecifica-distribucion.com"
+        }
+      ],
       "dct:issued": [
         {
-          "@value": "2026-05-05T12:03:36Z",
+          "@value": "2024-01-05T12:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-05T12:03:36Z",
+          "@value": "2024-01-06T12:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
-      "dcat:downloadURL": {
-        "@id": "https://datosabiertos.cultura.gob.es/ES-MCU-000001.csv"
-      }
+      "dcat:byteSize": [
+        {
+          "@value": "1000",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/planned-availability/STABLE"
+        }
+      ],
+      "dcatap:applicableLegislation": [
+        {
+          "@id": "http://data.europa.eu/eli/dir/2007/2/2019-06-26"
+        }
+      ],
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "199.0",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dct:rights": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/access-right/CONFIDENTIAL"
+        }
+      ],
+      "dcat:downloadURL": [
+        {
+          "@id": "http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-1-CSV/download"
+        }
+      ],
+      "dcat:packageFormat": [
+        {
+          "@id": "http://www.iana.org/assignments/media-types/application/json"
+        }
+      ],
+      "dcat:mediaType": [
+        {
+          "@id": "https://www.iana.org/assignments/media-types/text/calendar"
+        }
+      ],
+      "odrl:hasPolicy": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/access-right/SENSITIVE"
+        }
+      ]
     }
   ]
 }
