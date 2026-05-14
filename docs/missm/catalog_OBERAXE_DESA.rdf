@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcatap="http://data.europa.eu/r5r/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+  <dcat:Catalog rdf:about="https://10.99.193.1:8443">
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA" />
+    </dct:language>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP" />
+    <dct:spatial>
+      <dct:Location rdf:nodeID="N84f4cb4bdff644509c7be6c43c1e6715">
+        <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</dcat:bbox>
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8150 40.5250)</dcat:centroid>
+        <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</locn:Geometry>
+      </dct:Location>
+    </dct:spatial>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector" />
+    <dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme" />
+    <foaf:homepage rdf:resource="https://10.99.193.1:8443" />
+    <dct:license>
+      <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR" />
+      </rdf:Description>
+    </dct:license>
+    <dct:title xml:lang="es">CKAN</dct:title>
+    <dct:description xml:lang="es">Catalogo de datos abiertos del MISSM</dct:description>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T09:33:20+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</dct:issued>
+    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"><foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones.</foaf:name><foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." /><foaf:homepage rdf:resource="https://www.inclusion.gob.es/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier></foaf:Agent></dct:publisher>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"><foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones.</foaf:name><foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." /><foaf:homepage rdf:resource="https://www.inclusion.gob.es/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier></foaf:Agent></dct:creator>
+    <dct:temporal>
+      <dct:PeriodOfTime rdf:nodeID="N89d4c38648174a7ca67d44a28f882c92">
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-31</dcat:endDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://10.99.193.1:8443/dataset/e0e55a26a71c42bc9d0bc5bd6c00fab0">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+        <dct:title xml:lang="es">Expresión del lenguaje empleado en los mensajes de discurso de odio</dct:title>
+        <dct:description xml:lang="es">Este conjunto de datos analiza las características del lenguaje utilizado en los mensajes de discurso de odio. Clasifica los contenidos según la forma en que se construye el mensaje, distinguiendo entre lenguaje agresivo explícito, lenguaje discriminatorio no agresivo e ironía o sarcasmo. Permite estudiar tanto las expresiones directas como las formas más veladas o encubiertas de difusión del discurso de odio en redes sociales.</dct:description>
+        <dcat:landingPage rdf:resource="https://10.99.193.1:8443/dataset/e0e55a26a71c42bc9d0bc5bd6c00fab0" />
+        <dct:identifier>E0E55A26-A71C-42BC-9D0B-C5BD6C00FAB0</dct:identifier>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:10+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:10+00:00</dct:issued>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI" />
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://10.99.193.1:8443/dataset/e0e55a26a71c42bc9d0bc5bd6c00fab0/resource/conjunto-datos-oberaxe-expresion-del-lenguaje">
+    <dct:title xml:lang="es">Expresión del lenguaje empleado en los mensajes de discurso de odio</dct:title>
+    <dct:description xml:lang="es">Este conjunto de datos analiza las características del lenguaje utilizado en los mensajes de discurso de odio. Clasifica los contenidos según la forma en que se construye el mensaje, distinguiendo entre lenguaje agresivo explícito, lenguaje discriminatorio no agresivo e ironía o sarcasmo. Permite estudiar tanto las expresiones directas como las formas más veladas o encubiertas de difusión del discurso de odio en redes sociales.</dct:description>
+    <foaf:page rdf:resource="https://www.inclusion.gob.es/documents/d/oberaxe/nota-metodologica-sistema-faro" />
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+    <dcat:accessURL rdf:resource="https://www.inclusion.gob.es/documents/d/guest/conjunto-datos-oberaxe-expresion-del-lenguaje" />
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:10+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+00:00</dct:issued>
+    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+    <dcat:downloadURL rdf:resource="https://www.inclusion.gob.es/documents/d/guest/conjunto-datos-oberaxe-expresion-del-lenguaje" />
+  </dcat:Distribution>
+  </dcat:distribution>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"><foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones.</foaf:name><foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." /><foaf:homepage rdf:resource="https://www.inclusion.gob.es/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier></foaf:Agent></dct:publisher>
+        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"><foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones.</foaf:name><foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." /><foaf:homepage rdf:resource="https://www.inclusion.gob.es/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier></foaf:Agent></dct:creator>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:nodeID="N61dc0ad0cf524c8f8881aced2195f699">
+            <vcard:fn xml:lang="es">OBERAXE</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:oberaxe@inclusion.gob.es" />
+            <vcard:hasURL rdf:resource="https://www.inclusion.gob.es/web/oberaxe/sobre-oberaxe" />
+            <vcard:organization-name xml:lang="es">http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</vcard:organization-name>
+            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/MISSM" />
+            <vcard:hasTelephone rdf:resource="tel:913637000" />
+          </vcard:Kind>
+        </dcat:contactPoint>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset><dcat:Dataset rdf:about="https://10.99.193.1:8443/dataset/c66198f02db445769be2cd84cee14375">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+    <dct:title xml:lang="es">Género de las personas a las que van dirigidos los mensajes de discurso de odio</dct:title>
+    <dct:description xml:lang="es">Este conjunto de datos clasifica los mensajes de discurso de odio según el género de las personas a las que van dirigidos, atendiendo a variables gramaticales de género. Permite analizar si los contenidos se dirigen a hombres o mujeres y estudiar cómo las dinámicas de género pueden intersecarse con otras formas de discriminación presentes en el discurso de odio monitorizado.</dct:description>
+    <dcat:landingPage rdf:resource="https://10.99.193.1:8443/dataset/c66198f02db445769be2cd84cee14375" />
+    <dct:identifier>C66198F0-2DB4-4576-9BE2-CD84CEE14375</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:11+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:11+00:00</dct:issued>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI" />
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://10.99.193.1:8443/dataset/c66198f02db445769be2cd84cee14375/resource/conjunto-datos-oberaxe-genero">
+        <dct:title xml:lang="es">Género de las personas a las que van dirigidos los mensajes de discurso de odio</dct:title>
+        <dct:description xml:lang="es">Este conjunto de datos clasifica los mensajes de discurso de odio según el género de las personas a las que van dirigidos, atendiendo a variables gramaticales de género. Permite analizar si los contenidos se dirigen a hombres o mujeres y estudiar cómo las dinámicas de género pueden intersecarse con otras formas de discriminación presentes en el discurso de odio monitorizado.</dct:description>
+        <foaf:page rdf:resource="https://www.inclusion.gob.es/documents/d/oberaxe/nota-metodologica-sistema-faro" />
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dcat:accessURL rdf:resource="https://www.inclusion.gob.es/documents/d/guest/conjunto-datos-oberaxe-genero" />
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:11+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+00:00</dct:issued>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcat:downloadURL rdf:resource="https://www.inclusion.gob.es/documents/d/guest/conjunto-datos-oberaxe-genero" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"><foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones.</foaf:name><foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." /><foaf:homepage rdf:resource="https://www.inclusion.gob.es/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier></foaf:Agent></dct:publisher>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"><foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones.</foaf:name><foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." /><foaf:homepage rdf:resource="https://www.inclusion.gob.es/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier></foaf:Agent></dct:creator>
+    <dcat:contactPoint>
+      <vcard:Kind rdf:nodeID="Ncd2af66df58a4c33b66caba65e73d47b">
+        <vcard:fn xml:lang="es">OBERAXE</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:oberaxe@inclusion.gob.es" />
+        <vcard:hasURL rdf:resource="https://www.inclusion.gob.es/web/oberaxe/sobre-oberaxe" />
+        <vcard:organization-name xml:lang="es">http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</vcard:organization-name>
+        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/MISSM" />
+        <vcard:hasTelephone rdf:resource="tel:913637000" />
+      </vcard:Kind>
+    </dcat:contactPoint>
+  </dcat:Dataset>
+  </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://10.99.193.1:8443/dataset/6efb0358ce1242288fd0c4ecffb2e933">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+        <dct:title xml:lang="es">Grupo Diana objeto del discurso de odio</dct:title>
+        <dct:description xml:lang="es">Este conjunto de datos clasifica los contenidos de discurso de odio según el grupo de población al que van dirigidos, atendiendo a la motivación racista, xenófoba, islamófoba, antisemita o antigitana del mensaje detectado. Permite identificar los colectivos más frecuentemente atacados y analizar las dinámicas de discriminación que afectan a personas migrantes, personas musulmanas, comunidad gitana, comunidad judía, personas africanas y afrodescendientes, personas refugiadas, niños, niñas y adolescentes no acompañados, entre otros grupos.</dct:description>
+        <dcat:landingPage rdf:resource="https://10.99.193.1:8443/dataset/6efb0358ce1242288fd0c4ecffb2e933" />
+        <dct:identifier>6EFB0358-CE12-4228-8FD0-C4ECFFB2E933</dct:identifier>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:10+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:10+00:00</dct:issued>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI" />
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://10.99.193.1:8443/dataset/6efb0358ce1242288fd0c4ecffb2e933/resource/conjunto-datos-oberaxe-grupo-diana">
+    <dct:title xml:lang="es">Grupo Diana objeto del discurso de odio</dct:title>
+    <dct:description xml:lang="es">Este conjunto de datos clasifica los contenidos de discurso de odio según el grupo de población al que van dirigidos, atendiendo a la motivación racista, xenófoba, islamófoba, antisemita o antigitana del mensaje detectado. Permite identificar los colectivos más frecuentemente atacados y analizar las dinámicas de discriminación que afectan a personas migrantes, personas musulmanas, comunidad gitana, comunidad judía, personas africanas y afrodescendientes, personas refugiadas, niños, niñas y adolescentes no acompañados, entre otros grupos.</dct:description>
+    <foaf:page rdf:resource="https://www.inclusion.gob.es/documents/d/oberaxe/nota-metodologica-sistema-faro" />
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+    <dcat:accessURL rdf:resource="https://www.inclusion.gob.es/documents/d/guest/conjunto-datos-oberaxe-grupo-diana" />
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:11+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+00:00</dct:issued>
+    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+    <dcat:downloadURL rdf:resource="https://www.inclusion.gob.es/documents/d/guest/conjunto-datos-oberaxe-grupo-diana" />
+  </dcat:Distribution>
+  </dcat:distribution>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"><foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones.</foaf:name><foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." /><foaf:homepage rdf:resource="https://www.inclusion.gob.es/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier></foaf:Agent></dct:publisher>
+        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"><foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones.</foaf:name><foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." /><foaf:homepage rdf:resource="https://www.inclusion.gob.es/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier></foaf:Agent></dct:creator>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:nodeID="N5d5fbaf4a8cb4ead8a8771c24c91da72">
+            <vcard:fn xml:lang="es">OBERAXE</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:oberaxe@inclusion.gob.es" />
+            <vcard:hasURL rdf:resource="https://www.inclusion.gob.es/web/oberaxe/sobre-oberaxe" />
+            <vcard:organization-name xml:lang="es">http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</vcard:organization-name>
+            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/MISSM" />
+            <vcard:hasTelephone rdf:resource="tel:913637000" />
+          </vcard:Kind>
+        </dcat:contactPoint>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://10.99.193.1:8443/dataset/6e933da89b9a433ead7e3cdf031a95a3">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+        <dct:title xml:lang="es">Mensajes retirados tras haber sido reportados</dct:title>
+        <dct:description xml:lang="es">Este conjunto de datos recoge los contenidos de discurso de odio que han sido retirados por las plataformas tras haber sido reportados por el OBERAXE. Incluye información relativa a la respuesta de las plataformas ante los contenidos notificados, considerando las distintas vías y plazos de retirada, como retirada a las 24 horas, a las 48 horas, a la semana, limitación de visibilidad o retirada mediante vía cualificada de reporte.</dct:description>
+        <dcat:landingPage rdf:resource="https://10.99.193.1:8443/dataset/6e933da89b9a433ead7e3cdf031a95a3" />
+        <dct:identifier>6E933DA8-9B9A-433E-AD7E-3CDF031A95A3</dct:identifier>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:11+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:11+00:00</dct:issued>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI" />
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://10.99.193.1:8443/dataset/6e933da89b9a433ead7e3cdf031a95a3/resource/conjunto-datos-oberaxe-evolucion-mensajes-retirados">
+    <dct:title xml:lang="es">Mensajes retirados tras haber sido reportados</dct:title>
+    <dct:description xml:lang="es">Este conjunto de datos recoge los contenidos de discurso de odio que han sido retirados por las plataformas tras haber sido reportados por el OBERAXE. Incluye información relativa a la respuesta de las plataformas ante los contenidos notificados, considerando las distintas vías y plazos de retirada, como retirada a las 24 horas, a las 48 horas, a la semana, limitación de visibilidad o retirada mediante vía cualificada de reporte.</dct:description>
+    <foaf:page rdf:resource="https://www.inclusion.gob.es/documents/d/oberaxe/nota-metodologica-sistema-faro" />
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+    <dcat:accessURL rdf:resource="https://www.inclusion.gob.es/documents/d/guest/conjunto-datos-oberaxe-evolucion-mensajes-retirados" />
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:12+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+00:00</dct:issued>
+    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+    <dcat:downloadURL rdf:resource="https://www.inclusion.gob.es/documents/d/guest/conjunto-datos-oberaxe-evolucion-mensajes-retirados" />
+  </dcat:Distribution>
+  </dcat:distribution>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"><foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones.</foaf:name><foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." /><foaf:homepage rdf:resource="https://www.inclusion.gob.es/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier></foaf:Agent></dct:publisher>
+        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"><foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones.</foaf:name><foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." /><foaf:homepage rdf:resource="https://www.inclusion.gob.es/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier></foaf:Agent></dct:creator>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:nodeID="N0585641dda064ff3883aaacda2e490d4">
+            <vcard:fn xml:lang="es">OBERAXE</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:oberaxe@inclusion.gob.es" />
+            <vcard:hasURL rdf:resource="https://www.inclusion.gob.es/web/oberaxe/sobre-oberaxe" />
+            <vcard:organization-name xml:lang="es">http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</vcard:organization-name>
+            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/MISSM" />
+            <vcard:hasTelephone rdf:resource="tel:913637000" />
+          </vcard:Kind>
+        </dcat:contactPoint>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://10.99.193.1:8443/dataset/6c7e3b5e10ca4b76ad22e855226a6f1a">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+        <dct:title xml:lang="es">Evolución mensajes detectados</dct:title>
+        <dct:description xml:lang="es">Este conjunto de datos muestra la evolución temporal de los mensajes detectados por el Sistema FARO durante el periodo de referencia. Permite observar la variación del volumen de contenidos identificados en redes sociales, detectar tendencias y picos de actividad, y relacionar la evolución del discurso de odio, del discurso odioso y de las narrativas discriminatorias con acontecimientos sociales, políticos, mediáticos o culturales.</dct:description>
+        <dcat:landingPage rdf:resource="https://10.99.193.1:8443/dataset/6c7e3b5e10ca4b76ad22e855226a6f1a" />
+        <dct:identifier>6C7E3B5E-10CA-4B76-AD22-E855226A6F1A</dct:identifier>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:09+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:09+00:00</dct:issued>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI" />
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://10.99.193.1:8443/dataset/6c7e3b5e10ca4b76ad22e855226a6f1a/resource/conjunto-datos-oberaxe-evolucion-mensajes-detectados">
+    <dct:title xml:lang="es">Evolución mensajes detectados</dct:title>
+    <dct:description xml:lang="es">Este conjunto de datos muestra la evolución temporal de los mensajes detectados por el Sistema FARO durante el periodo de referencia. Permite observar la variación del volumen de contenidos identificados en redes sociales, detectar tendencias y picos de actividad, y relacionar la evolución del discurso de odio, del discurso odioso y de las narrativas discriminatorias con acontecimientos sociales, políticos, mediáticos o culturales.</dct:description>
+    <foaf:page rdf:resource="https://www.inclusion.gob.es/documents/d/oberaxe/nota-metodologica-sistema-faro" />
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+    <dcat:accessURL rdf:resource="https://www.inclusion.gob.es/documents/d/guest/conjunto-datos-oberaxe-evolucion-mensajes-detectados" />
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:10+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+00:00</dct:issued>
+    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+    <dcat:downloadURL rdf:resource="https://www.inclusion.gob.es/documents/d/guest/conjunto-datos-oberaxe-evolucion-mensajes-detectados" />
+  </dcat:Distribution>
+  </dcat:distribution>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"><foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones.</foaf:name><foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." /><foaf:homepage rdf:resource="https://www.inclusion.gob.es/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier></foaf:Agent></dct:publisher>
+        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"><foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones.</foaf:name><foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." /><foaf:homepage rdf:resource="https://www.inclusion.gob.es/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier></foaf:Agent></dct:creator>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:nodeID="Nb85a72552396461bbf126abf8e89af55">
+            <vcard:fn xml:lang="es">OBERAXE</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:oberaxe@inclusion.gob.es" />
+            <vcard:hasURL rdf:resource="https://www.inclusion.gob.es/web/oberaxe/sobre-oberaxe" />
+            <vcard:organization-name xml:lang="es">http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</vcard:organization-name>
+            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/MISSM" />
+            <vcard:hasTelephone rdf:resource="tel:913637000" />
+          </vcard:Kind>
+        </dcat:contactPoint>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://10.99.193.1:8443/dataset/3bc07208c5fe44fbae7a15b28a5f7085">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+        <dct:title xml:lang="es">Episodio que suscita el discurso de odio</dct:title>
+        <dct:description xml:lang="es">Este conjunto de datos clasifica los contenidos de discurso de odio en función del episodio, acontecimiento o situación que suscita su aparición en redes sociales. Permite analizar los contextos sociales, políticos, culturales o mediáticos que actúan como catalizadores de expresiones hostiles, excluyentes o discriminatorias contra los grupos diana, así como identificar patrones recurrentes asociados a la agenda pública, la desinformación o las tendencias predominantes en redes.</dct:description>
+        <dcat:landingPage rdf:resource="https://10.99.193.1:8443/dataset/3bc07208c5fe44fbae7a15b28a5f7085" />
+        <dct:identifier>3BC07208-C5FE-44FB-AE7A-15B28A5F7085</dct:identifier>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:09+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:09+00:00</dct:issued>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI" />
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://10.99.193.1:8443/dataset/3bc07208c5fe44fbae7a15b28a5f7085/resource/conjunto-datos-oberaxe-episodio-que-suscita-el-discurso-de-odio">
+    <dct:title xml:lang="es">Episodio que suscita el discurso de odio</dct:title>
+    <dct:description xml:lang="es">Este conjunto de datos clasifica los contenidos de discurso de odio en función del episodio, acontecimiento o situación que suscita su aparición en redes sociales. Permite analizar los contextos sociales, políticos, culturales o mediáticos que actúan como catalizadores de expresiones hostiles, excluyentes o discriminatorias contra los grupos diana, así como identificar patrones recurrentes asociados a la agenda pública, la desinformación o las tendencias predominantes en redes.</dct:description>
+    <foaf:page rdf:resource="https://www.inclusion.gob.es/documents/d/oberaxe/nota-metodologica-sistema-faro" />
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+    <dcat:accessURL rdf:resource="https://www.inclusion.gob.es/documents/d/guest/conjunto-datos-oberaxe-episodio-que-suscita-el-discurso-de-odio" />
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:09+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+00:00</dct:issued>
+    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+    <dcat:downloadURL rdf:resource="https://www.inclusion.gob.es/documents/d/guest/conjunto-datos-oberaxe-episodio-que-suscita-el-discurso-de-odio" />
+  </dcat:Distribution>
+</dcat:distribution>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"><foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones.</foaf:name><foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." /><foaf:homepage rdf:resource="https://www.inclusion.gob.es/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier></foaf:Agent></dct:publisher>
+        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"><foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones.</foaf:name><foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." /><foaf:homepage rdf:resource="https://www.inclusion.gob.es/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier></foaf:Agent></dct:creator>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:nodeID="Ncf0ab21e3edf4cc0a0c4fa124e671124">
+            <vcard:fn xml:lang="es">OBERAXE</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:oberaxe@inclusion.gob.es" />
+            <vcard:hasURL rdf:resource="https://www.inclusion.gob.es/web/oberaxe/sobre-oberaxe" />
+            <vcard:organization-name xml:lang="es">http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</vcard:organization-name>
+            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/MISSM" />
+            <vcard:hasTelephone rdf:resource="tel:913637000" />
+          </vcard:Kind>
+        </dcat:contactPoint>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset><dcat:Dataset rdf:about="https://10.99.193.1:8443/dataset/0698a7906cc042e29f93f686a0706216">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+    <dct:title xml:lang="es">Tipología del contenido del mensaje de discurso de odio</dct:title>
+    <dct:description xml:lang="es">Este conjunto de datos clasifica los contenidos de discurso de odio según la tipología del mensaje dirigido contra el grupo diana. Recoge las principales formas de manifestación del discurso de odio, tales como presentar al grupo como una amenaza, deshumanizar o degradar, incitar a la expulsión del colectivo, incitar a la violencia, alabar o apoyar a quien atenta contra el grupo diana, o promover su descrédito por razón de su pertenencia al grupo.</dct:description>
+    <dcat:landingPage rdf:resource="https://10.99.193.1:8443/dataset/0698a7906cc042e29f93f686a0706216" />
+    <dct:identifier>0698A790-6CC0-42E2-9F93-F686A0706216</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:12+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:12+00:00</dct:issued>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI" />
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://10.99.193.1:8443/dataset/0698a7906cc042e29f93f686a0706216/resource/conjunto-datos-oberaxe-tipo-de-contenido">
+        <dct:title xml:lang="es">Tipología del contenido del mensaje de discurso de odio</dct:title>
+        <dct:description xml:lang="es">Este conjunto de datos clasifica los contenidos de discurso de odio según la tipología del mensaje dirigido contra el grupo diana. Recoge las principales formas de manifestación del discurso de odio, tales como presentar al grupo como una amenaza, deshumanizar o degradar, incitar a la expulsión del colectivo, incitar a la violencia, alabar o apoyar a quien atenta contra el grupo diana, o promover su descrédito por razón de su pertenencia al grupo.</dct:description>
+        <foaf:page rdf:resource="https://www.inclusion.gob.es/documents/d/oberaxe/nota-metodologica-sistema-faro" />
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dcat:accessURL rdf:resource="https://www.inclusion.gob.es/documents/d/guest/conjunto-datos-oberaxe-tipo-de-contenido" />
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T11:33:12+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+00:00</dct:issued>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcat:downloadURL rdf:resource="https://www.inclusion.gob.es/documents/d/guest/conjunto-datos-oberaxe-tipo-de-contenido" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501">
+        <foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones.</foaf:name>
+        <foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." />
+        <foaf:homepage rdf:resource="https://www.inclusion.gob.es/" />
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" />
+        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier>
+      </foaf:Agent>
+    </dct:publisher>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"><foaf:name xml:lang="es">Ministerio de Inclusión, Seguridad Social y Migraciones.</foaf:name><foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." /><foaf:homepage rdf:resource="https://www.inclusion.gob.es/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier></foaf:Agent></dct:creator>
+    <dcat:contactPoint>
+      <vcard:Kind rdf:nodeID="N64d932e7d2924d03b3bd3e72490173f7">
+        <vcard:fn xml:lang="es">OBERAXE</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:oberaxe@inclusion.gob.es" />
+        <vcard:hasURL rdf:resource="https://www.inclusion.gob.es/web/oberaxe/sobre-oberaxe" />
+        <vcard:organization-name xml:lang="es">http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</vcard:organization-name>
+        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/MISSM" />
+        <vcard:hasTelephone rdf:resource="tel:913637000" />
+      </vcard:Kind>
+    </dcat:contactPoint>
+  </dcat:Dataset>
+  </dcat:dataset>
+  </dcat:Catalog>
+  </rdf:RDF>
