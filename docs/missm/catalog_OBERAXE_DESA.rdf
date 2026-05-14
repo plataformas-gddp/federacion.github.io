@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <dcat:Catalog rdf:about="https://10.99.193.1:8443">
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA" />
+    </dct:language>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP" />
+    <dct:spatial>
+      <dct:Location rdf:nodeID="Nd369ef4466f64ad0be6f94dcc930c0dd">
+        <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</dcat:bbox>
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8150 40.5250)</dcat:centroid>
+        <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))</locn:Geometry>
+      </dct:Location>
+    </dct:spatial>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector" />
+    <dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme" />
+    <foaf:homepage rdf:resource="https://10.99.193.1:8443" />
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+    <dct:title xml:lang="es">CKAN</dct:title>
+    <dct:description xml:lang="es">Catalogo de datos abiertos del MISSM</dct:description>
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501">
+        <foaf:name xml:lang="es">Ministerio de Inclusion</foaf:name>
+        <foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." />
+        <foaf:homepage rdf:resource="https://www.inclusion.gob.es/" />
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" />
+        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier>
+      </foaf:Agent>
+    </dct:publisher>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"><foaf:name xml:lang="es">Ministerio de Inclusion</foaf:name><foaf:mbox rdf:resource="mailto:portal@inclusion.gob.es." /><foaf:homepage rdf:resource="https://www.inclusion.gob.es/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501</dct:identifier></foaf:Agent></dct:creator>
+    <dct:temporal>
+      <dct:PeriodOfTime rdf:nodeID="N2a6ef09a69f4489ca74416244887a8c5">
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-31</dcat:endDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/0698a7906cc042e29f93f686a0706216" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/6e933da89b9a433ead7e3cdf031a95a3" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/c66198f02db445769be2cd84cee14375" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/6efb0358ce1242288fd0c4ecffb2e933" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/e0e55a26a71c42bc9d0bc5bd6c00fab0" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/6c7e3b5e10ca4b76ad22e855226a6f1a" />
+    <dcat:dataset rdf:resource="https://10.99.193.1:8443/dataset/3bc07208c5fe44fbae7a15b28a5f7085" />
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-14T08:29:57+00:00</dct:modified>
+  </dcat:Catalog>
+</rdf:RDF>
