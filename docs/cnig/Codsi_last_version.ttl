@@ -27,7 +27,6 @@
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2023>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2025>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignTrueOrto2025>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_cartociudad_addresses>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignsioseAR2017> ;
@@ -406,48 +405,324 @@
         <http://data.europa.eu/eli/reg/2010/1089/oj>,
         <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
 
-<http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901> a foaf:Agent ;
-    dcterms:identifier "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901" ;
-    dcterms:type <http://purl.org/adms/publishertype/NationalAuthority> ;
-    foaf:name "National Geographic Institute"@en,
-        "Instituto Geográfico Nacional"@es .
+<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignHIDROGRAFIA_IGR> a adms:Identifier ;
+    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignHIDROGRAFIA_IGR" ;
+    skos:notation "spaignHIDROGRAFIA_IGR" .
 
-<https://www.idee.es/csw-codsi-idee/srv/api/records/spaignTrueOrto2025> a dcat:Dataset ;
+<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM> a adms:Identifier ;
+    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM" ;
+    skos:notation "spaignLLM" .
+
+<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignMDT05> a adms:Identifier ;
+    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignMDT05" ;
+    skos:notation "spaignMDT05" .
+
+<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignNGBE> a adms:Identifier ;
+    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignNGBE" ;
+    skos:notation "spaignNGBE" .
+
+<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2021> a adms:Identifier ;
+    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2021" ;
+    skos:notation "spaignPNOA2021" .
+
+<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2022> a adms:Identifier ;
+    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2022" ;
+    skos:notation "spaignPNOA2022" .
+
+<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2023> a adms:Identifier ;
+    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2023" ;
+    skos:notation "spaignPNOA2023" .
+
+<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2024> a adms:Identifier ;
+    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2024" ;
+    skos:notation "spaignPNOA2024" .
+
+<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2025> a adms:Identifier ;
+    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2025" ;
+    skos:notation "spaignPNOA2025" .
+
+<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaign_IGR_Transporte> a adms:Identifier ;
+    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaign_IGR_Transporte" ;
+    skos:notation "spaign_IGR_Transporte" .
+
+<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaign_cartociudad_addresses> a adms:Identifier ;
+    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaign_cartociudad_addresses" ;
+    skos:notation "spaign_cartociudad_addresses" .
+
+<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignsioseAR2017> a adms:Identifier ;
+    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignsioseAR2017" ;
+    skos:notation "spaignsioseAR2017" .
+
+<https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/xml> a dcat:Distribution ;
+    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
+        <http://data.europa.eu/eli/reg/2010/1089>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
+    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
+    dcterms:description "Distribción del Datset en XML bajo la normativa de INSPIRE"@es ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
+    dcterms:issued "2014-01-01"^^xsd:date ;
+    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
+    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
+    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:title "Distribución asociado a este Dataset"@es ;
+    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
+    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_scne>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignatom_download_service>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_Hidrografia_aguasfisicas>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_hidrografia> ;
+    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/xml> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
+    foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
+        <http://data.europa.eu/eli/reg/2010/1089>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+
+<https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM/formatters/xml> a dcat:Distribution ;
+    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
+        <http://data.europa.eu/eli/reg/2010/1089>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
+    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
+    dcterms:description "Distribción del Datset en XML bajo la normativa de INSPIRE"@es ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
+    dcterms:issued "2012-01-01"^^xsd:date ;
+    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
+    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
+    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:title "Distribución asociado a este Dataset"@es ;
+    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
+    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_ign>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignatom_download_service>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_unidades-administrativas>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_unidades_administrativas> ;
+    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM/formatters/xml> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
+    foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
+        <http://data.europa.eu/eli/reg/2010/1089>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+
+<https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT05/formatters/xml> a dcat:Distribution ;
+    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
+        <http://data.europa.eu/eli/reg/2010/1089>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
+    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
+    dcterms:description "Distribción del Datset en XML bajo la normativa de INSPIRE"@es ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
+    dcterms:issued "2009-12-30"^^xsd:date ;
+    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
+    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
+    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:title "Distribución asociado a este Dataset"@es ;
+    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
+    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_coverages_scne>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_processes>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwcs_mdt>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_mdt>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_mdt> ;
+    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT05/formatters/xml> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
+    foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
+        <http://data.europa.eu/eli/reg/2010/1089>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+
+<https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE/formatters/xml> a dcat:Distribution ;
+    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
+    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
+    dcterms:description "Distribción del Datset en XML bajo la normativa de INSPIRE"@es ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
+    dcterms:issued "2010-01-01"^^xsd:date ;
+    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
+    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
+    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:title "Distribución asociado a este Dataset"@es ;
+    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
+    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_ign>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignatom_download_service>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_ngbe>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ngbe> ;
+    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE/formatters/xml> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
+    foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+
+<https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2021/formatters/xml> a dcat:Distribution ;
+    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
+    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
+    dcterms:description "Distribción del Datset en XML bajo la normativa de INSPIRE"@es ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
+    dcterms:issued "2021-01-01"^^xsd:date ;
+    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
+    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
+    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:title "Distribución asociado a este Dataset"@es ;
+    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
+    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ortoimagenes>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_pnoa-ma> ;
+    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2021/formatters/xml> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
+    foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+
+<https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2022/formatters/xml> a dcat:Distribution ;
+    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
+    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
+    dcterms:description "Distribción del Datset en XML bajo la normativa de INSPIRE"@es ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
+    dcterms:issued "2022-01-01"^^xsd:date ;
+    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
+    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
+    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:title "Distribución asociado a este Dataset"@es ;
+    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
+    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ortoimagenes>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_pnoa-ma> ;
+    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2022/formatters/xml> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
+    foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+
+<https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2023/formatters/xml> a dcat:Distribution ;
+    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
+    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
+    dcterms:description "Distribción del Datset en XML bajo la normativa de INSPIRE"@es ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
+    dcterms:issued "2025-01-01"^^xsd:date ;
+    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
+    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
+    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:title "Distribución asociado a este Dataset"@es ;
+    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
+    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ortoimagenes>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_pnoa-ma> ;
+    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2023/formatters/xml> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
+    foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+
+<https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024/formatters/xml> a dcat:Distribution ;
     dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205/oj>,
         <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-    dcatap:hvdCategory <http://data.europa.eu/bna/c_91185a85>,
-        <http://data.europa.eu/bna/c_dd313021> ;
-    dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
     dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
-    dcterms:description """True orthophotos generated from the 2025 flights of the National Aerial Orthophotography Plan for Murcia and Extremadura, with a 25 cm resolution. Obtained from the PNOA flight orientation.
-The creation dates for each mosaic are:
-Cáceres: November 2025
-Badajoz: November 2025
-Murcia: November 2025
-Cartagena: November 2025"""@en,
-        """Ortoimagenes verdaderas generadas a partir de los vuelos del año 2025 del Plan Nacional de Ortofotografía Aérea de Murcia y Extremadura con una resolución de 25 cm. Obtenida a partir de la orientación del vuelo PNOA.
-Las fechas de creación de cada mosaico son:
-Cáceres: noviembre 2025
-Badajoz: noviembre 2025
-Murcia: noviembre 2025
-Cartagena: noviembre 2025"""@es ;
-    dcterms:identifier "spaignTrueOrto2025" ;
-    dcterms:issued "2025-11-01"^^xsd:date ;
+    dcterms:description "Distribción del Datset en XML bajo la normativa de INSPIRE"@es ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
+    dcterms:issued "2025-03-01"^^xsd:date ;
     dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
-    dcterms:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002> ;
-    dcterms:spatial [ a dcterms:Location ;
-            dcat:bbox "POLYGON((1.14 38.62, 4.35 38.62, 4.35 40.10, 1.14 40.10, 1.14 38.62))"^^geo:wktLiteral ] ;
-    dcterms:title "True orthophotos of 2025"@en,
-        "Ortoimágenes verdaderas de 2025"@es ;
-    dcterms:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset> ;
-    adms:identifier <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignTrueOrto2025> ;
-    dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)> ;
-    dcat:distribution <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignTrueOrto2025> ;
-    dcat:keyword "Earth observation and environment"@es ;
-    dcat:theme <http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia>,
-        <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras>,
-        <http://inspire.ec.europa.eu/theme/oi> ;
+    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
+    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:title "Distribución asociado a este Dataset"@es ;
+    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
+    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ortoimagenes>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_pnoa-ma> ;
+    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024/formatters/xml> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
     foaf:page <http://data.europa.eu/eli/reg/2008/1205/oj>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+
+<https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2025/formatters/xml> a dcat:Distribution ;
+    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205/oj>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
+    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
+    dcterms:description "Distribción del Datset en XML bajo la normativa de INSPIRE"@es ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
+    dcterms:issued "2026-01-01"^^xsd:date ;
+    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
+    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
+    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:title "Distribución asociado a este Dataset"@es ;
+    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
+    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ortoimagenes>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_pnoa-ma> ;
+    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2025/formatters/xml> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
+    foaf:page <http://data.europa.eu/eli/reg/2008/1205/oj>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+
+<https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte/formatters/xml> a dcat:Distribution ;
+    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205/oj>,
+        <http://data.europa.eu/eli/reg/2010/1089/oj>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
+    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
+    dcterms:description "Distribción del Datset en XML bajo la normativa de INSPIRE"@es ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
+    dcterms:issued "2010-01-01"^^xsd:date ;
+    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
+    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
+    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:title "Distribución asociado a este Dataset"@es ;
+    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
+    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_scne>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_IGR_Transporte>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_igr_transporte> ;
+    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte/formatters/xml> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
+    foaf:page <http://data.europa.eu/eli/reg/2008/1205/oj>,
+        <http://data.europa.eu/eli/reg/2010/1089/oj>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+
+<https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_cartociudad_addresses/formatters/xml> a dcat:Distribution ;
+    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205/oj>,
+        <http://data.europa.eu/eli/reg/2010/1089/oj>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
+    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
+    dcterms:description "Distribción del Datset en XML bajo la normativa de INSPIRE"@es ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
+    dcterms:issued "2006-12-31"^^xsd:date ;
+    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
+    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
+    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:title "Distribución asociado a este Dataset"@es ;
+    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
+    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_scne>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignrest_cartociudad_address>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_cartociudad_address>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_addresses_ccpp> ;
+    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_cartociudad_addresses/formatters/xml> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
+    foaf:page <http://data.europa.eu/eli/reg/2008/1205/oj>,
+        <http://data.europa.eu/eli/reg/2010/1089/oj>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+
+<https://www.idee.es/csw-codsi-idee/srv/api/records/spaignsioseAR2017/formatters/xml> a dcat:Distribution ;
+    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
+        <http://data.europa.eu/eli/reg/2010/1089>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
+    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
+    dcterms:description "Distribción del Datset en XML bajo la normativa de INSPIRE"@es ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
+    dcterms:issued "2021-05-17"^^xsd:date ;
+    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
+    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
+    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:title "Distribución asociado a este Dataset"@es ;
+    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
+    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_scne>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_ocupacion-suelo>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_OcupacionSuelo>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_ocupacion-suelo> ;
+    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignsioseAR2017/formatters/xml> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
+    foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
+        <http://data.europa.eu/eli/reg/2010/1089>,
         <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
 
 <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_ocupacion-suelo> a dcat:DataService ;
@@ -468,7 +743,10 @@ Cartagena: noviembre 2025"""@es ;
         <https://servicios.idee.es/wfs-inspire/ocupacion-suelo?service=WFS&request=GetCapabilities&version=2.0.0>,
         <https://servicios.idee.es/wfs-inspire/ocupacion-suelo?service=WFS&request=GetFeature&version=2.0.0>,
         <https://servicios.idee.es/wfs-inspire/ocupacion-suelo?service=WFS&request=ListStoredQueries&version=2.0.0> ;
-    dcat:keyword "Cubierta terrestre"@es ;
+    dcat:keyword "Cubierta terrestre"@es,
+        "Nacional"@es,
+        "Servicio de acceso a fenómenos"@es,
+        "Uso del suelo"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignsioseAR2017> ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/comercio>,
         <http://datos.gob.es/kos/sector-publico/sector/medio-ambiente> ;
@@ -494,7 +772,17 @@ Cartagena: noviembre 2025"""@es ;
         <https://servicios.idee.es/wms-inspire/ocupacion-suelo?service=WMS&request=GetCapabilities&version=1.3.0>,
         <https://servicios.idee.es/wms-inspire/ocupacion-suelo?service=WMS&request=GetFeatureInfo&version=1.3.0>,
         <https://servicios.idee.es/wms-inspire/ocupacion-suelo?service=WMS&request=GetMap&version=1.3.0&style=LC.LandCoverSurfaces.Default> ;
-    dcat:keyword "1.3.0"@es ;
+    dcat:keyword "1.3.0"@es,
+        "Cubierta terrestre"@es,
+        "IDEE"@es,
+        "Infraestructura de Datos Espaciales de España (IDEE)"@es,
+        "Nacional"@es,
+        "OGC"@es,
+        "SCNE"@es,
+        "Servicio de acceso a mapas"@es,
+        "Sistema Cartográfico Nacional"@es,
+        "Uso del suelo"@es,
+        "WMS"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignCLC2018>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignsiose2014>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignsioseAR2017> ;
@@ -526,7 +814,18 @@ Cartagena: noviembre 2025"""@es ;
         <https://servicios.idee.es/wmts/ocupacion-suelo>,
         <https://servicios.idee.es/wmts/ocupacion-suelo?REQUEST=GetCapabilities&SERVICE=WMTS>,
         <https://servicios.idee.es/wmts/ocupacion-suelo?request=GetCapabilities&service=WMTS> ;
-    dcat:keyword "1.0.0"@es ;
+    dcat:keyword "1.0.0"@es,
+        "Cubierta terrestre"@es,
+        "España"@es,
+        "IDEE"@es,
+        "Infraestructura de Datos Espaciales"@es,
+        "Nacional"@es,
+        "OGC"@es,
+        "SCNE"@es,
+        "Servicio de acceso a mapas"@es,
+        "Sistema Cartográfico Nacional"@es,
+        "Uso del suelo"@es,
+        "WMTS"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignCLC2018>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignsiose2014>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignsioseAR2017> ;
@@ -550,7 +849,15 @@ Cartagena: noviembre 2025"""@es ;
         "API de acceso y descarga de coberturas (API-Coverages) del Sistema Cartográfico Nacional de España"@es ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional> ;
     dcat:endpointURL <https://api-coverages.idee.es> ;
-    dcat:keyword "API"@es ;
+    dcat:keyword "API"@es,
+        "Coverages"@es,
+        "Elevaciones"@es,
+        "High-value dataset"@es,
+        "Nacional"@es,
+        "OGC"@es,
+        "SCNE"@es,
+        "Servicio de acceso a coberturas"@es,
+        "Sistema Cartográfico Nacional"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/68de70b5-117a-4943-b864-f856218be37f>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/6e3a56da-a5bc-4227-9960-ffae3327bff8>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/873f5b08-4263-48ec-9345-3aaacd53d1e0>,
@@ -577,7 +884,17 @@ Cartagena: noviembre 2025"""@es ;
         "API de procesos (API-Processes) del SCNE"@es ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)> ;
     dcat:endpointURL <https://api-processes.idee.es/> ;
-    dcat:keyword "API"@es ;
+    dcat:keyword "API"@es,
+        "Elevaciones"@es,
+        "Nacional"@es,
+        "OGC"@es,
+        "Processes"@es,
+        "SCNE"@es,
+        "Servicio de conversión de coordenadas"@es,
+        "Servicio de posicionamiento"@es,
+        "Servicio de transformación de coordenadas"@es,
+        "Sistema Cartográfico Nacional"@es,
+        "Sistema de cooordenadas de referencia"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT05> ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras> ;
     foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
@@ -601,7 +918,26 @@ Cartagena: noviembre 2025"""@es ;
         "Servicio REST de geocodificación de España (CartoCiudad)"@es ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)> ;
     dcat:endpointURL <https://www.cartociudad.es/geocoder/> ;
-    dcat:keyword "Cartociudad"@es ;
+    dcat:keyword "Cartociudad"@es,
+        "Comunidades autónomas"@es,
+        "Códigos postales"@es,
+        "Direcciones"@es,
+        "Entidades de población"@es,
+        "IDEE"@es,
+        "Infraestructura de Datos Espaciales"@es,
+        "Municipios"@es,
+        "Nacional"@es,
+        "Portales"@es,
+        "Provincias"@es,
+        "Puntos Kilométricos"@es,
+        "Puntos de Interés (POI)"@es,
+        "Referencias catastrales"@es,
+        "SCNE"@es,
+        "Servicio de geocodificación"@es,
+        "Sistema Cartográfico Nacional"@es,
+        "Topónimos"@es,
+        "infoManagementService"@es,
+        "thematicGeocodingService"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_cartociudad_addresses> ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras> ;
     foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
@@ -629,7 +965,19 @@ Cartagena: noviembre 2025"""@es ;
         <https://servicios.idee.es/wcs-inspire/mdt?request=DescribeCoverage&service=WCS&version=2.0.1>,
         <https://servicios.idee.es/wcs-inspire/mdt?request=GetCoverage&service=WCS&version=2.0.1>,
         <https://servicios.idee.es/wcs-inspire/mdt?version=2.0.1&request=GetCapabilities&service=WCS> ;
-    dcat:keyword "2.0.0"@es ;
+    dcat:keyword "2.0.0"@es,
+        "CNIG"@es,
+        "Elevaciones"@es,
+        "IGN"@es,
+        "Instituto Geográfico Nacional"@es,
+        "Nacional"@es,
+        "OGC"@es,
+        "PNOA-LiDAR"@es,
+        "SCNE"@es,
+        "Servicio de acceso a coberturas"@es,
+        "Sistema Cartográfico Nacional"@es,
+        "Spain"@es,
+        "WCS"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT05>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT1000>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT200>,
@@ -660,7 +1008,9 @@ Cartagena: noviembre 2025"""@es ;
         <https://servicios.idee.es/wfs-inspire/hidrografia?service=WFS&request=DescribeStoredQueries&version=2.0.0>,
         <https://servicios.idee.es/wfs-inspire/hidrografia?service=WFS&request=GetCapabilities&version=2.0.0>,
         <https://servicios.idee.es/wfs-inspire/hidrografia?service=WFS&request=ListStoredQueries&version=2.0.0> ;
-    dcat:keyword "Hidrografía"@es ;
+    dcat:keyword "Hidrografía"@es,
+        "Nacional"@es,
+        "Servicio de acceso a fenómenos"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR> ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia>,
         <http://datos.gob.es/kos/sector-publico/sector/medio-ambiente> ;
@@ -687,7 +1037,24 @@ Cartagena: noviembre 2025"""@es ;
     dcat:endpointURL <https://servicios.idee.es/wfs-inspire/transportes>,
         <https://servicios.idee.es/wfs-inspire/transportes?REQUEST=GetCapabilities&SERVICE=WFS&VERSION=2.0.0>,
         <https://servicios.idee.es/wfs-inspire/transportes?service=WFS&request=GetCapabilities&version=2.0.0> ;
-    dcat:keyword "2.0.0"@es ;
+    dcat:keyword "2.0.0"@es,
+        "Aeródromo"@es,
+        "Calle de Rodaje"@es,
+        "Carretera"@es,
+        "Estación"@es,
+        "IDEE"@es,
+        "IGR"@es,
+        "Información Geográfica de Referencia"@es,
+        "Infraestructura de Datos Espaciales"@es,
+        "Nacional"@es,
+        "OGC"@es,
+        "Pista"@es,
+        "Plataforma"@es,
+        "Redes de transporte"@es,
+        "SCNE"@es,
+        "Servicio de acceso a fenómenos"@es,
+        "WFS"@es,
+        "ferrocaril"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte> ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/transporte> ;
     foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
@@ -717,7 +1084,21 @@ Cartagena: noviembre 2025"""@es ;
         <https://www.cartociudad.es/wfs-inspire/direcciones?request=GetFeature&service=WFS&version=2.0.0>,
         <https://www.cartociudad.es/wfs-inspire/direcciones?request=ListStoredQueries&service=WFS&version=2.0.0>,
         <https://www.cartociudad.es/wfs-inspire/direcciones?service=WFS&request=GetCapabilities&version=2.0.0> ;
-    dcat:keyword "2.0.0"@es ;
+    dcat:keyword "2.0.0"@es,
+        "Cartociudad"@es,
+        "Direcciones"@es,
+        "IDEE"@es,
+        "Infraestructura de Datos Espaciales"@es,
+        "Nacional"@es,
+        "OGC"@es,
+        "Portales"@es,
+        "Puntos Kilométricos"@es,
+        "SCNE"@es,
+        "Servicio de acceso a fenómenos"@es,
+        "Sistema Cartográfico Nacional"@es,
+        "WFS"@es,
+        "infoFeatureTypeService"@es,
+        "infoManagementService"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_cartociudad_addresses> ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras> ;
     foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
@@ -744,7 +1125,17 @@ Cartagena: noviembre 2025"""@es ;
         <https://www.ign.es/wfs-inspire/ngbe?REQUEST=DescribeFeatureType&SERVICE=WFS&VERSION=2.0.0>,
         <https://www.ign.es/wfs-inspire/ngbe?REQUEST=GetCapabilities&SERVICE=WFS&VERSION=2.0.0>,
         <https://www.ign.es/wfs-inspire/ngbe?Request=GetCapabilities&SERVICE=WFS> ;
-    dcat:keyword "2.0.0"@es ;
+    dcat:keyword "2.0.0"@es,
+        "CNIG"@es,
+        "IGR"@es,
+        "Información Geográfica de Referencia"@es,
+        "NGBE"@es,
+        "Nacional"@es,
+        "Nombres geográficos"@es,
+        "OGC"@es,
+        "Servicio de acceso a fenómenos"@es,
+        "Topónimo"@es,
+        "WFS"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE> ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras> ;
     foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
@@ -774,7 +1165,22 @@ Cartagena: noviembre 2025"""@es ;
         <https://www.ign.es/wfs-inspire/unidades-administrativas?request=GetCapabilities&service=WFS>,
         <https://www.ign.es/wfs-inspire/unidades-administrativas?request=GetCapabilities&service=WFS&version=2.0.0>,
         <https://www.ign.es/wfs-inspire/unidades-administrativas?request=ListStoredQueries&service=WFS&version=2.0.0> ;
-    dcat:keyword "2.0.0"@es ;
+    dcat:keyword "2.0.0"@es,
+        "Centro Nacional de Información Geográfica"@es,
+        "Delimitaciones Territoriales"@es,
+        "IGR"@es,
+        "Instituto Geográfico Nacional"@es,
+        "Líneas Límite"@es,
+        "Nacional"@es,
+        "OGC"@es,
+        "SCNE"@es,
+        "Servicio de acceso a fenómenos"@es,
+        "Sistema Cartográfico Nacional"@es,
+        "Unidades administrativas"@es,
+        "WFS"@es,
+        "infoFeatureAccessService"@es,
+        "infoFeatureTypeService"@es,
+        "infoManagementService"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM> ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/hacienda> ;
     foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
@@ -800,7 +1206,18 @@ Cartagena: noviembre 2025"""@es ;
     dcat:endpointURL <https://www.cartociudad.es/wms-inspire/direcciones-ccpp?REQUEST=GetCapabilities&Service=WMS&version=1.3.0>,
         <https://www.cartociudad.es/wms-inspire/direcciones-ccpp?REQUEST=GetFeature&Service=WMS&version=1.3.0>,
         <https://www.cartociudad.es/wms-inspire/direcciones-ccpp?REQUEST=GetMap&Service=WMS&version=1.3.0> ;
-    dcat:keyword "Cartociudad"@es ;
+    dcat:keyword "Cartociudad"@es,
+        "Direcciones"@es,
+        "IDEE"@es,
+        "Infraestructura de Datos Espaciales"@es,
+        "Nacional"@es,
+        "Portales"@es,
+        "Puntos Kilométricos"@es,
+        "SCNE"@es,
+        "Servicio de acceso a mapas"@es,
+        "Sistema Cartográfico Nacional"@es,
+        "infoManagementService"@es,
+        "infoMapAccessService"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_cartociudad_addresses> ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras> ;
     foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
@@ -823,7 +1240,9 @@ Cartagena: noviembre 2025"""@es ;
     dcat:endpointDescription <https://servicios.idee.es/wms-inspire/hidrografia?REQUEST=GetCapabilities&Service=WMS&version=1.3.0> ;
     dcat:endpointURL <https://servicios.idee.es/wms-inspire/hidrografia>,
         <https://servicios.idee.es/wms-inspire/hidrografia?REQUEST=GetCapabilities&Service=WMS&version=1.3.0> ;
-    dcat:keyword "Hidrografía"@es ;
+    dcat:keyword "Hidrografía"@es,
+        "Nacional"@es,
+        "Servicio de acceso a mapas"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR> ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia>,
         <http://datos.gob.es/kos/sector-publico/sector/medio-ambiente> ;
@@ -847,7 +1266,26 @@ Cartagena: noviembre 2025"""@es ;
     dcat:endpointDescription <https://servicios.idee.es/wms-inspire/transportes?REQUEST=GetCapabilities&Service=WMS&version=1.3.0> ;
     dcat:endpointURL <https://servicios.idee.es/wms-inspire/transportes>,
         <https://servicios.idee.es/wms-inspire/transportes?REQUEST=GetCapabilities&Service=WMS&version=1.3.0> ;
-    dcat:keyword "1.1.1"@es ;
+    dcat:keyword "1.1.1"@es,
+        "1.3.0"@es,
+        "Aeródromo"@es,
+        "Calle de Rodaje"@es,
+        "Carretera"@es,
+        "Estación"@es,
+        "IDEE"@es,
+        "IGR"@es,
+        "Información Geográfica de Referencia"@es,
+        "Infraestructura de Datos Espaciales"@es,
+        "Nacional"@es,
+        "OGC"@es,
+        "Pista"@es,
+        "Plataforma"@es,
+        "Redes de transporte"@es,
+        "SCNE"@es,
+        "Servicio de acceso a mapas"@es,
+        "Sistema Cartográfico Nacional"@es,
+        "WMS"@es,
+        "ferrocaril"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte> ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/transporte> ;
     foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
@@ -873,7 +1311,18 @@ Cartagena: noviembre 2025"""@es ;
     dcat:endpointURL <https://servicios.idee.es/wms-inspire/mdt>,
         <https://servicios.idee.es/wms-inspire/mdt?REQUEST=GetCapabilities&SERVICE=WMS>,
         <https://servicios.idee.es/wms-inspire/mdt?REQUEST=GetCapabilities&Service=WMS&version=1.3.0> ;
-    dcat:keyword "1.3.0"@es ;
+    dcat:keyword "1.3.0"@es,
+        "Elevaciones"@es,
+        "IDEE"@es,
+        "Infraestructura de Datos Espaciales"@es,
+        "Lidar"@es,
+        "MDT"@es,
+        "Nacional"@es,
+        "OGC"@es,
+        "SCNE"@es,
+        "Servicio de acceso a mapas"@es,
+        "Sistema Cartográfico Nacional"@es,
+        "WMS"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT02>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT05> ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras> ;
@@ -898,7 +1347,16 @@ Cartagena: noviembre 2025"""@es ;
         <https://www.ign.es/wms-inspire/ngbe?REQUEST=GetCapabilities&Service=WMS&version=1.3.0>,
         <https://www.ign.es/wms-inspire/ngbe?REQUEST=GetFeatureInfo&Service=WMS&version=1.3.0>,
         <https://www.ign.es/wms-inspire/ngbe?REQUEST=GetMap&Service=WMS&version=1.3.0> ;
-    dcat:keyword "CNIG"@es ;
+    dcat:keyword "CNIG"@es,
+        "IGR"@es,
+        "Información Geográfica de Referencia"@es,
+        "NGBE"@es,
+        "Nacional"@es,
+        "Nombres geográficos"@es,
+        "SCNE"@es,
+        "Servicio de acceso a mapas"@es,
+        "Sistema Cartográfico Nacional"@es,
+        "Topónimo"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE> ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras> ;
     foaf:page <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
@@ -921,7 +1379,16 @@ Cartagena: noviembre 2025"""@es ;
     dcat:endpointURL <https://www.ign.es/wms-inspire/unidades-administrativas?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.3.0>,
         <https://www.ign.es/wms-inspire/unidades-administrativas?SERVICE=WMS>,
         <https://www.ign.es/wms-inspire/unidades-administrativas?request=GetCapabilities&service=WMS&version=1.3.0> ;
-    dcat:keyword "1.3.0"@es ;
+    dcat:keyword "1.3.0"@es,
+        "Delimitaciones Territoriales"@es,
+        "Líneas Límite"@es,
+        "Nacional"@es,
+        "OGC"@es,
+        "Registro Central de Cartografía"@es,
+        "Servicio de acceso a mapas"@es,
+        "Unidades administrativas"@es,
+        "WMS"@es,
+        "infoMapAccessService"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM> ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/hacienda> ;
     foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
@@ -947,342 +1414,24 @@ Cartagena: noviembre 2025"""@es ;
     dcat:endpointURL <https://servicios.idee.es/wmts/mdt>,
         <https://servicios.idee.es/wmts/mdt?request=GetCapabilities&service=WMTS>,
         <https://servicios.idee.es/wmts/mdt?request=GetCapabilities&service=WMTS&VERSION=1.0.0> ;
-    dcat:keyword "1.0.0"@es ;
+    dcat:keyword "1.0.0"@es,
+        "Elevaciones"@es,
+        "España"@es,
+        "IDEE"@es,
+        "Infraestructura de Datos Espaciales"@es,
+        "Lidar"@es,
+        "MDT"@es,
+        "Nacional"@es,
+        "OGC"@es,
+        "SCNE"@es,
+        "Servicio de acceso a mapas"@es,
+        "Sistema Cartográfico Nacional"@es,
+        "WMTS"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT02>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT05> ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras> ;
     foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
         <http://data.europa.eu/eli/reg/2009/976>,
-        <http://data.europa.eu/eli/reg/2010/1089>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
-
-<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignHIDROGRAFIA_IGR> a adms:Identifier,
-        dcat:Distribution ;
-    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
-        <http://data.europa.eu/eli/reg/2010/1089>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
-    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
-    dcterms:description "Enlace del Dataset en XML bajo la normativa de INSPIRE"@es ;
-    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
-    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignHIDROGRAFIA_IGR" ;
-    dcterms:issued "2014-01-01"^^xsd:date ;
-    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
-    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
-    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:title "Link de acceso al recurso en el catálogo del CODSI"@es ;
-    skos:notation "spaignHIDROGRAFIA_IGR" ;
-    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
-    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_scne>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignatom_download_service>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_Hidrografia_aguasfisicas>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_hidrografia> ;
-    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignHIDROGRAFIA_IGR> ;
-    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
-    foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
-        <http://data.europa.eu/eli/reg/2010/1089>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
-
-<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM> a adms:Identifier,
-        dcat:Distribution ;
-    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
-        <http://data.europa.eu/eli/reg/2010/1089>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
-    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
-    dcterms:description "Enlace del Dataset en XML bajo la normativa de INSPIRE"@es ;
-    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
-    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM" ;
-    dcterms:issued "2012-01-01"^^xsd:date ;
-    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
-    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
-    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:title "Link de acceso al recurso en el catálogo del CODSI"@es ;
-    skos:notation "spaignLLM" ;
-    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
-    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_ign>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignatom_download_service>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_unidades-administrativas>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_unidades_administrativas> ;
-    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM> ;
-    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
-    foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
-        <http://data.europa.eu/eli/reg/2010/1089>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
-
-<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignMDT05> a adms:Identifier,
-        dcat:Distribution ;
-    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
-        <http://data.europa.eu/eli/reg/2010/1089>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
-    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
-    dcterms:description "Enlace del Dataset en XML bajo la normativa de INSPIRE"@es ;
-    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
-    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignMDT05" ;
-    dcterms:issued "2009-12-30"^^xsd:date ;
-    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
-    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
-    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:title "Link de acceso al recurso en el catálogo del CODSI"@es ;
-    skos:notation "spaignMDT05" ;
-    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
-    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_coverages_scne>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_processes>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwcs_mdt>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_mdt>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_mdt> ;
-    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignMDT05> ;
-    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
-    foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
-        <http://data.europa.eu/eli/reg/2010/1089>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
-
-<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignNGBE> a adms:Identifier,
-        dcat:Distribution ;
-    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
-    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
-    dcterms:description "Enlace del Dataset en XML bajo la normativa de INSPIRE"@es ;
-    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
-    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignNGBE" ;
-    dcterms:issued "2010-01-01"^^xsd:date ;
-    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
-    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
-    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:title "Link de acceso al recurso en el catálogo del CODSI"@es ;
-    skos:notation "spaignNGBE" ;
-    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
-    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_ign>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignatom_download_service>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_ngbe>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ngbe> ;
-    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignNGBE> ;
-    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
-    foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
-
-<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2021> a adms:Identifier,
-        dcat:Distribution ;
-    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
-    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
-    dcterms:description "Enlace del Dataset en XML bajo la normativa de INSPIRE"@es ;
-    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
-    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2021" ;
-    dcterms:issued "2021-01-01"^^xsd:date ;
-    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
-    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
-    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:title "Link de acceso al recurso en el catálogo del CODSI"@es ;
-    skos:notation "spaignPNOA2021" ;
-    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
-    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ortoimagenes>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_pnoa-ma> ;
-    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2021> ;
-    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
-    foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
-
-<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2022> a adms:Identifier,
-        dcat:Distribution ;
-    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
-    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
-    dcterms:description "Enlace del Dataset en XML bajo la normativa de INSPIRE"@es ;
-    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
-    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2022" ;
-    dcterms:issued "2022-01-01"^^xsd:date ;
-    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
-    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
-    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:title "Link de acceso al recurso en el catálogo del CODSI"@es ;
-    skos:notation "spaignPNOA2022" ;
-    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
-    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ortoimagenes>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_pnoa-ma> ;
-    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2022> ;
-    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
-    foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
-
-<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2023> a adms:Identifier,
-        dcat:Distribution ;
-    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
-    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
-    dcterms:description "Enlace del Dataset en XML bajo la normativa de INSPIRE"@es ;
-    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
-    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2023" ;
-    dcterms:issued "2025-01-01"^^xsd:date ;
-    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
-    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
-    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:title "Link de acceso al recurso en el catálogo del CODSI"@es ;
-    skos:notation "spaignPNOA2023" ;
-    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
-    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ortoimagenes>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_pnoa-ma> ;
-    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2023> ;
-    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
-    foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
-
-<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2024> a adms:Identifier,
-        dcat:Distribution ;
-    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205/oj>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
-    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
-    dcterms:description "Enlace del Dataset en XML bajo la normativa de INSPIRE"@es ;
-    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
-    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2024" ;
-    dcterms:issued "2025-03-01"^^xsd:date ;
-    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
-    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
-    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:title "Link de acceso al recurso en el catálogo del CODSI"@es ;
-    skos:notation "spaignPNOA2024" ;
-    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
-    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ortoimagenes>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_pnoa-ma> ;
-    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2024> ;
-    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
-    foaf:page <http://data.europa.eu/eli/reg/2008/1205/oj>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
-
-<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2025> a adms:Identifier,
-        dcat:Distribution ;
-    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205/oj>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
-    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
-    dcterms:description "Enlace del Dataset en XML bajo la normativa de INSPIRE"@es ;
-    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
-    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2025" ;
-    dcterms:issued "2026-01-01"^^xsd:date ;
-    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
-    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
-    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:title "Link de acceso al recurso en el catálogo del CODSI"@es ;
-    skos:notation "spaignPNOA2025" ;
-    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
-    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ortoimagenes>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_pnoa-ma> ;
-    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2025> ;
-    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
-    foaf:page <http://data.europa.eu/eli/reg/2008/1205/oj>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
-
-<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignTrueOrto2025> a adms:Identifier,
-        dcat:Distribution ;
-    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205/oj>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
-    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
-    dcterms:description "Enlace del Dataset en XML bajo la normativa de INSPIRE"@es ;
-    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
-    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignTrueOrto2025" ;
-    dcterms:issued "2025-11-01"^^xsd:date ;
-    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
-    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
-    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:title "Link de acceso al recurso en el catálogo del CODSI"@es ;
-    skos:notation "spaignTrueOrto2025" ;
-    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
-    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ortoimagenes> ;
-    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignTrueOrto2025> ;
-    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
-    foaf:page <http://data.europa.eu/eli/reg/2008/1205/oj>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
-
-<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaign_IGR_Transporte> a adms:Identifier,
-        dcat:Distribution ;
-    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205/oj>,
-        <http://data.europa.eu/eli/reg/2010/1089/oj>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
-    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
-    dcterms:description "Enlace del Dataset en XML bajo la normativa de INSPIRE"@es ;
-    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
-    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaign_IGR_Transporte" ;
-    dcterms:issued "2010-01-01"^^xsd:date ;
-    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
-    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
-    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:title "Link de acceso al recurso en el catálogo del CODSI"@es ;
-    skos:notation "spaign_IGR_Transporte" ;
-    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
-    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_scne>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_IGR_Transporte>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_igr_transporte> ;
-    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaign_IGR_Transporte> ;
-    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
-    foaf:page <http://data.europa.eu/eli/reg/2008/1205/oj>,
-        <http://data.europa.eu/eli/reg/2010/1089/oj>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
-
-<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaign_cartociudad_addresses> a adms:Identifier,
-        dcat:Distribution ;
-    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205/oj>,
-        <http://data.europa.eu/eli/reg/2010/1089/oj>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
-    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
-    dcterms:description "Enlace del Dataset en XML bajo la normativa de INSPIRE"@es ;
-    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
-    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaign_cartociudad_addresses" ;
-    dcterms:issued "2006-12-31"^^xsd:date ;
-    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
-    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
-    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:title "Link de acceso al recurso en el catálogo del CODSI"@es ;
-    skos:notation "spaign_cartociudad_addresses" ;
-    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
-    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_scne>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignrest_cartociudad_address>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_cartociudad_address>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_addresses_ccpp> ;
-    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaign_cartociudad_addresses> ;
-    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
-    foaf:page <http://data.europa.eu/eli/reg/2008/1205/oj>,
-        <http://data.europa.eu/eli/reg/2010/1089/oj>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
-
-<https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignsioseAR2017> a adms:Identifier,
-        dcat:Distribution ;
-    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
-        <http://data.europa.eu/eli/reg/2010/1089>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> ;
-    dcterms:conformsTo <https://datosgobes.github.io/DCAT-AP-ES> ;
-    dcterms:description "Enlace del Dataset en XML bajo la normativa de INSPIRE"@es ;
-    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
-    dcterms:identifier "https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignsioseAR2017" ;
-    dcterms:issued "2021-05-17"^^xsd:date ;
-    dcterms:language <http://publications.europa.eu/resource/authority/language/SPA> ;
-    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
-    dcterms:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:title "Link de acceso al recurso en el catálogo del CODSI"@es ;
-    skos:notation "spaignsioseAR2017" ;
-    adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
-    dcat:accessService <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_scne>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_ocupacion-suelo>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_OcupacionSuelo>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_ocupacion-suelo> ;
-    dcat:accessURL <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignsioseAR2017> ;
-    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
-    foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
         <http://data.europa.eu/eli/reg/2010/1089>,
         <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
 
@@ -1329,8 +1478,14 @@ Canarias: septiembre 2022"""@es ;
     adms:identifier <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2021> ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)> ;
     dcat:distribution <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2021/formatters/html>,
-        <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2021> ;
-    dcat:keyword "Earth observation and environment"@es ;
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2021/formatters/xml> ;
+    dcat:keyword "Earth observation and environment"@es,
+        "España"@es,
+        "High-value dataset"@es,
+        "Nacional"@es,
+        "Orthoimagery"@es,
+        "Ortoimágenes"@es,
+        "Sistema Cartográfico Nacional"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia>,
         <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras>,
         <http://inspire.ec.europa.eu/theme/oi> ;
@@ -1374,8 +1529,14 @@ C.A. Ceuta: junio 2023"""@es ;
     adms:identifier <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2022> ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)> ;
     dcat:distribution <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2022/formatters/html>,
-        <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2022> ;
-    dcat:keyword "Earth observation and environment"@es ;
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2022/formatters/xml> ;
+    dcat:keyword "Earth observation and environment"@es,
+        "España"@es,
+        "High-value dataset"@es,
+        "Nacional"@es,
+        "Orthoimagery"@es,
+        "Ortoimágenes"@es,
+        "Sistema Cartográfico Nacional"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia>,
         <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras>,
         <http://inspire.ec.europa.eu/theme/oi> ;
@@ -1405,8 +1566,14 @@ Los mosaicos se han obtenido a partir de las ortofotos definitivas más reciente
     adms:identifier <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2023> ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)> ;
     dcat:distribution <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2023/formatters/html>,
-        <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2023> ;
-    dcat:keyword "Earth observation and environment"@es ;
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2023/formatters/xml> ;
+    dcat:keyword "Earth observation and environment"@es,
+        "España"@es,
+        "High-value dataset"@es,
+        "Nacional"@es,
+        "Orthoimagery"@es,
+        "Ortoimágenes"@es,
+        "Sistema Cartográfico Nacional"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia>,
         <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras>,
         <http://inspire.ec.europa.eu/theme/oi> ;
@@ -1452,8 +1619,14 @@ Comunitat Valenciana: noviembre 2025"""@es ;
     adms:identifier <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2024> ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)> ;
     dcat:distribution <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024/formatters/html>,
-        <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2024> ;
-    dcat:keyword "Earth observation and environment"@es ;
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024/formatters/xml> ;
+    dcat:keyword "Earth observation and environment"@es,
+        "España"@es,
+        "High-value dataset"@es,
+        "Nacional"@es,
+        "Orthoimagery"@es,
+        "Ortoimágenes"@es,
+        "Sistema Cartográfico Nacional"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia>,
         <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras>,
         <http://inspire.ec.europa.eu/theme/oi> ;
@@ -1491,8 +1664,14 @@ Extremadura sur: febrero 2026"""@es ;
     adms:identifier <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2025> ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)> ;
     dcat:distribution <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2025/formatters/html>,
-        <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignPNOA2025> ;
-    dcat:keyword "Earth observation and environment"@es ;
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2025/formatters/xml> ;
+    dcat:keyword "Earth observation and environment"@es,
+        "España"@es,
+        "High-value dataset"@es,
+        "Nacional"@es,
+        "Orthoimagery"@es,
+        "Ortoimágenes"@es,
+        "Sistema Cartográfico Nacional"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia>,
         <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras>,
         <http://inspire.ec.europa.eu/theme/oi> ;
@@ -1524,8 +1703,13 @@ Extremadura sur: febrero 2026"""@es ;
     adms:identifier <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaign_IGR_Transporte> ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)> ;
     dcat:distribution <https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte/formatters/html>,
-        <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaign_IGR_Transporte> ;
-    dcat:keyword "High-value dataset"@es ;
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte/formatters/xml> ;
+    dcat:keyword "High-value dataset"@es,
+        "Mobility"@es,
+        "Nacional"@es,
+        "Redes de transporte"@es,
+        "Sistema Cartográfico Nacional"@es,
+        "Transport networks"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/transporte>,
         <http://inspire.ec.europa.eu/theme/tn> ;
     foaf:page <http://data.europa.eu/eli/reg/2008/1205/oj>,
@@ -1554,8 +1738,21 @@ Extremadura sur: febrero 2026"""@es ;
     adms:identifier <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignHIDROGRAFIA_IGR> ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)> ;
     dcat:distribution <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/html>,
-        <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignHIDROGRAFIA_IGR> ;
-    dcat:keyword "CNIG"@es ;
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/xml> ;
+    dcat:keyword "CNIG"@es,
+        "Demarcacion Hidrografica"@es,
+        "Earth observation and environment"@es,
+        "Embalses"@es,
+        "España"@es,
+        "Hidrografía"@es,
+        "High-value dataset"@es,
+        "Hydrography"@es,
+        "IGN"@es,
+        "Instituto Geográfico Nacional"@es,
+        "Nacional"@es,
+        "Presas"@es,
+        "Rios"@es,
+        "Sistema Cartográfico Nacional"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia>,
         <http://datos.gob.es/kos/sector-publico/sector/medio-ambiente>,
         <http://inspire.ec.europa.eu/theme/hy> ;
@@ -1588,8 +1785,14 @@ Extremadura sur: febrero 2026"""@es ;
     adms:identifier <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM> ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional> ;
     dcat:distribution <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM/formatters/html>,
-        <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM> ;
-    dcat:keyword "Administrative units"@es ;
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM/formatters/xml> ;
+    dcat:keyword "Administrative units"@es,
+        "Geospatial"@es,
+        "High-value dataset"@es,
+        "IGN"@es,
+        "Líneas Límite"@es,
+        "Nacional"@es,
+        "Unidades administrativas"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/hacienda>,
         <http://inspire.ec.europa.eu/theme/au> ;
     foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
@@ -1618,8 +1821,17 @@ Extremadura sur: febrero 2026"""@es ;
     adms:identifier <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignNGBE> ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional> ;
     dcat:distribution <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE/formatters/html>,
-        <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignNGBE> ;
-    dcat:keyword "CNIG"@es ;
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE/formatters/xml> ;
+    dcat:keyword "CNIG"@es,
+        "España"@es,
+        "Geographical names"@es,
+        "Geospatial"@es,
+        "High-value dataset"@es,
+        "IGN"@es,
+        "Nacional"@es,
+        "Nombres geográficos"@es,
+        "Nomenclátor"@es,
+        "Toponimia"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras>,
         <http://inspire.ec.europa.eu/theme/gn> ;
     foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
@@ -1638,7 +1850,16 @@ Extremadura sur: febrero 2026"""@es ;
         "API de descarga de líneas límite, el Nomenclátor Geográfico Básico de España, Poblaciones y Vértices Geodésicos (API-Features) de España"@es ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional> ;
     dcat:endpointURL <https://api-features.ign.es/> ;
-    dcat:keyword "API"@es ;
+    dcat:keyword "API"@es,
+        "Features"@es,
+        "Nacional"@es,
+        "Nombres geográficos"@es,
+        "OGC"@es,
+        "REDNAP"@es,
+        "REGENTE"@es,
+        "Servicio de acceso a fenómenos"@es,
+        "Sistemas de coordenadas de referencia"@es,
+        "Unidades administrativas"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Poblaciones>,
@@ -1674,12 +1895,21 @@ Extremadura sur: febrero 2026"""@es ;
     dcterms:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset> ;
     adms:identifier <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignsioseAR2017> ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)> ;
-    dcat:distribution <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignsioseAR2017> ;
-    dcat:keyword "Cubierta terrestre"@es ;
+    dcat:distribution <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignsioseAR2017/formatters/xml> ;
+    dcat:keyword "Cubierta terrestre"@es,
+        "Earth observation and environment"@es,
+        "España"@es,
+        "High-value dataset"@es,
+        "IGN"@es,
+        "Land cover"@es,
+        "Land use"@es,
+        "Nacional"@es,
+        "Sistema Cartográfico Nacional"@es,
+        "Uso del suelo"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/comercio>,
         <http://datos.gob.es/kos/sector-publico/sector/medio-ambiente>,
-        <http://inspire.ec.europa.eu/theme/lc>,
-        <http://inspire.ec.europa.eu/theme/lu> ;
+        <https://inspire.ec.europa.eu/theme/lc>,
+        <https://inspire.ec.europa.eu/theme/lu> ;
     foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
         <http://data.europa.eu/eli/reg/2010/1089>,
         <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
@@ -1722,8 +1952,19 @@ Extremadura sur: febrero 2026"""@es ;
     adms:identifier <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaign_cartociudad_addresses> ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)> ;
     dcat:distribution <https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_cartociudad_addresses/formatters/html>,
-        <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaign_cartociudad_addresses> ;
-    dcat:keyword "Addresses"@es ;
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_cartociudad_addresses/formatters/xml> ;
+    dcat:keyword "Addresses"@es,
+        "CNIG"@es,
+        "Callejero"@es,
+        "Código Postal"@es,
+        "Direcciones"@es,
+        "España"@es,
+        "Geospatial"@es,
+        "High-value dataset"@es,
+        "IGN"@es,
+        "Nacional"@es,
+        "Thorughfare name"@es,
+        "Unidades administrativas"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras>,
         <http://inspire.ec.europa.eu/theme/ad> ;
     foaf:page <http://data.europa.eu/eli/reg/2008/1205/oj>,
@@ -1752,8 +1993,15 @@ Extremadura sur: febrero 2026"""@es ;
     adms:identifier <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignMDT05> ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)> ;
     dcat:distribution <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT05/formatters/html>,
-        <https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignMDT05> ;
-    dcat:keyword "Earth observation and environment"@es ;
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT05/formatters/xml> ;
+    dcat:keyword "Earth observation and environment"@es,
+        "Elevaciones"@es,
+        "Elevation"@es,
+        "High-value dataset"@es,
+        "Nacional"@es,
+        "Relieve"@es,
+        "SCNE"@es,
+        "Sistema Cartográfico Nacional"@es ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras>,
         <http://inspire.ec.europa.eu/theme/el> ;
     foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
@@ -1776,7 +2024,14 @@ Extremadura sur: febrero 2026"""@es ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional> ;
     dcat:endpointURL <https://www.ign.es/atom/ds.es.xml>,
         <https://www.ign.es/atom/osd/opensearchdescription.xml> ;
-    dcat:keyword "Hidrografía"@es ;
+    dcat:keyword "Hidrografía"@es,
+        "Nacional"@es,
+        "Nombres geográficos"@es,
+        "Servicio de acceso a fenómenos"@es,
+        "Servicio de gestión de modelos/información geográficos"@es,
+        "Unidades administrativas"@es,
+        "infoFeatureAccessService"@es,
+        "infoManagementService"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE> ;
@@ -1802,7 +2057,17 @@ Extremadura sur: febrero 2026"""@es ;
         "API de descarga de objetos geográficos (API-Features) del Sistema Cartográfico Nacional de España"@es ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional> ;
     dcat:endpointURL <https://api-features.idee.es> ;
-    dcat:keyword "API"@es ;
+    dcat:keyword "API"@es,
+        "Direcciones"@es,
+        "Features"@es,
+        "Hidrografía"@es,
+        "Nacional"@es,
+        "OGC"@es,
+        "Redes de transporte"@es,
+        "SCNE"@es,
+        "Servicio de acceso a fenómenos"@es,
+        "Sistema Cartográfico Nacional"@es,
+        "Uso del suelo"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_cartociudad_addresses>,
@@ -1822,33 +2087,6 @@ Extremadura sur: febrero 2026"""@es ;
         <mailto:limites_municipales@transportes.gob.es> ;
     vcard:organization-name "Organismo"@es .
 
-<https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_pnoa-ma> a dcat:DataService ;
-    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
-        <http://data.europa.eu/eli/reg/2009/976>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
-    dcatap:hvdCategory <http://data.europa.eu/bna/c_ac64a52d> ;
-    dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
-    dcterms:description "WMTS de Ortoimágenes de España (satélite Sentinel2 y ortofotos del PNOA MA)"@es ;
-    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
-    dcterms:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002> ;
-    dcterms:title "WMTS de Ortoimágenes de España (satélite Sentinel2 y ortofotos del PNOA MA)"@es ;
-    dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)> ;
-    dcat:endpointDescription <https://www.ign.es/wmts/pnoa-ma?REQUEST=GetCapabilities&SERVICE=WMTS> ;
-    dcat:endpointURL <https://www.ign.es/wmts/pnoa-ma>,
-        <https://www.ign.es/wmts/pnoa-ma?REQUEST=GetCapabilities&SERVICE=WMTS> ;
-    dcat:keyword "Nacional"@es ;
-    dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMosaicoSentinel2>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2021>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2022>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2023>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024>,
-        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2025> ;
-    dcat:theme <http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia>,
-        <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras> ;
-    foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
-        <http://data.europa.eu/eli/reg/2009/976>,
-        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
-
 <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_ortoimagenes> a dcat:DataService ;
     dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
         <http://data.europa.eu/eli/reg/2009/976>,
@@ -1864,7 +2102,9 @@ Extremadura sur: febrero 2026"""@es ;
     dcat:endpointURL <https://www.ign.es/wms-inspire/pnoa-ma>,
         <https://www.ign.es/wms-inspire/pnoa-ma?request=GetCapabilities&service=WMS>,
         <https://www.ign.es/wms-inspire/pnoa-ma?request=GetCapabilities&service=WMS&version=1.3.0> ;
-    dcat:keyword "Nacional"@es ;
+    dcat:keyword "Nacional"@es,
+        "Ortoimágenes"@es,
+        "Servicio de acceso a mapas"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMosaicoSentinel2>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2021>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2022>,
@@ -1872,6 +2112,35 @@ Extremadura sur: febrero 2026"""@es ;
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2025>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignTrueOrto2025> ;
+    dcat:theme <http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia>,
+        <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras> ;
+    foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
+        <http://data.europa.eu/eli/reg/2009/976>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> .
+
+<https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_pnoa-ma> a dcat:DataService ;
+    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2008/1205>,
+        <http://data.europa.eu/eli/reg/2009/976>,
+        <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+    dcatap:hvdCategory <http://data.europa.eu/bna/c_ac64a52d> ;
+    dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:description "WMTS de Ortoimágenes de España (satélite Sentinel2 y ortofotos del PNOA MA)"@es ;
+    dcterms:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
+    dcterms:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002> ;
+    dcterms:title "WMTS de Ortoimágenes de España (satélite Sentinel2 y ortofotos del PNOA MA)"@es ;
+    dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)> ;
+    dcat:endpointDescription <https://www.ign.es/wmts/pnoa-ma?REQUEST=GetCapabilities&SERVICE=WMTS> ;
+    dcat:endpointURL <https://www.ign.es/wmts/pnoa-ma>,
+        <https://www.ign.es/wmts/pnoa-ma?REQUEST=GetCapabilities&SERVICE=WMTS> ;
+    dcat:keyword "Nacional"@es,
+        "Ortoimágenes"@es,
+        "Servicio de acceso a mapas"@es ;
+    dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMosaicoSentinel2>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2021>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2022>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2023>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024>,
+        <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2025> ;
     dcat:theme <http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia>,
         <http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras> ;
     foaf:page <http://data.europa.eu/eli/reg/2008/1205>,
@@ -1891,7 +2160,19 @@ Extremadura sur: febrero 2026"""@es ;
         "API de visualización de información geográfica de referencia y de ortoimágenes (API-Maps) del Sistema Cartográfico Nacional de España."@es ;
     dcat:contactPoint <https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional> ;
     dcat:endpointURL <https://api-maps.idee.es/> ;
-    dcat:keyword "API Maps"@es ;
+    dcat:keyword "API Maps"@es,
+        "Direcciones"@es,
+        "Elevaciones"@es,
+        "Hidrografía"@es,
+        "Nacional"@es,
+        "OGC"@es,
+        "Ortoimágenes"@es,
+        "Redes de transporte"@es,
+        "SCNE"@es,
+        "Servicio de acceso a mapas"@es,
+        "Sistema Cartográfico Nacional"@es,
+        "Uso del suelo"@es,
+        "ogcapi.ogc.org/maps"@es ;
     dcat:servesDataset <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT05>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMosaicoSentinel2>,
         <https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2021>,
@@ -1914,10 +2195,5 @@ Extremadura sur: febrero 2026"""@es ;
         <mailto:ign@transportes.gob.es>,
         <mailto:siose@transportes.gob.es> ;
     vcard:organization-name "Organismo"@es .
-
-<http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002> a foaf:Agent ;
-    dcterms:identifier "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002" ;
-    dcterms:type <http://purl.org/adms/publishertype/NationalAuthority> ;
-    foaf:name "Catálogo Oficial de Datos y Servicios INSPIRE"@es .
 
 
