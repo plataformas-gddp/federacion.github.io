@@ -47,7 +47,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -174,7 +174,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -191,9 +191,6 @@
       },
       "dct:accrualPeriodicity": {
         "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "ea0041513-demandantes-de-empleo-por-municipios"
       },
       "dcat:keyword": [
         {
@@ -290,13 +287,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -332,13 +329,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -374,13 +371,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -444,7 +441,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -461,9 +458,6 @@
       },
       "dct:accrualPeriodicity": {
         "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "ea0041513-contratos-por-municipios"
       },
       "dcat:keyword": [
         {
@@ -560,13 +554,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -602,13 +596,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -644,13 +638,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -714,7 +708,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -731,9 +725,6 @@
       },
       "dct:accrualPeriodicity": {
         "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "ea0041513-paro-registrado-por-municipios"
       },
       "dcat:keyword": [
         {
@@ -830,13 +821,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -872,13 +863,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -914,13 +905,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -984,7 +975,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1001,9 +992,6 @@
       },
       "dct:accrualPeriodicity": {
         "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "ea0041513-gasto-en-prestaciones"
       },
       "dcat:keyword": [
         {
@@ -1100,13 +1088,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1142,13 +1130,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1184,13 +1172,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-20T12:07:31+02:00",
+          "@value": "2026-05-20T13:39:10+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
