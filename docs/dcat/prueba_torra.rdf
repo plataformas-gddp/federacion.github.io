@@ -84,7 +84,7 @@
     <dct:title xml:lang="es">CSV: Ocupación laboral productiva de población interna</dct:title>
     <dct:description xml:lang="es">Archivo CSV con los registros de ocupación laboral productiva de la población interna en los centros penitenciarios y CIS</dct:description>
     <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_NC_4_0" />
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BYNC_4_0" />
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
     <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv" />
     <dcat:accessURL rdf:resource="http://intraoatpfe/cms/archivos/pdf/20260306EXCEL/Ocupacion.csv" />
@@ -241,7 +241,7 @@
     <dct:title xml:lang="es">CSV: Formación para el empleo e inserción laboral impartidas a la población interna</dct:title>
     <dct:description xml:lang="es">Archivo CSV con los registros de formación para el empleo e inserción laboral impartidas a la población interna en los centros penitenciarios y CIS</dct:description>
     <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_NC_4_0" />
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BYNC_4_0" />
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
     <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv" />
     <dcat:accessURL rdf:resource="http://intraoatpfe/cms/archivos/pdf/20260306EXCEL/Formacion.csv" />
@@ -398,7 +398,7 @@
     <dct:title xml:lang="es">CSV: Aprovisionamiento materias primas consumidas en centros penitenciarios y CIS</dct:title>
     <dct:description xml:lang="es">Archivo CSV con los registros de aprovisionamiento de materias primas consumidas en los centros penitenciarios y CIS</dct:description>
     <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_NC_4_0" />
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BYNC_4_0" />
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
     <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv" />
     <dcat:accessURL rdf:resource="http://intraoatpfe/cms/archivos/pdf/20260306EXCEL/Alimentacion.csv" />
