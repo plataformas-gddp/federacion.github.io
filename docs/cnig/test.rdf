@@ -36,17 +36,17 @@
                   </vcard:Organization>
                 </dcat:contactPoint>
                 <dcat:endpointURL rdf:resource="https://api-features.idee.es"/>
-                <dcat:keyword xml:lang="es">API</dcat:keyword>
-                <dcat:keyword xml:lang="es">Direcciones</dcat:keyword>
-                <dcat:keyword xml:lang="es">Features</dcat:keyword>
                 <dcat:keyword xml:lang="es">Hidrografía</dcat:keyword>
+                <dcat:keyword xml:lang="es">Uso del suelo</dcat:keyword>
+                <dcat:keyword xml:lang="es">Redes de transporte</dcat:keyword>
+                <dcat:keyword xml:lang="es">Direcciones</dcat:keyword>
+                <dcat:keyword xml:lang="es">Servicio de acceso a fenómenos</dcat:keyword>
                 <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
                 <dcat:keyword xml:lang="es">OGC</dcat:keyword>
-                <dcat:keyword xml:lang="es">Redes de transporte</dcat:keyword>
-                <dcat:keyword xml:lang="es">SCNE</dcat:keyword>
-                <dcat:keyword xml:lang="es">Servicio de acceso a fenómenos</dcat:keyword>
+                <dcat:keyword xml:lang="es">API</dcat:keyword>
+                <dcat:keyword xml:lang="es">Features</dcat:keyword>
                 <dcat:keyword xml:lang="es">Sistema Cartográfico Nacional</dcat:keyword>
-                <dcat:keyword xml:lang="es">Uso del suelo</dcat:keyword>
+                <dcat:keyword xml:lang="es">SCNE</dcat:keyword>
                 <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_cartociudad_addresses"/>
                 <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte"/>
                 <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR"/>
@@ -89,24 +89,24 @@
                 <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/transportes"/>
                 <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/transportes?REQUEST=GetCapabilities&amp;SERVICE=WFS&amp;VERSION=2.0.0"/>
                 <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/transportes?service=WFS&amp;request=GetCapabilities&amp;version=2.0.0"/>
+                <dcat:keyword xml:lang="es">Redes de transporte</dcat:keyword>
+                <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
+                <dcat:keyword xml:lang="es">Servicio de acceso a fenómenos</dcat:keyword>
                 <dcat:keyword xml:lang="es">2.0.0</dcat:keyword>
-                <dcat:keyword xml:lang="es">Aeródromo</dcat:keyword>
-                <dcat:keyword xml:lang="es">Calle de Rodaje</dcat:keyword>
-                <dcat:keyword xml:lang="es">Carretera</dcat:keyword>
-                <dcat:keyword xml:lang="es">Estación</dcat:keyword>
-                <dcat:keyword xml:lang="es">ferrocaril</dcat:keyword>
+                <dcat:keyword xml:lang="es">WFS</dcat:keyword>
+                <dcat:keyword xml:lang="es">OGC</dcat:keyword>
                 <dcat:keyword xml:lang="es">IDEE</dcat:keyword>
+                <dcat:keyword xml:lang="es">Infraestructura de Datos Espaciales</dcat:keyword>
                 <dcat:keyword xml:lang="es">IGR</dcat:keyword>
                 <dcat:keyword xml:lang="es">Información Geográfica de Referencia</dcat:keyword>
-                <dcat:keyword xml:lang="es">Infraestructura de Datos Espaciales</dcat:keyword>
-                <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
-                <dcat:keyword xml:lang="es">OGC</dcat:keyword>
-                <dcat:keyword xml:lang="es">Pista</dcat:keyword>
-                <dcat:keyword xml:lang="es">Plataforma</dcat:keyword>
-                <dcat:keyword xml:lang="es">Redes de transporte</dcat:keyword>
                 <dcat:keyword xml:lang="es">SCNE</dcat:keyword>
-                <dcat:keyword xml:lang="es">Servicio de acceso a fenómenos</dcat:keyword>
-                <dcat:keyword xml:lang="es">WFS</dcat:keyword>
+                <dcat:keyword xml:lang="es">Carretera</dcat:keyword>
+                <dcat:keyword xml:lang="es">ferrocaril</dcat:keyword>
+                <dcat:keyword xml:lang="es">Plataforma</dcat:keyword>
+                <dcat:keyword xml:lang="es">Estación</dcat:keyword>
+                <dcat:keyword xml:lang="es">Aeródromo</dcat:keyword>
+                <dcat:keyword xml:lang="es">Calle de Rodaje</dcat:keyword>
+                <dcat:keyword xml:lang="es">Pista</dcat:keyword>
                 <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte"/>
                 <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte"/>
                 <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -145,26 +145,26 @@
                 <dcat:endpointDescription rdf:resource="https://servicios.idee.es/wms-inspire/transportes?REQUEST=GetCapabilities&amp;Service=WMS&amp;version=1.3.0"/>
                 <dcat:endpointURL rdf:resource="https://servicios.idee.es/wms-inspire/transportes"/>
                 <dcat:endpointURL rdf:resource="https://servicios.idee.es/wms-inspire/transportes?REQUEST=GetCapabilities&amp;Service=WMS&amp;version=1.3.0"/>
-                <dcat:keyword xml:lang="es">1.1.1</dcat:keyword>
-                <dcat:keyword xml:lang="es">1.3.0</dcat:keyword>
-                <dcat:keyword xml:lang="es">Aeródromo</dcat:keyword>
-                <dcat:keyword xml:lang="es">Calle de Rodaje</dcat:keyword>
-                <dcat:keyword xml:lang="es">Carretera</dcat:keyword>
-                <dcat:keyword xml:lang="es">Estación</dcat:keyword>
-                <dcat:keyword xml:lang="es">ferrocaril</dcat:keyword>
-                <dcat:keyword xml:lang="es">IDEE</dcat:keyword>
-                <dcat:keyword xml:lang="es">IGR</dcat:keyword>
-                <dcat:keyword xml:lang="es">Información Geográfica de Referencia</dcat:keyword>
-                <dcat:keyword xml:lang="es">Infraestructura de Datos Espaciales</dcat:keyword>
-                <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
-                <dcat:keyword xml:lang="es">OGC</dcat:keyword>
-                <dcat:keyword xml:lang="es">Pista</dcat:keyword>
-                <dcat:keyword xml:lang="es">Plataforma</dcat:keyword>
                 <dcat:keyword xml:lang="es">Redes de transporte</dcat:keyword>
+                <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
+                <dcat:keyword xml:lang="es">1.3.0</dcat:keyword>
+                <dcat:keyword xml:lang="es">WMS</dcat:keyword>
+                <dcat:keyword xml:lang="es">OGC</dcat:keyword>
+                <dcat:keyword xml:lang="es">1.1.1</dcat:keyword>
+                <dcat:keyword xml:lang="es">Sistema Cartográfico Nacional</dcat:keyword>
                 <dcat:keyword xml:lang="es">SCNE</dcat:keyword>
                 <dcat:keyword xml:lang="es">Servicio de acceso a mapas</dcat:keyword>
-                <dcat:keyword xml:lang="es">Sistema Cartográfico Nacional</dcat:keyword>
-                <dcat:keyword xml:lang="es">WMS</dcat:keyword>
+                <dcat:keyword xml:lang="es">Carretera</dcat:keyword>
+                <dcat:keyword xml:lang="es">ferrocaril</dcat:keyword>
+                <dcat:keyword xml:lang="es">Plataforma</dcat:keyword>
+                <dcat:keyword xml:lang="es">Estación</dcat:keyword>
+                <dcat:keyword xml:lang="es">Aeródromo</dcat:keyword>
+                <dcat:keyword xml:lang="es">Calle de Rodaje</dcat:keyword>
+                <dcat:keyword xml:lang="es">Pista</dcat:keyword>
+                <dcat:keyword xml:lang="es">IDEE</dcat:keyword>
+                <dcat:keyword xml:lang="es">Infraestructura de Datos Espaciales</dcat:keyword>
+                <dcat:keyword xml:lang="es">IGR</dcat:keyword>
+                <dcat:keyword xml:lang="es">Información Geográfica de Referencia</dcat:keyword>
                 <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte"/>
                 <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte"/>
                 <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -232,7 +232,7 @@
           </dcat:Distribution>
         </dcat:distribution>
         <dcat:distribution>
-          <dcat:Distribution rdf:about="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaign_IGR_Transporte">
+          <dcat:Distribution rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte/formatters/xml">
             <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
             <dcat:accessService>
               <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_scne">
@@ -244,17 +244,17 @@
                   </vcard:Organization>
                 </dcat:contactPoint>
                 <dcat:endpointURL rdf:resource="https://api-features.idee.es"/>
-                <dcat:keyword xml:lang="es">API</dcat:keyword>
-                <dcat:keyword xml:lang="es">Direcciones</dcat:keyword>
-                <dcat:keyword xml:lang="es">Features</dcat:keyword>
                 <dcat:keyword xml:lang="es">Hidrografía</dcat:keyword>
+                <dcat:keyword xml:lang="es">Uso del suelo</dcat:keyword>
+                <dcat:keyword xml:lang="es">Redes de transporte</dcat:keyword>
+                <dcat:keyword xml:lang="es">Direcciones</dcat:keyword>
+                <dcat:keyword xml:lang="es">Servicio de acceso a fenómenos</dcat:keyword>
                 <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
                 <dcat:keyword xml:lang="es">OGC</dcat:keyword>
-                <dcat:keyword xml:lang="es">Redes de transporte</dcat:keyword>
-                <dcat:keyword xml:lang="es">SCNE</dcat:keyword>
-                <dcat:keyword xml:lang="es">Servicio de acceso a fenómenos</dcat:keyword>
+                <dcat:keyword xml:lang="es">API</dcat:keyword>
+                <dcat:keyword xml:lang="es">Features</dcat:keyword>
                 <dcat:keyword xml:lang="es">Sistema Cartográfico Nacional</dcat:keyword>
-                <dcat:keyword xml:lang="es">Uso del suelo</dcat:keyword>
+                <dcat:keyword xml:lang="es">SCNE</dcat:keyword>
                 <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_cartociudad_addresses"/>
                 <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte"/>
                 <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR"/>
@@ -297,24 +297,24 @@
                 <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/transportes"/>
                 <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/transportes?REQUEST=GetCapabilities&amp;SERVICE=WFS&amp;VERSION=2.0.0"/>
                 <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/transportes?service=WFS&amp;request=GetCapabilities&amp;version=2.0.0"/>
+                <dcat:keyword xml:lang="es">Redes de transporte</dcat:keyword>
+                <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
+                <dcat:keyword xml:lang="es">Servicio de acceso a fenómenos</dcat:keyword>
                 <dcat:keyword xml:lang="es">2.0.0</dcat:keyword>
-                <dcat:keyword xml:lang="es">Aeródromo</dcat:keyword>
-                <dcat:keyword xml:lang="es">Calle de Rodaje</dcat:keyword>
-                <dcat:keyword xml:lang="es">Carretera</dcat:keyword>
-                <dcat:keyword xml:lang="es">Estación</dcat:keyword>
-                <dcat:keyword xml:lang="es">ferrocaril</dcat:keyword>
+                <dcat:keyword xml:lang="es">WFS</dcat:keyword>
+                <dcat:keyword xml:lang="es">OGC</dcat:keyword>
                 <dcat:keyword xml:lang="es">IDEE</dcat:keyword>
+                <dcat:keyword xml:lang="es">Infraestructura de Datos Espaciales</dcat:keyword>
                 <dcat:keyword xml:lang="es">IGR</dcat:keyword>
                 <dcat:keyword xml:lang="es">Información Geográfica de Referencia</dcat:keyword>
-                <dcat:keyword xml:lang="es">Infraestructura de Datos Espaciales</dcat:keyword>
-                <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
-                <dcat:keyword xml:lang="es">OGC</dcat:keyword>
-                <dcat:keyword xml:lang="es">Pista</dcat:keyword>
-                <dcat:keyword xml:lang="es">Plataforma</dcat:keyword>
-                <dcat:keyword xml:lang="es">Redes de transporte</dcat:keyword>
                 <dcat:keyword xml:lang="es">SCNE</dcat:keyword>
-                <dcat:keyword xml:lang="es">Servicio de acceso a fenómenos</dcat:keyword>
-                <dcat:keyword xml:lang="es">WFS</dcat:keyword>
+                <dcat:keyword xml:lang="es">Carretera</dcat:keyword>
+                <dcat:keyword xml:lang="es">ferrocaril</dcat:keyword>
+                <dcat:keyword xml:lang="es">Plataforma</dcat:keyword>
+                <dcat:keyword xml:lang="es">Estación</dcat:keyword>
+                <dcat:keyword xml:lang="es">Aeródromo</dcat:keyword>
+                <dcat:keyword xml:lang="es">Calle de Rodaje</dcat:keyword>
+                <dcat:keyword xml:lang="es">Pista</dcat:keyword>
                 <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte"/>
                 <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte"/>
                 <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -353,26 +353,26 @@
                 <dcat:endpointDescription rdf:resource="https://servicios.idee.es/wms-inspire/transportes?REQUEST=GetCapabilities&amp;Service=WMS&amp;version=1.3.0"/>
                 <dcat:endpointURL rdf:resource="https://servicios.idee.es/wms-inspire/transportes"/>
                 <dcat:endpointURL rdf:resource="https://servicios.idee.es/wms-inspire/transportes?REQUEST=GetCapabilities&amp;Service=WMS&amp;version=1.3.0"/>
-                <dcat:keyword xml:lang="es">1.1.1</dcat:keyword>
-                <dcat:keyword xml:lang="es">1.3.0</dcat:keyword>
-                <dcat:keyword xml:lang="es">Aeródromo</dcat:keyword>
-                <dcat:keyword xml:lang="es">Calle de Rodaje</dcat:keyword>
-                <dcat:keyword xml:lang="es">Carretera</dcat:keyword>
-                <dcat:keyword xml:lang="es">Estación</dcat:keyword>
-                <dcat:keyword xml:lang="es">ferrocaril</dcat:keyword>
-                <dcat:keyword xml:lang="es">IDEE</dcat:keyword>
-                <dcat:keyword xml:lang="es">IGR</dcat:keyword>
-                <dcat:keyword xml:lang="es">Información Geográfica de Referencia</dcat:keyword>
-                <dcat:keyword xml:lang="es">Infraestructura de Datos Espaciales</dcat:keyword>
-                <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
-                <dcat:keyword xml:lang="es">OGC</dcat:keyword>
-                <dcat:keyword xml:lang="es">Pista</dcat:keyword>
-                <dcat:keyword xml:lang="es">Plataforma</dcat:keyword>
                 <dcat:keyword xml:lang="es">Redes de transporte</dcat:keyword>
+                <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
+                <dcat:keyword xml:lang="es">1.3.0</dcat:keyword>
+                <dcat:keyword xml:lang="es">WMS</dcat:keyword>
+                <dcat:keyword xml:lang="es">OGC</dcat:keyword>
+                <dcat:keyword xml:lang="es">1.1.1</dcat:keyword>
+                <dcat:keyword xml:lang="es">Sistema Cartográfico Nacional</dcat:keyword>
                 <dcat:keyword xml:lang="es">SCNE</dcat:keyword>
                 <dcat:keyword xml:lang="es">Servicio de acceso a mapas</dcat:keyword>
-                <dcat:keyword xml:lang="es">Sistema Cartográfico Nacional</dcat:keyword>
-                <dcat:keyword xml:lang="es">WMS</dcat:keyword>
+                <dcat:keyword xml:lang="es">Carretera</dcat:keyword>
+                <dcat:keyword xml:lang="es">ferrocaril</dcat:keyword>
+                <dcat:keyword xml:lang="es">Plataforma</dcat:keyword>
+                <dcat:keyword xml:lang="es">Estación</dcat:keyword>
+                <dcat:keyword xml:lang="es">Aeródromo</dcat:keyword>
+                <dcat:keyword xml:lang="es">Calle de Rodaje</dcat:keyword>
+                <dcat:keyword xml:lang="es">Pista</dcat:keyword>
+                <dcat:keyword xml:lang="es">IDEE</dcat:keyword>
+                <dcat:keyword xml:lang="es">Infraestructura de Datos Espaciales</dcat:keyword>
+                <dcat:keyword xml:lang="es">IGR</dcat:keyword>
+                <dcat:keyword xml:lang="es">Información Geográfica de Referencia</dcat:keyword>
                 <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte"/>
                 <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte"/>
                 <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -397,31 +397,31 @@
                 <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
               </dcat:DataService>
             </dcat:accessService>
-            <dcat:accessURL rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaign_IGR_Transporte"/>
+            <dcat:accessURL rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte/formatters/xml"/>
             <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
             <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
             <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205/oj"/>
             <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2010/1089/oj"/>
             <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
             <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES"/>
-            <dct:description xml:lang="es">Enlace del Dataset en XML bajo la normativa de INSPIRE</dct:description>
+            <dct:description xml:lang="es">Distribción del Datset en XML bajo la normativa de INSPIRE</dct:description>
             <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dct:issued>
             <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
             <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
             <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-            <dct:title xml:lang="es">Link de acceso al recurso en el catálogo del CODSI</dct:title>
+            <dct:title xml:lang="es">Distribución asociado a este Dataset</dct:title>
             <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
             <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205/oj"/>
             <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089/oj"/>
           </dcat:Distribution>
         </dcat:distribution>
+        <dcat:keyword xml:lang="es">Redes de transporte</dcat:keyword>
         <dcat:keyword xml:lang="es">High-value dataset</dcat:keyword>
         <dcat:keyword xml:lang="es">Mobility</dcat:keyword>
-        <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
-        <dcat:keyword xml:lang="es">Redes de transporte</dcat:keyword>
-        <dcat:keyword xml:lang="es">Sistema Cartográfico Nacional</dcat:keyword>
         <dcat:keyword xml:lang="es">Transport networks</dcat:keyword>
+        <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
+        <dcat:keyword xml:lang="es">Sistema Cartográfico Nacional</dcat:keyword>
         <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte"/>
         <dcat:theme rdf:resource="http://inspire.ec.europa.eu/theme/tn"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -479,17 +479,17 @@
           </vcard:Organization>
         </dcat:contactPoint>
         <dcat:endpointURL rdf:resource="https://api-features.idee.es"/>
-        <dcat:keyword xml:lang="es">API</dcat:keyword>
-        <dcat:keyword xml:lang="es">Direcciones</dcat:keyword>
-        <dcat:keyword xml:lang="es">Features</dcat:keyword>
         <dcat:keyword xml:lang="es">Hidrografía</dcat:keyword>
+        <dcat:keyword xml:lang="es">Uso del suelo</dcat:keyword>
+        <dcat:keyword xml:lang="es">Redes de transporte</dcat:keyword>
+        <dcat:keyword xml:lang="es">Direcciones</dcat:keyword>
+        <dcat:keyword xml:lang="es">Servicio de acceso a fenómenos</dcat:keyword>
         <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
         <dcat:keyword xml:lang="es">OGC</dcat:keyword>
-        <dcat:keyword xml:lang="es">Redes de transporte</dcat:keyword>
-        <dcat:keyword xml:lang="es">SCNE</dcat:keyword>
-        <dcat:keyword xml:lang="es">Servicio de acceso a fenómenos</dcat:keyword>
+        <dcat:keyword xml:lang="es">API</dcat:keyword>
+        <dcat:keyword xml:lang="es">Features</dcat:keyword>
         <dcat:keyword xml:lang="es">Sistema Cartográfico Nacional</dcat:keyword>
-        <dcat:keyword xml:lang="es">Uso del suelo</dcat:keyword>
+        <dcat:keyword xml:lang="es">SCNE</dcat:keyword>
         <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_cartociudad_addresses"/>
         <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte"/>
         <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR"/>
@@ -532,24 +532,24 @@
         <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/transportes"/>
         <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/transportes?REQUEST=GetCapabilities&amp;SERVICE=WFS&amp;VERSION=2.0.0"/>
         <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/transportes?service=WFS&amp;request=GetCapabilities&amp;version=2.0.0"/>
+        <dcat:keyword xml:lang="es">Redes de transporte</dcat:keyword>
+        <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
+        <dcat:keyword xml:lang="es">Servicio de acceso a fenómenos</dcat:keyword>
         <dcat:keyword xml:lang="es">2.0.0</dcat:keyword>
-        <dcat:keyword xml:lang="es">Aeródromo</dcat:keyword>
-        <dcat:keyword xml:lang="es">Calle de Rodaje</dcat:keyword>
-        <dcat:keyword xml:lang="es">Carretera</dcat:keyword>
-        <dcat:keyword xml:lang="es">Estación</dcat:keyword>
-        <dcat:keyword xml:lang="es">ferrocaril</dcat:keyword>
+        <dcat:keyword xml:lang="es">WFS</dcat:keyword>
+        <dcat:keyword xml:lang="es">OGC</dcat:keyword>
         <dcat:keyword xml:lang="es">IDEE</dcat:keyword>
+        <dcat:keyword xml:lang="es">Infraestructura de Datos Espaciales</dcat:keyword>
         <dcat:keyword xml:lang="es">IGR</dcat:keyword>
         <dcat:keyword xml:lang="es">Información Geográfica de Referencia</dcat:keyword>
-        <dcat:keyword xml:lang="es">Infraestructura de Datos Espaciales</dcat:keyword>
-        <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
-        <dcat:keyword xml:lang="es">OGC</dcat:keyword>
-        <dcat:keyword xml:lang="es">Pista</dcat:keyword>
-        <dcat:keyword xml:lang="es">Plataforma</dcat:keyword>
-        <dcat:keyword xml:lang="es">Redes de transporte</dcat:keyword>
         <dcat:keyword xml:lang="es">SCNE</dcat:keyword>
-        <dcat:keyword xml:lang="es">Servicio de acceso a fenómenos</dcat:keyword>
-        <dcat:keyword xml:lang="es">WFS</dcat:keyword>
+        <dcat:keyword xml:lang="es">Carretera</dcat:keyword>
+        <dcat:keyword xml:lang="es">ferrocaril</dcat:keyword>
+        <dcat:keyword xml:lang="es">Plataforma</dcat:keyword>
+        <dcat:keyword xml:lang="es">Estación</dcat:keyword>
+        <dcat:keyword xml:lang="es">Aeródromo</dcat:keyword>
+        <dcat:keyword xml:lang="es">Calle de Rodaje</dcat:keyword>
+        <dcat:keyword xml:lang="es">Pista</dcat:keyword>
         <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte"/>
         <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -588,26 +588,26 @@
         <dcat:endpointDescription rdf:resource="https://servicios.idee.es/wms-inspire/transportes?REQUEST=GetCapabilities&amp;Service=WMS&amp;version=1.3.0"/>
         <dcat:endpointURL rdf:resource="https://servicios.idee.es/wms-inspire/transportes"/>
         <dcat:endpointURL rdf:resource="https://servicios.idee.es/wms-inspire/transportes?REQUEST=GetCapabilities&amp;Service=WMS&amp;version=1.3.0"/>
-        <dcat:keyword xml:lang="es">1.1.1</dcat:keyword>
-        <dcat:keyword xml:lang="es">1.3.0</dcat:keyword>
-        <dcat:keyword xml:lang="es">Aeródromo</dcat:keyword>
-        <dcat:keyword xml:lang="es">Calle de Rodaje</dcat:keyword>
-        <dcat:keyword xml:lang="es">Carretera</dcat:keyword>
-        <dcat:keyword xml:lang="es">Estación</dcat:keyword>
-        <dcat:keyword xml:lang="es">ferrocaril</dcat:keyword>
-        <dcat:keyword xml:lang="es">IDEE</dcat:keyword>
-        <dcat:keyword xml:lang="es">IGR</dcat:keyword>
-        <dcat:keyword xml:lang="es">Información Geográfica de Referencia</dcat:keyword>
-        <dcat:keyword xml:lang="es">Infraestructura de Datos Espaciales</dcat:keyword>
-        <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
-        <dcat:keyword xml:lang="es">OGC</dcat:keyword>
-        <dcat:keyword xml:lang="es">Pista</dcat:keyword>
-        <dcat:keyword xml:lang="es">Plataforma</dcat:keyword>
         <dcat:keyword xml:lang="es">Redes de transporte</dcat:keyword>
+        <dcat:keyword xml:lang="es">Nacional</dcat:keyword>
+        <dcat:keyword xml:lang="es">1.3.0</dcat:keyword>
+        <dcat:keyword xml:lang="es">WMS</dcat:keyword>
+        <dcat:keyword xml:lang="es">OGC</dcat:keyword>
+        <dcat:keyword xml:lang="es">1.1.1</dcat:keyword>
+        <dcat:keyword xml:lang="es">Sistema Cartográfico Nacional</dcat:keyword>
         <dcat:keyword xml:lang="es">SCNE</dcat:keyword>
         <dcat:keyword xml:lang="es">Servicio de acceso a mapas</dcat:keyword>
-        <dcat:keyword xml:lang="es">Sistema Cartográfico Nacional</dcat:keyword>
-        <dcat:keyword xml:lang="es">WMS</dcat:keyword>
+        <dcat:keyword xml:lang="es">Carretera</dcat:keyword>
+        <dcat:keyword xml:lang="es">ferrocaril</dcat:keyword>
+        <dcat:keyword xml:lang="es">Plataforma</dcat:keyword>
+        <dcat:keyword xml:lang="es">Estación</dcat:keyword>
+        <dcat:keyword xml:lang="es">Aeródromo</dcat:keyword>
+        <dcat:keyword xml:lang="es">Calle de Rodaje</dcat:keyword>
+        <dcat:keyword xml:lang="es">Pista</dcat:keyword>
+        <dcat:keyword xml:lang="es">IDEE</dcat:keyword>
+        <dcat:keyword xml:lang="es">Infraestructura de Datos Espaciales</dcat:keyword>
+        <dcat:keyword xml:lang="es">IGR</dcat:keyword>
+        <dcat:keyword xml:lang="es">Información Geográfica de Referencia</dcat:keyword>
         <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte"/>
         <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -653,3 +653,4 @@
     <foaf:homepage rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/home"/>
   </dcat:Catalog>
 </rdf:RDF>
+
