@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#"
          xmlns:dcat="http://www.w3.org/ns/dcat#"
          xmlns:dcatap="http://data.europa.eu/r5r/"
@@ -232,7 +232,7 @@
           </dcat:Distribution>
         </dcat:distribution>
         <dcat:distribution>
-          <dcat:Distribution rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte/formatters/xml">
+          <dcat:Distribution rdf:about="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaign_IGR_Transporte">
             <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
             <dcat:accessService>
               <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_scne">
@@ -397,20 +397,20 @@
                 <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
               </dcat:DataService>
             </dcat:accessService>
-            <dcat:accessURL rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaign_IGR_Transporte/formatters/xml"/>
+            <dcat:accessURL rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaign_IGR_Transporte"/>
             <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
             <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
             <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205/oj"/>
             <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2010/1089/oj"/>
             <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
             <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES"/>
-            <dct:description xml:lang="es">Distribción del Datset en XML bajo la normativa de INSPIRE</dct:description>
+            <dct:description xml:lang="es">Enlace del Dataset en XML bajo la normativa de INSPIRE</dct:description>
             <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dct:issued>
             <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
             <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
             <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-            <dct:title xml:lang="es">Distribución asociado a este Dataset</dct:title>
+            <dct:title xml:lang="es">Link de acceso al recurso en el catálogo del CODSI</dct:title>
             <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
             <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205/oj"/>
             <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089/oj"/>
