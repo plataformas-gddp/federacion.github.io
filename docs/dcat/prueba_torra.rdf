@@ -67,7 +67,7 @@
         <dct:identifier>MIR:EA0044546:ds:OCUPACION:000001</dct:identifier>
         <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY" />
         <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL" />
-        <dcat:keyword xml:lang="es">asignación, retribución, ocupación, talleres, actividades, centros penitenciarios, penitenciario, CIS, centros de inserción social, actividades productivas, población interna, personas internas</dcat:keyword>
+        <dcat:keyword xml:lang="es">asignación, retribución, ocupación, talleres, actividades, centros penitenciarios</dcat:keyword>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-14</dct:modified>
         <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-01</dct:issued>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
@@ -224,7 +224,7 @@
         <dct:identifier>MIR:EA0044546:ds:FORMACION:000001</dct:identifier>
         <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY" />
         <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL" />
-        <dcat:keyword xml:lang="es">formación, inserción laboral, programas formativos, centros penitenciarios, penitenciario, CIS, centros de inserción social, población interna, personas internas, actividades formativas</dcat:keyword>
+        <dcat:keyword xml:lang="es">formación, inserción laboral, programas formativos, centros penitenciarios, penitenciario</dcat:keyword>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-14</dct:modified>
         <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-01</dct:issued>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
@@ -381,7 +381,7 @@
         <dct:identifier>MIR:EA0044546:ds:ALIMENTACION:000001</dct:identifier>
         <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY" />
         <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL" />
-        <dcat:keyword xml:lang="es">materia prima, alimentación, víveres, consumo, centros penitenciarios, CIS, centros de inserción social, penitenciario, población interna, personas internas</dcat:keyword>
+        <dcat:keyword xml:lang="es">materia prima, alimentación, víveres, consumo, centros penitenciarios</dcat:keyword>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-14</dct:modified>
         <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-01</dct:issued>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
