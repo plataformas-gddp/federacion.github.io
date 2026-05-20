@@ -39834,7 +39834,8 @@ La cartografía se corresponde con las estaciones depuradoras activas (cuyos dat
     <adms:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/f103a46d-c69b-4c05-a403-adf30bc2a06d"/>
     <dcat:contactPoint>
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/MinisterioparalaTransicionEcologicayelRetoDemografico.DireccionGeneraldeCalidadyEvaluacionAmbiental.SubdireccionGeneraldeEconomiaCircular(SGEC)">
-        <vcard:fn xml:lang="es">Ministerio para la Transición Ecológica y el Reto Demográfico . Dirección General de Calidad y Evaluación Ambiental. Subdirección General de Economía Circular (SGEC)</vcard:fn>
+        <!-- corregido" ." para error de validacion de etiqueta del idioma -->
+        <vcard:fn xml:lang="es">Ministerio para la Transición Ecológica y el Reto Demográfico. Dirección General de Calidad y Evaluación Ambiental. Subdirección General de Economía Circular (SGEC)</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:buzon-sgr@miteco.es"/>
         <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
