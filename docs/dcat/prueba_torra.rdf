@@ -218,8 +218,8 @@
     <dcat:dataset>
       <dcat:Dataset rdf:about="https://172.20.200.5:8443/dataset/mirea0044546dsformacion000001">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-        <dct:title xml:lang="es">TPFE: Formación para el empleo e inserción laboral impartidas en centros penitenciarios y centros de inserción social (CIS)</dct:title>
-        <dct:description xml:lang="es">Conjuntos de datos de programas formativos certificados impartidos a la población interna por Trabajo Penitenciario y Formación para el Empleo. Incluye información sobre los programas de formación para el empleo e inserción laboral desarrollados en los centros penitenciarios y CIS. No se incluyen los datos de los centros de Cataluña ni del País Vasco, al tratarse de una competencia transferida a dichas comunidades autónomas.</dct:description>
+        <dct:title xml:lang="es">Cambio de Título</dct:title>
+        <dct:description xml:lang="es">Mantengo el mismo identifier</dct:description>
         <dcat:landingPage rdf:resource="https://172.20.200.5:8443/dataset/mirea0044546dsformacion000001" />
         <dct:identifier>MIR:EA0044546:ds:FORMACION:000001</dct:identifier>
         <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY" />
@@ -375,10 +375,10 @@
     <dcat:dataset>
       <dcat:Dataset rdf:about="https://172.20.200.5:8443/dataset/mirea0044546dsalimentacion000001">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-        <dct:title xml:lang="es">TPFE: Aprovisionamiento de materias primas consumidas en los centros penitenciarios y centros de inserción social (CIS)</dct:title>
-        <dct:description xml:lang="es">Conjunto de datos relativo al consumo de materias primas en los centros penitenciarios y CIS gestionados en el ámbito de TPFE. Incluye la identificación del centro, la clasificación y descripción de la materia prima, la cantidad consumida y la unidad de medida correspondiente. Su contenido permite conocer y comparar los consumos de materias primas entre centros. No se incluyen los datos de los centros de Cataluña ni del País Vasco, al tratarse de una competencia transferida a dichas comunidades autónomas.</dct:description>
+        <dct:title xml:lang="es">Cambiamos título e id</dct:title>
+        <dct:description xml:lang="es">En este caso, cambiamos tambien el id.</dct:description>
         <dcat:landingPage rdf:resource="https://172.20.200.5:8443/dataset/mirea0044546dsalimentacion000001" />
-        <dct:identifier>MIR:EA0044546:ds:ALIMENTACION:000001</dct:identifier>
+        <dct:identifier>MIR:EA0044546:ds:ALIMENTACION:000001_TORRA</dct:identifier>
         <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY" />
         <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL" />
         <dcat:keyword xml:lang="es">materia prima, alimentación, víveres, consumo, centros penitenciarios</dcat:keyword>
