@@ -98,31 +98,31 @@
       ],
       "dcat:dataset": [
         {
-          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Authority_File"
-        },
-        {
-          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Datos_Bibliograficos"
-        },
-        {
-          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Resumenes"
+          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Documentos_Citados"
         },
         {
           "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Texto_Completo"
         },
         {
-          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Folletos_PDF"
+          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Datos_Legales"
         },
         {
-          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Datos_Legales"
+          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Datos_Bibliograficos"
+        },
+        {
+          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Documentos_Citados_ECLA"
         },
         {
           "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.CPC"
         },
         {
-          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Documentos_Citados"
+          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Resumenes"
         },
         {
-          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Documentos_Citados_ECLA"
+          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Authority_File"
+        },
+        {
+          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Folletos_PDF"
         }
       ],
       "impulsadata:validationStatus": [
@@ -134,7 +134,7 @@
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Authority_File",
+      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Documentos_Citados",
       "dct:publisher": [
         {
           "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
@@ -157,11 +157,11 @@
       ],
       "dct:title": [
         {
-          "@value": "Authority File - Inventario de documentos de patente publicados por la OEPM desde 1826",
+          "@value": "Datos en Documentos Citados",
           "@language": "es"
         },
         {
-          "@value": "Authority File - Inventory of patent documents issued by the SPTO (OEPM) since 1826",
+          "@value": "Data in Cited Documents",
           "@language": "en"
         }
       ],
@@ -186,11 +186,11 @@
       ],
       "dct:description": [
         {
-          "@value": "Inventario de patentes OEPM desde 1826 (número publicación, solicitud, fechas y tipo).",
+          "@value": "Descargas semanales/mensuales del año en curso y anuales para años anteriores.",
           "@language": "es"
         },
         {
-          "@value": "Patent inventory since 1826 (publication/application numbers, dates and type).",
+          "@value": "Weekly/monthly downloads for current year and annual files for prior years.",
           "@language": "en"
         }
       ],
@@ -199,13 +199,13 @@
       },
       "dct:issued": [
         {
-          "@value": "1826-03-26T00:00:00+01:00",
+          "@value": "2025-01-05T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-03-31T00:00:00+01:00",
+          "@value": "2026-03-29T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -224,7 +224,7 @@
         "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/"
       },
       "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
+        "@id": "http://publications.europa.eu/resource/authority/frequency/WEEKLY"
       },
       "dct:conformsTo": {
         "@id": "https://www.wipo.int/es/web/standards/part_03_standards"
@@ -233,7 +233,7 @@
         "@id": "https://www.boe.es/eli/es/rd/2011/10/24/1495"
       },
       "dcat:landingPage": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/inventario-de-documentos-de-patente/"
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones/"
       },
       "dct:provenance": [
         {
@@ -245,14 +245,6 @@
       ],
       "dcat:keyword": [
         {
-          "@value": "authority file",
-          "@language": "es"
-        },
-        {
-          "@value": "catálogo de invenciones",
-          "@language": "es"
-        },
-        {
           "@value": "patentes",
           "@language": "es"
         },
@@ -261,19 +253,19 @@
           "@language": "es"
         },
         {
-          "@value": "inventores",
+          "@value": "catálogo de invenciones",
           "@language": "es"
         },
         {
-          "@value": "titulares",
+          "@value": "documentos citados",
           "@language": "es"
         },
         {
-          "@value": "identificadores de agentes",
+          "@value": "referencias de patentes",
           "@language": "es"
         },
         {
-          "@value": "metadatos",
+          "@value": "estado de la técnica",
           "@language": "es"
         }
       ],
@@ -286,7 +278,7 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "1826-03-26T00:00:00+01:00",
+            "@value": "2025-01-05T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           }
         }
@@ -330,7 +322,7 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260331.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260419_Citaciones.zip"
         }
       ],
       "impulsadata:validationStatus": [
@@ -341,20 +333,20 @@
       ]
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260331.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260419_Citaciones.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Authority File — Inventario de patentes y modelos de utilidad (Recurso ZIP) - 20260331",
+          "@value": "Datos en Documentos Citados (Recurso ZIP) - ES20260419_Citaciones",
           "@language": "es"
         },
         {
-          "@value": "Authority File — Patent and Utility Model Inventory (ZIP Resource) - 20260331",
+          "@value": "Data in Cited Documents (ZIP Resource) - ES20260419_Citaciones",
           "@language": "en"
         }
       ],
       "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/inventario-de-documentos-de-patente/"
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones/"
       },
       "dct:format": {
         "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
@@ -364,11 +356,11 @@
       },
       "dct:description": [
         {
-          "@value": "Inventario de patentes OEPM desde 1826 (número publicación, solicitud, fechas y tipo).",
+          "@value": "Descargas semanales/mensuales del año en curso y anuales para años anteriores.",
           "@language": "es"
         },
         {
-          "@value": "Patent inventory since 1826 (publication/application numbers, dates and type).",
+          "@value": "Weekly/monthly downloads for current year and annual files for prior years.",
           "@language": "en"
         }
       ],
@@ -387,7 +379,521 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260331.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260419_Citaciones.zip"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Texto_Completo",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Oficina Española de Patentes y Marcas",
+              "@language": "es"
+            },
+            {
+              "@value": "Spanish Patent and Trademark Office",
+              "@language": "en"
+            }
+          ]
+        }
+      ],
+      "dct:title": [
+        {
+          "@value": "Texto Completo",
+          "@language": "es"
+        },
+        {
+          "@value": "Full Text",
+          "@language": "en"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Oficina Española de Patentes y Marcas",
+              "@language": "es"
+            },
+            {
+              "@value": "Spanish Patent and Trademark Office",
+              "@language": "en"
+            }
+          ]
+        }
+      ],
+      "dct:description": [
+        {
+          "@value": "Texto completo en XML (ST36 desde 2019). Descargas diarias, mensuales y anuales.",
+          "@language": "es"
+        },
+        {
+          "@value": "Full-text XML (ST36 since 2019). Daily, monthly and annual downloads.",
+          "@language": "en"
+        }
+      ],
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2025-01-02T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-03-13T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
+      },
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "foaf:page": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/BIWEEKLY"
+      },
+      "dct:conformsTo": {
+        "@id": "https://www.wipo.int/es/web/standards/part_03_standards"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/rd/2011/10/24/1495"
+      },
+      "dcat:landingPage": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/texto-completo/"
+      },
+      "dct:provenance": [
+        {
+          "@id": "Datos generados a partir de los registros oficiales de Propiedad Industrial de la Oficina Española de Patentes y Marcas."
+        },
+        {
+          "@id": "Data generated from the official Industrial Property registers of the Spanish Patent and Trademark Office."
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "patentes",
+          "@language": "es"
+        },
+        {
+          "@value": "modelos de utilidad",
+          "@language": "es"
+        },
+        {
+          "@value": "catálogo de invenciones",
+          "@language": "es"
+        },
+        {
+          "@value": "texto completo de patentes",
+          "@language": "es"
+        },
+        {
+          "@value": "documentos de patente",
+          "@language": "es"
+        },
+        {
+          "@value": "reivindicaciones",
+          "@language": "es"
+        },
+        {
+          "@value": "estándar ST36",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2025-01-02T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Punto de contacto OEPM - Servicios de Datos",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "mailto:informacion@oepm.es"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Punto de contacto OEPM - Servicios de Datos",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:informacion@oepm.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:910780780"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://sede.oepm.gob.es/eSede/datos/es/contacto/"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260415.zip"
+        }
+      ],
+      "impulsadata:validationStatus": [
+        {
+          "@language": "es",
+          "@value": "conforme-DCAT-AP-ES"
+        }
+      ]
+    },
+    {
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260415.zip",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Texto Completo (Recurso ZIP) - 20260415",
+          "@language": "es"
+        },
+        {
+          "@value": "Full Text (ZIP Resource) - 20260415",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/texto-completo/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Texto completo en XML (ST36 desde 2019). Descargas diarias, mensuales y anuales.",
+          "@language": "es"
+        },
+        {
+          "@value": "Full-text XML (ST36 since 2019). Daily, monthly and annual downloads.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260415.zip"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Datos_Legales",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Oficina Española de Patentes y Marcas",
+              "@language": "es"
+            },
+            {
+              "@value": "Spanish Patent and Trademark Office",
+              "@language": "en"
+            }
+          ]
+        }
+      ],
+      "dct:title": [
+        {
+          "@value": "Datos Legales",
+          "@language": "es"
+        },
+        {
+          "@value": "Legal Data",
+          "@language": "en"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Oficina Española de Patentes y Marcas",
+              "@language": "es"
+            },
+            {
+              "@value": "Spanish Patent and Trademark Office",
+              "@language": "en"
+            }
+          ]
+        }
+      ],
+      "dct:description": [
+        {
+          "@value": "Datos legales en XML (ST36 desde 2019). Descargas diarias, mensuales y anuales.",
+          "@language": "es"
+        },
+        {
+          "@value": "Legal data in XML (ST36 since 2019). Daily, monthly and annual downloads.",
+          "@language": "en"
+        }
+      ],
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2025-01-02T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-03-30T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
+      },
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "foaf:page": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/DAILY"
+      },
+      "dct:conformsTo": {
+        "@id": "https://www.wipo.int/es/web/standards/part_03_standards"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/rd/2011/10/24/1495"
+      },
+      "dcat:landingPage": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/legales/"
+      },
+      "dct:provenance": [
+        {
+          "@id": "Datos generados a partir de los registros oficiales de Propiedad Industrial de la Oficina Española de Patentes y Marcas."
+        },
+        {
+          "@id": "Data generated from the official Industrial Property registers of the Spanish Patent and Trademark Office."
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "patentes",
+          "@language": "es"
+        },
+        {
+          "@value": "modelos de utilidad",
+          "@language": "es"
+        },
+        {
+          "@value": "catálogo de invenciones",
+          "@language": "es"
+        },
+        {
+          "@value": "estado legal de patentes",
+          "@language": "es"
+        },
+        {
+          "@value": "eventos legales",
+          "@language": "es"
+        },
+        {
+          "@value": "titulares",
+          "@language": "es"
+        },
+        {
+          "@value": "situación jurídica",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2025-01-02T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Punto de contacto OEPM - Servicios de Datos",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "mailto:informacion@oepm.es"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Punto de contacto OEPM - Servicios de Datos",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:informacion@oepm.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:910780780"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://sede.oepm.gob.es/eSede/datos/es/contacto/"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260424.zip"
+        }
+      ],
+      "impulsadata:validationStatus": [
+        {
+          "@language": "es",
+          "@value": "conforme-DCAT-AP-ES"
+        }
+      ]
+    },
+    {
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260424.zip",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Datos Legales (Recurso ZIP) - 20260424",
+          "@language": "es"
+        },
+        {
+          "@value": "Legal Data (ZIP Resource) - 20260424",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/legales/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Datos legales en XML (ST36 desde 2019). Descargas diarias, mensuales y anuales.",
+          "@language": "es"
+        },
+        {
+          "@value": "Legal data in XML (ST36 since 2019). Daily, monthly and annual downloads.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260424.zip"
       },
       "dcat:mediaType": {
         "@id": "http://www.iana.org/assignments/media-types/application/zip"
@@ -656,7 +1162,7 @@
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Resumenes",
+      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Documentos_Citados_ECLA",
       "dct:publisher": [
         {
           "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
@@ -679,11 +1185,11 @@
       ],
       "dct:title": [
         {
-          "@value": "Resúmenes",
+          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013)",
           "@language": "es"
         },
         {
-          "@value": "Abstracts",
+          "@value": "Data in Cited Documents and ECLA (for documents prior to 2013)",
           "@language": "en"
         }
       ],
@@ -708,11 +1214,11 @@
       ],
       "dct:description": [
         {
-          "@value": "Ficheros quincenales de resúmenes del año en curso y anuales para años anteriores.",
+          "@value": "Datos históricos trimestrales hasta 2013. Actualmente publicados por separado.",
           "@language": "es"
         },
         {
-          "@value": "Biweekly abstract files for the current year and annual files for prior years.",
+          "@value": "Historical quarterly data until 2013. Currently published separately.",
           "@language": "en"
         }
       ],
@@ -721,13 +1227,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2025-01-02T00:00:00+01:00",
+          "@value": "1993-01-01T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-03-13T00:00:00+01:00",
+          "@value": "2013-09-30T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -745,9 +1251,6 @@
       "foaf:page": {
         "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/"
       },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/BIWEEKLY"
-      },
       "dct:conformsTo": {
         "@id": "https://www.wipo.int/es/web/standards/part_03_standards"
       },
@@ -755,7 +1258,7 @@
         "@id": "https://www.boe.es/eli/es/rd/2011/10/24/1495"
       },
       "dcat:landingPage": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/resumenes/"
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones-y-ecla/"
       },
       "dct:provenance": [
         {
@@ -779,19 +1282,19 @@
           "@language": "es"
         },
         {
-          "@value": "resúmenes de patentes",
+          "@value": "documentos citados",
           "@language": "es"
         },
         {
-          "@value": "invenciones",
+          "@value": "clasificación ECLA",
           "@language": "es"
         },
         {
-          "@value": "publicaciones",
+          "@value": "referencias",
           "@language": "es"
         },
         {
-          "@value": "metadatos",
+          "@value": "fondo histórico",
           "@language": "es"
         }
       ],
@@ -804,7 +1307,11 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2025-01-02T00:00:00+01:00",
+            "@value": "1993-01-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2013-09-30T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           }
         }
@@ -848,7 +1355,7 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260415.zip"
+          "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones-y-ecla/"
         }
       ],
       "impulsadata:validationStatus": [
@@ -859,20 +1366,20 @@
       ]
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260415.zip",
+      "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones-y-ecla/",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Resúmenes (Recurso ZIP) - 20260415",
+          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013) (Recurso ZIP)",
           "@language": "es"
         },
         {
-          "@value": "Abstracts (ZIP Resource) - 20260415",
+          "@value": "Data in Cited Documents and ECLA (for documents prior to 2013) (ZIP Resource)",
           "@language": "en"
         }
       ],
       "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/resumenes/"
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones-y-ecla/"
       },
       "dct:format": {
         "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
@@ -882,11 +1389,11 @@
       },
       "dct:description": [
         {
-          "@value": "Ficheros quincenales de resúmenes del año en curso y anuales para años anteriores.",
+          "@value": "Datos históricos trimestrales hasta 2013. Actualmente publicados por separado.",
           "@language": "es"
         },
         {
-          "@value": "Biweekly abstract files for the current year and annual files for prior years.",
+          "@value": "Historical quarterly data until 2013. Currently published separately.",
           "@language": "en"
         }
       ],
@@ -905,774 +1412,7 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260415.zip"
-      },
-      "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
-      }
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Texto_Completo",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Oficina Española de Patentes y Marcas",
-              "@language": "es"
-            },
-            {
-              "@value": "Spanish Patent and Trademark Office",
-              "@language": "en"
-            }
-          ]
-        }
-      ],
-      "dct:title": [
-        {
-          "@value": "Texto Completo",
-          "@language": "es"
-        },
-        {
-          "@value": "Full Text",
-          "@language": "en"
-        }
-      ],
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Oficina Española de Patentes y Marcas",
-              "@language": "es"
-            },
-            {
-              "@value": "Spanish Patent and Trademark Office",
-              "@language": "en"
-            }
-          ]
-        }
-      ],
-      "dct:description": [
-        {
-          "@value": "Texto completo en XML (ST36 desde 2019). Descargas diarias, mensuales y anuales.",
-          "@language": "es"
-        },
-        {
-          "@value": "Full-text XML (ST36 since 2019). Daily, monthly and annual downloads.",
-          "@language": "en"
-        }
-      ],
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
-      "dct:issued": [
-        {
-          "@value": "2025-01-02T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-03-13T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": {
-        "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
-      },
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "foaf:page": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/BIWEEKLY"
-      },
-      "dct:conformsTo": {
-        "@id": "https://www.wipo.int/es/web/standards/part_03_standards"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/rd/2011/10/24/1495"
-      },
-      "dcat:landingPage": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/texto-completo/"
-      },
-      "dct:provenance": [
-        {
-          "@id": "Datos generados a partir de los registros oficiales de Propiedad Industrial de la Oficina Española de Patentes y Marcas."
-        },
-        {
-          "@id": "Data generated from the official Industrial Property registers of the Spanish Patent and Trademark Office."
-        }
-      ],
-      "dcat:keyword": [
-        {
-          "@value": "patentes",
-          "@language": "es"
-        },
-        {
-          "@value": "modelos de utilidad",
-          "@language": "es"
-        },
-        {
-          "@value": "catálogo de invenciones",
-          "@language": "es"
-        },
-        {
-          "@value": "texto completo de patentes",
-          "@language": "es"
-        },
-        {
-          "@value": "documentos de patente",
-          "@language": "es"
-        },
-        {
-          "@value": "reivindicaciones",
-          "@language": "es"
-        },
-        {
-          "@value": "estándar ST36",
-          "@language": "es"
-        }
-      ],
-      "dct:spatial": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2025-01-02T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          }
-        }
-      ],
-      "dcat:contactPoint": [
-        {
-          "@type": "vcard:Kind",
-          "vcard:organization-name": [
-            {
-              "@value": "Punto de contacto OEPM - Servicios de Datos",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasUID": [
-            {
-              "@id": "mailto:informacion@oepm.es"
-            }
-          ],
-          "vcard:fn": [
-            {
-              "@value": "Punto de contacto OEPM - Servicios de Datos",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasEmail": [
-            {
-              "@id": "mailto:informacion@oepm.es"
-            }
-          ],
-          "vcard:hasTelephone": [
-            {
-              "@id": "tel:910780780"
-            }
-          ],
-          "vcard:hasURL": [
-            {
-              "@id": "https://sede.oepm.gob.es/eSede/datos/es/contacto/"
-            }
-          ]
-        }
-      ],
-      "dcat:distribution": [
-        {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260415.zip"
-        }
-      ],
-      "impulsadata:validationStatus": [
-        {
-          "@language": "es",
-          "@value": "conforme-DCAT-AP-ES"
-        }
-      ]
-    },
-    {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260415.zip",
-      "@type": "dcat:Distribution",
-      "dct:title": [
-        {
-          "@value": "Texto Completo (Recurso ZIP) - 20260415",
-          "@language": "es"
-        },
-        {
-          "@value": "Full Text (ZIP Resource) - 20260415",
-          "@language": "en"
-        }
-      ],
-      "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/texto-completo/"
-      },
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
-      },
-      "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      },
-      "dct:description": [
-        {
-          "@value": "Texto completo en XML (ST36 desde 2019). Descargas diarias, mensuales y anuales.",
-          "@language": "es"
-        },
-        {
-          "@value": "Full-text XML (ST36 since 2019). Daily, monthly and annual downloads.",
-          "@language": "en"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "dcatap:availability": {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_XML/2026/03/13/FULLTEXT_XML_20260415.zip"
-      },
-      "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
-      }
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Folletos_PDF",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Oficina Española de Patentes y Marcas",
-              "@language": "es"
-            },
-            {
-              "@value": "Spanish Patent and Trademark Office",
-              "@language": "en"
-            }
-          ]
-        }
-      ],
-      "dct:title": [
-        {
-          "@value": "Folletos en formato PDF",
-          "@language": "es"
-        },
-        {
-          "@value": "Pamphlets in PDF format",
-          "@language": "en"
-        }
-      ],
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Oficina Española de Patentes y Marcas",
-              "@language": "es"
-            },
-            {
-              "@value": "Spanish Patent and Trademark Office",
-              "@language": "en"
-            }
-          ]
-        }
-      ],
-      "dct:description": [
-        {
-          "@value": "Publicaciones diarias de folletos PDF (año actual/anterior) y anuales para años previos.",
-          "@language": "es"
-        },
-        {
-          "@value": "Daily PDF brochure publications (current/prior year) and annual for previous years.",
-          "@language": "en"
-        }
-      ],
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
-      "dct:issued": [
-        {
-          "@value": "2026-02-02T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-03-13T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": {
-        "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
-      },
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "foaf:page": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/BIWEEKLY"
-      },
-      "dct:conformsTo": {
-        "@id": "https://www.wipo.int/es/web/standards/part_03_standards"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/rd/2011/10/24/1495"
-      },
-      "dcat:landingPage": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/folletos/"
-      },
-      "dct:provenance": [
-        {
-          "@id": "Datos generados a partir de los registros oficiales de Propiedad Industrial de la Oficina Española de Patentes y Marcas."
-        },
-        {
-          "@id": "Data generated from the official Industrial Property registers of the Spanish Patent and Trademark Office."
-        }
-      ],
-      "dcat:keyword": [
-        {
-          "@value": "patentes",
-          "@language": "es"
-        },
-        {
-          "@value": "modelos de utilidad",
-          "@language": "es"
-        },
-        {
-          "@value": "catálogo de invenciones",
-          "@language": "es"
-        },
-        {
-          "@value": "folletos de patentes",
-          "@language": "es"
-        },
-        {
-          "@value": "documentos PDF",
-          "@language": "es"
-        },
-        {
-          "@value": "publicaciones oficiales",
-          "@language": "es"
-        }
-      ],
-      "dct:spatial": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2026-02-02T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          }
-        }
-      ],
-      "dcat:contactPoint": [
-        {
-          "@type": "vcard:Kind",
-          "vcard:organization-name": [
-            {
-              "@value": "Punto de contacto OEPM - Servicios de Datos",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasUID": [
-            {
-              "@id": "mailto:informacion@oepm.es"
-            }
-          ],
-          "vcard:fn": [
-            {
-              "@value": "Punto de contacto OEPM - Servicios de Datos",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasEmail": [
-            {
-              "@id": "mailto:informacion@oepm.es"
-            }
-          ],
-          "vcard:hasTelephone": [
-            {
-              "@id": "tel:910780780"
-            }
-          ],
-          "vcard:hasURL": [
-            {
-              "@id": "https://sede.oepm.gob.es/eSede/datos/es/contacto/"
-            }
-          ]
-        }
-      ],
-      "dcat:distribution": [
-        {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260415.zip"
-        }
-      ],
-      "impulsadata:validationStatus": [
-        {
-          "@language": "es",
-          "@value": "conforme-DCAT-AP-ES"
-        }
-      ]
-    },
-    {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260415.zip",
-      "@type": "dcat:Distribution",
-      "dct:title": [
-        {
-          "@value": "Folletos en formato PDF (Recurso ZIP) - 20260415",
-          "@language": "es"
-        },
-        {
-          "@value": "Pamphlets in PDF format (ZIP Resource) - 20260415",
-          "@language": "en"
-        }
-      ],
-      "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/folletos/"
-      },
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
-      },
-      "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      },
-      "dct:description": [
-        {
-          "@value": "Publicaciones diarias de folletos PDF (año actual/anterior) y anuales para años previos.",
-          "@language": "es"
-        },
-        {
-          "@value": "Daily PDF brochure publications (current/prior year) and annual for previous years.",
-          "@language": "en"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "dcatap:availability": {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260415.zip"
-      },
-      "dcat:mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/zip"
-      }
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Datos_Legales",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Oficina Española de Patentes y Marcas",
-              "@language": "es"
-            },
-            {
-              "@value": "Spanish Patent and Trademark Office",
-              "@language": "en"
-            }
-          ]
-        }
-      ],
-      "dct:title": [
-        {
-          "@value": "Datos Legales",
-          "@language": "es"
-        },
-        {
-          "@value": "Legal Data",
-          "@language": "en"
-        }
-      ],
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Oficina Española de Patentes y Marcas",
-              "@language": "es"
-            },
-            {
-              "@value": "Spanish Patent and Trademark Office",
-              "@language": "en"
-            }
-          ]
-        }
-      ],
-      "dct:description": [
-        {
-          "@value": "Datos legales en XML (ST36 desde 2019). Descargas diarias, mensuales y anuales.",
-          "@language": "es"
-        },
-        {
-          "@value": "Legal data in XML (ST36 since 2019). Daily, monthly and annual downloads.",
-          "@language": "en"
-        }
-      ],
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
-      "dct:issued": [
-        {
-          "@value": "2025-01-02T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-03-30T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": {
-        "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
-      },
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "foaf:page": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/DAILY"
-      },
-      "dct:conformsTo": {
-        "@id": "https://www.wipo.int/es/web/standards/part_03_standards"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/rd/2011/10/24/1495"
-      },
-      "dcat:landingPage": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/legales/"
-      },
-      "dct:provenance": [
-        {
-          "@id": "Datos generados a partir de los registros oficiales de Propiedad Industrial de la Oficina Española de Patentes y Marcas."
-        },
-        {
-          "@id": "Data generated from the official Industrial Property registers of the Spanish Patent and Trademark Office."
-        }
-      ],
-      "dcat:keyword": [
-        {
-          "@value": "patentes",
-          "@language": "es"
-        },
-        {
-          "@value": "modelos de utilidad",
-          "@language": "es"
-        },
-        {
-          "@value": "catálogo de invenciones",
-          "@language": "es"
-        },
-        {
-          "@value": "estado legal de patentes",
-          "@language": "es"
-        },
-        {
-          "@value": "eventos legales",
-          "@language": "es"
-        },
-        {
-          "@value": "titulares",
-          "@language": "es"
-        },
-        {
-          "@value": "situación jurídica",
-          "@language": "es"
-        }
-      ],
-      "dct:spatial": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2025-01-02T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          }
-        }
-      ],
-      "dcat:contactPoint": [
-        {
-          "@type": "vcard:Kind",
-          "vcard:organization-name": [
-            {
-              "@value": "Punto de contacto OEPM - Servicios de Datos",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasUID": [
-            {
-              "@id": "mailto:informacion@oepm.es"
-            }
-          ],
-          "vcard:fn": [
-            {
-              "@value": "Punto de contacto OEPM - Servicios de Datos",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasEmail": [
-            {
-              "@id": "mailto:informacion@oepm.es"
-            }
-          ],
-          "vcard:hasTelephone": [
-            {
-              "@id": "tel:910780780"
-            }
-          ],
-          "vcard:hasURL": [
-            {
-              "@id": "https://sede.oepm.gob.es/eSede/datos/es/contacto/"
-            }
-          ]
-        }
-      ],
-      "dcat:distribution": [
-        {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260424.zip"
-        }
-      ],
-      "impulsadata:validationStatus": [
-        {
-          "@language": "es",
-          "@value": "conforme-DCAT-AP-ES"
-        }
-      ]
-    },
-    {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260424.zip",
-      "@type": "dcat:Distribution",
-      "dct:title": [
-        {
-          "@value": "Datos Legales (Recurso ZIP) - 20260424",
-          "@language": "es"
-        },
-        {
-          "@value": "Legal Data (ZIP Resource) - 20260424",
-          "@language": "en"
-        }
-      ],
-      "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/legales/"
-      },
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
-      },
-      "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      },
-      "dct:description": [
-        {
-          "@value": "Datos legales en XML (ST36 desde 2019). Descargas diarias, mensuales y anuales.",
-          "@language": "es"
-        },
-        {
-          "@value": "Legal data in XML (ST36 since 2019). Daily, monthly and annual downloads.",
-          "@language": "en"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "dcatap:availability": {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      },
-      "dcatap:applicableLegislation": {
-        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/LEGAL/2026/03/27/LEGAL_ES20260424.zip"
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones-y-ecla/"
       },
       "dcat:mediaType": {
         "@id": "http://www.iana.org/assignments/media-types/application/zip"
@@ -1933,7 +1673,7 @@
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Documentos_Citados",
+      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Resumenes",
       "dct:publisher": [
         {
           "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
@@ -1956,11 +1696,11 @@
       ],
       "dct:title": [
         {
-          "@value": "Datos en Documentos Citados",
+          "@value": "Resúmenes",
           "@language": "es"
         },
         {
-          "@value": "Data in Cited Documents",
+          "@value": "Abstracts",
           "@language": "en"
         }
       ],
@@ -1985,11 +1725,11 @@
       ],
       "dct:description": [
         {
-          "@value": "Descargas semanales/mensuales del año en curso y anuales para años anteriores.",
+          "@value": "Ficheros quincenales de resúmenes del año en curso y anuales para años anteriores.",
           "@language": "es"
         },
         {
-          "@value": "Weekly/monthly downloads for current year and annual files for prior years.",
+          "@value": "Biweekly abstract files for the current year and annual files for prior years.",
           "@language": "en"
         }
       ],
@@ -1998,13 +1738,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2025-01-05T00:00:00+01:00",
+          "@value": "2025-01-02T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-03-29T00:00:00+01:00",
+          "@value": "2026-03-13T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2023,7 +1763,7 @@
         "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/"
       },
       "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/WEEKLY"
+        "@id": "http://publications.europa.eu/resource/authority/frequency/BIWEEKLY"
       },
       "dct:conformsTo": {
         "@id": "https://www.wipo.int/es/web/standards/part_03_standards"
@@ -2032,7 +1772,7 @@
         "@id": "https://www.boe.es/eli/es/rd/2011/10/24/1495"
       },
       "dcat:landingPage": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones/"
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/resumenes/"
       },
       "dct:provenance": [
         {
@@ -2056,15 +1796,19 @@
           "@language": "es"
         },
         {
-          "@value": "documentos citados",
+          "@value": "resúmenes de patentes",
           "@language": "es"
         },
         {
-          "@value": "referencias de patentes",
+          "@value": "invenciones",
           "@language": "es"
         },
         {
-          "@value": "estado de la técnica",
+          "@value": "publicaciones",
+          "@language": "es"
+        },
+        {
+          "@value": "metadatos",
           "@language": "es"
         }
       ],
@@ -2077,7 +1821,7 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2025-01-05T00:00:00+01:00",
+            "@value": "2025-01-02T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           }
         }
@@ -2121,7 +1865,7 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260419_Citaciones.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260415.zip"
         }
       ],
       "impulsadata:validationStatus": [
@@ -2132,20 +1876,20 @@
       ]
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260419_Citaciones.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260415.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos en Documentos Citados (Recurso ZIP) - ES20260419_Citaciones",
+          "@value": "Resúmenes (Recurso ZIP) - 20260415",
           "@language": "es"
         },
         {
-          "@value": "Data in Cited Documents (ZIP Resource) - ES20260419_Citaciones",
+          "@value": "Abstracts (ZIP Resource) - 20260415",
           "@language": "en"
         }
       ],
       "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones/"
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/resumenes/"
       },
       "dct:format": {
         "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
@@ -2155,11 +1899,11 @@
       },
       "dct:description": [
         {
-          "@value": "Descargas semanales/mensuales del año en curso y anuales para años anteriores.",
+          "@value": "Ficheros quincenales de resúmenes del año en curso y anuales para años anteriores.",
           "@language": "es"
         },
         {
-          "@value": "Weekly/monthly downloads for current year and annual files for prior years.",
+          "@value": "Biweekly abstract files for the current year and annual files for prior years.",
           "@language": "en"
         }
       ],
@@ -2178,7 +1922,7 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/03/22/ES20260419_Citaciones.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/RESUMENES/2026/03/13/RESUMENES_Spanish_Abstracts_ST32_20260415.zip"
       },
       "dcat:mediaType": {
         "@id": "http://www.iana.org/assignments/media-types/application/zip"
@@ -2186,7 +1930,7 @@
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Documentos_Citados_ECLA",
+      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Authority_File",
       "dct:publisher": [
         {
           "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
@@ -2209,11 +1953,11 @@
       ],
       "dct:title": [
         {
-          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013)",
+          "@value": "Authority File - Inventario de documentos de patente publicados por la OEPM desde 1826",
           "@language": "es"
         },
         {
-          "@value": "Data in Cited Documents and ECLA (for documents prior to 2013)",
+          "@value": "Authority File - Inventory of patent documents issued by the SPTO (OEPM) since 1826",
           "@language": "en"
         }
       ],
@@ -2238,11 +1982,11 @@
       ],
       "dct:description": [
         {
-          "@value": "Datos históricos trimestrales hasta 2013. Actualmente publicados por separado.",
+          "@value": "Inventario de patentes OEPM desde 1826 (número publicación, solicitud, fechas y tipo).",
           "@language": "es"
         },
         {
-          "@value": "Historical quarterly data until 2013. Currently published separately.",
+          "@value": "Patent inventory since 1826 (publication/application numbers, dates and type).",
           "@language": "en"
         }
       ],
@@ -2251,13 +1995,13 @@
       },
       "dct:issued": [
         {
-          "@value": "1993-01-01T00:00:00+01:00",
+          "@value": "1826-03-26T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2013-09-30T00:00:00+01:00",
+          "@value": "2026-03-31T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2276,7 +2020,7 @@
         "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/"
       },
       "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/QUARTERLY"
+        "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
       },
       "dct:conformsTo": {
         "@id": "https://www.wipo.int/es/web/standards/part_03_standards"
@@ -2285,7 +2029,7 @@
         "@id": "https://www.boe.es/eli/es/rd/2011/10/24/1495"
       },
       "dcat:landingPage": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones-y-ecla/"
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/inventario-de-documentos-de-patente/"
       },
       "dct:provenance": [
         {
@@ -2297,6 +2041,14 @@
       ],
       "dcat:keyword": [
         {
+          "@value": "authority file",
+          "@language": "es"
+        },
+        {
+          "@value": "catálogo de invenciones",
+          "@language": "es"
+        },
+        {
           "@value": "patentes",
           "@language": "es"
         },
@@ -2305,23 +2057,19 @@
           "@language": "es"
         },
         {
-          "@value": "catálogo de invenciones",
+          "@value": "inventores",
           "@language": "es"
         },
         {
-          "@value": "documentos citados",
+          "@value": "titulares",
           "@language": "es"
         },
         {
-          "@value": "clasificación ECLA",
+          "@value": "identificadores de agentes",
           "@language": "es"
         },
         {
-          "@value": "referencias",
-          "@language": "es"
-        },
-        {
-          "@value": "fondo histórico",
+          "@value": "metadatos",
           "@language": "es"
         }
       ],
@@ -2334,11 +2082,7 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "1993-01-01T00:00:00+01:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          },
-          "dcat:endDate": {
-            "@value": "2013-09-30T00:00:00+01:00",
+            "@value": "1826-03-26T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           }
         }
@@ -2382,7 +2126,7 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2013.zip"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260331.zip"
         }
       ],
       "impulsadata:validationStatus": [
@@ -2393,20 +2137,20 @@
       ]
     },
     {
-      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2013.zip",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260331.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013) (Recurso ZIP) - 3_Trimestre_Sgml_2013",
+          "@value": "Authority File — Inventario de patentes y modelos de utilidad (Recurso ZIP) - 20260331",
           "@language": "es"
         },
         {
-          "@value": "Data in Cited Documents and ECLA (for documents prior to 2013) (ZIP Resource) - 3_Trimestre_Sgml_2013",
+          "@value": "Authority File — Patent and Utility Model Inventory (ZIP Resource) - 20260331",
           "@language": "en"
         }
       ],
       "dcat:accessURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones-y-ecla/"
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/inventario-de-documentos-de-patente/"
       },
       "dct:format": {
         "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
@@ -2416,11 +2160,11 @@
       },
       "dct:description": [
         {
-          "@value": "Datos históricos trimestrales hasta 2013. Actualmente publicados por separado.",
+          "@value": "Inventario de patentes OEPM desde 1826 (número publicación, solicitud, fechas y tipo).",
           "@language": "es"
         },
         {
-          "@value": "Historical quarterly data until 2013. Currently published separately.",
+          "@value": "Patent inventory since 1826 (publication/application numbers, dates and type).",
           "@language": "en"
         }
       ],
@@ -2439,7 +2183,260 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2013.zip"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/AUTHORITY/ES_Authority_File_20260331.zip"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Folletos_PDF",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Oficina Española de Patentes y Marcas",
+              "@language": "es"
+            },
+            {
+              "@value": "Spanish Patent and Trademark Office",
+              "@language": "en"
+            }
+          ]
+        }
+      ],
+      "dct:title": [
+        {
+          "@value": "Folletos en formato PDF",
+          "@language": "es"
+        },
+        {
+          "@value": "Pamphlets in PDF format",
+          "@language": "en"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Oficina Española de Patentes y Marcas",
+              "@language": "es"
+            },
+            {
+              "@value": "Spanish Patent and Trademark Office",
+              "@language": "en"
+            }
+          ]
+        }
+      ],
+      "dct:description": [
+        {
+          "@value": "Publicaciones diarias de folletos PDF (año actual/anterior) y anuales para años previos.",
+          "@language": "es"
+        },
+        {
+          "@value": "Daily PDF brochure publications (current/prior year) and annual for previous years.",
+          "@language": "en"
+        }
+      ],
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-02T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-03-13T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
+      },
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "foaf:page": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/BIWEEKLY"
+      },
+      "dct:conformsTo": {
+        "@id": "https://www.wipo.int/es/web/standards/part_03_standards"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/rd/2011/10/24/1495"
+      },
+      "dcat:landingPage": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/folletos/"
+      },
+      "dct:provenance": [
+        {
+          "@id": "Datos generados a partir de los registros oficiales de Propiedad Industrial de la Oficina Española de Patentes y Marcas."
+        },
+        {
+          "@id": "Data generated from the official Industrial Property registers of the Spanish Patent and Trademark Office."
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "patentes",
+          "@language": "es"
+        },
+        {
+          "@value": "modelos de utilidad",
+          "@language": "es"
+        },
+        {
+          "@value": "catálogo de invenciones",
+          "@language": "es"
+        },
+        {
+          "@value": "folletos de patentes",
+          "@language": "es"
+        },
+        {
+          "@value": "documentos PDF",
+          "@language": "es"
+        },
+        {
+          "@value": "publicaciones oficiales",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2026-02-02T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Punto de contacto OEPM - Servicios de Datos",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "mailto:informacion@oepm.es"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Punto de contacto OEPM - Servicios de Datos",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:informacion@oepm.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:910780780"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://sede.oepm.gob.es/eSede/datos/es/contacto/"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260415.zip"
+        }
+      ],
+      "impulsadata:validationStatus": [
+        {
+          "@language": "es",
+          "@value": "conforme-DCAT-AP-ES"
+        }
+      ]
+    },
+    {
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260415.zip",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Folletos en formato PDF (Recurso ZIP) - 20260415",
+          "@language": "es"
+        },
+        {
+          "@value": "Pamphlets in PDF format (ZIP Resource) - 20260415",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/folletos/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Publicaciones diarias de folletos PDF (año actual/anterior) y anuales para años previos.",
+          "@language": "es"
+        },
+        {
+          "@value": "Daily PDF brochure publications (current/prior year) and annual for previous years.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/FULLTEXT_PDF/2026/03/13/FULLTEXT_PDF_20260415.zip"
       },
       "dcat:mediaType": {
         "@id": "http://www.iana.org/assignments/media-types/application/zip"
