@@ -54208,11 +54208,11 @@ Cartagena: November 2025</dct:description>
     <foaf:name xml:lang="es">Instituto Geográfico Nacional</foaf:name>
     <foaf:name xml:lang="en">National Geographic Institute</foaf:name>
   </foaf:Agent>
-  <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00127105">
+  <!-- <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00127105">
     <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00127105</dct:identifier>
     <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
     <foaf:name xml:lang="es">Dirección General de Catastro. España</foaf:name>
-  </foaf:Agent>
+  </foaf:Agent> -->
   <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068001">
     <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068001</dct:identifier>
     <dct:type rdf:resource="http://purl.org/adms/publishertype/RegionalAuthority"/>
