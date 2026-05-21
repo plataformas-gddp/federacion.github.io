@@ -16,9 +16,55 @@
     </dct:license>
     <dct:title xml:lang="es">Catalogo Datos ES_Datalab</dct:title>
     <dct:description xml:lang="es">ES_DataLab nace para contribuir al desarrollo de la investigación facilitando a la comunidad investigadora el acceso conjunto a las bases de datos de las instituciones participantes para trabajos científicos de interés público. Permite el acceso a microdatos, en un entorno que garantiza la confidencialidad de la información. Se proporcionan datos confidenciales, que no permiten la identificación directa de las unidades, procedentes de distintas bases de datos.La capacidad de poder cruzar las bases de datos de las instituciones participantes maximiza el valor que los datos pueden ofrecer al desarrollo de la investigación.Estas bases de datos pertenecen a dos o más de los siguientes organismos públicos: Instituto Nacional de Estadística (INE), Agencia Estatal de Administración Tributaria (AEAT), Secretaría de Estado de Seguridad Social y Pensiones, Tesorería General de la Seguridad Social (TGSS), Instituto Nacional de la Seguridad Social (INSS), Instituto Social de la Marina (ISM), Gerencia de Informática de la Seguridad Social (GISS), Servicio Público de Empleo Estatal (SEPE) y Banco de España (BdE). Estos organismos han firmado un convenio que ampara este proyecto.</dct:description>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-20T11:31:04+00:00</dct:modified>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-21T09:00:47+00:00</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-06</dct:issued>
     <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823" /></dct:publisher>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe302803">
+        <dct:title xml:lang="es">Encuesta de Características Esenciales de la Población y las Viviendas (ECEPOV):ECEPOVvivienda</dct:title>
+        <dct:description xml:lang="en">Knowledge of sociodemographic characteristics of the population, living arrangements and housing</dct:description>
+        <dct:description xml:lang="es">Conocimiento de características sociodemográficas de la población, de las formas de convivencia y de las viviendas</dct:description>
+        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe302803" />
+        <dct:identifier>IOE30280_3</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUINQUENNIAL" />
+        <dcat:keyword xml:lang="es">ECEPOV</dcat:keyword>
+        <dcat:keyword xml:lang="es">demografía</dcat:keyword>
+        <dcat:keyword xml:lang="es">educación</dcat:keyword>
+        <dcat:keyword xml:lang="es">migración</dcat:keyword>
+        <dcat:keyword xml:lang="es">vivienda</dcat:keyword>
+        <dcat:keyword xml:lang="es">edificios</dcat:keyword>
+        <dcat:keyword xml:lang="es">movilidad</dcat:keyword>
+        <dcat:keyword xml:lang="es">lenguas</dcat:keyword>
+        <dcat:keyword xml:lang="es">demography</dcat:keyword>
+        <dcat:keyword xml:lang="es">education</dcat:keyword>
+        <dcat:keyword xml:lang="es">migration</dcat:keyword>
+        <dcat:keyword xml:lang="es">housing</dcat:keyword>
+        <dcat:keyword xml:lang="es">buildings</dcat:keyword>
+        <dcat:keyword xml:lang="es">mobility</dcat:keyword>
+        <dcat:keyword xml:lang="es">languages</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-10-11T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-01</dct:issued>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/demografia" />
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/vivienda" />
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe302803/resource/ckan">
+    <dct:title xml:lang="es">ckan</dct:title>
+    <dct:license rdf:resource="https://tbd.org" />
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TXT" />
+    <dcat:accessURL rdf:resource="https://prees-datalab.ine.es/ckan/" />
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-10-11T00:00:00+00:00</dct:modified>
+    <dct:accessRights rdf:resource="https://tbd.org" />
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
+    <dct:rights rdf:resource="https://tbd.org" />
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+  </dcat:Distribution>
+  </dcat:distribution>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
+        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
+        <ns6:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns6:validationStatus>
+      </dcat:Dataset>
+    </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe302802">
         <dct:title xml:lang="es">Encuesta de Características Esenciales de la Población y las Viviendas (ECEPOV):ECEPOVhogar</dct:title>
@@ -42,7 +88,7 @@
         <dcat:keyword xml:lang="es">buildings</dcat:keyword>
         <dcat:keyword xml:lang="es">mobility</dcat:keyword>
         <dcat:keyword xml:lang="es">languages</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-01</dct:modified>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-10-11T00:00:00+00:00</dct:modified>
         <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-01</dct:issued>
         <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/demografia" />
         <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/vivienda" />
@@ -66,65 +112,39 @@
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
-      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe302331">
-        <dct:title xml:lang="es">Estadística de Productos en el Sector Comercio</dct:title>
-        <dct:description xml:lang="en">To analyse the main structural characteristics of enterprises in the trade sector</dct:description>
-        <dct:description xml:lang="es">Investigar las principales características estructurales específicas de las empresas del sector comercio</dct:description>
-        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe302331" />
-        <dct:identifier>IOE30233_1</dct:identifier>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
-        <dcat:keyword xml:lang="en">Number of enterprises</dcat:keyword>
-        <dcat:keyword xml:lang="es">desagregación de la cifra de negocios por producto y tipo de cliente</dcat:keyword>
-        <dcat:keyword xml:lang="pt">Número de empresas</dcat:keyword>
-        <dcat:keyword xml:lang="en">breakdown of turnover by product and type of customer</dcat:keyword>
-        <dcat:keyword xml:lang="es">breakdown of turnover by product and type of customer</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-28</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</dct:issued>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/comercio" />
+      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe302801">
+        <dct:title xml:lang="es">Encuesta de Características Esenciales de la Población y las Viviendas (ECEPOV):ECEPOVadultos</dct:title>
+        <dct:description xml:lang="en">Knowledge of sociodemographic characteristics of the population, living arrangements and housing</dct:description>
+        <dct:description xml:lang="es">Conocimiento de características sociodemográficas de la población, de las formas de convivencia y de las viviendas</dct:description>
+        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe302801" />
+        <dct:identifier>IOE30280_1</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUINQUENNIAL" />
+        <dcat:keyword xml:lang="es">ECEPOV</dcat:keyword>
+        <dcat:keyword xml:lang="es">demografía</dcat:keyword>
+        <dcat:keyword xml:lang="es">educación</dcat:keyword>
+        <dcat:keyword xml:lang="es">migración</dcat:keyword>
+        <dcat:keyword xml:lang="es">vivienda</dcat:keyword>
+        <dcat:keyword xml:lang="es">edificios</dcat:keyword>
+        <dcat:keyword xml:lang="es">movilidad</dcat:keyword>
+        <dcat:keyword xml:lang="es">lenguas</dcat:keyword>
+        <dcat:keyword xml:lang="es">demography</dcat:keyword>
+        <dcat:keyword xml:lang="es">education</dcat:keyword>
+        <dcat:keyword xml:lang="es">migration</dcat:keyword>
+        <dcat:keyword xml:lang="es">housing</dcat:keyword>
+        <dcat:keyword xml:lang="es">buildings</dcat:keyword>
+        <dcat:keyword xml:lang="es">mobility</dcat:keyword>
+        <dcat:keyword xml:lang="es">languages</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-10-11T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-01</dct:issued>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/demografia" />
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/vivienda" />
         <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe302331/resource/ckan">
+        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe302801/resource/ckan">
     <dct:title xml:lang="es">ckan</dct:title>
     <dct:license rdf:resource="https://tbd.org" />
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TXT" />
     <dcat:accessURL rdf:resource="https://prees-datalab.ine.es/ckan/" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-28</dct:modified>
-    <dct:accessRights rdf:resource="https://tbd.org" />
-    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-    <dct:rights rdf:resource="https://tbd.org" />
-    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
-        <ns6:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns6:validationStatus>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe302321">
-        <dct:title xml:lang="es">Estadística Estructural de Empresas: Sector Comercio</dct:title>
-        <dct:description xml:lang="en">To analyse the main structural and economic characteristics of enterprises in the trade sector, including the sale and repair of motor vehicles and motorcycles (division 45 of CNAE-2009), wholesale trade and trade intermediation (division 46), and retail trade (division 47)</dct:description>
-        <dct:description xml:lang="es">Conocer las principales características estructurales y económicas de las empresas del sector comercio que incluye la venta y reparación de vehículos de motor y motocicletas (división 45 de la CNAE-2009), el comercio al por mayor e intermediarios del comercio (división 46) y el comercio al por menor (división 47)</dct:description>
-        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe302321" />
-        <dct:identifier>IOE30232_1</dct:identifier>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
-        <dcat:keyword xml:lang="es">Personal</dcat:keyword>
-        <dcat:keyword xml:lang="es">cifra de negocios</dcat:keyword>
-        <dcat:keyword xml:lang="es">gastos</dcat:keyword>
-        <dcat:keyword xml:lang="es">impuestos e inversión</dcat:keyword>
-        <dcat:keyword xml:lang="es">Personnel</dcat:keyword>
-        <dcat:keyword xml:lang="es">turnover</dcat:keyword>
-        <dcat:keyword xml:lang="en">taxes and investment</dcat:keyword>
-        <dcat:keyword xml:lang="es">expenses</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-25</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</dct:issued>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/comercio" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe302321/resource/ckan">
-    <dct:license rdf:resource="https://tbd.org" />
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TXT" />
-    <dcat:accessURL rdf:resource="https://prees-datalab.ine.es/ckan/" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-25</dct:modified>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-10-11T00:00:00+00:00</dct:modified>
     <dct:accessRights rdf:resource="https://tbd.org" />
     <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
     <dct:rights rdf:resource="https://tbd.org" />
@@ -160,50 +180,6 @@
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TXT" />
     <dcat:accessURL rdf:resource="https://prees-datalab.ine.es/ckan/" />
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-28</dct:modified>
-    <dct:accessRights rdf:resource="https://tbd.org" />
-    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-    <dct:rights rdf:resource="https://tbd.org" />
-    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
-        <ns6:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns6:validationStatus>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe302271">
-        <dct:title xml:lang="es">Estadística de Empresas según Pertenencia a Grupos</dct:title>
-        <dct:description xml:lang="en">Study of the main structural and economic characteristics of enterprises resident in Spain ultimately controlled by foreign companies and comparison with the other three types of enterprises according to their group membership (independent enterprises, domestic group enterprises and Spanish affiliates of Spanish multinational groups)</dct:description>
-        <dct:description xml:lang="es">Estudiar las principales características estructurales y económicas de las empresas residentes en España controladas en última instancia por empresas extranjeras y compararlas con los otros tres tipos de empresa según su pertenencia a grupos empresariales (empresas independientes, empresas de grupos domésticos y empresas residentes en España de multinacionales españolas)</dct:description>
-        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe302271" />
-        <dct:identifier>IOE30227_1</dct:identifier>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
-        <dcat:keyword xml:lang="es">Empleo</dcat:keyword>
-        <dcat:keyword xml:lang="es">facturación</dcat:keyword>
-        <dcat:keyword xml:lang="es">costes</dcat:keyword>
-        <dcat:keyword xml:lang="es">empresas</dcat:keyword>
-        <dcat:keyword xml:lang="es">inversión</dcat:keyword>
-        <dcat:keyword xml:lang="es">valor añadido</dcat:keyword>
-        <dcat:keyword xml:lang="es">explotación y ventas exteriores</dcat:keyword>
-        <dcat:keyword xml:lang="es">Employment</dcat:keyword>
-        <dcat:keyword xml:lang="es">turnover</dcat:keyword>
-        <dcat:keyword xml:lang="es">costs</dcat:keyword>
-        <dcat:keyword xml:lang="es">enterprises</dcat:keyword>
-        <dcat:keyword xml:lang="en">value added</dcat:keyword>
-        <dcat:keyword xml:lang="es">investment</dcat:keyword>
-        <dcat:keyword xml:lang="en">operating and sales abroad</dcat:keyword>
-        <dcat:keyword xml:lang="es">operating and sales abroad</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-25</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</dct:issued>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe302271/resource/ckan">
-    <dct:license rdf:resource="https://tbd.org" />
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TXT" />
-    <dcat:accessURL rdf:resource="https://prees-datalab.ine.es/ckan/" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-25</dct:modified>
     <dct:accessRights rdf:resource="https://tbd.org" />
     <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
     <dct:rights rdf:resource="https://tbd.org" />
@@ -483,41 +459,6 @@
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
-      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe300611">
-        <dct:title xml:lang="es">Encuesta sobre Innovación en las Empresas</dct:title>
-        <dct:description xml:lang="en">Knowledge of innovation activities in enterprises, innovation results and their economic impact</dct:description>
-        <dct:description xml:lang="es">Conocimiento de las actividades innovadoras de las empresas, los resultados de la innovación y su impacto económico</dct:description>
-        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe300611" />
-        <dct:identifier>IOE30061_1</dct:identifier>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/BIENNIAL" />
-        <dcat:keyword xml:lang="es">Gastos en actividades innovadoras</dcat:keyword>
-        <dcat:keyword xml:lang="es">resultados de la innovación y su impacto económico</dcat:keyword>
-        <dcat:keyword xml:lang="en">innovation results and their economic impact</dcat:keyword>
-        <dcat:keyword xml:lang="es">Expenditure on innovation activities</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-18</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-01-01</dct:issued>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe300611/resource/ckan">
-    <dct:title xml:lang="es">ckan</dct:title>
-    <dct:license rdf:resource="https://tbd.org" />
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TXT" />
-    <dcat:accessURL rdf:resource="https://prees-datalab.ine.es/ckan/" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-18</dct:modified>
-    <dct:accessRights rdf:resource="https://tbd.org" />
-    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-    <dct:rights rdf:resource="https://tbd.org" />
-    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
-        <ns6:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns6:validationStatus>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
       <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe300491">
         <dct:title xml:lang="es">Encuesta Industrial Anual de Productos</dct:title>
         <dct:description xml:lang="en">Detailed knowledge of the production of different industrial products</dct:description>
@@ -635,6 +576,115 @@
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
+      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/bde141">
+        <dct:title xml:lang="es">Tenencias de valores por sector (SHSS)</dct:title>
+        <dct:description xml:lang="en">Data on securities holdings of residents in Spain (stocks, transactions and other volume changes) with detail by sectors, covering both securities issued by residents and non-residents. It also includes securities holdings of non-resident investors under custody in Spain, providing a comprehensive view of the positions held in the country.</dct:description>
+        <dct:description xml:lang="es">Datos sobre las tenencias de valores de residentes en España (stocks, transacciones y otros cambios en volumen) con detalle por sectores, tanto en valores emitidos por residentes como por no residentes. Asimismo, incluye las tenencias de valores de inversores no residentes que se encuentran bajo custodia en España, lo que proporciona una visión completa de las posiciones mantenidas en el país.</dct:description>
+        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/bde141" />
+        <dct:identifier>BDE14_1</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
+        <dcat:keyword xml:lang="es">tenencias</dcat:keyword>
+        <dcat:keyword xml:lang="es">valores</dcat:keyword>
+        <dcat:keyword xml:lang="es">sectores</dcat:keyword>
+        <dcat:keyword xml:lang="es">stocks</dcat:keyword>
+        <dcat:keyword xml:lang="es">transacciones</dcat:keyword>
+        <dcat:keyword xml:lang="es">holdings</dcat:keyword>
+        <dcat:keyword xml:lang="es">securities</dcat:keyword>
+        <dcat:keyword xml:lang="es">sectors</dcat:keyword>
+        <dcat:keyword xml:lang="es">transactions</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-01</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-01-01</dct:issued>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/bde141/resource/ckan">
+    <dct:title xml:lang="es">ckan</dct:title>
+    <dct:license rdf:resource="https://tbd.org" />
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TXT" />
+    <dcat:accessURL rdf:resource="https://prees-datalab.ine.es/ckan/" />
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-01</dct:modified>
+    <dct:accessRights rdf:resource="https://tbd.org" />
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
+    <dct:rights rdf:resource="https://tbd.org" />
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+  </dcat:Distribution>
+  </dcat:distribution>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
+        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"><foaf:name xml:lang="es">Banco de España</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
+        <ns6:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns6:validationStatus>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe302331">
+        <dct:title xml:lang="es">Estadística de Productos en el Sector Comercio</dct:title>
+        <dct:description xml:lang="en">To analyse the main structural characteristics of enterprises in the trade sector</dct:description>
+        <dct:description xml:lang="es">Investigar las principales características estructurales específicas de las empresas del sector comercio</dct:description>
+        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe302331" />
+        <dct:identifier>IOE30233_1</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
+        <dcat:keyword xml:lang="en">Number of enterprises</dcat:keyword>
+        <dcat:keyword xml:lang="es">desagregación de la cifra de negocios por producto y tipo de cliente</dcat:keyword>
+        <dcat:keyword xml:lang="pt">Número de empresas</dcat:keyword>
+        <dcat:keyword xml:lang="en">breakdown of turnover by product and type of customer</dcat:keyword>
+        <dcat:keyword xml:lang="es">breakdown of turnover by product and type of customer</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-28</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</dct:issued>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/comercio" />
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe302331/resource/ckan">
+    <dct:title xml:lang="es">ckan</dct:title>
+    <dct:license rdf:resource="https://tbd.org" />
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TXT" />
+    <dcat:accessURL rdf:resource="https://prees-datalab.ine.es/ckan/" />
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-28</dct:modified>
+    <dct:accessRights rdf:resource="https://tbd.org" />
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
+    <dct:rights rdf:resource="https://tbd.org" />
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+  </dcat:Distribution>
+  </dcat:distribution>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
+        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
+        <ns6:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns6:validationStatus>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe300611">
+        <dct:title xml:lang="es">Encuesta sobre Innovación en las Empresas</dct:title>
+        <dct:description xml:lang="en">Knowledge of innovation activities in enterprises, innovation results and their economic impact</dct:description>
+        <dct:description xml:lang="es">Conocimiento de las actividades innovadoras de las empresas, los resultados de la innovación y su impacto económico</dct:description>
+        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe300611" />
+        <dct:identifier>IOE30061_1</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/BIENNIAL" />
+        <dcat:keyword xml:lang="es">Gastos en actividades innovadoras</dcat:keyword>
+        <dcat:keyword xml:lang="es">resultados de la innovación y su impacto económico</dcat:keyword>
+        <dcat:keyword xml:lang="en">innovation results and their economic impact</dcat:keyword>
+        <dcat:keyword xml:lang="es">Expenditure on innovation activities</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-18</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-01-01</dct:issued>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe300611/resource/ckan">
+    <dct:title xml:lang="es">ckan</dct:title>
+    <dct:license rdf:resource="https://tbd.org" />
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TXT" />
+    <dcat:accessURL rdf:resource="https://prees-datalab.ine.es/ckan/" />
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-18</dct:modified>
+    <dct:accessRights rdf:resource="https://tbd.org" />
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
+    <dct:rights rdf:resource="https://tbd.org" />
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+  </dcat:Distribution>
+  </dcat:distribution>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
+        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
+        <ns6:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns6:validationStatus>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
       <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe20811">
         <dct:title xml:lang="es">Diseño de Registro de Censo anual de Población desde 2022</dct:title>
         <dct:description xml:lang="en">Population count and understanding of its characteristics</dct:description>
@@ -729,6 +779,87 @@
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
         <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
         <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0035967"><foaf:name xml:lang="es">Banco de España</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0035967</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
+        <ns6:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns6:validationStatus>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe302321">
+        <dct:title xml:lang="es">Estadística Estructural de Empresas: Sector Comercio</dct:title>
+        <dct:description xml:lang="en">To analyse the main structural and economic characteristics of enterprises in the trade sector, including the sale and repair of motor vehicles and motorcycles (division 45 of CNAE-2009), wholesale trade and trade intermediation (division 46), and retail trade (division 47)</dct:description>
+        <dct:description xml:lang="es">Conocer las principales características estructurales y económicas de las empresas del sector comercio que incluye la venta y reparación de vehículos de motor y motocicletas (división 45 de la CNAE-2009), el comercio al por mayor e intermediarios del comercio (división 46) y el comercio al por menor (división 47)</dct:description>
+        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe302321" />
+        <dct:identifier>IOE30232_1</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
+        <dcat:keyword xml:lang="es">Personal</dcat:keyword>
+        <dcat:keyword xml:lang="es">cifra de negocios</dcat:keyword>
+        <dcat:keyword xml:lang="es">gastos</dcat:keyword>
+        <dcat:keyword xml:lang="es">impuestos e inversión</dcat:keyword>
+        <dcat:keyword xml:lang="es">Personnel</dcat:keyword>
+        <dcat:keyword xml:lang="es">turnover</dcat:keyword>
+        <dcat:keyword xml:lang="en">taxes and investment</dcat:keyword>
+        <dcat:keyword xml:lang="es">expenses</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-25</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</dct:issued>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/comercio" />
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe302321/resource/ckan">
+    <dct:license rdf:resource="https://tbd.org" />
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TXT" />
+    <dcat:accessURL rdf:resource="https://prees-datalab.ine.es/ckan/" />
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-25</dct:modified>
+    <dct:accessRights rdf:resource="https://tbd.org" />
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
+    <dct:rights rdf:resource="https://tbd.org" />
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+  </dcat:Distribution>
+  </dcat:distribution>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
+        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
+        <ns6:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns6:validationStatus>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/ioe302271">
+        <dct:title xml:lang="es">Estadística de Empresas según Pertenencia a Grupos</dct:title>
+        <dct:description xml:lang="en">Study of the main structural and economic characteristics of enterprises resident in Spain ultimately controlled by foreign companies and comparison with the other three types of enterprises according to their group membership (independent enterprises, domestic group enterprises and Spanish affiliates of Spanish multinational groups)</dct:description>
+        <dct:description xml:lang="es">Estudiar las principales características estructurales y económicas de las empresas residentes en España controladas en última instancia por empresas extranjeras y compararlas con los otros tres tipos de empresa según su pertenencia a grupos empresariales (empresas independientes, empresas de grupos domésticos y empresas residentes en España de multinacionales españolas)</dct:description>
+        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/ioe302271" />
+        <dct:identifier>IOE30227_1</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
+        <dcat:keyword xml:lang="es">Empleo</dcat:keyword>
+        <dcat:keyword xml:lang="es">facturación</dcat:keyword>
+        <dcat:keyword xml:lang="es">costes</dcat:keyword>
+        <dcat:keyword xml:lang="es">empresas</dcat:keyword>
+        <dcat:keyword xml:lang="es">inversión</dcat:keyword>
+        <dcat:keyword xml:lang="es">valor añadido</dcat:keyword>
+        <dcat:keyword xml:lang="es">explotación y ventas exteriores</dcat:keyword>
+        <dcat:keyword xml:lang="es">Employment</dcat:keyword>
+        <dcat:keyword xml:lang="es">turnover</dcat:keyword>
+        <dcat:keyword xml:lang="es">costs</dcat:keyword>
+        <dcat:keyword xml:lang="es">enterprises</dcat:keyword>
+        <dcat:keyword xml:lang="en">value added</dcat:keyword>
+        <dcat:keyword xml:lang="es">investment</dcat:keyword>
+        <dcat:keyword xml:lang="en">operating and sales abroad</dcat:keyword>
+        <dcat:keyword xml:lang="es">operating and sales abroad</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-25</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</dct:issued>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/ioe302271/resource/ckan">
+    <dct:license rdf:resource="https://tbd.org" />
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TXT" />
+    <dcat:accessURL rdf:resource="https://prees-datalab.ine.es/ckan/" />
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-25</dct:modified>
+    <dct:accessRights rdf:resource="https://tbd.org" />
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
+    <dct:rights rdf:resource="https://tbd.org" />
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+  </dcat:Distribution>
+  </dcat:distribution>
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
+        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
         <ns6:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns6:validationStatus>
       </dcat:Dataset>
     </dcat:dataset>
@@ -867,39 +998,6 @@
         <ns6:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns6:validationStatus>
       </dcat:Dataset>
     </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://prees-datalab.ine.es/dataset/bde141">
-        <dct:title xml:lang="es">Tenencias de valores por sector (SHSS)</dct:title>
-        <dct:description xml:lang="en">Data on securities holdings of residents in Spain (stocks, transactions and other volume changes) with detail by sectors, covering both securities issued by residents and non-residents. It also includes securities holdings of non-resident investors under custody in Spain, providing a comprehensive view of the positions held in the country.</dct:description>
-        <dct:description xml:lang="es">Datos sobre las tenencias de valores de residentes en España (stocks, transacciones y otros cambios en volumen) con detalle por sectores, tanto en valores emitidos por residentes como por no residentes. Asimismo, incluye las tenencias de valores de inversores no residentes que se encuentran bajo custodia en España, lo que proporciona una visión completa de las posiciones mantenidas en el país.</dct:description>
-        <dcat:landingPage rdf:resource="https://prees-datalab.ine.es/ckan/dataset/bde141" />
-        <dct:identifier>BDE14_1</dct:identifier>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
-        <dcat:keyword xml:lang="es">tenencias</dcat:keyword>
-        <dcat:keyword xml:lang="es">valores</dcat:keyword>
-        <dcat:keyword xml:lang="es">sectores</dcat:keyword>
-        <dcat:keyword xml:lang="es">stocks</dcat:keyword>
-        <dcat:keyword xml:lang="es">transaccione</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-01</dct:modified>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://prees-datalab.ine.es/dataset/bde141/resource/ckan">
-    <dct:license rdf:resource="https://tbd.org" />
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TXT" />
-    <dcat:accessURL rdf:resource="https://prees-datalab.ine.es/ckan/" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-01</dct:modified>
-    <dct:accessRights rdf:resource="https://tbd.org" />
-    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1024</dcat:byteSize>
-    <dct:rights rdf:resource="https://tbd.org" />
-    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2022/868/oj" />
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"><foaf:name xml:lang="es">Instituto Nacional de Estadística</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0035967"><foaf:name xml:lang="es">Banco de España</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0035967</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
-        <ns6:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns6:validationStatus>
-      </dcat:Dataset>
-    </dcat:dataset>
   </dcat:Catalog>
   <eli:LegalResource rdf:about="http://data.europa.eu/eli/reg/2022/868/oj" />
-  </rdf:RDF>
+</rdf:RDF>
