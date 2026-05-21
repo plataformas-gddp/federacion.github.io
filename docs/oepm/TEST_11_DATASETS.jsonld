@@ -42,11 +42,11 @@
       ],
       "dct:title": [
         {
-          "@value": "Catálogo de invenciones (patentes y modelos de utilidad)",
+          "@value": "Catálogo de diseños industriales",
           "@language": "es"
         },
         {
-          "@value": "Catalogue of inventions (patents and utility models)",
+          "@value": "Catalogue of industrial designs",
           "@language": "en"
         }
       ],
@@ -82,7 +82,7 @@
       ],
       "foaf:homepage": [
         {
-          "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/"
+          "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-de-disenos-industriales/"
         }
       ],
       "dct:license": {
@@ -97,6 +97,12 @@
         }
       ],
       "dcat:dataset": [
+        {
+          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Diseños_industriales"
+        },
+        {
+          "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Marcas_y_nombres_comerciales"
+        },
         {
           "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Documentos_Citados"
         },
@@ -134,6 +140,509 @@
     },
     {
       "@type": "dcat:Dataset",
+      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Diseños_industriales",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Oficina Española de Patentes y Marcas",
+              "@language": "es"
+            },
+            {
+              "@value": "Spanish Patent and Trademark Office",
+              "@language": "en"
+            }
+          ]
+        }
+      ],
+      "dct:title": [
+        {
+          "@value": "DISEÑOS: Diseños industriales (Datos bibliográficos e imágenes)",
+          "@language": "es"
+        },
+        {
+          "@value": "Bibliographic data and images (Industrial designs)",
+          "@language": "en"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Oficina Española de Patentes y Marcas",
+              "@language": "es"
+            },
+            {
+              "@value": "Spanish Patent and Trademark Office",
+              "@language": "en"
+            }
+          ]
+        }
+      ],
+      "dct:description": [
+        {
+          "@value": "Diseños industriales (datos e imágenes). Descargas diarias, mensuales y anuales.",
+          "@language": "es"
+        },
+        {
+          "@value": "Industrial designs (data and images). Daily, monthly and annual downloads.",
+          "@language": "en"
+        }
+      ],
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "1826-03-26T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-03-31T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
+      },
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "foaf:page": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-de-disenos-industriales/"
+      },
+      "dct:conformsTo": {
+        "@id": "https://www.wipo.int/es/web/standards/part_03_standards"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/rd/2011/10/24/1495"
+      },
+      "dcat:landingPage": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-de-disenos-industriales/"
+      },
+      "dct:provenance": [
+        {
+          "@id": "Datos generados a partir de los registros oficiales de Propiedad Industrial de la Oficina Española de Patentes y Marcas."
+        },
+        {
+          "@id": "Data generated from the official Industrial Property registers of the Spanish Patent and Trademark Office."
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "diseños industriales",
+          "@language": "es"
+        },
+        {
+          "@value": "propiedad industrial",
+          "@language": "es"
+        },
+        {
+          "@value": "modelos industriales",
+          "@language": "es"
+        },
+        {
+          "@value": "dibujos industriales",
+          "@language": "es"
+        },
+        {
+          "@value": "metadatos",
+          "@language": "es"
+        },
+        {
+          "@value": "oepm",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "1826-03-26T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Punto de contacto OEPM - Servicios de Datos",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "mailto:informacion@oepm.es"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Punto de contacto OEPM - Servicios de Datos",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:informacion@oepm.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:910780780"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://sede.oepm.gob.es/eSede/datos/es/contacto/"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-de-disenos-industriales/"
+        }
+      ],
+      "impulsadata:validationStatus": [
+        {
+          "@language": "es",
+          "@value": "conforme-DCAT-AP-ES"
+        }
+      ]
+    },
+    {
+      "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-de-disenos-industriales/",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Datos bibliográficos e imágenes (Recurso ZIP)",
+          "@language": "es"
+        },
+        {
+          "@value": "Bibliographic data and images (ZIP Resource)",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-de-disenos-industriales/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Diseños industriales (datos e imágenes). Descargas diarias, mensuales y anuales.",
+          "@language": "es"
+        },
+        {
+          "@value": "Industrial designs (data and images). Daily, monthly and annual downloads.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-de-disenos-industriales/"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Marcas_y_nombres_comerciales",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Oficina Española de Patentes y Marcas",
+              "@language": "es"
+            },
+            {
+              "@value": "Spanish Patent and Trademark Office",
+              "@language": "en"
+            }
+          ]
+        }
+      ],
+      "dct:title": [
+        {
+          "@value": "MARCAS: Marcas y nombres comerciales (Datos bibliográficos e imágenes)",
+          "@language": "es"
+        },
+        {
+          "@value": "Bibliographic data and images (Trademarks and trade names)",
+          "@language": "en"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Oficina Española de Patentes y Marcas",
+              "@language": "es"
+            },
+            {
+              "@value": "Spanish Patent and Trademark Office",
+              "@language": "en"
+            }
+          ]
+        }
+      ],
+      "dct:description": [
+        {
+          "@value": "Marcas y nombres comerciales (datos e imágenes). Descargas diarias, mensuales y anuales.",
+          "@language": "es"
+        },
+        {
+          "@value": "Trademarks and trade names (data and images). Daily, monthly and annual downloads.",
+          "@language": "en"
+        }
+      ],
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2010-11-10T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-03-31T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
+      },
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "foaf:page": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-de-marcas-y-nombres-comerciales/"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/DAILY"
+      },
+      "dct:conformsTo": {
+        "@id": "https://www.wipo.int/es/web/standards/part_03_standards"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/rd/2011/10/24/1495"
+      },
+      "dcat:landingPage": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-de-marcas-y-nombres-comerciales/"
+      },
+      "dct:provenance": [
+        {
+          "@id": "Datos generados a partir de los registros oficiales de Propiedad Industrial de la Oficina Española de Patentes y Marcas."
+        },
+        {
+          "@id": "Data generated from the official Industrial Property registers of the Spanish Patent and Trademark Office."
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "marcas",
+          "@language": "es"
+        },
+        {
+          "@value": "nombres comerciales",
+          "@language": "es"
+        },
+        {
+          "@value": "propiedad industrial",
+          "@language": "es"
+        },
+        {
+          "@value": "signos distintivos",
+          "@language": "es"
+        },
+        {
+          "@value": "metadatos",
+          "@language": "es"
+        },
+        {
+          "@value": "oepm",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2010-11-10T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Punto de contacto OEPM - Servicios de Datos",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "mailto:informacion@oepm.es"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Punto de contacto OEPM - Servicios de Datos",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:informacion@oepm.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:910780780"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://sede.oepm.gob.es/eSede/datos/es/contacto/"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-de-marcas-y-nombres-comerciales/"
+        }
+      ],
+      "impulsadata:validationStatus": [
+        {
+          "@language": "es",
+          "@value": "conforme-DCAT-AP-ES"
+        }
+      ]
+    },
+    {
+      "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-de-marcas-y-nombres-comerciales/",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Datos bibliográficos e imágenes (Recurso ZIP)",
+          "@language": "es"
+        },
+        {
+          "@value": "Bibliographic data and images (ZIP Resource)",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-de-marcas-y-nombres-comerciales/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Marcas y nombres comerciales (datos e imágenes). Descargas diarias, mensuales y anuales.",
+          "@language": "es"
+        },
+        {
+          "@value": "Trademarks and trade names (data and images). Daily, monthly and annual downloads.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-de-marcas-y-nombres-comerciales/"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
       "@id": "https://sede.oepm.gob.es/dataset/ES.OEPM.Documentos_Citados",
       "dct:publisher": [
         {
@@ -157,7 +666,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Datos en Documentos Citados",
+          "@value": "INVENCIONES: Datos en Documentos Citados",
           "@language": "es"
         },
         {
@@ -410,7 +919,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Texto Completo",
+          "@value": "INVENCIONES: Texto Completo",
           "@language": "es"
         },
         {
@@ -667,7 +1176,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Datos Legales",
+          "@value": "INVENCIONES: Datos Legales",
           "@language": "es"
         },
         {
@@ -924,7 +1433,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Datos bibliográficos (incluyen la clasificación CIP pero no el resumen)",
+          "@value": "INVENCIONES: Datos bibliográficos (incluyen la clasificación CIP pero no el resumen)",
           "@language": "es"
         },
         {
@@ -1185,7 +1694,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013)",
+          "@value": "INVENCIONES: Datos en Documentos citados y ECLA (para documentos anteriores a 2013)",
           "@language": "es"
         },
         {
@@ -1250,6 +1759,9 @@
       ],
       "foaf:page": {
         "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/NEVER"
       },
       "dct:conformsTo": {
         "@id": "https://www.wipo.int/es/web/standards/part_03_standards"
@@ -1355,7 +1867,7 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones-y-ecla/"
+          "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2013.zip"
         }
       ],
       "impulsadata:validationStatus": [
@@ -1366,15 +1878,15 @@
       ]
     },
     {
-      "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones-y-ecla/",
+      "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2013.zip",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013) (Recurso ZIP)",
+          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013) (Recurso ZIP) - 3_Trimestre_Sgml_2013",
           "@language": "es"
         },
         {
-          "@value": "Data in Cited Documents and ECLA (for documents prior to 2013) (ZIP Resource)",
+          "@value": "Data in Cited Documents and ECLA (for documents prior to 2013) (ZIP Resource) - 3_Trimestre_Sgml_2013",
           "@language": "en"
         }
       ],
@@ -1412,7 +1924,7 @@
         "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
       },
       "dcat:downloadURL": {
-        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones-y-ecla/"
+        "@id": "https://pruebasede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES_ECLA/2013/3_Trimestre_Sgml_2013.zip"
       },
       "dcat:mediaType": {
         "@id": "http://www.iana.org/assignments/media-types/application/zip"
@@ -1443,7 +1955,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Datos de Clasificación CPC",
+          "@value": "INVENCIONES: Datos de Clasificación CPC",
           "@language": "es"
         },
         {
@@ -1696,7 +2208,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Resúmenes",
+          "@value": "INVENCIONES: Resúmenes",
           "@language": "es"
         },
         {
@@ -1953,7 +2465,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Authority File - Inventario de documentos de patente publicados por la OEPM desde 1826",
+          "@value": "INVENCIONES: Authority File - Inventario de documentos de patente publicados por la OEPM desde 1826",
           "@language": "es"
         },
         {
@@ -2214,7 +2726,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Folletos en formato PDF",
+          "@value": "INVENCIONES: Folletos en formato PDF",
           "@language": "es"
         },
         {
