@@ -45871,7 +45871,8 @@ Cartagena: November 2025</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-05-30</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY-SA_4_0"/>
+    <!-- <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY-SA_4_0"/> -->
+    <dct:license rdf:resource= "http://publications.europa.eu/resource/authority/licence/CC_BYSA_4_0"/>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:title xml:lang="es">Link de acceso al recurso en el catálogo del CODSI</dct:title>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -51036,7 +51037,8 @@ Cartagena: November 2025</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-06-01</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY-SA_4_0"/>
+    <!-- <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY-SA_4_0"/> -->
+    <dct:license rdf:resource= "http://publications.europa.eu/resource/authority/licence/CC_BYSA_4_0"/>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:title xml:lang="es">Link de acceso al recurso en el catálogo del CODSI</dct:title>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -51059,7 +51061,9 @@ Cartagena: November 2025</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-06-01</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY-SA_4_0"/>
+    <!-- corregido valor de licence -->
+    <!-- <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY-SA_4_0"/> -->
+    <dct:license rdf:resource= "http://publications.europa.eu/resource/authority/licence/CC_BYSA_4_0"/>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:title xml:lang="es">Link de acceso al recurso en el catálogo del CODSI</dct:title>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -51083,8 +51087,9 @@ Cartagena: November 2025</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-04-11</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY-SA_4_0"/>
-    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <!-- <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY-SA_4_0"/> -->
+    <dct:license rdf:resource= "http://publications.europa.eu/resource/authority/licence/CC_BYSA_4_0"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:title xml:lang="es">Link de acceso al recurso en el catálogo del CODSI</dct:title>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
@@ -51106,7 +51111,8 @@ Cartagena: November 2025</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-01-15</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY-SA_4_0"/>
+    <!-- <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY-SA_4_0"/> -->
+    <dct:license rdf:resource= "http://publications.europa.eu/resource/authority/licence/CC_BYSA_4_0"/>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:title xml:lang="es">Link de acceso al recurso en el catálogo del CODSI</dct:title>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -51129,7 +51135,8 @@ Cartagena: November 2025</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-04-11</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY-SA_4_0"/>
+    <!-- <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY-SA_4_0"/> -->
+    <dct:license rdf:resource= "http://publications.europa.eu/resource/authority/licence/CC_BYSA_4_0"/>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:title xml:lang="es">Link de acceso al recurso en el catálogo del CODSI</dct:title>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
@@ -54183,7 +54190,8 @@ Cartagena: November 2025</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-12-29</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY-NC-SA_4_0"/>
+    <!-- <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY-SA_4_0"/> -->
+    <dct:license rdf:resource= "http://publications.europa.eu/resource/authority/licence/CC_BYSA_4_0"/>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:title xml:lang="es">Link de acceso al recurso en el catálogo del CODSI</dct:title>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
