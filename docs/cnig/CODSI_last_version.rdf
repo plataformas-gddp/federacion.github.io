@@ -6803,7 +6803,7 @@
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/37b60486-a666-4012-a7eb-213a3c576195">
     <dcat:contactPoint>
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/MinisterioparalaTransicionEcologicayelRetoDemografico.DireccionGeneraldelAgua(DGA).SubdireccionGeneraldePlanificacionHidrologica(SGPH).">
-        <vcard:fn xml:lang="es">Ministerio para la Transición Ecológica y el Reto Demográfico . Dirección General del Agua (DGA). Subdirección General de Planificación Hidrológica (SGPH).</vcard:fn>
+        <vcard:fn xml:lang="es">Ministerio para la Transición Ecológica y el Reto Demográfico. Dirección General del Agua (DGA). Subdirección General de Planificación Hidrológica (SGPH).</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:bzn-sgph@miteco.es"/>
         <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
@@ -7965,7 +7965,7 @@
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/44ed4645-a763-4bbe-b64a-166ffd81b099">
     <dcat:contactPoint>
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/MinisterioparalaTransicionEcologicayelRetoDemografico.DireccionGeneraldelAgua(DGA).SubdireccionGeneraldePlanificacionHidrologica(SGPH).">
-        <vcard:fn xml:lang="es">Ministerio para la Transición Ecológica y el Reto Demográfico . Dirección General del Agua (DGA). Subdirección General de Planificación Hidrológica (SGPH).</vcard:fn>
+        <vcard:fn xml:lang="es">Ministerio para la Transición Ecológica y el Reto Demográfico. Dirección General del Agua (DGA). Subdirección General de Planificación Hidrológica (SGPH).</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:bzn-sgph@miteco.es"/>
         <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
@@ -9281,7 +9281,7 @@
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/578f782b-0807-4e8c-bd70-c9e7dc070577">
     <dcat:contactPoint>
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/MinisterioparalaTransicionEcologicayelRetoDemografico.DireccionGeneraldelAgua(DGA)">
-        <vcard:fn xml:lang="es">Ministerio para la Transición Ecológica y el Reto Demográfico. Dirección General del Agua (DGA)</vcard:fn>
+        <vcard:fn xml:lang="es">Ministerio para la Transición Ecológica y el Reto Demográfico. Dirección General del Agua (DGA). Subdirección General de Planificación Hidrológica (SGPH).</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:bzn-sgph@miteco.es"/>
         <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
@@ -9590,7 +9590,7 @@
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/5a2eb5e5-1eae-4934-aa8b-7c6f68785ffb">
     <dcat:contactPoint>
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/MinisterioparalaTransicionEcologicayelRetoDemografico.DireccionGeneraldelAgua(DGA).SubdireccionGeneraldePlanificacionHidrologica(SGPH).">
-        <vcard:fn xml:lang="es">Ministerio para la Transición Ecológica y el Reto Demográfico . Dirección General del Agua (DGA). Subdirección General de Planificación Hidrológica (SGPH).</vcard:fn>
+        <vcard:fn xml:lang="es">Ministerio para la Transición Ecológica y el Reto Demográfico. Dirección General del Agua (DGA). Subdirección General de Planificación Hidrológica (SGPH).</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:bzn-sgph@miteco.es"/>
         <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
@@ -14548,7 +14548,7 @@
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/adc3ba54-a1fd-4c99-84e6-5660de27ff17">
     <dcat:contactPoint>
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/MinisterioparalaTransicionEcologicayelRetoDemografico.DireccionGeneraldelAgua(DGA).SubdireccionGeneraldePlanificacionHidrologica(SGPH).">
-        <vcard:fn xml:lang="es">Ministerio para la Transición Ecológica y el Reto Demográfico . Dirección General del Agua (DGA). Subdirección General de Planificación Hidrológica (SGPH).</vcard:fn>
+        <vcard:fn xml:lang="es">Ministerio para la Transición Ecológica y el Reto Demográfico. Dirección General del Agua (DGA). Subdirección General de Planificación Hidrológica (SGPH).</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:bzn-sgph@miteco.es"/>
         <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
@@ -16730,7 +16730,7 @@
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/cea86c0a-f8fb-4321-8b2f-ef16ab3f06b6">
     <dcat:contactPoint>
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/MinisterioparalaTransicionEcologicayelRetoDemografico.DireccionGeneraldelAgua(DGA).SubdireccionGeneraldePlanificacionHidrologica(SGPH).">
-        <vcard:fn xml:lang="es">Ministerio para la Transición Ecológica y el Reto Demográfico . Dirección General del Agua (DGA). Subdirección General de Planificación Hidrológica (SGPH).</vcard:fn>
+        <vcard:fn xml:lang="es">Ministerio para la Transición Ecológica y el Reto Demográfico. Dirección General del Agua (DGA). Subdirección General de Planificación Hidrológica (SGPH).</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:bzn-sgph@miteco.es"/>
         <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
       </vcard:Organization>
