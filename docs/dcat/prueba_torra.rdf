@@ -216,7 +216,7 @@
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
-      <dcat:Dataset rdf:about="https://172.20.200.5:8443/dataset/mirea0044546dsformacion000001">
+      <dcat:Dataset rdf:about="https://demo.datos.gob.es/catalogo/ea0041513-gasto-en-prestaciones">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
         <dct:title xml:lang="es">Cambio de Título</dct:title>
         <dct:description xml:lang="es">Mantengo el mismo identifier</dct:description>
