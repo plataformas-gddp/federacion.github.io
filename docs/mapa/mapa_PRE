@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+  <dcat:Catalog rdf:about="https://preservicio.mapa.gob.es">
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA" />
+    </dct:language>
+    <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP" />
+    <dct:spatial>
+      <dct:Location rdf:nodeID="N67c09de4e2704a60bf63c531d5fd4a22">
+        <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-9.3015 35.9468, 3.0395 35.9468, 3.0395 43.7483, -9.3015 43.7483, -9.3015 35.9468))</dcat:bbox>
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8150 40.5250)</dcat:centroid>
+        <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-9.3015 35.9468, 3.0395 35.9468, 3.0395 43.7483, -9.3015 43.7483, -9.3015 35.9468))</locn:Geometry>
+      </dct:Location>
+    </dct:spatial>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector" />
+    <foaf:homepage rdf:resource="https://preservicio.mapa.gob.es" />
+    <dct:license>
+      <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR" />
+      </rdf:Description>
+    </dct:license>
+    <dct:rights rdf:resource="http://rightsstatements.org/vocab/InC/1.0/" />
+    <dct:title xml:lang="es">Datos abiertos Ministerio de Agricultura, Pesca y Alimentación</dct:title>
+    <dct:description xml:lang="es">Catálogo de datos del Ministerio de Agricultura, Pesca y Alimentación</dct:description>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-22T10:01:44+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dct:issued>
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401">
+        <foaf:name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</foaf:name>
+        <foaf:mbox rdf:resource="mailto:organismo@example.org" />
+        <foaf:homepage rdf:resource="https://organismo.example.org/" />
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" />
+        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401</dct:identifier>
+      </foaf:Agent>
+    </dct:publisher>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"><foaf:name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</foaf:name><foaf:mbox rdf:resource="mailto:organismo@example.org" /><foaf:homepage rdf:resource="https://organismo.example.org/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401</dct:identifier></foaf:Agent></dct:creator>
+    <dct:hasPart rdf:resource="https://preservicio.mapa.gob.es/ckan/part-1" />
+    <dct:isPartOf rdf:resource="https://preservicio.mapa.gob.es/ckan/main" />
+    <dcat:catalog rdf:resource="https://preservicio.mapa.gob.es/ckan/related" />
+    <dcat:record rdf:resource="https://preservicio.mapa.gob.es/ckan/record/1" />
+    <dct:temporal>
+      <dct:PeriodOfTime rdf:nodeID="N5f31a996fbac4f0793b594de4db268f5">
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2100-01-01</dcat:endDate>
+        <time:hasBeginning>
+          <time:Instant rdf:nodeID="N9245046a659243a8851f87c98c7f2556">
+            <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</time:inXSDDate>
+          </time:Instant>
+        </time:hasBeginning>
+        <time:hasEnd>
+          <time:Instant rdf:nodeID="N00b8e57be81349daac0fe26e7d581db6">
+            <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2100-01-01</time:inXSDDate>
+          </time:Instant>
+        </time:hasEnd>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://preservicio.mapa.gob.es/dataset/esmaparecanredcontable">
+        <dct:title xml:lang="es">RECAN - Red Contable Agraria Nacional</dct:title>
+        <dct:description xml:lang="es">Datos de la Red Contable Agraria Nacional, instrumento que permite evaluar la renta de las explotaciones agrarias y el impacto que la política agraria produce en ellas.</dct:description>
+        <dcat:landingPage rdf:resource="https://preservicio.mapa.gob.es/ckan/dataset/esmaparecanredcontable" />
+        <dct:identifier>ES.MAPA.RECAN.RedContable</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL" />
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-22</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-22</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca" />
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:nodeID="N044fbf9051fd46f89f79239016ca7586">
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-12-31</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-31</dcat:endDate>
+            <time:hasBeginning>
+              <time:Instant rdf:nodeID="Na2cf6576e1b141749d5996d7380bd378">
+                <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-01</time:inXSDDate>
+              </time:Instant>
+            </time:hasBeginning>
+            <time:hasEnd>
+              <time:Instant rdf:nodeID="N902e59e6e9634cb7922107353b46821c">
+                <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-31</time:inXSDDate>
+              </time:Instant>
+            </time:hasEnd>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://preservicio.mapa.gob.es/dataset/esmaparecanredcontable/resource/esmaparecanredcontable">
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
+    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv" />
+    <dcat:accessURL rdf:resource="https://preservicio.mapa.gob.es/ckan/dataset/esmaparecanredcontable" />
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-22</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-22T00:00:00+00:00</dct:issued>
+  </dcat:Distribution>
+</dcat:distribution>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+        <dcat:version>1.0</dcat:version>
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"><foaf:name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</foaf:name><foaf:mbox rdf:resource="mailto:organismo@example.org" /><foaf:homepage rdf:resource="https://organismo.example.org/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401</dct:identifier></foaf:Agent></dct:publisher>
+        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"><foaf:name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</foaf:name><foaf:mbox rdf:resource="mailto:organismo@example.org" /><foaf:homepage rdf:resource="https://organismo.example.org/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401</dct:identifier></foaf:Agent></dct:creator>
+        <adms:identifier>
+          <adms:Identifier rdf:nodeID="N21a88b5ccb1142b6924cdbc72921bd43">
+            <skos:notation>https://datosgobes.github.io/DCAT-AP-ES/</skos:notation>
+          </adms:Identifier>
+        </adms:identifier>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:nodeID="N00fa3455bca94ec2a459c5b3da7b43e0">
+            <vcard:fn xml:lang="es">S.G. Análisis, Coordinación y Estadística</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:recan@mapa.es" />
+            <vcard:hasURL rdf:resource="https://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/economia/red-contable-recan/" />
+            <vcard:organization-name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</vcard:organization-name>
+            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401" />
+            <vcard:hasTelephone rdf:resource="tel:(+34) 913475389" />
+          </vcard:Kind>
+        </dcat:contactPoint>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://preservicio.mapa.gob.es/dataset/esmapapescacuadernilloflota">
+        <dct:title xml:lang="en">Cuadernillo de flota</dct:title>
+        <dct:title xml:lang="es">Cuadernillo de flota</dct:title>
+        <dct:description xml:lang="es">Información de la situación de la flota pesquera española, su evolución histórica y la dimensión geográfica de la misma a 31 de diciembre de cada año.</dct:description>
+        <dcat:landingPage rdf:resource="https://preservicio.mapa.gob.es/ckan/dataset/esmapapescacuadernilloflota" />
+        <dcat:landingPage rdf:resource="https://preservicio.mapa.gob.es/ckan" />
+        <dct:identifier>ES.MAPA.Pesca.CuadernilloFlota</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-22</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-22</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca" />
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:nodeID="N9e8e11016748424f9436e1c52358fb9e">
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-01-01</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-31</dcat:endDate>
+            <time:hasBeginning>
+              <time:Instant rdf:nodeID="Nbdb8f175abd346799cbc3e875ee1b9bf">
+                <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-01-01</time:inXSDDate>
+              </time:Instant>
+            </time:hasBeginning>
+            <time:hasEnd>
+              <time:Instant rdf:nodeID="Nd8c02a310ed24e9ab6269e9b27be37c0">
+                <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-31</time:inXSDDate>
+              </time:Instant>
+            </time:hasEnd>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://preservicio.mapa.gob.es/dataset/esmapapescacuadernilloflota/resource/cuandernillo-flota-csv">
+    <dct:title xml:lang="es">Cuadernillo de flota csv</dct:title>
+    <dcat:accessURL rdf:resource="https://preservicio.mapa.gob.es/ckan/api/3/action/dataset/7ba26edc-35fe-44d1-bcd5-0ab329da57ed" />
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-22T09:12:15+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-22T09:12:15+00:00</dct:issued>
+  </dcat:Distribution>
+  </dcat:distribution>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+        <dcat:version>1.0</dcat:version>
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"><foaf:name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</foaf:name><foaf:mbox rdf:resource="mailto:organismo@example.org" /><foaf:homepage rdf:resource="https://organismo.example.org/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401</dct:identifier></foaf:Agent></dct:publisher>
+        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"><foaf:name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</foaf:name><foaf:mbox rdf:resource="mailto:organismo@example.org" /><foaf:homepage rdf:resource="https://organismo.example.org/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401</dct:identifier></foaf:Agent></dct:creator>
+        <adms:identifier>
+          <adms:Identifier rdf:nodeID="Nf95cd9c713364e48a6ead81ad076fe30">
+            <skos:notation>https://datosgobes.github.io/DCAT-AP-ES</skos:notation>
+          </adms:Identifier>
+        </adms:identifier>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:nodeID="Nf54f1dacb5ad4971a7daca09520f90da">
+            <vcard:fn xml:lang="es">Secretaría General de Pesca</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:censoflota@mapa.com" />
+            <vcard:hasURL rdf:resource="https://www.mapa.gob.es/es/ministerio/funciones-estructura/directorio" />
+            <vcard:organization-name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</vcard:organization-name>
+            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401" />
+            <vcard:hasTelephone rdf:resource="tel:913476061/62" />
+          </vcard:Kind>
+        </dcat:contactPoint>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://preservicio.mapa.gob.es/dataset/esmapasalasincubaciondatosincubacion">
+        <dct:title xml:lang="es">Encuesta de Salas de Incubación</dct:title>
+        <dct:description xml:lang="es">La Encuesta de Salas de Incubación elaborada por la Subdirección General de Análisis, Coordinación y Estadística del Ministerio de Agricultura, Pesca y Alimentación constituye un útil indicador de la situación del sector avícola, recogiendo mensualmente los huevos introducidos para incubar, así como las aves nacidas de todas las salas de incubación ubicadas en el territorio nacional.
+Su ejecución se enmarca dentro del el Plan Estadístico Nacional 2025-2028 y de la normativa comunitaria (Reglamento de Ejecución (UE) 2023/2745 de la Comisión), independientemente de su eventual complementación informativa con otras herramientas estadísticas elaboradas por la S. G. de Análisis, Coordinación y Estadística.</dct:description>
+        <dcat:landingPage rdf:resource="https://preservicio.mapa.gob.es/ckan/dataset/esmapasalasincubaciondatosincubacion" />
+        <dct:identifier>ES.MAPA.SalasIncubacion.datos_incubacion</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY" />
+        <dcat:keyword xml:lang="es">Producción animal,Ave de corral,Huevo,Avicultura,Estadística agrícola,Agricultura,Ganadería,Estadísticas</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-22</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-22</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca" />
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:nodeID="Ncabf52d6667b40c49cf53ce4322b86b8">
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-02-01</dcat:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://preservicio.mapa.gob.es/dataset/esmapasalasincubaciondatosincubacion/resource/esmapasalasincubaciondatosincubacion">
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
+    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv" />
+    <dcat:accessURL rdf:resource="https://preservicio.mapa.gob.es/ckan/api/3/action/dataset/67409774-aeb1-4133-8573-be941f8ded43" />
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-22</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-22T00:00:00+00:00</dct:issued>
+  </dcat:Distribution>
+  </dcat:distribution>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"><foaf:name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</foaf:name><foaf:mbox rdf:resource="mailto:organismo@example.org" /><foaf:homepage rdf:resource="https://organismo.example.org/" /><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401</dct:identifier></foaf:Agent></dct:publisher>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:nodeID="Nc09045244c884700b6eb677ccf025be2">
+            <vcard:fn xml:lang="es">S.G. Análisis, Coordinación y Estadística</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:indicesp@mapa.es" />
+            <vcard:hasEmail rdf:resource="mailto:sgapc@mapa.es" />
+            <vcard:organization-name xml:lang="es">Ministerio de Agricultura, Pesca y Alimentación</vcard:organization-name>
+            <vcard:hasTelephone rdf:resource="tel:+34913475401" />
+          </vcard:Kind>
+        </dcat:contactPoint>
+      </dcat:Dataset>
+    </dcat:dataset>
+  </dcat:Catalog>
+  </rdf:RDF>
