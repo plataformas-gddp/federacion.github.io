@@ -1,421 +1,349 @@
-{
-  "@context": {
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "dcat": "http://www.w3.org/ns/dcat#",
-    "dct": "http://purl.org/dc/terms/",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "dcatap": "http://data.europa.eu/r5r/",
-    "vcard": "http://www.w3.org/2006/vcard/ns#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "owl": "http://www.w3.org/2002/07/owl#",
-    "geo": "http://www.opengis.net/ont/geosparql#",
-    "locn": "http://www.w3.org/ns/locn#",
-    "time": "http://www.w3.org/2006/time#",
-    "adms": "http://www.w3.org/ns/adms#",
-    "odrl": "http://www.w3.org/ns/odrl/2/"
-  },
-  "@graph": [
-    {
-      "@id": "https://datos.organismo.es/catalogo",
-      "@type": "dcat:Catalog",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001",
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001",
-          "dct:type": [
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            }
-          ],
-          "foaf:name": [
-            {
-              "@value": "Coordinación Iniciativa Aporta",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": [
-        {
-          "@value": "Catálogo de Datos Abiertos",
-          "@language": "es"
-        }
-      ],
-      "dct:issued": [
-        {
-          "@value": "2020-01-01T12:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2025-01-02T12:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001",
-          "dct:type": [
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            }
-          ],
-          "foaf:name": [
-            {
-              "@value": "Coordinación Iniciativa Aporta",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:description": [
-        {
-          "@value": "Catálogo de Datos Abiertos que sirve de ejemplo en DCAT-AP-ES.",
-          "@language": "es"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        }
-      ],
-      "foaf:homepage": [
-        {
-          "@id": "http://dcat-ap-es.ejemplo.org"
-        }
-      ],
-      "dct:license": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-        }
-      ],
-      "dcat:themeTaxonomy": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector"
-        }
-      ],
-      "dct:rights": [
-        {
-          "@id": "http://dcat-ap-es.ejemplo.org/catalogo/derechos-de-acceso"
-        }
-      ],
-      "dcat:dataset": [
-        {
-          "@id": "https://datos.organismo.es/dataset/IDD1"
-        }
-      ]
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/IDD1",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001",
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001",
-          "dct:type": [
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            }
-          ],
-          "foaf:name": [
-            {
-              "@value": "Coordinación Iniciativa Aporta",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": [
-        {
-          "@value": "Dataset de ejemplo 1",
-          "@language": "es"
-        }
-      ],
-      "dct:creator": [
-        {
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001",
-          "dct:type": [
-            {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-            }
-          ],
-          "foaf:name": [
-            {
-              "@value": "Coordinación Iniciativa Aporta",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:description": [
-        {
-          "@value": "Descripción de un dataset de ejemplo 1",
-          "@language": "es"
-        }
-      ],
-      "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        }
-      ],
-      "dct:issued": [
-        {
-          "@value": "2024-01-01T12:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2024-02-01T12:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": [
-        {
-          "@id": "http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        }
-      ],
-      "dct:accrualPeriodicity": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
-        }
-      ],
-      "dct:conformsTo": [
-        {
-          "@id": "http://normativaespecifica-dataset.com"
-        }
-      ],
-      "dcat:version": "1",
-      "dcat:hasVersion": [
-        {
-          "@id": "http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-2"
-        }
-      ],
-      "dcat:isVersionOf": [
-        {
-          "@id": "http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-3"
-        }
-      ],
-      "dct:provenance": [
-        {
-          "@id": "http://dcat-ap-es.ejemplo.org/provenance/statement1"
-        }
-      ],
-      "dct:source": [
-        {
-          "@id": "http://dcat-ap-es.ejemplo.org/dataset/dataset-raiz-ejemplo-1"
-        }
-      ],
-      "dct:isReferencedBy": [
-        {
-          "@id": "http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-2"
-        }
-      ],
-      "dcat:temporalResolution": [
-        {
-          "@value": "PT24M",
-          "@type": "xsd:duration"
-        }
-      ],
-      "dcat:qualifiedRelation": [
-        {
-          "@id": "http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-2"
-        }
-      ],
-      "dcat:spatialResolutionInMeters": [
-        {
-          "@value": "5",
-          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
-        }
-      ],
-      "dcat:keyword": [
-        {
-          "@value": "estadísticas",
-          "@language": "es"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2024-01-01T00:00:00Z",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          },
-          "dcat:endDate": {
-            "@value": "2024-12-31T23:59:59Z",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          },
-          "time:hasBeginning": {
-            "@type": "time:Instant",
-            "time:inXSDDateTime": {
-              "@value": "2024-01-01T00:00:00Z",
-              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-            }
-          },
-          "time:hasEnd": {
-            "@type": "time:Instant",
-            "time:inXSDDateTime": {
-              "@value": "2024-12-31T23:59:59Z",
-              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-            }
-          }
-        }
-      ],
-      "dcat:contactPoint": [
-        {
-          "@type": "vcard:Kind",
-          "@id": "https://www.vcard.com",
-          "vcard:organization-name": [
-            {
-              "@value": "Organismo",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasUID": [
-            {
-              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001"
-            }
-          ],
-          "vcard:fn": [
-            {
-              "@value": "Oficina del dato",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasEmail": [
-            {
-              "@id": "mailto:info-contacto@dcat-ap-es.ejemplo.org"
-            }
-          ],
-          "vcard:hasTelephone": [
-            {
-              "@id": "tel:.+3491222222"
-            }
-          ],
-          "vcard:hasURL": [
-            {
-              "@id": "http://dcat-ap-es.ejemplo.org/"
-            }
-          ]
-        }
-      ],
-      "dcat:distribution": [
-        {
-          "@id": "Distribución de ejemplo 1"
-        }
-      ]
-    },
-    {
-      "@id": "Distribución de ejemplo 1",
-      "@type": "dcat:Distribution",
-      "dct:title": [
-        {
-          "@value": "Distribución de ejemplo 1",
-          "@language": "es"
-        }
-      ],
-      "dcat:accessURL": [
-        {
-          "@id": "http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-1-CSV/files/1T2p3o4B.CSV"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+[
+  {
+    "@id": "https://10.0.2.3:8443",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "es",
+        "@value": "Catalogo de datos del organismo"
+      }
+    ],
+    "http://purl.org/dc/terms/hasPart": [
+      {
+        "@id": "https://datos.gob.es/catalogo/part-1"
+      }
+    ],
+    "http://purl.org/dc/terms/isPartOf": [
+      {
+        "@id": "https://datos.gob.es/catalogo/main"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-01"
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/POR"
       },
-      "dct:license": {
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/CAT"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/FRA"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/ITA"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/GLG"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/EUS"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
         "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-05-26T12:45:25.485299"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901"
+      }
+    ],
+    "http://purl.org/dc/terms/rights": [
+      {
+        "@id": "http://rightsstatements.org/vocab/InC/1.0/"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/country/ESP"
+      }
+    ],
+    "http://purl.org/dc/terms/temporal": [
+      {
+        "@id": "_:N91a50c4357524c3189e643dc8ba4fd8d"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "es",
+        "@value": "CKAN"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#catalog": [
+      {
+        "@id": "https://datos.gob.es/catalogo/related"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#dataset": [
+      {
+        "@id": "https://10.0.2.3:8443/dataset/i000003813"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#record": [
+      {
+        "@id": "https://datos.gob.es/catalogo/record/1"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#themeTaxonomy": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/data-theme"
       },
-      "dct:description": [
-        {
-          "@value": "Descripción de un distribución de ejemplo 1",
-          "@language": "es"
-        }
-      ],
-      "foaf:page": [
-        {
-          "@id": "http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-1-CSV/page"
-        }
-      ],
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-        }
-      ],
-      "dct:conformsTo": [
-        {
-          "@id": "http://normativaespecifica-distribucion.com"
-        }
-      ],
-      "dct:issued": [
-        {
-          "@value": "2024-01-05T12:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2024-01-06T12:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:byteSize": [
-        {
-          "@value": "1000",
-          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
-        }
-      ],
-      "dcatap:availability": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/planned-availability/STABLE"
-        }
-      ],
-      "dcatap:applicableLegislation": [
-        {
-          "@id": "http://data.europa.eu/eli/dir/2007/2/2019-06-26"
-        }
-      ],
-      "dcat:spatialResolutionInMeters": [
-        {
-          "@value": "199.0",
-          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
-        }
-      ],
-      "dct:rights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/CONFIDENTIAL"
-        }
-      ],
-      "dcat:downloadURL": [
-        {
-          "@id": "http://dcat-ap-es.ejemplo.org/distribucion/dataset-ejemplo-1-CSV/download"
-        }
-      ],
-      "dcat:packageFormat": [
-        {
-          "@id": "http://www.iana.org/assignments/media-types/application/json"
-        }
-      ],
-      "dcat:mediaType": [
-        {
-          "@id": "https://www.iana.org/assignments/media-types/text/calendar"
-        }
-      ],
-      "odrl:hasPolicy": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/SENSITIVE"
-        }
-      ]
-    }
-  ]
-}
+      {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://10.0.2.3:8443"
+      }
+    ]
+  },
+  {
+    "@id": "https://10.0.2.3:8443/dataset/i000003813",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Dataset"
+    ],
+    "http://purl.org/dc/terms/accessRights": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "es",
+        "@value": "descrip cjto datos1"
+      },
+      {
+        "@language": "en",
+        "@value": "descript dataset1"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "I00000381_3"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "DatasetName3"
+      },
+      {
+        "@language": "es",
+        "@value": "NombreCjtoDato3"
+      }
+    ],
+    "http://tragsatec.es/def/impulsadata#validationStatus": [
+      {
+        "@language": "es",
+        "@value": "conforme-DCAT-AP-ES"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#distribution": [
+      {
+        "@id": "https://10.0.2.3:8443/dataset/i000003813/resource/informe-comercio-pdf"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/economia"
+      },
+      {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
+      }
+    ]
+  },
+  {
+    "@id": "https://10.0.2.3:8443/dataset/i000003813/resource/informe-comercio-pdf",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf"
+      },
+      {
+        "@id": "https://serviciosweb.mineco.gob.es/comercio/api/pdf"
+      }
+    ]
+  },
+  {
+    "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Agent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "es",
+        "@value": "Ministerio de Asuntos Económicos y Transformación Digital | MINECO"
+      }
+    ]
+  },
+  {
+    "@id": "_:N91a50c4357524c3189e643dc8ba4fd8d",
+    "@type": [
+      "http://purl.org/dc/terms/PeriodOfTime"
+    ],
+    "http://www.w3.org/2006/time#hasBeginning": [
+      {
+        "@id": "_:Nfe300ac56ad149ef8fc6c48ad603b634"
+      }
+    ],
+    "http://www.w3.org/2006/time#hasEnd": [
+      {
+        "@id": "_:Nf0f1c38f82d5445294c8e54846ea1467"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-01-01"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#startDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf0f1c38f82d5445294c8e54846ea1467",
+    "@type": [
+      "http://www.w3.org/2006/time#Instant"
+    ],
+    "http://www.w3.org/2006/time#inXSDDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nfe300ac56ad149ef8fc6c48ad603b634",
+    "@type": [
+      "http://www.w3.org/2006/time#Instant"
+    ],
+    "http://www.w3.org/2006/time#inXSDDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "@id": "http://publications.europa.eu/resource/authority/country/ESP",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "http://www.w3.org/ns/dcat#bbox": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#centroid": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POINT (-3.8150 40.5250)"
+      }
+    ],
+    "http://www.w3.org/ns/locn#geometry": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))"
+      }
+    ]
+  },
+  {
+    "@id": "http://publications.europa.eu/resource/authority/language/CAT",
+    "@type": [
+      "http://purl.org/dc/terms/LinguisticSystem"
+    ]
+  },
+  {
+    "@id": "http://publications.europa.eu/resource/authority/language/ENG",
+    "@type": [
+      "http://purl.org/dc/terms/LinguisticSystem"
+    ]
+  },
+  {
+    "@id": "http://publications.europa.eu/resource/authority/language/EUS",
+    "@type": [
+      "http://purl.org/dc/terms/LinguisticSystem"
+    ]
+  },
+  {
+    "@id": "http://publications.europa.eu/resource/authority/language/FRA",
+    "@type": [
+      "http://purl.org/dc/terms/LinguisticSystem"
+    ]
+  },
+  {
+    "@id": "http://publications.europa.eu/resource/authority/language/GLG",
+    "@type": [
+      "http://purl.org/dc/terms/LinguisticSystem"
+    ]
+  },
+  {
+    "@id": "http://publications.europa.eu/resource/authority/language/ITA",
+    "@type": [
+      "http://purl.org/dc/terms/LinguisticSystem"
+    ]
+  },
+  {
+    "@id": "http://publications.europa.eu/resource/authority/language/POR",
+    "@type": [
+      "http://purl.org/dc/terms/LinguisticSystem"
+    ]
+  },
+  {
+    "@id": "http://publications.europa.eu/resource/authority/language/SPA",
+    "@type": [
+      "http://purl.org/dc/terms/LinguisticSystem"
+    ]
+  },
+  {
+    "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0",
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "http://purl.org/adms/licencetype/UnknownIPR"
+      }
+    ]
+  }
+]
