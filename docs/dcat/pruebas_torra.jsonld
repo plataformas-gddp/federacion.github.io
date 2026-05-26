@@ -150,7 +150,7 @@
     ],
     "http://purl.org/dc/terms/publisher": [
       {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121"
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -198,13 +198,13 @@
     ]
   },
   {
-    "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121",
+    "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546",
     "@type": [
       "http://xmlns.com/foaf/0.1/Agent"
     ],
     "http://purl.org/dc/terms/identifier": [
       {
-        "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121"
+        "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546"
       }
     ],
     "http://xmlns.com/foaf/0.1/name": [
