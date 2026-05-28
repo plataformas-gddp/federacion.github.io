@@ -163,7 +163,7 @@
       ],
       "dct:title": [
         {
-          "@value": "01-INVENCIONES: Authority File - Inventario de documentos de patente publicados por la OEPM desde 1826",
+          "@value": "INVENCIONES: Authority File - Inventario de documentos de patente publicados por la OEPM desde 1826",
           "@language": "es"
         },
         {
@@ -424,7 +424,7 @@
       ],
       "dct:title": [
         {
-          "@value": "07-INVENCIONES: Datos de Clasificación CPC",
+          "@value": "INVENCIONES: Datos de Clasificación CPC",
           "@language": "es"
         },
         {
@@ -677,7 +677,7 @@
       ],
       "dct:title": [
         {
-          "@value": "02-INVENCIONES: Datos bibliográficos (incluyen la clasificación CIP pero no el resumen)",
+          "@value": "INVENCIONES: Datos bibliográficos (incluyen la clasificación CIP pero no el resumen)",
           "@language": "es"
         },
         {
@@ -938,7 +938,7 @@
       ],
       "dct:title": [
         {
-          "@value": "06-INVENCIONES: Datos Legales",
+          "@value": "INVENCIONES: Datos Legales",
           "@language": "es"
         },
         {
@@ -1195,7 +1195,7 @@
       ],
       "dct:title": [
         {
-          "@value": "11-MARCAS: Marcas y nombres comerciales (Datos bibliográficos e imágenes)",
+          "@value": "MARCAS: Marcas y nombres comerciales (Datos bibliográficos e imágenes)",
           "@language": "es"
         },
         {
@@ -1448,7 +1448,7 @@
       ],
       "dct:title": [
         {
-          "@value": "04-INVENCIONES: Texto Completo",
+          "@value": "INVENCIONES: Texto Completo",
           "@language": "es"
         },
         {
@@ -1705,7 +1705,7 @@
       ],
       "dct:title": [
         {
-          "@value": "05-INVENCIONES: Folletos en formato PDF",
+          "@value": "INVENCIONES: Folletos en formato PDF",
           "@language": "es"
         },
         {
@@ -1958,7 +1958,7 @@
       ],
       "dct:title": [
         {
-          "@value": "03-INVENCIONES: Resúmenes",
+          "@value": "INVENCIONES: Resúmenes",
           "@language": "es"
         },
         {
@@ -2215,7 +2215,7 @@
       ],
       "dct:title": [
         {
-          "@value": "09-INVENCIONES: Datos en Documentos citados y ECLA (para documentos anteriores a 2013)",
+          "@value": "INVENCIONES: Datos en Documentos citados y ECLA (para documentos anteriores a 2013)",
           "@language": "es"
         },
         {
@@ -2476,7 +2476,7 @@
       ],
       "dct:title": [
         {
-          "@value": "10-DISEÑOS: Diseños industriales (Datos bibliográficos e imágenes)",
+          "@value": "DISEÑOS: Diseños industriales (Datos bibliográficos e imágenes)",
           "@language": "es"
         },
         {
@@ -2726,7 +2726,7 @@
       ],
       "dct:title": [
         {
-          "@value": "08-INVENCIONES: Datos en Documentos Citados",
+          "@value": "INVENCIONES: Datos en Documentos Citados",
           "@language": "es"
         },
         {
