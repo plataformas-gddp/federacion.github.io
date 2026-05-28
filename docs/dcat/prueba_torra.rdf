@@ -75,7 +75,7 @@
         <dcat:landingPage rdf:resource="https://impulsagddp-pre.tragsatec.es:8443/dataset/testdesa" />
         <dcat:landingPage rdf:resource="http://web.dataset.com" />
         <dct:identifier>testDESA</dct:identifier>
-        <dcat:keyword xml:lang="es">&lt; &gt; &amp; " ' á é í ó ú Á É Í Ó Ú € £ ¥ © ® ™ § ¶ ° ± × ÷ – — … • “ ” ‘ ’</dcat:keyword>
+        <dcat:keyword xml:lang="es">&amp; " ' á é í ó ú Á É Í Ó Ú € £ ¥ © ® ™ § ¶ ° ± × ÷ – — … • “ ” ‘ ’</dcat:keyword>
         <dcat:keyword xml:lang="en">dafdsdf</dcat:keyword>
         <dcat:keyword xml:lang="es">etiquetas</dcat:keyword>
         <dcat:keyword xml:lang="en">jlhkjshg</dcat:keyword>
