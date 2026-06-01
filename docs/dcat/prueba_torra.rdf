@@ -55,12 +55,380 @@
     <dct:identifier>MIR:EA0044546:ds:OCUPACION:000001</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY" />
     <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL" />
-	<dcat:keyword xml:lang="es">Etiqueta con -_.'$</dcat:keyword>
-	<dcat:keyword xml:lang="en">dafdsdf</dcat:keyword>
-	<dcat:keyword xml:lang="es">etiquetas</dcat:keyword>
-	<dcat:keyword xml:lang="en">jlhkjshg</dcat:keyword>
-	<dcat:keyword xml:lang="es">cosa;</dcat:keyword>
-	<dcat:keyword xml:lang="es">a;</dcat:keyword>
+<dcat:keyword xml:lang="es">!</dcat:keyword>
+<!-- ASCII 34 -->
+<dcat:keyword xml:lang="es">"</dcat:keyword>
+<!-- ASCII 35 -->
+<dcat:keyword xml:lang="es">#</dcat:keyword>
+<!-- ASCII 36 -->
+<dcat:keyword xml:lang="es">$</dcat:keyword>
+<!-- ASCII 37 -->
+<dcat:keyword xml:lang="es">%</dcat:keyword>
+<!-- ASCII 38 -->
+<dcat:keyword xml:lang="es">&amp;</dcat:keyword>
+<!-- ASCII 39 -->
+<dcat:keyword xml:lang="es">'</dcat:keyword>
+<!-- ASCII 40 -->
+<dcat:keyword xml:lang="es">(</dcat:keyword>
+<!-- ASCII 41 -->
+<dcat:keyword xml:lang="es">)</dcat:keyword>
+<!-- ASCII 42 -->
+<dcat:keyword xml:lang="es">*</dcat:keyword>
+<!-- ASCII 43 -->
+<dcat:keyword xml:lang="es">+</dcat:keyword>
+<!-- ASCII 44 -->
+<dcat:keyword xml:lang="es">,</dcat:keyword>
+<!-- ASCII 45 -->
+<dcat:keyword xml:lang="es">-</dcat:keyword>
+<!-- ASCII 46 -->
+<dcat:keyword xml:lang="es">.</dcat:keyword>
+<!-- ASCII 47 -->
+<dcat:keyword xml:lang="es">/</dcat:keyword>
+<!-- ASCII 48 -->
+<dcat:keyword xml:lang="es">0</dcat:keyword>
+<!-- ASCII 49 -->
+<dcat:keyword xml:lang="es">1</dcat:keyword>
+<!-- ASCII 50 -->
+<dcat:keyword xml:lang="es">2</dcat:keyword>
+<!-- ASCII 51 -->
+<dcat:keyword xml:lang="es">3</dcat:keyword>
+<!-- ASCII 52 -->
+<dcat:keyword xml:lang="es">4</dcat:keyword>
+<!-- ASCII 53 -->
+<dcat:keyword xml:lang="es">5</dcat:keyword>
+<!-- ASCII 54 -->
+<dcat:keyword xml:lang="es">6</dcat:keyword>
+<!-- ASCII 55 -->
+<dcat:keyword xml:lang="es">7</dcat:keyword>
+<!-- ASCII 56 -->
+<dcat:keyword xml:lang="es">8</dcat:keyword>
+<!-- ASCII 57 -->
+<dcat:keyword xml:lang="es">9</dcat:keyword>
+<!-- ASCII 58 -->
+<dcat:keyword xml:lang="es">:</dcat:keyword>
+<!-- ASCII 59 -->
+<dcat:keyword xml:lang="es">;</dcat:keyword>
+<!-- ASCII 60 -->
+<dcat:keyword xml:lang="es">&lt;</dcat:keyword>
+<!-- ASCII 61 -->
+<dcat:keyword xml:lang="es">=</dcat:keyword>
+<!-- ASCII 62 -->
+<dcat:keyword xml:lang="es">&gt;</dcat:keyword>
+<!-- ASCII 63 -->
+<dcat:keyword xml:lang="es">?</dcat:keyword>
+<!-- ASCII 64 -->
+<dcat:keyword xml:lang="es">@</dcat:keyword>
+<!-- ASCII 65 -->
+<dcat:keyword xml:lang="es">A</dcat:keyword>
+<!-- ASCII 66 -->
+<dcat:keyword xml:lang="es">B</dcat:keyword>
+<!-- ASCII 67 -->
+<dcat:keyword xml:lang="es">C</dcat:keyword>
+<!-- ASCII 68 -->
+<dcat:keyword xml:lang="es">D</dcat:keyword>
+<!-- ASCII 69 -->
+<dcat:keyword xml:lang="es">E</dcat:keyword>
+<!-- ASCII 70 -->
+<dcat:keyword xml:lang="es">F</dcat:keyword>
+<!-- ASCII 71 -->
+<dcat:keyword xml:lang="es">G</dcat:keyword>
+<!-- ASCII 72 -->
+<dcat:keyword xml:lang="es">H</dcat:keyword>
+<!-- ASCII 73 -->
+<dcat:keyword xml:lang="es">I</dcat:keyword>
+<!-- ASCII 74 -->
+<dcat:keyword xml:lang="es">J</dcat:keyword>
+<!-- ASCII 75 -->
+<dcat:keyword xml:lang="es">K</dcat:keyword>
+<!-- ASCII 76 -->
+<dcat:keyword xml:lang="es">L</dcat:keyword>
+<!-- ASCII 77 -->
+<dcat:keyword xml:lang="es">M</dcat:keyword>
+<!-- ASCII 78 -->
+<dcat:keyword xml:lang="es">N</dcat:keyword>
+<!-- ASCII 79 -->
+<dcat:keyword xml:lang="es">O</dcat:keyword>
+<!-- ASCII 80 -->
+<dcat:keyword xml:lang="es">P</dcat:keyword>
+<!-- ASCII 81 -->
+<dcat:keyword xml:lang="es">Q</dcat:keyword>
+<!-- ASCII 82 -->
+<dcat:keyword xml:lang="es">R</dcat:keyword>
+<!-- ASCII 83 -->
+<dcat:keyword xml:lang="es">S</dcat:keyword>
+<!-- ASCII 84 -->
+<dcat:keyword xml:lang="es">T</dcat:keyword>
+<!-- ASCII 85 -->
+<dcat:keyword xml:lang="es">U</dcat:keyword>
+<!-- ASCII 86 -->
+<dcat:keyword xml:lang="es">V</dcat:keyword>
+<!-- ASCII 87 -->
+<dcat:keyword xml:lang="es">W</dcat:keyword>
+<!-- ASCII 88 -->
+<dcat:keyword xml:lang="es">X</dcat:keyword>
+<!-- ASCII 89 -->
+<dcat:keyword xml:lang="es">Y</dcat:keyword>
+<!-- ASCII 90 -->
+<dcat:keyword xml:lang="es">Z</dcat:keyword>
+<!-- ASCII 91 -->
+<dcat:keyword xml:lang="es">[</dcat:keyword>
+<!-- ASCII 92 -->
+<dcat:keyword xml:lang="es">\</dcat:keyword>
+<!-- ASCII 93 -->
+<dcat:keyword xml:lang="es">]</dcat:keyword>
+<!-- ASCII 94 -->
+<dcat:keyword xml:lang="es">^</dcat:keyword>
+<!-- ASCII 95 -->
+<dcat:keyword xml:lang="es">_</dcat:keyword>
+<!-- ASCII 96 -->
+<dcat:keyword xml:lang="es">`</dcat:keyword>
+<!-- ASCII 97 -->
+<dcat:keyword xml:lang="es">a</dcat:keyword>
+<!-- ASCII 98 -->
+<dcat:keyword xml:lang="es">b</dcat:keyword>
+<!-- ASCII 99 -->
+<dcat:keyword xml:lang="es">c</dcat:keyword>
+<!-- ASCII 100 -->
+<dcat:keyword xml:lang="es">d</dcat:keyword>
+<!-- ASCII 101 -->
+<dcat:keyword xml:lang="es">e</dcat:keyword>
+<!-- ASCII 102 -->
+<dcat:keyword xml:lang="es">f</dcat:keyword>
+<!-- ASCII 103 -->
+<dcat:keyword xml:lang="es">g</dcat:keyword>
+<!-- ASCII 104 -->
+<dcat:keyword xml:lang="es">h</dcat:keyword>
+<!-- ASCII 105 -->
+<dcat:keyword xml:lang="es">i</dcat:keyword>
+<!-- ASCII 106 -->
+<dcat:keyword xml:lang="es">j</dcat:keyword>
+<!-- ASCII 107 -->
+<dcat:keyword xml:lang="es">k</dcat:keyword>
+<!-- ASCII 108 -->
+<dcat:keyword xml:lang="es">l</dcat:keyword>
+<!-- ASCII 109 -->
+<dcat:keyword xml:lang="es">m</dcat:keyword>
+<!-- ASCII 110 -->
+<dcat:keyword xml:lang="es">n</dcat:keyword>
+<!-- ASCII 111 -->
+<dcat:keyword xml:lang="es">o</dcat:keyword>
+<!-- ASCII 112 -->
+<dcat:keyword xml:lang="es">p</dcat:keyword>
+<!-- ASCII 113 -->
+<dcat:keyword xml:lang="es">q</dcat:keyword>
+<!-- ASCII 114 -->
+<dcat:keyword xml:lang="es">r</dcat:keyword>
+<!-- ASCII 115 -->
+<dcat:keyword xml:lang="es">s</dcat:keyword>
+<!-- ASCII 116 -->
+<dcat:keyword xml:lang="es">t</dcat:keyword>
+<!-- ASCII 117 -->
+<dcat:keyword xml:lang="es">u</dcat:keyword>
+<!-- ASCII 118 -->
+<dcat:keyword xml:lang="es">v</dcat:keyword>
+<!-- ASCII 119 -->
+<dcat:keyword xml:lang="es">w</dcat:keyword>
+<!-- ASCII 120 -->
+<dcat:keyword xml:lang="es">x</dcat:keyword>
+<!-- ASCII 121 -->
+<dcat:keyword xml:lang="es">y</dcat:keyword>
+<!-- ASCII 122 -->
+<dcat:keyword xml:lang="es">z</dcat:keyword>
+<!-- ASCII 123 -->
+<dcat:keyword xml:lang="es">{</dcat:keyword>
+<!-- ASCII 124 -->
+<dcat:keyword xml:lang="es">|</dcat:keyword>
+<!-- ASCII 125 -->
+<dcat:keyword xml:lang="es">}</dcat:keyword>
+<dcat:keyword xml:lang="es">¡</dcat:keyword>
+<!-- ASCII 162 -->
+<dcat:keyword xml:lang="es">¢</dcat:keyword>
+<!-- ASCII 163 -->
+<dcat:keyword xml:lang="es">£</dcat:keyword>
+<!-- ASCII 164 -->
+<dcat:keyword xml:lang="es">¤</dcat:keyword>
+<!-- ASCII 165 -->
+<dcat:keyword xml:lang="es">¥</dcat:keyword>
+<!-- ASCII 166 -->
+<dcat:keyword xml:lang="es">¦</dcat:keyword>
+<!-- ASCII 167 -->
+<dcat:keyword xml:lang="es">§</dcat:keyword>
+<!-- ASCII 168 -->
+<dcat:keyword xml:lang="es">¨</dcat:keyword>
+<!-- ASCII 169 -->
+<dcat:keyword xml:lang="es">©</dcat:keyword>
+<!-- ASCII 170 -->
+<dcat:keyword xml:lang="es">ª</dcat:keyword>
+<!-- ASCII 171 -->
+<dcat:keyword xml:lang="es">«</dcat:keyword>
+<!-- ASCII 172 -->
+<dcat:keyword xml:lang="es">¬</dcat:keyword>
+<!-- ASCII 173 -->
+<dcat:keyword xml:lang="es">­</dcat:keyword>
+<!-- ASCII 174 -->
+<dcat:keyword xml:lang="es">®</dcat:keyword>
+<!-- ASCII 175 -->
+<dcat:keyword xml:lang="es">¯</dcat:keyword>
+<!-- ASCII 176 -->
+<dcat:keyword xml:lang="es">°</dcat:keyword>
+<!-- ASCII 177 -->
+<dcat:keyword xml:lang="es">±</dcat:keyword>
+<!-- ASCII 178 -->
+<dcat:keyword xml:lang="es">²</dcat:keyword>
+<!-- ASCII 179 -->
+<dcat:keyword xml:lang="es">³</dcat:keyword>
+<!-- ASCII 180 -->
+<dcat:keyword xml:lang="es">´</dcat:keyword>
+<!-- ASCII 181 -->
+<dcat:keyword xml:lang="es">µ</dcat:keyword>
+<!-- ASCII 182 -->
+<dcat:keyword xml:lang="es">¶</dcat:keyword>
+<!-- ASCII 183 -->
+<dcat:keyword xml:lang="es">·</dcat:keyword>
+<!-- ASCII 184 -->
+<dcat:keyword xml:lang="es">¸</dcat:keyword>
+<!-- ASCII 185 -->
+<dcat:keyword xml:lang="es">¹</dcat:keyword>
+<!-- ASCII 186 -->
+<dcat:keyword xml:lang="es">º</dcat:keyword>
+<!-- ASCII 187 -->
+<dcat:keyword xml:lang="es">»</dcat:keyword>
+<!-- ASCII 188 -->
+<dcat:keyword xml:lang="es">¼</dcat:keyword>
+<!-- ASCII 189 -->
+<dcat:keyword xml:lang="es">½</dcat:keyword>
+<!-- ASCII 190 -->
+<dcat:keyword xml:lang="es">¾</dcat:keyword>
+<!-- ASCII 191 -->
+<dcat:keyword xml:lang="es">¿</dcat:keyword>
+<!-- ASCII 192 -->
+<dcat:keyword xml:lang="es">À</dcat:keyword>
+<!-- ASCII 193 -->
+<dcat:keyword xml:lang="es">Á</dcat:keyword>
+<!-- ASCII 194 -->
+<dcat:keyword xml:lang="es">Â</dcat:keyword>
+<!-- ASCII 195 -->
+<dcat:keyword xml:lang="es">Ã</dcat:keyword>
+<!-- ASCII 196 -->
+<dcat:keyword xml:lang="es">Ä</dcat:keyword>
+<!-- ASCII 197 -->
+<dcat:keyword xml:lang="es">Å</dcat:keyword>
+<!-- ASCII 198 -->
+<dcat:keyword xml:lang="es">Æ</dcat:keyword>
+<!-- ASCII 199 -->
+<dcat:keyword xml:lang="es">Ç</dcat:keyword>
+<!-- ASCII 200 -->
+<dcat:keyword xml:lang="es">È</dcat:keyword>
+<!-- ASCII 201 -->
+<dcat:keyword xml:lang="es">É</dcat:keyword>
+<!-- ASCII 202 -->
+<dcat:keyword xml:lang="es">Ê</dcat:keyword>
+<!-- ASCII 203 -->
+<dcat:keyword xml:lang="es">Ë</dcat:keyword>
+<!-- ASCII 204 -->
+<dcat:keyword xml:lang="es">Ì</dcat:keyword>
+<!-- ASCII 205 -->
+<dcat:keyword xml:lang="es">Í</dcat:keyword>
+<!-- ASCII 206 -->
+<dcat:keyword xml:lang="es">Î</dcat:keyword>
+<!-- ASCII 207 -->
+<dcat:keyword xml:lang="es">Ï</dcat:keyword>
+<!-- ASCII 208 -->
+<dcat:keyword xml:lang="es">Ð</dcat:keyword>
+<!-- ASCII 209 -->
+<dcat:keyword xml:lang="es">Ñ</dcat:keyword>
+<!-- ASCII 210 -->
+<dcat:keyword xml:lang="es">Ò</dcat:keyword>
+<!-- ASCII 211 -->
+<dcat:keyword xml:lang="es">Ó</dcat:keyword>
+<!-- ASCII 212 -->
+<dcat:keyword xml:lang="es">Ô</dcat:keyword>
+<!-- ASCII 213 -->
+<dcat:keyword xml:lang="es">Õ</dcat:keyword>
+<!-- ASCII 214 -->
+<dcat:keyword xml:lang="es">Ö</dcat:keyword>
+<!-- ASCII 215 -->
+<dcat:keyword xml:lang="es">×</dcat:keyword>
+<!-- ASCII 216 -->
+<dcat:keyword xml:lang="es">Ø</dcat:keyword>
+<!-- ASCII 217 -->
+<dcat:keyword xml:lang="es">Ù</dcat:keyword>
+<!-- ASCII 218 -->
+<dcat:keyword xml:lang="es">Ú</dcat:keyword>
+<!-- ASCII 219 -->
+<dcat:keyword xml:lang="es">Û</dcat:keyword>
+<!-- ASCII 220 -->
+<dcat:keyword xml:lang="es">Ü</dcat:keyword>
+<!-- ASCII 221 -->
+<dcat:keyword xml:lang="es">Ý</dcat:keyword>
+<!-- ASCII 222 -->
+<dcat:keyword xml:lang="es">Þ</dcat:keyword>
+<!-- ASCII 223 -->
+<dcat:keyword xml:lang="es">ß</dcat:keyword>
+<!-- ASCII 224 -->
+<dcat:keyword xml:lang="es">à</dcat:keyword>
+<!-- ASCII 225 -->
+<dcat:keyword xml:lang="es">á</dcat:keyword>
+<!-- ASCII 226 -->
+<dcat:keyword xml:lang="es">â</dcat:keyword>
+<!-- ASCII 227 -->
+<dcat:keyword xml:lang="es">ã</dcat:keyword>
+<!-- ASCII 228 -->
+<dcat:keyword xml:lang="es">ä</dcat:keyword>
+<!-- ASCII 229 -->
+<dcat:keyword xml:lang="es">å</dcat:keyword>
+<!-- ASCII 230 -->
+<dcat:keyword xml:lang="es">æ</dcat:keyword>
+<!-- ASCII 231 -->
+<dcat:keyword xml:lang="es">ç</dcat:keyword>
+<!-- ASCII 232 -->
+<dcat:keyword xml:lang="es">è</dcat:keyword>
+<!-- ASCII 233 -->
+<dcat:keyword xml:lang="es">é</dcat:keyword>
+<!-- ASCII 234 -->
+<dcat:keyword xml:lang="es">ê</dcat:keyword>
+<!-- ASCII 235 -->
+<dcat:keyword xml:lang="es">ë</dcat:keyword>
+<!-- ASCII 236 -->
+<dcat:keyword xml:lang="es">ì</dcat:keyword>
+<!-- ASCII 237 -->
+<dcat:keyword xml:lang="es">í</dcat:keyword>
+<!-- ASCII 238 -->
+<dcat:keyword xml:lang="es">î</dcat:keyword>
+<!-- ASCII 239 -->
+<dcat:keyword xml:lang="es">ï</dcat:keyword>
+<!-- ASCII 240 -->
+<dcat:keyword xml:lang="es">ð</dcat:keyword>
+<!-- ASCII 241 -->
+<dcat:keyword xml:lang="es">ñ</dcat:keyword>
+<!-- ASCII 242 -->
+<dcat:keyword xml:lang="es">ò</dcat:keyword>
+<!-- ASCII 243 -->
+<dcat:keyword xml:lang="es">ó</dcat:keyword>
+<!-- ASCII 244 -->
+<dcat:keyword xml:lang="es">ô</dcat:keyword>
+<!-- ASCII 245 -->
+<dcat:keyword xml:lang="es">õ</dcat:keyword>
+<!-- ASCII 246 -->
+<dcat:keyword xml:lang="es">ö</dcat:keyword>
+<!-- ASCII 247 -->
+<dcat:keyword xml:lang="es">÷</dcat:keyword>
+<!-- ASCII 248 -->
+<dcat:keyword xml:lang="es">ø</dcat:keyword>
+<!-- ASCII 249 -->
+<dcat:keyword xml:lang="es">ù</dcat:keyword>
+<!-- ASCII 250 -->
+<dcat:keyword xml:lang="es">ú</dcat:keyword>
+<!-- ASCII 251 -->
+<dcat:keyword xml:lang="es">û</dcat:keyword>
+<!-- ASCII 252 -->
+<dcat:keyword xml:lang="es">ü</dcat:keyword>
+<!-- ASCII 253 -->
+<dcat:keyword xml:lang="es">ý</dcat:keyword>
+<!-- ASCII 254 -->
+<dcat:keyword xml:lang="es">þ</dcat:keyword>
+<!-- ASCII 255 -->
+<dcat:keyword xml:lang="es">ÿ</dcat:keyword>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-25</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-01</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
