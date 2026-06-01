@@ -1,29 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:ns8="http://www.w3.org/2011/content#" xmlns:ns9="http://tragsatec.es/def/impulsadata#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
-  <dcat:Catalog rdf:about="https://impulsagddp-pre.tragsatec.es:8443">
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA" />
-    </dct:language>
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/CAT" />
-    </dct:language>
+<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcatap="http://data.europa.eu/r5r/" xmlns:dct="http://purl.org/dc/terms/" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:ns8="http://tragsatec.es/def/impulsadata#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+  <dcat:Catalog rdf:about="https://172.20.200.5:8443">
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
     <dct:language>
       <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/ENG" />
-    </dct:language>
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/POR" />
-    </dct:language>
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/FRA" />
-    </dct:language>
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/ITA" />
-    </dct:language>
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/GLG" />
-    </dct:language>
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/EUS" />
     </dct:language>
     <dct:spatial>
       <dct:Location rdf:about="http://publications.europa.eu/resource/authority/country/ESP">
@@ -34,148 +14,354 @@
     </dct:spatial>
     <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector" />
     <dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme" />
-    <foaf:homepage rdf:resource="https://impulsagddp-pre.tragsatec.es:8443" />
+    <foaf:homepage rdf:resource="https://172.20.200.5:8443" />
     <dct:license>
       <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
         <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR" />
       </rdf:Description>
     </dct:license>
     <dct:rights rdf:resource="http://rightsstatements.org/vocab/InC/1.0/" />
-    <dct:title xml:lang="es">CKAN</dct:title>
-    <dct:description xml:lang="es">Catalogo de datos del organismo</dct:description>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-28T11:19:15.935931+00:00</dct:modified>
+    <dct:title xml:lang="es">Catalogo de datos abiertos de TPFE</dct:title>
+    <dct:description xml:lang="es">Catalogo oficial de datos abiertos gestionados y publicados por TPFE</dct:description>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-25T12:56:19.472051+00:00</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-01</dct:issued>
-    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401" /></dct:publisher>
-    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401" /></dct:creator>
-    <dct:hasPart rdf:resource="https://datos.gob.es/catalogo/part-1" />
-    <dct:isPartOf rdf:resource="https://datos.gob.es/catalogo/main" />
-    <dcat:catalog rdf:resource="https://datos.gob.es/catalogo/related" />
-    <dcat:record rdf:resource="https://datos.gob.es/catalogo/record/1" />
+    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" /></dct:publisher>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" /></dct:creator>
+    <dct:hasPart rdf:resource="https://gobdatos.tpfe.es/part-1" />
+    <dct:isPartOf rdf:resource="https://gobdatos.tpfe.es/main" />
+    <dcat:catalog rdf:resource="https://gobdatos.tpfe.es/related" />
+    <dcat:record rdf:resource="https://gobdatos.tpfe.es/record/1" />
     <dct:temporal>
-      <dct:PeriodOfTime rdf:nodeID="Nfca7b392524a484888e8d672300e5a2a">
+      <dct:PeriodOfTime rdf:nodeID="N3b3b0ac31db44e9b9c930d5e76d35f8a">
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-01</dcat:startDate>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-01-01</dcat:endDate>
         <time:hasBeginning>
-          <time:Instant rdf:nodeID="N74113d4bcd094c73bc2bd0f06d0e9421">
+          <time:Instant rdf:nodeID="N4242c8152bec40c985515bdb11957073">
             <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-01</time:inXSDDate>
           </time:Instant>
         </time:hasBeginning>
         <time:hasEnd>
-          <time:Instant rdf:nodeID="N9ab667cafb164aaf9751516e4c56016f">
+          <time:Instant rdf:nodeID="N8013eaacfa8244d5abf9d918bb828190">
             <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-01-01</time:inXSDDate>
           </time:Instant>
         </time:hasEnd>
       </dct:PeriodOfTime>
     </dct:temporal>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://impulsagddp-pre.tragsatec.es:8443/dataset/testdesa">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-        <dct:title xml:lang="es">Dataset Completo</dct:title>
-        <dct:description xml:lang="es">Un dataset con TODO</dct:description>
-        <dcat:landingPage rdf:resource="https://impulsagddp-pre.tragsatec.es:8443/dataset/testdesa" />
-        <dcat:landingPage rdf:resource="http://web.dataset.com" />
-        <dct:identifier>testDESA</dct:identifier>
-        <dcat:keyword xml:lang="es">&amp; " ' á é í ó ú Á É Í Ó Ú € £ ¥ © ® ™ § ¶ ° ± × ÷ – — … • “ ” ‘ ’</dcat:keyword>
-        <dcat:keyword xml:lang="en">dafdsdf</dcat:keyword>
-        <dcat:keyword xml:lang="es">etiquetas</dcat:keyword>
-        <dcat:keyword xml:lang="en">jlhkjshg</dcat:keyword>
-        <dcat:keyword xml:lang="en">a</dcat:keyword>
-        <dcat:keyword xml:lang="es">cosa;</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-15</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-13</dct:issued>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/CAT" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/cultura-ocio" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://impulsagddp-pre.tragsatec.es:8443/dataset/testdesa/resource/distribucion-1-txt">
-    <dct:title xml:lang="es">Distribucion 1 txt</dct:title>
-    <dct:description xml:lang="es">Distribución 1</dct:description>
+    <dcat:dataset><dcat:Dataset rdf:about="https://172.20.200.5:8443/dataset/mirea0044546dsocupacion000001">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+    <dct:title xml:lang="es">TPFE: Ocupación laboral productiva de la población interna en los centros penitenciarios y centros de inserción social (CIS)</dct:title>
+    <dct:description xml:lang="es">Conjunto de datos de ocupación de los talleres penitenciarios de carácter productivo organizados por centros y actividades. Incluye únicamente la población interna trabajadora que percibe una retribución mensual en función de su actividad, tomando como referencia un módulo retributivo revisado anualmente por el Consejo de Administración del Ente Público. No se incluyen los datos de los centros de Cataluña ni del País Vasco, al tratarse de una competencia transferida a dichas comunidades autónomas.</dct:description>
+    <dcat:landingPage rdf:resource="https://172.20.200.5:8443/dataset/mirea0044546dsocupacion000001" />
+    <dct:identifier>MIR:EA0044546:ds:OCUPACION:000001</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY" />
+    <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL" />
+	<dcat:keyword xml:lang="es">&amp; " ' á é í ó ú Á É Í Ó Ú € £ ¥ © ® ™ § ¶ ° ± × ÷ – — … • “ ” ‘ ’</dcat:keyword>
+	<dcat:keyword xml:lang="en">dafdsdf</dcat:keyword>
+	<dcat:keyword xml:lang="es">etiquetas</dcat:keyword>
+	<dcat:keyword xml:lang="en">jlhkjshg</dcat:keyword>
+	<dcat:keyword xml:lang="es">cosa;</dcat:keyword>
+	<dcat:keyword xml:lang="es">a;</dcat:keyword>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-25</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-01</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/plain" />
-	<dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401" /></dct:publisher>
-    <dct:format>
-      <dct:IMT rdf:nodeID="N047822e8f88f4e8faf613a181dce6f5d">
-        <rdf:value>text/PLAIN</rdf:value>
-        <rdfs:label>PLAIN</rdfs:label>
-      </dct:IMT>
-    </dct:format>
-    <dcat:accessURL rdf:resource="https://faketxt.es" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-08</dct:modified>
-    <dct:accessRights rdf:resource="https://info:eu-repo/semantics/openAccess" />
-    <dct:rights rdf:resource="https://info:eu-repo/semantics/openAccess" />
-    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <dcat:distribution><dcat:Distribution rdf:about="https://impulsagddp-pre.tragsatec.es:8443/dataset/testdesa/resource/distribucion-2-xlsx">
-    <dct:title xml:lang="es">Distribución 2</dct:title>
-    <dct:description xml:lang="es">Distribución 2</dct:description>
-    <ns8:characterEncoding>UTF-8</ns8:characterEncoding>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/CAT" />
-    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
-    <dct:format>
-      <dct:IMT rdf:nodeID="Nea1f2716003045b0b259b7cebb540b6a">
-        <rdf:value>text/VND.OPENXMLFORMATS-OFFICEDOCUMENT.SPREADSHEETML.SHEET</rdf:value>
-        <rdfs:label>VND.OPENXMLFORMATS-OFFICEDOCUMENT.SPREADSHEETML.SHEET</rdfs:label>
-      </dct:IMT>
-    </dct:format>
-    <dcat:accessURL rdf:resource="https://fakexls.es" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-08</dct:modified>
-    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-  </dcat:Distribution>
-</dcat:distribution>
-        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España" />
-        <dcat:version>1.0</dcat:version>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044367"><foaf:name xml:lang="en">Javier Torralba</foaf:name><foaf:name xml:lang="es">Entidad Pública Empresarial Red.es</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044367</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/SupraNationalAuthority" /></foaf:Agent></dct:creator>
-        <ns9:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns9:validationStatus>
-        <dcat:contactPoint>
-          <vcard:Kind rdf:nodeID="N63e308c861cd43ee8c1f0de58a2ee582">
-            <vcard:fn xml:lang="es">Torralba Resino</vcard:fn>
-            <vcard:hasEmail rdf:resource="mailto:jtorralb@tragsa.es" />
-            <vcard:organization-name xml:lang="es">Torralba Corp</vcard:organization-name>
-            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00000000" />
-            <vcard:hasTelephone rdf:resource="tel:666321654" />
-          </vcard:Kind>
-        </dcat:contactPoint>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://impulsagddp-pre.tragsatec.es:8443/dataset/ttec20260316">
-        <dct:title xml:lang="es">Dataset con Autor</dct:title>
-        <dct:description xml:lang="es">Dataset con autor</dct:description>
-        <dcat:landingPage rdf:resource="https://172.17.8.174:8443/dataset/ttec20260316" />
-        <dct:identifier>TTEC20260316</dct:identifier>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-07</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-16</dct:issued>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-        <dcat:distribution><dcat:Distribution rdf:about="https://impulsagddp-pre.tragsatec.es:8443/dataset/ttec20260316/resource/catalog-15-rdf">
-    <dct:title xml:lang="es">Distirbución ejemplo</dct:title>
-    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml" />
-    <dct:format>
-      <dct:IMT rdf:nodeID="N669a5e473ed74784bceaaffafc23cc58">
-        <rdf:value>text/RDF+XML</rdf:value>
-        <rdfs:label>RDF+XML</rdfs:label>
-      </dct:IMT>
-    </dct:format>
-    <dcat:accessURL rdf:resource="https://www.rdf.es" />
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-07</dct:modified>
-    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-  </dcat:Distribution>
-  </dcat:distribution>
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401" /></dct:publisher>
-        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502"><foaf:name xml:lang="es">Dirección de coches</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/SupraNationalAuthority" /></foaf:Agent></dct:creator>
-        <ns9:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns9:validationStatus>
-        <dcat:contactPoint>
-          <vcard:Kind rdf:nodeID="Ne48e5a8bae6d4370a4c37c1ff4ba24af">
-            <vcard:fn xml:lang="es">Contacto A</vcard:fn>
-            <vcard:hasEmail rdf:resource="mailto:mail@mail.es" />
-            <vcard:organization-name xml:lang="es">Ministerio A</vcard:organization-name>
-            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00000001" />
-            <vcard:hasTelephone rdf:resource="tel:666321654" />
-          </vcard:Kind>
-        </dcat:contactPoint>
-      </dcat:Dataset>
-    </dcat:dataset>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/empleo" />
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sector-publico" />
+    <dct:temporal>
+      <dct:PeriodOfTime rdf:nodeID="N403230d655aa40bc9aa8fd59b028cdcf">
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-01</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-24</dcat:endDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://172.20.200.5:8443/dataset/mirea0044546dsocupacion000001/resource/csv-ocupacion-laboral-productiva-de-poblacion-interna">
+        <dct:title xml:lang="es">CSV: Ocupación laboral productiva de población interna</dct:title>
+        <dct:description xml:lang="es">Archivo CSV con los registros de ocupación laboral productiva de la población interna en los centros penitenciarios y CIS</dct:description>
+        <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BYNC_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv" />
+        <dcat:accessURL rdf:resource="https://gobdatos.tpfe.es/gobiernodato/Ocupacion.csv" />
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-25</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-16</dct:issued>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/2018/12/05/3/con" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1979/09/26/1/con" />
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1979/09/26/1/con" />
+    <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/2018/12/05/3/con" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla" />
+    <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
+    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" /></dct:publisher>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" /></dct:creator>
+    <ns8:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns8:validationStatus>
+    <dcat:contactPoint>
+      <vcard:Kind rdf:nodeID="N9aac1c1a69bd4071be63d693c20dc627">
+        <vcard:fn xml:lang="es">Gerencia</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:tpfe@tpfe.es" />
+        <vcard:hasURL rdf:resource="http://www.tpfe.es" />
+        <vcard:organization-name xml:lang="es">Trabajo Penitenciario y Formación para el Empleo</vcard:organization-name>
+        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" />
+        <vcard:hasTelephone rdf:resource="tel:.+34915242905" />
+      </vcard:Kind>
+    </dcat:contactPoint>
+  </dcat:Dataset>
+  </dcat:dataset>
+    <dcat:dataset><dcat:Dataset rdf:about="https://172.20.200.5:8443/dataset/mirea0044546dsformacion000001">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+    <dct:title xml:lang="es">TPFE: Formación para el empleo e inserción laboral impartidas en centros penitenciarios y centros de inserción social (CIS)</dct:title>
+    <dct:description xml:lang="es">Conjuntos de datos de programas formativos certificados impartidos a la población interna por Trabajo Penitenciario y Formación para el Empleo. Incluye información sobre los programas de formación para el empleo e inserción laboral desarrollados en los centros penitenciarios y CIS. No se incluyen los datos de los centros de Cataluña ni del País Vasco, al tratarse de una competencia transferida a dichas comunidades autónomas.</dct:description>
+    <dcat:landingPage rdf:resource="https://172.20.200.5:8443/dataset/mirea0044546dsformacion000001" />
+    <dct:identifier>MIR:EA0044546:ds:FORMACION:000001</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY" />
+    <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL" />
+    <dcat:keyword xml:lang="es">formación</dcat:keyword>
+    <dcat:keyword xml:lang="es">inserción laboral</dcat:keyword>
+    <dcat:keyword xml:lang="es">programas formativos</dcat:keyword>
+    <dcat:keyword xml:lang="es">centros penitenciarios</dcat:keyword>
+    <dcat:keyword xml:lang="es">penitenciario</dcat:keyword>
+    <dcat:keyword xml:lang="es">CIS</dcat:keyword>
+    <dcat:keyword xml:lang="es">centros de inserción social</dcat:keyword>
+    <dcat:keyword xml:lang="es">población interna</dcat:keyword>
+    <dcat:keyword xml:lang="es">personas internas</dcat:keyword>
+    <dcat:keyword xml:lang="es">actividades formativas</dcat:keyword>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-25</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-01</dct:issued>
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA" />
+    </dct:language>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/educacion" />
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sector-publico" />
+    <dct:temporal>
+      <dct:PeriodOfTime rdf:nodeID="Na92014f1553d4b3db94907472a8e241f">
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-01</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-24</dcat:endDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://172.20.200.5:8443/dataset/mirea0044546dsformacion000001/resource/csv-formacion-para-el-empleo-e-insercion-laboral-impartidas-a-la-poblacion-interna">
+        <dct:title xml:lang="es">CSV: Formación para el empleo e inserción laboral impartidas a la población interna</dct:title>
+        <dct:description xml:lang="es">Archivo CSV con los registros de formación para el empleo e inserción laboral impartidas a la población interna en los centros penitenciarios y CIS</dct:description>
+        <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BYNC_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv" />
+        <dcat:accessURL rdf:resource="https://gobdatos.tpfe.es/gobiernodato/Formacion.csv" />
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-25</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-16</dct:issued>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/2018/12/05/3/con" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1979/09/26/1/con" />
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcatap:applicableLegislation>
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/1979/09/26/1/con" />
+    </dcatap:applicableLegislation>
+    <dcatap:applicableLegislation>
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/2018/12/05/3/con" />
+    </dcatap:applicableLegislation>
+    <dct:spatial>
+      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-4.5800 37.3400)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
+    <dct:spatial>
+      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-0.7000 41.3200)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
+    <dct:spatial>
+      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-5.8600 43.3000)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
+    <dct:spatial>
+      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (2.7400 39.3700)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
+    <dct:spatial>
+      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-15.7900 28.5300)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
+    <dct:spatial>
+      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-4.0000 43.1400)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
+    <dct:spatial>
+      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-4.5400 41.7500)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
+    <dct:spatial>
+      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.2200 39.8900)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
+    <dct:spatial>
+      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-0.5000 39.3200)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
+    <dct:spatial>
+      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-6.1100 39.2400)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
+    <dct:spatial>
+      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-8.0100 42.8000)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
+    <dct:spatial>
+      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8200 40.5300)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
+    <dct:spatial>
+      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-1.5000 38.0700)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
+    <dct:spatial>
+      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-1.6200 42.6100)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
+    <dct:spatial>
+      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-2.3800 42.2700)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
+    <dct:spatial>
+      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-5.3300 35.9000)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
+    <dct:spatial>
+      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-2.9500 35.2900)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
+    <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
+    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" /></dct:publisher>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" /></dct:creator>
+    <ns8:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns8:validationStatus>
+    <dcat:contactPoint>
+      <vcard:Kind rdf:nodeID="Nf3e798b66a554d65826f36602c2f02f5">
+        <vcard:fn xml:lang="es">Gerencia</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:tpfe@tpfe.es" />
+        <vcard:hasURL rdf:resource="http://www.tpfe.es" />
+        <vcard:organization-name xml:lang="es">Trabajo Penitenciario y Formación para el Empleo</vcard:organization-name>
+        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" />
+        <vcard:hasTelephone rdf:resource="tel:.+34915242905" />
+      </vcard:Kind>
+    </dcat:contactPoint>
+  </dcat:Dataset>
+  </dcat:dataset>
+    <dcat:dataset><dcat:Dataset rdf:about="https://172.20.200.5:8443/dataset/mirea0044546dsalimentacion000001">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+    <dct:title xml:lang="es">TPFE: Aprovisionamiento de materias primas consumidas en los centros penitenciarios y centros de inserción social (CIS)</dct:title>
+    <dct:description xml:lang="es">Conjunto de datos relativo al consumo de materias primas en los centros penitenciarios y CIS gestionados en el ámbito de TPFE. Incluye la identificación del centro, la clasificación y descripción de la materia prima, la cantidad consumida y la unidad de medida correspondiente. Su contenido permite conocer y comparar los consumos de materias primas entre centros. No se incluyen los datos de los centros de Cataluña ni del País Vasco, al tratarse de una competencia transferida a dichas comunidades autónomas.</dct:description>
+    <dcat:landingPage rdf:resource="https://172.20.200.5:8443/dataset/mirea0044546dsalimentacion000001" />
+    <dct:identifier>MIR:EA0044546:ds:ALIMENTACION:000001</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY" />
+    <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL" />
+    <dcat:keyword xml:lang="es">materia prima</dcat:keyword>
+    <dcat:keyword xml:lang="es">alimentación</dcat:keyword>
+    <dcat:keyword xml:lang="es">víveres</dcat:keyword>
+    <dcat:keyword xml:lang="es">consumo</dcat:keyword>
+    <dcat:keyword xml:lang="es">centros penitenciarios</dcat:keyword>
+    <dcat:keyword xml:lang="es">CIS</dcat:keyword>
+    <dcat:keyword xml:lang="es">centros de inserción social</dcat:keyword>
+    <dcat:keyword xml:lang="es">penitenciario</dcat:keyword>
+    <dcat:keyword xml:lang="es">población interna</dcat:keyword>
+    <dcat:keyword xml:lang="es">personas internas</dcat:keyword>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-25</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-01</dct:issued>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/comercio" />
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sector-publico" />
+    <dct:temporal>
+      <dct:PeriodOfTime rdf:nodeID="Ncf9a038185f648a69397838b94f4240e">
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-01</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-24</dcat:endDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://172.20.200.5:8443/dataset/mirea0044546dsalimentacion000001/resource/csv-aprovisionamiento-materias-primas-consumidas-en-centros-penitenciarios-y-cis">
+        <dct:title xml:lang="es">CSV: Aprovisionamiento materias primas consumidas en centros penitenciarios y CIS</dct:title>
+        <dct:description xml:lang="es">Archivo CSV con los registros de aprovisionamiento de materias primas consumidas en los centros penitenciarios y CIS</dct:description>
+        <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BYNC_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv" />
+        <dcat:accessURL rdf:resource="https://gobdatos.tpfe.es/gobiernodato/Alimentacion.csv" />
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-25</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-16</dct:issued>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/2018/12/05/3/con" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1979/09/26/1/con" />
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1979/09/26/1/con" />
+    <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/2018/12/05/3/con" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta" />
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla" />
+    <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
+    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" /></dct:publisher>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" /></dct:creator>
+    <ns8:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns8:validationStatus>
+    <dcat:contactPoint>
+      <vcard:Kind rdf:nodeID="Ndb8c54d92106472b989e6c3148aed5f1">
+        <vcard:fn xml:lang="es">Gerencia</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:tpfe@tpfe.es" />
+        <vcard:hasURL rdf:resource="http://www.tpfe.es" />
+        <vcard:organization-name xml:lang="es">Trabajo Penitenciario y Formación para el Empleo</vcard:organization-name>
+        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" />
+        <vcard:hasTelephone rdf:resource="tel:.+34915242905" />
+      </vcard:Kind>
+    </dcat:contactPoint>
+  </dcat:Dataset>
+  </dcat:dataset>
   </dcat:Catalog>
-  </rdf:RDF>
+</rdf:RDF>
