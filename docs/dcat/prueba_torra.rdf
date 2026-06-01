@@ -55,7 +55,7 @@
     <dct:identifier>MIR:EA0044546:ds:OCUPACION:000001</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY" />
     <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL" />
-	<dcat:keyword xml:lang="es">Etiqueta con ±</dcat:keyword>
+	<dcat:keyword xml:lang="es">Etiqueta con -_.'</dcat:keyword>
 	<dcat:keyword xml:lang="en">dafdsdf</dcat:keyword>
 	<dcat:keyword xml:lang="es">etiquetas</dcat:keyword>
 	<dcat:keyword xml:lang="en">jlhkjshg</dcat:keyword>
