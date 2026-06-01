@@ -343,7 +343,7 @@
       },
       "dct:description": [
         {
-          "@value": "Este fichero muestra las estadísticas de personal Funcionario referente a sus situaciones administrativas por provincia, género y empleo.",
+          "@value": "Este fichero muestra las estadísticas de personal Estatutario referente a sus situaciones administrativas por provincia, género y empleo.",
           "@language": "es"
         }
       ],
@@ -837,7 +837,7 @@
       },
       "dct:description": [
         {
-          "@value": "Este fichero muestra las estadísticas de personal Funcionario referente a sus situaciones administrativas por provincia, género y empleo.",
+          "@value": "Este fichero muestra las estadísticas de personal Guardia Civíl referente a sus situaciones administrativas por provincia, género y empleo.",
           "@language": "es"
         }
       ],
@@ -1084,7 +1084,7 @@
       },
       "dct:description": [
         {
-          "@value": "Este fichero muestra las estadísticas de personal Funcionario referente a sus situaciones administrativas por provincia, género y empleo.",
+          "@value": "Este fichero muestra las estadísticas de personal Laboral referente a sus situaciones administrativas por provincia, género y empleo.",
           "@language": "es"
         }
       ],
@@ -1331,7 +1331,7 @@
       },
       "dct:description": [
         {
-          "@value": "Este fichero muestra las estadísticas de personal Funcionario referente a sus situaciones administrativas por provincia, género y empleo.",
+          "@value": "Este fichero muestra las estadísticas de personal Militar No Permanentes (Alta) referente a sus situaciones administrativas por provincia, género y empleo.",
           "@language": "es"
         }
       ],
@@ -1578,7 +1578,7 @@
       },
       "dct:description": [
         {
-          "@value": "Este fichero muestra las estadísticas de personal Funcionario referente a sus situaciones administrativas por provincia, género y empleo.",
+          "@value": "Este fichero muestra las estadísticas de personal Militar No Permanentes (Baja) referente a sus situaciones administrativas por provincia, género y empleo.",
           "@language": "es"
         }
       ],
@@ -1825,7 +1825,7 @@
       },
       "dct:description": [
         {
-          "@value": "Este fichero muestra las estadísticas de personal Funcionario referente a sus situaciones administrativas por provincia, género y empleo.",
+          "@value": "Este fichero muestra las estadísticas de personal Militar de Carrera referente a sus situaciones administrativas por provincia, género y empleo.",
           "@language": "es"
         }
       ],
@@ -2072,7 +2072,7 @@
       },
       "dct:description": [
         {
-          "@value": "Este fichero muestra las industrias españolas del sector de la Logística y Servicios Auxiliares que figuran como prestadoras para MDEF. Se puede visualizar mejor un documento en formato pdf con todo el contenido del Catálogo de la Industria por sectores.",
+          "@value": "Este fichero muestra las industrias españolas del sector Aeroespacial que figuran como prestadoras para MDEF.",
           "@language": "es"
         }
       ],
@@ -2319,7 +2319,7 @@
       },
       "dct:description": [
         {
-          "@value": "Este fichero muestra las industrias españolas del sector de la Logística y Servicios Auxiliares que figuran como prestadoras para MDEF. Se puede visualizar mejor un documento en formato pdf con todo el contenido del Catálogo de la Industria por sectores.",
+          "@value": "Este fichero muestra las industrias españolas del sector Armamento y Munición que figuran como prestadoras para MDEF.",
           "@language": "es"
         }
       ],
@@ -2566,7 +2566,7 @@
       },
       "dct:description": [
         {
-          "@value": "Este fichero muestra las industrias españolas del sector de la Logística y Servicios Auxiliares que figuran como prestadoras para MDEF. Se puede visualizar mejor un documento en formato pdf con todo el contenido del Catálogo de la Industria por sectores.",
+          "@value": "Este fichero muestra las industrias españolas del sector Consultoría e Ingeniería y Munición que figuran como prestadoras para MDEF.",
           "@language": "es"
         }
       ],
@@ -2813,7 +2813,7 @@
       },
       "dct:description": [
         {
-          "@value": "Este fichero muestra las industrias españolas del sector de la Logística y Servicios Auxiliares que figuran como prestadoras para MDEF. Se puede visualizar mejor un documento en formato pdf con todo el contenido del Catálogo de la Industria por sectores.",
+          "@value": "Este fichero muestra las industrias españolas del sector Electrónica y Comunicaciones TIC que figuran como prestadoras para MDEF.",
           "@language": "es"
         }
       ],
@@ -3060,7 +3060,7 @@
       },
       "dct:description": [
         {
-          "@value": "Este fichero muestra las industrias españolas del sector de la Logística y Servicios Auxiliares que figuran como prestadoras para MDEF. Se puede visualizar mejor un documento en formato pdf con todo el contenido del Catálogo de la Industria por sectores.",
+          "@value": "Este fichero muestra las industrias españolas del sector Logística Auxiliar que figuran como prestadoras para MDEF.",
           "@language": "es"
         }
       ],
@@ -3307,7 +3307,7 @@
       },
       "dct:description": [
         {
-          "@value": "Este fichero muestra las industrias españolas del sector de la Logística y Servicios Auxiliares que figuran como prestadoras para MDEF. Se puede visualizar mejor un documento en formato pdf con todo el contenido del Catálogo de la Industria por sectores.",
+          "@value": "Este fichero muestra las industrias españolas del sector Naval que figuran como prestadoras para MDEF.",
           "@language": "es"
         }
       ],
@@ -3554,7 +3554,7 @@
       },
       "dct:description": [
         {
-          "@value": "Este fichero muestra las industrias españolas del sector de la Logística y Servicios Auxiliares que figuran como prestadoras para MDEF. Se puede visualizar mejor un documento en formato pdf con todo el contenido del Catálogo de la Industria por sectores.",
+          "@value": "Este fichero muestra las industrias españolas del sector Terrestre que figuran como prestadoras para MDEF.",
           "@language": "es"
         }
       ],
