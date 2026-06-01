@@ -79,6 +79,7 @@
         <dcat:keyword xml:lang="en">dafdsdf</dcat:keyword>
         <dcat:keyword xml:lang="es">etiquetas</dcat:keyword>
         <dcat:keyword xml:lang="en">jlhkjshg</dcat:keyword>
+        <dcat:keyword xml:lang="en">a</dcat:keyword>
         <dcat:keyword xml:lang="es">cosa;</dcat:keyword>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-15</dct:modified>
         <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-13</dct:issued>
@@ -91,6 +92,7 @@
     <dct:description xml:lang="es">Distribución 1</dct:description>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
     <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/plain" />
+	<dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401" /></dct:publisher>
     <dct:format>
       <dct:IMT rdf:nodeID="N047822e8f88f4e8faf613a181dce6f5d">
         <rdf:value>text/PLAIN</rdf:value>
