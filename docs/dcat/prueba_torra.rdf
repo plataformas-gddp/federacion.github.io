@@ -45,8 +45,8 @@
     <dct:description xml:lang="es">Catalogo de datos del organismo</dct:description>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-28T11:19:15.935931+00:00</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-01</dct:issued>
-    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901" /></dct:publisher>
-    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901" /></dct:creator>
+    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401" /></dct:publisher>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401" /></dct:creator>
     <dct:hasPart rdf:resource="https://datos.gob.es/catalogo/part-1" />
     <dct:isPartOf rdf:resource="https://datos.gob.es/catalogo/main" />
     <dcat:catalog rdf:resource="https://datos.gob.es/catalogo/related" />
@@ -161,7 +161,7 @@
     <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
   </dcat:Distribution>
   </dcat:distribution>
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901" /></dct:publisher>
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401" /></dct:publisher>
         <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502"><foaf:name xml:lang="es">Dirección de coches</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/SupraNationalAuthority" /></foaf:Agent></dct:creator>
         <ns9:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns9:validationStatus>
         <dcat:contactPoint>
