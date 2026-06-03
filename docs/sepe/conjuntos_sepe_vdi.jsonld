@@ -87,7 +87,7 @@
       "dct:spatial": [
         {
           "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España",
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España",
           "dcat:bbox": {
             "@value": "POLYGON((-3.8 40.2, -3.5 40.2, -3.5 40.6, -3.8 40.6, -3.8 40.2))",
             "@type": "geo:wktLiteral"
@@ -95,31 +95,31 @@
         },
         {
           "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         },
         {
           "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         },
         {
           "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         },
         {
           "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         },
         {
           "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         },
         {
           "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         },
         {
           "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dcat:dataset": [
@@ -230,7 +230,7 @@
       "dct:spatial": [
         {
           "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
@@ -3153,7 +3153,7 @@
       "dct:spatial": [
         {
           "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
@@ -6076,7 +6076,7 @@
       "dct:spatial": [
         {
           "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
@@ -8909,7 +8909,7 @@
       "dct:spatial": [
         {
           "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
@@ -10662,7 +10662,7 @@
       "dct:spatial": [
         {
           "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
@@ -10840,7 +10840,7 @@
       "dct:spatial": [
         {
           "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
@@ -11018,7 +11018,7 @@
       "dct:spatial": [
         {
           "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
@@ -11196,7 +11196,7 @@
       "dct:spatial": [
         {
           "@type": "dct:Location",
-          "@id": "http://datos.gob.es/es/recurso/sector-publico/territorio/Pais/España"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
