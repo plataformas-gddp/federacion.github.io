@@ -41,13 +41,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-02-25T00:00:00+01:00",
+          "@value": "2026-05-28T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.430985 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -87,11 +87,7 @@
       "dct:spatial": [
         {
           "@type": "dct:Location",
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España",
-          "dcat:bbox": {
-            "@value": "POLYGON((-3.8 40.2, -3.5 40.2, -3.5 40.6, -3.8 40.6, -3.8 40.2))",
-            "@type": "geo:wktLiteral"
-          }
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         },
         {
           "@type": "dct:Location",
@@ -203,7 +199,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.440565 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -493,13 +489,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.477713 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.477713 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -535,13 +531,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.495197 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.495197 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -577,13 +573,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.498967 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.498967 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -619,13 +615,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.502827 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.502827 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -661,13 +657,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.506527 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.506527 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -703,13 +699,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.512997 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.512997 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -745,13 +741,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.516791 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.516791 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -787,13 +783,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.520537 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.520537 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -829,13 +825,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.524264 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.524264 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -871,13 +867,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.527925 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.527925 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -913,13 +909,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.531642 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.531642 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -955,13 +951,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.535396 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.535396 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -997,13 +993,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.553550 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.553550 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1039,13 +1035,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.557428 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.557428 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1081,13 +1077,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.561205 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.561205 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1123,13 +1119,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.564959 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.564959 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1165,13 +1161,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.573456 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.573456 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1207,13 +1203,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.577314 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.577314 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1249,13 +1245,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.581492 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.581492 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1291,13 +1287,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.585212 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.585212 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1333,13 +1329,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.588840 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.588840 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1375,13 +1371,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.592772 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.592772 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1417,13 +1413,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.596399 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.596399 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1459,13 +1455,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.612765 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.612765 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1501,13 +1497,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.616682 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.616682 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1543,13 +1539,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.620402 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.620402 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1585,13 +1581,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.624085 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.624085 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1627,13 +1623,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.627753 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.627753 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1669,13 +1665,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.677432 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.677432 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1711,13 +1707,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.687557 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.687557 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1753,13 +1749,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.702488 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.702488 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1795,13 +1791,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.706657 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.706657 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1837,13 +1833,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.710472 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.710472 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1879,13 +1875,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.714171 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.714171 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1921,13 +1917,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.725856 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.725856 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -1963,13 +1959,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.729612 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.729612 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2005,13 +2001,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.734161 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.734161 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2047,13 +2043,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.738546 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.738546 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2089,13 +2085,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.758764 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.758764 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2131,13 +2127,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.762492 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.762492 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2173,13 +2169,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.766188 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.766188 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2215,13 +2211,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.769917 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.769917 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2257,13 +2253,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.773671 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.773671 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2299,13 +2295,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.777411 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.777411 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2341,13 +2337,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.794019 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.794019 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2383,13 +2379,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.797735 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.797735 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2425,13 +2421,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.801387 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.801387 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2467,13 +2463,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.805000 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.805000 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2509,13 +2505,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.813196 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.813196 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2551,13 +2547,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.816889 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.816889 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2593,13 +2589,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.820609 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.820609 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2635,13 +2631,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.824426 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.824426 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2677,13 +2673,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.828198 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.828198 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2719,13 +2715,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.831998 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.831998 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2761,13 +2757,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.835725 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.835725 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2803,13 +2799,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.842688 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.842688 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2845,13 +2841,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.846381 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.846381 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2887,13 +2883,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.850498 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.850498 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2929,13 +2925,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.854134 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.854134 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2971,13 +2967,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.857812 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.857812 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3013,13 +3009,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.861505 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.861505 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3055,13 +3051,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.865222 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.865222 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3126,7 +3122,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.444582 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3416,13 +3412,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.873373 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.873373 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3458,13 +3454,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.877115 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.877115 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3500,13 +3496,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.882068 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.882068 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3542,13 +3538,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.886197 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.886197 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3584,13 +3580,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.889818 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.889818 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3626,13 +3622,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.893450 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.893450 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3668,13 +3664,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.897093 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.897093 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3710,13 +3706,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.906849 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.906849 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3752,13 +3748,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.910619 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.910619 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3794,13 +3790,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.914353 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.914353 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3836,13 +3832,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.920088 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.920088 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3878,13 +3874,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.923832 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.923832 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3920,13 +3916,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.927584 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.927584 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3962,13 +3958,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.945085 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.945085 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4004,13 +4000,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.953407 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.953407 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4046,13 +4042,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.957313 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.957313 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4088,13 +4084,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.961013 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.961013 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4130,13 +4126,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.964740 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.964740 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4172,13 +4168,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.968439 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.968439 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4214,13 +4210,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.972329 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.972329 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4256,13 +4252,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.976094 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.976094 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4298,13 +4294,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.984489 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.984489 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4340,13 +4336,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.988277 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.988277 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4382,13 +4378,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.992085 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.992085 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4424,13 +4420,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.995965 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.08.995965 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4466,13 +4462,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.003418 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.003418 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4508,13 +4504,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.007117 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.007117 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4550,13 +4546,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.010742 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.010742 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4592,13 +4588,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.014532 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.014532 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4634,13 +4630,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.018187 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.018187 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4676,13 +4672,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.021873 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.021873 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4718,13 +4714,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.025723 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.025723 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4760,13 +4756,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.032974 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.032974 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4802,13 +4798,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.036767 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.036767 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4844,13 +4840,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.040414 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.040414 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4886,13 +4882,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.044063 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.044063 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4928,13 +4924,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.047725 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.047725 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -4970,13 +4966,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.051361 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.051361 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5012,13 +5008,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.054988 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.054988 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5054,13 +5050,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.059337 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.059337 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5096,13 +5092,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.065249 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.065249 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5138,13 +5134,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.068939 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.068939 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5180,13 +5176,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.072607 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.072607 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5222,13 +5218,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.076330 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.076330 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5264,13 +5260,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.080018 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.080018 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5306,13 +5302,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.083758 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.083758 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5348,13 +5344,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.087437 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.087437 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5390,13 +5386,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.094436 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.094436 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5432,13 +5428,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.098105 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.098105 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5474,13 +5470,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.101933 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.101933 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5516,13 +5512,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.105912 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.105912 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5558,13 +5554,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.109568 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.109568 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5600,13 +5596,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.113248 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.113248 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5642,13 +5638,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.116964 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.116964 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5684,13 +5680,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.127550 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.127550 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5726,13 +5722,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.131440 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.131440 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5768,13 +5764,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.135252 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.135252 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5810,13 +5806,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.139013 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.139013 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5852,13 +5848,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.142708 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.142708 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5894,13 +5890,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.146410 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.146410 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5936,13 +5932,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.151536 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.151536 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -5978,13 +5974,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.176081 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.176081 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -6049,7 +6045,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.448451 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -6333,13 +6329,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.189413 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.189413 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -6375,13 +6371,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.193321 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.193321 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -6417,13 +6413,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.197112 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.197112 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -6459,13 +6455,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.200953 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.200953 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -6501,13 +6497,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.205254 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.205254 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -6543,13 +6539,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.210290 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.210290 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -6585,13 +6581,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.214558 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.214558 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -6627,13 +6623,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.218316 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.218316 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -6669,13 +6665,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.222073 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.222073 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -6711,13 +6707,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.228852 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.228852 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -6753,13 +6749,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.232515 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.232515 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -6795,13 +6791,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.253525 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.253525 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -6837,13 +6833,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.263403 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.263403 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -6879,13 +6875,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.275327 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.275327 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -6921,13 +6917,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.279175 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.279175 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -6963,13 +6959,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.282913 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.282913 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7005,13 +7001,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.287047 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.287047 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7047,13 +7043,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.294669 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.294669 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7089,13 +7085,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.298652 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.298652 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7131,13 +7127,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.304995 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.304995 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7173,13 +7169,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.308829 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.308829 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7215,13 +7211,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.312608 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.312608 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7257,13 +7253,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.331648 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.331648 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7299,13 +7295,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.335444 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.335444 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7341,13 +7337,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.339545 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.339545 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7383,13 +7379,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.343224 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.343224 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7425,13 +7421,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.346891 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.346891 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7467,13 +7463,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.360767 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.360767 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7509,13 +7505,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.365050 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.365050 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7551,13 +7547,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.387768 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.387768 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7593,13 +7589,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.409758 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.409758 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7635,13 +7631,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.433008 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.433008 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7677,13 +7673,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.443150 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.443150 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7719,13 +7715,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.446940 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.446940 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7761,13 +7757,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.453469 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.453469 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7803,13 +7799,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.457138 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.457138 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7845,13 +7841,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.461141 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.461141 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7887,13 +7883,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.464897 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.464897 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7929,13 +7925,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.468530 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.468530 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -7971,13 +7967,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.472234 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.472234 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8013,13 +8009,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.476471 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.476471 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8055,13 +8051,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.500074 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.500074 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8097,13 +8093,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.504077 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.504077 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8139,13 +8135,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.525616 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.525616 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8181,13 +8177,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.546552 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.546552 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8223,13 +8219,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.571899 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.571899 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8265,13 +8261,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.583005 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.583005 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8307,13 +8303,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.586971 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.586971 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8349,13 +8345,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.597990 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.597990 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8391,13 +8387,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.624723 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.624723 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8433,13 +8429,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.628606 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.628606 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8475,13 +8471,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.632388 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.632388 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8517,13 +8513,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.636163 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.636163 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8559,13 +8555,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.639931 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.639931 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8601,13 +8597,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.644416 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.644416 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8643,13 +8639,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.648236 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.648236 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8685,13 +8681,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.671974 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.671974 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8727,13 +8723,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.680617 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.680617 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8769,13 +8765,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.684502 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.684502 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8811,13 +8807,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.688364 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.688364 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -8882,7 +8878,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.455325 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9094,13 +9090,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.692132 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.692132 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9136,13 +9132,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.696588 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.696588 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9178,13 +9174,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.700367 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.700367 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9220,13 +9216,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.704122 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.704122 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9262,13 +9258,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.707823 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.707823 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9304,13 +9300,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.715167 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.715167 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9346,13 +9342,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.719063 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.719063 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9388,13 +9384,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.722892 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.722892 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9430,13 +9426,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.726722 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.726722 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9472,13 +9468,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.732170 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.732170 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9514,13 +9510,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.736046 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.736046 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9556,13 +9552,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.739849 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.739849 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9598,13 +9594,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.743607 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.743607 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9640,13 +9636,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.747387 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.747387 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9682,13 +9678,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.751130 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.751130 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9724,13 +9720,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.756167 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.756167 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9766,13 +9762,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.762634 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.762634 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9808,13 +9804,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.766397 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.766397 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9850,13 +9846,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.770148 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.770148 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9892,13 +9888,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.774226 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.774226 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9934,13 +9930,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.777985 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.777985 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -9976,13 +9972,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.781763 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.781763 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10018,13 +10014,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.785513 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.785513 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10060,13 +10056,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.790832 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.790832 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10102,13 +10098,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.794582 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.794582 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10144,13 +10140,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.798317 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.798317 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10186,13 +10182,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.802038 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.802038 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10228,13 +10224,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.806038 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.806038 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10270,13 +10266,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.809769 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.809769 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10312,13 +10308,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.813482 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.813482 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10354,13 +10350,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.817261 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.817261 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10396,13 +10392,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.824624 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.824624 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10438,13 +10434,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.828724 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.828724 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10480,13 +10476,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.835449 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.835449 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10522,13 +10518,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.853090 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.853090 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10564,13 +10560,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.856975 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.856975 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10635,7 +10631,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.459091 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10669,7 +10665,7 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2026-04-01T00:00:00+01:00",
+            "@value": "2010-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           }
         }
@@ -10713,19 +10709,22 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_NF_2026_csv.csv"
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_NF_202604_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_NF_202604_xls.xls"
         }
       ]
     },
     {
-      "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_NF_2026_csv.csv",
+      "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_NF_202604_csv.csv",
       "@type": "dcat:Distribution",
       "dct:title": {
         "@value": "2026",
         "@language": "es"
       },
       "dcat:accessURL": {
-        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_NF_2026_csv.csv"
+        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_NF_202604_csv.csv"
       },
       "dct:format": {
         "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
@@ -10742,13 +10741,55 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.860886 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.860886 AM+02:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      }
+    },
+    {
+      "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_NF_202604_xls.xls",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "2026",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_NF_202604_xls.xls"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XLS"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Archivo XLS con los registros de Demandantes por nivel formativo",
+        "@language": "es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:issued": [
+        {
+          "@value": "04-JUN-26T10.37.09.871519 AM+02:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "04-JUN-26T10.37.09.871519 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10813,7 +10854,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.462790 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10847,7 +10888,7 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2026-04-01T00:00:00+01:00",
+            "@value": "2010-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           }
         }
@@ -10891,19 +10932,22 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_AE_2026_csv.csv"
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_AE_202604_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_AE_202604_xls.xls"
         }
       ]
     },
     {
-      "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_AE_2026_csv.csv",
+      "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_AE_202604_csv.csv",
       "@type": "dcat:Distribution",
       "dct:title": {
         "@value": "2026",
         "@language": "es"
       },
       "dcat:accessURL": {
-        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_AE_2026_csv.csv"
+        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_AE_202604_csv.csv"
       },
       "dct:format": {
         "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
@@ -10920,13 +10964,55 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.875407 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.875407 AM+02:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      }
+    },
+    {
+      "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_AE_202604_xls.xls",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "2026",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_AE_202604_xls.xls"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XLS"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Archivo XLS con los registros de Demandantes por actividades economicas",
+        "@language": "es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:issued": [
+        {
+          "@value": "04-JUN-26T10.37.09.882701 AM+02:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "04-JUN-26T10.37.09.882701 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -10991,7 +11077,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.466627 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -11025,7 +11111,7 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2026-04-01T00:00:00+01:00",
+            "@value": "2010-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           }
         }
@@ -11069,19 +11155,22 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_NF_2026_csv.csv"
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_NF_202604_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_NF_202604_xls.xls"
         }
       ]
     },
     {
-      "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_NF_2026_csv.csv",
+      "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_NF_202604_csv.csv",
       "@type": "dcat:Distribution",
       "dct:title": {
         "@value": "2026",
         "@language": "es"
       },
       "dcat:accessURL": {
-        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_NF_2026_csv.csv"
+        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_NF_202604_csv.csv"
       },
       "dct:format": {
         "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
@@ -11098,13 +11187,55 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.907380 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.907380 AM+02:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      }
+    },
+    {
+      "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_NF_202604_xls.xls",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "2026",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_NF_202604_xls.xls"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XLS"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Archivo XLS con los registros de Contratos por nivel formativo",
+        "@language": "es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:issued": [
+        {
+          "@value": "04-JUN-26T10.37.09.923658 AM+02:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "04-JUN-26T10.37.09.923658 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -11169,7 +11300,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:23+02:00",
+          "@value": "04-JUN-26T10.37.08.470532 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -11203,7 +11334,7 @@
         {
           "@type": "dct:PeriodOfTime",
           "dcat:startDate": {
-            "@value": "2026-04-01T00:00:00+01:00",
+            "@value": "2010-01-01T00:00:00+01:00",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
           }
         }
@@ -11247,19 +11378,22 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_AE_2026_csv.csv"
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_AE_202604_csv.csv"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_AE_202604_xls.xls"
         }
       ]
     },
     {
-      "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_AE_2026_csv.csv",
+      "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_AE_202604_csv.csv",
       "@type": "dcat:Distribution",
       "dct:title": {
         "@value": "2026",
         "@language": "es"
       },
       "dcat:accessURL": {
-        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_AE_2026_csv.csv"
+        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_AE_202604_csv.csv"
       },
       "dct:format": {
         "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
@@ -11276,13 +11410,55 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.929424 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-05-28T13:21:24+02:00",
+          "@value": "04-JUN-26T10.37.09.929424 AM+02:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      }
+    },
+    {
+      "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_AE_202604_xls.xls",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "2026",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_AE_202604_xls.xls"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XLS"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Archivo XLS con los registros de Contratos por actividad economica",
+        "@language": "es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:issued": [
+        {
+          "@value": "04-JUN-26T10.37.09.935069 AM+02:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "04-JUN-26T10.37.09.935069 AM+02:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
