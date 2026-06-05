@@ -42,7 +42,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Cat�logo de Datos de la OEPM",
+          "@value": "Catálogo de Datos de la OEPM",
           "@language": "es"
         },
         {
@@ -64,7 +64,7 @@
       ],
       "dct:description": [
         {
-          "@value": "Cat�logo de datos p�blicos reutilizables de la OEPM. Incluye conjuntos de datos sobre patentes, modelos de utilidad, dise�os industriales, marcas, nombres comerciales, estad�sticas y BOPI, seg�n pol�ticas de open data.",
+          "@value": "Catálogo de datos públicos reutilizables de la OEPM. Incluye conjuntos de datos sobre patentes, modelos de utilidad, diseños industriales, marcas, nombres comerciales, estadísticas y BOPI, según políticas de open data.",
           "@language": "es"
         },
         {
@@ -93,7 +93,7 @@
       },
       "dct:spatial": [
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/Espa�a"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dcat:dataset": [
@@ -280,7 +280,7 @@
           "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         },
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/Espa�a"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
@@ -757,7 +757,7 @@
           "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         },
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/Espa�a"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
@@ -941,7 +941,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos bibliogr�ficos e im�genes (Recurso ZIP)",
+          "@value": "Datos bibliográficos e imágenes (Recurso ZIP)",
           "@language": "es"
         },
         {
@@ -960,7 +960,7 @@
       },
       "dct:description": [
         {
-          "@value": "Dise�os industriales (datos e im�genes). Descargas diarias, mensuales y anuales.",
+          "@value": "Diseños industriales (datos e imágenes). Descargas diarias, mensuales y anuales.",
           "@language": "es"
         },
         {
@@ -1241,7 +1241,7 @@
           "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         },
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/Espa�a"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
@@ -1729,7 +1729,7 @@
           "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         },
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/Espa�a"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
@@ -2209,7 +2209,7 @@
           "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         },
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/Espa�a"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
@@ -3173,7 +3173,7 @@
           "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         },
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/Espa�a"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
@@ -3657,7 +3657,7 @@
           "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         },
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/Espa�a"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
@@ -4145,7 +4145,7 @@
           "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         },
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/Espa�a"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
@@ -4625,7 +4625,7 @@
           "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         },
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/Espa�a"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
@@ -5113,7 +5113,7 @@
           "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         },
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/Espa�a"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
