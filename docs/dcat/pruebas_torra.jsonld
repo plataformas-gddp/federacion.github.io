@@ -199,12 +199,12 @@
       "dcat:version": "1",
       "dcat:hasVersion": [
         {
-          "@id": "http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-1"
+          "@id": "https://datos.organismo.es/dataset/IDD1"
         }
       ],
       "dcat:isVersionOf": [
         {
-          "@id": "http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-1"
+          "@id": "https://datos.organismo.es/dataset/IDD1"
         }
       ],
       "dct:provenance": [
@@ -307,16 +307,16 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "Distribución de ejemplo 1"
+          "@id": "http://Distribucion_ejemplo_1"
         }
       ]
     },
     {
-      "@id": "Distribución de ejemplo 1",
+      "@id": "http://Distribucion_ejemplo_1",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Distribución de ejemplo 1",
+          "@value": "http://Distribucion_ejemplo_1",
           "@language": "es"
         }
       ],
