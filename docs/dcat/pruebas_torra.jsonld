@@ -222,12 +222,6 @@
           "@id": "http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-2"
         }
       ],
-      "dcat:temporalResolution": [
-        {
-          "@value": "PT24M",
-          "@type": "xsd:duration"
-        }
-      ],
       "dcat:spatialResolutionInMeters": [
         {
           "@value": "5",
