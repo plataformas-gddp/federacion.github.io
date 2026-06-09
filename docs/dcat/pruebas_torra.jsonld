@@ -26,7 +26,7 @@
           "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001",
           "dct:type": [
             {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+              "@id": "http://purl.org/adms/assettype/Thesaurus"
             }
           ],
           "foaf:name": [
@@ -61,7 +61,7 @@
           "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001",
           "dct:type": [
             {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+              "@id": "http://purl.org/adms/assettype/Thesaurus"
             }
           ],
           "foaf:name": [
@@ -119,7 +119,7 @@
           "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001",
           "dct:type": [
             {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+              "@id": "http://purl.org/adms/assettype/Thesaurus"
             }
           ],
           "foaf:name": [
@@ -142,7 +142,7 @@
           "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001",
           "dct:type": [
             {
-              "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+              "@id": "http://purl.org/adms/assettype/Thesaurus"
             }
           ],
           "foaf:name": [
@@ -199,12 +199,12 @@
       "dcat:version": "1",
       "dcat:hasVersion": [
         {
-          "@id": "https://datos.organismo.es/dataset/IDD1"
+          "@id": "http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-1"
         }
       ],
       "dcat:isVersionOf": [
         {
-          "@id": "https://datos.organismo.es/dataset/IDD1"
+          "@id": "http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-1"
         }
       ],
       "dct:provenance": [
@@ -218,6 +218,17 @@
         }
       ],
       "dct:isReferencedBy": [
+        {
+          "@id": "http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-2"
+        }
+      ],
+      "dcat:temporalResolution": [
+        {
+          "@value": "PT24M",
+          "@type": "xsd:duration"
+        }
+      ],
+      "dcat:qualifiedRelation": [
         {
           "@id": "http://dcat-ap-es.ejemplo.org/dataset/dataset-ejemplo-2"
         }
@@ -301,16 +312,16 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "http://Distribucion_ejemplo_1"
+          "@id": "http://www.Distribución_de_ejemplo_1.com"
         }
       ]
     },
     {
-      "@id": "http://Distribucion_ejemplo_1",
+      "@id": "http://www.Distribución_de_ejemplo_1.com",
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "http://Distribucion_ejemplo_1",
+          "@value": "Distribución de ejemplo 1",
           "@language": "es"
         }
       ],
