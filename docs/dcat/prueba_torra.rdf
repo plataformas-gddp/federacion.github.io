@@ -1,9 +1,29 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcatap="http://data.europa.eu/r5r/" xmlns:dct="http://purl.org/dc/terms/" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:ns8="http://tragsatec.es/def/impulsadata#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
-  <dcat:Catalog rdf:about="https://172.20.200.5:8443">
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcatap="http://data.europa.eu/r5r/" xmlns:dct="http://purl.org/dc/terms/" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:ns9="http://tragsatec.es/def/impulsadata#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+  <dcat:Catalog rdf:about="https://pre-ckan.interior.gob.es">
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA" />
+    </dct:language>
     <dct:language>
       <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/ENG" />
+    </dct:language>
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/POR" />
+    </dct:language>
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/FRA" />
+    </dct:language>
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/ITA" />
+    </dct:language>
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/CAT" />
+    </dct:language>
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/GLG" />
+    </dct:language>
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/EUS" />
     </dct:language>
     <dct:spatial>
       <dct:Location rdf:about="http://publications.europa.eu/resource/authority/country/ESP">
@@ -14,722 +34,491 @@
     </dct:spatial>
     <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector" />
     <dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme" />
-    <foaf:homepage rdf:resource="https://172.20.200.5:8443" />
+    <foaf:homepage rdf:resource="https://pre-ckan.interior.gob.es" />
     <dct:license>
       <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
         <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR" />
       </rdf:Description>
     </dct:license>
     <dct:rights rdf:resource="http://rightsstatements.org/vocab/InC/1.0/" />
-    <dct:title xml:lang="es">Catalogo de datos abiertos de TPFE</dct:title>
-    <dct:description xml:lang="es">Catalogo oficial de datos abiertos gestionados y publicados por TPFE</dct:description>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-25T12:56:19.472051+00:00</dct:modified>
+    <dct:title xml:lang="es">CKAN</dct:title>
+    <dct:description xml:lang="es">Catalogo de datos del Ministerio del Interior</dct:description>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-06-04T06:57:34.543796+00:00</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-01</dct:issued>
-    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" /></dct:publisher>
-    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" /></dct:creator>
-    <dct:hasPart rdf:resource="https://gobdatos.tpfe.es/part-1" />
-    <dct:isPartOf rdf:resource="https://gobdatos.tpfe.es/main" />
-    <dcat:catalog rdf:resource="https://gobdatos.tpfe.es/related" />
-    <dcat:record rdf:resource="https://gobdatos.tpfe.es/record/1" />
+    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801" /></dct:publisher>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801" /></dct:creator>
+    <dct:hasPart rdf:resource="https://datos.gob.es/catalogo/part-1" />
+    <dct:isPartOf rdf:resource="https://datos.gob.es/catalogo/main" />
+    <dcat:catalog rdf:resource="https://datos.gob.es/catalogo/related" />
+    <dcat:record rdf:resource="https://datos.gob.es/catalogo/record/1" />
     <dct:temporal>
-      <dct:PeriodOfTime rdf:nodeID="N3b3b0ac31db44e9b9c930d5e76d35f8a">
+      <dct:PeriodOfTime rdf:nodeID="N14ec440b0c3a429e8bb2e22d10156626">
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-01</dcat:startDate>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-01-01</dcat:endDate>
         <time:hasBeginning>
-          <time:Instant rdf:nodeID="N4242c8152bec40c985515bdb11957073">
+          <time:Instant rdf:nodeID="N428b615abc264791bc579d924a4abcdc">
             <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-01</time:inXSDDate>
           </time:Instant>
         </time:hasBeginning>
         <time:hasEnd>
-          <time:Instant rdf:nodeID="N8013eaacfa8244d5abf9d918bb828190">
+          <time:Instant rdf:nodeID="Nf4444ea8acd34c9086e8e9fc5be49cc9">
             <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-01-01</time:inXSDDate>
           </time:Instant>
         </time:hasEnd>
       </dct:PeriodOfTime>
     </dct:temporal>
-    <dcat:dataset><dcat:Dataset rdf:about="https://172.20.200.5:8443/dataset/mirea0044546dsocupacion000001">
+    <dcat:dataset><dcat:Dataset rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-    <dct:title xml:lang="es">TPFE: Ocupación laboral productiva de la población interna en los centros penitenciarios y centros de inserción social (CIS)</dct:title>
-    <dct:description xml:lang="es">Conjunto de datos de ocupación de los talleres penitenciarios de carácter productivo organizados por centros y actividades. Incluye únicamente la población interna trabajadora que percibe una retribución mensual en función de su actividad, tomando como referencia un módulo retributivo revisado anualmente por el Consejo de Administración del Ente Público. No se incluyen los datos de los centros de Cataluña ni del País Vasco, al tratarse de una competencia transferida a dichas comunidades autónomas.</dct:description>
-    <dcat:landingPage rdf:resource="https://172.20.200.5:8443/dataset/mirea0044546dsocupacion000001" />
-    <dct:identifier>MIR:EA0044546:ds:OCUPACION:000001</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY" />
-    <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL" />
-<dcat:keyword xml:lang="es">!</dcat:keyword>
-<!-- ASCII 34 -->
-<dcat:keyword xml:lang="es">"</dcat:keyword>
-<!-- ASCII 35 -->
-<dcat:keyword xml:lang="es">#</dcat:keyword>
-<!-- ASCII 36 -->
-<dcat:keyword xml:lang="es">$</dcat:keyword>
-<!-- ASCII 37 -->
-<dcat:keyword xml:lang="es">%</dcat:keyword>
-<!-- ASCII 38 -->
-<dcat:keyword xml:lang="es">&amp;</dcat:keyword>
-<!-- ASCII 39 -->
-<dcat:keyword xml:lang="es">'</dcat:keyword>
-<!-- ASCII 40 -->
-<dcat:keyword xml:lang="es">(</dcat:keyword>
-<!-- ASCII 41 -->
-<dcat:keyword xml:lang="es">)</dcat:keyword>
-<!-- ASCII 42 -->
-<dcat:keyword xml:lang="es">*</dcat:keyword>
-<!-- ASCII 43 -->
-<dcat:keyword xml:lang="es">+</dcat:keyword>
-<!-- ASCII 44 -->
-<dcat:keyword xml:lang="es">,</dcat:keyword>
-<!-- ASCII 45 -->
-<dcat:keyword xml:lang="es">-</dcat:keyword>
-<!-- ASCII 46 -->
-<dcat:keyword xml:lang="es">.</dcat:keyword>
-<!-- ASCII 47 -->
-<dcat:keyword xml:lang="es">/</dcat:keyword>
-<!-- ASCII 48 -->
-<dcat:keyword xml:lang="es">0</dcat:keyword>
-<!-- ASCII 49 -->
-<dcat:keyword xml:lang="es">1</dcat:keyword>
-<!-- ASCII 50 -->
-<dcat:keyword xml:lang="es">2</dcat:keyword>
-<!-- ASCII 51 -->
-<dcat:keyword xml:lang="es">3</dcat:keyword>
-<!-- ASCII 52 -->
-<dcat:keyword xml:lang="es">4</dcat:keyword>
-<!-- ASCII 53 -->
-<dcat:keyword xml:lang="es">5</dcat:keyword>
-<!-- ASCII 54 -->
-<dcat:keyword xml:lang="es">6</dcat:keyword>
-<!-- ASCII 55 -->
-<dcat:keyword xml:lang="es">7</dcat:keyword>
-<!-- ASCII 56 -->
-<dcat:keyword xml:lang="es">8</dcat:keyword>
-<!-- ASCII 57 -->
-<dcat:keyword xml:lang="es">9</dcat:keyword>
-<!-- ASCII 58 -->
-<dcat:keyword xml:lang="es">:</dcat:keyword>
-<!-- ASCII 59 -->
-<dcat:keyword xml:lang="es">;</dcat:keyword>
-<!-- ASCII 60 -->
-<dcat:keyword xml:lang="es">&lt;</dcat:keyword>
-<!-- ASCII 61 -->
-<dcat:keyword xml:lang="es">=</dcat:keyword>
-<!-- ASCII 62 -->
-<dcat:keyword xml:lang="es">&gt;</dcat:keyword>
-<!-- ASCII 63 -->
-<dcat:keyword xml:lang="es">?</dcat:keyword>
-<!-- ASCII 64 -->
-<dcat:keyword xml:lang="es">@</dcat:keyword>
-<!-- ASCII 65 -->
-<dcat:keyword xml:lang="es">A</dcat:keyword>
-<!-- ASCII 66 -->
-<dcat:keyword xml:lang="es">B</dcat:keyword>
-<!-- ASCII 67 -->
-<dcat:keyword xml:lang="es">C</dcat:keyword>
-<!-- ASCII 68 -->
-<dcat:keyword xml:lang="es">D</dcat:keyword>
-<!-- ASCII 69 -->
-<dcat:keyword xml:lang="es">E</dcat:keyword>
-<!-- ASCII 70 -->
-<dcat:keyword xml:lang="es">F</dcat:keyword>
-<!-- ASCII 71 -->
-<dcat:keyword xml:lang="es">G</dcat:keyword>
-<!-- ASCII 72 -->
-<dcat:keyword xml:lang="es">H</dcat:keyword>
-<!-- ASCII 73 -->
-<dcat:keyword xml:lang="es">I</dcat:keyword>
-<!-- ASCII 74 -->
-<dcat:keyword xml:lang="es">J</dcat:keyword>
-<!-- ASCII 75 -->
-<dcat:keyword xml:lang="es">K</dcat:keyword>
-<!-- ASCII 76 -->
-<dcat:keyword xml:lang="es">L</dcat:keyword>
-<!-- ASCII 77 -->
-<dcat:keyword xml:lang="es">M</dcat:keyword>
-<!-- ASCII 78 -->
-<dcat:keyword xml:lang="es">N</dcat:keyword>
-<!-- ASCII 79 -->
-<dcat:keyword xml:lang="es">O</dcat:keyword>
-<!-- ASCII 80 -->
-<dcat:keyword xml:lang="es">P</dcat:keyword>
-<!-- ASCII 81 -->
-<dcat:keyword xml:lang="es">Q</dcat:keyword>
-<!-- ASCII 82 -->
-<dcat:keyword xml:lang="es">R</dcat:keyword>
-<!-- ASCII 83 -->
-<dcat:keyword xml:lang="es">S</dcat:keyword>
-<!-- ASCII 84 -->
-<dcat:keyword xml:lang="es">T</dcat:keyword>
-<!-- ASCII 85 -->
-<dcat:keyword xml:lang="es">U</dcat:keyword>
-<!-- ASCII 86 -->
-<dcat:keyword xml:lang="es">V</dcat:keyword>
-<!-- ASCII 87 -->
-<dcat:keyword xml:lang="es">W</dcat:keyword>
-<!-- ASCII 88 -->
-<dcat:keyword xml:lang="es">X</dcat:keyword>
-<!-- ASCII 89 -->
-<dcat:keyword xml:lang="es">Y</dcat:keyword>
-<!-- ASCII 90 -->
-<dcat:keyword xml:lang="es">Z</dcat:keyword>
-<!-- ASCII 91 -->
-<dcat:keyword xml:lang="es">[</dcat:keyword>
-<!-- ASCII 92 -->
-<dcat:keyword xml:lang="es">\</dcat:keyword>
-<!-- ASCII 93 -->
-<dcat:keyword xml:lang="es">]</dcat:keyword>
-<!-- ASCII 94 -->
-<dcat:keyword xml:lang="es">^</dcat:keyword>
-<!-- ASCII 95 -->
-<dcat:keyword xml:lang="es">_</dcat:keyword>
-<!-- ASCII 96 -->
-<dcat:keyword xml:lang="es">`</dcat:keyword>
-<!-- ASCII 97 -->
-<dcat:keyword xml:lang="es">a</dcat:keyword>
-<!-- ASCII 98 -->
-<dcat:keyword xml:lang="es">b</dcat:keyword>
-<!-- ASCII 99 -->
-<dcat:keyword xml:lang="es">c</dcat:keyword>
-<!-- ASCII 100 -->
-<dcat:keyword xml:lang="es">d</dcat:keyword>
-<!-- ASCII 101 -->
-<dcat:keyword xml:lang="es">e</dcat:keyword>
-<!-- ASCII 102 -->
-<dcat:keyword xml:lang="es">f</dcat:keyword>
-<!-- ASCII 103 -->
-<dcat:keyword xml:lang="es">g</dcat:keyword>
-<!-- ASCII 104 -->
-<dcat:keyword xml:lang="es">h</dcat:keyword>
-<!-- ASCII 105 -->
-<dcat:keyword xml:lang="es">i</dcat:keyword>
-<!-- ASCII 106 -->
-<dcat:keyword xml:lang="es">j</dcat:keyword>
-<!-- ASCII 107 -->
-<dcat:keyword xml:lang="es">k</dcat:keyword>
-<!-- ASCII 108 -->
-<dcat:keyword xml:lang="es">l</dcat:keyword>
-<!-- ASCII 109 -->
-<dcat:keyword xml:lang="es">m</dcat:keyword>
-<!-- ASCII 110 -->
-<dcat:keyword xml:lang="es">n</dcat:keyword>
-<!-- ASCII 111 -->
-<dcat:keyword xml:lang="es">o</dcat:keyword>
-<!-- ASCII 112 -->
-<dcat:keyword xml:lang="es">p</dcat:keyword>
-<!-- ASCII 113 -->
-<dcat:keyword xml:lang="es">q</dcat:keyword>
-<!-- ASCII 114 -->
-<dcat:keyword xml:lang="es">r</dcat:keyword>
-<!-- ASCII 115 -->
-<dcat:keyword xml:lang="es">s</dcat:keyword>
-<!-- ASCII 116 -->
-<dcat:keyword xml:lang="es">t</dcat:keyword>
-<!-- ASCII 117 -->
-<dcat:keyword xml:lang="es">u</dcat:keyword>
-<!-- ASCII 118 -->
-<dcat:keyword xml:lang="es">v</dcat:keyword>
-<!-- ASCII 119 -->
-<dcat:keyword xml:lang="es">w</dcat:keyword>
-<!-- ASCII 120 -->
-<dcat:keyword xml:lang="es">x</dcat:keyword>
-<!-- ASCII 121 -->
-<dcat:keyword xml:lang="es">y</dcat:keyword>
-<!-- ASCII 122 -->
-<dcat:keyword xml:lang="es">z</dcat:keyword>
-<!-- ASCII 123 -->
-<dcat:keyword xml:lang="es">{</dcat:keyword>
-<!-- ASCII 124 -->
-<dcat:keyword xml:lang="es">|</dcat:keyword>
-<!-- ASCII 125 -->
-<dcat:keyword xml:lang="es">}</dcat:keyword>
-<dcat:keyword xml:lang="es">¡</dcat:keyword>
-<!-- ASCII 162 -->
-<dcat:keyword xml:lang="es">¢</dcat:keyword>
-<!-- ASCII 163 -->
-<dcat:keyword xml:lang="es">£</dcat:keyword>
-<!-- ASCII 164 -->
-<dcat:keyword xml:lang="es">¤</dcat:keyword>
-<!-- ASCII 165 -->
-<dcat:keyword xml:lang="es">¥</dcat:keyword>
-<!-- ASCII 166 -->
-<dcat:keyword xml:lang="es">¦</dcat:keyword>
-<!-- ASCII 167 -->
-<dcat:keyword xml:lang="es">§</dcat:keyword>
-<!-- ASCII 168 -->
-<dcat:keyword xml:lang="es">¨</dcat:keyword>
-<!-- ASCII 169 -->
-<dcat:keyword xml:lang="es">©</dcat:keyword>
-<!-- ASCII 170 -->
-<dcat:keyword xml:lang="es">ª</dcat:keyword>
-<!-- ASCII 171 -->
-<dcat:keyword xml:lang="es">«</dcat:keyword>
-<!-- ASCII 172 -->
-<dcat:keyword xml:lang="es">¬</dcat:keyword>
-<!-- ASCII 173 -->
-<dcat:keyword xml:lang="es">­</dcat:keyword>
-<!-- ASCII 174 -->
-<dcat:keyword xml:lang="es">®</dcat:keyword>
-<!-- ASCII 175 -->
-<dcat:keyword xml:lang="es">¯</dcat:keyword>
-<!-- ASCII 176 -->
-<dcat:keyword xml:lang="es">°</dcat:keyword>
-<!-- ASCII 177 -->
-<dcat:keyword xml:lang="es">±</dcat:keyword>
-<!-- ASCII 178 -->
-<dcat:keyword xml:lang="es">²</dcat:keyword>
-<!-- ASCII 179 -->
-<dcat:keyword xml:lang="es">³</dcat:keyword>
-<!-- ASCII 180 -->
-<dcat:keyword xml:lang="es">´</dcat:keyword>
-<!-- ASCII 181 -->
-<dcat:keyword xml:lang="es">µ</dcat:keyword>
-<!-- ASCII 182 -->
-<dcat:keyword xml:lang="es">¶</dcat:keyword>
-<!-- ASCII 183 -->
-<dcat:keyword xml:lang="es">·</dcat:keyword>
-<!-- ASCII 184 -->
-<dcat:keyword xml:lang="es">¸</dcat:keyword>
-<!-- ASCII 185 -->
-<dcat:keyword xml:lang="es">¹</dcat:keyword>
-<!-- ASCII 186 -->
-<dcat:keyword xml:lang="es">º</dcat:keyword>
-<!-- ASCII 187 -->
-<dcat:keyword xml:lang="es">»</dcat:keyword>
-<!-- ASCII 188 -->
-<dcat:keyword xml:lang="es">¼</dcat:keyword>
-<!-- ASCII 189 -->
-<dcat:keyword xml:lang="es">½</dcat:keyword>
-<!-- ASCII 190 -->
-<dcat:keyword xml:lang="es">¾</dcat:keyword>
-<!-- ASCII 191 -->
-<dcat:keyword xml:lang="es">¿</dcat:keyword>
-<!-- ASCII 192 -->
-<dcat:keyword xml:lang="es">À</dcat:keyword>
-<!-- ASCII 193 -->
-<dcat:keyword xml:lang="es">Á</dcat:keyword>
-<!-- ASCII 194 -->
-<dcat:keyword xml:lang="es">Â</dcat:keyword>
-<!-- ASCII 195 -->
-<dcat:keyword xml:lang="es">Ã</dcat:keyword>
-<!-- ASCII 196 -->
-<dcat:keyword xml:lang="es">Ä</dcat:keyword>
-<!-- ASCII 197 -->
-<dcat:keyword xml:lang="es">Å</dcat:keyword>
-<!-- ASCII 198 -->
-<dcat:keyword xml:lang="es">Æ</dcat:keyword>
-<!-- ASCII 199 -->
-<dcat:keyword xml:lang="es">Ç</dcat:keyword>
-<!-- ASCII 200 -->
-<dcat:keyword xml:lang="es">È</dcat:keyword>
-<!-- ASCII 201 -->
-<dcat:keyword xml:lang="es">É</dcat:keyword>
-<!-- ASCII 202 -->
-<dcat:keyword xml:lang="es">Ê</dcat:keyword>
-<!-- ASCII 203 -->
-<dcat:keyword xml:lang="es">Ë</dcat:keyword>
-<!-- ASCII 204 -->
-<dcat:keyword xml:lang="es">Ì</dcat:keyword>
-<!-- ASCII 205 -->
-<dcat:keyword xml:lang="es">Í</dcat:keyword>
-<!-- ASCII 206 -->
-<dcat:keyword xml:lang="es">Î</dcat:keyword>
-<!-- ASCII 207 -->
-<dcat:keyword xml:lang="es">Ï</dcat:keyword>
-<!-- ASCII 208 -->
-<dcat:keyword xml:lang="es">Ð</dcat:keyword>
-<!-- ASCII 209 -->
-<dcat:keyword xml:lang="es">Ñ</dcat:keyword>
-<!-- ASCII 210 -->
-<dcat:keyword xml:lang="es">Ò</dcat:keyword>
-<!-- ASCII 211 -->
-<dcat:keyword xml:lang="es">Ó</dcat:keyword>
-<!-- ASCII 212 -->
-<dcat:keyword xml:lang="es">Ô</dcat:keyword>
-<!-- ASCII 213 -->
-<dcat:keyword xml:lang="es">Õ</dcat:keyword>
-<!-- ASCII 214 -->
-<dcat:keyword xml:lang="es">Ö</dcat:keyword>
-<!-- ASCII 215 -->
-<dcat:keyword xml:lang="es">×</dcat:keyword>
-<!-- ASCII 216 -->
-<dcat:keyword xml:lang="es">Ø</dcat:keyword>
-<!-- ASCII 217 -->
-<dcat:keyword xml:lang="es">Ù</dcat:keyword>
-<!-- ASCII 218 -->
-<dcat:keyword xml:lang="es">Ú</dcat:keyword>
-<!-- ASCII 219 -->
-<dcat:keyword xml:lang="es">Û</dcat:keyword>
-<!-- ASCII 220 -->
-<dcat:keyword xml:lang="es">Ü</dcat:keyword>
-<!-- ASCII 221 -->
-<dcat:keyword xml:lang="es">Ý</dcat:keyword>
-<!-- ASCII 222 -->
-<dcat:keyword xml:lang="es">Þ</dcat:keyword>
-<!-- ASCII 223 -->
-<dcat:keyword xml:lang="es">ß</dcat:keyword>
-<!-- ASCII 224 -->
-<dcat:keyword xml:lang="es">à</dcat:keyword>
-<!-- ASCII 225 -->
-<dcat:keyword xml:lang="es">á</dcat:keyword>
-<!-- ASCII 226 -->
-<dcat:keyword xml:lang="es">â</dcat:keyword>
-<!-- ASCII 227 -->
-<dcat:keyword xml:lang="es">ã</dcat:keyword>
-<!-- ASCII 228 -->
-<dcat:keyword xml:lang="es">ä</dcat:keyword>
-<!-- ASCII 229 -->
-<dcat:keyword xml:lang="es">å</dcat:keyword>
-<!-- ASCII 230 -->
-<dcat:keyword xml:lang="es">æ</dcat:keyword>
-<!-- ASCII 231 -->
-<dcat:keyword xml:lang="es">ç</dcat:keyword>
-<!-- ASCII 232 -->
-<dcat:keyword xml:lang="es">è</dcat:keyword>
-<!-- ASCII 233 -->
-<dcat:keyword xml:lang="es">é</dcat:keyword>
-<!-- ASCII 234 -->
-<dcat:keyword xml:lang="es">ê</dcat:keyword>
-<!-- ASCII 235 -->
-<dcat:keyword xml:lang="es">ë</dcat:keyword>
-<!-- ASCII 236 -->
-<dcat:keyword xml:lang="es">ì</dcat:keyword>
-<!-- ASCII 237 -->
-<dcat:keyword xml:lang="es">í</dcat:keyword>
-<!-- ASCII 238 -->
-<dcat:keyword xml:lang="es">î</dcat:keyword>
-<!-- ASCII 239 -->
-<dcat:keyword xml:lang="es">ï</dcat:keyword>
-<!-- ASCII 240 -->
-<dcat:keyword xml:lang="es">ð</dcat:keyword>
-<!-- ASCII 241 -->
-<dcat:keyword xml:lang="es">ñ</dcat:keyword>
-<!-- ASCII 242 -->
-<dcat:keyword xml:lang="es">ò</dcat:keyword>
-<!-- ASCII 243 -->
-<dcat:keyword xml:lang="es">ó</dcat:keyword>
-<!-- ASCII 244 -->
-<dcat:keyword xml:lang="es">ô</dcat:keyword>
-<!-- ASCII 245 -->
-<dcat:keyword xml:lang="es">õ</dcat:keyword>
-<!-- ASCII 246 -->
-<dcat:keyword xml:lang="es">ö</dcat:keyword>
-<!-- ASCII 247 -->
-<dcat:keyword xml:lang="es">÷</dcat:keyword>
-<!-- ASCII 248 -->
-<dcat:keyword xml:lang="es">ø</dcat:keyword>
-<!-- ASCII 249 -->
-<dcat:keyword xml:lang="es">ù</dcat:keyword>
-<!-- ASCII 250 -->
-<dcat:keyword xml:lang="es">ú</dcat:keyword>
-<!-- ASCII 251 -->
-<dcat:keyword xml:lang="es">û</dcat:keyword>
-<!-- ASCII 252 -->
-<dcat:keyword xml:lang="es">ü</dcat:keyword>
-<!-- ASCII 253 -->
-<dcat:keyword xml:lang="es">ý</dcat:keyword>
-<!-- ASCII 254 -->
-<dcat:keyword xml:lang="es">þ</dcat:keyword>
-<!-- ASCII 255 -->
-<dcat:keyword xml:lang="es">ÿ</dcat:keyword>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-25</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-01</dct:issued>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/empleo" />
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sector-publico" />
+    <dct:title xml:lang="es">Resultados Electorales</dct:title>
+    <dct:description xml:lang="es">Vista de referendum</dct:description>
+    <dcat:landingPage rdf:resource="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229" />
+    <dcat:landingPage rdf:resource="http://infoelectoral.interior.gob.es/es/elecciones-celebradas/" />
+    <dct:identifier>b45370c2-9171-478a-ae2e-d23152ea7229</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN" />
+    <dcat:keyword xml:lang="es">Resultados electorales</dcat:keyword>
+    <dcat:keyword xml:lang="es">Elecciones</dcat:keyword>
+    <dcat:keyword xml:lang="es">Proceso electoral</dcat:keyword>
+    <dcat:keyword xml:lang="es">Candidaturas</dcat:keyword>
+    <dcat:keyword xml:lang="es">Candidatos</dcat:keyword>
+    <dcat:keyword xml:lang="es">Candidatas</dcat:keyword>
+    <dcat:keyword xml:lang="es">Ayuntamiento</dcat:keyword>
+    <dcat:keyword xml:lang="es">Provincia</dcat:keyword>
+    <dcat:keyword xml:lang="es">Distrito electoral</dcat:keyword>
+    <dcat:keyword xml:lang="es">Sección Electoral</dcat:keyword>
+    <dcat:keyword xml:lang="es">Comunidades Autónomas</dcat:keyword>
+    <dcat:keyword xml:lang="es">Parlamento Europeo</dcat:keyword>
+    <dcat:keyword xml:lang="es">Referéndum</dcat:keyword>
+    <dcat:keyword xml:lang="es">Cabildos insulares</dcat:keyword>
+    <dcat:keyword xml:lang="es">Juntas Generales</dcat:keyword>
+    <dcat:keyword xml:lang="es">Congreso</dcat:keyword>
+    <dcat:keyword xml:lang="es">Senado</dcat:keyword>
+    <dcat:keyword xml:lang="es">Diputaciones Provinciales</dcat:keyword>
+    <dcat:keyword xml:lang="es">Partidos Judiciales</dcat:keyword>
+    <dcat:keyword xml:lang="es">Circunscripción</dcat:keyword>
+    <dcat:keyword xml:lang="es">Mesas electorales</dcat:keyword>
+    <dcat:keyword xml:lang="es">Votos nulos</dcat:keyword>
+    <dcat:keyword xml:lang="es">Votos en blanco</dcat:keyword>
+    <dcat:keyword xml:lang="es">Participación electoral</dcat:keyword>
+    <dcat:keyword xml:lang="es">Senadores</dcat:keyword>
+    <dcat:keyword xml:lang="es">Diputados</dcat:keyword>
+    <dcat:keyword xml:lang="es">Alcaldes</dcat:keyword>
+    <dcat:keyword xml:lang="es">Concejales</dcat:keyword>
+    <dcat:keyword xml:lang="es">Escaños</dcat:keyword>
+    <dcat:keyword xml:lang="es">Censo electoral</dcat:keyword>
+    <dcat:keyword xml:lang="es">CERA</dcat:keyword>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-11</dct:modified>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
     <dct:temporal>
-      <dct:PeriodOfTime rdf:nodeID="N403230d655aa40bc9aa8fd59b028cdcf">
-        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-01</dcat:startDate>
-        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-24</dcat:endDate>
+      <dct:PeriodOfTime rdf:nodeID="N669739452ab64a80abfd1f8a86a6c3f6">
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1976-01-01T00:00:00+01:00</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-11T00:00:00+01:00</dcat:endDate>
       </dct:PeriodOfTime>
     </dct:temporal>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
     <dcat:distribution>
-      <dcat:Distribution rdf:about="https://172.20.200.5:8443/dataset/mirea0044546dsocupacion000001/resource/csv-ocupacion-laboral-productiva-de-poblacion-interna">
-        <dct:title xml:lang="es">CSV: Ocupación laboral productiva de población interna</dct:title>
-        <dct:description xml:lang="es">Archivo CSV con los registros de ocupación laboral productiva de la población interna en los centros penitenciarios y CIS</dct:description>
-        <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BYNC_4_0" />
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
-        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv" />
-        <dcat:accessURL rdf:resource="https://gobdatos.tpfe.es/gobiernodato/Ocupacion.csv" />
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-25</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-16</dct:issued>
+      <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-congreso">
+        <dct:title xml:lang="es">Elecciones Congreso</dct:title>
+        <dct:description xml:lang="es">Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones Generales Congreso</dct:description>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+        <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Congreso.xlsx" />
+        <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Congreso.xlsx" />
         <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
-        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/2018/12/05/3/con" />
-        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1979/09/26/1/con" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1985/06/19/5" />
         <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
       </dcat:Distribution>
     </dcat:distribution>
-    <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1979/09/26/1/con" />
-    <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/2018/12/05/3/con" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla" />
-    <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
-    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" /></dct:publisher>
-    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" /></dct:creator>
-    <ns8:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns8:validationStatus>
-    <dcat:contactPoint>
-      <vcard:Kind rdf:nodeID="N9aac1c1a69bd4071be63d693c20dc627">
-        <vcard:fn xml:lang="es">Gerencia</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:tpfe@tpfe.es" />
-        <vcard:hasURL rdf:resource="http://www.tpfe.es" />
-        <vcard:organization-name xml:lang="es">Trabajo Penitenciario y Formación para el Empleo</vcard:organization-name>
-        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" />
-        <vcard:hasTelephone rdf:resource="tel:.+34915242905" />
-      </vcard:Kind>
-    </dcat:contactPoint>
-  </dcat:Dataset>
-  </dcat:dataset>
-    <dcat:dataset><dcat:Dataset rdf:about="https://172.20.200.5:8443/dataset/mirea0044546dsformacion000001">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-    <dct:title xml:lang="es">TPFE: Formación para el empleo e inserción laboral impartidas en centros penitenciarios y centros de inserción social (CIS)</dct:title>
-    <dct:description xml:lang="es">Conjuntos de datos de programas formativos certificados impartidos a la población interna por Trabajo Penitenciario y Formación para el Empleo. Incluye información sobre los programas de formación para el empleo e inserción laboral desarrollados en los centros penitenciarios y CIS. No se incluyen los datos de los centros de Cataluña ni del País Vasco, al tratarse de una competencia transferida a dichas comunidades autónomas.</dct:description>
-    <dcat:landingPage rdf:resource="https://172.20.200.5:8443/dataset/mirea0044546dsformacion000001" />
-    <dct:identifier>MIR:EA0044546:ds:FORMACION:000001</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY" />
-    <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL" />
-    <dcat:keyword xml:lang="es">formación</dcat:keyword>
-    <dcat:keyword xml:lang="es">inserción laboral</dcat:keyword>
-    <dcat:keyword xml:lang="es">programas formativos</dcat:keyword>
-    <dcat:keyword xml:lang="es">centros penitenciarios</dcat:keyword>
-    <dcat:keyword xml:lang="es">penitenciario</dcat:keyword>
-    <dcat:keyword xml:lang="es">CIS</dcat:keyword>
-    <dcat:keyword xml:lang="es">centros de inserción social</dcat:keyword>
-    <dcat:keyword xml:lang="es">población interna</dcat:keyword>
-    <dcat:keyword xml:lang="es">personas internas</dcat:keyword>
-    <dcat:keyword xml:lang="es">actividades formativas</dcat:keyword>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-25</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-01</dct:issued>
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA" />
-    </dct:language>
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/educacion" />
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sector-publico" />
-    <dct:temporal>
-      <dct:PeriodOfTime rdf:nodeID="Na92014f1553d4b3db94907472a8e241f">
-        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-01</dcat:startDate>
-        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-24</dcat:endDate>
-      </dct:PeriodOfTime>
-    </dct:temporal>
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
     <dcat:distribution>
-      <dcat:Distribution rdf:about="https://172.20.200.5:8443/dataset/mirea0044546dsformacion000001/resource/csv-formacion-para-el-empleo-e-insercion-laboral-impartidas-a-la-poblacion-interna">
-        <dct:title xml:lang="es">CSV: Formación para el empleo e inserción laboral impartidas a la población interna</dct:title>
-        <dct:description xml:lang="es">Archivo CSV con los registros de formación para el empleo e inserción laboral impartidas a la población interna en los centros penitenciarios y CIS</dct:description>
-        <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BYNC_4_0" />
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
-        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv" />
-        <dcat:accessURL rdf:resource="https://gobdatos.tpfe.es/gobiernodato/Formacion.csv" />
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-25</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-16</dct:issued>
+      <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-congreso-cargos-electos">
+        <dct:title xml:lang="es">Elecciones Congreso cargos electos</dct:title>
+        <dct:description xml:lang="es">Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones Generales Congreso cargos electos</dct:description>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+        <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Congreso-cargos-electos.xlsx" />
+        <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Congreso-cargos-electos.xlsx" />
         <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
-        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/2018/12/05/3/con" />
-        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1979/09/26/1/con" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1985/06/19/5" />
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-senado">
+        <dct:title xml:lang="es">Elecciones Senado</dct:title>
+        <dct:description xml:lang="es">Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones Generales Senado</dct:description>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+        <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Senado.xlsx" />
+        <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Senado.xlsx" />
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1985/06/19/5" />
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-senado-cargos-electos">
+        <dct:title xml:lang="es">Elecciones Senado cargos electos</dct:title>
+        <dct:description xml:lang="es">Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones Generales Senado cargos electos</dct:description>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+        <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Senado-cargos-electos.xlsx" />
+        <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Senado-cargos-electos.xlsx" />
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1985/06/19/5" />
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-al-parlamento-europeo">
+        <dct:title xml:lang="es">Elecciones al Parlamento Europeo</dct:title>
+        <dct:description xml:lang="es">Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones a Parlamento Europeo</dct:description>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+        <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-al-Parlamento-Europeo.xlsx" />
+        <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-al-Parlamento-Europeo.xlsx" />
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1985/06/19/5" />
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-a-muncipios-de-mas-de-250-habitantes">
+        <dct:title xml:lang="es">Elecciones a muncipios de más de 250 habitantes</dct:title>
+        <dct:description xml:lang="es">Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones a muncipios de más de 250 habitantes</dct:description>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+        <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-municipios-de-mas-de-250-hab.xlsx" />
+        <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-municipios-de-mas-de-250-hab.xlsx" />
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1985/06/19/5" />
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-a-municipios-de-hasta-250-habitantes">
+        <dct:title xml:lang="es">Elecciones a municipios de hasta 250 habitantes</dct:title>
+        <dct:description xml:lang="es">Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones a municipios iguales o menores de 250 habitantes</dct:description>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+        <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-municipios-de-hasta-250-hab.xlsx" />
+        <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-municipios-de-hasta-250-hab.xlsx" />
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1985/06/19/5" />
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/referendum">
+        <dct:title xml:lang="es">Referendum</dct:title>
+        <dct:description xml:lang="es">Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Referendum</dct:description>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+        <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Referendum.xlsx" />
+        <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Referendum.xlsx" />
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1985/06/19/5" />
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-a-cabildos-insulares-canarios">
+        <dct:title xml:lang="es">Elecciones a Cabildos Insulares Canarios</dct:title>
+        <dct:description xml:lang="es">Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones a Cabildos</dct:description>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+        <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-Cabildos-Insulares-canarios.xlsx" />
+        <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-Cabildos-Insulares-canarios.xlsx" />
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1985/06/19/5" />
         <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
       </dcat:Distribution>
     </dcat:distribution>
     <dcatap:applicableLegislation>
-      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/1979/09/26/1/con" />
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/1985/06/19/5" />
+    </dcatap:applicableLegislation>
+    <dct:spatial>
+      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España">
+        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.7038 40.4168)</dcat:centroid>
+      </dct:Location>
+    </dct:spatial>
+    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801" /></dct:publisher>
+    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801" /></dct:creator>
+    <ns9:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns9:validationStatus>
+    <dcat:contactPoint>
+      <vcard:Kind rdf:nodeID="Nc0f4f83c0008472ab9693fffaa08691f">
+        <vcard:hasEmail rdf:resource="mailto:infoelectoral@interior.es" />
+        <vcard:organization-name xml:lang="es">E00003801</vcard:organization-name>
+        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/Ministerio del Interior" />
+      </vcard:Kind>
+    </dcat:contactPoint>
+  </dcat:Dataset>
+  </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://pre-ckan.interior.gob.es/dataset/mire04931401dsproced000001">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+        <dct:title xml:lang="es">Procedimientos administrativos de la Guardia Civil</dct:title>
+        <dct:description xml:lang="es">Relación de procedimientos administrativos que son competencia de la Guardia Civil</dct:description>
+        <dcat:landingPage rdf:resource="https://pre-ckan.interior.gob.es/dataset/mire04931401dsproced000001" />
+        <dct:identifier>MIR:E04931401:ds:PROCED:000001</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/AS_NEEDED" />
+        <dcat:keyword xml:lang="es">Guardia Civil</dcat:keyword>
+        <dcat:keyword xml:lang="es">administración</dcat:keyword>
+        <dcat:keyword xml:lang="es">procedimientos</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-19</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-19</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sector-publico" />
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/seguridad" />
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/mire04931401dsproced000001/resource/procedimientos-administrativos-competencia-guardia-civil-csv">
+    <dct:title xml:lang="es">procedimientos-administrativos-competencia-guardia-civil-csv</dct:title>
+    <dct:description xml:lang="es">Listado en formato CSV de los procedimientos administrativos competencia de la Guardia Civil.</dct:description>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+    <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BYNCSA_4_0" />
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
+    <dcat:accessURL rdf:resource="https://web.guardiacivil.es/documentos/contenidos_reutilizables/procedimientos_administrativos_competencia_guardia_civil.csv" />
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-19</dct:modified>
+    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+  </dcat:Distribution>
+  </dcat:distribution>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España" />
+        <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801" /></dct:publisher>
+        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401"><foaf:name xml:lang="es">Dirección General de la Guardia Civil</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
+        <ns9:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns9:validationStatus>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:nodeID="N9743d14b8a0a4175a5b42178d243a21f">
+            <vcard:fn xml:lang="es">Oficina de Información y Atención a la Ciudadanía</vcard:fn>
+            <vcard:hasURL rdf:resource="https://web.guardiacivil.es" />
+            <vcard:organization-name xml:lang="es">Dirección General de la Guardia Civil</vcard:organization-name>
+            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401" />
+            <vcard:hasTelephone rdf:resource="tel:915146000" />
+          </vcard:Kind>
+        </dcat:contactPoint>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://pre-ckan.interior.gob.es/dataset/mire04931401dsdepend000002">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+        <dct:title xml:lang="es">Conjunto de pruebas</dct:title>
+        <dct:description xml:lang="es">PRUEBA: Listado de las unidades de la Guardia Civil que prestan servicios de atención al ciudadano, incluyendo teléfono de contacto, su dirección postal y coordenadas geográficas.</dct:description>
+        <dcat:landingPage rdf:resource="https://pre-ckan.interior.gob.es/dataset/mire04931401dsdepend000002" />
+        <dct:identifier>MIR:E04931401:ds:DEPEND:000002</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/AS_NEEDED" />
+        <dcat:keyword xml:lang="es">Guardia Civil</dcat:keyword>
+        <dcat:keyword xml:lang="es">atención ciudadana</dcat:keyword>
+        <dcat:keyword xml:lang="es">dependencias</dcat:keyword>
+        <dcat:keyword xml:lang="es">cuarteles</dcat:keyword>
+        <dcat:keyword xml:lang="es">puestos</dcat:keyword>
+        <dcat:keyword xml:lang="es">denuncias</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-14</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-12</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sector-publico" />
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/seguridad" />
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/mire04931401dsdepend000002/resource/direcciones-dependencias-guardia-civil-csv">
+    <dct:title xml:lang="es">direcciones-dependencias-guardia-civil-csv</dct:title>
+    <dct:description xml:lang="es">Listado en formato CSV de las unidades de la Guardia Civil que prestan servicios de atención al ciudadano, incluyendo teléfono de contacto, su dirección postal y coordenadas geográficas.</dct:description>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+    <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BYNCSA_4_0" />
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
+    <dcat:accessURL rdf:resource="http://prueba.guardiacivil.es/direcciones_dependencias_guardia_civil.csv" />
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-14</dct:modified>
+    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+  </dcat:Distribution>
+  </dcat:distribution>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España" />
+        <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801" /></dct:publisher>
+        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401"><foaf:name xml:lang="es">Dirección General de la Guardia Civil</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
+        <ns9:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns9:validationStatus>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:nodeID="N2ce25fcd46b14ce094c7bd3211399580">
+            <vcard:fn xml:lang="es">Oficina de Información y Atención a la Ciudadanía</vcard:fn>
+            <vcard:hasURL rdf:resource="https://web.guardiacivil.es" />
+            <vcard:organization-name xml:lang="es">Dirección General de la Guardia Civil</vcard:organization-name>
+            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401" />
+            <vcard:hasTelephone rdf:resource="tel:915146000" />
+          </vcard:Kind>
+        </dcat:contactPoint>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://pre-ckan.interior.gob.es/dataset/mire04931401dsdepend000001">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+        <dct:title xml:lang="es">Dependencias de atención a la ciudadanía de la Guardia Civil</dct:title>
+        <dct:description xml:lang="es">Listado de las unidades de la Guardia Civil que prestan servicios de atención a la ciudadanía, incluyendo teléfono de contacto, su dirección postal y coordenadas geográficas.</dct:description>
+        <dcat:landingPage rdf:resource="https://pre-ckan.interior.gob.es/dataset/mire04931401dsdepend000001" />
+        <dct:identifier>MIR:E04931401:ds:DEPEND:000001</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/AS_NEEDED" />
+        <dcat:keyword xml:lang="es">Guardia Civil</dcat:keyword>
+        <dcat:keyword xml:lang="es">atención ciudadana</dcat:keyword>
+        <dcat:keyword xml:lang="es">dependencias</dcat:keyword>
+        <dcat:keyword xml:lang="es">cuarteles</dcat:keyword>
+        <dcat:keyword xml:lang="es">puestos</dcat:keyword>
+        <dcat:keyword xml:lang="es">denuncias</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-12</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-29</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sector-publico" />
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/seguridad" />
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/mire04931401dsdepend000001/resource/listado-dependenciasde-atencion-ciudadania-guardia-civil-csv">
+    <dct:title xml:lang="es">listado-dependenciasde-atencion-ciudadania-guardia-civil-csv</dct:title>
+    <dct:description xml:lang="es">Listado en formato CSV de las unidades de la Guardia Civil que prestan servicios de atención a la ciudadanía, incluyendo teléfono de contacto, su dirección postal y coordenadas geográficas.</dct:description>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+    <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BYNCSA_4_0" />
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
+    <dcat:accessURL rdf:resource="https://web.guardiacivil.es/.galleries/Documentos/listado-dependenciasde-atencion-ciudadania-Guardia-Civil.csv" />
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-12</dct:modified>
+    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv" />
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+  </dcat:Distribution>
+  </dcat:distribution>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España" />
+        <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801" /></dct:publisher>
+        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401"><foaf:name xml:lang="es">Dirección General de la Guardia Civil</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
+        <ns9:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns9:validationStatus>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:nodeID="Ndf88b208d1c742f29bd1cfaff461955c">
+            <vcard:fn xml:lang="es">Oficina de Información y Atención a la Ciudadanía</vcard:fn>
+            <vcard:hasURL rdf:resource="https://web.guardiacivil.es" />
+            <vcard:organization-name xml:lang="es">Dirección General de la Guardia Civil</vcard:organization-name>
+            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401" />
+            <vcard:hasTelephone rdf:resource="tel:915146000" />
+          </vcard:Kind>
+        </dcat:contactPoint>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://pre-ckan.interior.gob.es/dataset/mire00130502dssini000001">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+        <dct:title xml:lang="es">Ficheros de microdatos de accidentes con víctimas 2024</dct:title>
+        <dct:description xml:lang="es">Este fichero contiene información de los accidentes con víctimas ocurridos en vías urbanas e interurbanas en España en el año 2024.
+
+Cada línea del fichero se corresponde con un accidente con víctimas, detallándose para cada fichero el número de registros y las variables que los componen.
+
+Las definiciones correspondientes a los indicadores de accidente con víctimas, fallecido 30 días, herido hospitalizado 30 días y herido no hospitalizado 30 días, se pueden consultar en la Orden INT/2223/2014, de 27 de octubre, por la que se regula la comunicación de la información al Registro Nacional de Víctimas de Accidentes de Tráfico (BOE nº 289, de 29 de noviembre de 2014).</dct:description>
+        <dcat:landingPage rdf:resource="https://pre-ckan.interior.gob.es/dataset/mire00130502dssini000001" />
+        <dcat:landingPage rdf:resource="https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Ficheros-de-microdatos-de-accidentes-con-victimas-2024/" />
+        <dct:identifier>MIR:E00130502:ds:SINI:000001</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL%3E" />
+        <dcat:keyword xml:lang="es">Accidentes</dcat:keyword>
+        <dcat:keyword xml:lang="es">Víctimas</dcat:keyword>
+        <dcat:keyword xml:lang="es">Tráfico</dcat:keyword>
+        <dcat:keyword xml:lang="es">siniestralidad</dcat:keyword>
+        <dcat:keyword xml:lang="es">Seguridad Vial</dcat:keyword>
+        <dcat:keyword xml:lang="es">Carretera</dcat:keyword>
+        <dcat:keyword xml:lang="es">2024</dcat:keyword>
+        <dcat:keyword xml:lang="es">Accidentes con víctimas</dcat:keyword>
+        <dcat:keyword xml:lang="es">microdatos</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-05T08:20:29+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-05</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+        <foaf:page rdf:resource="https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/dgt-en-cifras/24h/Diccionario_Tabla_Accidentes.xlsx" />
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte" />
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:nodeID="N37ae31f7f9494a3b8066f66a7751d43e">
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-01T00:00:00+00:00</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-31T00:00:00+00:00</dcat:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:provenance>
+          <dct:ProvenanceStatement rdf:nodeID="N1873dd1feb6c445eb9769931602743eb">
+            <dct:description xml:lang="es">Datos recopilados por la Dirección General de Tráfico a partir del registro de accidentes con víctimas por los agentes con competencia en materia de tráfico y seguridad vial y ottras fuentes como el IMLCF y el INE.</dct:description>
+          </dct:ProvenanceStatement>
+        </dct:provenance>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/mire00130502dssini000001/resource/ficheros-de-microdatos-de-accidentes-con-victimas-2024">
+    <dct:title xml:lang="es">Ficheros de microdatos de accidentes con víctimas 2024</dct:title>
+    <dct:description xml:lang="es">Acceso al repositorio de microdatos de accidentes de tráfico con víctimas de 2024. Permite la búsqueda y descarga de los ficheros anuales (formato XLS) con el desglose detallado de siniestros, vehículos, conductores, pasajeros y peatones implicados en vías interurbanas y urbanas.</dct:description>
+    <foaf:page rdf:resource="https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/dgt-en-cifras/24h/Diccionario_Tabla_Accidentes.xlsx" />
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+    <dcat:accessURL rdf:resource="https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Ficheros-de-microdatos-de-accidentes-con-victimas-2024/" />
+    <dcat:downloadURL rdf:resource="https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/dgt-en-cifras/publicaciones/Ficheros_microdatos_de_accidentalidad_con_victimas/TABLA_ACCIDENTES_24.XLSX" />
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-05T08:20:29+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-05T08:03:07+00:00</dct:issued>
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25357990</dcat:byteSize>
+    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/STABLE" />
+    <dcatap:applicableLegislation>
+      <eli:LegalResource rdf:about="https://www.boe.es/buscar/act.php?id=BOE-A-2014-12411" />
     </dcatap:applicableLegislation>
     <dcatap:applicableLegislation>
-      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/2018/12/05/3/con" />
+      <eli:LegalResource rdf:about="https://www.boe.es/buscar/act.php?id=BOE-A-2014-12408" />
     </dcatap:applicableLegislation>
-    <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia">
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-4.5800 37.3400)</dcat:centroid>
-      </dct:Location>
-    </dct:spatial>
-    <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon">
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-0.7000 41.3200)</dcat:centroid>
-      </dct:Location>
-    </dct:spatial>
-    <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias">
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-5.8600 43.3000)</dcat:centroid>
-      </dct:Location>
-    </dct:spatial>
-    <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears">
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (2.7400 39.3700)</dcat:centroid>
-      </dct:Location>
-    </dct:spatial>
-    <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias">
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-15.7900 28.5300)</dcat:centroid>
-      </dct:Location>
-    </dct:spatial>
-    <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria">
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-4.0000 43.1400)</dcat:centroid>
-      </dct:Location>
-    </dct:spatial>
-    <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon">
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-4.5400 41.7500)</dcat:centroid>
-      </dct:Location>
-    </dct:spatial>
-    <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha">
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.2200 39.8900)</dcat:centroid>
-      </dct:Location>
-    </dct:spatial>
-    <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana">
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-0.5000 39.3200)</dcat:centroid>
-      </dct:Location>
-    </dct:spatial>
-    <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura">
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-6.1100 39.2400)</dcat:centroid>
-      </dct:Location>
-    </dct:spatial>
-    <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia">
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-8.0100 42.8000)</dcat:centroid>
-      </dct:Location>
-    </dct:spatial>
-    <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid">
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-3.8200 40.5300)</dcat:centroid>
-      </dct:Location>
-    </dct:spatial>
-    <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia">
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-1.5000 38.0700)</dcat:centroid>
-      </dct:Location>
-    </dct:spatial>
-    <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra">
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-1.6200 42.6100)</dcat:centroid>
-      </dct:Location>
-    </dct:spatial>
-    <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja">
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-2.3800 42.2700)</dcat:centroid>
-      </dct:Location>
-    </dct:spatial>
-    <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta">
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-5.3300 35.9000)</dcat:centroid>
-      </dct:Location>
-    </dct:spatial>
-    <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla">
-        <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-2.9500 35.2900)</dcat:centroid>
-      </dct:Location>
-    </dct:spatial>
-    <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
-    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" /></dct:publisher>
-    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" /></dct:creator>
-    <ns8:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns8:validationStatus>
-    <dcat:contactPoint>
-      <vcard:Kind rdf:nodeID="Nf3e798b66a554d65826f36602c2f02f5">
-        <vcard:fn xml:lang="es">Gerencia</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:tpfe@tpfe.es" />
-        <vcard:hasURL rdf:resource="http://www.tpfe.es" />
-        <vcard:organization-name xml:lang="es">Trabajo Penitenciario y Formación para el Empleo</vcard:organization-name>
-        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" />
-        <vcard:hasTelephone rdf:resource="tel:.+34915242905" />
-      </vcard:Kind>
-    </dcat:contactPoint>
-  </dcat:Dataset>
-  </dcat:dataset>
-    <dcat:dataset><dcat:Dataset rdf:about="https://172.20.200.5:8443/dataset/mirea0044546dsalimentacion000001">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
-    <dct:title xml:lang="es">TPFE: Aprovisionamiento de materias primas consumidas en los centros penitenciarios y centros de inserción social (CIS)</dct:title>
-    <dct:description xml:lang="es">Conjunto de datos relativo al consumo de materias primas en los centros penitenciarios y CIS gestionados en el ámbito de TPFE. Incluye la identificación del centro, la clasificación y descripción de la materia prima, la cantidad consumida y la unidad de medida correspondiente. Su contenido permite conocer y comparar los consumos de materias primas entre centros. No se incluyen los datos de los centros de Cataluña ni del País Vasco, al tratarse de una competencia transferida a dichas comunidades autónomas.</dct:description>
-    <dcat:landingPage rdf:resource="https://172.20.200.5:8443/dataset/mirea0044546dsalimentacion000001" />
-    <dct:identifier>MIR:EA0044546:ds:ALIMENTACION:000001</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY" />
-    <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL" />
-    <dcat:keyword xml:lang="es">materia prima</dcat:keyword>
-    <dcat:keyword xml:lang="es">alimentación</dcat:keyword>
-    <dcat:keyword xml:lang="es">víveres</dcat:keyword>
-    <dcat:keyword xml:lang="es">consumo</dcat:keyword>
-    <dcat:keyword xml:lang="es">centros penitenciarios</dcat:keyword>
-    <dcat:keyword xml:lang="es">CIS</dcat:keyword>
-    <dcat:keyword xml:lang="es">centros de inserción social</dcat:keyword>
-    <dcat:keyword xml:lang="es">penitenciario</dcat:keyword>
-    <dcat:keyword xml:lang="es">población interna</dcat:keyword>
-    <dcat:keyword xml:lang="es">personas internas</dcat:keyword>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-25</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-01</dct:issued>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/comercio" />
-    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sector-publico" />
-    <dct:temporal>
-      <dct:PeriodOfTime rdf:nodeID="Ncf9a038185f648a69397838b94f4240e">
-        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-01</dcat:startDate>
-        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-24</dcat:endDate>
-      </dct:PeriodOfTime>
-    </dct:temporal>
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-    <dcat:distribution>
-      <dcat:Distribution rdf:about="https://172.20.200.5:8443/dataset/mirea0044546dsalimentacion000001/resource/csv-aprovisionamiento-materias-primas-consumidas-en-centros-penitenciarios-y-cis">
-        <dct:title xml:lang="es">CSV: Aprovisionamiento materias primas consumidas en centros penitenciarios y CIS</dct:title>
-        <dct:description xml:lang="es">Archivo CSV con los registros de aprovisionamiento de materias primas consumidas en los centros penitenciarios y CIS</dct:description>
-        <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BYNC_4_0" />
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
-        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv" />
-        <dcat:accessURL rdf:resource="https://gobdatos.tpfe.es/gobiernodato/Alimentacion.csv" />
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-25</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-16</dct:issued>
-        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
-        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/2018/12/05/3/con" />
-        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1979/09/26/1/con" />
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
-      </dcat:Distribution>
-    </dcat:distribution>
-    <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1979/09/26/1/con" />
-    <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/2018/12/05/3/con" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta" />
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla" />
-    <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES/" />
-    <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" /></dct:publisher>
-    <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" /></dct:creator>
-    <ns8:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns8:validationStatus>
-    <dcat:contactPoint>
-      <vcard:Kind rdf:nodeID="Ndb8c54d92106472b989e6c3148aed5f1">
-        <vcard:fn xml:lang="es">Gerencia</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:tpfe@tpfe.es" />
-        <vcard:hasURL rdf:resource="http://www.tpfe.es" />
-        <vcard:organization-name xml:lang="es">Trabajo Penitenciario y Formación para el Empleo</vcard:organization-name>
-        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546" />
-        <vcard:hasTelephone rdf:resource="tel:.+34915242905" />
-      </vcard:Kind>
-    </dcat:contactPoint>
-  </dcat:Dataset>
-  </dcat:dataset>
+    <dcatap:applicableLegislation>
+      <eli:LegalResource rdf:about="https://eur-lex.europa.eu/legal-content/ES/LSU/?uri=oj:JOL_2018_151_R_0001" />
+    </dcatap:applicableLegislation>
+    <dcatap:applicableLegislation>
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1998/12/23/2822/con" />
+    </dcatap:applicableLegislation>
+    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+  </dcat:Distribution>
+  </dcat:distribution>
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/buscar/act.php?id=BOE-A-2014-12411" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/rd/1998/12/23/2822/con" />
+        <dcatap:applicableLegislation rdf:resource="https://eur-lex.europa.eu/legal-content/ES/LSU/?uri=oj:JOL_2018_151_R_0001" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/buscar/act.php?id=BOE-A-2014-12408" />
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España" />
+        <dct:conformsTo rdf:resource="https://www.boe.es/eli/es/o/2014/10/27/int2223/con" />
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502"><foaf:name xml:lang="es">Dirección General de Tráfico (DGT)</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:publisher>
+        <dct:creator><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502"><foaf:name xml:lang="es">Dirección General de Tráfico (DGT)</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502</dct:identifier><dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" /></foaf:Agent></dct:creator>
+        <ns9:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns9:validationStatus>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:nodeID="N643837f868c0423aa3e94993dab79683">
+            <vcard:fn xml:lang="es">Observatorio Nacional Seguridad Vial (ONSV)</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:servicio.estadistica@dgt.es" />
+            <vcard:hasURL rdf:resource="https://www.dgt.es/menusecundario/dgt-en-cifras/" />
+            <vcard:organization-name xml:lang="es">Dirección General de Tráfico (DGT)</vcard:organization-name>
+            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502" />
+          </vcard:Kind>
+        </dcat:contactPoint>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://pre-ckan.interior.gob.es/dataset/15ada526dd0a4f28b69b0b6e05eecfb1">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+        <dct:title xml:lang="es">Alertas de riesgos y emergencias</dct:title>
+        <dct:description xml:lang="es">Vista de registro de alertas.</dct:description>
+        <dcat:landingPage rdf:resource="https://pre-ckan.interior.gob.es/dataset/15ada526dd0a4f28b69b0b6e05eecfb1" />
+        <dct:identifier>15ada526-dd0a-4f28-b69b-0b6e05eecfb1</dct:identifier>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-11</dct:modified>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/seguridad" />
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE" />
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+        <dcat:distribution><dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/15ada526dd0a4f28b69b0b6e05eecfb1/resource/no-disponible">
+    <dct:title xml:lang="es">no-disponible</dct:title>
+    <dcat:accessURL rdf:resource="http://mir.es/No_disponible" />
+    <dcat:downloadURL rdf:resource="http://mir.es/No_disponible" />
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
+  </dcat:Distribution>
+  </dcat:distribution>
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00129002"><foaf:name xml:lang="es">Dirección General de Protección Civil y Emergencias</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00129002</dct:identifier></foaf:Agent></dct:publisher>
+        <ns9:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns9:validationStatus>
+      </dcat:Dataset>
+    </dcat:dataset>
   </dcat:Catalog>
-</rdf:RDF>
+  </rdf:RDF>
