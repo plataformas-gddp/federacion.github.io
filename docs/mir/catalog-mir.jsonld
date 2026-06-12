@@ -65,7 +65,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-06-12T11:44:46.771290"
+        "@value": "2026-06-12T12:07:00.501121"
       }
     ],
     "http://purl.org/dc/terms/publisher": [
@@ -85,7 +85,7 @@
     ],
     "http://purl.org/dc/terms/temporal": [
       {
-        "@id": "_:Nb117c243d20e4a278da17b2577f0914c"
+        "@id": "_:Na3ce05a15c0e44d5904e78aab513a51e"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -163,7 +163,7 @@
     ],
     "http://purl.org/dc/terms/publisher": [
       {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00129002"
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -246,7 +246,7 @@
     ],
     "http://purl.org/dc/terms/temporal": [
       {
-        "@id": "_:Nd57d90acdf444985a8998f3317f38449"
+        "@id": "_:N2efe6be4c1b14d0d971d321e76246ba5"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -261,7 +261,7 @@
     ],
     "http://www.w3.org/ns/dcat#contactPoint": [
       {
-        "@id": "_:N93bbfbf6dae045649d7361cc4223901c"
+        "@id": "_:Nd8dd1b140b814e1cb821de8d72c8bfb9"
       }
     ],
     "http://www.w3.org/ns/dcat#distribution": [
@@ -379,7 +379,7 @@
     ],
     "http://purl.org/dc/terms/temporal": [
       {
-        "@id": "_:Naa94330c46d04beda9699e320e848fcf"
+        "@id": "_:N02a5f5c426c440b9b918e7a54c883614"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -390,7 +390,7 @@
     ],
     "http://www.w3.org/ns/dcat#contactPoint": [
       {
-        "@id": "_:Nc1384861351c4897a07d13634d3e9a0c"
+        "@id": "_:Neb7186a4818649ae8017c0082993d4f0"
       }
     ],
     "http://www.w3.org/ns/dcat#distribution": [
@@ -525,11 +525,11 @@
       },
       {
         "@language": "es",
-        "@value": "Votos en blanco"
+        "@value": "Alcaldes"
       },
       {
         "@language": "es",
-        "@value": "Alcaldes"
+        "@value": "Votos en blanco"
       },
       {
         "@language": "es",
@@ -1110,70 +1110,7 @@
     ]
   },
   {
-    "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00129002",
-    "@type": [
-      "http://xmlns.com/foaf/0.1/Agent"
-    ],
-    "http://purl.org/dc/terms/identifier": [
-      {
-        "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00129002"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/name": [
-      {
-        "@language": "es",
-        "@value": "Dirección General de Protección Civil y Emergencias"
-      }
-    ]
-  },
-  {
-    "@id": "_:N3149a9c7b7e24fb7826f4b65b7b026c2",
-    "@type": [
-      "http://www.w3.org/2006/time#Instant"
-    ],
-    "http://www.w3.org/2006/time#inXSDDate": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2021-01-01"
-      }
-    ]
-  },
-  {
-    "@id": "_:N3abd438129274cc9a6989aede390e07d",
-    "@type": [
-      "http://www.w3.org/2006/time#Instant"
-    ],
-    "http://www.w3.org/2006/time#inXSDDate": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2022-01-01"
-      }
-    ]
-  },
-  {
-    "@id": "_:N93bbfbf6dae045649d7361cc4223901c",
-    "@type": [
-      "http://www.w3.org/2006/vcard/ns#Kind"
-    ],
-    "http://www.w3.org/2006/vcard/ns#hasEmail": [
-      {
-        "@id": "mailto:infoelectoral@interior.es"
-      }
-    ],
-    "http://www.w3.org/2006/vcard/ns#hasUID": [
-      {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/Ministerio del Interior"
-      }
-    ],
-    "http://www.w3.org/2006/vcard/ns#organization-name": [
-      {
-        "@language": "es",
-        "@value": "E00003801"
-      }
-    ]
-  },
-  {
-    "@id": "_:Naa94330c46d04beda9699e320e848fcf",
+    "@id": "_:N02a5f5c426c440b9b918e7a54c883614",
     "@type": [
       "http://purl.org/dc/terms/PeriodOfTime"
     ],
@@ -1191,18 +1128,60 @@
     ]
   },
   {
-    "@id": "_:Nb117c243d20e4a278da17b2577f0914c",
+    "@id": "_:N2efe6be4c1b14d0d971d321e76246ba5",
+    "@type": [
+      "http://purl.org/dc/terms/PeriodOfTime"
+    ],
+    "http://www.w3.org/ns/dcat#endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2024-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#startDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2008-01-01T00:00:00+01:00"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3ff31d4af49c445b84d0150f77c55bd4",
+    "@type": [
+      "http://www.w3.org/2006/time#Instant"
+    ],
+    "http://www.w3.org/2006/time#inXSDDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "@id": "_:N77e08466953d4aeaa81e61ea8a98a8ba",
+    "@type": [
+      "http://www.w3.org/2006/time#Instant"
+    ],
+    "http://www.w3.org/2006/time#inXSDDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na3ce05a15c0e44d5904e78aab513a51e",
     "@type": [
       "http://purl.org/dc/terms/PeriodOfTime"
     ],
     "http://www.w3.org/2006/time#hasBeginning": [
       {
-        "@id": "_:N3149a9c7b7e24fb7826f4b65b7b026c2"
+        "@id": "_:N3ff31d4af49c445b84d0150f77c55bd4"
       }
     ],
     "http://www.w3.org/2006/time#hasEnd": [
       {
-        "@id": "_:N3abd438129274cc9a6989aede390e07d"
+        "@id": "_:N77e08466953d4aeaa81e61ea8a98a8ba"
       }
     ],
     "http://www.w3.org/ns/dcat#endDate": [
@@ -1219,7 +1198,7 @@
     ]
   },
   {
-    "@id": "_:Nc1384861351c4897a07d13634d3e9a0c",
+    "@id": "_:Nd8dd1b140b814e1cb821de8d72c8bfb9",
     "@type": [
       "http://www.w3.org/2006/vcard/ns#Kind"
     ],
@@ -1241,20 +1220,24 @@
     ]
   },
   {
-    "@id": "_:Nd57d90acdf444985a8998f3317f38449",
+    "@id": "_:Neb7186a4818649ae8017c0082993d4f0",
     "@type": [
-      "http://purl.org/dc/terms/PeriodOfTime"
+      "http://www.w3.org/2006/vcard/ns#Kind"
     ],
-    "http://www.w3.org/ns/dcat#endDate": [
+    "http://www.w3.org/2006/vcard/ns#hasEmail": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2024-01-01T00:00:00+01:00"
+        "@id": "mailto:infoelectoral@interior.es"
       }
     ],
-    "http://www.w3.org/ns/dcat#startDate": [
+    "http://www.w3.org/2006/vcard/ns#hasUID": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2008-01-01T00:00:00+01:00"
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/Ministerio del Interior"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#organization-name": [
+      {
+        "@language": "es",
+        "@value": "E00003801"
       }
     ]
   },
