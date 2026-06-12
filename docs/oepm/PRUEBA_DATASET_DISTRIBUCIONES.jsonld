@@ -163,7 +163,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Datos en Documentos Citados",
+          "@value": "INVENCIONES: Datos en Documentos Citados",
           "@language": "es"
         },
         {
@@ -346,7 +346,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos en Documentos Citados (Recurso ZIP) - ES20260607_Citaciones",
+          "@value": "INVENCIONES: Datos en Documentos Citados (Recurso ZIP) - ES20260607_Citaciones",
           "@language": "es"
         },
         {
@@ -369,7 +369,7 @@
           "@language": "es"
         },
         {
-          "@value": "OEPM Authority File inventory in compressed ZIP format.",
+          "@value": "INVENCIONES: OEPM Authority File inventory in compressed ZIP format.",
           "@language": "en"
         }
       ],
@@ -399,7 +399,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos en Documentos Citados (Recurso ZIP) - ES20260531_Citaciones",
+          "@value": "INVENCIONES: Datos en Documentos Citados (Recurso ZIP) - ES20260531_Citaciones",
           "@language": "es"
         },
         {
@@ -422,7 +422,7 @@
           "@language": "es"
         },
         {
-          "@value": "OEPM Authority File inventory in compressed ZIP format.",
+          "@value": "INVENCIONES: OEPM Authority File inventory in compressed ZIP format.",
           "@language": "en"
         }
       ],
@@ -472,7 +472,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013)",
+          "@value": "INVENCIONES: Datos en Documentos citados y ECLA (para documentos anteriores a 2013)",
           "@language": "es"
         },
         {
@@ -660,7 +660,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013) (Recurso ZIP) - 30",
+          "@value": "INVENCIONES: Datos en Documentos citados y ECLA (para documentos anteriores a 2013) (Recurso ZIP) - 30",
           "@language": "es"
         },
         {
@@ -733,7 +733,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Resúmenes",
+          "@value": "INVENCIONES: Resúmenes",
           "@language": "es"
         },
         {
@@ -762,7 +762,7 @@
       ],
       "dct:description": [
         {
-          "@value": "Para el año en curso, ficheros únicos de descarga para cada quincena, con todos los resúmenes de las publicaciones realizadas en la quincena correspondiente. A partir del año anterior, ficheros de descarga únicos para cada año.",
+          "@value": "INVENCIONES: Para el año en curso, ficheros únicos de descarga para cada quincena, con todos los resúmenes de las publicaciones realizadas en la quincena correspondiente. A partir del año anterior, ficheros de descarga únicos para cada año.",
           "@language": "es"
         },
         {
@@ -833,7 +833,7 @@
           "@language": "es"
         },
         {
-          "@value": "resúmenes de patentes",
+          "@value": "INVENCIONES: resúmenes de patentes",
           "@language": "es"
         },
         {
@@ -920,7 +920,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Resúmenes (Recurso ZIP) - 20260529",
+          "@value": "INVENCIONES: Resúmenes (Recurso ZIP) - 20260529",
           "@language": "es"
         },
         {
@@ -939,7 +939,7 @@
       },
       "dct:description": [
         {
-          "@value": "Resúmenes de la OEPM en formato comprimido ZIP.",
+          "@value": "INVENCIONES: Resúmenes de la OEPM en formato comprimido ZIP.",
           "@language": "es"
         },
         {
@@ -973,7 +973,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Resúmenes (Recurso ZIP) - 20260514",
+          "@value": "INVENCIONES: Resúmenes (Recurso ZIP) - 20260514",
           "@language": "es"
         },
         {
@@ -1046,7 +1046,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Folletos en formato PDF",
+          "@value": "INVENCIONES: Folletos en formato PDF",
           "@language": "es"
         },
         {
@@ -1229,7 +1229,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Folletos en formato PDF (Recurso ZIP) - 20260529",
+          "@value": "INVENCIONES: Folletos en formato PDF (Recurso ZIP) - 20260529",
           "@language": "es"
         },
         {
@@ -1248,7 +1248,7 @@
       },
       "dct:description": [
         {
-          "@value": "Folletos en formato PDF de la OEPM en formato comprimido ZIP.",
+          "@value": "INVENCIONES: Folletos en formato PDF de la OEPM en formato comprimido ZIP.",
           "@language": "es"
         },
         {
@@ -1282,7 +1282,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Folletos en formato PDF (Recurso ZIP) - 20260514",
+          "@value": "INVENCIONES: Folletos en formato PDF (Recurso ZIP) - 20260514",
           "@language": "es"
         },
         {
@@ -1301,7 +1301,7 @@
       },
       "dct:description": [
         {
-          "@value": "Folletos en formato PDF de la OEPM en formato comprimido ZIP.",
+          "@value": "INVENCIONES: Folletos en formato PDF de la OEPM en formato comprimido ZIP.",
           "@language": "es"
         },
         {
@@ -1355,7 +1355,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Texto Completo",
+          "@value": "INVENCIONES: Texto Completo",
           "@language": "es"
         },
         {
@@ -1384,7 +1384,7 @@
       ],
       "dct:description": [
         {
-          "@value": "Ficheros de descarga diarios por fecha de publicación, mensuales por mes de publicación para el año en curso, y anuales para los años anteriores al año en curso. Los ficheros XML de texto completo cumplen el estándar ST36 desde el 01/01/2019; prior to that date, the XML files used a proprietary format.",
+          "@value": "INVENCIONES: Ficheros de descarga diarios por fecha de publicación, mensuales por mes de publicación para el año en curso, y anuales para los años anteriores al año en curso. Los ficheros XML de texto completo cumplen el estándar ST36 desde el 01/01/2019; prior to that date, the XML files used a proprietary format.",
           "@language": "es"
         },
         {
@@ -1455,7 +1455,7 @@
           "@language": "es"
         },
         {
-          "@value": "texto completo de patentes",
+          "@value": "INVENCIONES: texto completo de patentes",
           "@language": "es"
         },
         {
@@ -1542,7 +1542,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Texto Completo (Recurso ZIP) - 20260529",
+          "@value": "INVENCIONES: Texto Completo (Recurso ZIP) - 20260529",
           "@language": "es"
         },
         {
@@ -1595,7 +1595,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Texto Completo (Recurso ZIP) - 20260514",
+          "@value": "INVENCIONES: Texto Completo (Recurso ZIP) - 20260514",
           "@language": "es"
         },
         {
@@ -1668,7 +1668,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Datos Legales",
+          "@value": "INVENCIONES: Datos Legales",
           "@language": "es"
         },
         {
@@ -1697,7 +1697,7 @@
       ],
       "dct:description": [
         {
-          "@value": "Ficheros de descarga diarios por fecha de publicación, mensuales por mes de publicación para el año en curso, y anuales para los años anteriores al año en curso. Los ficheros XML de datos legales cumplen el estándar ST36 desde el 01/01/2019; prior to that date, the XML files used a proprietary format.",
+          "@value": "INVENCIONES: Ficheros de descarga diarios por fecha de publicación, mensuales por mes de publicación para el año en curso, y anuales para los años anteriores al año en curso. Los ficheros XML de datos legales cumplen el estándar ST36 desde el 01/01/2019; prior to that date, the XML files used a proprietary format.",
           "@language": "es"
         },
         {
@@ -1864,7 +1864,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos Legales (Recurso ZIP) - 20260608",
+          "@value": "INVENCIONES: Datos Legales (Recurso ZIP) - 20260608",
           "@language": "es"
         },
         {
@@ -1883,7 +1883,7 @@
       },
       "dct:description": [
         {
-          "@value": "Datos Legales de la OEPM en formato comprimido ZIP.",
+          "@value": "INVENCIONES: Datos Legales de la OEPM en formato comprimido ZIP.",
           "@language": "es"
         },
         {
@@ -1917,7 +1917,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos Legales (Recurso ZIP) - 20260609",
+          "@value": "INVENCIONES: Datos Legales (Recurso ZIP) - 20260609",
           "@language": "es"
         },
         {
@@ -1936,7 +1936,7 @@
       },
       "dct:description": [
         {
-          "@value": "Datos Legales de la OEPM en formato comprimido ZIP.",
+          "@value": "INVENCIONES: Datos Legales de la OEPM en formato comprimido ZIP.",
           "@language": "es"
         },
         {
@@ -1970,7 +1970,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos Legales (Recurso ZIP) - 20260610",
+          "@value": "INVENCIONES: Datos Legales (Recurso ZIP) - 20260610",
           "@language": "es"
         },
         {
@@ -1989,7 +1989,7 @@
       },
       "dct:description": [
         {
-          "@value": "Datos Legales de la OEPM en formato comprimido ZIP.",
+          "@value": "INVENCIONES: Datos Legales de la OEPM en formato comprimido ZIP.",
           "@language": "es"
         },
         {
@@ -2023,7 +2023,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos Legales (Recurso ZIP) - 20260603",
+          "@value": "INVENCIONES: Datos Legales (Recurso ZIP) - 20260603",
           "@language": "es"
         },
         {
@@ -2042,7 +2042,7 @@
       },
       "dct:description": [
         {
-          "@value": "Datos Legales de la OEPM en formato comprimido ZIP.",
+          "@value": "INVENCIONES: Datos Legales de la OEPM en formato comprimido ZIP.",
           "@language": "es"
         },
         {
@@ -2076,7 +2076,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos Legales (Recurso ZIP) - 20260605",
+          "@value": "INVENCIONES: Datos Legales (Recurso ZIP) - 20260605",
           "@language": "es"
         },
         {
@@ -2095,7 +2095,7 @@
       },
       "dct:description": [
         {
-          "@value": "Datos Legales de la OEPM en formato comprimido ZIP.",
+          "@value": "INVENCIONES: Datos Legales de la OEPM en formato comprimido ZIP.",
           "@language": "es"
         },
         {
@@ -2149,7 +2149,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Datos bibliográficos (incluyen la clasificación CIP pero no el resumen)",
+          "@value": "INVENCIONES: Datos bibliográficos (incluyen la clasificación CIP pero no el resumen)",
           "@language": "es"
         },
         {
@@ -2249,7 +2249,7 @@
           "@language": "es"
         },
         {
-          "@value": "datos bibliográficos",
+          "@value": "INVENCIONES: datos bibliográficos",
           "@language": "es"
         },
         {
@@ -2337,7 +2337,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos Bibliográficos (Recurso ZIP)",
+          "@value": "INVENCIONES: Datos Bibliográficos (Recurso ZIP)",
           "@language": "es"
         },
         {
@@ -2356,7 +2356,7 @@
       },
       "dct:description": [
         {
-          "@value": "Datos Bibliográficos de la OEPM en formato comprimido ZIP.",
+          "@value": "INVENCIONES: Datos Bibliográficos de la OEPM en formato comprimido ZIP.",
           "@language": "es"
         },
         {
@@ -2410,7 +2410,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Datos de Clasificación CPC",
+          "@value": "INVENCIONES: Datos de Clasificación CPC",
           "@language": "es"
         },
         {
@@ -2593,7 +2593,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos de Clasificación CPC (Recurso ZIP) - ES20260607_CPC",
+          "@value": "INVENCIONES: Datos de Clasificación CPC (Recurso ZIP) - ES20260607_CPC",
           "@language": "es"
         },
         {
@@ -2612,7 +2612,7 @@
       },
       "dct:description": [
         {
-          "@value": "Datos de Clasificación CPC de la OEPM en formato comprimido ZIP.",
+          "@value": "INVENCIONES: Datos de Clasificación CPC de la OEPM en formato comprimido ZIP.",
           "@language": "es"
         },
         {
@@ -2646,7 +2646,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos de Clasificación CPC (Recurso ZIP) - ES20260531_CPC",
+          "@value": "INVENCIONES: Datos de Clasificación CPC (Recurso ZIP) - ES20260531_CPC",
           "@language": "es"
         },
         {
@@ -2665,7 +2665,7 @@
       },
       "dct:description": [
         {
-          "@value": "Datos de Clasificación CPC de la OEPM en formato comprimido ZIP.",
+          "@value": "INVENCIONES: Datos de Clasificación CPC de la OEPM en formato comprimido ZIP.",
           "@language": "es"
         },
         {
@@ -2899,7 +2899,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos bibliográficos e imágenes (Recurso ZIP)",
+          "@value": "INVENCIONES: Datos bibliográficos e imágenes (Recurso ZIP)",
           "@language": "es"
         },
         {
@@ -3149,7 +3149,7 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Datos bibliográficos e imágenes (Recurso ZIP)",
+          "@value": "INVENCIONES: Datos bibliográficos e imágenes (Recurso ZIP)",
           "@language": "es"
         },
         {
@@ -3222,11 +3222,11 @@
       ],
       "dct:title": [
         {
-          "@value": "Authority File - Inventario de documentos de patente publicados por la OEPM desde 1826",
+          "@value": "INVENCIONES: Authority File - Inventario de documentos de patente publicados por la OEPM desde 1826",
           "@language": "es"
         },
         {
-          "@value": "Authority File - Inventory of patent documents issued by the SPTO (OEPM) since 1826",
+          "@value": "INVENCIONES: Authority File - Inventory of patent documents issued by the SPTO (OEPM) since 1826",
           "@language": "en"
         }
       ],
@@ -3310,7 +3310,7 @@
       ],
       "dcat:keyword": [
         {
-          "@value": "authority file",
+          "@value": "INVENCIONES: authority file",
           "@language": "es"
         },
         {
@@ -3410,11 +3410,11 @@
       "@type": "dcat:Distribution",
       "dct:title": [
         {
-          "@value": "Authority File - Inventario de patentes y modelos de utilidad (Recurso ZIP) - 20260531",
+          "@value": "INVENCIONES: Authority File - Inventario de patentes y modelos de utilidad (Recurso ZIP) - 20260531",
           "@language": "es"
         },
         {
-          "@value": "Authority File - Patent and Utility Model Inventory (ZIP Resource) - 20260531",
+          "@value": "INVENCIONES: Authority File - Patent and Utility Model Inventory (ZIP Resource) - 20260531",
           "@language": "en"
         }
       ],
@@ -3429,11 +3429,11 @@
       },
       "dct:description": [
         {
-          "@value": "Inventario Authority File de la OEPM en formato comprimido ZIP.",
+          "@value": "INVENCIONES: Inventario Authority File de la OEPM en formato comprimido ZIP.",
           "@language": "es"
         },
         {
-          "@value": "OEPM Authority File inventory in compressed ZIP format.",
+          "@value": "INVENCIONES: OEPM Authority File inventory in compressed ZIP format.",
           "@language": "en"
         }
       ],
