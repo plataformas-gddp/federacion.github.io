@@ -43,7 +43,7 @@
     <dct:rights rdf:resource="http://rightsstatements.org/vocab/InC/1.0/" />
     <dct:title xml:lang="es">CKAN</dct:title>
     <dct:description xml:lang="es">Catalogo de datos del Ministerio del Interior</dct:description>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-06-12T11:44:46.771290</dct:modified>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-06-12T12:07:00.501121</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-01</dct:issued>
     <dct:publisher>
       <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801" />
@@ -56,21 +56,42 @@
     <dcat:catalog rdf:resource="https://datos.gob.es/catalogo/related" />
     <dcat:record rdf:resource="https://datos.gob.es/catalogo/record/1" />
     <dct:temporal>
-      <dct:PeriodOfTime rdf:nodeID="Nb117c243d20e4a278da17b2577f0914c">
+      <dct:PeriodOfTime rdf:nodeID="Na3ce05a15c0e44d5904e78aab513a51e">
         <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-01</dcat:startDate>
         <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-01-01</dcat:endDate>
         <time:hasBeginning>
-          <time:Instant rdf:nodeID="N3149a9c7b7e24fb7826f4b65b7b026c2">
+          <time:Instant rdf:nodeID="N3ff31d4af49c445b84d0150f77c55bd4">
             <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-01</time:inXSDDate>
           </time:Instant>
         </time:hasBeginning>
         <time:hasEnd>
-          <time:Instant rdf:nodeID="N3abd438129274cc9a6989aede390e07d">
+          <time:Instant rdf:nodeID="N77e08466953d4aeaa81e61ea8a98a8ba">
             <time:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-01-01</time:inXSDDate>
           </time:Instant>
         </time:hasEnd>
       </dct:PeriodOfTime>
     </dct:temporal>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://pre-ckan.interior.gob.es/dataset/15ada526dd0a4f28b69b0b6e05eecfb1">
+        <dct:title xml:lang="es">Alertas de riesgos y emergencias</dct:title>
+        <dct:description xml:lang="es">Vista de registro de alertas.</dct:description>
+        <dct:identifier>15ada526-dd0a-4f28-b69b-0b6e05eecfb1</dct:identifier>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-12</dct:modified>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/seguridad" />
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE" />
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/15ada526dd0a4f28b69b0b6e05eecfb1/resource/estadisticas-de-alertas-por-riesgo-y-territorio-xlsx">
+            <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/alertas_riesgos_territorio/Estad%C3%ADsticas%20de%20alertas%20por%20riesgo%20y%20territorio.xlsx" />
+            <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/alertas_riesgos_territorio/Estad%C3%ADsticas%20de%20alertas%20por%20riesgo%20y%20territorio.xlsx" />
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801" />
+        </dct:publisher>
+      </dcat:Dataset>
+    </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229">
         <dct:title xml:lang="es">Resultados Electorales</dct:title>
@@ -112,7 +133,7 @@
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-12</dct:modified>
         <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
         <dct:temporal>
-          <dct:PeriodOfTime rdf:nodeID="Naa94330c46d04beda9699e320e848fcf">
+          <dct:PeriodOfTime rdf:nodeID="N02a5f5c426c440b9b918e7a54c883614">
             <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1976-01-01T00:00:00+01:00</dcat:startDate>
             <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-11T00:00:00+01:00</dcat:endDate>
           </dct:PeriodOfTime>
@@ -237,36 +258,12 @@
           <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801" />
         </dct:creator>
         <dcat:contactPoint>
-          <vcard:Kind rdf:nodeID="Nc1384861351c4897a07d13634d3e9a0c">
+          <vcard:Kind rdf:nodeID="Neb7186a4818649ae8017c0082993d4f0">
             <vcard:hasEmail rdf:resource="mailto:infoelectoral@interior.es" />
             <vcard:organization-name xml:lang="es">E00003801</vcard:organization-name>
             <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/Ministerio del Interior" />
           </vcard:Kind>
         </dcat:contactPoint>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://pre-ckan.interior.gob.es/dataset/15ada526dd0a4f28b69b0b6e05eecfb1">
-        <dct:title xml:lang="es">Alertas de riesgos y emergencias</dct:title>
-        <dct:description xml:lang="es">Vista de registro de alertas.</dct:description>
-        <dct:identifier>15ada526-dd0a-4f28-b69b-0b6e05eecfb1</dct:identifier>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-12</dct:modified>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA" />
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/seguridad" />
-        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE" />
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
-        <dcat:distribution>
-          <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/15ada526dd0a4f28b69b0b6e05eecfb1/resource/estadisticas-de-alertas-por-riesgo-y-territorio-xlsx">
-            <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/alertas_riesgos_territorio/Estad%C3%ADsticas%20de%20alertas%20por%20riesgo%20y%20territorio.xlsx" />
-            <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/alertas_riesgos_territorio/Estad%C3%ADsticas%20de%20alertas%20por%20riesgo%20y%20territorio.xlsx" />
-          </dcat:Distribution>
-        </dcat:distribution>
-        <dct:publisher>
-          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00129002">
-            <foaf:name xml:lang="es">Dirección General de Protección Civil y Emergencias</foaf:name>
-            <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00129002</dct:identifier>
-          </foaf:Agent>
-        </dct:publisher>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -291,7 +288,7 @@
         <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-01T00:00:00+01:00</dct:issued>
         <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/demografia" />
         <dct:temporal>
-          <dct:PeriodOfTime rdf:nodeID="Nd57d90acdf444985a8998f3317f38449">
+          <dct:PeriodOfTime rdf:nodeID="N2efe6be4c1b14d0d971d321e76246ba5">
             <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-01T00:00:00+01:00</dcat:startDate>
             <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-01T00:00:00+01:00</dcat:endDate>
           </dct:PeriodOfTime>
@@ -333,7 +330,7 @@
           <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801" />
         </dct:creator>
         <dcat:contactPoint>
-          <vcard:Kind rdf:nodeID="N93bbfbf6dae045649d7361cc4223901c">
+          <vcard:Kind rdf:nodeID="Nd8dd1b140b814e1cb821de8d72c8bfb9">
             <vcard:hasEmail rdf:resource="mailto:infoelectoral@interior.es" />
             <vcard:organization-name xml:lang="es">E00003801</vcard:organization-name>
             <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/Ministerio del Interior" />
