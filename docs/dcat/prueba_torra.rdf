@@ -516,7 +516,7 @@ Las definiciones correspondientes a los indicadores de accidente con víctimas, 
     <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED" />
   </dcat:Distribution>
   </dcat:distribution>
-        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00129002"><foaf:name xml:lang="es">Dirección General de Protección Civil y Emergencias</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00129002</dct:identifier></foaf:Agent></dct:publisher>
+        <dct:publisher><foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801"><foaf:name xml:lang="es">Dirección General de Protección Civil y Emergencias</foaf:name><dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801</dct:identifier></foaf:Agent></dct:publisher>
         <ns9:validationStatus xml:lang="es">conforme-DCAT-AP-ES</ns9:validationStatus>
       </dcat:Dataset>
     </dcat:dataset>
