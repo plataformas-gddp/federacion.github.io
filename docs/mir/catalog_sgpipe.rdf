@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcatap="http://data.europa.eu/r5r/" xmlns:dct="http://purl.org/dc/terms/" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+  <dcat:Dataset rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229">
+    <dct:title xml:lang="es">Resultados Electorales</dct:title>
+    <dct:description xml:lang="es">Vista de referendum</dct:description>
+    <dcat:landingPage rdf:resource="http://infoelectoral.interior.gob.es/es/elecciones-celebradas/" />
+    <dct:identifier>b45370c2-9171-478a-ae2e-d23152ea7229</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN" />
+    <dcat:keyword xml:lang="es">Resultados electorales</dcat:keyword>
+    <dcat:keyword xml:lang="es">Elecciones</dcat:keyword>
+    <dcat:keyword xml:lang="es">Proceso electoral</dcat:keyword>
+    <dcat:keyword xml:lang="es">Candidaturas</dcat:keyword>
+    <dcat:keyword xml:lang="es">Candidatos</dcat:keyword>
+    <dcat:keyword xml:lang="es">Candidatas</dcat:keyword>
+    <dcat:keyword xml:lang="es">Ayuntamiento</dcat:keyword>
+    <dcat:keyword xml:lang="es">Provincia</dcat:keyword>
+    <dcat:keyword xml:lang="es">Distrito electoral</dcat:keyword>
+    <dcat:keyword xml:lang="es">Sección Electoral</dcat:keyword>
+    <dcat:keyword xml:lang="es">Comunidades Autónomas</dcat:keyword>
+    <dcat:keyword xml:lang="es">Parlamento Europeo</dcat:keyword>
+    <dcat:keyword xml:lang="es">Referéndum</dcat:keyword>
+    <dcat:keyword xml:lang="es">Cabildos insulares</dcat:keyword>
+    <dcat:keyword xml:lang="es">Juntas Generales</dcat:keyword>
+    <dcat:keyword xml:lang="es">Congreso</dcat:keyword>
+    <dcat:keyword xml:lang="es">Senado</dcat:keyword>
+    <dcat:keyword xml:lang="es">Diputaciones Provinciales</dcat:keyword>
+    <dcat:keyword xml:lang="es">Partidos Judiciales</dcat:keyword>
+    <dcat:keyword xml:lang="es">Circunscripción</dcat:keyword>
+    <dcat:keyword xml:lang="es">Mesas electorales</dcat:keyword>
+    <dcat:keyword xml:lang="es">Votos nulos</dcat:keyword>
+    <dcat:keyword xml:lang="es">Votos en blanco</dcat:keyword>
+    <dcat:keyword xml:lang="es">Participación electoral</dcat:keyword>
+    <dcat:keyword xml:lang="es">Senadores</dcat:keyword>
+    <dcat:keyword xml:lang="es">Diputados</dcat:keyword>
+    <dcat:keyword xml:lang="es">Alcaldes</dcat:keyword>
+    <dcat:keyword xml:lang="es">Concejales</dcat:keyword>
+    <dcat:keyword xml:lang="es">Escaños</dcat:keyword>
+    <dcat:keyword xml:lang="es">Censo electoral</dcat:keyword>
+    <dcat:keyword xml:lang="es">CERA</dcat:keyword>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-11</dct:modified>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar" />
+    <dct:temporal>
+      <dct:PeriodOfTime rdf:nodeID="Nfe5d58fa4cb04ecb962d698e172eb9da">
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1976-01-01T00:00:00+01:00</dcat:startDate>
+        <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-11T00:00:00+01:00</dcat:endDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-congreso">
+        <dct:title xml:lang="es">Elecciones Congreso</dct:title>
+        <dct:description xml:lang="es">Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones Generales Congreso</dct:description>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Congreso.xlsx" />
+        <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Congreso.xlsx" />
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1985/06/19/5" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-congreso-cargos-electos">
+        <dct:title xml:lang="es">Elecciones Congreso cargos electos</dct:title>
+        <dct:description xml:lang="es">Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones Generales Congreso cargos electos</dct:description>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Congreso-cargos-electos.xlsx" />
+        <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Congreso-cargos-electos.xlsx" />
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1985/06/19/5" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-senado">
+        <dct:title xml:lang="es">Elecciones Senado</dct:title>
+        <dct:description xml:lang="es">Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones Generales Senado</dct:description>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Senado.xlsx" />
+        <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Senado.xlsx" />
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1985/06/19/5" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-senado-cargos-electos">
+        <dct:title xml:lang="es">Elecciones Senado cargos electos</dct:title>
+        <dct:description xml:lang="es">Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones Generales Senado cargos electos</dct:description>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Senado-cargos-electos.xlsx" />
+        <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Senado-cargos-electos.xlsx" />
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1985/06/19/5" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-al-parlamento-europeo">
+        <dct:title xml:lang="es">Elecciones al Parlamento Europeo</dct:title>
+        <dct:description xml:lang="es">Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones a Parlamento Europeo</dct:description>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-al-Parlamento-Europeo.xlsx" />
+        <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-al-Parlamento-Europeo.xlsx" />
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1985/06/19/5" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-a-muncipios-de-mas-de-250-habitantes">
+        <dct:title xml:lang="es">Elecciones a muncipios de más de 250 habitantes</dct:title>
+        <dct:description xml:lang="es">Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones a muncipios de más de 250 habitantes</dct:description>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-municipios-de-mas-de-250-hab.xlsx" />
+        <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-municipios-de-mas-de-250-hab.xlsx" />
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1985/06/19/5" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-a-municipios-de-hasta-250-habitantes">
+        <dct:title xml:lang="es">Elecciones a municipios de hasta 250 habitantes</dct:title>
+        <dct:description xml:lang="es">Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones a municipios iguales o menores de 250 habitantes</dct:description>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-municipios-de-hasta-250-hab.xlsx" />
+        <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-municipios-de-hasta-250-hab.xlsx" />
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1985/06/19/5" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/referendum">
+        <dct:title xml:lang="es">Referendum</dct:title>
+        <dct:description xml:lang="es">Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Referendum</dct:description>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Referendum.xlsx" />
+        <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Referendum.xlsx" />
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1985/06/19/5" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-a-cabildos-insulares-canarios">
+        <dct:title xml:lang="es">Elecciones a Cabildos Insulares Canarios</dct:title>
+        <dct:description xml:lang="es">Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones a Cabildos</dct:description>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0" />
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX" />
+        <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-Cabildos-Insulares-canarios.xlsx" />
+        <dcat:downloadURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-Cabildos-Insulares-canarios.xlsx" />
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE" />
+        <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/lo/1985/06/19/5" />
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcatap:applicableLegislation>
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/1985/06/19/5" />
+    </dcatap:applicableLegislation>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España" />
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801">
+        <foaf:name xml:lang="es">Ministerio del Interior</foaf:name>
+        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801</dct:identifier>
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" />
+      </foaf:Agent>
+    </dct:publisher>
+    <dct:creator>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801">
+        <foaf:name xml:lang="es">Ministerio del Interior</foaf:name>
+        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801</dct:identifier>
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" />
+      </foaf:Agent>
+    </dct:creator>
+    <dcat:contactPoint>
+      <vcard:Kind rdf:nodeID="N2229ac0c0cb24cb784c48b5b292f34f9">
+        <vcard:hasEmail rdf:resource="mailto:infoelectoral@interior.es" />
+        <vcard:organization-name xml:lang="es">E00003801</vcard:organization-name>
+        <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/Ministerio del Interior" />
+      </vcard:Kind>
+    </dcat:contactPoint>
+  </dcat:Dataset>
+  <dct:IMT rdf:nodeID="N5914c1fe770642e9aefd97e38b104216">
+    <rdf:value>text/HTTP://PUBLICATIONS.EUROPA.EU/RESOURCE/AUTHORITY/FILE-TYPE/XLSX</rdf:value>
+    <rdfs:label>HTTP://PUBLICATIONS.EUROPA.EU/RESOURCE/AUTHORITY/FILE-TYPE/XLSX</rdfs:label>
+  </dct:IMT>
+  <dct:IMT rdf:nodeID="N06e773d6e07140e1b33fee51cfc245a5">
+    <rdf:value>text/HTTP://PUBLICATIONS.EUROPA.EU/RESOURCE/AUTHORITY/FILE-TYPE/XLSX</rdf:value>
+    <rdfs:label>HTTP://PUBLICATIONS.EUROPA.EU/RESOURCE/AUTHORITY/FILE-TYPE/XLSX</rdfs:label>
+  </dct:IMT>
+  <dct:IMT rdf:nodeID="Ncf1a1cfaf3a24f3aab70b3b138fa7227">
+    <rdf:value>text/HTTP://PUBLICATIONS.EUROPA.EU/RESOURCE/AUTHORITY/FILE-TYPE/XLSX</rdf:value>
+    <rdfs:label>HTTP://PUBLICATIONS.EUROPA.EU/RESOURCE/AUTHORITY/FILE-TYPE/XLSX</rdfs:label>
+  </dct:IMT>
+  <dct:IMT rdf:nodeID="N1dc0522e6a0d49c297319087954bca33">
+    <rdf:value>text/HTTP://PUBLICATIONS.EUROPA.EU/RESOURCE/AUTHORITY/FILE-TYPE/XLSX</rdf:value>
+    <rdfs:label>HTTP://PUBLICATIONS.EUROPA.EU/RESOURCE/AUTHORITY/FILE-TYPE/XLSX</rdfs:label>
+  </dct:IMT>
+  <dct:IMT rdf:nodeID="Ndaa12b3107b047528c73199920bd8862">
+    <rdf:value>text/HTTP://PUBLICATIONS.EUROPA.EU/RESOURCE/AUTHORITY/FILE-TYPE/XLSX</rdf:value>
+    <rdfs:label>HTTP://PUBLICATIONS.EUROPA.EU/RESOURCE/AUTHORITY/FILE-TYPE/XLSX</rdfs:label>
+  </dct:IMT>
+  <dct:IMT rdf:nodeID="Nc5594bd995c848a9a0ad39376da5bc28">
+    <rdf:value>text/HTTP://PUBLICATIONS.EUROPA.EU/RESOURCE/AUTHORITY/FILE-TYPE/XLSX</rdf:value>
+    <rdfs:label>HTTP://PUBLICATIONS.EUROPA.EU/RESOURCE/AUTHORITY/FILE-TYPE/XLSX</rdfs:label>
+  </dct:IMT>
+  <dct:IMT rdf:nodeID="Nfbbc80632ed046018374c08bfd036dd0">
+    <rdf:value>text/HTTP://PUBLICATIONS.EUROPA.EU/RESOURCE/AUTHORITY/FILE-TYPE/XLSX</rdf:value>
+    <rdfs:label>HTTP://PUBLICATIONS.EUROPA.EU/RESOURCE/AUTHORITY/FILE-TYPE/XLSX</rdfs:label>
+  </dct:IMT>
+  <dct:IMT rdf:nodeID="N1b8f5442fd9342edae58ac928261a4ce">
+    <rdf:value>text/HTTP://PUBLICATIONS.EUROPA.EU/RESOURCE/AUTHORITY/FILE-TYPE/XLSX</rdf:value>
+    <rdfs:label>HTTP://PUBLICATIONS.EUROPA.EU/RESOURCE/AUTHORITY/FILE-TYPE/XLSX</rdfs:label>
+  </dct:IMT>
+  <dct:IMT rdf:nodeID="N7dc952d4633741d1a79cbe00a7a07ed9">
+    <rdf:value>text/HTTP://PUBLICATIONS.EUROPA.EU/RESOURCE/AUTHORITY/FILE-TYPE/XLSX</rdf:value>
+    <rdfs:label>HTTP://PUBLICATIONS.EUROPA.EU/RESOURCE/AUTHORITY/FILE-TYPE/XLSX</rdfs:label>
+  </dct:IMT>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
+    <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Congreso-cargos-electos.xlsx">
+    <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Congreso-cargos-electos.xlsx" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Congreso.xlsx">
+    <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Congreso.xlsx" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Senado-cargos-electos.xlsx">
+    <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Senado-cargos-electos.xlsx" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Senado.xlsx">
+    <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Senado.xlsx" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-Cabildos-Insulares-canarios.xlsx">
+    <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-Cabildos-Insulares-canarios.xlsx" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-municipios-de-hasta-250-hab.xlsx">
+    <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-municipios-de-hasta-250-hab.xlsx" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-municipios-de-mas-de-250-hab.xlsx">
+    <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-municipios-de-mas-de-250-hab.xlsx" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-al-Parlamento-Europeo.xlsx">
+    <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-al-Parlamento-Europeo.xlsx" />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Referendum.xlsx">
+    <dcat:accessURL rdf:resource="https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Referendum.xlsx" />
+  </rdf:Description>
+</rdf:RDF>
