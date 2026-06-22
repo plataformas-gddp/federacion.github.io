@@ -37,7 +37,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -149,13 +149,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28",
+          "@value": "2013-04-16",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -450,13 +450,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2025-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -492,13 +492,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2010-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -534,13 +534,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2025-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -576,13 +576,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2020-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -618,13 +618,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2016-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -660,13 +660,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2014-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -702,13 +702,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2009-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -744,13 +744,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2012-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -786,13 +786,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2017-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -828,13 +828,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2007-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -870,13 +870,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2011-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -912,13 +912,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2009-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -954,13 +954,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2015-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -996,13 +996,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2019-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1038,13 +1038,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2012-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1080,13 +1080,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2024-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1122,13 +1122,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2014-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1164,13 +1164,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2018-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1206,13 +1206,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2010-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1248,13 +1248,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2013-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1290,13 +1290,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2008-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1332,13 +1332,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2008-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1374,13 +1374,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2009-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1416,13 +1416,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2021-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1458,13 +1458,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2006-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1500,13 +1500,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2018-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1542,13 +1542,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2011-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1584,13 +1584,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2015-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1626,13 +1626,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2014-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1668,13 +1668,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2022-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1710,13 +1710,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1752,13 +1752,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2011-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1794,13 +1794,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2022-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1836,13 +1836,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2012-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1878,13 +1878,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2013-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1920,13 +1920,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2025-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -1962,13 +1962,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2021-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2004,13 +2004,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2006-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2046,13 +2046,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2024-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2088,13 +2088,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2007-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2130,13 +2130,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2172,13 +2172,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2023-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2214,13 +2214,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2006-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2256,13 +2256,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2010-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2298,13 +2298,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2022-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2340,13 +2340,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2020-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2382,13 +2382,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2017-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2424,13 +2424,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2008-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2466,13 +2466,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2016-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2508,13 +2508,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2020-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2550,13 +2550,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2017-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2592,13 +2592,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2015-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2634,13 +2634,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2013-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2676,13 +2676,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2021-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2718,13 +2718,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2018-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2760,13 +2760,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2016-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2802,13 +2802,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2023-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2844,13 +2844,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2019-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2886,13 +2886,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2024-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2928,13 +2928,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2007-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -2970,13 +2970,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2019-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -3012,13 +3012,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2023-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -3066,13 +3066,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28",
+          "@value": "2013-02-16",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -3367,13 +3367,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2007-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -3409,13 +3409,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2013-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -3451,13 +3451,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2009-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -3493,13 +3493,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -3535,13 +3535,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2016-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -3577,13 +3577,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2022-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -3619,13 +3619,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2024-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -3661,13 +3661,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2017-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -3703,13 +3703,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -3745,13 +3745,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2015-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -3787,13 +3787,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2020-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -3829,13 +3829,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2018-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -3871,13 +3871,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2021-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -3913,13 +3913,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2008-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -3955,13 +3955,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2007-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -3997,13 +3997,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2011-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4039,13 +4039,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2025-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4081,13 +4081,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2009-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4123,13 +4123,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2013-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4165,13 +4165,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2012-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4207,13 +4207,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2025-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4249,13 +4249,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2011-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4291,13 +4291,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2025-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4333,13 +4333,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2013-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4375,13 +4375,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2022-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4417,13 +4417,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2010-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4459,13 +4459,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2008-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4501,13 +4501,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2014-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4543,13 +4543,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2020-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4585,13 +4585,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2006-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4627,13 +4627,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2015-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4669,13 +4669,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2010-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4711,13 +4711,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2017-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4753,13 +4753,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2023-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4795,13 +4795,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2022-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4837,13 +4837,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2023-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4879,13 +4879,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2007-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4921,13 +4921,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2016-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -4963,13 +4963,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2021-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5005,13 +5005,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2024-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5047,13 +5047,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2018-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5089,13 +5089,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2020-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5131,13 +5131,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2019-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5173,13 +5173,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2011-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5215,13 +5215,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2006-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5257,13 +5257,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2021-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5299,13 +5299,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2009-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5341,13 +5341,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2006-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5383,13 +5383,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2019-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5425,13 +5425,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2008-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5467,13 +5467,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2024-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5509,13 +5509,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2015-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5551,13 +5551,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2014-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5593,13 +5593,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2023-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5635,13 +5635,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2012-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5677,13 +5677,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2016-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5719,13 +5719,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2018-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5761,13 +5761,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2012-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5803,13 +5803,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2019-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5845,13 +5845,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2017-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5887,13 +5887,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2014-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5929,13 +5929,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2010-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -5983,13 +5983,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28",
+          "@value": "2006-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -6278,13 +6278,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2006-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -6320,13 +6320,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2006-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -6362,13 +6362,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2006-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -6404,13 +6404,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2007-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -6446,13 +6446,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2007-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -6488,13 +6488,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2007-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -6530,13 +6530,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2008-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -6572,13 +6572,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2008-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -6614,13 +6614,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2008-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -6656,13 +6656,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2009-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -6698,13 +6698,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2009-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -6740,13 +6740,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2009-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -6782,13 +6782,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2010-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -6824,13 +6824,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2010-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -6866,13 +6866,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2010-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -6908,13 +6908,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2011-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -6950,13 +6950,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2011-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -6992,13 +6992,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2011-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7034,13 +7034,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2012-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7076,13 +7076,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2012-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7118,13 +7118,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2012-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7160,13 +7160,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2013-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7202,13 +7202,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2013-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7244,13 +7244,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2013-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7286,13 +7286,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2014-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7328,13 +7328,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2014-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7370,13 +7370,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2014-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7412,13 +7412,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2015-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7454,13 +7454,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2015-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7496,13 +7496,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2015-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7538,13 +7538,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2016-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7580,13 +7580,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2016-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7622,13 +7622,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2016-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7664,13 +7664,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2017-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7706,13 +7706,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2017-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7748,13 +7748,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2017-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7790,13 +7790,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2018-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7832,13 +7832,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2018-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7874,13 +7874,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2018-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7916,13 +7916,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2019-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -7958,13 +7958,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2019-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8000,13 +8000,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2019-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8042,13 +8042,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2020-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8084,13 +8084,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2020-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8126,13 +8126,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2020-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8168,13 +8168,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2021-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8210,13 +8210,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2021-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8252,13 +8252,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2021-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8294,13 +8294,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2022-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8336,13 +8336,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2022-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8378,13 +8378,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2022-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8420,13 +8420,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2023-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8462,13 +8462,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2023-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8504,13 +8504,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2023-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8546,13 +8546,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2024-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8588,13 +8588,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2024-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8630,13 +8630,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2024-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8672,13 +8672,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2025-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8714,13 +8714,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2025-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8756,13 +8756,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2025-06-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -8810,13 +8810,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28",
+          "@value": "2010-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9033,13 +9033,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9075,13 +9075,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9117,13 +9117,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2010-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9159,13 +9159,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2010-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9201,13 +9201,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2011-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9243,13 +9243,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2011-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9285,13 +9285,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2012-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9327,13 +9327,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2012-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9369,13 +9369,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2013-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9411,13 +9411,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2013-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9453,13 +9453,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2014-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9495,13 +9495,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2014-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9537,13 +9537,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2015-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9579,13 +9579,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2015-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9621,13 +9621,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2016-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9663,13 +9663,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2016-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9705,13 +9705,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2017-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9747,13 +9747,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2017-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9789,13 +9789,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2018-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9831,13 +9831,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2018-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9873,13 +9873,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2019-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9915,13 +9915,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2019-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9957,13 +9957,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2020-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -9999,13 +9999,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2020-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10041,13 +10041,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2021-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10083,13 +10083,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2021-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10125,13 +10125,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2022-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10167,13 +10167,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2022-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10209,13 +10209,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2023-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10251,13 +10251,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2023-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10293,13 +10293,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2024-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10335,13 +10335,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2024-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10377,13 +10377,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2025-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10419,13 +10419,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2025-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10461,13 +10461,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10503,13 +10503,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10557,13 +10557,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28",
+          "@value": "2026-04-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10678,13 +10678,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10720,13 +10720,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10774,13 +10774,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28",
+          "@value": "2026-04-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10895,13 +10895,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10937,13 +10937,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -10991,13 +10991,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28",
+          "@value": "2026-04-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -11075,6 +11075,9 @@
       "dcat:distribution": [
         {
           "@id": "http://datos.organismo.es/dataset/https://datos.gob.es/es/catalogo/ea0041513-contratos-por-nivel-formativo/distribution/1"
+        },
+        {
+          "@id": "http://datos.organismo.es/dataset/https://datos.gob.es/es/catalogo/ea0041513-contratos-por-nivel-formativo/distribution/2"
         }
       ],
       "impulsadata:validationStatus": [
@@ -11086,6 +11089,48 @@
     },
     {
       "@id": "http://datos.organismo.es/dataset/https://datos.gob.es/es/catalogo/ea0041513-contratos-por-nivel-formativo/distribution/1",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "2026",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_NF_202604_csv.csv"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Archivo CSV con los registros de Contratos por nivel formativo",
+        "@language": "es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-01-01",
+          "@type": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-06-19",
+          "@type": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      }
+    },
+    {
+      "@id": "http://datos.organismo.es/dataset/https://datos.gob.es/es/catalogo/ea0041513-contratos-por-nivel-formativo/distribution/2",
       "@type": "dcat:Distribution",
       "dct:title": {
         "@value": "2026",
@@ -11109,13 +11154,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -11163,13 +11208,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-05-28",
+          "@value": "2026-04-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -11284,13 +11329,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
@@ -11326,13 +11371,13 @@
       },
       "dct:issued": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-01-01",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-17",
+          "@value": "2026-06-19",
           "@type": "http://www.w3.org/2001/XMLSchema#date"
         }
       ],
