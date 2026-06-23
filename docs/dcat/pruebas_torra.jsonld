@@ -1,18 +1,18 @@
 [
   {
-    "@id": "https://pre-ckan.interior.gob.es",
+    "@id": "https://10.0.2.3:8443",
     "@type": [
       "http://www.w3.org/ns/dcat#Catalog"
     ],
     "http://purl.org/dc/terms/creator": [
       {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801"
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901"
       }
     ],
     "http://purl.org/dc/terms/description": [
       {
         "@language": "es",
-        "@value": "Catalogo de datos del Ministerio del Interior"
+        "@value": "Catalogo de datos del organismo"
       }
     ],
     "http://purl.org/dc/terms/hasPart": [
@@ -36,10 +36,13 @@
         "@id": "http://publications.europa.eu/resource/authority/language/FRA"
       },
       {
-        "@id": "http://publications.europa.eu/resource/authority/language/ITA"
+        "@id": "http://publications.europa.eu/resource/authority/language/EUS"
       },
       {
-        "@id": "http://publications.europa.eu/resource/authority/language/EUS"
+        "@id": "http://publications.europa.eu/resource/authority/language/CAT"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/ENG"
       },
       {
         "@id": "http://publications.europa.eu/resource/authority/language/GLG"
@@ -48,13 +51,10 @@
         "@id": "http://publications.europa.eu/resource/authority/language/POR"
       },
       {
-        "@id": "http://publications.europa.eu/resource/authority/language/CAT"
+        "@id": "http://publications.europa.eu/resource/authority/language/ITA"
       },
       {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-      },
-      {
-        "@id": "http://publications.europa.eu/resource/authority/language/ENG"
       }
     ],
     "http://purl.org/dc/terms/license": [
@@ -65,12 +65,12 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-06-04T06:57:34.543796+00:00"
+        "@value": "2026-06-22T07:46:26.023508"
       }
     ],
     "http://purl.org/dc/terms/publisher": [
       {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801"
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901"
       }
     ],
     "http://purl.org/dc/terms/rights": [
@@ -85,7 +85,7 @@
     ],
     "http://purl.org/dc/terms/temporal": [
       {
-        "@id": "_:N14ec440b0c3a429e8bb2e22d10156626"
+        "@id": "_:N2b706acef94142caa502e5f218120069"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -101,27 +101,10 @@
     ],
     "http://www.w3.org/ns/dcat#dataset": [
       {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/15ada526dd0a4f28b69b0b6e05eecfb1"
+        "@id": "https://10.0.2.3:8443/dataset/i000003813"
       },
       {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/mire00130502dssini000001"
-      },
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229"
-      },
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/mire04931401dsdepend000002"
-      },
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/mire04931401dsdepend000001"
-      },
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/mire04931401dsproced000001"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#record": [
-      {
-        "@id": "https://datos.gob.es/catalogo/record/1"
+        "@id": "https://10.0.2.3:8443/dataset/i000003811"
       }
     ],
     "http://www.w3.org/ns/dcat#themeTaxonomy": [
@@ -134,88 +117,29 @@
     ],
     "http://xmlns.com/foaf/0.1/homepage": [
       {
-        "@id": "https://pre-ckan.interior.gob.es"
+        "@id": "https://10.0.2.3:8443"
       }
     ]
   },
   {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/15ada526dd0a4f28b69b0b6e05eecfb1",
+    "@id": "https://10.0.2.3:8443/dataset/i000003811",
     "@type": [
-      "http://xmlns.com/foaf/0.1/Document",
-      "http://www.w3.org/ns/dcat#Dataset"
-    ],
-    "http://purl.org/dc/terms/accessRights": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Vista de registro de alertas."
-      }
-    ],
-    "http://purl.org/dc/terms/identifier": [
-      {
-        "@value": "15ada526-dd0a-4f28-b69b-0b6e05eecfb1"
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-      }
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-05-11"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Alertas de riesgos y emergencias"
-      }
-    ],
-    "http://tragsatec.es/def/impulsadata#validationStatus": [
-      {
-        "@language": "es",
-        "@value": "conforme-DCAT-AP-ES"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#distribution": [
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/15ada526dd0a4f28b69b0b6e05eecfb1/resource/no-disponible"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#landingPage": [
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/15ada526dd0a4f28b69b0b6e05eecfb1"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#theme": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
-      },
-      {
-        "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-      }
-    ]
-  },
-  {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229",
-    "@type": [
-      "http://xmlns.com/foaf/0.1/Document",
       "http://www.w3.org/ns/dcat#Dataset"
     ],
     "http://data.europa.eu/r5r/applicableLegislation": [
       {
-        "@id": "https://www.boe.es/eli/es/lo/1985/06/19/5"
+        "@id": "http://data.europa.eu/eli/dir/2019/1024/oj"
+      },
+      {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      }
+    ],
+    "http://data.europa.eu/r5r/hvdCategory": [
+      {
+        "@id": "http://data.europa.eu/bna/c_e1da4e07"
+      },
+      {
+        "@id": "http://data.europa.eu/bna/c_04bf94a3"
       }
     ],
     "http://purl.org/dc/terms/accessRights": [
@@ -225,661 +149,233 @@
     ],
     "http://purl.org/dc/terms/accrualPeriodicity": [
       {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/UNKNOWN"
-      }
-    ],
-    "http://purl.org/dc/terms/creator": [
-      {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Vista de referendum"
-      }
-    ],
-    "http://purl.org/dc/terms/identifier": [
-      {
-        "@value": "b45370c2-9171-478a-ae2e-d23152ea7229"
-      }
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-05-11"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801"
-      }
-    ],
-    "http://purl.org/dc/terms/spatial": [
-      {
-        "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-      }
-    ],
-    "http://purl.org/dc/terms/temporal": [
-      {
-        "@id": "_:N669739452ab64a80abfd1f8a86a6c3f6"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Resultados Electorales"
-      }
-    ],
-    "http://tragsatec.es/def/impulsadata#validationStatus": [
-      {
-        "@language": "es",
-        "@value": "conforme-DCAT-AP-ES"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#contactPoint": [
-      {
-        "@id": "_:Nc0f4f83c0008472ab9693fffaa08691f"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#distribution": [
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-congreso"
-      },
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-al-parlamento-europeo"
-      },
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-congreso-cargos-electos"
-      },
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-senado"
-      },
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/referendum"
-      },
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-a-muncipios-de-mas-de-250-habitantes"
-      },
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-senado-cargos-electos"
-      },
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-a-cabildos-insulares-canarios"
-      },
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-a-municipios-de-hasta-250-habitantes"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#keyword": [
-      {
-        "@language": "es",
-        "@value": "Candidatas"
-      },
-      {
-        "@language": "es",
-        "@value": "Juntas Generales"
-      },
-      {
-        "@language": "es",
-        "@value": "Proceso electoral"
-      },
-      {
-        "@language": "es",
-        "@value": "Elecciones"
-      },
-      {
-        "@language": "es",
-        "@value": "Votos en blanco"
-      },
-      {
-        "@language": "es",
-        "@value": "Sección Electoral"
-      },
-      {
-        "@language": "es",
-        "@value": "Concejales"
-      },
-      {
-        "@language": "es",
-        "@value": "Comunidades Autónomas"
-      },
-      {
-        "@language": "es",
-        "@value": "Partidos Judiciales"
-      },
-      {
-        "@language": "es",
-        "@value": "Resultados electorales"
-      },
-      {
-        "@language": "es",
-        "@value": "Ayuntamiento"
-      },
-      {
-        "@language": "es",
-        "@value": "Candidaturas"
-      },
-      {
-        "@language": "es",
-        "@value": "Referéndum"
-      },
-      {
-        "@language": "es",
-        "@value": "Votos nulos"
-      },
-      {
-        "@language": "es",
-        "@value": "Censo electoral"
-      },
-      {
-        "@language": "es",
-        "@value": "Distrito electoral"
-      },
-      {
-        "@language": "es",
-        "@value": "Diputaciones Provinciales"
-      },
-      {
-        "@language": "es",
-        "@value": "Provincia"
-      },
-      {
-        "@language": "es",
-        "@value": "Congreso"
-      },
-      {
-        "@language": "es",
-        "@value": "CERA"
-      },
-      {
-        "@language": "es",
-        "@value": "Circunscripción"
-      },
-      {
-        "@language": "es",
-        "@value": "Cabildos insulares"
-      },
-      {
-        "@language": "es",
-        "@value": "Escaños"
-      },
-      {
-        "@language": "es",
-        "@value": "Senado"
-      },
-      {
-        "@language": "es",
-        "@value": "Alcaldes"
-      },
-      {
-        "@language": "es",
-        "@value": "Senadores"
-      },
-      {
-        "@language": "es",
-        "@value": "Participación electoral"
-      },
-      {
-        "@language": "es",
-        "@value": "Mesas electorales"
-      },
-      {
-        "@language": "es",
-        "@value": "Diputados"
-      },
-      {
-        "@language": "es",
-        "@value": "Candidatos"
-      },
-      {
-        "@language": "es",
-        "@value": "Parlamento Europeo"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#landingPage": [
-      {
-        "@id": "http://infoelectoral.interior.gob.es/es/elecciones-celebradas/"
-      },
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#theme": [
-      {
-        "@id": "http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar"
-      }
-    ]
-  },
-  {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/mire00130502dssini000001",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Dataset",
-      "http://xmlns.com/foaf/0.1/Document"
-    ],
-    "http://data.europa.eu/r5r/applicableLegislation": [
-      {
-        "@id": "https://eur-lex.europa.eu/legal-content/ES/LSU/?uri=oj:JOL_2018_151_R_0001"
-      },
-      {
-        "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-12411"
-      },
-      {
-        "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-12408"
-      },
-      {
-        "@id": "https://www.boe.es/eli/es/rd/1998/12/23/2822/con"
-      }
-    ],
-    "http://purl.org/dc/terms/accessRights": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      }
-    ],
-    "http://purl.org/dc/terms/accrualPeriodicity": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
+        "@id": "http://publications.europa.eu/resource/authority/frequency/OP_DATPRO"
       }
     ],
     "http://purl.org/dc/terms/conformsTo": [
       {
-        "@id": "https://www.boe.es/eli/es/o/2014/10/27/int2223/con"
+        "@id": "https://schema.org/Dataset"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/data-specification/INSPIRE_DLS"
       }
     ],
     "http://purl.org/dc/terms/creator": [
       {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502"
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"
       }
     ],
     "http://purl.org/dc/terms/description": [
       {
+        "@language": "en",
+        "@value": "descript dataset1"
+      },
+      {
         "@language": "es",
-        "@value": "Este fichero contiene información de los accidentes con víctimas ocurridos en vías urbanas e interurbanas en España en el año 2024.\n\nCada línea del fichero se corresponde con un accidente con víctimas, detallándose para cada fichero el número de registros y las variables que los componen.\n\nLas definiciones correspondientes a los indicadores de accidente con víctimas, fallecido 30 días, herido hospitalizado 30 días y herido no hospitalizado 30 días, se pueden consultar en la Orden INT/2223/2014, de 27 de octubre, por la que se regula la comunicación de la información al Registro Nacional de Víctimas de Accidentes de Tráfico (BOE nº 289, de 29 de noviembre de 2014)."
+        "@value": "descrip cjto datos1"
       }
     ],
     "http://purl.org/dc/terms/identifier": [
       {
-        "@value": "MIR:E00130502:ds:SINI:000001"
+        "@value": "I00000381_1"
+      }
+    ],
+    "http://purl.org/dc/terms/isReferencedBy": [
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/datos-inflacion-consumo"
+      },
+      {
+        "@id": "https://revistaeconomica.gob.es/articulos/uso-indicadores-economicos-datos-abiertos"
+      },
+      {
+        "@id": "https://www.mineco.gob.es/estudios/analisis-impacto-indicadores-economicos.pdf"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/series-temporales-macro"
       }
     ],
     "http://purl.org/dc/terms/issued": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-11-05"
+        "@value": "2025-05-01"
       }
     ],
     "http://purl.org/dc/terms/language": [
       {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/ENG"
       }
     ],
     "http://purl.org/dc/terms/modified": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2025-11-05T08:20:29+00:00"
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-09"
       }
     ],
     "http://purl.org/dc/terms/provenance": [
       {
-        "@id": "_:N1873dd1feb6c445eb9769931602743eb"
+        "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/provenance/actualizacion-trimestral-ine"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/provenance/departamento-estadistica-mineco"
       }
     ],
     "http://purl.org/dc/terms/publisher": [
       {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502"
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/datos-inflacion-consumo"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/series-temporales-macro"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://datos.gob.es/dataset/boe-indicadores-financieros"
+      },
+      {
+        "@id": "https://datos.gob.es/dataset/estadisticas-macroeconomicas-ine"
       }
     ],
     "http://purl.org/dc/terms/spatial": [
       {
-        "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+        "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid"
       }
     ],
     "http://purl.org/dc/terms/temporal": [
       {
-        "@id": "_:N37ae31f7f9494a3b8066f66a7751d43e"
+        "@id": "_:N2fe27cb19b05460f8fc1a41630714224"
       }
     ],
     "http://purl.org/dc/terms/title": [
       {
         "@language": "es",
-        "@value": "Ficheros de microdatos de accidentes con víctimas 2024"
+        "@value": "NombreCjtoDato1"
+      },
+      {
+        "@language": "en",
+        "@value": "DatasetName1"
       }
     ],
     "http://purl.org/dc/terms/type": [
       {
-        "@id": "http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL%3E"
+        "@id": "http://publications.europa.eu/resource/authority/dataset-type/SYNTHETIC_DATA"
       }
     ],
-    "http://tragsatec.es/def/impulsadata#validationStatus": [
+    "http://www.w3.org/ns/adms#identifier": [
+      {
+        "@id": "_:Nffb9fcf201af487882785c4c66798ddb"
+      }
+    ],
+    "http://www.w3.org/ns/adms#sample": [
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/datos-comercio.xml"
+      }
+    ],
+    "http://www.w3.org/ns/adms#versionNotes": [
       {
         "@language": "es",
-        "@value": "conforme-DCAT-AP-ES"
+        "@value": "Notas version"
+      },
+      {
+        "@language": "en",
+        "@value": "Version notes"
       }
     ],
     "http://www.w3.org/ns/dcat#contactPoint": [
       {
-        "@id": "_:N643837f868c0423aa3e94993dab79683"
+        "@id": "_:Nfd73b84e05fc411f9b5229094e49cb85"
+      },
+      {
+        "@id": "_:Nb7e1b5a34f62499e8b6bddcd4dae2f55"
       }
     ],
     "http://www.w3.org/ns/dcat#distribution": [
       {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/mire00130502dssini000001/resource/ficheros-de-microdatos-de-accidentes-con-victimas-2024"
+        "@id": "https://10.0.2.3:8443/dataset/i000003811/resource/comercio-exterior-xml"
+      },
+      {
+        "@id": "https://10.0.2.3:8443/dataset/i000003811/resource/comercio-exterior-pdf"
       }
     ],
     "http://www.w3.org/ns/dcat#keyword": [
       {
         "@language": "es",
-        "@value": "Víctimas"
+        "@value": "etiqueta1"
       },
       {
         "@language": "es",
-        "@value": "Carretera"
-      },
-      {
-        "@language": "es",
-        "@value": "siniestralidad"
-      },
-      {
-        "@language": "es",
-        "@value": "microdatos"
-      },
-      {
-        "@language": "es",
-        "@value": "Tráfico"
-      },
-      {
-        "@language": "es",
-        "@value": "Accidentes con víctimas"
-      },
-      {
-        "@language": "es",
-        "@value": "Seguridad Vial"
-      },
-      {
-        "@language": "es",
-        "@value": "Accidentes"
-      },
-      {
-        "@language": "es",
-        "@value": "2024"
+        "@value": "etiqueta2"
       }
     ],
     "http://www.w3.org/ns/dcat#landingPage": [
       {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/mire00130502dssini000001"
+        "@id": "https://www.mineco.gob.es/portal/site/mineco/menuitem.9b76eb9e6e3cb59c3f1f3f1028618a0c/?vgnextoid=12345abcd"
       },
       {
-        "@id": "https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Ficheros-de-microdatos-de-accidentes-con-victimas-2024/"
+        "@id": "https://datos.comercio.gob.es/dataset/indicadoreseconomicos"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#spatialResolutionInMeters": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "500"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#temporalResolution": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#duration",
+        "@value": "P1D"
       }
     ],
     "http://www.w3.org/ns/dcat#theme": [
       {
-        "@id": "http://datos.gob.es/kos/sector-publico/sector/transporte"
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/economia"
+      },
+      {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#version": [
+      {
+        "@value": "Version 1"
       }
     ],
     "http://xmlns.com/foaf/0.1/page": [
       {
-        "@id": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/dgt-en-cifras/24h/Diccionario_Tabla_Accidentes.xlsx"
+        "@id": "https://datos.comercio.gob.es/docs/ficha-metodologica-indicadores-economicos.html"
       }
     ]
   },
   {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/mire04931401dsdepend000001",
+    "@id": "https://10.0.2.3:8443/dataset/i000003813",
     "@type": [
-      "http://www.w3.org/ns/dcat#Dataset",
-      "http://xmlns.com/foaf/0.1/Document"
-    ],
-    "http://purl.org/dc/terms/accessRights": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      }
-    ],
-    "http://purl.org/dc/terms/accrualPeriodicity": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/AS_NEEDED"
-      }
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "https://datosgobes.github.io/DCAT-AP-ES/"
-      }
-    ],
-    "http://purl.org/dc/terms/creator": [
-      {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Listado de las unidades de la Guardia Civil que prestan servicios de atención a la ciudadanía, incluyendo teléfono de contacto, su dirección postal y coordenadas geográficas."
-      }
-    ],
-    "http://purl.org/dc/terms/identifier": [
-      {
-        "@value": "MIR:E04931401:ds:DEPEND:000001"
-      }
-    ],
-    "http://purl.org/dc/terms/issued": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-04-29"
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-      }
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-05-12"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801"
-      }
-    ],
-    "http://purl.org/dc/terms/spatial": [
-      {
-        "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Dependencias de atención a la ciudadanía de la Guardia Civil"
-      }
-    ],
-    "http://tragsatec.es/def/impulsadata#validationStatus": [
-      {
-        "@language": "es",
-        "@value": "conforme-DCAT-AP-ES"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#contactPoint": [
-      {
-        "@id": "_:Ndf88b208d1c742f29bd1cfaff461955c"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#distribution": [
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/mire04931401dsdepend000001/resource/listado-dependenciasde-atencion-ciudadania-guardia-civil-csv"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#keyword": [
-      {
-        "@language": "es",
-        "@value": "cuarteles"
-      },
-      {
-        "@language": "es",
-        "@value": "denuncias"
-      },
-      {
-        "@language": "es",
-        "@value": "Guardia Civil"
-      },
-      {
-        "@language": "es",
-        "@value": "puestos"
-      },
-      {
-        "@language": "es",
-        "@value": "dependencias"
-      },
-      {
-        "@language": "es",
-        "@value": "atención ciudadana"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#landingPage": [
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/mire04931401dsdepend000001"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#theme": [
-      {
-        "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-      },
-      {
-        "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
-      }
-    ]
-  },
-  {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/mire04931401dsdepend000002",
-    "@type": [
-      "http://xmlns.com/foaf/0.1/Document",
       "http://www.w3.org/ns/dcat#Dataset"
     ],
-    "http://purl.org/dc/terms/accessRights": [
+    "http://data.europa.eu/r5r/applicableLegislation": [
       {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      }
-    ],
-    "http://purl.org/dc/terms/accrualPeriodicity": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/AS_NEEDED"
-      }
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "https://datosgobes.github.io/DCAT-AP-ES/"
-      }
-    ],
-    "http://purl.org/dc/terms/creator": [
-      {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "PRUEBA: Listado de las unidades de la Guardia Civil que prestan servicios de atención al ciudadano, incluyendo teléfono de contacto, su dirección postal y coordenadas geográficas."
-      }
-    ],
-    "http://purl.org/dc/terms/identifier": [
-      {
-        "@value": "MIR:E04931401:ds:DEPEND:000002"
-      }
-    ],
-    "http://purl.org/dc/terms/issued": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-05-12"
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-      }
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-05-14"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801"
-      }
-    ],
-    "http://purl.org/dc/terms/spatial": [
-      {
-        "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Conjunto de pruebas"
-      }
-    ],
-    "http://tragsatec.es/def/impulsadata#validationStatus": [
-      {
-        "@language": "es",
-        "@value": "conforme-DCAT-AP-ES"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#contactPoint": [
-      {
-        "@id": "_:N2ce25fcd46b14ce094c7bd3211399580"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#distribution": [
-      {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/mire04931401dsdepend000002/resource/direcciones-dependencias-guardia-civil-csv"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#keyword": [
-      {
-        "@language": "es",
-        "@value": "Guardia Civil"
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
       },
       {
-        "@language": "es",
-        "@value": "atención ciudadana"
-      },
-      {
-        "@language": "es",
-        "@value": "cuarteles"
-      },
-      {
-        "@language": "es",
-        "@value": "denuncias"
-      },
-      {
-        "@language": "es",
-        "@value": "puestos"
-      },
-      {
-        "@language": "es",
-        "@value": "dependencias"
+        "@id": "http://data.europa.eu/eli/dir/2019/1024/oj"
       }
     ],
-    "http://www.w3.org/ns/dcat#landingPage": [
+    "http://data.europa.eu/r5r/hvdCategory": [
       {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/mire04931401dsdepend000002"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#theme": [
-      {
-        "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
+        "@id": "http://data.europa.eu/bna/c_04bf94a3"
       },
       {
-        "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
+        "@id": "http://data.europa.eu/bna/c_e1da4e07"
       }
-    ]
-  },
-  {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/mire04931401dsproced000001",
-    "@type": [
-      "http://xmlns.com/foaf/0.1/Document",
-      "http://www.w3.org/ns/dcat#Dataset"
     ],
     "http://purl.org/dc/terms/accessRights": [
       {
@@ -888,673 +384,374 @@
     ],
     "http://purl.org/dc/terms/accrualPeriodicity": [
       {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/AS_NEEDED"
+        "@id": "http://publications.europa.eu/resource/authority/frequency/OP_DATPRO"
       }
     ],
     "http://purl.org/dc/terms/conformsTo": [
       {
-        "@id": "https://datosgobes.github.io/DCAT-AP-ES/"
+        "@id": "https://schema.org/Dataset"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/data-specification/INSPIRE_DLS"
       }
     ],
     "http://purl.org/dc/terms/creator": [
       {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401"
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"
       }
     ],
     "http://purl.org/dc/terms/description": [
       {
         "@language": "es",
-        "@value": "Relación de procedimientos administrativos que son competencia de la Guardia Civil"
+        "@value": "descrip cjto datos1"
+      },
+      {
+        "@language": "en",
+        "@value": "descript dataset1"
       }
     ],
     "http://purl.org/dc/terms/identifier": [
       {
-        "@value": "MIR:E04931401:ds:PROCED:000001"
+        "@value": "I00000381_3"
+      }
+    ],
+    "http://purl.org/dc/terms/isReferencedBy": [
+      {
+        "@id": "https://www.mineco.gob.es/estudios/analisis-impacto-indicadores-economicos.pdf"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/series-temporales-macro"
+      },
+      {
+        "@id": "https://revistaeconomica.gob.es/articulos/uso-indicadores-economicos-datos-abiertos"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/datos-inflacion-consumo"
       }
     ],
     "http://purl.org/dc/terms/issued": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-05-19"
+        "@value": "2025-05-01"
       }
     ],
     "http://purl.org/dc/terms/language": [
       {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/ENG"
       }
     ],
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-05-19"
+        "@value": "2025-07-09"
+      }
+    ],
+    "http://purl.org/dc/terms/provenance": [
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/provenance/actualizacion-trimestral-ine"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/provenance/departamento-estadistica-mineco"
       }
     ],
     "http://purl.org/dc/terms/publisher": [
       {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801"
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/series-temporales-macro"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos/resource/datos-inflacion-consumo"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://datos.gob.es/dataset/boe-indicadores-financieros"
+      },
+      {
+        "@id": "https://datos.gob.es/dataset/estadisticas-macroeconomicas-ine"
       }
     ],
     "http://purl.org/dc/terms/spatial": [
       {
-        "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+        "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid"
+      }
+    ],
+    "http://purl.org/dc/terms/temporal": [
+      {
+        "@id": "_:N80186d10a13b411386809b74f058a385"
       }
     ],
     "http://purl.org/dc/terms/title": [
       {
-        "@language": "es",
-        "@value": "Procedimientos administrativos de la Guardia Civil"
-      }
-    ],
-    "http://tragsatec.es/def/impulsadata#validationStatus": [
+        "@language": "en",
+        "@value": "DatasetName3"
+      },
       {
         "@language": "es",
-        "@value": "conforme-DCAT-AP-ES"
+        "@value": "NombreCjtoDato3"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/dataset-type/SYNTHETIC_DATA"
+      }
+    ],
+    "http://www.w3.org/ns/adms#identifier": [
+      {
+        "@id": "_:N7276c7c47f8a45f19c0a1e29ab388876"
+      }
+    ],
+    "http://www.w3.org/ns/adms#sample": [
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf"
+      }
+    ],
+    "http://www.w3.org/ns/adms#versionNotes": [
+      {
+        "@language": "es",
+        "@value": "Notas version"
+      },
+      {
+        "@language": "en",
+        "@value": "Version notes"
       }
     ],
     "http://www.w3.org/ns/dcat#contactPoint": [
       {
-        "@id": "_:N9743d14b8a0a4175a5b42178d243a21f"
+        "@id": "_:Nc3e77af869a241f3b5a0d0902af7c844"
+      },
+      {
+        "@id": "_:Na695af40c0a54f89a4fa383fd53c01ef"
       }
     ],
     "http://www.w3.org/ns/dcat#distribution": [
       {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/mire04931401dsproced000001/resource/procedimientos-administrativos-competencia-guardia-civil-csv"
+        "@id": "https://10.0.2.3:8443/dataset/i000003813/resource/comercio-exterior-pdf"
       }
     ],
     "http://www.w3.org/ns/dcat#keyword": [
       {
         "@language": "es",
-        "@value": "administración"
+        "@value": "etiqueta1"
       },
       {
         "@language": "es",
-        "@value": "Guardia Civil"
-      },
-      {
-        "@language": "es",
-        "@value": "procedimientos"
+        "@value": "etiqueta2"
       }
     ],
     "http://www.w3.org/ns/dcat#landingPage": [
       {
-        "@id": "https://pre-ckan.interior.gob.es/dataset/mire04931401dsproced000001"
+        "@id": "https://www.mineco.gob.es/portal/site/mineco/menuitem.9b76eb9e6e3cb59c3f1f3f1028618a0c/?vgnextoid=12345abcd"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/indicadoreseconomicos"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#spatialResolutionInMeters": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "500"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#temporalResolution": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#duration",
+        "@value": "P1D"
       }
     ],
     "http://www.w3.org/ns/dcat#theme": [
       {
-        "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
       },
       {
-        "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/economia"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#version": [
+      {
+        "@value": "Version 1"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/page": [
+      {
+        "@id": "https://datos.comercio.gob.es/docs/metodologia-discapacidad-centros-residenciales.html"
       }
     ]
   },
   {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/15ada526dd0a4f28b69b0b6e05eecfb1/resource/no-disponible",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Distribution"
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "no-disponible"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#accessURL": [
-      {
-        "@id": "http://mir.es/No_disponible"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#downloadURL": [
-      {
-        "@id": "http://mir.es/No_disponible"
-      }
-    ]
-  },
-  {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-a-cabildos-insulares-canarios",
+    "@id": "https://10.0.2.3:8443/dataset/i000003811/resource/comercio-exterior-pdf",
     "@type": [
       "http://www.w3.org/ns/dcat#Distribution"
     ],
     "http://data.europa.eu/r5r/applicableLegislation": [
       {
-        "@id": "https://www.boe.es/eli/es/lo/1985/06/19/5"
-      }
-    ],
-    "http://data.europa.eu/r5r/availability": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones a Cabildos"
-      }
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      }
-    ],
-    "http://purl.org/dc/terms/license": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Elecciones a Cabildos Insulares Canarios"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#accessURL": [
-      {
-        "@id": "https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-Cabildos-Insulares-canarios.xlsx"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#downloadURL": [
-      {
-        "@id": "https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-Cabildos-Insulares-canarios.xlsx"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#mediaType": [
-      {
-        "@id": "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-      }
-    ]
-  },
-  {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-a-muncipios-de-mas-de-250-habitantes",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Distribution"
-    ],
-    "http://data.europa.eu/r5r/applicableLegislation": [
-      {
-        "@id": "https://www.boe.es/eli/es/lo/1985/06/19/5"
-      }
-    ],
-    "http://data.europa.eu/r5r/availability": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones a muncipios de más de 250 habitantes"
-      }
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      }
-    ],
-    "http://purl.org/dc/terms/license": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Elecciones a muncipios de más de 250 habitantes"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#accessURL": [
-      {
-        "@id": "https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-municipios-de-mas-de-250-hab.xlsx"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#downloadURL": [
-      {
-        "@id": "https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-municipios-de-mas-de-250-hab.xlsx"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#mediaType": [
-      {
-        "@id": "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-      }
-    ]
-  },
-  {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-a-municipios-de-hasta-250-habitantes",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Distribution"
-    ],
-    "http://data.europa.eu/r5r/applicableLegislation": [
-      {
-        "@id": "https://www.boe.es/eli/es/lo/1985/06/19/5"
-      }
-    ],
-    "http://data.europa.eu/r5r/availability": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones a municipios iguales o menores de 250 habitantes"
-      }
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      }
-    ],
-    "http://purl.org/dc/terms/license": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Elecciones a municipios de hasta 250 habitantes"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#accessURL": [
-      {
-        "@id": "https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-municipios-de-hasta-250-hab.xlsx"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#downloadURL": [
-      {
-        "@id": "https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-a-municipios-de-hasta-250-hab.xlsx"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#mediaType": [
-      {
-        "@id": "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-      }
-    ]
-  },
-  {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-al-parlamento-europeo",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Distribution"
-    ],
-    "http://data.europa.eu/r5r/applicableLegislation": [
-      {
-        "@id": "https://www.boe.es/eli/es/lo/1985/06/19/5"
-      }
-    ],
-    "http://data.europa.eu/r5r/availability": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones a Parlamento Europeo"
-      }
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      }
-    ],
-    "http://purl.org/dc/terms/license": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Elecciones al Parlamento Europeo"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#accessURL": [
-      {
-        "@id": "https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-al-Parlamento-Europeo.xlsx"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#downloadURL": [
-      {
-        "@id": "https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-al-Parlamento-Europeo.xlsx"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#mediaType": [
-      {
-        "@id": "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-      }
-    ]
-  },
-  {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-congreso",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Distribution"
-    ],
-    "http://data.europa.eu/r5r/applicableLegislation": [
-      {
-        "@id": "https://www.boe.es/eli/es/lo/1985/06/19/5"
-      }
-    ],
-    "http://data.europa.eu/r5r/availability": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones Generales Congreso"
-      }
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      }
-    ],
-    "http://purl.org/dc/terms/license": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Elecciones Congreso"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#accessURL": [
-      {
-        "@id": "https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Congreso.xlsx"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#downloadURL": [
-      {
-        "@id": "https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Congreso.xlsx"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#mediaType": [
-      {
-        "@id": "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-      }
-    ]
-  },
-  {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-congreso-cargos-electos",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Distribution"
-    ],
-    "http://data.europa.eu/r5r/applicableLegislation": [
-      {
-        "@id": "https://www.boe.es/eli/es/lo/1985/06/19/5"
-      }
-    ],
-    "http://data.europa.eu/r5r/availability": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones Generales Congreso cargos electos"
-      }
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      }
-    ],
-    "http://purl.org/dc/terms/license": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Elecciones Congreso cargos electos"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#accessURL": [
-      {
-        "@id": "https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Congreso-cargos-electos.xlsx"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#downloadURL": [
-      {
-        "@id": "https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Congreso-cargos-electos.xlsx"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#mediaType": [
-      {
-        "@id": "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-      }
-    ]
-  },
-  {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-senado",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Distribution"
-    ],
-    "http://data.europa.eu/r5r/applicableLegislation": [
-      {
-        "@id": "https://www.boe.es/eli/es/lo/1985/06/19/5"
-      }
-    ],
-    "http://data.europa.eu/r5r/availability": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones Generales Senado"
-      }
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      }
-    ],
-    "http://purl.org/dc/terms/license": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Elecciones Senado"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#accessURL": [
-      {
-        "@id": "https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Senado.xlsx"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#downloadURL": [
-      {
-        "@id": "https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Senado.xlsx"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#mediaType": [
-      {
-        "@id": "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-      }
-    ]
-  },
-  {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/elecciones-senado-cargos-electos",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Distribution"
-    ],
-    "http://data.europa.eu/r5r/applicableLegislation": [
-      {
-        "@id": "https://www.boe.es/eli/es/lo/1985/06/19/5"
-      }
-    ],
-    "http://data.europa.eu/r5r/availability": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Elecciones Generales Senado cargos electos"
-      }
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      }
-    ],
-    "http://purl.org/dc/terms/license": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Elecciones Senado cargos electos"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#accessURL": [
-      {
-        "@id": "https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Senado-cargos-electos.xlsx"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#downloadURL": [
-      {
-        "@id": "https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Elecciones-Senado-cargos-electos.xlsx"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#mediaType": [
-      {
-        "@id": "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-      }
-    ]
-  },
-  {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/b45370c29171478aae2ed23152ea7229/resource/referendum",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Distribution"
-    ],
-    "http://data.europa.eu/r5r/applicableLegislation": [
-      {
-        "@id": "https://www.boe.es/eli/es/lo/1985/06/19/5"
-      }
-    ],
-    "http://data.europa.eu/r5r/availability": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Conjunto de datos de resultados de las elecciones de competencia estatal celebradas en España incluyendo datos de participación en Referendum"
-      }
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      }
-    ],
-    "http://purl.org/dc/terms/license": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Referendum"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#accessURL": [
-      {
-        "@id": "https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Referendum.xlsx"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#downloadURL": [
-      {
-        "@id": "https://pre-descargas.interior.gob.es/datasets/resultados_electorales/Referendum.xlsx"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#mediaType": [
-      {
-        "@id": "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-      }
-    ]
-  },
-  {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/mire00130502dssini000001/resource/ficheros-de-microdatos-de-accidentes-con-victimas-2024",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Distribution"
-    ],
-    "http://data.europa.eu/r5r/applicableLegislation": [
-      {
-        "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-12408"
+        "@id": "http://data.europa.eu/eli/dir/2019/1024/oj"
       },
       {
-        "@id": "https://www.boe.es/eli/es/rd/1998/12/23/2822/con"
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      }
+    ],
+    "http://data.europa.eu/r5r/availability": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      }
+    ],
+    "http://purl.org/dc/terms/accessRights": [
+      {
+        "@id": "https://schema.theodi.org/odrs/rightsholder"
+      }
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "https://schema.org/Dataset"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "es",
+        "@value": "Distribución en formato PDF con el informe anual de comercio exterior"
       },
       {
-        "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-12411"
+        "@language": "en",
+        "@value": "PDF distribution for external trade report"
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/PDF"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-01"
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
       {
-        "@id": "https://eur-lex.europa.eu/legal-content/ES/LSU/?uri=oj:JOL_2018_151_R_0001"
+        "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-01"
+      }
+    ],
+    "http://purl.org/dc/terms/rights": [
+      {
+        "@id": "https://schema.theodi.org/odrs/rightsholder"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "es",
+        "@value": "Comercio Exterior — PDF"
+      },
+      {
+        "@language": "en",
+        "@value": "Foreign Trade — PDF"
+      }
+    ],
+    "http://spdx.org/rdf/terms#checksum": [
+      {
+        "@id": "_:N3d728c3dec1147f9a947c3a87d8bb0c2"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessService": [
+      {
+        "@id": "https://serviciosweb.mineco.gob.es/comercio/api/"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf"
+      },
+      {
+        "@id": "https://serviciosweb.mineco.gob.es/comercio/api/pdf"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#byteSize": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "2048"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#compressFormat": [
+      {
+        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf.zip"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#packageFormat": [
+      {
+        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#spatialResolutionInMeters": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "1000"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#temporalResolution": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#duration",
+        "@value": "P7D"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/hasPolicy": [
+      {
+        "@id": "https://datos.comercio.gob.es/policy/cc-by-4.0"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/page": [
+      {
+        "@id": "https://datos.comercio.gob.es/docs/metodologia_informe_comercio.pdf"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/docs/estructura_informe_comercio.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://10.0.2.3:8443/dataset/i000003811/resource/comercio-exterior-xml",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://data.europa.eu/r5r/applicableLegislation": [
+      {
+        "@id": "http://data.europa.eu/eli/dir/2019/1024/oj"
+      },
+      {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
       }
     ],
     "http://data.europa.eu/r5r/availability": [
@@ -1562,24 +759,200 @@
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/STABLE"
       }
     ],
+    "http://purl.org/dc/terms/accessRights": [
+      {
+        "@id": "https://schema.theodi.org/odrs/rightsstatement"
+      }
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/data-specification/SDMX"
+      },
+      {
+        "@id": "https://www.w3.org/XML/Schema"
+      }
+    ],
     "http://purl.org/dc/terms/description": [
       {
+        "@language": "en",
+        "@value": "XML distribution structured for trade data series"
+      },
+      {
         "@language": "es",
-        "@value": "Acceso al repositorio de microdatos de accidentes de tráfico con víctimas de 2024. Permite la búsqueda y descarga de los ficheros anuales (formato XLS) con el desglose detallado de siniestros, vehículos, conductores, pasajeros y peatones implicados en vías interurbanas y urbanas."
+        "@value": "Distribución XML estructurada con series de comercio exterior"
       }
     ],
     "http://purl.org/dc/terms/format": [
       {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XML"
       }
     ],
     "http://purl.org/dc/terms/issued": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2025-11-05T08:03:07+00:00"
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-01"
       }
     ],
     "http://purl.org/dc/terms/language": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-01"
+      }
+    ],
+    "http://purl.org/dc/terms/rights": [
+      {
+        "@id": "https://schema.theodi.org/odrs/rightsstatement"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "Foreign Trade — XML"
+      },
+      {
+        "@language": "es",
+        "@value": "Comercio Exterior — XML"
+      }
+    ],
+    "http://spdx.org/rdf/terms#checksum": [
+      {
+        "@id": "_:N535384924aff4a528d343ac3ada01e6b"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/distribution-status/DEVELOP"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessService": [
+      {
+        "@id": "https://serviciosweb.mineco.gob.es/comercio/api/"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://serviciosweb.mineco.gob.es/comercio/api/xml"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/datos-comercio.xml"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#byteSize": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "2048"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#compressFormat": [
+      {
+        "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/datos-comercio.xml.zip"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/datos-comercio.xml"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#packageFormat": [
+      {
+        "@id": "http://www.iana.org/assignments/media-types/application/x-tar"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#spatialResolutionInMeters": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "1000"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#temporalResolution": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#duration",
+        "@value": "P7D"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/hasPolicy": [
+      {
+        "@id": "https://datos.comercio.gob.es/policy/cc0-1.0"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/page": [
+      {
+        "@id": "https://datos.comercio.gob.es/docs/metodologia_datos_comercio_xml.pdf"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/docs/api_uso_datos_xml.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://10.0.2.3:8443/dataset/i000003813/resource/comercio-exterior-pdf",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://data.europa.eu/r5r/applicableLegislation": [
+      {
+        "@id": "http://data.europa.eu/eli/dir/2019/1024/oj"
+      },
+      {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      }
+    ],
+    "http://data.europa.eu/r5r/availability": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      }
+    ],
+    "http://purl.org/dc/terms/accessRights": [
+      {
+        "@id": "https://schema.theodi.org/odrs/rightsholder"
+      }
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "https://schema.org/Dataset"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "PDF distribution for external trade report"
+      },
+      {
+        "@language": "es",
+        "@value": "Distribución en formato PDF con el informe anual de comercio exterior"
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/PDF"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-01"
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+      },
       {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       }
@@ -1591,14 +964,28 @@
     ],
     "http://purl.org/dc/terms/modified": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2025-11-05T08:20:29+00:00"
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-01"
+      }
+    ],
+    "http://purl.org/dc/terms/rights": [
+      {
+        "@id": "https://schema.theodi.org/odrs/rightsholder"
       }
     ],
     "http://purl.org/dc/terms/title": [
       {
         "@language": "es",
-        "@value": "Ficheros de microdatos de accidentes con víctimas 2024"
+        "@value": "Comercio Exterior — PDF"
+      },
+      {
+        "@language": "en",
+        "@value": "Foreign Trade — PDF"
+      }
+    ],
+    "http://spdx.org/rdf/terms#checksum": [
+      {
+        "@id": "_:Nc01790affcd44e4da5ec03f1c20a5a74"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -1606,79 +993,314 @@
         "@id": "http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"
       }
     ],
+    "http://www.w3.org/ns/dcat#accessService": [
+      {
+        "@id": "https://serviciosweb.mineco.gob.es/comercio/api/"
+      }
+    ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Ficheros-de-microdatos-de-accidentes-con-victimas-2024/"
+        "@id": "https://serviciosweb.mineco.gob.es/comercio/api/pdf"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf"
       }
     ],
     "http://www.w3.org/ns/dcat#byteSize": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-        "@value": "25357990"
+        "@value": "2048"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#compressFormat": [
+      {
+        "@id": "http://www.iana.org/assignments/media-types/application/zip"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/dgt-en-cifras/publicaciones/Ficheros_microdatos_de_accidentalidad_con_victimas/TABLA_ACCIDENTES_24.XLSX"
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf.zip"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf"
       }
     ],
-    "http://www.w3.org/ns/dcat#mediaType": [
+    "http://www.w3.org/ns/dcat#packageFormat": [
       {
-        "@id": "http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#spatialResolutionInMeters": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "1000"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#temporalResolution": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#duration",
+        "@value": "P7D"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/hasPolicy": [
+      {
+        "@id": "https://datos.comercio.gob.es/policy/cc-by-4.0"
       }
     ],
     "http://xmlns.com/foaf/0.1/page": [
       {
-        "@id": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/dgt-en-cifras/24h/Diccionario_Tabla_Accidentes.xlsx"
+        "@id": "https://datos.comercio.gob.es/docs/estructura_informe_comercio.html"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/docs/metodologia_informe_comercio.pdf"
       }
     ]
   },
   {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/mire04931401dsdepend000001/resource/listado-dependenciasde-atencion-ciudadania-guardia-civil-csv",
+    "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/datos-comercio.xml",
     "@type": [
       "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://data.europa.eu/r5r/applicableLegislation": [
+      {
+        "@id": "http://data.europa.eu/eli/dir/2019/1024/oj"
+      },
+      {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      }
+    ],
+    "http://data.europa.eu/r5r/availability": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/STABLE"
+      }
+    ],
+    "http://purl.org/dc/terms/accessRights": [
+      {
+        "@id": "https://schema.theodi.org/odrs/rightsstatement"
+      }
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/data-specification/SDMX"
+      },
+      {
+        "@id": "https://www.w3.org/XML/Schema"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "es",
+        "@value": "Distribución XML estructurada con series de comercio exterior"
+      },
+      {
+        "@language": "en",
+        "@value": "XML distribution structured for trade data series"
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XML"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-01"
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-01"
+      }
+    ],
+    "http://purl.org/dc/terms/rights": [
+      {
+        "@id": "https://schema.theodi.org/odrs/rightsstatement"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "es",
+        "@value": "Comercio Exterior — XML"
+      },
+      {
+        "@language": "en",
+        "@value": "Foreign Trade — XML"
+      }
+    ],
+    "http://spdx.org/rdf/terms#checksum": [
+      {
+        "@id": "_:N535384924aff4a528d343ac3ada01e6b"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/distribution-status/DEVELOP"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessService": [
+      {
+        "@id": "https://serviciosweb.mineco.gob.es/comercio/api/"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://serviciosweb.mineco.gob.es/comercio/api/xml"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/datos-comercio.xml"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#byteSize": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "2048"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#compressFormat": [
+      {
+        "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/datos-comercio.xml"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/datos-comercio.xml.zip"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#packageFormat": [
+      {
+        "@id": "http://www.iana.org/assignments/media-types/application/x-tar"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#spatialResolutionInMeters": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "1000"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#temporalResolution": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#duration",
+        "@value": "P7D"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/hasPolicy": [
+      {
+        "@id": "https://datos.comercio.gob.es/policy/cc0-1.0"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/page": [
+      {
+        "@id": "https://datos.comercio.gob.es/docs/metodologia_datos_comercio_xml.pdf"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/docs/api_uso_datos_xml.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://data.europa.eu/r5r/applicableLegislation": [
+      {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      {
+        "@id": "http://data.europa.eu/eli/dir/2019/1024/oj"
+      }
     ],
     "http://data.europa.eu/r5r/availability": [
       {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       }
     ],
+    "http://purl.org/dc/terms/accessRights": [
+      {
+        "@id": "https://schema.theodi.org/odrs/rightsholder"
+      }
+    ],
     "http://purl.org/dc/terms/conformsTo": [
       {
-        "@id": "https://datosgobes.github.io/DCAT-AP-ES/"
+        "@id": "https://schema.org/Dataset"
       }
     ],
     "http://purl.org/dc/terms/description": [
       {
         "@language": "es",
-        "@value": "Listado en formato CSV de las unidades de la Guardia Civil que prestan servicios de atención a la ciudadanía, incluyendo teléfono de contacto, su dirección postal y coordenadas geográficas."
+        "@value": "Distribución en formato PDF con el informe anual de comercio exterior"
+      },
+      {
+        "@language": "en",
+        "@value": "PDF distribution for external trade report"
       }
     ],
     "http://purl.org/dc/terms/format": [
       {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+        "@id": "http://publications.europa.eu/resource/authority/file-type/PDF"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-01"
       }
     ],
     "http://purl.org/dc/terms/language": [
       {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/ENG"
       }
     ],
     "http://purl.org/dc/terms/license": [
       {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BYNCSA_4_0"
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
       }
     ],
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-05-12"
+        "@value": "2025-07-01"
+      }
+    ],
+    "http://purl.org/dc/terms/rights": [
+      {
+        "@id": "https://schema.theodi.org/odrs/rightsholder"
       }
     ],
     "http://purl.org/dc/terms/title": [
       {
+        "@language": "en",
+        "@value": "Foreign Trade — PDF"
+      },
+      {
         "@language": "es",
-        "@value": "listado-dependenciasde-atencion-ciudadania-guardia-civil-csv"
+        "@value": "Comercio Exterior — PDF"
+      }
+    ],
+    "http://spdx.org/rdf/terms#checksum": [
+      {
+        "@id": "_:N3d728c3dec1147f9a947c3a87d8bb0c2"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -1686,170 +1308,195 @@
         "@id": "http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"
       }
     ],
-    "http://www.w3.org/ns/dcat#accessURL": [
+    "http://www.w3.org/ns/dcat#accessService": [
       {
-        "@id": "https://web.guardiacivil.es/.galleries/Documentos/listado-dependenciasde-atencion-ciudadania-Guardia-Civil.csv"
+        "@id": "https://serviciosweb.mineco.gob.es/comercio/api/"
       }
     ],
-    "http://www.w3.org/ns/dcat#mediaType": [
+    "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://www.iana.org/assignments/media-types/text/csv"
+        "@id": "https://serviciosweb.mineco.gob.es/comercio/api/pdf"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#byteSize": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "2048"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#compressFormat": [
+      {
+        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf.zip"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior/resource/informe-comercio.pdf"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#packageFormat": [
+      {
+        "@id": "http://www.iana.org/assignments/media-types/application/zip"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#spatialResolutionInMeters": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "1000"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#temporalResolution": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#duration",
+        "@value": "P7D"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/hasPolicy": [
+      {
+        "@id": "https://datos.comercio.gob.es/policy/cc-by-4.0"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/page": [
+      {
+        "@id": "https://datos.comercio.gob.es/docs/metodologia_informe_comercio.pdf"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/docs/estructura_informe_comercio.html"
       }
     ]
   },
   {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/mire04931401dsdepend000002/resource/direcciones-dependencias-guardia-civil-csv",
+    "@id": "https://serviciosweb.mineco.gob.es/comercio/api/",
     "@type": [
-      "http://www.w3.org/ns/dcat#Distribution"
+      "http://www.w3.org/ns/dcat#DataService"
     ],
-    "http://data.europa.eu/r5r/availability": [
+    "http://data.europa.eu/r5r/applicableLegislation": [
       {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      {
+        "@id": "http://data.europa.eu/eli/dir/2019/1024/oj"
       }
     ],
-    "http://purl.org/dc/terms/conformsTo": [
+    "http://data.europa.eu/r5r/hvdCategory": [
       {
-        "@id": "https://datosgobes.github.io/DCAT-AP-ES/"
+        "@id": "http://data.europa.eu/bna/c_04bf94a3"
+      },
+      {
+        "@id": "http://data.europa.eu/bna/c_e1da4e07"
+      }
+    ],
+    "http://purl.org/dc/terms/accessRights": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
       }
     ],
     "http://purl.org/dc/terms/description": [
       {
         "@language": "es",
-        "@value": "Listado en formato CSV de las unidades de la Guardia Civil que prestan servicios de atención al ciudadano, incluyendo teléfono de contacto, su dirección postal y coordenadas geográficas."
-      }
-    ],
-    "http://purl.org/dc/terms/format": [
+        "@value": "Descripción1"
+      },
       {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        "@language": "en",
+        "@value": "Descripción2"
       }
     ],
     "http://purl.org/dc/terms/license": [
       {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BYNCSA_4_0"
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
       }
     ],
-    "http://purl.org/dc/terms/modified": [
+    "http://purl.org/dc/terms/publisher": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-05-14"
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121"
       }
     ],
     "http://purl.org/dc/terms/title": [
       {
         "@language": "es",
-        "@value": "direcciones-dependencias-guardia-civil-csv"
+        "@value": "Servicio Datos 1"
+      },
+      {
+        "@language": "en",
+        "@value": "Data service 1"
       }
     ],
-    "http://www.w3.org/ns/adms#status": [
+    "http://www.w3.org/ns/dcat#contactPoint": [
       {
-        "@id": "http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"
+        "@id": "https://datos.ejemplo.gob.es/id/contacto/org-e"
+      },
+      {
+        "@id": "https://datos.ejemplo.gob.es/id/contacto/org-a"
+      },
+      {
+        "@id": "https://datos.ejemplo.gob.es/id/contacto/org-c"
+      },
+      {
+        "@id": "https://datos.ejemplo.gob.es/id/contacto/org-f"
       }
     ],
-    "http://www.w3.org/ns/dcat#accessURL": [
+    "http://www.w3.org/ns/dcat#endpointDescription": [
       {
-        "@id": "http://prueba.guardiacivil.es/direcciones_dependencias_guardia_civil.csv"
+        "@id": "https://ideihm.covam.es/wfs-inspire/hidrografia?SERVICE=WFS&REQUEST=GetCapabilities"
+      },
+      {
+        "@id": "https://portal.datos.gob.es/docs/descripcion_servicio_datos.pdf"
       }
     ],
-    "http://www.w3.org/ns/dcat#mediaType": [
+    "http://www.w3.org/ns/dcat#endpointURL": [
       {
-        "@id": "https://www.iana.org/assignments/media-types/text/csv"
+        "@id": "https://api.comercio.gob.es/series-temporales/"
+      },
+      {
+        "@id": "https://serviciosweb.mineco.gob.es/indicadores/api/"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#keyword": [
+      {
+        "@language": "es",
+        "@value": "comercio exterior"
+      },
+      {
+        "@language": "es",
+        "@value": "indicadores económicos"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#servesDataset": [
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/indicadores-economicos"
+      },
+      {
+        "@id": "https://datos.comercio.gob.es/dataset/comercio-exterior"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
+      },
+      {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/economia"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/page": [
+      {
+        "@id": "https://datos.gob.es/sites/default/files/guia_servicio_datos_IGN.pdf"
       }
     ]
   },
   {
-    "@id": "https://pre-ckan.interior.gob.es/dataset/mire04931401dsproced000001/resource/procedimientos-administrativos-competencia-guardia-civil-csv",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Distribution"
-    ],
-    "http://data.europa.eu/r5r/availability": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      }
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "https://datosgobes.github.io/DCAT-AP-ES/"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Listado en formato CSV de los procedimientos administrativos competencia de la Guardia Civil."
-      }
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
-      }
-    ],
-    "http://purl.org/dc/terms/license": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BYNCSA_4_0"
-      }
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-05-19"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "procedimientos-administrativos-competencia-guardia-civil-csv"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#accessURL": [
-      {
-        "@id": "https://web.guardiacivil.es/documentos/contenidos_reutilizables/procedimientos_administrativos_competencia_guardia_civil.csv"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#mediaType": [
-      {
-        "@id": "https://www.iana.org/assignments/media-types/text/csv"
-      }
-    ]
-  },
-  {
-    "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801",
+    "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121",
     "@type": [
       "http://xmlns.com/foaf/0.1/Agent"
     ],
     "http://purl.org/dc/terms/identifier": [
       {
-        "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/name": [
-      {
-        "@language": "es",
-        "@value": "Dirección General de Protección Civil y Emergencias"
-      }
-    ]
-  },
-  {
-    "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502",
-    "@type": [
-      "http://xmlns.com/foaf/0.1/Agent"
-    ],
-    "http://purl.org/dc/terms/identifier": [
-      {
-        "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502"
+        "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121"
       }
     ],
     "http://purl.org/dc/terms/type": [
@@ -1860,18 +1507,22 @@
     "http://xmlns.com/foaf/0.1/name": [
       {
         "@language": "es",
-        "@value": "Dirección General de Tráfico (DGT)"
+        "@value": "Ministerio de Asuntos Económicos y Transformación Digital"
+      },
+      {
+        "@language": "en",
+        "@value": "MINECO"
       }
     ]
   },
   {
-    "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401",
+    "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381",
     "@type": [
       "http://xmlns.com/foaf/0.1/Agent"
     ],
     "http://purl.org/dc/terms/identifier": [
       {
-        "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401"
+        "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"
       }
     ],
     "http://purl.org/dc/terms/type": [
@@ -1881,24 +1532,28 @@
     ],
     "http://xmlns.com/foaf/0.1/name": [
       {
+        "@language": "en",
+        "@value": "INE"
+      },
+      {
         "@language": "es",
-        "@value": "Dirección General de la Guardia Civil"
+        "@value": "Instituto Nacional de Estadística"
       }
     ]
   },
   {
-    "@id": "_:N14ec440b0c3a429e8bb2e22d10156626",
+    "@id": "_:N2b706acef94142caa502e5f218120069",
     "@type": [
       "http://purl.org/dc/terms/PeriodOfTime"
     ],
     "http://www.w3.org/2006/time#hasBeginning": [
       {
-        "@id": "_:N428b615abc264791bc579d924a4abcdc"
+        "@id": "_:Nc0a02bb68692435282763d7d4d477849"
       }
     ],
     "http://www.w3.org/2006/time#hasEnd": [
       {
-        "@id": "_:Nf4444ea8acd34c9086e8e9fc5be49cc9"
+        "@id": "_:N73d7fe372900451785fbfbc7fafb7d40"
       }
     ],
     "http://www.w3.org/ns/dcat#endDate": [
@@ -1915,221 +1570,135 @@
     ]
   },
   {
-    "@id": "_:N1873dd1feb6c445eb9769931602743eb",
-    "@type": [
-      "http://purl.org/dc/terms/ProvenanceStatement"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Datos recopilados por la Dirección General de Tráfico a partir del registro de accidentes con víctimas por los agentes con competencia en materia de tráfico y seguridad vial y ottras fuentes como el IMLCF y el INE."
-      }
-    ]
-  },
-  {
-    "@id": "_:N2ce25fcd46b14ce094c7bd3211399580",
-    "@type": [
-      "http://www.w3.org/2006/vcard/ns#Kind"
-    ],
-    "http://www.w3.org/2006/vcard/ns#fn": [
-      {
-        "@language": "es",
-        "@value": "Oficina de Información y Atención a la Ciudadanía"
-      }
-    ],
-    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
-      {
-        "@id": "tel:915146000"
-      }
-    ],
-    "http://www.w3.org/2006/vcard/ns#hasUID": [
-      {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401"
-      }
-    ],
-    "http://www.w3.org/2006/vcard/ns#hasURL": [
-      {
-        "@id": "https://web.guardiacivil.es"
-      }
-    ],
-    "http://www.w3.org/2006/vcard/ns#organization-name": [
-      {
-        "@language": "es",
-        "@value": "Dirección General de la Guardia Civil"
-      }
-    ]
-  },
-  {
-    "@id": "_:N37ae31f7f9494a3b8066f66a7751d43e",
+    "@id": "_:N2fe27cb19b05460f8fc1a41630714224",
     "@type": [
       "http://purl.org/dc/terms/PeriodOfTime"
     ],
+    "http://www.w3.org/2006/time#hasBeginning": [
+      {
+        "@id": "_:N32d556eab46f4bb9bd7ef64d1730bffd"
+      }
+    ],
+    "http://www.w3.org/2006/time#hasEnd": [
+      {
+        "@id": "_:Na7030c7b9a8649f3bc874b098ee39fa6"
+      }
+    ],
     "http://www.w3.org/ns/dcat#endDate": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2024-12-31T00:00:00+00:00"
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-08-17"
       }
     ],
     "http://www.w3.org/ns/dcat#startDate": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2024-01-01T00:00:00+00:00"
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-12-28"
       }
     ]
   },
   {
-    "@id": "_:N428b615abc264791bc579d924a4abcdc",
+    "@id": "_:N32d556eab46f4bb9bd7ef64d1730bffd",
     "@type": [
       "http://www.w3.org/2006/time#Instant"
     ],
     "http://www.w3.org/2006/time#inXSDDate": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2021-01-01"
+        "@value": "2021-12-28"
       }
     ]
   },
   {
-    "@id": "_:N643837f868c0423aa3e94993dab79683",
+    "@id": "_:N3d728c3dec1147f9a947c3a87d8bb0c2",
     "@type": [
-      "http://www.w3.org/2006/vcard/ns#Kind"
+      "http://spdx.org/rdf/terms#Checksum"
     ],
-    "http://www.w3.org/2006/vcard/ns#fn": [
+    "http://spdx.org/rdf/terms#algorithm": [
       {
-        "@language": "es",
-        "@value": "Observatorio Nacional Seguridad Vial (ONSV)"
+        "@id": "http://spdx.org/rdf/terms#checksumAlgorithm_sha1"
       }
     ],
-    "http://www.w3.org/2006/vcard/ns#hasEmail": [
+    "http://spdx.org/rdf/terms#checksumValue": [
       {
-        "@id": "mailto:servicio.estadistica@dgt.es"
-      }
-    ],
-    "http://www.w3.org/2006/vcard/ns#hasUID": [
-      {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502"
-      }
-    ],
-    "http://www.w3.org/2006/vcard/ns#hasURL": [
-      {
-        "@id": "https://www.dgt.es/menusecundario/dgt-en-cifras/"
-      }
-    ],
-    "http://www.w3.org/2006/vcard/ns#organization-name": [
-      {
-        "@language": "es",
-        "@value": "Dirección General de Tráfico (DGT)"
+        "@type": "http://www.w3.org/2001/XMLSchema#hexBinary",
+        "@value": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
       }
     ]
   },
   {
-    "@id": "_:N669739452ab64a80abfd1f8a86a6c3f6",
+    "@id": "_:N535384924aff4a528d343ac3ada01e6b",
     "@type": [
-      "http://purl.org/dc/terms/PeriodOfTime"
+      "http://spdx.org/rdf/terms#Checksum"
     ],
-    "http://www.w3.org/ns/dcat#endDate": [
+    "http://spdx.org/rdf/terms#algorithm": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-03-11T00:00:00+01:00"
+        "@id": "http://spdx.org/rdf/terms#checksumAlgorithm_sha1"
       }
     ],
-    "http://www.w3.org/ns/dcat#startDate": [
+    "http://spdx.org/rdf/terms#checksumValue": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "1976-01-01T00:00:00+01:00"
+        "@type": "http://www.w3.org/2001/XMLSchema#hexBinary",
+        "@value": "356a192b7913b04c54574d18c28d46e6395428ab"
       }
     ]
   },
   {
-    "@id": "_:N9743d14b8a0a4175a5b42178d243a21f",
+    "@id": "_:N5caf88254c07457b8f4426a66d7fd624",
     "@type": [
-      "http://www.w3.org/2006/vcard/ns#Kind"
+      "http://www.w3.org/2006/time#Instant"
     ],
-    "http://www.w3.org/2006/vcard/ns#fn": [
+    "http://www.w3.org/2006/time#inXSDDate": [
       {
-        "@language": "es",
-        "@value": "Oficina de Información y Atención a la Ciudadanía"
-      }
-    ],
-    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
-      {
-        "@id": "tel:915146000"
-      }
-    ],
-    "http://www.w3.org/2006/vcard/ns#hasUID": [
-      {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401"
-      }
-    ],
-    "http://www.w3.org/2006/vcard/ns#hasURL": [
-      {
-        "@id": "https://web.guardiacivil.es"
-      }
-    ],
-    "http://www.w3.org/2006/vcard/ns#organization-name": [
-      {
-        "@language": "es",
-        "@value": "Dirección General de la Guardia Civil"
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-08-17"
       }
     ]
   },
   {
-    "@id": "_:Nc0f4f83c0008472ab9693fffaa08691f",
+    "@id": "_:N7276c7c47f8a45f19c0a1e29ab388876",
     "@type": [
-      "http://www.w3.org/2006/vcard/ns#Kind"
+      "http://www.w3.org/ns/adms#Identifier"
     ],
-    "http://www.w3.org/2006/vcard/ns#hasEmail": [
+    "http://purl.org/dc/terms/conformsTo": [
       {
-        "@id": "mailto:infoelectoral@interior.es"
+        "@value": "ISO19115:2014"
       }
     ],
-    "http://www.w3.org/2006/vcard/ns#hasUID": [
+    "http://purl.org/dc/terms/format": [
       {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/Ministerio del Interior"
+        "@value": "XML / GML"
       }
     ],
-    "http://www.w3.org/2006/vcard/ns#organization-name": [
+    "http://purl.org/dc/terms/identifier": [
       {
-        "@language": "es",
-        "@value": "E00003801"
-      }
-    ]
-  },
-  {
-    "@id": "_:Ndf88b208d1c742f29bd1cfaff461955c",
-    "@type": [
-      "http://www.w3.org/2006/vcard/ns#Kind"
-    ],
-    "http://www.w3.org/2006/vcard/ns#fn": [
-      {
-        "@language": "es",
-        "@value": "Oficina de Información y Atención a la Ciudadanía"
+        "@id": "https://www.iso.org/standard/53798.html"
       }
     ],
-    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+    "http://purl.org/dc/terms/issued": [
       {
-        "@id": "tel:915146000"
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2014-04-01"
       }
     ],
-    "http://www.w3.org/2006/vcard/ns#hasUID": [
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
-        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E04931401"
+        "@value": "Norma internacional para metadatos geográficos."
       }
     ],
-    "http://www.w3.org/2006/vcard/ns#hasURL": [
+    "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@id": "https://web.guardiacivil.es"
+        "@value": "ISO19115"
       }
     ],
-    "http://www.w3.org/2006/vcard/ns#organization-name": [
+    "http://xmlns.com/foaf/0.1/page": [
       {
-        "@language": "es",
-        "@value": "Dirección General de la Guardia Civil"
+        "@id": "https://www.iso.org/standard/53798.html"
       }
     ]
   },
   {
-    "@id": "_:Nf4444ea8acd34c9086e8e9fc5be49cc9",
+    "@id": "_:N73d7fe372900451785fbfbc7fafb7d40",
     "@type": [
       "http://www.w3.org/2006/time#Instant"
     ],
@@ -2141,14 +1710,313 @@
     ]
   },
   {
-    "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España",
+    "@id": "_:N80186d10a13b411386809b74f058a385",
+    "@type": [
+      "http://purl.org/dc/terms/PeriodOfTime"
+    ],
+    "http://www.w3.org/2006/time#hasBeginning": [
+      {
+        "@id": "_:N8661b555a6ea4dcc85caa97db6928c76"
+      }
+    ],
+    "http://www.w3.org/2006/time#hasEnd": [
+      {
+        "@id": "_:N5caf88254c07457b8f4426a66d7fd624"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#endDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-08-17"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#startDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-12-28"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8661b555a6ea4dcc85caa97db6928c76",
+    "@type": [
+      "http://www.w3.org/2006/time#Instant"
+    ],
+    "http://www.w3.org/2006/time#inXSDDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-12-28"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na695af40c0a54f89a4fa383fd53c01ef",
+    "@type": [
+      "http://www.w3.org/2006/vcard/ns#Kind"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@language": "es",
+        "@value": "Unidad D"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasEmail": [
+      {
+        "@id": "mailto:orgDarrobaeconomia.gob.es"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+      {
+        "@id": "tel:+3210000004"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasUID": [
+      {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasURL": [
+      {
+        "@id": "https://orgD.gob.es/info"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#organization-name": [
+      {
+        "@language": "es",
+        "@value": "Nombre Org F"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na7030c7b9a8649f3bc874b098ee39fa6",
+    "@type": [
+      "http://www.w3.org/2006/time#Instant"
+    ],
+    "http://www.w3.org/2006/time#inXSDDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-08-17"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb7e1b5a34f62499e8b6bddcd4dae2f55",
+    "@type": [
+      "http://www.w3.org/2006/vcard/ns#Kind"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@language": "es",
+        "@value": "Unidad C"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasEmail": [
+      {
+        "@id": "mailto:orgCarrobaeconomia.gob.es"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+      {
+        "@id": "tel:+3210000003"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasUID": [
+      {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasURL": [
+      {
+        "@id": "https://orgC.gob.es/info"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#organization-name": [
+      {
+        "@language": "es",
+        "@value": "Nombre Org C"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc01790affcd44e4da5ec03f1c20a5a74",
+    "@type": [
+      "http://spdx.org/rdf/terms#Checksum"
+    ],
+    "http://spdx.org/rdf/terms#algorithm": [
+      {
+        "@id": "http://spdx.org/rdf/terms#checksumAlgorithm_sha1"
+      }
+    ],
+    "http://spdx.org/rdf/terms#checksumValue": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#hexBinary",
+        "@value": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc0a02bb68692435282763d7d4d477849",
+    "@type": [
+      "http://www.w3.org/2006/time#Instant"
+    ],
+    "http://www.w3.org/2006/time#inXSDDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc3e77af869a241f3b5a0d0902af7c844",
+    "@type": [
+      "http://www.w3.org/2006/vcard/ns#Kind"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@language": "es",
+        "@value": "Unidad C"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasEmail": [
+      {
+        "@id": "mailto:orgCarrobaeconomia.gob.es"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+      {
+        "@id": "tel:+3210000003"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasUID": [
+      {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasURL": [
+      {
+        "@id": "https://orgC.gob.es/info"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#organization-name": [
+      {
+        "@language": "es",
+        "@value": "Nombre Org E"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nfd73b84e05fc411f9b5229094e49cb85",
+    "@type": [
+      "http://www.w3.org/2006/vcard/ns#Kind"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@language": "es",
+        "@value": "Unidad D"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasEmail": [
+      {
+        "@id": "mailto:orgDarrobaeconomia.gob.es"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+      {
+        "@id": "tel:+3210000004"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasUID": [
+      {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasURL": [
+      {
+        "@id": "https://orgD.gob.es/info"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#organization-name": [
+      {
+        "@language": "es",
+        "@value": "Nombre Org D"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nffb9fcf201af487882785c4c66798ddb",
+    "@type": [
+      "http://www.w3.org/ns/adms#Identifier"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@value": "W3C DCAT-AP 2.1.1"
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "RDF / JSON-LD"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-09-10"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Perfil de aplicación europeo del estándar DCAT para catálogos de datos."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "DCAT-AP"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/page": [
+      {
+        "@id": "https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe"
+      }
+    ]
+  },
+  {
+    "@id": "http://data.europa.eu/eli/dir/2019/1024/oj",
+    "@type": [
+      "http://data.europa.eu/eli/ontology#LegalResource"
+    ]
+  },
+  {
+    "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj",
+    "@type": [
+      "http://data.europa.eu/eli/ontology#LegalResource"
+    ]
+  },
+  {
+    "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid",
     "@type": [
       "http://purl.org/dc/terms/Location"
+    ],
+    "http://www.w3.org/ns/dcat#bbox": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))"
+      }
     ],
     "http://www.w3.org/ns/dcat#centroid": [
       {
         "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-        "@value": "POINT (-3.7038 40.4168)"
+        "@value": "POINT (-3.8150 40.5250)"
+      }
+    ],
+    "http://www.w3.org/ns/locn#geometry": [
+      {
+        "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "@value": "POLYGON ((-4.5800 39.8800, -3.0500 39.8800, -3.0500 41.1700, -4.5800 41.1700, -4.5800 39.8800))"
       }
     ]
   },
@@ -2233,33 +2101,171 @@
     ]
   },
   {
-    "@id": "https://eur-lex.europa.eu/legal-content/ES/LSU/?uri=oj:JOL_2018_151_R_0001",
+    "@id": "https://datos.ejemplo.gob.es/id/contacto/org-a",
     "@type": [
-      "http://data.europa.eu/eli/ontology#LegalResource"
+      "http://www.w3.org/2006/vcard/ns#Kind"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@language": "es",
+        "@value": "Unidad A"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasEmail": [
+      {
+        "@id": "mailto:orgAarrobaeconomia.gob.es"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+      {
+        "@id": "tel:+3210000001"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasUID": [
+      {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasURL": [
+      {
+        "@id": "https://orgA.gob.es/info"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#organization-name": [
+      {
+        "@language": "es",
+        "@value": "Nombre Org A"
+      }
     ]
   },
   {
-    "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-12408",
+    "@id": "https://datos.ejemplo.gob.es/id/contacto/org-c",
     "@type": [
-      "http://data.europa.eu/eli/ontology#LegalResource"
+      "http://www.w3.org/2006/vcard/ns#Kind"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@language": "es",
+        "@value": "Unidad C"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasEmail": [
+      {
+        "@id": "mailto:orgCarrobaeconomia.gob.es"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+      {
+        "@id": "tel:+3210000003"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasUID": [
+      {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasURL": [
+      {
+        "@id": "https://orgC.gob.es/info"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#organization-name": [
+      {
+        "@language": "es",
+        "@value": "Nombre Org C"
+      }
     ]
   },
   {
-    "@id": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-12411",
+    "@id": "https://datos.ejemplo.gob.es/id/contacto/org-e",
     "@type": [
-      "http://data.europa.eu/eli/ontology#LegalResource"
+      "http://www.w3.org/2006/vcard/ns#Kind"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@language": "es",
+        "@value": "Unidad C"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasEmail": [
+      {
+        "@id": "mailto:orgCarrobaeconomia.gob.es"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+      {
+        "@id": "tel:+3210000003"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasUID": [
+      {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasURL": [
+      {
+        "@id": "https://orgC.gob.es/info"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#organization-name": [
+      {
+        "@language": "es",
+        "@value": "Nombre Org E"
+      }
     ]
   },
   {
-    "@id": "https://www.boe.es/eli/es/lo/1985/06/19/5",
+    "@id": "https://datos.ejemplo.gob.es/id/contacto/org-f",
     "@type": [
-      "http://data.europa.eu/eli/ontology#LegalResource"
+      "http://www.w3.org/2006/vcard/ns#Kind"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@language": "es",
+        "@value": "Unidad D"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasEmail": [
+      {
+        "@id": "mailto:orgDarrobaeconomia.gob.es"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasTelephone": [
+      {
+        "@id": "tel:+3210000004"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasUID": [
+      {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000381"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasURL": [
+      {
+        "@id": "https://orgD.gob.es/info"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#organization-name": [
+      {
+        "@language": "es",
+        "@value": "Nombre Org F"
+      }
     ]
   },
   {
-    "@id": "https://www.boe.es/eli/es/rd/1998/12/23/2822/con",
-    "@type": [
-      "http://data.europa.eu/eli/ontology#LegalResource"
+    "@id": "https://serviciosweb.mineco.gob.es/comercio/api/pdf",
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://serviciosweb.mineco.gob.es/comercio/api/pdf"
+      }
+    ]
+  },
+  {
+    "@id": "https://serviciosweb.mineco.gob.es/comercio/api/xml",
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://serviciosweb.mineco.gob.es/comercio/api/xml"
+      }
     ]
   }
 ]
