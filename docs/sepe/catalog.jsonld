@@ -29,18 +29,6 @@
         "@value": "Catálogo de Observatorio de Ocupaciones",
         "@language": "es"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-02-25T00:00:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.846000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dct:creator": [
         {
           "@type": "foaf:Agent",
@@ -108,7 +96,7 @@
       "impulsadata:validationStatus": [
         {
           "@language": "es",
-          "@value": "conforme-DCAT-AP-ES"
+          "@value": "inconforme-DCAT-AP-ES"
         }
       ]
     },
@@ -147,18 +135,6 @@
       "dct:accessRights": {
         "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T00:00:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.861000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
@@ -182,15 +158,6 @@
       "dct:spatial": [
         {
           "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2006-01-01T00:00:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          }
         }
       ],
       "dcat:contactPoint": [
@@ -448,18 +415,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.891000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.891000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -490,18 +445,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.891000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.891000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -532,18 +475,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.891000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.891000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -574,18 +505,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.891000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.891000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -616,18 +535,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.906000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.906000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -658,18 +565,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.906000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.906000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -700,18 +595,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.906000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.906000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -742,18 +625,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.906000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.906000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -784,18 +655,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.906000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.906000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -826,18 +685,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.906000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.906000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -868,18 +715,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.921000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.921000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -910,18 +745,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.921000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.921000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -952,18 +775,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.921000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.921000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -994,18 +805,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.921000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.921000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1036,18 +835,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.932000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.932000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1078,18 +865,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.932000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.932000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1120,18 +895,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.936000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.936000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1162,18 +925,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.936000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.936000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1204,18 +955,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.936000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.936000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1246,18 +985,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.936000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.936000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1288,18 +1015,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.936000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.936000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1330,18 +1045,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.936000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.936000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1372,18 +1075,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.936000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.936000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1414,18 +1105,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.951000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.951000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1456,18 +1135,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.951000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.951000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1498,18 +1165,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.951000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.951000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1540,18 +1195,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.951000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.951000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1582,18 +1225,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.951000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.951000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1624,18 +1255,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.951000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.951000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1666,18 +1285,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.951000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.951000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1708,18 +1315,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.951000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.951000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1750,18 +1345,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.966000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.966000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1792,18 +1375,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.966000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.966000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1834,18 +1405,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.966000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.966000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1876,18 +1435,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.966000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.966000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1918,18 +1465,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.966000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.966000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -1960,18 +1495,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.966000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.966000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2002,18 +1525,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.981000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.981000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2044,18 +1555,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.981000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.981000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2086,18 +1585,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.981000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.981000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2128,18 +1615,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.981000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.981000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2170,18 +1645,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.981000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.981000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2212,18 +1675,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.981000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.981000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2254,18 +1705,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.996000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.996000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2296,18 +1735,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.996000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.996000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2338,18 +1765,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.996000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.996000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2380,18 +1795,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.996000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.996000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2422,18 +1825,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.996000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.996000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2464,18 +1855,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:23.996000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.996000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2506,18 +1885,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.011000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.011000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2548,18 +1915,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.011000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.011000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2590,18 +1945,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.011000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.011000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2632,18 +1975,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.011000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.011000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2674,18 +2005,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.026000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.026000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2716,18 +2035,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.026000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.026000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2758,18 +2065,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.032000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.032000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2800,18 +2095,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.032000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.032000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2842,18 +2125,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.032000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.032000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2884,18 +2155,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.032000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.032000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2926,18 +2185,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.041000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.041000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -2968,18 +2215,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.041000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.041000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -3010,18 +2245,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.041000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.041000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -3064,18 +2287,6 @@
       "dct:accessRights": {
         "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T00:00:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.861000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
@@ -3099,15 +2310,6 @@
       "dct:spatial": [
         {
           "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2006-01-01T00:00:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          }
         }
       ],
       "dcat:contactPoint": [
@@ -3365,18 +2567,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.041000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.041000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -3407,18 +2597,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.041000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.041000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -3449,18 +2627,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.056000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.056000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -3491,18 +2657,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.056000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.056000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -3533,18 +2687,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.056000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.056000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -3575,18 +2717,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.056000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.056000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -3617,18 +2747,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.056000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.056000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -3659,18 +2777,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.056000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.056000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -3701,18 +2807,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.056000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.056000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -3743,18 +2837,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.056000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.056000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -3785,18 +2867,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.071000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.071000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -3827,18 +2897,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.071000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.071000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -3869,18 +2927,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.071000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.071000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -3911,18 +2957,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.071000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.071000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -3953,18 +2987,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.071000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.071000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -3995,18 +3017,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.071000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.071000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4037,18 +3047,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.071000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.071000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4079,18 +3077,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.086000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.086000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4121,18 +3107,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.086000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.086000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4163,18 +3137,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.086000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.086000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4205,18 +3167,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.086000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.086000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4247,18 +3197,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.086000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.086000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4289,18 +3227,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.086000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.086000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4331,18 +3257,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.101000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.101000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4373,18 +3287,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.101000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.101000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4415,18 +3317,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.101000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.101000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4457,18 +3347,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.101000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.101000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4499,18 +3377,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.101000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.101000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4541,18 +3407,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.101000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.101000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4583,18 +3437,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.101000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.101000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4625,18 +3467,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.116000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.116000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4667,18 +3497,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.116000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.116000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4709,18 +3527,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.116000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.116000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4751,18 +3557,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.116000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.116000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4793,18 +3587,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.116000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.116000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4835,18 +3617,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.116000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.116000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4877,18 +3647,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.116000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.116000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4919,18 +3677,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.116000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.116000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -4961,18 +3707,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.132000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.132000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5003,18 +3737,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.132000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.132000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5045,18 +3767,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.132000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.132000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5087,18 +3797,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.132000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.132000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5129,18 +3827,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.132000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.132000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5171,18 +3857,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.132000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.132000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5213,18 +3887,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.132000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.132000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5255,18 +3917,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.132000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.132000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5297,18 +3947,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.147000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.147000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5339,18 +3977,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.147000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.147000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5381,18 +4007,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.147000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.147000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5423,18 +4037,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.147000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.147000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5465,18 +4067,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.147000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.147000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5507,18 +4097,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.147000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.147000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5549,18 +4127,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.162000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.162000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5591,18 +4157,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.162000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.162000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5633,18 +4187,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.162000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.162000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5675,18 +4217,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.162000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.162000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5717,18 +4247,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.162000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.162000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5759,18 +4277,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.162000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.162000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5801,18 +4307,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.162000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.162000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5843,18 +4337,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.162000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.162000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5885,18 +4367,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.177000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.177000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5927,18 +4397,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.177000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.177000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -5981,18 +4439,6 @@
       "dct:accessRights": {
         "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T00:00:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.861000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
@@ -6016,15 +4462,6 @@
       "dct:spatial": [
         {
           "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2006-01-01T00:00:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          }
         }
       ],
       "dcat:contactPoint": [
@@ -6276,18 +4713,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.177000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.177000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -6318,18 +4743,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.177000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.177000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -6360,18 +4773,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.177000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.177000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -6402,18 +4803,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.177000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.177000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -6444,18 +4833,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.177000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.177000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -6486,18 +4863,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.192000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.192000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -6528,18 +4893,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.192000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.192000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -6570,18 +4923,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.192000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.192000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -6612,18 +4953,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.192000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.192000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -6654,18 +4983,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.192000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.192000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -6696,18 +5013,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.192000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.192000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -6738,18 +5043,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.192000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.192000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -6780,18 +5073,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.192000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.192000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -6822,18 +5103,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.207000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.207000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -6864,18 +5133,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.207000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.207000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -6906,18 +5163,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.207000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.207000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -6948,18 +5193,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.207000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.207000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -6990,18 +5223,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.207000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.207000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7032,18 +5253,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.207000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.207000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7074,18 +5283,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.222000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.222000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7116,18 +5313,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.222000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.222000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7158,18 +5343,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.222000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.222000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7200,18 +5373,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.232000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.232000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7242,18 +5403,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.232000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.232000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7284,18 +5433,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.237000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.237000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7326,18 +5463,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.237000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.237000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7368,18 +5493,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.237000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.237000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7410,18 +5523,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.237000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.237000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7452,18 +5553,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.252000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.252000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7494,18 +5583,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.252000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.252000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7536,18 +5613,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.252000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.252000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7578,18 +5643,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.252000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.252000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7620,18 +5673,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.252000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.252000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7662,18 +5703,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.267000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.267000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7704,18 +5733,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.267000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.267000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7746,18 +5763,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.267000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.267000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7788,18 +5793,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.267000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.267000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7830,18 +5823,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.267000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.267000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7872,18 +5853,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.282000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.282000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7914,18 +5883,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.282000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.282000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7956,18 +5913,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.282000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.282000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -7998,18 +5943,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.282000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.282000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8040,18 +5973,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.297000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.297000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8082,18 +6003,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.297000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.297000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8124,18 +6033,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.297000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.297000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8166,18 +6063,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.297000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.297000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8208,18 +6093,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.297000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.297000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8250,18 +6123,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.312000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.312000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8292,18 +6153,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.312000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.312000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8334,18 +6183,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.312000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.312000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8376,18 +6213,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.312000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.312000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8418,18 +6243,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.312000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.312000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8460,18 +6273,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.327000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.327000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8502,18 +6303,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.327000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.327000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8544,18 +6333,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.332000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.332000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8586,18 +6363,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.332000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.332000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8628,18 +6393,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.332000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.332000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8670,18 +6423,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.332000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.332000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8712,18 +6453,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.342000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.342000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8754,18 +6483,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.342000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.342000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -8808,18 +6525,6 @@
       "dct:accessRights": {
         "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T00:00:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.861000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
@@ -8843,15 +6548,6 @@
       "dct:spatial": [
         {
           "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2010-01-01T00:00:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          }
         }
       ],
       "dcat:contactPoint": [
@@ -9031,18 +6727,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.342000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.342000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9073,18 +6757,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.342000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.342000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9115,18 +6787,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.342000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.342000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9157,18 +6817,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.342000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.342000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9199,18 +6847,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.342000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.342000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9241,18 +6877,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.357000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.357000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9283,18 +6907,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.357000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.357000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9325,18 +6937,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.357000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.357000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9367,18 +6967,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.357000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.357000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9409,18 +6997,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.357000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.357000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9451,18 +7027,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.357000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.357000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9493,18 +7057,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.357000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.357000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9535,18 +7087,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.357000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.357000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9577,18 +7117,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.372000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.372000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9619,18 +7147,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.372000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.372000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9661,18 +7177,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.372000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.372000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9703,18 +7207,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.372000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.372000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9745,18 +7237,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.372000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.372000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9787,18 +7267,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.372000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.372000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9829,18 +7297,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.372000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.372000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9871,18 +7327,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.387000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.387000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9913,18 +7357,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.387000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.387000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9955,18 +7387,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.387000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.387000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -9997,18 +7417,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.387000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.387000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -10039,18 +7447,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.387000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.387000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -10081,18 +7477,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.387000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.387000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -10123,18 +7507,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.387000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.387000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -10165,18 +7537,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.387000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.387000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -10207,18 +7567,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.387000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.387000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -10249,18 +7597,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.402000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.402000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -10291,18 +7627,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.402000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.402000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -10333,18 +7657,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.402000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.402000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -10375,18 +7687,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.402000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.402000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -10417,18 +7717,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.402000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.402000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -10459,18 +7747,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.402000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.402000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -10501,18 +7777,6 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.402000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.402000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -10555,18 +7819,6 @@
       "dct:accessRights": {
         "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T00:00:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.876000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
@@ -10590,15 +7842,6 @@
       "dct:spatial": [
         {
           "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2026-04-01T00:00:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          }
         }
       ],
       "dcat:contactPoint": [
@@ -10641,6 +7884,9 @@
       "dcat:distribution": [
         {
           "@id": "https://sede.sepe.gob.es/portalSede/es/dataset/https://datos.gob.es/es/catalogo/ea0041513-demandantes-de-empleo-por-nivel-formativo/distribution/1"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/portalSede/es/dataset/https://datos.gob.es/es/catalogo/ea0041513-demandantes-de-empleo-por-nivel-formativo/distribution/2"
         }
       ],
       "impulsadata:validationStatus": [
@@ -10658,7 +7904,7 @@
         "@language": "es"
       },
       "dcat:accessURL": {
-        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_NF_2026_csv.csv"
+        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_NF_202604_csv.csv"
       },
       "dct:format": {
         "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
@@ -10673,18 +7919,36 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.402000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.402000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      }
+    },
+    {
+      "@id": "https://sede.sepe.gob.es/portalSede/es/dataset/https://datos.gob.es/es/catalogo/ea0041513-demandantes-de-empleo-por-nivel-formativo/distribution/2",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "2026",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_NF_202604_xls.xls"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XLS"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Archivo XLS con los registros de Demandantes por nivel formativo",
+        "@language": "es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -10727,18 +7991,6 @@
       "dct:accessRights": {
         "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T00:00:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.876000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
@@ -10762,15 +8014,6 @@
       "dct:spatial": [
         {
           "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2026-04-01T00:00:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          }
         }
       ],
       "dcat:contactPoint": [
@@ -10813,6 +8056,9 @@
       "dcat:distribution": [
         {
           "@id": "https://sede.sepe.gob.es/portalSede/es/dataset/https://datos.gob.es/es/catalogo/ea0041513-demandantes-de-empleo-por-actividad-economica/distribution/1"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/portalSede/es/dataset/https://datos.gob.es/es/catalogo/ea0041513-demandantes-de-empleo-por-actividad-economica/distribution/2"
         }
       ],
       "impulsadata:validationStatus": [
@@ -10830,7 +8076,7 @@
         "@language": "es"
       },
       "dcat:accessURL": {
-        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_AE_2026_csv.csv"
+        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_AE_202604_csv.csv"
       },
       "dct:format": {
         "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
@@ -10845,18 +8091,36 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.417000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.417000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      }
+    },
+    {
+      "@id": "https://sede.sepe.gob.es/portalSede/es/dataset/https://datos.gob.es/es/catalogo/ea0041513-demandantes-de-empleo-por-actividad-economica/distribution/2",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "2026",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_AE_202604_xls.xls"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XLS"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Archivo XLS con los registros de Demandantes por actividades economicas",
+        "@language": "es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -10899,18 +8163,6 @@
       "dct:accessRights": {
         "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T00:00:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.876000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
@@ -10934,15 +8186,6 @@
       "dct:spatial": [
         {
           "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2026-04-01T00:00:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          }
         }
       ],
       "dcat:contactPoint": [
@@ -10985,6 +8228,9 @@
       "dcat:distribution": [
         {
           "@id": "https://sede.sepe.gob.es/portalSede/es/dataset/https://datos.gob.es/es/catalogo/ea0041513-contratos-por-nivel-formativo/distribution/1"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/portalSede/es/dataset/https://datos.gob.es/es/catalogo/ea0041513-contratos-por-nivel-formativo/distribution/2"
         }
       ],
       "impulsadata:validationStatus": [
@@ -11002,7 +8248,7 @@
         "@language": "es"
       },
       "dcat:accessURL": {
-        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_NF_2026_csv.csv"
+        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_NF_202604_csv.csv"
       },
       "dct:format": {
         "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
@@ -11017,18 +8263,36 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.417000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.417000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      }
+    },
+    {
+      "@id": "https://sede.sepe.gob.es/portalSede/es/dataset/https://datos.gob.es/es/catalogo/ea0041513-contratos-por-nivel-formativo/distribution/2",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "2026",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_NF_202604_xls.xls"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XLS"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Archivo XLS con los registros de Contratos por nivel formativo",
+        "@language": "es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
@@ -11071,18 +8335,6 @@
       "dct:accessRights": {
         "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T00:00:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:23.891000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
       "dcat:theme": [
         {
           "@id": "http://datos.gob.es/kos/sector-publico/sector/empleo"
@@ -11106,15 +8358,6 @@
       "dct:spatial": [
         {
           "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
-        }
-      ],
-      "dct:temporal": [
-        {
-          "@type": "dct:PeriodOfTime",
-          "dcat:startDate": {
-            "@value": "2026-04-01T00:00:00",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          }
         }
       ],
       "dcat:contactPoint": [
@@ -11157,6 +8400,9 @@
       "dcat:distribution": [
         {
           "@id": "https://sede.sepe.gob.es/portalSede/es/dataset/https://datos.gob.es/es/catalogo/ea0041513-contratos-por-actividad-economica/distribution/1"
+        },
+        {
+          "@id": "https://sede.sepe.gob.es/portalSede/es/dataset/https://datos.gob.es/es/catalogo/ea0041513-contratos-por-actividad-economica/distribution/2"
         }
       ],
       "impulsadata:validationStatus": [
@@ -11174,7 +8420,7 @@
         "@language": "es"
       },
       "dcat:accessURL": {
-        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_AE_2026_csv.csv"
+        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_AE_202604_csv.csv"
       },
       "dct:format": {
         "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
@@ -11189,18 +8435,36 @@
       "dct:language": {
         "@id": "http://publications.europa.eu/resource/authority/language/SPA"
       },
-      "dct:issued": [
-        {
-          "@value": "2026-05-28T13:21:24.417000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-05-28T13:21:24.417000+02:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      }
+    },
+    {
+      "@id": "https://sede.sepe.gob.es/portalSede/es/dataset/https://datos.gob.es/es/catalogo/ea0041513-contratos-por-actividad-economica/distribution/2",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "2026",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_AE_202604_xls.xls"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XLS"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Archivo XLS con los registros de Contratos por actividad economica",
+        "@language": "es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
       "dcatap:availability": {
         "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
       },
