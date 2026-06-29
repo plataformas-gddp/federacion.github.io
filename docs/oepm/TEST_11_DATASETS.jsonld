@@ -163,7 +163,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Datos en Documentos Citados",
+          "@value": "INVENCIONES: Datos de Documentos Citados",
           "@language": "es"
         },
         {
@@ -211,7 +211,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-21T00:00:00+01:00",
+          "@value": "2026-06-28T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -328,6 +328,9 @@
       ],
       "dcat:distribution": [
         {
+          "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/06/28/ES20260628_Citaciones.zip"
+        },
+        {
           "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/06/07/ES20260607_Citaciones.zip"
         },
         {
@@ -343,6 +346,59 @@
           "@value": "conforme-DCAT-AP-ES"
         }
       ]
+    },
+    {
+      "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/06/28/ES20260628_Citaciones.zip",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Datos en Documentos Citados (Recurso ZIP) - ES20260628_Citaciones",
+          "@language": "es"
+        },
+        {
+          "@value": "Data in Cited Documents (ZIP Resource) - ES20260628_Citaciones",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/citaciones/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Datos de Documentos Citados de la OEPM en formato comprimido ZIP.",
+          "@language": "es"
+        },
+        {
+          "@value": "OEPM Authority File inventory in compressed ZIP format.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/06/28/ES20260628_Citaciones.zip"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
+      }
     },
     {
       "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CITACIONES/2026/06/07/ES20260607_Citaciones.zip",
@@ -528,7 +584,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Datos en Documentos citados y ECLA (para documentos anteriores a 2013)",
+          "@value": "INVENCIONES: Datos en Documentos citados y ECLA (para documentos anteriores a 2013)",
           "@language": "es"
         },
         {
@@ -595,7 +651,7 @@
         "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/"
       },
       "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/QUARTERLY"
+        "@id": "http://publications.europa.eu/resource/authority/frequency/NEVER"
       },
       "dct:conformsTo": {
         "@id": "https://www.wipo.int/es/web/standards/part_03_standards"
@@ -637,10 +693,6 @@
         },
         {
           "@value": "referencias",
-          "@language": "es"
-        },
-        {
-          "@value": "fondo histórico",
           "@language": "es"
         }
       ],
@@ -789,7 +841,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Resúmenes",
+          "@value": "INVENCIONES: Resúmenes",
           "@language": "es"
         },
         {
@@ -1158,7 +1210,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Folletos en formato PDF",
+          "@value": "INVENCIONES: Folletos en formato PDF",
           "@language": "es"
         },
         {
@@ -1523,7 +1575,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Texto Completo",
+          "@value": "INVENCIONES: Texto Completo",
           "@language": "es"
         },
         {
@@ -1552,11 +1604,11 @@
       ],
       "dct:description": [
         {
-          "@value": "Ficheros de descarga diarios por fecha de publicación, mensuales por mes de publicación para el año en curso, y anuales para los años anteriores al año en curso. Los ficheros XML de texto completo cumplen el estándar ST36 desde el 01/01/2019; prior to that date, the XML files used a proprietary format.",
+          "@value": "Ficheros de descarga diarios por fecha de publicación, mensuales por mes de publicación para el año en curso y el anterior, y anuales para el resto de años. Los ficheros XML de texto completo cumplen el estándar ST36 desde el 01/01/2019; con anterioridad a esa fecha, los ficheros XML tienen un formato propietario.",
           "@language": "es"
         },
         {
-          "@value": "Daily download files by publication date, monthly by publication month for the current year, and annually for years prior to the current year. Full-text XML files comply with the ST36 standard from 01/01/2019; prior to that date, the XML files used a proprietary format.",
+          "@value": "Daily download files by publication date, monthly by publication month for the current and previous year, and annual for all other years. Full-text XML files comply with the ST36 standard from 01/01/2019; prior to that date, the XML files used a proprietary format.",
           "@language": "en"
         }
       ],
@@ -1636,6 +1688,10 @@
         },
         {
           "@value": "estándar ST36",
+          "@language": "es"
+        },
+        {
+          "@value": "descripción",
           "@language": "es"
         }
       ],
@@ -1892,7 +1948,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Datos Legales",
+          "@value": "INVENCIONES: Datos Legales",
           "@language": "es"
         },
         {
@@ -1921,11 +1977,11 @@
       ],
       "dct:description": [
         {
-          "@value": "Ficheros de descarga diarios por fecha de publicación, mensuales por mes de publicación para el año en curso, y anuales para los años anteriores al año en curso. Los ficheros XML de datos legales cumplen el estándar ST36 desde el 01/01/2019; prior to that date, the XML files used a proprietary format.",
+          "@value": "Ficheros de descarga diarios por fecha de publicación, mensuales por mes de publicación para el año en curso, y anuales para los años anteriores al año en curso. Los ficheros XML de datos legales cumplen el estándar ST17 desde el 10/11/2010; con anterioridad a esa fecha, los ficheros XML tienen un formato propietario.",
           "@language": "es"
         },
         {
-          "@value": "Daily download files by publication date, monthly by publication month for the current year, and annually for years prior to the current year. Legal data XML files comply with the ST36 standard from 01/01/2019; prior to that date, the XML files used a proprietary format.",
+          "@value": "Daily download files by publication date, monthly by publication month for the current year, and annually for years prior to the current year. Legal data XML files comply with the ST17 standard from 10/11/2010; prior to that date, the XML files used a proprietary format.",
           "@language": "en"
         }
       ],
@@ -2373,7 +2429,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Datos bibliográficos (incluyen la clasificación CIP pero no el resumen)",
+          "@value": "INVENCIONES: Datos bibliográficos (incluyen la clasificación CIP pero no el resumen)",
           "@language": "es"
         },
         {
@@ -2402,11 +2458,11 @@
       ],
       "dct:description": [
         {
-          "@value": "Ficheros de descarga diarios por fecha de publicación y mensuales por mes de publicación para el año en curso. Para años anteriores al año en curso, los ficheros se agrupan en un único fichero por año.",
+          "@value": "Ficheros de descarga diarios por fecha de publicación y mensuales por mes de publicación para el año en curso. Para años anteriores al año en curso, los ficheros se agrupan en un único fichero por año. El acceso es libre pero requiere registro previo.",
           "@language": "es"
         },
         {
-          "@value": "Daily download files by publication date and monthly by publication month for the current year. For years prior to the current year, files are grouped into a single file per year.",
+          "@value": "Daily download files by publication date and monthly by publication month for the current year. For years prior to the current year, files are grouped into a single file per year. Access is free but requires prior registration.",
           "@language": "en"
         }
       ],
@@ -2490,6 +2546,26 @@
         },
         {
           "@value": "inventores",
+          "@language": "es"
+        },
+        {
+          "@value": "solicitantes",
+          "@language": "es"
+        },
+        {
+          "@value": "fecha de solicitud",
+          "@language": "es"
+        },
+        {
+          "@value": "fecha de publicación",
+          "@language": "es"
+        },
+        {
+          "@value": "números de solicitud",
+          "@language": "es"
+        },
+        {
+          "@value": "números de publicación",
           "@language": "es"
         }
       ],
@@ -2634,7 +2710,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Datos de Clasificación CPC",
+          "@value": "INVENCIONES: Datos de Clasificación CPC",
           "@language": "es"
         },
         {
@@ -2682,7 +2758,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-21T00:00:00+01:00",
+          "@value": "2026-06-28T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -2799,6 +2875,9 @@
       ],
       "dcat:distribution": [
         {
+          "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/06/28/ES20260628_CPC.zip"
+        },
+        {
           "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/06/07/ES20260607_CPC.zip"
         },
         {
@@ -2814,6 +2893,59 @@
           "@value": "conforme-DCAT-AP-ES"
         }
       ]
+    },
+    {
+      "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/06/28/ES20260628_CPC.zip",
+      "@type": "dcat:Distribution",
+      "dct:title": [
+        {
+          "@value": "Datos de Clasificación CPC (Recurso ZIP) - ES20260628_CPC",
+          "@language": "es"
+        },
+        {
+          "@value": "CPC (Cooperative Patent Classification) (ZIP Resource) - ES20260628_CPC",
+          "@language": "en"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/catalogo-patentes-y-modelos-de-utilidad/cpc/"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/ZIP"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": [
+        {
+          "@value": "Datos de Clasificación CPC de la OEPM en formato comprimido ZIP.",
+          "@language": "es"
+        },
+        {
+          "@value": "OEPM CPC Data in compressed ZIP format.",
+          "@language": "en"
+        }
+      ],
+      "dct:language": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/l/2015/07/24/24/con"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/06/28/ES20260628_CPC.zip"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/zip"
+      }
     },
     {
       "@id": "https://sede.oepm.gob.es/eSede/datos/es/catalogo/descarga_datos_gob.jsp?u=INVENCIONES/CPC/2026/06/07/ES20260607_CPC.zip",
@@ -3047,7 +3179,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-27T00:00:00+01:00",
+          "@value": "2026-06-28T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3300,7 +3432,7 @@
       ],
       "dct:modified": [
         {
-          "@value": "2026-06-27T00:00:00+01:00",
+          "@value": "2026-06-28T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
@@ -3502,7 +3634,7 @@
       ],
       "dct:title": [
         {
-          "@value": "Authority File - Inventario de documentos de patente publicados por la OEPM desde 1826",
+          "@value": "INVENCIONES: Authority File - Inventario de documentos de patente publicados por la OEPM desde 1826",
           "@language": "es"
         },
         {
@@ -3606,19 +3738,23 @@
           "@language": "es"
         },
         {
-          "@value": "inventores",
-          "@language": "es"
-        },
-        {
-          "@value": "titulares",
-          "@language": "es"
-        },
-        {
-          "@value": "identificadores de agentes",
-          "@language": "es"
-        },
-        {
           "@value": "metadatos",
+          "@language": "es"
+        },
+        {
+          "@value": "inventario de patentes",
+          "@language": "es"
+        },
+        {
+          "@value": "inventario de modelos de utilidad",
+          "@language": "es"
+        },
+        {
+          "@value": "colección",
+          "@language": "es"
+        },
+        {
+          "@value": "documentación mínima PCT",
           "@language": "es"
         }
       ],
